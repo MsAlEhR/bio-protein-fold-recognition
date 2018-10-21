@@ -29,6 +29,8 @@ for i in pro_seq:
 
         pro_list.append(3)
 
+# Hyrophobicity Composition Calculatuin
+
 polar_count = 0
 neutral_count = 0
 hydrophoblic_count = 0
@@ -50,3 +52,13 @@ for i in pro_list:
 print("poral :", (polar_count / len(pro_list)) * 100, "\nneutral :",
      (neutral_count / len(pro_list)) * 100, "\nhydrophoblic :",
      (hydrophoblic_count / len(pro_list)) * 100)
+
+# Hyrophobicity Distribution Calculatuin
+
+polar_distribution = [i for i, e in enumerate(pro_list) if e == 1]
+
+polar_distribution_percent = [((e+1)/len(pro_list))*100 for i, e in enumerate(polar_distribution)
+                              if (i == 0 or i == int(polar_count/4)-1 or
+                                  i == int((polar_count/4)*2)-1 or
+                                  i == int((polar_count/4)*3)-1 or
+                                  i == polar_count-1)]
