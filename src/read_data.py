@@ -7,6 +7,7 @@ Created on Mon Oct 22 14:30:43 2018
 
 
 import pandas as pd
+import numpy as np
 import bio_pre as bp
 
 with open("DD-train.dataset.txt") as f:
@@ -82,6 +83,16 @@ data_frame = pd.DataFrame(list_data, columns=['Fold', 'Protein name', \
 #####################################
 
 data_frame['FV'] = data_frame['Protein sequence'].map(lambda x: bp.generate_FV(x))
+
+data_frame['count']= data_frame['FV'].map(lambda x: len(x))
+
+for i in range(21):
+
+    column_name = "Feature" + str(i)
+    data_frame[column_name]= data_frame['Protein sequence'].map(lambda x: bp.generate_FV(x)[i])
+    
+
+
 
 #for num,line in enumerate(content):
 #

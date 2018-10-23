@@ -5,7 +5,7 @@ Created on Sun Oct 21 13:37:12 2018
 @authors: Saleh, Mir, A.
 """
 
-
+import numpy as np
 pro_seq = "ASFSEAPPGNPKAGEKIFKTKCAQCHTVDKGAGHKQGPNLNGLFGRQSGTTPGYSYSTADKNMAVI" \
           "WEENTLYDYLLNPKKYIPGTKMVFPGLKKPQERADLISYLKEATS"
           
@@ -122,11 +122,13 @@ def Distributon_Cal(pro_list, group_count, group_type):
 
         group_distribution = [i for i, e in enumerate(pro_list) if e == group_type]
         
-        group_distribution_percent = [((e+1)/len(pro_list))*100 for i, e in enumerate(group_distribution)
-                                      if (i == 0 or i == int(group_count/4)-1 or
-                                          i == int((group_count/4)*2)-1 or
-                                          i == int((group_count/4)*3)-1 or
-                                          i == group_count-1)]
+        group_distribution_percent =[np.percentile(group_distribution, i) for i in (0, 25, 50, 75 ,100)]
+        
+#        group_distribution_percent = [((e+1)/len(pro_list))*100 for i, e in enumerate(group_distribution)
+#                                      if (i == 0 or i == int(group_count/4)-1 or
+#                                          i == int((group_count/4)*2)-1 or
+#                                          i == int((group_count/4)*3)-1 or
+#                                          i == group_count-1)]
         return group_distribution_percent
 
 
@@ -166,5 +168,8 @@ if __name__ == '__main__':
 #    d=Transition_Cal(pro_list)
 #    k=Distributon_Cal(pro_list,x[0])
     
-    t = generate_FV(pro_seq)
+    ext_case = 'TQSHYGQCGGIGYSGPTVCASGTTCQVLNPYYSQCL'
+
+    t = generate_FV(ext_case)
+    
     
