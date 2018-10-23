@@ -5,6 +5,8 @@ Created on Mon Oct 22 14:30:43 2018
 @author:  Saleh, Mir, A.
 """
 
+import pandas as pd 
+
 with open("DD-train.dataset.txt") as f:
     content = f.readlines()
 
@@ -39,6 +41,12 @@ for num, line in enumerate(content[7:]):
     elif state_pn is True:
 
         protein[fold_type][name_pr] = protein[fold_type][name_pr] + line
+
+
+
+
+
+
 
 
 #for num,line in enumerate(content):
