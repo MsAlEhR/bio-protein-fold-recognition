@@ -109,17 +109,18 @@ def Transition_Cal(pro_list):
 
         return trans_list
 
-def Distributon_Cal(pro_list, group_count):
+def Distributon_Cal(pro_list, group_count, group_type):
 
         """
         Distribution Calculatuin
 
         Input : Protein_list , Group_count(Calculate from Compostion_cal)
+        group_type: 1 -> polar, 2 -> neutral, 3 -> hydrophoblic
 
         Return : Distribution Parameter for each group
         """
 
-        group_distribution = [i for i, e in enumerate(pro_list) if e == 1]
+        group_distribution = [i for i, e in enumerate(pro_list) if e == group_type]
         
         group_distribution_percent = [((e+1)/len(pro_list))*100 for i, e in enumerate(group_distribution)
                                       if (i == 0 or i == int(group_count/4)-1 or
@@ -139,11 +140,31 @@ def generate_FV(pro_seq):
     
     """
     
+    # Step 1: Calculate sequence list
+    pr_list = Sequence_List(pro_seq)
+    
+    # Step 2: Calculate composition
+    count, percent = Composition_Cal(pr_list)
+    
+    # Step 3: Calculate transition
+    trans_par = Transition_Cal(pr_list)
+    
+    # Step 4: Calculate distribution for polar, neutral and hydrophoblic
+    dist_percent_polar = Distributon_Cal(pr_list, count[0], 1)
+    dist_percent_neutral = Distributon_Cal(pr_list, count[1], 2)
+    dist_percent_hydro = Distributon_Cal(pr_list, count[2], 3)
+    
+    return percent + trans_par + dist_percent_polar + dist_percent_neutral + \
+           dist_percent_hydro
+           
+    
 
 if __name__ == '__main__':
     
-    pro_list=Sequence_List(pro_seq)
-    x,y=Composition_Cal(pro_list)
-    d=Transition_Cal(pro_list)
-    k=Distributon_Cal(pro_list,x[0])
+#    pro_list=Sequence_List(pro_seq)
+#    x,y=Composition_Cal(pro_list)
+#    d=Transition_Cal(pro_list)
+#    k=Distributon_Cal(pro_list,x[0])
+    
+    t = generate_FV(pro_seq)
     
