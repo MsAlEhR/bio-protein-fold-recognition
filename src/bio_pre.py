@@ -129,6 +129,17 @@ def Distributon_Cal(pro_list, group_count):
         return group_distribution_percent
 
 
+def generate_FV(pro_seq):
+    
+    """
+    Generate a feature vector from a protein sequence
+    Input : Protein sequence (String)
+    
+    Retrun: Feature vector (List)
+    
+    """
+    
+
 if __name__ == '__main__':
     
     pro_list=Sequence_List(pro_seq)
