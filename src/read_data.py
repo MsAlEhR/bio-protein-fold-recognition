@@ -5,6 +5,8 @@ Created on Mon Oct 22 14:30:43 2018
 @author:  Saleh, Mir, A.
 """
 
+import pandas as pd
+
 with open("DD-train.dataset.txt") as f:
     content = f.readlines()
 
@@ -39,6 +41,17 @@ for num, line in enumerate(content[7:]):
     elif state_pn is True:
 
         protein[fold_type][name_pr] = protein[fold_type][name_pr] + line
+
+# Added by Mir, A.
+# To convert dictionary data to Pandas DataFrame
+        
+# Convert dictionary data to list
+list_data = [[fold, pr, protein[fold][pr]] for fold in list(protein.keys()) \
+             for pr in list(protein[fold].keys())]
+
+data_frame = pd.DataFrame(list_data, columns=['Fold', 'Protein name', \
+                                              'Protein sequence'])
+################
 
 
 #for num,line in enumerate(content):
