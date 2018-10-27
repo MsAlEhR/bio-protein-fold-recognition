@@ -9,6 +9,11 @@ Created on Mon Oct 22 14:30:43 2018
 import pandas as pd
 import numpy as np
 import bio_pre as bp
+import time
+import re # Regular expression for text processing in dataset
+
+start_t = time.time()
+
 
 with open("DD-train.dataset.txt") as f:
     content = f.readlines()
@@ -49,8 +54,11 @@ for num, line in enumerate(content[7:]):
 # To convert dictionary data to Pandas DataFrame
         
 # Convert dictionary data to list
-list_data = [[fold, pr, protein[fold][pr]] for fold in list(protein.keys()) \
-             for pr in list(protein[fold].keys())]
+# Name of each fold is changed so that Type (?) is removed from the string
+        
+list_data = [[re.sub('TYPE\s*\(\d+\)', '', fold).strip(), pr[1:], \
+              protein[fold][pr]] for fold in list(protein.keys()) \
+              for pr in list(protein[fold].keys())]
 
 data_frame = pd.DataFrame(list_data, columns=['Fold', 'Protein name', \
                                               'Protein sequence'])
@@ -92,7 +100,9 @@ for i in range(21):
     data_frame[column_name]= data_frame['Protein sequence'].map(lambda x: bp.generate_FV(x)[i])
     
 
-
+# Saving Pandas dataframe to CSV
+data_frame[['Fold', 'Protein name' ] + ['Feature%d' % i for i in range(21)]].to_csv('./dataset/DD_dataset.csv',
+           index=False , header=False)
 
 #for num,line in enumerate(content):
 #
@@ -112,3 +122,5 @@ for i in range(21):
 #    if i + 1 != len(protein_num):
 #        
 #        protein[content[e]] = ''.join(content[e + 1:protein_num[i + 1]])
+
+print("Finished: %.2f sec" % (time.time() - start_t))
