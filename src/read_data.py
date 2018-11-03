@@ -14,6 +14,7 @@ import re # Regular expression for text processing in dataset
 
 start_t = time.time()
 
+# **************** Convert text data file to dictionary ************
 
 with open("DD-train.dataset.txt") as f:
     content = f.readlines()
@@ -49,10 +50,12 @@ for num, line in enumerate(content[7:]):
     elif state_pn is True:
 
         protein[fold_type][name_pr] = protein[fold_type][name_pr] + line
-
-# Added by Mir, A.
-# To convert dictionary data to Pandas DataFrame
         
+# ********************************************************************
+
+# ************ To convert dictionary data to Pandas DataFrame ********
+# Added by Mir, A. 
+       
 # Convert dictionary data to list
 # Name of each fold is changed so that Type (?) is removed from the string
         
@@ -62,65 +65,29 @@ list_data = [[re.sub('TYPE\s*\(\d+\)', '', fold).strip(), pr[1:], \
 
 data_frame = pd.DataFrame(list_data, columns=['Fold', 'Protein name', \
                                               'Protein sequence'])
-################
+    
+# Save this dataframe to CSV file
+data_frame.to_csv('./dataset/DD_raw.csv', index=False, header=True)
 
-
-# Added by Saleh, R. 
-
-# Convert  Protein Sequence   
-#data_frame['Protein list']=data_frame['Protein sequence'].map(lambda x : bp.Sequence_List(x) )   
+# ******************************************************************
+    
+# ********** Feature extraction section *************************
+    
+#data_frame['FV'] = data_frame['Protein sequence'].map(lambda x: bp.generate_FV(x))
 #
-## Calculate Compostion 
-#data_frame['Composition_polar'] = data_frame['Protein list'].map(lambda x: bp.Composition_Cal(x)[1][0])
-#data_frame['Composition_neutral'] = data_frame['Protein list'].map(lambda x: bp.Composition_Cal(x)[1][1])
-#data_frame['Composition_hydrophoblic'] = data_frame['Protein list'].map(lambda x: bp.Composition_Cal(x)[1][2])
+#data_frame['count']= data_frame['FV'].map(lambda x: len(x))
 #
-#data_frame['Composition_polar_count'] = data_frame['Protein list'].map(lambda x: bp.Composition_Cal(x)[0][0])
-#data_frame['Composition_neutral_count'] = data_frame['Protein list'].map(lambda x: bp.Composition_Cal(x)[0][1])
-#data_frame['Composition_hydrophoblic_count'] = data_frame['Protein list'].map(lambda x: bp.Composition_Cal(x)[0][2])
+#for i in range(21):
 #
-#
-## Calculation Transition 
-#data_frame['Transition_polar'] = data_frame['Protein list'].map(lambda x: bp.Transition_Cal(x)[0])
-#data_frame['Transition_neutral'] = data_frame['Protein list'].map(lambda x: bp.Transition_Cal(x)[1])
-#data_frame['Transition_hydrophoblic'] = data_frame['Protein list'].map(lambda x: bp.Transition_Cal(x)[2])
-#
-## Calculation Hydrophoblic 
-#data_frame['Distribution_polar'] = data_frame[['Protein list','Composition_polar_count']].map(lambda x,y: bp.Distributon_Cal(x,y)[0])
-
-#####################################
-
-data_frame['FV'] = data_frame['Protein sequence'].map(lambda x: bp.generate_FV(x))
-
-data_frame['count']= data_frame['FV'].map(lambda x: len(x))
-
-for i in range(21):
-
-    column_name = "Feature" + str(i)
-    data_frame[column_name]= data_frame['Protein sequence'].map(lambda x: bp.generate_FV(x)[i])
+#    column_name = "Feature" + str(i)
+#    data_frame[column_name]= data_frame['Protein sequence'].map(lambda x: bp.generate_FV(x)[i])
     
 
 # Saving Pandas dataframe to CSV
-data_frame[['Fold', 'Protein name' ] + ['Feature%d' % i for i in range(21)]].to_csv('./dataset/DD_dataset.csv',
-           index=False , header=False)
+#data_frame[['Fold', 'Protein name' ] + ['Feature%d' % i for i in range(21)]].to_csv('./dataset/DD_dataset.csv',
+#           index=False , header=True)
 
-#for num,line in enumerate(content):
-#
-#    if "TYPE" in line:
-#        
-#        type_protein.append(line)
-#        continue
-#    
-#    if ">" in line:
-#        
-#        protein_num.append(num)
-#        protein_name.append(line)
-#        continue
-#    
-#for i, e in enumerate(protein_num):
-#    
-#    if i + 1 != len(protein_num):
-#        
-#        protein[content[e]] = ''.join(content[e + 1:protein_num[i + 1]])
+# ****************************************************************
+
 
 print("Finished: %.2f sec" % (time.time() - start_t))
