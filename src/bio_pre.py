@@ -5,10 +5,15 @@ Created on Sun Oct 21 13:37:12 2018
 @authors: Saleh, Mir, A.
 """
 
+import csv
 import numpy as np
-pro_seq = "ASFSEAPPGNPKAGEKIFKTKCAQCHTVDKGAGHKQGPNLNGLFGRQSGTTPGYSYSTADKNMAVI" \
-          "WEENTLYDYLLNPKKYIPGTKMVFPGLKKPQERADLISYLKEATS"
-          
+
+        
+# Amino acides - They are only 20 
+amino_acides = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N',
+                'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
+  
+        
 def Sequence_List(pro_seq):
     
         """
@@ -160,6 +165,56 @@ def generate_FV(pro_seq):
            dist_percent_hydro
            
     
+def occurence_FV(pr_sequence):
+    
+    """
+    Generates feature vectors based on the fequencey of amino acids in a
+    protein sequence
+    
+    Input:
+        pr_sequence(str)
+    """
+    
+    # Initialize vector with zero
+    feature_vector = 20 *[0]
+    
+    for acid in pr_sequence:
+        
+        # There might be an unknown amino acid
+        if acid in amino_acides:
+        
+            # Index of amino acid in the list
+            acid_index = amino_acides.index(acid.upper())
+            
+            feature_vector[acid_index] = feature_vector[acid_index] + 1
+        
+    return feature_vector
+
+
+def occurence_FE(protein_data):
+    
+    """
+    Extracts feature vectors based on occurence
+    Input:
+        protein_data(List) -> ['fold name', 'protein name', 'protein sequence']
+    """
+    
+    data = []
+    
+    for pr in protein_data:
+        
+        fold_name = [pr[0]]
+        pr_name = [pr[1]]
+        pr_seq = pr[2]
+        
+        # Obtain feature vector from protein sequence
+        pr_fv = occurence_FV(pr_seq)
+        
+        data.append(fold_name + pr_name + pr_fv)
+        
+        
+    return data
+        
 
 if __name__ == '__main__':
     
@@ -169,7 +224,16 @@ if __name__ == '__main__':
 #    k=Distributon_Cal(pro_list,x[0])
     
     ext_case = 'TQSHYGQCGGIGYSGPTVCASGTTCQVLNPYYSQCL'
+    pro_seq = "ASFSEAPPGNPKAGEKIFKTKCAQCHTVDKGAGHKQGPNLNGLFGRQSGTTPGYSYSTADKNMAVI" \
+          "WEENTLYDYLLNPKKYIPGTKMVFPGLKKPQERADLISYLKEATS"
 
-    t = generate_FV(ext_case)
+    #t = generate_FV(ext_case)
+    
+    #t = occurence_FV(pro_seq)
+    
+    pr_data = open('./dataset/DD_raw.csv', 'r')
+    csv_data = list(csv.reader(pr_data, delimiter=','))
+    
+    result = occurence_FE(csv_data[1:])
     
     
