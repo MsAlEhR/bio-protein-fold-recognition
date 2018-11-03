@@ -14,7 +14,7 @@ amino_acides = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N',
                 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
   
         
-def Sequence_List(pro_seq):
+def Sequence_List(pro_seq,property_name):
     
         """
         This function genrates List of amino acid in the protein sequence
@@ -22,14 +22,37 @@ def Sequence_List(pro_seq):
         +++ Only for Hydrophobicity property +++
     
         Input:Protein_sequence
-    
+              Property_name : ('H','NVWM','P','PZ')
+              
         Return:Protein_list
         """
 
-        pro_list = []        
-        polar = ['R', 'K', 'E', 'D', 'Q', 'N']
-        neutral = ['G', 'A', 'S', 'T', 'P', 'H', 'Y']
-        hydrophoblic = ['C', 'V', 'L', 'I', 'M', 'F', 'W']
+        pro_list = []
+
+        if property_name == "H": # Hydrophobicity
+        
+            polar = ['R', 'K', 'E', 'D', 'Q', 'N']
+            neutral = ['G', 'A', 'S', 'T', 'P', 'H', 'Y']
+            hydrophoblic = ['C', 'V', 'L', 'I', 'M', 'F', 'W']
+
+        elif property_name == "NVWM": # Normalized van der Waals volume 
+             
+             polar = ['G','A','S','C','T','P','D']
+             neutral = ['N','V','E','Q','I','L']
+             hydrophoblic = ['M','H','K','F','R','Y','W']
+             
+        elif property_name == "P": # Polarity
+             
+             polar = ['L','I','F','W','C','M','V','Y']
+             neutral = ['P','A','T','G','S']
+             hydrophoblic = ['H','Q','R','K','N','E','D']
+             
+        elif property_name == "PZ": # Polarizability
+         
+             polar = ['G', 'A', 'S', 'D', 'T']
+             neutral = ['C', 'P', 'N', 'V', 'E', 'Q', 'I', 'L']
+             hydrophoblic = ['K', 'M', 'H', 'F', 'R', 'Y', 'W']
+        
         
         for i in pro_seq:
        
@@ -137,7 +160,7 @@ def Distributon_Cal(pro_list, group_count, group_type):
         return group_distribution_percent
 
 
-def generate_FV(pro_seq):
+def generate_FV(pro_seq,property_name):
     
     """
     Generate a feature vector from a protein sequence
@@ -148,7 +171,7 @@ def generate_FV(pro_seq):
     """
     
     # Step 1: Calculate sequence list
-    pr_list = Sequence_List(pro_seq)
+    pr_list = Sequence_List(pro_seq,property_name)
     
     # Step 2: Calculate composition
     count, percent = Composition_Cal(pr_list)
@@ -164,7 +187,53 @@ def generate_FV(pro_seq):
     return percent + trans_par + dist_percent_polar + dist_percent_neutral + \
            dist_percent_hydro
            
+
+def DD_FV(pro_seq):
     
+    """
+    Generates a feature vector based on DD method 
+    
+    Input:
+        pr_sequence(str)
+    
+    Retrun:
+        A 125-dimensional feature vector
+    """
+    
+    FV = []
+    
+    for pnm in ['H', 'P', 'PZ', 'NVWM']:
+        
+        FV = FV + generate_FV(pro_seq, pnm)
+        
+        
+    return FV
+
+
+def DD_FE(protein_data):
+    
+    """
+    Creates a dataset based on DD feature extraction method
+    Input:
+        protein_data(List) -> ['fold name', 'protein name', 'protein sequence']
+    """
+    
+    data = []
+    
+    for pr in protein_data:
+        
+        fold_name = [pr[0]]
+        pr_name = [pr[1]]
+        pr_seq = pr[2]
+        
+        # Obtain feature vector from protein sequence
+        pr_fv = DD_FV(pr_seq)
+        
+        data.append(fold_name + pr_name + pr_fv)
+        
+        
+    return data
+
 def occurence_FV(pr_sequence):
     
     """
@@ -235,5 +304,6 @@ if __name__ == '__main__':
     csv_data = list(csv.reader(pr_data, delimiter=','))
     
     result = occurence_FE(csv_data[1:])
+    result_dd = DD_FE(csv_data[1:])
     
     
