@@ -9,9 +9,7 @@ Created on Mon Nov  5 10:24:57 2018
 from Bio import SearchIO
 from Bio.Blast import NCBIXML
 
-pro_seq = """PIVDTGSVAPLSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTT
-ADELKKSADVRWHAERIINAVDDAVASMDDTEKMSMKLRNLSGKHAKSFQVDPEYFKVLA
-AVIADTVAAGDAGFEKLMSMICILLRSAY"""
+pro_seq = """PIVDTGSVAPLSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADELKKSADVRWHAERIINAVDDAVASMDDTEKMSMKLRNLSGKHAKSFQVDPEYFKVLAAVIADTVAAGDAGFEKLMSMICILLRSAY"""
 
 blast_qresult = open("../data/2LHB-BLAST.xml")
 blast_record = NCBIXML.read(blast_qresult)
@@ -20,19 +18,21 @@ blast_records = NCBIXML.parse(blast_qresult)
 E_VALUE_THRESH = 0.04
 
 alignments = []
+alignment_match = []
+alignment_query = []
 
+# Find alignments of protein sequence and extract 
 for alignment in blast_record.alignments:
 
       for hsp in alignment.hsps:
 
            if hsp.expect < E_VALUE_THRESH:
-                
-                alignments.append(str(hsp.query[0:]))
-                
+               
+           # only consider protein sequence query   
+               if hsp.query == pro_seq:
 
-                print("sequence:", alignment.title)
-                print("length:", alignment.length)
-                print("e value:", hsp.expect)
-                print(hsp.query[0:75] + "...")
-                print(hsp.match[0:75] + "...")
-                print(hsp.sbjct[0:75] + "...")
+                alignments.append(str(hsp.sbjct[0:]))
+                alignment_match.append(hsp.match)
+                alignment_query.append(hsp.query)
+
+
