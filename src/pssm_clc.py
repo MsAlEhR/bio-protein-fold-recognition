@@ -9,6 +9,7 @@ Created on Mon Nov  5 10:24:57 2018
 from Bio import SearchIO
 from Bio.Blast import NCBIXML
 from Bio.Blast import NCBIWWW
+import pandas as pd 
 
 pro_seq = """PIVDTGSVAPLSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADELKKSADVRWHAERIINAVDDAVASMDDTEKMSMKLRNLSGKHAKSFQVDPEYFKVLAAVIADTVAAGDAGFEKLMSMICILLRSAY"""
 
@@ -24,7 +25,7 @@ def download_bxml(fasta_string,protein_name):
     output : Protein alignments in XML format 
     
     """
-    result_handle = NCBIWWW.qblast("blastp", "pdb", fasta_string)    
+    result_handle = NCBIWWW.qblast("blastp", "nr", fasta_string)    
 
     with open(protein_name + ".xml", "w") as out_handle:
         out_handle.write(result_handle.read())
@@ -71,6 +72,15 @@ def find_aligments(blast_xml, e_thresh=0.04):
                     
     return alignment_match, alignment_query
 
+#def pfm(alignment_match,pro_seq):
+#    
+#    
+#    for alignm in  alignment_match:
+#
+#        for amino in alignm:
+#            
+#            
+           
 
 if __name__ == '__main__':
     
