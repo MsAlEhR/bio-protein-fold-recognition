@@ -11,8 +11,18 @@ from Bio.Blast import NCBIXML
 from Bio.Blast import NCBIWWW
 import pandas as pd 
 import numpy as np
-pro_seq = """PIVDTGSVAPLSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADELKKSADVRWHAERIINAVDDAVASMDDTEKMSMKLRNLSGKHAKSFQVDPEYFKVLAAVIADTVAAGDAGFEKLMSMICILLRSAY"""
 
+
+def fasta_string(protein_name,protein_seq):
+    
+    """
+    Generate FASTA string format 
+    
+    """
+    fasta = ">"+protein_name+"\n"+protein_seq
+    
+    return fasta
+    
 
 
 def download_bxml(fasta_string,protein_name):
@@ -31,7 +41,7 @@ def download_bxml(fasta_string,protein_name):
         out_handle.write(result_handle.read())
 
 
-def find_aligments(blast_xml, e_thresh=0.04):
+def find_aligments(blast_xml, pro_seq, e_thresh=0.04):
     
     """
     It finds Aligments for a givem BLAST XML file
@@ -121,11 +131,19 @@ def pssm(pfm_matrix,alignment_sbjct):
     pssm_matrix = np.log10((pfm_matrix + 1)*(1/(len(alignment_sbjct)+20)))
     
     return pssm_matrix
+
+
 if __name__ == '__main__':
     
-    match, subject = find_aligments("../data/2LHB-BLAST.xml")
+    protein_dtfrm = pd.read_csv(r"./dataset/DD_raw.csv")
     
-    pfm_matrix = pfm(subject,pro_seq)
+    fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
+    
+    download_bxml(fasta_str,protein_dtfrm['Protein name'][1])
+    
+    match, subject = find_aligments(protein_dtfrm['Protein name'][1]+".xml",protein_dtfrm['Protein sequence'][1])
+    
+    pfm_matrix = pfm(subject,protein_dtfrm['Protein sequence'][1])
     
     pssm_matrix = pssm(pfm_matrix,subject)
     
