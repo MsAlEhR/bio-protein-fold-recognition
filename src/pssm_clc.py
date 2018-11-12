@@ -10,7 +10,7 @@ from Bio import SearchIO
 from Bio.Blast import NCBIXML
 from Bio.Blast import NCBIWWW
 import pandas as pd 
-
+import numpy as np
 pro_seq = """PIVDTGSVAPLSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADELKKSADVRWHAERIINAVDDAVASMDDTEKMSMKLRNLSGKHAKSFQVDPEYFKVLAAVIADTVAAGDAGFEKLMSMICILLRSAY"""
 
 
@@ -52,7 +52,7 @@ def find_aligments(blast_xml, e_thresh=0.04):
     
     alignments = []
     alignment_match = []
-    alignment_query = []
+    alignment_sbjct = []
     
     # Find alignments of protein sequence and extract 
     for alignment in blast_record.alignments:
@@ -66,23 +66,44 @@ def find_aligments(blast_xml, e_thresh=0.04):
     
                     alignments.append(str(hsp.sbjct[0:]))
                     alignment_match.append(hsp.match)
-                    alignment_query.append(hsp.query)
+                    alignment_sbjct.append(hsp.sbjct)
                     
     blast_qresult.close()
                     
-    return alignment_match, alignment_query
+    return alignment_match, alignment_sbjct
 
-#def pfm(alignment_match,pro_seq):
-#    
-#    
-#    for alignm in  alignment_match:
-#
-#        for amino in alignm:
-#            
-#            
-           
+def pfm(alignment_sbjct,pro_seq):
+    
+    """
+     Create Postion frequency matrix 
+     
+     Input : Alignments match , Protein sequence 
+     
+     Output : PFM matrix 
+    
+    """
+    
+    protein_column = list(set(pro_seq))
+    
+    pfm_matrix = pd.DataFrame(np.zeros((len(pro_seq),len(protein_column))),columns=protein_column )
+    
+    seq_len = len(pro_seq)
+
+    for amino in range(0, seq_len):    
+
+        for alignm in alignment_sbjct:
+            
+            if alignm[amino] in protein_column:
+            
+                pfm_matrix[alignm[amino]][amino] = pfm_matrix[alignm[amino]][amino] + 1
+        
+            
+    return pfm_matrix      
+
 
 if __name__ == '__main__':
     
-    query, match = find_aligments("../data/2LHB-BLAST.xml")
+    match, subject = find_aligments("../data/2LHB-BLAST.xml")
+    
+    pfm_matrix = pfm(subject,pro_seq) 
 
