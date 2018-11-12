@@ -97,13 +97,38 @@ def pfm(alignment_sbjct,pro_seq):
             
                 pfm_matrix[alignm[amino]][amino] = pfm_matrix[alignm[amino]][amino] + 1
         
-            
+    
     return pfm_matrix      
 
-
+def pssm(pfm_matrix,alignment_sbjct):
+    
+    """
+    Generate PSSM matrix
+    
+    Input : PFM , Alignment subject 
+    
+    Output : PSSM
+    
+    
+    """
+    # Amino acid frequency at every position     
+    pfm_matrix = pfm_matrix *(1/len(alignment_sbjct))
+    
+    # Score(x)=(frequency+pseudocount)/N+20*(pseudocount)    
+    
+    # PSSM = log(Score)
+    
+    pssm_matrix = np.log10((pfm_matrix + 1)*(1/(len(alignment_sbjct)+20)))
+    
+    return pssm_matrix
 if __name__ == '__main__':
     
     match, subject = find_aligments("../data/2LHB-BLAST.xml")
     
-    pfm_matrix = pfm(subject,pro_seq) 
+    pfm_matrix = pfm(subject,pro_seq)
+    
+    pssm_matrix = pssm(pfm_matrix,subject)
+    
+    
+
 
