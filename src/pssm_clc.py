@@ -8,6 +8,7 @@ Created on Mon Nov  5 10:24:57 2018
 
 from Bio import SearchIO
 from Bio.Blast import NCBIXML
+from Bio.Blast import NCBIWWW
 
 pro_seq = """PIVDTGSVAPLSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADELKKSADVRWHAERIINAVDDAVASMDDTEKMSMKLRNLSGKHAKSFQVDPEYFKVLAAVIADTVAAGDAGFEKLMSMICILLRSAY"""
 
@@ -36,3 +37,17 @@ for alignment in blast_record.alignments:
                 alignment_query.append(hsp.query)
 
 
+def download_bxml(fasta_string,protein_name):
+    
+    """
+    Download XML of protein  alignments 
+    
+    Input : Protein sequence in FASTA format , Protein name
+    
+    output : Protein alignments in XML format 
+    
+    """
+    result_handle = NCBIWWW.qblast("blastp", "pdb", fasta_string)    
+
+    with open(protein_name + ".xml", "w") as out_handle:
+        out_handle.write(result_handle.read())
