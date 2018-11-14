@@ -234,6 +234,7 @@ def DD_FE(protein_data):
         
     return data
 
+
 def occurence_FV(pr_sequence):
     
     """
