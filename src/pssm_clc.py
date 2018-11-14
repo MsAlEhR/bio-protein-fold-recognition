@@ -93,7 +93,8 @@ def pfm(alignment_sbjct,pro_seq):
     
     """
     
-    protein_column = list(set(pro_seq))
+    protein_column = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N',
+                'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
     
     pfm_matrix = pd.DataFrame(np.zeros((len(pro_seq),len(protein_column))),columns=protein_column )
     
@@ -146,6 +147,8 @@ if __name__ == '__main__':
     pfm_matrix = pfm(subject,protein_dtfrm['Protein sequence'][1])
     
     pssm_matrix = pssm(pfm_matrix,subject)
+    pssm_matrix.to_csv(protein_dtfrm['Protein name'][1]+".csv", sep='\t',encoding='utf-8')
+
     
     
 
