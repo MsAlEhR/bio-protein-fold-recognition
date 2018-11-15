@@ -163,7 +163,8 @@ def dl_bxml_dataset(dataset, save_path):
         # Step 2: Download XML file for protien
         download_bxml(fasta_str, protein_dtfrm['Protein name'][i], save_path)
         
-        print("%d/%d - XML file of Protein %s downloaded... " % (i, num_protien))
+        print("%d/%d - XML file of Protein %s downloaded... " % (i,\
+                            num_protien, protein_dtfrm['Protein name'][i]))
         
 
 
