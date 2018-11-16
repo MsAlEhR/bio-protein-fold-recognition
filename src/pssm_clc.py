@@ -5,7 +5,8 @@ Created on Mon Nov  5 10:24:57 2018
 @author:  Saleh, Mir, A.
 """
 
-from os.path import join
+from os.path import join, isfile
+from os import listdir
 from Bio import SearchIO
 from Bio.Blast import NCBIXML
 from Bio.Blast import NCBIWWW
@@ -153,18 +154,32 @@ def dl_bxml_dataset(dataset, save_path):
     
     # Number of proteins in dataset
     num_protien = dataset.shape[0]
+    
+    # Find XML files if any
+    xml_files = [f for f in listdir(save_path) if isfile(join(save_path, f))]
+    
+    print(xml_files)
 
     for i in range(0, num_protien):
         
-        # Step 1: Converts to FASTA fomrat in order to download from BLAST
-        fasta_str = fasta_string(protein_dtfrm['Protein name'][i], \
-                                 protein_dtfrm['Protein sequence'][i])
+        protein_name = protein_dtfrm['Protein name'][i]
         
-        # Step 2: Download XML file for protien
-        download_bxml(fasta_str, protein_dtfrm['Protein name'][i], save_path)
+        # Check if the XML file of protein is already downloaded
+        if protein_name + '.xml' in xml_files:
+            
+            print("%d/%d - XML file of Protein %s ALREADY downloaded... " % (i,\
+                                num_protien, protein_name))
+            
+        else:
         
-        print("%d/%d - XML file of Protein %s downloaded... " % (i,\
-                            num_protien, protein_dtfrm['Protein name'][i]))
+            # Step 1: Converts to FASTA fomrat in order to download from BLAST
+            fasta_str = fasta_string(protein_name, protein_dtfrm['Protein sequence'][i])
+            
+            # Step 2: Download XML file for protien
+            download_bxml(fasta_str, protein_name, save_path)
+            
+            print("%d/%d - XML file of Protein %s downloaded... " % (i,\
+                                num_protien, protein_name))
         
 
 
