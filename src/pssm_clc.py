@@ -158,8 +158,6 @@ def dl_bxml_dataset(dataset, save_path):
     # Find XML files if any
     xml_files = [f for f in listdir(save_path) if isfile(join(save_path, f))]
     
-    print(xml_files)
-
     for i in range(0, num_protien):
         
         protein_name = protein_dtfrm['Protein name'][i]
@@ -167,7 +165,7 @@ def dl_bxml_dataset(dataset, save_path):
         # Check if the XML file of protein is already downloaded
         if protein_name + '.xml' in xml_files:
             
-            print("%d/%d - XML file of Protein %s ALREADY downloaded... " % (i,\
+            print("%d/%d - XML file of Protein %s ALREADY downloaded... " % (i + 1,\
                                 num_protien, protein_name))
             
         else:
@@ -175,10 +173,21 @@ def dl_bxml_dataset(dataset, save_path):
             # Step 1: Converts to FASTA fomrat in order to download from BLAST
             fasta_str = fasta_string(protein_name, protein_dtfrm['Protein sequence'][i])
             
-            # Step 2: Download XML file for protien
-            download_bxml(fasta_str, protein_name, save_path)
+            while(True):
             
-            print("%d/%d - XML file of Protein %s downloaded... " % (i,\
+                try:
+                    
+                    # Step 2: Download XML file for protien
+                    download_bxml(fasta_str, protein_name, save_path)
+                    
+                    break
+                    
+                # It may fail to donwload. so we try again!   
+                except:
+                
+                    print("Failed to download protein %s! Try agian." % (protein_name))
+            
+            print("%d/%d - XML file of Protein %s downloaded... " % (i + 1,\
                                 num_protien, protein_name))
         
 

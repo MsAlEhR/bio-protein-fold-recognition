@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_16613</BlastOutput_query-ID>
+  <BlastOutput_query-def>1XNB</BlastOutput_query-def>
+  <BlastOutput_query-len>185</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_16613</Iteration_query-ID>
+  <Iteration_query-def>1XNB</Iteration_query-def>
+  <Iteration_query-len>185</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|139865|sp|P09850.1|XYNA_BACCI</Hit_id>
+  <Hit_def>RecName: Full=Endo-1,4-beta-xylanase; Short=Xylanase; AltName: Full=1,4-beta-D-xylan xylanohydrolase; Flags: Precursor &gt;gi|39463|emb|CAA30553.1| unnamed protein product [Bacillus circulans]</Hit_def>
+  <Hit_accession>P09850</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>2.10003e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489324066|ref|WP_003231377.1|</Hit_id>
+  <Hit_def>MULTISPECIES: endo-1,4-beta-xylanase A [Bacillus] &gt;gi|16078944|ref|NP_389765.1| secreted endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|139868|sp|P18429.1|XYNA_BACSU RecName: Full=Endo-1,4-beta-xylanase A; Short=Xylanase A; AltName: Full=1,4-beta-D-xylan xylanohydrolase A; Flags: Precursor &gt;gi|143843|gb|AAA22897.1| xylanase (EC 3.2.1.8) [Bacillus subtilis] &gt;gi|2619034|gb|AAB84458.1| xylanase [Bacillus subtilis] &gt;gi|2634277|emb|CAB13776.1| secreted endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|70998306|gb|AAZ17393.1| endo-1,4-beta-xylanase [Bacillus subtilis] &gt;gi|351470346|gb|EHA30484.1| endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|402481310|gb|AFQ57819.1| Endo-1,4-beta-xylanase [Bacillus subtilis QB928] &gt;gi|407959302|dbj|BAM52542.1| endo-1,4-beta-xylanase [Bacillus subtilis BEST7613] &gt;gi|407964878|dbj|BAM58117.1| endo-1,4-beta-xylanase [Bacillus subtilis BEST7003] &gt;gi|452114977|gb|EME05374.1| endo-1,4-beta-xylanase A [Bacillus subtilis MB73/2] &gt;gi|459389677|gb|AGG61263.1| endo-1,4-beta-xylanase XynA [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|558568520|gb|AHA77926.1| Endo-1,4-beta-xylanase [Bacillus subtilis PY79] &gt;gi|588501997|gb|EXF54408.1| endo-1,4-beta-xylanase [Bacillus subtilis QH-1] &gt;gi|649011257|gb|AIC40311.1| endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649015621|gb|AIC44543.1| endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|668754380|gb|KFC30289.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|670920864|gb|AII35877.1| endo-1,4-beta-xylanase [Bacillus subtilis TO-A] &gt;gi|672776511|gb|KFH36084.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|672777707|gb|KFH37279.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|723798391|emb|CEI57081.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|724427586|emb|CEJ77506.1| endo-1,4-beta-xylanase A [Bacillus sp. BS34A] &gt;gi|728884803|gb|AIY93198.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728889112|gb|AIY97506.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|749185868|gb|AJE94578.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|760454486|gb|KIX80568.1| Endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|807074247|gb|AKC47453.1| 1,4-beta-xylanase [Bacillus subtilis KCTC 1028] &gt;gi|846136597|gb|AKN14044.1| Hypothetical protein ABU16_2968 [Bacillus subtilis] &gt;gi|906389634|gb|KNB76382.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|922818383|gb|KOO01667.1| 1,4-beta-xylanase [Bacillus murimartini] &gt;gi|983206857|gb|AMB24318.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1012901637|gb|AMS47452.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1017096627|gb|KZD86164.1| hypothetical protein B4417_0052 [Bacillus subtilis] &gt;gi|1026722773|gb|OAE04265.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1035536077|gb|ANJ30895.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1049084127|gb|ANX08248.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1049333575|gb|ANY32395.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1049336416|gb|ANY35235.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1049339179|gb|ANY37997.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1051021844|gb|AOA11206.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1072802311|gb|AOT48172.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1150404472|gb|AQR81879.1| Endo-1,4-beta-xylanase A precursor [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150918212|gb|AQR86093.1| Endo-1,4-beta-xylanase A precursor [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162902750|gb|AQZ90777.1| endo-1&apos;4-beta-xylanase A [Bacillus subtilis] &gt;gi|1238239701|gb|PAM76272.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1304802016|gb|PKF91805.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1305664626|gb|PKJ61040.1| endo-1,4-beta-xylanase A [Bacillus sp. SN32] &gt;gi|1411449762|emb|SPU04268.1| endo-1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1449576972|gb|RFB07739.1| endo-1,4-beta-xylanase A [Bacillus sp. MT] &gt;gi|1462973619|gb|RFP79906.1| endo-1,4-beta-xylanase A [Bacillus subtilis KCTC 1028] &gt;gi|1485734572|gb|AYE64482.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|225113|prf||1209158A xylanase</Hit_def>
+  <Hit_accession>WP_003231377</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>5.8889e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|607050|emb|CAA84276.1|</Hit_id>
+  <Hit_def>xylanase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>CAA84276</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>1.00801e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|505064836|ref|WP_015251938.1|</Hit_id>
+  <Hit_def>MULTISPECIES: endo-1,4-beta-xylanase A [Bacillus] &gt;gi|70998236|gb|AAZ17390.1| endo-1,4-beta-xylanase [Bacillus pumilus] &gt;gi|70998258|gb|AAZ17391.1| endo-1,4-beta-xylanase [Bacillus cereus] &gt;gi|159034066|gb|ABW87792.1| xylanase [Bacillus subtilis] &gt;gi|224809159|dbj|BAH28803.1| xylanase [Bacillus subtilis] &gt;gi|260159554|gb|ACX32454.1| endo-1,4-beta-xylanase [Bacillus subtilis] &gt;gi|310723073|gb|ADP09026.1| Xyl026 [Bacillus subtilis] &gt;gi|333891304|gb|AEG21037.1| xylanase A [Bacillus subtilis] &gt;gi|430022768|gb|AGA23374.1| Endo-1,4-xylanase [Bacillus subtilis subsp. subtilis str. BSP1] &gt;gi|472254679|gb|AGI29210.1| endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis str. BAB-1] &gt;gi|633366278|gb|AHZ56763.1| xylanase [Bacillus subtilis] &gt;gi|635179640|gb|KDE23641.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|659924175|emb|CCU58510.1| Chain A, Crystal Structure Of A Mesophilic Xylanase A From Bacillus Subtilis 1a1 [Bacillus subtilis E1] &gt;gi|721329676|gb|AIX07675.1| Endo-1,4-beta-xylanase A precursor [Bacillus subtilis] &gt;gi|751901582|gb|KIN53132.1| endo-1,4-beta-xylanase [Bacillus subtilis] &gt;gi|752645472|gb|KIO59293.1| hypothetical protein B4143_2021 [Bacillus subtilis] &gt;gi|758180630|gb|AJO58509.1| 1,4-beta-xylanase [Bacillus sp. YP1] &gt;gi|806467770|gb|KKB92450.1| 1,4-beta-xylanase [Bacillus sp. CMAA 1185] &gt;gi|808340447|gb|AKD35305.1| endo-1,4-beta-xylanase [Bacillus subtilis HJ5] &gt;gi|811156188|gb|AKE23806.1| endo-1,4-beta-xylanase [Bacillus sp. LM 4-2] &gt;gi|857328692|gb|KMN96538.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|924015339|emb|CUB22482.1| Endo-1,4-beta-xylanase A precursor [Bacillus subtilis] &gt;gi|925225782|gb|KOS70477.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|961583775|gb|ALS81943.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1009037383|gb|AMR47021.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1017105840|gb|KZD95249.1| hypothetical protein B4122_0221 [Bacillus subtilis] &gt;gi|1035335744|gb|ANJ02848.1| endo-beta-1,4-xylanase [Bacillus subtilis] &gt;gi|1036011893|gb|OAY90036.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1036323389|gb|OAZ66667.1| Endo-1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1062077447|gb|AOL27237.1| 1,4-beta-xylanase [Bacillus sp. FJAT-14266] &gt;gi|1062080054|gb|AOL29838.1| 1,4-beta-xylanase [Bacillus gibsonii] &gt;gi|1087800385|gb|AOY07505.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1094635689|emb|SEO00833.1| xylanase family 11 [Bacillus subtilis] &gt;gi|1131848051|emb|SIQ77350.1| xylanase family 11 [Bacillus subtilis] &gt;gi|1145967628|gb|OOE18016.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1169003147|gb|ARB37282.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1182674503|emb|SMF50777.1| xylanase family 11 [Bacillus sp. CC120222-01] &gt;gi|1208655719|gb|ASB99670.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1209472759|gb|ASC81095.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1214959686|gb|ASK23988.1| Endo-1,4-xylanase [Bacillus subtilis] &gt;gi|1237138993|gb|PAC85442.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1237321928|gb|PAE62333.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1237327313|gb|PAE67580.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1247672894|emb|SNY78000.1| xylanase family 11 [Bacillus sp. GL120224-02] &gt;gi|1281353165|gb|PJM64668.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1321395428|gb|PLV32378.1| Endo-1,4-beta-xylanase A precursor [Bacillus subtilis subsp. subtilis] &gt;gi|1340599358|gb|POX32090.1| endo-1,4-beta-xylanase A [Bacillus sp. Ru63] &gt;gi|1352211760|gb|AVI57369.1| endo-1,4-beta-xylanase A precursor [Bacillus subtilis] &gt;gi|1359323593|gb|PRS93031.1| endo-1,4-beta-xylanase A [Bacillus subtilis subsp. subtilis] &gt;gi|1359324688|gb|PRS94083.1| endo-1,4-beta-xylanase A [Bacillus subtilis subsp. subtilis] &gt;gi|1369297440|gb|PSL99569.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1375779275|gb|PTN30419.1| endo-1,4-beta-xylanase A [Bacillus sp. Rc4] &gt;gi|1390438861|gb|PWI61898.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1393265572|gb|PWT21703.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1431903987|gb|AXF33232.1| endo-1,4-beta-xylanase A [Bacillus sp. DM2] &gt;gi|1434179078|gb|RDB53869.1| endo-1,4-beta-xylanase A [Bacillus subtilis subsp. subtilis] &gt;gi|1474392965|gb|AXV61623.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1483593388|gb|RJS52870.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1486349471|gb|AYF11552.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1497827078|gb|RMD54443.1| endo-1,4-beta-xylanase A [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_015251938</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>1.58045e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1242724907|ref|WP_095843753.1|</Hit_id>
+  <Hit_def>1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1241296795|gb|ASZ61626.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1321398614|gb|PLV35521.1| Endo-1,4-beta-xylanase A precursor [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_095843753</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.07911e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1118249092|ref|WP_072175274.1|</Hit_id>
+  <Hit_def>1,4-beta-xylanase [Bacillus subtilis] &gt;gi|924005756|emb|CUB26871.1| Endo-1,4-beta-xylanase A precursor [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_072175274</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.07911e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|742329179|ref|WP_038829967.1|</Hit_id>
+  <Hit_def>1,4-beta-xylanase [Bacillus subtilis] &gt;gi|825064611|gb|AKI92335.1| 1,4-beta-xylanase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_038829967</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.34573e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|597591742|gb|AHN14743.1|</Hit_id>
+  <Hit_def>xylanse, partial [Bacillus tequilensis]</Hit_def>
+  <Hit_accession>AHN14743</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.34573e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1102032871|ref|WP_071577895.1|</Hit_id>
+  <Hit_def>1,4-beta-xylanase [Bacillus sp. FMQ74] &gt;gi|1101802652|gb|OIR60982.1| 1,4-beta-xylanase [Bacillus sp. FMQ74]</Hit_def>
+  <Hit_accession>WP_071577895</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.42421e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVLATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQV+ATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|70998184|gb|AAZ17388.1|</Hit_id>
+  <Hit_def>endo-1,4-beta-xylanase [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>AAZ17388</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.64655e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1254375826|gb|ATJ03482.1|</Hit_id>
+  <Hit_def>xylanase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>ATJ03482</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.54</Hsp_bit-score>
+      <Hsp_score>937</Hsp_score>
+      <Hsp_evalue>3.51997e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDLYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYD+YTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1071412043|ref|WP_069837548.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 1,4-beta-xylanase [Bacillus subtilis group] &gt;gi|1070875604|gb|AOS68126.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1201039241|gb|ARW31743.1| Endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1208639346|gb|ASB70072.1| Endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1236368958|gb|ASV00840.1| 1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1491829538|gb|AYK57060.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1491838596|gb|AYK74538.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1491843278|gb|AYK70852.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1491878105|gb|AYL01507.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_069837548</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.54</Hsp_bit-score>
+      <Hsp_score>937</Hsp_score>
+      <Hsp_evalue>3.80089e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQMKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|116666776|pdb|2B42|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of The Triticum Xylanse Inhibitor-I In Complex With Bacillus Subtilis Xylanase &gt;gi|157830482|pdb|1BVV|A Chain A, Sugar Ring Distortion In The Glycosyl-Enzyme Intermediate Of A Family G11 XYLANASE &gt;gi|157834253|pdb|1XNB|A Chain A, HIGH-RESOLUTION STRUCTURES OF XYLANASES FROM B. CIRCULANS AND T. HARZIANUM IDENTIFY A NEW FOLDING PATTERN AND IMPLICATIONS FOR THE ATOMIC BASIS OF THE CATALYSIS &gt;gi|242556633|pdb|3HD8|B Chain B, Crystal Structure Of The Triticum Aestivum Xylanase Inhibitor-Iia In Complex With Bacillus Subtilis Xylanase &gt;gi|242556635|pdb|3HD8|D Chain D, Crystal Structure Of The Triticum Aestivum Xylanase Inhibitor-Iia In Complex With Bacillus Subtilis Xylanase</Hit_def>
+  <Hit_accession>2B42_B</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.385</Hsp_bit-score>
+      <Hsp_score>934</Hsp_score>
+      <Hsp_evalue>3.95183e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1430102410|gb|AXC53161.1|</Hit_id>
+  <Hit_def>1,4-beta-xylanase [Bacillus subtilis subsp. spizizenii]</Hit_def>
+  <Hit_accession>AXC53161</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>4.19526e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGVVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGG+VNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1026299260|gb|ANC94865.1|</Hit_id>
+  <Hit_def>xylanase, partial [Bacillus subtilis]</Hit_def>
+  <Hit_accession>ANC94865</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>5.64132e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAHQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWA+QVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|505912401|ref|WP_015714073.1|</Hit_id>
+  <Hit_def>endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|458801|emb|CAA41783.1| endo-1, 4-beta-xylanase [Bacillus sp. YA-14] &gt;gi|212524198|gb|ACJ26385.1| xylanase [Bacillus subtilis] &gt;gi|320017807|gb|ADV92793.1| endo-1,4-beta-xylanase [Bacillus subtilis BSn5] &gt;gi|655531027|gb|AIC98468.1| 1,4-beta-xylanase [Bacillus subtilis subsp. subtilis str. OH 131.1] &gt;gi|811395262|emb|CON15174.1| Endo-1%2C4-beta-xylanase A precursor [Streptococcus pneumoniae] &gt;gi|1051351367|gb|AOA54773.1| Endo-1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1062416134|gb|AOL97724.1| Endo-1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1208649513|gb|ASB93596.1| Endo-1,4-beta-xylanase [Bacillus subtilis subsp. subtilis] &gt;gi|1391193049|gb|AWM21115.1| endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|1409234005|gb|RAP10893.1| hypothetical protein HS3_01312 [Bacillus subtilis] &gt;gi|1463718005|gb|AXP48574.1| endo-1,4-beta-xylanase A [Bacillus subtilis subsp. subtilis] &gt;gi|1491856706|gb|AYK63345.1| endo-1,4-beta-xylanase A [Bacillus subtilis subsp. subtilis] &gt;gi|1508769515|gb|RNA71280.1| endo-1,4-beta-xylanase A [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_015714073</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.77</Hsp_bit-score>
+      <Hsp_score>935</Hsp_score>
+      <Hsp_evalue>6.43495e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVLATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQV+ATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|15988364|pdb|1HV0|A</Hit_id>
+  <Hit_def>Chain A, Dissecting Electrostatic Interactions And The Ph-Dependent Activity Of A Family 11 Glycosidase</Hit_def>
+  <Hit_accession>1HV0_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.229</Hsp_bit-score>
+      <Hsp_score>931</Hsp_score>
+      <Hsp_evalue>9.61157e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYFVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEY+VVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|5542504|pdb|2BVV|A</Hit_id>
+  <Hit_def>Chain A, Sugar Ring Distortion In The Glycosyl-Enzyme Intermediate Of A Family G11 XYLANASE.</Hit_def>
+  <Hit_accession>2BVV_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.229</Hsp_bit-score>
+      <Hsp_score>931</Hsp_score>
+      <Hsp_evalue>9.61157e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLFGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTL+GWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|82407495|pdb|1XXN|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Mesophilic Xylanase A From Bacillus Subtilis 1a1 &gt;gi|90109195|pdb|2DCY|A Chain A, Crystal Structure Of Bacillus Subtilis Family-11 Xylanase &gt;gi|90109196|pdb|2DCY|B Chain B, Crystal Structure Of Bacillus Subtilis Family-11 Xylanase &gt;gi|90109197|pdb|2DCY|C Chain C, Crystal Structure Of Bacillus Subtilis Family-11 Xylanase &gt;gi|90109198|pdb|2DCY|D Chain D, Crystal Structure Of Bacillus Subtilis Family-11 Xylanase &gt;gi|90109199|pdb|2DCY|E Chain E, Crystal Structure Of Bacillus Subtilis Family-11 Xylanase &gt;gi|58892788|gb|AAW83159.1| 1,4-beta-xylanase, partial [synthetic construct]</Hit_def>
+  <Hit_accession>1XXN_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.229</Hsp_bit-score>
+      <Hsp_score>931</Hsp_score>
+      <Hsp_evalue>1.01536e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|504477124|ref|WP_014664226.1|</Hit_id>
+  <Hit_def>endo-1,4-beta-xylanase [Bacillus sp. JS] &gt;gi|384931923|gb|AFI28601.1| endo-1,4-beta-xylanase [Bacillus sp. JS] &gt;gi|671704406|gb|KFF56340.1| 1,4-beta-xylanase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_014664226</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.385</Hsp_bit-score>
+      <Hsp_score>934</Hsp_score>
+      <Hsp_evalue>1.13831e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGTVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRAPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGG VNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTR+PLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|8569578|pdb|1C5H|A</Hit_id>
+  <Hit_def>Chain A, Hydrogen Bonding And Catalysis: An Unexpected Explanation For How A Single Amino Acid Substitution Can Change The Ph Optimum Of A Glycosidase &gt;gi|8569579|pdb|1C5I|A Chain A, Hydrogen Bonding And Catalysis: An Unexpected Explanation For How A Single Amino Acid Substitution Can Change The Ph Optimum Of A Glycosidase</Hit_def>
+  <Hit_accession>1C5H_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.844</Hsp_bit-score>
+      <Hsp_score>930</Hsp_score>
+      <Hsp_evalue>1.30684e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGDFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTG+FVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|491668195|pdb|3VZL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35h Mutant &gt;gi|491668196|pdb|3VZL|B Chain B, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35h Mutant &gt;gi|491668197|pdb|3VZL|C Chain C, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35h Mutant &gt;gi|491668198|pdb|3VZL|D Chain D, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35h Mutant &gt;gi|491668202|pdb|3VZO|A Chain A, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35h Mutant With Glu78 Covalently Bonded To 2-deoxy-2-fluoro- Xylobiose</Hit_def>
+  <Hit_accession>3VZL_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.459</Hsp_bit-score>
+      <Hsp_score>929</Hsp_score>
+      <Hsp_evalue>1.81629e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGHFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTG+FVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|491668193|pdb|3VZK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35e Mutant &gt;gi|491668194|pdb|3VZK|B Chain B, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35e Mutant &gt;gi|491668200|pdb|3VZN|A Chain A, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35e Mutant With Glu78 Covalently Bonded To 2-deoxy-2-fluoro- Xylobiose &gt;gi|491668201|pdb|3VZN|B Chain B, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) N35e Mutant With Glu78 Covalently Bonded To 2-deoxy-2-fluoro- Xylobiose</Hit_def>
+  <Hit_accession>3VZK_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.459</Hsp_bit-score>
+      <Hsp_score>929</Hsp_score>
+      <Hsp_evalue>1.89778e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGEFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTG FVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|504289924|ref|WP_014477026.1|</Hit_id>
+  <Hit_def>endo-1,4-beta-xylanase A [Bacillus subtilis] &gt;gi|349594884|gb|AEP91071.1| endo-1,4-beta-xylanase A [Bacillus subtilis subsp. subtilis str. RO-NN-1]</Hit_def>
+  <Hit_accession>WP_014477026</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.614</Hsp_bit-score>
+      <Hsp_score>932</Hsp_score>
+      <Hsp_evalue>1.92715e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWSYQVLATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNW+YQV+ATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|491668189|pdb|3VZJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) E172h Mutant &gt;gi|491668190|pdb|3VZJ|B Chain B, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) E172h Mutant &gt;gi|491668191|pdb|3VZJ|C Chain C, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) E172h Mutant &gt;gi|491668192|pdb|3VZJ|D Chain D, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) E172h Mutant &gt;gi|491668199|pdb|3VZM|A Chain A, Crystal Structure Of The Bacillus Circulans Endo-beta-(1,4)-xylanase (bcx) E172h Mutant With Glu78 Covalently Bonded To 2-deoxy-2-fluoro- Xylobiose</Hit_def>
+  <Hit_accession>3VZJ_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.073</Hsp_bit-score>
+      <Hsp_score>928</Hsp_score>
+      <Hsp_evalue>2.72584e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATHGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMAT GYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1149554659|gb|AQT20185.1|</Hit_id>
+  <Hit_def>PfMBP-BCX165, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AQT20185</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>3.10491e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1149554656|gb|AQT20184.1|</Hit_id>
+  <Hit_def>PfMBP-BCX161, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AQT20184</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>3.24269e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|15988365|pdb|1HV1|A</Hit_id>
+  <Hit_def>Chain A, Dissecting Electrostatic Interactions And The Ph-Dependent Activity Of A Family 11 Glycosidase</Hit_def>
+  <Hit_accession>1HV1_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.073</Hsp_bit-score>
+      <Hsp_score>928</Hsp_score>
+      <Hsp_evalue>3.24897e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTAYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFT YWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1149554661|gb|AQT20186.1|</Hit_id>
+  <Hit_def>PfMBP-BCX225, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AQT20186</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>3.35003e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1149554663|gb|AQT20187.1|</Hit_id>
+  <Hit_def>PFMBP-BCX381, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AQT20187</Hit_accession>
+  <Hit_len>599</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.711</Hsp_bit-score>
+      <Hsp_score>966</Hsp_score>
+      <Hsp_evalue>3.75768e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>593</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1061037858|ref|WP_069149704.1|</Hit_id>
+  <Hit_def>1,4-beta-xylanase [Bacillus subtilis] &gt;gi|557159673|gb|AGZ90167.1| endo-1,4-beta-xylanase [Bacillus sp. THCM3] &gt;gi|1070072466|gb|OEI74463.1| 1,4-beta-xylanase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_069149704</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.844</Hsp_bit-score>
+      <Hsp_score>930</Hsp_score>
+      <Hsp_evalue>3.88857e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGTVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRAPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGG VNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTR+PLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|157830230|pdb|1BCX|A</Hit_id>
+  <Hit_def>Chain A, MUTATIONAL AND CRYSTALLOGRAPHIC ANALYSES OF THE ACTIVE SITE RESIDUES OF THE BACILLUS CIRCULANS XYLANASE</Hit_def>
+  <Hit_accession>1BCX_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.303</Hsp_bit-score>
+      <Hsp_score>926</Hsp_score>
+      <Hsp_evalue>5.94068e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATCGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMAT GYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|19919750|gb|AAM08359.1|AF490979_1</Hit_id>
+  <Hit_def>endo-1,4-xylanase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>AAM08359</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.073</Hsp_bit-score>
+      <Hsp_score>928</Hsp_score>
+      <Hsp_evalue>7.4275e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYCSVRQTKRPTGSNATITFSNHVDAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQY SVRQ+KRPTGSNATITF+NHV+AWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|162330072|pdb|2QZ3|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Glycoside Hydrolase Family 11 Xylanase From Bacillus Subtilis In Complex With Xylotetraose &gt;gi|162330073|pdb|2QZ3|B Chain B, Crystal Structure Of A Glycoside Hydrolase Family 11 Xylanase From Bacillus Subtilis In Complex With Xylotetraose &gt;gi|162330196|pdb|2Z79|A Chain A, High Resolution Crystal Structure Of A Glycoside Hydrolase Family 11 Xylanase Of Bacillus Subtilis &gt;gi|162330197|pdb|2Z79|B Chain B, High Resolution Crystal Structure Of A Glycoside Hydrolase Family 11 Xylanase Of Bacillus Subtilis</Hit_def>
+  <Hit_accession>2QZ3_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.918</Hsp_bit-score>
+      <Hsp_score>925</Hsp_score>
+      <Hsp_evalue>8.53276e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATAGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMAT GYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|157834254|pdb|1XNC|A</Hit_id>
+  <Hit_def>Chain A, THERMOSTABILIZATION OF THE BACILLUS CIRCULANS XYLANASE, BY THE INTRODUCTION OF DISULFIDE BONDS</Hit_def>
+  <Hit_accession>1XNC_A</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.918</Hsp_bit-score>
+      <Hsp_score>925</Hsp_score>
+      <Hsp_evalue>9.41839e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKCDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTCHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVK DGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFT HVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|251831940|gb|ACT21830.1|</Hit_id>
+  <Hit_def>beta-xylanase [Bacillus megaterium]</Hit_def>
+  <Hit_accession>ACT21830</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.688</Hsp_bit-score>
+      <Hsp_score>927</Hsp_score>
+      <Hsp_evalue>1.25746e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>AGTDYWQNWTDGGGTVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>A TDYWQNWTDGGG VNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|165882056|gb|ABY71277.1|</Hit_id>
+  <Hit_def>beta-glucanase-xylanase fusion protein gx-alpha-3 [synthetic construct]</Hit_def>
+  <Hit_accession>ABY71277</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>1.84364e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1333933069|ref|WP_103032172.1|</Hit_id>
+  <Hit_def>1,4-beta-xylanase [Bacillus subtilis] &gt;gi|1332744634|gb|AUS14090.1| 1,4-beta-xylanase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_103032172</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.918</Hsp_bit-score>
+      <Hsp_score>925</Hsp_score>
+      <Hsp_evalue>2.32409e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>AGTDYWQNWTDGGGTVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRAPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>A TDYWQNWTDGGG VNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTR+PLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|70998164|gb|AAZ17387.1|</Hit_id>
+  <Hit_def>endo-1,4-beta-xylanase [Bacillus licheniformis] &gt;gi|70998200|gb|AAZ17389.1| endo-1,4-beta-xylanase [Brevibacillus brevis]</Hit_def>
+  <Hit_accession>AAZ17387</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.918</Hsp_bit-score>
+      <Hsp_score>925</Hsp_score>
+      <Hsp_evalue>2.37563e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDNTTFTQYWSVRQSKRPTGSNAAITFSNHVNAWKSHGMNLGSNWAYQVLATEGYKSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGD TTFTQYWSVRQSKRPTGSNA ITF+NHVNAWKSHGMNLGSNWAYQV+ATEGY+SSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|158454964|gb|ABW40862.1|</Hit_id>
+  <Hit_def>beta-glucanase-xylanse fusion protein gx-alpha-2 [synthetic construct]</Hit_def>
+  <Hit_accession>ABW40862</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>3.59591e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>250</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|158454962|gb|ABW40861.1|</Hit_id>
+  <Hit_def>beta-glucanase-xylanse fusion protein gx-alpha-1 [synthetic construct]</Hit_def>
+  <Hit_accession>ABW40861</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>4.43279e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1071413859|ref|WP_069839327.1|</Hit_id>
+  <Hit_def>1,4-beta-xylanase [Bacillus sp. F56] &gt;gi|1377617196|gb|PTU28944.1| 1,4-beta-xylanase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_069839327</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.147</Hsp_bit-score>
+      <Hsp_score>923</Hsp_score>
+      <Hsp_evalue>4.4881e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGTVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRAPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDNTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGG VNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTR+PLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGD TTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|70997513|gb|AAZ17395.1|</Hit_id>
+  <Hit_def>glucanase-xylanase fusion protein gx-34 [synthetic construct]</Hit_def>
+  <Hit_accession>AAZ17395</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>4.66898e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|19919752|gb|AAM08360.1|AF490980_1</Hit_id>
+  <Hit_def>endo-1,4-xylanase [Bacillus circulans]</Hit_def>
+  <Hit_accession>AAM08360</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.147</Hsp_bit-score>
+      <Hsp_score>923</Hsp_score>
+      <Hsp_evalue>5.29072e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWPRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQTKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATGGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGW RSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQ+KRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMAT GYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|70997579|gb|AAZ17398.1|</Hit_id>
+  <Hit_def>glucanase-xylanase fusion protein gx-endo [synthetic construct]</Hit_def>
+  <Hit_accession>AAZ17398</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>5.822e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|70997561|gb|AAZ17397.1|</Hit_id>
+  <Hit_def>glucanase-xylanase fusion protein gx-78 [synthetic construct]</Hit_def>
+  <Hit_accession>AAZ17397</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>6.09691e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|70997491|gb|AAZ17394.1|</Hit_id>
+  <Hit_def>glucanase-xylanase fusion protein gx-12 [synthetic construct]</Hit_def>
+  <Hit_accession>AAZ17394</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>6.94561e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|157929794|gb|ABW04085.1|</Hit_id>
+  <Hit_def>beta-glucanase-xylanse fusion protein gx-gs1 [synthetic construct]</Hit_def>
+  <Hit_accession>ABW04085</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>9.21222e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|157929796|gb|ABW04086.1|</Hit_id>
+  <Hit_def>beta-glucanase-xylanse fusion protein gx-gs2 [synthetic construct]</Hit_def>
+  <Hit_accession>ABW04086</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>1.0255e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>250</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFSNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITF+NHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|116666777|pdb|2B45|X</Hit_id>
+  <Hit_def>Chain X, Crystal Structure Of An Engineered Uninhibited Bacillus Subtilis Xylanase In Free State</Hit_def>
+  <Hit_accession>2B45_X</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.836</Hsp_bit-score>
+      <Hsp_score>917</Hsp_score>
+      <Hsp_evalue>1.25475e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_qseq>
+      <Hsp_hseq>ASTDYWQNWTFGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGDDTTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_hseq>
+      <Hsp_midline>ASTDYWQNWT GGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRTINYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKSDGGTYDIYTTTRYNAPSIDGD TTFTQYWSVRQSKRPTGSNATITFTNHVNAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>177587836</Statistics_db-num>
+      <Statistics_db-len>438055503</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

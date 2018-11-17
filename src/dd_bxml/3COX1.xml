@@ -1,0 +1,2353 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_106215</BlastOutput_query-ID>
+  <BlastOutput_query-def>3COX1</BlastOutput_query-def>
+  <BlastOutput_query-len>331</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_106215</Iteration_query-ID>
+  <Iteration_query-def>3COX1</Iteration_query-def>
+  <Iteration_query-len>331</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|549119204|gb|ERN43297.1|</Hit_id>
+  <Hit_def>cholesterol oxidase choe [Rhodococcus hoagii NBRC 101255 = C 7]</Hit_def>
+  <Hit_accession>ERN43297</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.129</Hsp_bit-score>
+      <Hsp_score>1154</Hsp_score>
+      <Hsp_evalue>2.98428e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.78717e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|157830668|pdb|1COY|A</Hit_id>
+  <Hit_def>Chain A, CRYSTAL STRUCTURE OF CHOLESTEROL OXIDASE COMPLEXED WITH A STEROID SUBSTRATE. IMPLICATIONS FOR FAD DEPENDENT ALCOHOL OXIDASES &gt;gi|157836787|pdb|3COX|A Chain A, CRYSTAL STRUCTURE OF CHOLESTEROL OXIDASE COMPLEXED WITH A STEROID SUBSTRATE. IMPLICATIONS FOR FAD DEPENDENT ALCOHOL OXIDASES</Hit_def>
+  <Hit_accession>1COY_A</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>4.97552e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>6.90532e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW-----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                         DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1030024287|ref|WP_064079522.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus hoagii] &gt;gi|1181080450|gb|ORJ94492.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181096585|gb|ORL09357.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181559279|gb|ORL72598.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181574254|gb|ORL87470.1| cholesterol oxidase [Rhodococcus hoagii]</Hit_def>
+  <Hit_accession>WP_064079522</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>6.30433e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>2.96807e-37</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVNLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKV+LTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|491660406|ref|WP_005517124.1|</Hit_id>
+  <Hit_def>MULTISPECIES: GMC family oxidoreductase [Rhodococcus] &gt;gi|62115057|gb|AAX63741.1| cholesterol oxidase [Arthrobacter sp. F2] &gt;gi|311891035|emb|CBH50354.1| secreted cholesterol oxidase ChoE [Rhodococcus hoagii 103S] &gt;gi|325556297|gb|EGD25965.1| Tat pathway signal sequence domain protein [Rhodococcus hoagii ATCC 33707] &gt;gi|1172976212|gb|OQQ22996.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1172980124|gb|OQQ26854.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1172983734|gb|OQQ30444.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1172990960|gb|OQQ37542.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181080313|gb|ORJ94357.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181084841|gb|ORJ98852.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181097155|gb|ORL10109.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181115080|gb|ORL27362.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181122053|gb|ORL33921.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181125424|gb|ORL37187.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181571851|gb|ORL85125.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181576882|gb|ORL90080.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181587648|gb|ORM00120.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181589058|gb|ORM02113.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181590432|gb|ORM03485.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181595136|gb|ORM08148.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181606294|gb|ORM19156.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181607336|gb|ORM20194.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181615352|gb|ORM28185.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1331508747|dbj|GBF15579.1| cholesterol oxidase precursor [Rhodococcus sp. Br-6] &gt;gi|1368682085|gb|AVP70472.1| GMC family oxidoreductase [Rhodococcus hoagii] &gt;gi|1439058491|emb|SUE20861.1| cholesterol oxidase choe [Rhodococcus hoagii] &gt;gi|1439220882|emb|SUE01826.1| cholesterol oxidase choe [Rhodococcus hoagii]</Hit_def>
+  <Hit_accession>WP_005517124</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>6.37338e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>5.80151e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1183633481|ref|WP_084867173.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus hoagii] &gt;gi|1181562083|gb|ORL75389.1| cholesterol oxidase [Rhodococcus hoagii]</Hit_def>
+  <Hit_accession>WP_084867173</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>6.58512e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>4.10407e-37</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDLTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        D TYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1183761558|ref|WP_084979893.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus hoagii] &gt;gi|1181130276|gb|ORL40155.1| cholesterol oxidase [Rhodococcus hoagii]</Hit_def>
+  <Hit_accession>WP_084979893</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>6.58512e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGLTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>5.92046e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|15027110|emb|CAC44897.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Rhodococcus hoagii]</Hit_def>
+  <Hit_accession>CAC44897</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>7.33995e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>8.54726e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW-----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYFKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                         DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|116363|sp|P22637.2|CHOD_BREST</Hit_id>
+  <Hit_def>RecName: Full=Cholesterol oxidase; Short=CHOD; AltName: Full=Cholesterol isomerase; Flags: Precursor &gt;gi|216385|dbj|BAA00617.1| unnamed protein product [Brevibacterium sterolicum]</Hit_def>
+  <Hit_accession>P22637</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.514</Hsp_bit-score>
+      <Hsp_score>1155</Hsp_score>
+      <Hsp_evalue>9.32773e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>5.29429e-37</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW-----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYFKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITRLAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                         DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTIT LAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|251821393|emb|CAZ68116.1|</Hit_id>
+  <Hit_def>cholesterol oxidase, partial [Rhodococcus sp. 501]</Hit_def>
+  <Hit_accession>CAZ68116</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.743</Hsp_bit-score>
+      <Hsp_score>1153</Hsp_score>
+      <Hsp_evalue>1.01224e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>4.75532e-33</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>418</Hsp_hit-from>
+      <Hsp_hit-to>533</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNM</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNM</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1183738512|ref|WP_084963202.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus hoagii] &gt;gi|1181099897|gb|ORL12795.1| cholesterol oxidase [Rhodococcus hoagii] &gt;gi|1181106246|gb|ORL18962.1| cholesterol oxidase [Rhodococcus hoagii]</Hit_def>
+  <Hit_accession>WP_084963202</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.973</Hsp_bit-score>
+      <Hsp_score>1151</Hsp_score>
+      <Hsp_evalue>3.84582e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPANGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPA GSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>6.22863e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|565465641|gb|AHC08776.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Rhodococcus hoagii]</Hit_def>
+  <Hit_accession>AHC08776</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>1.56764e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVGMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIV MGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>6.29216e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|85720474|gb|ABC75776.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Brevibacterium sp. DGCDC-82]</Hit_def>
+  <Hit_accession>ABC75776</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>6.38947e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMRLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSM LADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>5.34907e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1254376618|gb|ATJ03484.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Arthrobacter sp.]</Hit_def>
+  <Hit_accession>ATJ03484</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>1.14522e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKS--------------LDKTYLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSVDRYVGVLDSSRFSGIKVYQGRGVGGSSLVPGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFTTAFVPNVCDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKS+DRYVGVLDS RFSGIKVYQGRGVGG SLV GGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL   N                 G+K+               D  Y+ + AA                                 TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>5.92046e-38</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSGTGKVDLTWAQSQNQKGIDMAKKVFDKINQKEGTIYRTDLFGVYKTWGDDFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDLTW                                        DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|686460149|ref|WP_031937889.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus defluvii]</Hit_def>
+  <Hit_accession>WP_031937889</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.402</Hsp_bit-score>
+      <Hsp_score>1095</Hsp_score>
+      <Hsp_evalue>1.04928e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRIPALVIGSGYGGAVAALRLTQAGIPTQLVEMGRAWDTPGSDGKIFCGMLNPDKRSTWLSTTTDQPVSNFMGFGINKNIDRYVGLLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNTFFPRANSGLGVNNIDQAWFESTPWYKFARTGRKTAQRSGFTTTFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGNLTITTLHRVTTVAPASGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGNVMF------GRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DR+PALVIGSGYGGAVAALRLTQAGIPTQ+VEMGR+WDTPGSDGKIFCGMLNPDKRS WL+  TDQPVSNFMGFGINK+IDRYVG+LDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYN +FPRAN+GL   N                 G+K+  ++              Y+ + AA                                 TG LTITTLHRVT VAPA+GSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG   F      G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>4.73959e-36</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPNRARFQFNSGTGKVDLSWTVAQNQPGIDMAKKVFDKINKKEGTIYRTDLFGVYKTWGDDFTYHPLGGCLLNKATDNYGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISTD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDL+W                                        DFTYHPLGG LLNKATDN+GRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIIS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1440984130|ref|WP_114723188.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. AG1013] &gt;gi|1436098937|gb|RDI19423.1| cholesterol oxidase [Rhodococcus sp. AG1013]</Hit_def>
+  <Hit_accession>WP_114723188</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.394</Hsp_bit-score>
+      <Hsp_score>1082</Hsp_score>
+      <Hsp_evalue>8.33037e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAA---------------------------------ATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRIPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGPDGKIFCGMLNADKRSMWLSDTTDQPVSNFMGFGINKSIDKYVGVLDSERFSGVKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVNSTEMYDKFFPRANAGLGVNNIDQAWFESTPWYQFARTGRKTAQRSGFSTTFVPNVYDFEYMKQEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHQVTKVAPASGGGYSVTMDQIDEQGNKIATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DR+PALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPG DGKIFCGMLN DKRSMWL+D TDQPVSNFMGFGINKSID+YVGVLDSERFSG+KVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSV+S EMY+K+FPRAN GL   N                 G+K+  ++              Y+ Q A                                 ATGKLTITTLH+VTKVAPA+G GYSVTM+QIDEQGN +ATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.01336e-34</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSSTGKVDLSWSVSQNQQSIDMAKKVFDKINKKEGTIYRTDLFGVYKTWGDDFTYHPLGGCLLNKATDNYGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMEKIISTD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNS TGKVDL+W                                        DFTYHPLGG LLNKATDN+GRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNM+KIIS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1382115885|ref|WP_107985948.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. OK519] &gt;gi|1377192362|gb|PTR24908.1| cholesterol oxidase [Rhodococcus sp. OK519]</Hit_def>
+  <Hit_accession>WP_107985948</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.297</Hsp_bit-score>
+      <Hsp_score>1048</Hsp_score>
+      <Hsp_evalue>1.38131e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRLPALVIGSGYGGAVAALRLTQAGIQTHIVEMGRSWDTPGPDGKIFCGMLNPDKRSTWLSNKTDQPVSKFIGIGINKDIDKYTGVLDSERFSGIRVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDANEMYTKFFPRANTGLGVNNIDQAWFESTEWYKFARTGRKTAQRSGFDTVFVPNVYDFEYMKKEAAGQVTKSGLGGEVIYGNNAGKKSLDKTYLAQAAATGKLTITTLHQVTKVAPASGGGYSVTMDQIDEQGNKIATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQIGEGWGNNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DR+PALVIGSGYGGAVAALRLTQAGI T IVEMGRSWDTPG DGKIFCGMLNPDKRS WL++KTDQPVS F+G GINK ID+Y GVLDSERFSGI+VYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVD+NEMY K+FPRANTGL   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLH+VTKVAPA+G GYSVTM+QIDEQGN +ATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQ+GEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>6.74747e-36</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPNRARFQFNSGTGKVDLSWTVSQNQVGIDMAKKVFDKINKKEGTIYRTDLFGTYKTWGDDFTYHPLGGALLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMEKIISTD</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNSGTGKVDL+W                                        DFTYHPLGG LLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNM+KIIS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|910262264|ref|WP_050066425.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. RD6.2] &gt;gi|846868256|emb|CRK53412.1| Cholesterol oxidase [Rhodococcus sp. RD6.2]</Hit_def>
+  <Hit_accession>WP_050066425</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>3.02979e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGAGYGGAVTALRLTQAGIPAHIVEMGRSWDTPGPDGKIFSGMLSPDKRSTWLATRTEQPVSNFMGFGINKNIEKYVGILDAEKFAGIKVYQGRGVGGGSLVNGGMAVTPKRAWFEEILPSVDANEMYNTFFPRANTTLGVNNIDQAWFESTPWYQFARTGRKTAQRSGFATTFVPNVYDFEYMKKEAAGQVPKSSLAGEVIYGNHAGKRSLDKTYLAQAAATGKLTITTLHRVTKVVPA-GAGYDVTMEQIDETGNVIATKTIGADKVFFAAGSIGTSKLLVAMKAQGHLPNLSSEVGEGWGNNG------NIMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIG+GYGGAV ALRLTQAGIP  IVEMGRSWDTPG DGKIF GML+PDKRS WLA +T+QPVSNFMGFGINK+I++YVG+LD+E+F+GIKVYQGRGVGGGSLVNGGMAVTPKR +FEEILPSVD+NEMYN +FPRANT L   N                 G+K+  ++              Y+ + AA                                 TGKLTITTLHRVTKV PA G+GY VTMEQIDE GNV+ATK + AD+VFFAAGS+GTSKLLV+MKAQGHLPNLSS+VGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>6.38122e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>425</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFSFNSGTGKVDLSWTVAQNAKGIAMTKGVFDKINKKEGTIYRTDLFGVTKTWGDEFTYHPLGGCILNKATDNHGRLNGYQGLYVMDGALVPGNTGVNPFVTITALAERNIANIIGSD</Hsp_hseq>
+      <Hsp_midline>N  RARF FNSGTGKVDL+W                                        +FTYHPLGG +LNKATDN GRL  Y GLYV+DG+LVPGN GVNPFVTITALAERN+  II SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1063519434|ref|WP_069389823.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Dietzia alimentaria] &gt;gi|1063308030|gb|ODQ84400.1| cholesterol oxidase [Dietzia alimentaria]</Hit_def>
+  <Hit_accession>WP_069389823</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>7.37305e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRN-----------------YFEEILPSVDSNEMYNKYF---PR---ANTG---------------------------------------LIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRLPALVIGSGYGGAVAALRLTQAGIATHIVEMGRSWDTPGPDGKIFSGMLNPDKRSTWLSDTTSQPVSNFMGFGIDKKVERYVGVLDAEKFSGVKVYQGRGVGGGSLVNGGMAVTPKRSHFEHILPNVDAAQMYGTYFPRANAALGVNHIDQAWFESSPRYQFARVGRKTAHRSGFATTFVPNVYDFDHMKREAAGTAQASALGGEVIYGNNAGKKSLDKTYLAQAAATGRLTISPLHRVTAVTPATGGGYSVTIEQIDEQGAVIATKNVTADRVFFAAGSIGTSKLLVSMKAQGLLPNLSDQVGEGWGNNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DR+PALVIGSGYGGAVAALRLTQAGI T IVEMGRSWDTPG DGKIF GMLNPDKRS WL+D T QPVSNFMGFGI+K ++RYVGVLD+E+FSG+KVYQGRGVGGGSLVNGGMAVTPKR+                 YF     ++  N +   +F   PR   A  G                                       +IYGNNAGKKSLDKTYLAQAAATG+LTI+ LHRVT V PATG GYSVT+EQIDEQG V+ATK VTADRVFFAAGS+GTSKLLVSMKAQG LPNLS QVGEGWGNNG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>1.48862e-31</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>396</Hsp_hit-from>
+      <Hsp_hit-to>518</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERARFQFNSATGKVDLTWSVSQNQPGIAMAKRVFDKINKKEGTIYRTDLFGVYKTWGDDFTYHPLGGCLLGKATDNHGRLHEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDAIVAND</Hsp_hseq>
+      <Hsp_midline>N  RARFQFNS TGKVDLTW                                        DFTYHPLGG LL KATDN GRL EYPGLYVVDGSLVPGNVGVNPFVTITALAERNMD I+++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1119796102|ref|WP_072691647.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus marinonascens]</Hit_def>
+  <Hit_accession>WP_072691647</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>2.05727e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNY-------------FEEILPSVDS----NEMYNKYF-------------------------------------------PRANTG--LIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVTALRLTQAGIPTQIVEMGRSWDAPGRDGTTFSGMLIPDYRSTWLSDQTDQPVSNIMGIGIKMPTERYVGILDGERFSGIKVYQGRGVGGGSLVNGGMAVTPKRHFFEEILPSVDSDEMYDKYFPRANTGLGVNHIDKEWFESTPWYQFARSGRNSAHDSGFSTSFVPNVYDFEYMKREAAGEVPKSALGGEVIYGNNAGKNSLDKTYLAQAAATGNLSITTLHRVTKVEPASGTGYSVTMEQIDEQGNIIATKVVAADRVFFAAGSVGTSKLLVSMKAQGNLPNLPSQVGEGWGNNG</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAV ALRLTQAGIPTQIVEMGRSWD PG DG  F GML PD RS WL+D+TDQPVSN MG GI    +RYVG+LD ERFSGIKVYQGRGVGGGSLVNGGMAVTPKR++             +++  P  ++    N +  ++F                                           P++  G  +IYGNNAGK SLDKTYLAQAAATG L+ITTLHRVTKV PA+G+GYSVTMEQIDEQGN++ATKVV ADRVFFAAGSVGTSKLLVSMKAQG+LPNL SQVGEGWGNNG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>3.52979e-31</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>549</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERGRFLFNPSTGKVDLSWAVSQNQPGIDMARAVFDKINKKEGTGYRTDLFGLHKEFGDEFTYHPLGGCLLNSATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMEKIISTD</Hsp_hseq>
+      <Hsp_midline>N  R RF FN  TGKVDL+W                                        +FTYHPLGG LLN ATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNM+KIIS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1084313178|ref|WP_070379917.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. WMMA185] &gt;gi|1082343128|gb|AOW93708.1| cholesterol oxidase [Rhodococcus sp. WMMA185]</Hit_def>
+  <Hit_accession>WP_070379917</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.385</Hsp_bit-score>
+      <Hsp_score>934</Hsp_score>
+      <Hsp_evalue>2.30032e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNY-------------FEEILPSVDS----NEMYNKYF-------------------------------------------PRANTG--LIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG</Hsp_qseq>
+      <Hsp_hseq>DRVPALIIGSGYGGAVTALRLTQAGIPTQIVEMGRSWDTPGPDGKIFSGMLIPDYRSTWLSNQTDQPLAAFLGIPIKMPTQRYTGILDGERFSGIKVYQGRGVGGGSLVNGGMAVTPKRHFFEEILPSVDSDEMYDKYFPRANTGLGVNHIDREWFETTPWYQFARSGRASAERSGFSTSFVPNVYDFEYMKREAAGEVPKSALGGEVIYGNNAGKKSLDKTYLAQAAATGKLSITTLHRVTKVEPAPGAGYNVTMEQLDDWGNVIATKVVAADRVFFAAGSVGTSKLLVSMKGQGHLPNLSSQVGEGWGNNG</Hsp_hseq>
+      <Hsp_midline>DRVPAL+IGSGYGGAV ALRLTQAGIPTQIVEMGRSWDTPG DGKIF GML PD RS WL+++TDQP++ F+G  I     RY G+LD ERFSGIKVYQGRGVGGGSLVNGGMAVTPKR++             +++  P  ++    N +  ++F                                           P++  G  +IYGNNAGKKSLDKTYLAQAAATGKL+ITTLHRVTKV PA G+GY+VTMEQ+D+ GNV+ATKVV ADRVFFAAGSVGTSKLLVSMK QGHLPNLSSQVGEGWGNNG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>8.42249e-30</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>431</Hsp_hit-from>
+      <Hsp_hit-to>553</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERGRFLFNPSTGQVDLSWTQAQNQPGIEMARAVFDKINQKEGTGYRTDLFGGGKQFADDFTYHPLGGCLLNSATDNYGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNVEKIIATD</Hsp_hseq>
+      <Hsp_midline>N  R RF FN  TG+VDL+W                                        DFTYHPLGG LLN ATDN+GRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERN++KII++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|916793358|ref|WP_051400414.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Amycolatopsis halophila]</Hit_def>
+  <Hit_accession>WP_051400414</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>4.30406e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>162</Hsp_gaps>
+      <Hsp_align-len>493</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPK-----------------RNYFEEILPSVDSNEMYNKYFPRAN---------------------------------------------TGLIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSM--------------------------KAQGHL------------------PN--LSSQVG------EGW--------GNNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>DHVPALVIGSGYGGAVAALRLTRAGIPTAVVEMGRNWTTPGPDGKVFCDMHNPDGRSYWFRTETDQPLGYFMGGSTNKAISSAAGILDSQQFAATRVYQGRGVGGGSLVNGGMAVTPKRDYFEEILPSVDADQMYRTYFPRANAGLGVNHIDPDWFESADCYRYTRVSRKTAHNAGFDTVFVPNVYDFDYMRREAAGDVPRSALATEVIYGNNHGKRTLDKTYLAAAAATGNLSISPLHTVTDVVPTRGGRYAVTMVRIDVDGTTLATKTVTADRVFFAAGSVGTSKLLVAMRSQGRLPNLPDDVGAGWGNNGNVMVGRAGWHLTGALQSGMPVMGIDNWSDPNGPLFAEIAPFPAGIETWINLYLAITKNPHRGTFRFNPTTGTVDLDWQASWTQPSIDAAKRVFDAINAKAGTIYRSDLFDVYKIWGDDFTYHPLGGCVLNQATDNYGRLPGYPGLYVVDGSLIPGSTGVNPFVTITALAERNVEHVIATD</Hsp_hseq>
+      <Hsp_midline>D VPALVIGSGYGGAVAALRLT+AGIPT +VEMGR+W TPG DGK+FC M NPD RS W   +TDQP+  FMG   NK+I    G+LDS++F+  +VYQGRGVGGGSLVNGGMAVTPK                 R YF      +  N +   +F  A+                                             T +IYGNN GK++LDKTYLA AAATG L+I+ LH VT V P  G  Y+VTM +ID  G  +ATK VTADRVFFAAGSVGTSKLLV+M                          +A  HL                  PN  L +++       E W         N  R  F+FN  TG VDL W                                        DFTYHPLGG +LN+ATDN+GRLP YPGLYVVDGSL+PG+ GVNPFVTITALAERN++ +I++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1242878658|gb|PBI96714.1|</Hit_id>
+  <Hit_def>Cholesterol oxidase precursor [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>PBI96714</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>9.26776e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVSMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLVSMKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.18994e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|914664665|ref|WP_050655419.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. 311R]</Hit_def>
+  <Hit_accession>WP_050655419</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>1.14157e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVMMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVSMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLVSMKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.45814e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1243248743|ref|WP_095971435.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>WP_095971435</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>1.19208e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVSMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLVSMKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.30983e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1178541418|ref|WP_083059436.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus qingshengii] &gt;gi|1177263133|gb|ORC18739.1| cholesterol oxidase [Rhodococcus qingshengii]</Hit_def>
+  <Hit_accession>WP_083059436</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>1.63163e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.21151e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|748715269|ref|WP_039973389.1|</Hit_id>
+  <Hit_def>MULTISPECIES: GMC family oxidoreductase [Rhodococcus] &gt;gi|827534226|gb|KLN71900.1| cholesterol oxidase [Rhodococcus erythropolis] &gt;gi|1018265810|gb|KZF18316.1| cholesterol oxidase [Rhodococcus sp. EPR-134] &gt;gi|1042832228|gb|ANQ72092.1| cholesterol oxidase [Rhodococcus sp. 008] &gt;gi|1173410852|gb|ARE32736.1| cholesterol oxidase [Rhodococcus sp. BH4] &gt;gi|1247576137|gb|PCK28573.1| GMC family oxidoreductase [Rhodococcus enclensis]</Hit_def>
+  <Hit_accession>WP_039973389</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>1.72236e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.25971e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1044692323|gb|OCC18153.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Rhodococcus hoagii]</Hit_def>
+  <Hit_accession>OCC18153</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>1.76005e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYATTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.24749e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1449980897|ref|WP_116057196.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus erythropolis] &gt;gi|1447460845|gb|REK80853.1| GMC family oxidoreductase [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>WP_116057196</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>1.89858e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAPA-TGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAVTGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAPA TG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.34871e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|755101817|ref|WP_042452676.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>WP_042452676</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>1.94012e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>4.60193e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGHGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD  GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|229318708|gb|EEN84566.1|</Hit_id>
+  <Hit_def>putative cholesterol oxidase [Rhodococcus erythropolis SK121]</Hit_def>
+  <Hit_accession>EEN84566</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>2.62287e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.20169e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|518576839|ref|WP_019747046.1|</Hit_id>
+  <Hit_def>MULTISPECIES: GMC family oxidoreductase [Rhodococcus] &gt;gi|226183616|dbj|BAH31720.1| cholesterol oxidase [Rhodococcus erythropolis PR4] &gt;gi|238481718|gb|ACR43922.1| ChoE [Rhodococcus sp. CECT 3014] &gt;gi|532561629|gb|EQM32415.1| cholesterol oxidase [Rhodococcus erythropolis DN1] &gt;gi|808768109|gb|AKD96173.1| cholesterol oxidase [Rhodococcus erythropolis] &gt;gi|1088715341|gb|OHF27469.1| cholesterol oxidase [Rhodococcus erythropolis] &gt;gi|1220138569|gb|OXM24331.1| GMC family oxidoreductase [Rhodococcus erythropolis] &gt;gi|1408145313|gb|RAL36011.1| GMC family oxidoreductase [Rhodococcus sp. AQ5-07]</Hit_def>
+  <Hit_accession>WP_019747046</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>2.77293e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.14264e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1474193190|ref|WP_118602700.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus erythropolis] &gt;gi|1468816751|gb|RGP51173.1| cholesterol oxidase [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>WP_118602700</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>2.8031e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.67138e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAHFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|656323432|ref|WP_029254543.1|</Hit_id>
+  <Hit_def>MULTISPECIES: GMC family oxidoreductase [Rhodococcus] &gt;gi|970867445|gb|ALU72854.1| cholesterol oxidase [Rhodococcus erythropolis R138]</Hit_def>
+  <Hit_accession>WP_029254543</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>2.99116e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.17658e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|452758586|gb|EME16976.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Rhodococcus qingshengii BKS 20-40]</Hit_def>
+  <Hit_accession>EME16976</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>3.32896e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAA---------------------------------ATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q A                                 ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.31274e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1172562494|ref|WP_080908981.1|</Hit_id>
+  <Hit_def>MULTISPECIES: GMC family oxidoreductase [Rhodococcus] &gt;gi|1179365845|gb|ORI14220.1| cholesterol oxidase [Rhodococcus erythropolis] &gt;gi|1253253870|gb|ATI34815.1| GMC family oxidoreductase [Rhodococcus sp. H-CA8f]</Hit_def>
+  <Hit_accession>WP_080908981</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.51837e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.30983e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|739269373|ref|WP_037132280.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>WP_037132280</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>3.714e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.42998e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|646268338|gb|KDQ04792.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Rhodococcus qingshengii]</Hit_def>
+  <Hit_accession>KDQ04792</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>4.3686e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVSPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT V+P ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>4.01584e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGHGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD  GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|532220753|gb|AGT90786.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Rhodococcus erythropolis CCM2595] &gt;gi|1081626216|emb|SCY98819.1| cholesterol oxidase [Rhodococcus sp. 164Chir2E] &gt;gi|1081930443|gb|OFV74815.1| cholesterol oxidase precursor [Rhodococcus erythropolis] &gt;gi|1172053064|gb|OQM83844.1| Cholesterol oxidase [Rhodococcus sp. 66b] &gt;gi|1440672971|emb|SUE09096.1| cholesterol oxidase [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>AGT90786</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>5.42089e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAA---------------------------------ATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q A                                 ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.24984e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|930228657|ref|WP_054188022.1|</Hit_id>
+  <Hit_def>MULTISPECIES: GMC family oxidoreductase [Rhodococcus] &gt;gi|930079310|gb|KPH18140.1| cholesterol oxidase [Rhodococcus sp. ADH] &gt;gi|959340976|gb|KSU71372.1| cholesterol oxidase [Rhodococcus enclensis] &gt;gi|1020289948|gb|KZL34970.1| cholesterol oxidase [Rhodococcus qingshengii] &gt;gi|1114258019|gb|OKA16638.1| cholesterol oxidase [Rhodococcus erythropolis] &gt;gi|1137705391|gb|OMQ35174.1| cholesterol oxidase [Rhodococcus sp. D-1] &gt;gi|1333037254|gb|AUS30538.1| GMC family oxidoreductase [Rhodococcus qingshengii]</Hit_def>
+  <Hit_accession>WP_054188022</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>5.54295e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVSPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT V+P ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.29711e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1079386903|ref|WP_070162109.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. 1139] &gt;gi|1078757163|gb|OFE06106.1| cholesterol oxidase [Rhodococcus sp. 1139]</Hit_def>
+  <Hit_accession>WP_070162109</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>8.36243e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAGASATGKLTISALHVVTSVSPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT V+P ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.51613e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1049711749|emb|SCC59870.1|</Hit_id>
+  <Hit_def>cholesterol oxidase [Rhodococcus enclensis]</Hit_def>
+  <Hit_accession>SCC59870</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.273</Hsp_bit-score>
+      <Hsp_score>874</Hsp_score>
+      <Hsp_evalue>9.21818e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAA---------------------------------ATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKIFCPMLSPDGRSFWLRDRTVQPVSHFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVSPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGKIFC ML+PD RS WL D+T QPVS+F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q A                                 ATGKLTI+ LH VT V+P ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.31274e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPTQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1060773278|ref|WP_069147032.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus erythropolis]</Hit_def>
+  <Hit_accession>WP_069147032</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>1.27531e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGKSWTTPGSDGKVFCPMLSPDGRSFWLRDRTVQPVSYFSGGSVDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSNEMYSTYFPRANAALGVNNIDPAWFESTEYYKFARTGRKTAERSGYTTTFVPNVYDFNYMKQEAAGQVTKSALVSEVIYGNNAGKKSLDKTYLAAASATGKLTISALHVVTSVAPAATGGGYQVVMNQINEQGNTVGTKTVTADKVFFAAGSIGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMG+SW TPGSDGK+FC ML+PD RS WL D+T QPVS F G  ++K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDSNEMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATGKLTI+ LH VT VAP ATG GY V M QI+EQGN V TK VTAD+VFFAAGS+GTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.30983e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPQRAQFQFNSATGKVGLNWQRSQNQPSIDMAKKLFDKINKKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDGYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATD +GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|769934816|ref|WP_045068742.1|</Hit_id>
+  <Hit_def>MULTISPECIES: GMC family oxidoreductase [Rhodococcus] &gt;gi|765675712|gb|KJF20950.1| Cholesterol oxidase precursor [Rhodococcus sp. AD45] &gt;gi|1371421403|gb|PSR38507.1| GMC family oxidoreductase [Rhodococcus sp. AD45-ID]</Hit_def>
+  <Hit_accession>WP_045068742</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>7.05911e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGRSWTTPGSDGKIFCPTLSPDGRSFWLRDRTVQPVSHFSGGSIDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSEEMYSTYFPRANAALGVNNIDPAWFESTEYYAFARTGRKTAERSGYTTTFVPNVYDFNYMKQEASGAVAKSALASEVIFGNNAGKKSLDKTYLAAASATGRLTISALHVVTSVSPAATGGGYQVVMNQINEQGNTVGTKTVVADKVFFAAGSIGTSKLLVSMKAQGQLANLPGAVGQEWGHNG------NVMVARANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMGRSW TPGSDGKIFC  L+PD RS WL D+T QPVS+F G  I+K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDS EMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATG+LTI+ LH VT V+P ATG GY V M QI+EQGN V TK V AD+VFFAAGS+GTSKLLVSMKAQG L NL   VG+ WG+NG      N    + +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>2.10794e-27</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERAQFQFNSTTGKVGLNWQRSQNQPSITMAKKVFDKINKKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDNYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATDN+GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|702654074|ref|WP_033232261.1|</Hit_id>
+  <Hit_def>MULTISPECIES: GMC family oxidoreductase [Rhodococcus] &gt;gi|1241848363|gb|PBC37428.1| GMC family oxidoreductase [Rhodococcus sp. ACPA4] &gt;gi|1387340538|gb|PVX67626.1| cholesterol oxidase [Rhodococcus globerulus] &gt;gi|1447035607|gb|REG79196.1| cholesterol oxidase [Rhodococcus sp. OK551]</Hit_def>
+  <Hit_accession>WP_033232261</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>7.951e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGRSWTTPGSDGKIFCPTLSPDGRSFWLRDRTVQPVSHFSGGSIDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSEEMYSTYFPRANAALGVNNIDPAWFESTEYYAFARTGRKTAERSGYTTTFVPNVYDFNYMKQEASGAVAKSALASEVIFGNNAGKKSLDKTYLAAASATGRLTISALHVVTSVSPAATGGGYQVVMNQINEQGNTVGTKTVVADKVFFAAGSIGTSKLLVSMKAQGQLANLPGAVGQEWGHNG------NVMVARANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMGRSW TPGSDGKIFC  L+PD RS WL D+T QPVS+F G  I+K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDS EMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATG+LTI+ LH VT V+P ATG GY V M QI+EQGN V TK V AD+VFFAAGS+GTSKLLVSMKAQG L NL   VG+ WG+NG      N    + +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>2.19208e-27</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERAQFQFNSTTGKVGLNWQRSQNQPSITMAKKVFDKINKKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDNYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATDN+GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1055984568|ref|WP_067517802.1|</Hit_id>
+  <Hit_def>FAD-binding protein [Nocardia uniformis]</Hit_def>
+  <Hit_accession>WP_067517802</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.65</Hsp_bit-score>
+      <Hsp_score>862</Hsp_score>
+      <Hsp_evalue>1.0236e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>538</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>167</Hsp_gaps>
+      <Hsp_align-len>496</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKR----------------------------------NYFEE----------------------ILPSVDSNEMYNKYFPRANT------GLIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSV------------------------------------------GTSKLLVSMKAQGHLPNLSSQVGEGWG---------------------NNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>EKIPALVIGSGYGGSVAALRLAQAGVEVTIVEMGMSWTTPGSDGKIFCPVLKPDGRSYWLRTRTDQPVGYFAGGSYNKDIQKYTGVLDSEQFSGVRVYQGRGVGGGSLVNGGMAVTPKRENFASILPSVNADEMYGTYYPRANSGLGVNHIDQNWFESAECYGFARVGRKHAERSGFGWTFVPNVYDFEYMKKEQAKTVTRSALDGEVIYGNNHGKRSLDKTYLAAATGTGKVRITPMHVVTAVSPTDG-GYRVEMNQIDTSGNTVSVKSVVAEKVFFAAGSIGTSKLLVAMKAQGKLPDLPDAVGKNWGNNGNVMVGRANHMWDGTGKLQSSMPCLG-IDNWSDTGGPAFAEVAPFPSGLETYVSLYLAITKNPNRAQFTFNSGTGKVDLNWQTSQNQYAIDAAKRIFDKINKKEGTIYRTDLFGVYKTWGDDFTYHPLGGCVLNEATDNYGRVPGYQGLYVIDGSLIPGNTSVNPFVTITALAERNIENIVAND</Hsp_hseq>
+      <Hsp_midline>+++PALVIGSGYGG+VAALRL QAG+   IVEMG SW TPGSDGKIFC +L PD RS WL  +TDQPV  F G   NK I +Y GVLDSE+FSG++VYQGRGVGGGSLVNGGMAVTPKR                                  N+FE                        +P+V   E   K   +  T       +IYGNN GK+SLDKTYLA A  TGK+ IT +H VT V+P  G GY V M QID  GN V+ K V A++VFFAAGS+                                          GT KL  SM   G + N S   G  +                      N  RA+F FNSGTGKVDL W                                        DFTYHPLGG +LN+ATDN+GR+P Y GLYV+DGSL+PGN  VNPFVTITALAERN++ I+++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1224788896|ref|WP_092806356.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. 4J2A2]</Hit_def>
+  <Hit_accession>WP_092806356</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.65</Hsp_bit-score>
+      <Hsp_score>862</Hsp_score>
+      <Hsp_evalue>1.2936e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAP-ATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVAALRLTQAGIDTHMVEMGRSWTTPGSDGKVFCPTLSPDGRSFWLRDRTVQPVSHFSGGSIDKNISRYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPGVDSEEMYSTYFPRANAALGVNNIDPAWFESTEYYAFARTGRKTAERSGYTTTFVPNVYDFNYMKQEASGAVAKSALASEVIFGNNAGKKSLDKTYLAAASATGRLTISALHVVTSVSPAATGGGYQVVMNQINEQGNTVGTKTVVADKVFFAAGSIGTSKLLVSMKAQGQLANLPGAVGQEWGHNG------NVMVARANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAVAALRLTQAGI T +VEMGRSW TPGSDGK+FC  L+PD RS WL D+T QPVS+F G  I+K+I RYVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDS EMY+ YFPRAN  L   N                 G+K+ +++              Y+ Q                                 A+ATG+LTI+ LH VT V+P ATG GY V M QI+EQGN V TK V AD+VFFAAGS+GTSKLLVSMKAQG L NL   VG+ WG+NG      N    + +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>2.10794e-27</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERAQFQFNSTTGKVGLNWQRSQNQPSITMAKKVFDKINKKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDNYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATDN+GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1180056669|ref|WP_083576813.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus maanshanensis] &gt;gi|1094946065|emb|SEM00369.1| cholesterol oxidase [Rhodococcus maanshanensis]</Hit_def>
+  <Hit_accession>WP_083576813</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.724</Hsp_bit-score>
+      <Hsp_score>857</Hsp_score>
+      <Hsp_evalue>4.40165e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQ---------------------------------AAATGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALIIGSGYGGAVTALRLAQAGIDTHIVEMGRDWGTATSG--VFTSTTSPDKRGFWLRDRTAQPVSHFMGVSIDKPIEKYVGILDCENMGGINVYQGRGVGGGSLVNGGMAVTPRRGYFEELLPSVDSNEMYNVFFPRANTGLGVNNIDPAWFESTEWYKFARTGRKTAERSGFKTVFVPNVYDMNYMKQEAAGQAPKSALAGEVIFGNHYGKKSLPKTYLAQAASTGKVTITTLHRVTKVVP-SGAGYSVEMEQINEQGGVVATKTVTADKVFFAAGSVGTSKLLVAMKAQGHLPNLSGEVGQGWGNNG------NVMVARANHLWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPAL+IGSGYGGAV ALRL QAGI T IVEMGR W T  S   +F    +PDKR  WL D+T QPVS+FMG  I+K I++YVG+LD E   GI VYQGRGVGGGSLVNGGMAVTP+R YFEE+LPSVDSNEMYN +FPRANTGL   N                 G+K+ +++              Y+ Q                                 AA+TGK+TITTLHRVTKV P +G+GYSV MEQI+EQG VVATK VTAD+VFFAAGSVGTSKLLV+MKAQGHLPNLS +VG+GWGNNG      N    + +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>8.89486e-24</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERGQFQYNSSTGKVGLSWQASQNQPGINMAKRIFDKINSKEGTIYRTDMFGGYKVWGDGLTYHPLGGAILNKATDNYGRLHGHPGLYVMDGSLVPGNLGVNPFVTITALAERNIATIVASD</Hsp_hseq>
+      <Hsp_midline>N  R +FQ+NS TGKV L+W                                          TYHPLGG +LNKATDN+GRL  +PGLYV+DGSLVPGN+GVNPFVTITALAERN+  I++SD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1230807414|ref|WP_094271204.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. OK302] &gt;gi|1229636011|gb|OYD68120.1| cholesterol oxidase [Rhodococcus sp. OK302]</Hit_def>
+  <Hit_accession>WP_094271204</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>4.43853e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAA---------------------------------ATGKLTITTLHRVTKVAPA-TGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVPALVIGSGYGGAVTALRLTQAGIDTHMVEMGKAWTTPGSDGKIFCPTLSPDGRSTWLRDRTVQPVSHFSGGSVDKNISKYVGVLDAEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPDVDSDEMYSTYFPKANAALGVNNIDPAWFESTEYYQFARTGRKTAQRSGFSTVFVPNVYDFNYMKQEAAGQVTKSALASEVIYGNNAGKKSLDKTYLAQASATGRLTITTLHVVTEVKPATTGGGYQVVMNQINEQGNVIGTKTVTADKVFFAAGSVGTSKLLVSMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHMWDAT</Hsp_hseq>
+      <Hsp_midline>DRVPALVIGSGYGGAV ALRLTQAGI T +VEMG++W TPGSDGKIFC  L+PD RS WL D+T QPVS+F G  ++K+I +YVGVLD+E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP VDS+EMY+ YFP+AN  L   N                 G+K+  ++              Y+ Q A                                 ATG+LTITTLH VT+V PA TG GY V M QI+EQGNV+ TK VTAD+VFFAAGSVGTSKLLVSMKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>9.12959e-27</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERAQFQFNSTTGKVGLNWQRSQNQPSINMAKKMFDKINSKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDNYGRLPEYPGLYVMDGALVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQFNS TGKV L W                                          TYHPLGG +L KATDN+GRLPEYPGLYV+DG+LVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1382207513|ref|WP_108074274.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Vitiosangium sp. GDMCC 1.1324] &gt;gi|1375510174|gb|PTL78438.1| cholesterol oxidase [Vitiosangium sp. GDMCC 1.1324]</Hit_def>
+  <Hit_accession>WP_108074274</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.183</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>2.41998e-107</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>RVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGL-----------------------IYGNNAGKKS------LDKTYLAQAAA---------------------------------TGKLTITTLHRVTKVAPATGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNG</Hsp_qseq>
+      <Hsp_hseq>HVPVLVIGSGYGGAVAALRLTQAGINTHIVEMGQSWTTPGSDGKIFCDMLNPDGRSYWLRTRTDQPVGYFMGIDVNKNIPRHTGVLDSEAFGGIRVYQGRGIGGGSLVNGGMAVTPRRSYFEEVLPSVDSDEMYDIYFPRANATLGVNHIDSAWFETSDCYQYARVSRMRAQNAGFATTFVPNVYDFDYMKREAANEVTRSALASEVIYGNNYGKKSLDKTYLAAAAATGRLTISALHIVTAVAPAFGGGYTVDITQIDTSGNTVTTKTVTADRVFFAAGSIGTSKLLVSMRAQGKLPNLPSAVGEEWGNNG</Hsp_hseq>
+      <Hsp_midline> VP LVIGSGYGGAVAALRLTQAGI T IVEMG+SW TPGSDGKIFC MLNPD RS WL  +TDQPV  FMG  +NK+I R+ GVLDSE F GI+VYQGRG+GGGSLVNGGMAVTP+R+YFEE+LPSVDS+EMY+ YFPRAN  L                       +   NAG  +       D  Y+ + AA                                 TG+LTI+ LH VT VAPA G GY+V + QID  GN V TK VTADRVFFAAGS+GTSKLLVSM+AQG LPNL S VGE WGNNG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>1.67587e-44</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>539</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>104</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>VGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFE-EILPSVDSNEMYNKYFPRANTGLIYGNNAGKKSLDKTYLAQAAATGKLTITTLHRVTKVAPATG------------SGYSVTMEQIDEQ------GNVVATKVVTADR-------VFFAAGS---------VGTSKLLVSMKAQGHLP-----NLSSQVG-------------EGW--------GNNGRARFQFNSGTGKVDLTW----------------------------------------DFTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>VNHIDSAWFETSDCYQYARVSRMRAQNAGFATTFVPNVYDFDYMKREAANEVTRSALA---SEVIYGNNYGKKSLDKTYLAAAAATGRLTISALHIVTAVAPAFGGGYTVDITQIDTSGNTVTTKTVTADRVFFAAGSIGTSKLLVSMRAQGKLPNLPSAVGEEWGNNGNVMVGRAGLDLTGSLQSGMPTMGIDNWADTAGPVFAEIAPFPAGTELWINLYLAITKNPNRARFTFNSSTGKVDLSWQTSYAQPSIDAARRVFDAINKKAGTVYRTDLFGAYKTWGDDFVYHPLGGCVLNKATDNYGRLPGYPGLYVMDGSLVPGSIGVNPFVTITALAERNMAKIIATD</Hsp_hseq>
+      <Hsp_midline>V  +DS  F     YQ   V      N G A T   N ++ + +    +NE+         + +IYGNN GKKSLDKTYLA AAATG+LTI+ LH VT VAPA G            SG +VT + +         G++  +K++ + R       +  A G          VG + L ++   Q  +P     N +   G             E W         N  RARF FNS TGKVDL+W                                        DF YHPLGG +LNKATDN+GRLP YPGLYV+DGSLVPG++GVNPFVTITALAERNM KII++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1180903144|ref|WP_084344962.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Rhodococcus sp. 1163] &gt;gi|1179372231|gb|ORI20455.1| cholesterol oxidase [Rhodococcus sp. 1163]</Hit_def>
+  <Hit_accession>WP_084344962</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>7.14594e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>DRVPALVIGSGYGGAVAALRLTQAGIPTQIVEMGRSWDTPGSDGKIFCGMLNPDKRSMWLADKTDQPVSNFMGFGINKSIDRYVGVLDSERFSGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPSVDSNEMYNKYFPRANTGLIYGN---------------NAGKKSLDKT--------------YLAQAA---------------------------------ATGKLTITTLHRVTKVAPA-TGSGYSVTMEQIDEQGNVVATKVVTADRVFFAAGSVGTSKLLVSMKAQGHLPNLSSQVGEGWGNNGRARFQFNSGTGKVDLTWDFT</Hsp_qseq>
+      <Hsp_hseq>DRVAALVIGSGYGGAVAALRLTQAGIDTHMVEMGKAWTTPGSDGKIFCPMLSPDGRSTWLRTRTVQPVSHFSGGSVDKNISKYVGVLDIEDFGGIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILPNVDSNAMYSTYFPKANAALGVNNVDPAWFESTEYYKFARTGRKTAQRSGYTTTFVPNVYDFEYMKQEAAGQVTKSALASEVIYGNNAGKKSLDKTYLAQASATGKLTITTLHVVTEVKPATTGGGYQVVMNQIDEQGNVTGTKTVTADKVFFAAGSVGTSKLLVAMKAQGQLANLPGAVGQEWGHNG------NVMVGRANHAWDGT</Hsp_hseq>
+      <Hsp_midline>DRV ALVIGSGYGGAVAALRLTQAGI T +VEMG++W TPGSDGKIFC ML+PD RS WL  +T QPVS+F G  ++K+I +YVGVLD E F GIKVYQGRGVGGGSLVNGGMAVTPKRNYFEEILP+VDSN MY+ YFP+AN  L   N                 G+K+  ++              Y+ Q A                                 ATGKLTITTLH VT+V PA TG GY V M QIDEQGNV  TK VTAD+VFFAAGSVGTSKLLV+MKAQG L NL   VG+ WG+NG      N   G+ +  WD T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.18811e-26</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>NNGRARFQFNSGTGKVDLTWD----------------------------------------FTYHPLGGVLLNKATDNFGRLPEYPGLYVVDGSLVPGNVGVNPFVTITALAERNMDKIISSD</Hsp_qseq>
+      <Hsp_hseq>NPERAQFQYNSTTGKVGLDWQRSQNQPSINMTKKLFDKINRKEGTIYRTDLFGPVQTWGDQLTYHPLGGCVLGKATDNYGRLPEYPGLYVMDGSLVPGNVGVNPFVTITALAERNIENIIAND</Hsp_hseq>
+      <Hsp_midline>N  RA+FQ+NS TGKV L W                                          TYHPLGG +L KATDN+GRLPEYPGLYV+DGSLVPGNVGVNPFVTITALAERN++ II++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>177587836</Statistics_db-num>
+      <Statistics_db-len>438055503</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
