@@ -17,10 +17,11 @@ def bigram(pssm_matrix):
 
     """
     bigram_matrix = []
-    
-    pssm_matrix = pd.read_csv(pssm_matrix)
     amino_acides = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N',
                 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
+    
+    pssm_matrix = pd.read_csv(pssm_matrix,sep=',',names =amino_acides)
+    
     
     for x in  amino_acides:
         
@@ -36,3 +37,15 @@ def bigram(pssm_matrix):
             
     return bigram_matrix
 
+
+def bigram_dataset():
+    
+    pass
+
+if __name__ == '__main__':
+    
+    protein_dtfrm = pd.read_csv(r"./dataset/DD_raw.csv")
+    
+    
+
+    z = bigram("./dd_PSSM/1AAJ.csv")
