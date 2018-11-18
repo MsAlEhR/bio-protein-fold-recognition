@@ -40,23 +40,27 @@ def bigram(pssm_matrix):
 
 def bigram_dataset(protein_dtframe):
     
-    columns = ['F' + str(i) for i  in range(1,401)]
+    columns = ['F' + str(i) for i in range(1,401)]
     
-    data_set = pd.DataFrame(columns=['Fold','Protein name']+columns)
+    data_set = pd.DataFrame(columns=['Fold','Protein name'] + columns)
     
-    for num,i in enumerate(protein_dtframe['Protein name']):
+    for num, i in enumerate(protein_dtframe['Protein name']):
         
         pssm_path = r"./dd_PSSM" + "/" + i  + ".csv"
         
         feature_vector = bigram(pssm_path)
         
-        data_set.loc[i] =  [protein_dtframe.loc[num]['Fold'],i] + feature_vector
+        data_set.loc[i] =  [protein_dtframe.loc[num]['Fold'], i] + feature_vector
         
-    data_set.to_csv('dd_pssm_dataset.csv')
+        print("%d/%d - Feature vector of protein %s created... " % (num + 1, \
+                                        protein_dtframe.shape[0], i))
+        
+    data_set.to_csv('./dataset/dd_pssm_dataset.csv', index=False)
+    
     return data_set
 
 if __name__ == '__main__':
     
     protein_dtfrm = pd.read_csv(r"./dataset/DD_raw.csv")
     
-    data = bigram_dataset(protein_dtfrm)
+    data = bigram_dataset(protein_dtfrm)    
