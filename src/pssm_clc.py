@@ -131,7 +131,7 @@ def pssm(pfm_matrix,alignment_sbjct):
     
     """
     # Amino acid frequency at every position     
-    pfm_matrix = pfm_matrix *(1/len(alignment_sbjct))
+   # pfm_matrix = pfm_matrix *(1/len(alignment_sbjct))
     
     # Score(x)=(frequency+pseudocount)/N+20*(pseudocount)    
     
