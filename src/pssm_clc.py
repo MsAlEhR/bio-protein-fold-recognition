@@ -137,7 +137,11 @@ def pssm(pfm_matrix,alignment_sbjct):
     
     # PSSM = log(Score)
     
-    pssm_matrix = np.log10((pfm_matrix + 1)*(1/(len(alignment_sbjct)+20)))
+#    pssm_matrix = np.log10((pfm_matrix + 1)*(1/(len(alignment_sbjct)+20)))
+
+    # PSSM matrix can be computed using log2 or log10
+    
+    pssm_matrix = np.log2((pfm_matrix * 20 + 1) / (len(alignment_sbjct) + 1))
     
     return pssm_matrix
 

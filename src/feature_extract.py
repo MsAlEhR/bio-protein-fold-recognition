@@ -55,7 +55,7 @@ def bigram_dataset(protein_dtframe):
         print("%d/%d - Feature vector of protein %s created... " % (num + 1, \
                                         protein_dtframe.shape[0], i))
         
-    data_set.to_csv('./dataset/dd_pssm_dataset.csv', index=False)
+    data_set.to_csv('./dataset/dd_pssm_dataset_improved.csv', index=False)
     
     return data_set
 

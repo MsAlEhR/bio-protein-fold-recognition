@@ -6,4 +6,4 @@ One-vs-One is used for multiclassification
 | -----------------   | -------- |
 | DD method + SVM     | 26.98    |
 | Occurence + SVM     | 40.84    |
-| PSSM + Bigran + SVM | 34.41    |
+| PSSM + Bigram + SVM | 34.41    |
