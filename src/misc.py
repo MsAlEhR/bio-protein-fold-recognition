@@ -25,8 +25,8 @@ def plt_confusion_matrix(cm, classes, title='Confusion matrix',
     plt.title(title)
     plt.colorbar()
     tick_marks = np.arange(len(classes))
-    plt.xticks(tick_marks, classes, rotation=45)
-    plt.yticks(tick_marks, classes, rotation=45)
+    plt.xticks(tick_marks, classes, rotation=90)
+    plt.yticks(tick_marks, classes, rotation=90)
     
     fmt = '.2f'
     thresh = cm.max() / 2.0
