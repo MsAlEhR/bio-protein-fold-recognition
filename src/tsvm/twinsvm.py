@@ -24,13 +24,13 @@ from sklearn.utils.validation import check_X_y, check_is_fitted, check_array
 from sklearn.utils import column_or_1d
 import numpy as np
 
-try:
+#try:
 # ClippDCD optimizer is an extension module which is implemented in C++
-    import clippdcd
+import clippdcd
 
-except ImportError:
-    
-    print("Failed to import clipDCD module!")
+#except ImportError:
+#    
+#    print("Failed to import clipDCD module!")
 
 
 class TSVM:
@@ -397,7 +397,7 @@ class OVO_TSVM(BaseEstimator, ClassifierMixin):
             
             for j in range(i + 1, self.classes_.size):
                 
-                #print("%d, %d" % (i, j))
+                print("%d, %d" % (i, j))
                 
                 # Break multi-class problem into a binary problem
                 sub_prob_X_i_j = X[(y == i) | (y == j)]
@@ -471,19 +471,12 @@ class OVO_TSVM(BaseEstimator, ClassifierMixin):
     
 if __name__ == '__main__':
     
-    from dataproc import read_data
     from sklearn.metrics import accuracy_score
-    from sklearn.model_selection import train_test_split
-    #from sklearn.utils.estimator_checks import check_estimator
+    from dataproc import read_data
     from sklearn.model_selection import cross_val_score, GridSearchCV
     import time
-
     
-    train_data, labels, data_name = read_data('/home/mir/mir-projects/Mir-Repo/dataset/mc-data/wine.csv')
-    
-#    X_train, X_test, y_train, y_test = train_test_split(train_data, labels,
-#                                                        test_size=0.30, random_state=42)
-    
+    train_data, labels, data_name = read_data('../dataset/dd_dimer_num.csv')
     
     param = {'C_1': [float(2**i) for i in range(-5, 6)],
              'C_2': [float(2**i) for i in range(-5, 6)]}
