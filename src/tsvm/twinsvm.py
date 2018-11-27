@@ -397,7 +397,7 @@ class OVO_TSVM(BaseEstimator, ClassifierMixin):
             
             for j in range(i + 1, self.classes_.size):
                 
-                print("%d, %d" % (i, j))
+                #print("%d, %d" % (i, j))
                 
                 # Break multi-class problem into a binary problem
                 sub_prob_X_i_j = X[(y == i) | (y == j)]
@@ -416,6 +416,8 @@ class OVO_TSVM(BaseEstimator, ClassifierMixin):
                 self.bin_TSVM_models_[p].fit(sub_prob_X_i_j, sub_prob_y_i_j)
                 
                 p = p + 1
+
+        #print("Done!")
                 
         self.shape_fit_ = X.shape
                 
@@ -487,7 +489,7 @@ if __name__ == '__main__':
     
     #cv = cross_val_score(ovo_tsvm_model, train_data, labels, cv=10)
     
-    result = GridSearchCV(ovo_tsvm_model, param, cv=10, n_jobs=4, refit=False, verbose=1)
+    result = GridSearchCV(ovo_tsvm_model, param, cv=10, n_jobs=1, refit=False, verbose=1)
     result.fit(train_data, labels)
     
 #    
