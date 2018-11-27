@@ -8,3 +8,4 @@ One-vs-One is used for multiclassification
 | Occurence + SVM       | 40.84    |
 | PSSM + Bigram + SVM   | 73.25    |
 | Separate dimers + SVM | 85.20    |
+| ACC features + SVM    | 89.06    |
