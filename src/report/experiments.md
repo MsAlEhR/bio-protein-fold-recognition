@@ -9,3 +9,5 @@ One-vs-One is used for multiclassification
 | PSSM + Bigram + SVM   		 | 73.25    |
 | Separate dimers + Linear TSVM  | 75.88    |
 | Separate dimers + SVM 		 | 85.20    |
+| ACC features + SVM             | 89.06    |
+
