@@ -29,6 +29,8 @@ def create_tsv(dataset_name):
      
     y_true, labels = pd.factorize(dataset.Fold)
     dataset.insert(1, 'class labels', y_true)
+    # In order to remove white space in protein name 
+    dataset['Protein name'] = dataset['Protein name'].map(lambda x : x.replace(" " ,""))
     
     dataset[['Protein name','class labels']].to_csv('./dataset/' + splitext(dataset_name)[0] + \
            '_label' + '.txt', index=False, header=False, sep="\t")
