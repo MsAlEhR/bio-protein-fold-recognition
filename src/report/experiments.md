@@ -10,4 +10,5 @@ One-vs-One is used for multiclassification
 | Separate dimers + Linear TSVM  | 75.88    |
 | Separate dimers + SVM 		 | 85.20    |
 | ACC features + SVM             | 89.06    |
+| ACC + IG + SVM                 | 91.0     |
 

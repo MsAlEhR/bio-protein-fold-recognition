@@ -22,7 +22,7 @@ def gen_slc_feature(data_name,slc_feature,output_name,no_feature):
     
     slct_feature = pd.read_csv('./dataset/DD/feature_selection/'+slc_feature,sep='\t',header=None)
     
-    dataset[['Fold','Protein name']+list(slct_feature[0][:no_feature])].to_csv('./dataset/'+output_name,sep=',')
+    dataset[['Fold','Protein name']+list(slct_feature[0][:no_feature])].to_csv('./dataset/'+output_name,sep=',',index=False)
     
     return  dataset[['Fold','Protein name']+list(slct_feature[0][:no_feature])]
 
