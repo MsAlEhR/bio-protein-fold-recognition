@@ -47,13 +47,13 @@ def fusion_feature(data_name1, data_name2, merged_data_name):
         
     result = pd.concat([dataset1, dataset2[d2_features]], axis=1, sort=False)
     
-    result.to_csv('./dataset/dd_fusion_acc_dimer.csv', index=False, \
+    result.to_csv('./dataset/'+ merged_data_name, index=False, \
                   header=['Fold', 'Protein name'] + ['F%d' % i for i in range(1, new_dim + 1)])
     
     return result 
 
 if __name__ == "__main__":
     
-    df = fusion_feature("ACC_dataset_IG.csv","pca_spd.csv", 'dd_fusion_acc_dimer.csv')
+#    df = fusion_feature("ACC_dataset.csv","dd_separated_dimer_dataset.csv", 'dd_fusion_acc_dimer_FULL.csv')
     
-    #dtst = gen_slc_feature('ACC_dataset.csv','ACC_IG_feature.txt','ACC_dataset_IG.csv',500)
+    dtst = gen_slc_feature('dd_fusion_acc_dimer_FULL.csv','IG_feature_acc_dimer.txt','ACC_dimer_dataset_IG.csv',500)
