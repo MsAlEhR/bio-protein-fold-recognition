@@ -16,7 +16,7 @@ start_t = time.time()
 
 # **************** Convert text data file to dictionary ************
 
-with open("DD-train.dataset.txt") as f:
+with open("../data/TG.dataset") as f:
     content = f.readlines()
 
 content = [x.strip() for x in content]
@@ -30,26 +30,28 @@ protein = {}
 # protein name status
 state_pn = False
 
-for num, line in enumerate(content[7:]):
+for num, line in enumerate(content):
 
-    if "TYPE" in line:
+    if bool(re.match('TYPE|FOLD\s*\(\d+\)', line)):
 
-        fold_type = line
-
-        protein[line] = {}
+        fold_type = line.replace(" ", "")
+        
+        protein[fold_type] = {}
 
         state_pn = False
 
     if ">" in line:
 
         state_pn = True
-        name_pr = line
+        name_pr = line.replace(" ", "")
 
         protein[fold_type][name_pr] = ''
 
     elif state_pn is True:
 
         protein[fold_type][name_pr] = protein[fold_type][name_pr] + line
+        
+    #time.sleep(1)
         
 # ********************************************************************
 
@@ -59,7 +61,7 @@ for num, line in enumerate(content[7:]):
 # Convert dictionary data to list
 # Name of each fold is changed so that Type (?) is removed from the string
         
-list_data = [[re.sub('TYPE\s*\(\d+\)', '', fold).strip(), pr[1:], \
+list_data = [[re.sub('TYPE|FOLD\s*\(\d+\)', '', fold).strip(), pr[1:], \
               protein[fold][pr]] for fold in list(protein.keys()) \
               for pr in list(protein[fold].keys())]
 
@@ -67,7 +69,7 @@ data_frame = pd.DataFrame(list_data, columns=['Fold', 'Protein name', \
                                               'Protein sequence'])
     
 # Save this dataframe to CSV file
-data_frame.to_csv('./dataset/DD_raw.csv', index=False, header=True)
+data_frame.to_csv('./dataset/TG_raw.csv', index=False, header=True)
 
 # ******************************************************************
     
