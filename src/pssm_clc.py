@@ -7,9 +7,12 @@ Created on Mon Nov  5 10:24:57 2018
 
 from os.path import join, isfile
 from os import listdir
+from threading import Thread
+from queue import Queue
 from Bio import SearchIO
 from Bio.Blast import NCBIXML
 from Bio.Blast import NCBIWWW
+import threading
 import pandas as pd 
 import numpy as np
 
@@ -193,8 +196,76 @@ def dl_bxml_dataset(dataset, save_path):
             
             print("%d/%d - XML file of Protein %s downloaded... " % (i + 1,\
                                 num_protien, protein_name))
+            
+            
+def m_thread_dl_bxml(dataset, save_path, no_workers=1):
+    
+    """
+    It download BLAST XML files using multi-threading with Queue
+    """
+    
+    def worker(queue):
         
-
+        """
+        One thread for downloading BLAST XML file
+        queue: Queue that contains protein names
+        """
+        
+        while True:
+            
+            thread_id = threading.get_ident()
+            
+            protein_name = queue.get()
+            protein_seq = dataset[dataset['Protein name'] == protein_name]['Protein sequence'].iloc[0]
+            
+            # Step 1: Converts to FASTA fomrat in order to download from BLAST
+            fasta_str = fasta_string(protein_name, protein_seq)
+            
+            while(True):
+            
+                try:
+                    
+                    # Step 2: Download XML file for protien
+                    download_bxml(fasta_str, protein_name, save_path)
+                    
+                    break
+                    
+                # It may fail to donwload. so we try again!   
+                except:
+                
+                    print("Thread: %d Failed to download protein %s! Try agian." \
+                          % (thread_id, protein_name))
+            
+            print("Thread: %d - XML file of Protein %s downloaded... " % (thread_id,\
+                                 protein_name))
+            
+            queue.task_done()
+    
+    # First find the number of XML files that need to be downloaded
+    xml_files = [p_name for p_name in dataset['Protein name'].tolist() \
+                 if not isfile(join(save_path, p_name + '.xml'))]
+    
+    # A FIFO queue
+    q = Queue()
+    
+    # Put all the XML file into Queue
+    for f in xml_files:
+        
+        q.put(f)
+        
+    for i in range(no_workers):
+        
+        thread_i = Thread(target=worker, args=(q,))
+        thread_i.setDaemon(True)
+        thread_i.start()
+        
+    # Wait until the queue is empty
+    q.join()
+    
+    
+    return xml_files
+    
+        
 def dataset_PSSM(dataset, XML_path, out_path):
     
     """
@@ -250,7 +321,9 @@ if __name__ == '__main__':
     
     #dataset_PSSM(protein_dtfrm, './BXML/tg_bxml/', './dd_PSSM/')
     
-    dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
+    #dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
+    
+    r = m_thread_dl_bxml(protein_dtfrm, './BXML/tg_bxml/')
     
     #fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
     
