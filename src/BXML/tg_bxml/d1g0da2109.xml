@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_92751</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1g0da2109</BlastOutput_query-def>
+  <BlastOutput_query-len>109</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_92751</Iteration_query-ID>
+  <Iteration_query-def>d1g0da2109</Iteration_query-def>
+  <Iteration_query-len>109</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1729923|sp|P52181.1|TGM2_PAGMA</Hit_id>
+  <Hit_def>RecName: Full=Protein-glutamine gamma-glutamyltransferase 2; AltName: Full=Tissue transglutaminase; AltName: Full=Transglutaminase C; Short=TG(C); Short=TGC; Short=TGase C; AltName: Full=Transglutaminase-2; Short=TGase-2 &gt;gi|14488746|pdb|1G0D|A Chain A, Crystal Structure Of Red Sea Bream Transglutaminase &gt;gi|1176435|gb|AAB35370.1| transglutaminase [Pagrus major]</Hit_def>
+  <Hit_accession>P52181</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>6.76608e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAP---GPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPGENGPIMTVANIPLS</Hsp_hseq>
+      <Hsp_midline>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAP   GPIMTVANIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1229021136|ref|XP_022075225.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Acanthochromis polyacanthus]</Hit_def>
+  <Hit_accession>XP_022075225</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>4.30542e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAVAQLTMLATAVTYTSLHRGQCQRQTTTVTLPAHRVHKQMLRLHYDEYGRCASENHLIRVKALLEAPGENKPIMTVANIPLS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHAQPVFGTDFDVIVEVKNEGGRDA AQLTMLA AVTY SL RG+CQR+T +VT+PAH+ HK+++RLHYD+Y RC SE+HLIRVKALL+APG   PIMTVANIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|657571296|ref|XP_008289213.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Stegastes partitus]</Hit_def>
+  <Hit_accession>XP_008289213</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>2.46549e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAQPVFGTDFDVIVEVTNDGGKDATAQLTMLVMAVTYNSLHRGECQRQTTAVTVPAHRAHKQVLRLHYEDYARCASEHHLIQVKAFLDAPGESEPVMTVANIPLS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHAQPVFGTDFDVIVEV N+GG+DA AQLTML MAVTYNSL RGECQR+T +VTVPAH+AHK+V+RLHY+DY RC SEHHLI+VKA LDAPG   P+MTVANIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1250128389|ref|XP_022605732.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Seriola dumerili]</Hit_def>
+  <Hit_accession>XP_022605732</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>2.59553e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>466</Hsp_hit-from>
+      <Hsp_hit-to>577</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>KLQLSIKHAKPVFGTDFDVIVEVKNEGSEDANAELTILAIAVTYNSLNRGECQRQTTSVTVPANQTHKEVMRLHYDDYVKCVSEHNLIRVKAFLEAPGESEPIMTMANIQMS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHA+PVFGTDFDVIVEVKNEG  DA+A+LT+LA+AVTYNSL RGECQR+T SVTVPA++ HKEVMRLHYDDYV+CVSEH+LIRVKA L+APG   PIMT+ANI +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1317130004|ref|XP_023277099.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Seriola lalandi dorsalis]</Hit_def>
+  <Hit_accession>XP_023277099</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>9.33331e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>466</Hsp_hit-from>
+      <Hsp_hit-to>577</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>KLQLSIKHAKPVFGTDFDVIVEVKNEGSEDANAELTILAIAVTYNSLNRGECQRQTTSVTVPANQTHKEVMRLHYNDYVKCVSEHNLIRVKAFLEAPGESEPIMTMANITMS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHA+PVFGTDFDVIVEVKNEG  DA+A+LT+LA+AVTYNSL RGECQR+T SVTVPA++ HKEVMRLHY+DYV+CVSEH+LIRVKA L+APG   PIMT+ANI +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1308433926|ref|XP_023137667.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Amphiprion ocellaris]</Hit_def>
+  <Hit_accession>XP_023137667</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.25726e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAQPVFGTDFDVVVEVKNEGGRDAVAQLTMLATAVTYNSLHRGECERQTTTVTVPAHTVHKEMLRLQYDEYARCASEHHLIRMKAFLEAPGENEPIMTMADIPLS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHAQPVFGTDFDV+VEVKNEGGRDA AQLTMLA AVTYNSL RGEC+R+T +VTVPAH  HKE++RL YD+Y RC SEHHLIR+KA L+APG   PIMT+A+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1308433924|ref|XP_023137666.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Amphiprion ocellaris]</Hit_def>
+  <Hit_accession>XP_023137666</Hit_accession>
+  <Hit_len>697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>1.78939e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAQPVFGTDFDVVVEVKNEGGRDAVAQLTMLATAVTYNSLHRGECERQTTTVTVPAHTVHKEMLRLQYDEYARCASEHHLIRMKAFLEAPGENEPIMTMADIPLS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHAQPVFGTDFDV+VEVKNEGGRDA AQLTMLA AVTYNSL RGEC+R+T +VTVPAH  HKE++RL YD+Y RC SEHHLIR+KA L+APG   PIMT+A+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1168930982|ref|XP_020508731.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Labrus bergylta]</Hit_def>
+  <Hit_accession>XP_020508731</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>3.14367e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>581</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPL</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAKPVFGTDFDVILEVKNEGVREAHAQLTMLAMAVTYNSLPQGECQKKKSGVTVPPQQVHREVLRLHYEDYGRCVSEHHLIRVKALLDVPGENEPIMAVANIPL</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHA+PVFGTDFDVI+EVKNEG R+AHAQLTMLAMAVTYNSL +GECQ+K   VTVP  + H+EV+RLHY+DY RCVSEHHLIRVKALLD PG   PIM VANIPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|736217565|ref|XP_010778969.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Notothenia coriiceps]</Hit_def>
+  <Hit_accession>XP_010778969</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>3.20224e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLKLSIKPSRPVLGTDFDVIVEVKNEGAREAHAQLAMVVMAATYSSLNRGECKRQTISVTVPAHKAHKEVLRLHYDDYVGCVREHHLIRVKALLEAPGENEPIMAMANIPMS</Hsp_hseq>
+      <Hsp_midline>+L+LSIK ++PV GTDFDVIVEVKNEG R+AHAQL M+ MA TY+SL RGEC+R+TISVTVPAHKAHKEV+RLHYDDYV CV EHHLIRVKALL+APG   PIM +ANIP+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1472986015|ref|XP_026220450.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Anabas testudineus]</Hit_def>
+  <Hit_accession>XP_026220450</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>1.13488e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QVQLSIKHPNPVFGTDFDVIIEVKNEGGRDTDAQLTMLATAVTYNSLPRGDCHRKKISVNVPAHQTHKEVLRLHYDDYVKCVSGHHLIRVKAFLEVQGENEPIMAVANIPLS</Hsp_hseq>
+      <Hsp_midline>++QLSIKH  PVFGTDFDVI+EVKNEGGRD  AQLTMLA AVTYNSL RG+C RK ISV VPAH+ HKEV+RLHYDDYV+CVS HHLIRVKA L+  G   PIM VANIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1169016882|ref|XP_020460050.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Monopterus albus]</Hit_def>
+  <Hit_accession>XP_020460050</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>1.0622e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAKPVFGTDFDVIIEVKNDGAKNATAELTMLAMAVTYNSLHQGECHRQTHSVTVPAHQTHKEVLRLRYDNYANCVSEHHLIRVKAFLVAPGENKPLMTVANIPLS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHA+PVFGTDFDVI+EVKN+G ++A A+LTMLAMAVTYNSL +GEC R+T SVTVPAH+ HKEV+RL YD+Y  CVSEHHLIRVKA L APG   P+MTVANIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1529953549|ref|XP_010741890.3|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2 [Larimichthys crocea]</Hit_def>
+  <Hit_accession>XP_010741890</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.41313e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAKPVFGTDFDVIVEVKNTGSKEAHAQLTMVATAVTYNSIHRGECQRESINVTVQAHKVHKQVLRLHYDHYVKCVSEHHVIRVKALLDVLGENEPIMNVVNIPLS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHA+PVFGTDFDVIVEVKN G ++AHAQLTM+A AVTYNS+ RGECQR++I+VTV AHK HK+V+RLHYD YV+CVSEHH+IRVKALLD  G   PIM V NIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1110954677|ref|XP_005471229.2|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2 [Oreochromis niloticus]</Hit_def>
+  <Hit_accession>XP_005471229</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>4.08979e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLSIKHAKPVFGTDFDVIIEVKNEGDQDAHVQLTMLAMAVTYSSLHRGNCQRQTTTVMVPAHKAQQEVLRLRYDDYAQCVSDDHLIRVKAFVEAPGENEPLLTVTDIPLS</Hsp_hseq>
+      <Hsp_midline>RLQLSIKHA+PVFGTDFDVI+EVKNEG +DAH QLTMLAMAVTY+SL RG CQR+T +V VPAHKA +EV+RL YDDY +CVS+ HLIRVKA ++APG   P++TV +IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|525344262|ref|NP_001266408.1|</Hit_id>
+  <Hit_def>transglutaminase [Oreochromis niloticus] &gt;gi|94421334|gb|ABF18835.1| transglutaminase [Oreochromis niloticus]</Hit_def>
+  <Hit_accession>NP_001266408</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>4.81675e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLSIKHAKPVFGTDFDVIIEVKNEGDQDAHVQLTMLAMAVTYSSLHRGNCQRQTTTVMVPAHKAQQEVLRLRYDDYAQCVSDDHLIRVKAFVEAPGENEPLLTVTDIPLS</Hsp_hseq>
+      <Hsp_midline>RLQLSIKHA+PVFGTDFDVI+EVKNEG +DAH QLTMLAMAVTY+SL RG CQR+T +V VPAHKA +EV+RL YDDY +CVS+ HLIRVKA ++APG   P++TV +IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|554851210|ref|XP_005935859.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Haplochromis burtoni]</Hit_def>
+  <Hit_accession>XP_005935859</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>2.20779e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLSIKHAKPVFGTDFDVIIEVKNEGDQDAHVQLTMLATAVTYSSLYRGNCQRQTTTVMVPAHKAQQEVLRLRYDDYAQCVSDDHLIRVKAFVEAPGENEPLLTVTDIPLS</Hsp_hseq>
+      <Hsp_midline>RLQLSIKHA+PVFGTDFDVI+EVKNEG +DAH QLTMLA AVTY+SL RG CQR+T +V VPAHKA +EV+RL YDDY +CVS+ HLIRVKA ++APG   P++TV +IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|923816100|ref|XP_013766743.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Pundamilia nyererei]</Hit_def>
+  <Hit_accession>XP_013766743</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>3.15607e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLSIKHAKPVFGTDFDVIIEVKNEGDQDAHVQLTMLATAVTYSSLYRGNCQRQTTTVMVPAHKAQQEVLRLRYDDYAQCVSDDHLIRVKAFVEAPGENEPLLTVTDIPLS</Hsp_hseq>
+      <Hsp_midline>RLQLSIKHA+PVFGTDFDVI+EVKNEG +DAH QLTMLA AVTY+SL RG CQR+T +V VPAHKA +EV+RL YDDY +CVS+ HLIRVKA ++APG   P++TV +IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1381444694|ref|XP_024659126.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Maylandia zebra] &gt;gi|1468951655|ref|XP_026032552.1| protein-glutamine gamma-glutamyltransferase 2-like isoform X2 [Astatotilapia calliptera]</Hit_def>
+  <Hit_accession>XP_024659126</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>6.64768e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLSIKHAKPVFGTDFDVIIEVKNEGDQDAHVQLTMLATAVTYSSLYRGNCQKQTTTVMVPAHKAQQEVLRLRYDDYAQCVSDDHLIRVKAFVEAPGENEPLLTVTDIPLS</Hsp_hseq>
+      <Hsp_midline>RLQLSIKHA+PVFGTDFDVI+EVKNEG +DAH QLTMLA AVTY+SL RG CQ++T +V VPAHKA +EV+RL YDDY +CVS+ HLIRVKA ++APG   P++TV +IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1143406852|ref|XP_019957689.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Paralichthys olivaceus]</Hit_def>
+  <Hit_accession>XP_019957689</Hit_accession>
+  <Hit_len>678</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>8.28429e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSVKHGKPVFGTDFDVIVEVKNEGQKDTSPQLLIVVMAITYNSINQGECQRKATIVTVPARKTHKEVLRLRYDDYVKCVSEHHLIRVKALMEVPGDNKPVMSVANIPLS</Hsp_hseq>
+      <Hsp_midline>+LQLS+KH +PVFGTDFDVIVEVKNEG +D   QL ++ MA+TYNS+ +GECQRK   VTVPA K HKEV+RL YDDYV+CVSEHHLIRVKAL++ PG   P+M+VANIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1468951653|ref|XP_026032551.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like isoform X1 [Astatotilapia calliptera]</Hit_def>
+  <Hit_accession>XP_026032551</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>9.32695e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>490</Hsp_hit-from>
+      <Hsp_hit-to>601</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLSIKHAKPVFGTDFDVIIEVKNEGDQDAHVQLTMLATAVTYSSLYRGNCQKQTTTVMVPAHKAQQEVLRLRYDDYAQCVSDDHLIRVKAFVEAPGENEPLLTVTDIPLS</Hsp_hseq>
+      <Hsp_midline>RLQLSIKHA+PVFGTDFDVI+EVKNEG +DAH QLTMLA AVTY+SL RG CQ++T +V VPAHKA +EV+RL YDDY +CVS+ HLIRVKA ++APG   P++TV +IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1381361119|ref|XP_024657253.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: protein-glutamine gamma-glutamyltransferase 2 [Maylandia zebra]</Hit_def>
+  <Hit_accession>XP_024657253</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>1.96764e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>476</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLSIKHAKPVFGTDFDVIIEVKNEGDQDAHVQLTMLATAVTYSSLYRGNCQKQTTTVMVPAHKAQQEVLRLRYDDYAQCVSDDHLIRVKAFVEAPGENEPLLSVTDIPLS</Hsp_hseq>
+      <Hsp_midline>RLQLSIKHA+PVFGTDFDVI+EVKNEG +DAH QLTMLA AVTY+SL RG CQ++T +V VPAHKA +EV+RL YDDY +CVS+ HLIRVKA ++APG   P+++V +IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1395237252|gb|AWP08862.1|</Hit_id>
+  <Hit_def>Protein-glutamine gamma-glutamyltransferase 2 [Scophthalmus maximus]</Hit_def>
+  <Hit_accession>AWP08862</Hit_accession>
+  <Hit_len>688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.10365e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSIRHAKAVFGTDFDVIVEVHNGGSKDAIAQLTILAMAVTYNSFTRGECQRQATSVTVPGHKTHKEVLRLRYDDYVKCVSEHHLIRVRAFAVVPGQDKPVMTVANIPLN</Hsp_hseq>
+      <Hsp_midline>+LQLSI+HA+ VFGTDFDVIVEV N G +DA AQLT+LAMAVTYNS  RGECQR+  SVTVP HK HKEV+RL YDDYV+CVSEHHLIRV+A    PG   P+MTVANIPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1469962507|ref|XP_026167772.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Mastacembelus armatus]</Hit_def>
+  <Hit_accession>XP_026167772</Hit_accession>
+  <Hit_len>736</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>1.47377e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>523</Hsp_hit-from>
+      <Hsp_hit-to>634</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAEPVFGTDFDVIVEMKNNGSKDADAQLTILAIAVTYNSIHRGECHRQMTRVTVPARKAHKEVLRLRYDDYVRCISDHNQIRVKAVLEALGENKPIMAMANIPLS</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHA+PVFGTDFDVIVE+KN G +DA AQLT+LA+AVTYNS+ RGEC R+   VTVPA KAHKEV+RL YDDYVRC+S+H+ IRVKA+L+A G   PIM +ANIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1079778234|ref|XP_018559134.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Lates calcarifer]</Hit_def>
+  <Hit_accession>XP_018559134</Hit_accession>
+  <Hit_len>691</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>1.6762e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>470</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>LQLSVKYPNPVFGTDFDVIVEVKNEESSDISAQLTIVAKAVTYNSLSRGEFQRQTTNVTVPAHQIHKEVLRLHYDDYVKCVSDHHLIRVMAFLEAPGENEPIMTMVNIPLS</Hsp_hseq>
+      <Hsp_midline>LQLS+K+  PVFGTDFDVIVEVKNE   D  AQLT++A AVTYNSL RGE QR+T +VTVPAH+ HKEV+RLHYDDYV+CVS+HHLIRV A L+APG   PIMT+ NIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|658856142|ref|XP_008410717.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Poecilia reticulata]</Hit_def>
+  <Hit_accession>XP_008410717</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>5.51945e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLSLSIRHPNPVFGTDFDVIVEVKNEGGDDANVQLTVHAMAVTYNSLHQGECQRQMNNVTVSAHNAHKEVLRFRYDDYAKCVSDHHLIRVKALAEAQGNSLPIMAVADIPLS</Hsp_hseq>
+      <Hsp_midline>+L LSI+H  PVFGTDFDVIVEVKNEGG DA+ QLT+ AMAVTYNSL +GECQR+  +VTV AH AHKEV+R  YDDY +CVS+HHLIRVKAL +A G   PIM VA+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|941762717|ref|XP_014327474.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Xiphophorus maculatus]</Hit_def>
+  <Hit_accession>XP_014327474</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>9.61059e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLSLSIKHPNPVFGTDFDVIVEVKNEGGDDANVHLTVHAMAVTYNSLHQGECQRQMNNVTVSAQNAHKEVLRFRYDDYAKCVSDHHLIRVKALAEAQGNSLPIMAVADIPLS</Hsp_hseq>
+      <Hsp_midline>+L LSIKH  PVFGTDFDVIVEVKNEGG DA+  LT+ AMAVTYNSL +GECQR+  +VTV A  AHKEV+R  YDDY +CVS+HHLIRVKAL +A G   PIM VA+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|657748058|ref|XP_008309346.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Cynoglossus semilaevis]</Hit_def>
+  <Hit_accession>XP_008309346</Hit_accession>
+  <Hit_len>688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.56752e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLELSIKRIKPVFGTDFDVIVEVINKGSRDAVAKLSILAEAVTYTSFCCGECQREAISITVPAHKTHKEVLRLRYDDYGRCVSEHHLMRVKALLEIPGMNRPVFSVVNIPLT</Hsp_hseq>
+      <Hsp_midline>+L+LSIK  +PVFGTDFDVIVEV N+G RDA A+L++LA AVTY S   GECQR+ IS+TVPAHK HKEV+RL YDDY RCVSEHHL+RVKALL+ PG   P+ +V NIPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|961980485|ref|XP_014823881.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Poecilia mexicana]</Hit_def>
+  <Hit_accession>XP_014823881</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>3.57767e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLSLSIRHPNPVFGTDFDVIVEVKNGGGDDANVQLTVHAMAVTYNSLHQGECQKQMNNVTVSAQNAHKEVLRFRYDDYAKCVSDHHLIRVKALAEAQGNSLPVMTVADIPLS</Hsp_hseq>
+      <Hsp_midline>+L LSI+H  PVFGTDFDVIVEVKN GG DA+ QLT+ AMAVTYNSL +GECQ++  +VTV A  AHKEV+R  YDDY +CVS+HHLIRVKAL +A G   P+MTVA+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|617403893|ref|XP_007553248.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Poecilia formosa]</Hit_def>
+  <Hit_accession>XP_007553248</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>5.75175e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLSLSIRHPNPMFGTDFDVIVEVKNEGGDDANVQLTVHAMAVTYNSLHQGECQKQMNNVTVSAQNAHKEVLRFRYDDYAKCVSDHHLIRVKALAEAQGNSLPVMAVADIPLS</Hsp_hseq>
+      <Hsp_midline>+L LSI+H  P+FGTDFDVIVEVKNEGG DA+ QLT+ AMAVTYNSL +GECQ++  +VTV A  AHKEV+R  YDDY +CVS+HHLIRVKAL +A G   P+M VA+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|961988368|ref|XP_014873055.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Poecilia latipinna]</Hit_def>
+  <Hit_accession>XP_014873055</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.59432e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLSLSIRHPNPMFGTDFDVIVEVKNEGGDDANVQLTVHAMAVTYNSLHQGECQKQMNNMTVSAQNAHKEVLRFRYDDYAKCVSDHHLIRVKALAEAQGNSLPVMAVADIPLS</Hsp_hseq>
+      <Hsp_midline>+L LSI+H  P+FGTDFDVIVEVKNEGG DA+ QLT+ AMAVTYNSL +GECQ++  ++TV A  AHKEV+R  YDDY +CVS+HHLIRVKAL +A G   P+M VA+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1188088715|ref|XP_020790546.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Boleophthalmus pectinirostris]</Hit_def>
+  <Hit_accession>XP_020790546</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>4.39873e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>473</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>LELTIKHTKPVFGTDFDVIIEVKNDGIKEVQAQLTVLALAMTYNSIHQGECQRQKASISLHAGKVHKEVLRLRYDDYVRCVSEHYLIGLKAFLEVPGENEPIMKTANIPLS</Hsp_hseq>
+      <Hsp_midline>L+L+IKH +PVFGTDFDVI+EVKN+G ++  AQLT+LA+A+TYNS+ +GECQR+  S+++ A K HKEV+RL YDDYVRCVSEH+LI +KA L+ PG   PIM  ANIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1007763698|ref|XP_015820672.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Nothobranchius furzeri]</Hit_def>
+  <Hit_accession>XP_015820672</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.42012e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLKLIIKHAKCVFGTDFDVIIEVKNEGGDEAQVKLTMRAMAVTYNSLHRGECHKQISNVTVPANQVHKQVLRLYYKDYARCVSEHYLIRVKVLADVQGQNVPYMAVSNIHLS</Hsp_hseq>
+      <Hsp_midline>RL+L IKHA+ VFGTDFDVI+EVKNEGG +A  +LTM AMAVTYNSL RGEC ++  +VTVPA++ HK+V+RL+Y DY RCVSEH+LIRVK L D  G   P M V+NI LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1343954029|ref|XP_023811762.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2 [Oryzias latipes] &gt;gi|953953490|dbj|BAT61948.1| transglutaminase-like protein [Oryzias latipes]</Hit_def>
+  <Hit_accession>XP_023811762</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>3.90542e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>464</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLQLLIKHARPVFGSDFDVIAEVRNDGDEDAQVQLTVLATGVTYNSVHQGECQRQMIRVTVAAHEGHREVLRLRYKDYAECTSEHHLIRVKAFAEAQGQNQPLMTVADVPLS</Hsp_hseq>
+      <Hsp_midline>+LQL IKHA+PVFG+DFDVI EV+N+G  DA  QLT+LA  VTYNS+ +GECQR+ I VTV AH+ H+EV+RL Y DY  C SEHHLIRVKA  +A G   P+MTVA++PLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1387744634|gb|PWA33095.1|</Hit_id>
+  <Hit_def>hypothetical protein CCH79_00013055 [Gambusia affinis]</Hit_def>
+  <Hit_accession>PWA33095</Hit_accession>
+  <Hit_len>1053</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>5.17129e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>790</Hsp_hit-from>
+      <Hsp_hit-to>901</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLSLSVRHPNPVFGTDFDVIVEVKNEGRDDAKVHLTVHAMAVTYNSLHQGECQRQMNNVTVSAQNAHKEVVRFRYDDYAKCVSDHHLIRVKALAEAQGNSLPIMAVADIPLS</Hsp_hseq>
+      <Hsp_midline>+L LS++H  PVFGTDFDVIVEVKNEG  DA   LT+ AMAVTYNSL +GECQR+  +VTV A  AHKEV+R  YDDY +CVS+HHLIRVKAL +A G   PIM VA+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1249016469|ref|XP_007249233.2|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Astyanax mexicanus]</Hit_def>
+  <Hit_accession>XP_007249233</Hit_accession>
+  <Hit_len>685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>1.60002e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>581</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPGP---IMTVANIPL</Hsp_qseq>
+      <Hsp_hseq>QLQLSIKHAQAVHGTDFDVIIEVHNDGGEDTQVQLTITSNAVTYNSLHRGECQRKTAELTVPAQKAHKEVIRLLYDHYGSCVSEHHLIRVTALLQTSGPNNIILQEVNIPL</Hsp_hseq>
+      <Hsp_midline>+LQLSIKHAQ V GTDFDVI+EV N+GG D   QLT+ + AVTYNSL RGECQRKT  +TVPA KAHKEV+RL YD Y  CVSEHHLIRV ALL   GP   I+   NIPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1041139339|ref|XP_017294473.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Kryptolebias marmoratus]</Hit_def>
+  <Hit_accession>XP_017294473</Hit_accession>
+  <Hit_len>688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>3.94241e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>464</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPL</Hsp_qseq>
+      <Hsp_hseq>RLKLIIKHGQPVFGTDFDVIVEVKNEGSEDAEVKLTMRAMAVTYSSLHQGDCQKQISNVTVPALQTHKEILRLHYENYARCVSDQHLIRVKVLAEAQGVTLPIMAVSDILL</Hsp_hseq>
+      <Hsp_midline>RL+L IKH QPVFGTDFDVIVEVKNEG  DA  +LTM AMAVTY+SL +G+CQ++  +VTVPA + HKE++RLHY++Y RCVS+ HLIRVK L +A G   PIM V++I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1357703989|ref|XP_024138067.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Oryzias melastigma]</Hit_def>
+  <Hit_accession>XP_024138067</Hit_accession>
+  <Hit_len>706</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>1.34441e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>464</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>RLQLLIKHAKPVFGSDFDVIAEVRNNGDEDAHIQLMVLATAVTYNSLHQGECKSQTIRVKVAAHAGHREVLRLRYKDYATCASEHHLIRVKAFAEAQGQNQPFMTMTDIPLS</Hsp_hseq>
+      <Hsp_midline>RLQL IKHA+PVFG+DFDVI EV+N G  DAH QL +LA AVTYNSL +GEC+ +TI V V AH  H+EV+RL Y DY  C SEHHLIRVKA  +A G   P MT+ +IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1129971876|ref|XP_019743735.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Hippocampus comes]</Hit_def>
+  <Hit_accession>XP_019743735</Hit_accession>
+  <Hit_len>685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>3.09238e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>KMQMTIKHAKPVFGSDFDVIVELKNDGGVQAEARLTMLAKAVTYNCLNRGEFERQTKNVSVPPHKVHKEVLRVRYADYAKCVSEHHVVKVMALLETQGENEPDMAVAKIPLS</Hsp_hseq>
+      <Hsp_midline>++Q++IKHA+PVFG+DFDVIVE+KN+GG  A A+LTMLA AVTYN L RGE +R+T +V+VP HK HKEV+R+ Y DY +CVSEHH+++V ALL+  G   P M VA IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|831523645|ref|XP_012718407.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2 [Fundulus heteroclitus]</Hit_def>
+  <Hit_accession>XP_012718407</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>3.72882e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLNLLIKHPSPMFGTDFDVIVEVKNEGSDDANVLLTVRAVAVTYNSLHQGECQRQMNNMTVAARSAHKQVLRFRYEDYAKCVSEHHLIRVKALAEARGDSVPIMAVADIPLS</Hsp_hseq>
+      <Hsp_midline>+L L IKH  P+FGTDFDVIVEVKNEG  DA+  LT+ A+AVTYNSL +GECQR+  ++TV A  AHK+V+R  Y+DY +CVSEHHLIRVKAL +A G   PIM VA+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1158928006|ref|XP_020312001.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Oncorhynchus kisutch]</Hit_def>
+  <Hit_accession>XP_020312001</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>4.41204e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDA---PGPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLELKIKHAQAILGTDFDVIVEVHNVGGEDTPAQLTVTSNAVTYNSLHRGECQRRTASLTVPAQKAHKEVMRLRYDHYGACVSEHNLIRVTALLQASSQPDVILQEVNIPLS</Hsp_hseq>
+      <Hsp_midline>+L+L IKHAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL RGECQR+T S+TVPA KAHKEVMRL YD Y  CVSEH+LIRV ALL A   P  I+   NIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|929124120|ref|XP_013979710.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Salmo salar]</Hit_def>
+  <Hit_accession>XP_013979710</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>4.5387e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDA---PGPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLELKIKHAQAILGTDFDVIVEVHNVGGEDTPAQLTVTSNAVTYNSLHRGECQRRTASLTVPAQKAHKEVMRLRYDHYGACVSEHNLIRVTALLQANSQPDVILQEVNIPLS</Hsp_hseq>
+      <Hsp_midline>+L+L IKHAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL RGECQR+T S+TVPA KAHKEVMRL YD Y  CVSEH+LIRV ALL A   P  I+   NIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1211299519|ref|XP_021425584.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Oncorhynchus mykiss]</Hit_def>
+  <Hit_accession>XP_021425584</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>4.7803e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDA---PGPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLELKIKHAQAILGTDFDVIVEVHNVGGEDTPAQLTVTSNAVTYNSLHRGECQRRTASLTVPAQKAHKEVMRLRYDHYGACVSEHNLIRVTALLQASSQPDVILQEVNIPLS</Hsp_hseq>
+      <Hsp_midline>+L+L IKHAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL RGECQR+T S+TVPA KAHKEVMRL YD Y  CVSEH+LIRV ALL A   P  I+   NIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1367502479|ref|XP_024235122.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Oncorhynchus tshawytscha]</Hit_def>
+  <Hit_accession>XP_024235122</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>5.23142e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDA---PGPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLELKIKHAQAILGTDFDVIVEVHNVGGEDTPAQLTVTSNAVTYNSLHRGECQRRTASMTVPAQKAHKEVMRLRYDHYGACVSEHNLIRVTALLQASSQPDVILQEVNIPLS</Hsp_hseq>
+      <Hsp_midline>+L+L IKHAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL RGECQR+T S+TVPA KAHKEVMRL YD Y  CVSEH+LIRV ALL A   P  I+   NIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|642106469|emb|CDQ73560.1|</Hit_id>
+  <Hit_def>unnamed protein product [Oncorhynchus mykiss]</Hit_def>
+  <Hit_accession>CDQ73560</Hit_accession>
+  <Hit_len>809</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>6.7986e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>593</Hsp_hit-from>
+      <Hsp_hit-to>704</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDA---PGPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLELKIKHAQAILGTDFDVIVEVHNVGGEDTPAQLTVTSNAVTYNSLHRGECQRRTASLTVPAQKAHKEVMRLRYDHYGACVSEHNLIRVTALLQASSQPDVILQEVNIPLS</Hsp_hseq>
+      <Hsp_midline>+L+L IKHAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL RGECQR+T S+TVPA KAHKEVMRL YD Y  CVSEH+LIRV ALL A   P  I+   NIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|974089071|ref|XP_015242700.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Cyprinodon variegatus]</Hit_def>
+  <Hit_accession>XP_015242700</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.21363e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLNMLIKHPNPVFGTDFDVIVEVKNKGCEDANVQLAVRAIAVTYNSLHQGECKRQTNSVTVLAQNAHKEVLRFRYEDYAKYVAEHNLIRVKALVDAEGDSLPIMAVADIPLS</Hsp_hseq>
+      <Hsp_midline>+L + IKH  PVFGTDFDVIVEVKN+G  DA+ QL + A+AVTYNSL +GEC+R+T SVTV A  AHKEV+R  Y+DY + V+EH+LIRVKAL+DA G   PIM VA+IPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1342952437|ref|XP_023838895.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like [Salvelinus alpinus]</Hit_def>
+  <Hit_accession>XP_023838895</Hit_accession>
+  <Hit_len>713</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>1.45958e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>460</Hsp_hit-from>
+      <Hsp_hit-to>571</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDA---PGPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLELKIRHAQAILGTDFDVIVEVHNVGGEDTPAQLTVTSNAVTYNSLHRGECQRRTASLTVPAQKAHKEVMRLRYDHYGACVSEHNLIRVTALLQASSQPDIILQEVNIPLS</Hsp_hseq>
+      <Hsp_midline>+L+L I+HAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL RGECQR+T S+TVPA KAHKEVMRL YD Y  CVSEH+LIRV ALL A   P  I+   NIPLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1503234583|ref|XP_026783261.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like isoform X2 [Pangasianodon hypophthalmus]</Hit_def>
+  <Hit_accession>XP_026783261</Hit_accession>
+  <Hit_len>686</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>3.04577e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAP---GPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>KLELSIKHAQAIHGTDFDVIVEVHNVGGEDTPAQLTVTSNAVTYNSLHLGECQRKTAKLTVPAQKAHKEVLRLRYDHYGACVSEHHLIRVRALLQASSEQNAIMQEVNIPLT</Hsp_hseq>
+      <Hsp_midline>+L+LSIKHAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL  GECQRKT  +TVPA KAHKEV+RL YD Y  CVSEHHLIRV+ALL A      IM   NIPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1503234581|ref|XP_026783260.1|</Hit_id>
+  <Hit_def>protein-glutamine gamma-glutamyltransferase 2-like isoform X1 [Pangasianodon hypophthalmus]</Hit_def>
+  <Hit_accession>XP_026783260</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>3.3155e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>470</Hsp_hit-from>
+      <Hsp_hit-to>581</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAP---GPIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>KLELSIKHAQAIHGTDFDVIVEVHNVGGEDTPAQLTVTSNAVTYNSLHLGECQRKTAKLTVPAQKAHKEVLRLRYDHYGACVSEHHLIRVRALLQASSEQNAIMQEVNIPLT</Hsp_hseq>
+      <Hsp_midline>+L+LSIKHAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL  GECQRKT  +TVPA KAHKEV+RL YD Y  CVSEHHLIRV+ALL A      IM   NIPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1049207375|ref|XP_017546963.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2-like [Pygocentrus nattereri]</Hit_def>
+  <Hit_accession>XP_017546963</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.73268e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>470</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPGPIMTV---ANIPL</Hsp_qseq>
+      <Hsp_hseq>QLKLSIKHAQAVHGTDFDVIVEVLNVSAEDTLAHLTVISNAVTYNSLHRGECQRKTAELTVPAQKAHKEVLRLLYDNYGACISEHHLIRVTALLQTSGPLNSILQEVNIPL</Hsp_hseq>
+      <Hsp_midline>+L+LSIKHAQ V GTDFDVIVEV N    D  A LT+++ AVTYNSL RGECQRKT  +TVPA KAHKEV+RL YD+Y  C+SEHHLIRV ALL   GP+ ++    NIPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|768953654|ref|XP_011615625.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: protein-glutamine gamma-glutamyltransferase 2-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_011615625</Hit_accession>
+  <Hit_len>671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>2.21763e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>LQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG--PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>LQLSIKHATPVFGTDFDVMVEVENVQGSGAGGQLTVLAKAVTYNALFRGECKRRSVRVHVHAHAVHREVLRLRYADYATCVSEHHLIRVEAFLTPTGRRPVMAVANISLS</Hsp_hseq>
+      <Hsp_midline>LQLSIKHA PVFGTDFDV+VEV+N  G  A  QLT+LA AVTYN+L RGEC+R+++ V V AH  H+EV+RL Y DY  CVSEHHLIRV+A L   G  P+M VANI LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1137535971|ref|XP_019896008.1|</Hit_id>
+  <Hit_def>PREDICTED: protein-glutamine gamma-glutamyltransferase 2 [Esox lucius]</Hit_def>
+  <Hit_accession>XP_019896008</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>2.22664e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>468</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>RLQLSIKHAQPVFGTDFDVIVEVKNEGGRDAHAQLTMLAMAVTYNSLRRGECQRKTISVTVPAHKAHKEVMRLHYDDYVRCVSEHHLIRVKALLDAPG---PIMTVANIPLS</Hsp_qseq>
+      <Hsp_hseq>QLELKIKHAQAILGTDFDVIVEVHNVGGEDTVAQLTVTSNAVTYNSLHRGECQRKTASLTVPAQKAHKEVLRLHYDHYGACVSEHNIIRVTALVQPSGQQSAILQEVNISLS</Hsp_hseq>
+      <Hsp_midline>+L+L IKHAQ + GTDFDVIVEV N GG D  AQLT+ + AVTYNSL RGECQRKT S+TVPA KAHKEV+RLHYD Y  CVSEH++IRV AL+   G    I+   NI LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>181110669</Statistics_db-num>
+      <Statistics_db-len>1687697255</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
