@@ -198,10 +198,15 @@ def dl_bxml_dataset(dataset, save_path):
                                 num_protien, protein_name))
             
             
-def m_thread_dl_bxml(dataset, save_path, no_workers=1):
+def m_thread_dl_bxml(dataset, input_file, save_path, no_workers=1):
     
     """
     It download BLAST XML files using multi-threading with Queue
+    Input:
+        dataset: pandas dataframe that contains proteins
+        input_file: A text file that contains proteins names
+        save_path: A path for saving XML files
+        no_workers: Number of threads for downloading
     """
     
     def worker(queue):
@@ -240,10 +245,14 @@ def m_thread_dl_bxml(dataset, save_path, no_workers=1):
                                  protein_name))
             
             queue.task_done()
+         
+    xml_list = open(input_file, 'r')
     
     # First find the number of XML files that need to be downloaded
-    xml_files = [p_name for p_name in dataset['Protein name'].tolist() \
+    xml_files = [p_name.rstrip('\n') for p_name in xml_list.readlines()\
                  if not isfile(join(save_path, p_name + '.xml'))]
+    
+    print(xml_files)
     
     # A FIFO queue
     q = Queue()
@@ -261,10 +270,8 @@ def m_thread_dl_bxml(dataset, save_path, no_workers=1):
         
     # Wait until the queue is empty
     q.join()
-    
-    
-    return xml_files
-    
+    xml_list.close()
+     
         
 def dataset_PSSM(dataset, XML_path, out_path):
     
@@ -319,11 +326,13 @@ if __name__ == '__main__':
     
     protein_dtfrm = pd.read_csv(r"./dataset/TG_raw.csv")
     
+    
+    
     #dataset_PSSM(protein_dtfrm, './BXML/tg_bxml/', './dd_PSSM/')
     
     #dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
     
-    r = m_thread_dl_bxml(protein_dtfrm, './BXML/tg_bxml/')
+    m_thread_dl_bxml(protein_dtfrm, 'refahi-bxmls.txt', './BXML/tg_bxml/', 5)
     
     #fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
     
