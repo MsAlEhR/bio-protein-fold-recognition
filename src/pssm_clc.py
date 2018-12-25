@@ -250,7 +250,7 @@ def m_thread_dl_bxml(dataset, input_file, save_path, no_workers=1):
     
     # First find the number of XML files that need to be downloaded
     xml_files = [p_name.rstrip('\n') for p_name in xml_list.readlines()\
-                 if not isfile(join(save_path, p_name + '.xml'))]
+                 if not isfile(join(save_path, p_name.rstrip('\n') + '.xml'))]
     
     print(xml_files)
     
