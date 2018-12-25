@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_41677</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1nx4a_247</BlastOutput_query-def>
+  <BlastOutput_query-len>247</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_41677</Iteration_query-ID>
+  <Iteration_query-def>d1nx4a_247</Iteration_query-def>
+  <Iteration_query-len>247</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|746228264|ref|WP_039277159.1|</Hit_id>
+  <Hit_def>(5R)-carbapenem-3-carboxylate synthase [Pectobacterium carotovorum] &gt;gi|75423225|sp|Q9XB59.1|CARC_PECCC RecName: Full=(5R)-carbapenem-3-carboxylate synthase; AltName: Full=Carbapenem synthase &gt;gi|33357521|pdb|1NX8|A Chain A, Structure Of Carbapenem Synthase (carc) Complexed With N-acetyl Proline &gt;gi|33357522|pdb|1NX8|B Chain B, Structure Of Carbapenem Synthase (carc) Complexed With N-acetyl Proline &gt;gi|33357523|pdb|1NX8|C Chain C, Structure Of Carbapenem Synthase (carc) Complexed With N-acetyl Proline &gt;gi|5042367|gb|AAD38231.1| CarC [Pectobacterium carotovorum] &gt;gi|671738233|gb|KFF69559.1| spore coat protein CotH [Pectobacterium carotovorum subsp. brasiliense] &gt;gi|741071724|gb|KHS64697.1| spore coat protein CotH [Pectobacterium carotovorum subsp. brasiliense] &gt;gi|741084679|gb|KHS77553.1| spore coat protein CotH [Pectobacterium carotovorum subsp. brasiliense] &gt;gi|741110924|gb|KHT03537.1| spore coat protein CotH [Pectobacterium carotovorum subsp. brasiliense] &gt;gi|741112404|gb|KHT05005.1| spore coat protein CotH [Pectobacterium carotovorum subsp. brasiliense] &gt;gi|1395086320|gb|PXB01869.1| (5R)-carbapenem-3-carboxylate synthase [Pectobacterium carotovorum subsp. carotovorum]</Hit_def>
+  <Hit_accession>WP_039277159</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.559</Hsp_bit-score>
+      <Hsp_score>1233</Hsp_score>
+      <Hsp_evalue>2.52229e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVKFNPVMASGFGAYIDHRDFLEAKTETIKNLLMRQGFVVVKNLDIDSDTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIMDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIVKFNPV ASGFGAYIDHRDFLEAKTETIKNLL RQGFVVVKNLDIDSDTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLI+DNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|605604389|pdb|4OJ8|A</Hit_id>
+  <Hit_def>Chain A, Crystal structure of carbapenem synthase in complex with (3S,5S)-carbapenam &gt;gi|605604390|pdb|4OJ8|B Chain B, Crystal structure of carbapenem synthase in complex with (3S,5S)-carbapenam &gt;gi|605604391|pdb|4OJ8|C Chain C, Crystal structure of carbapenem synthase in complex with (3S,5S)-carbapenam</Hit_def>
+  <Hit_accession>4OJ8_A</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.945</Hsp_bit-score>
+      <Hsp_score>1234</Hsp_score>
+      <Hsp_evalue>3.71333e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVKFNPVMASGFGAYIDHRDFLEAKTETIKNLLMRQGFVVVKNLDIDSDTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIMDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIVKFNPV ASGFGAYIDHRDFLEAKTETIKNLL RQGFVVVKNLDIDSDTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLI+DNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|33357518|pdb|1NX4|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Carbapenem Synthase (Carc) &gt;gi|33357519|pdb|1NX4|B Chain B, The Crystal Structure Of Carbapenem Synthase (Carc) &gt;gi|33357520|pdb|1NX4|C Chain C, The Crystal Structure Of Carbapenem Synthase (Carc)</Hit_def>
+  <Hit_accession>1NX4_A</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.248</Hsp_bit-score>
+      <Hsp_score>1227</Hsp_score>
+      <Hsp_evalue>2.81603e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVKFNPVXASGFGAYIDHRDFLEAKTETIKNLLXRQGFVVVKNLDIDSDTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEXPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKXLIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIXDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIVKFNPV ASGFGAYIDHRDFLEAKTETIKNLL RQGFVVVKNLDIDSDTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK LIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLI DNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|497963645|ref|WP_010277801.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Pectobacterium carotovorum] &gt;gi|684984720|gb|KGA22830.1| spore coat protein CotH [Pectobacterium carotovorum subsp. brasiliense] &gt;gi|684997399|gb|KGA35050.1| spore coat protein CotH [Pectobacterium carotovorum subsp. brasiliense] &gt;gi|848274981|gb|KMK85504.1| Taurine catabolism dioxygenase TauD/TfdA [Pectobacterium carotovorum subsp. brasiliensis ICMP 19477] &gt;gi|946508686|gb|KRF58598.1| spore coat protein CotH [Pectobacterium carotovorum subsp. brasiliense]</Hit_def>
+  <Hit_accession>WP_010277801</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.322</Hsp_bit-score>
+      <Hsp_score>1222</Hsp_score>
+      <Hsp_evalue>1.32189e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVKFNPVMASGFGAYIDHRDFLEAKTETIKKLLMRQGFVVVKNLDIDGDTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIMDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIVKFNPV ASGFGAYIDHRDFLEAKTETIK LL RQGFVVVKNLDID DTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLI+DNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|746316255|ref|WP_039362938.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Pectobacterium carotovorum] &gt;gi|734563660|gb|KHN89339.1| CpmC protein involved in carbapenem biosynthesis [Pectobacterium carotovorum subsp. actinidiae] &gt;gi|1141040091|gb|ONK03025.1| spore coat protein CotH [Pectobacterium carotovorum subsp. actinidiae] &gt;gi|1141041861|gb|ONK04771.1| spore coat protein CotH [Pectobacterium carotovorum subsp. actinidiae]</Hit_def>
+  <Hit_accession>WP_039362938</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.781</Hsp_bit-score>
+      <Hsp_score>1218</Hsp_score>
+      <Hsp_evalue>6.07038e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVKFNPIMASGFGAYIDHRDFLEAKTETIKNLLMRQGFVVVKNLDIDGDTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTEHETHAFFQELGAFLKQPRYYYKHFWEDGDLLIMDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIVKFNP+ ASGFGAYIDHRDFLEAKTETIKNLL RQGFVVVKNLDID DTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFT+HET AFFQELGAFLKQPRYYYKHFWEDGDLLI+DNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|746256613|ref|WP_039304910.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Pectobacterium betavasculorum] &gt;gi|679621639|gb|KFX04384.1| spore coat protein CotH [Pectobacterium betavasculorum] &gt;gi|679637564|gb|KFX19722.1| spore coat protein CotH [Pectobacterium betavasculorum]</Hit_def>
+  <Hit_accession>WP_039304910</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>1.49196e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVRFNPVMASGFGAYIDHRDFLEAKTETIKNLLMRQGFVVVKNLDIDGDTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTDHETHTFFQELGAFLKQPRYYYKHFWEDGDLLIMDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIV+FNPV ASGFGAYIDHRDFLEAKTETIKNLL RQGFVVVKNLDID DTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFTDHET  FFQELGAFLKQPRYYYKHFWEDGDLLI+DNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1485861539|ref|WP_119889152.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Pectobacterium polaris] &gt;gi|1482253813|gb|RJL23417.1| spore coat protein CotH [Pectobacterium polaris]</Hit_def>
+  <Hit_accession>WP_119889152</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>2.19002e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVKFNPIMASGFGAYIEHRDFLEAKTETIKNLLMRQGFVVVKNLDIDGDTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTDHETHTFFQELGAFLKQPRYYYKHFWEDGDLLIMDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIVKFNP+ ASGFGAYI+HRDFLEAKTETIKNLL RQGFVVVKNLDID DTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFTDHET  FFQELGAFLKQPRYYYKHFWEDGDLLI+DNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|746433805|ref|WP_039474098.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Pectobacterium carotovorum] &gt;gi|679616026|gb|KFW98892.1| spore coat protein CotH [Pectobacterium carotovorum subsp. carotovorum] &gt;gi|741085512|gb|KHS78371.1| spore coat protein CotH [Pectobacterium carotovorum subsp. carotovorum] &gt;gi|848441232|gb|KML65884.1| spore coat protein CotH [Pectobacterium carotovorum subsp. carotovorum ICMP 5702] &gt;gi|1110223007|emb|SHH28611.1| carbapenem synthase [Pectobacterium carotovorum]</Hit_def>
+  <Hit_accession>WP_039474098</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.003</Hsp_bit-score>
+      <Hsp_score>1203</Hsp_score>
+      <Hsp_evalue>9.62773e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVKFNPIMASGFGAYIEHRDFLEAKTETIKNLLMRQGFVVVKNLGIDADTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTDHETHTFFQELGAFLKQPRYYYKHFWEDGDLLIMDNRRVIHEREEFNDDAIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIVKFNP+ ASGFGAYI+HRDFLEAKTETIKNLL RQGFVVVKNL ID+DTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFTDHET  FFQELGAFLKQPRYYYKHFWEDGDLLI+DNRRVIHEREEFNDD IVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|746444723|ref|WP_039484696.1|</Hit_id>
+  <Hit_def>MULTISPECIES: spore coat protein CotH [Pectobacterium] &gt;gi|679631538|gb|KFX13806.1| spore coat protein CotH [Pectobacterium polaris] &gt;gi|741105934|gb|KHS98597.1| spore coat protein CotH [Pectobacterium carotovorum subsp. carotovorum] &gt;gi|1417640990|emb|SNW56522.1| CpmC protein involved in carbapenem biosynthesis [Pectobacterium carotovorum] &gt;gi|1417645688|emb|SNW61161.1| CpmC protein involved in carbapenem biosynthesis [Pectobacterium carotovorum]</Hit_def>
+  <Hit_accession>WP_039484696</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>1.46048e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SEIVKFNPIMASGFGAYIEHRDFLEAKTETIKNLLMRQGFVVVKNLDIDGDTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACKEMPPHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTDHETHTFFQELGAFLKQPRYYYKHFWEDGDLLIMDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SEIVKFNP+ ASGFGAYI+HRDFLEAKTETIKNLL RQGFVVVKNLDID DTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALAC+E P HLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFTDHET  FFQELGAFLKQPRYYYKHFWEDGDLLI+DNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1388602452|gb|PWC09433.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Brenneria sp. CFCC 11842]</Hit_def>
+  <Hit_accession>PWC09433</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>2.36721e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SETVRFNPIMASGFGAYIDHREFLEAKTETIKNLLMRQGFVVVKKLDIDADTFRDIYSAYGTVVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPDGWFKVPVFTDLGWVRKMLIYFPFDNGQPASWEPRIVGFTEHETRTFFQELGAFLKQQRYYYKHFWEDGDLLIMDNRRVIHEREEFDDDNIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>SE V+FNP+ ASGFGAYIDHR+FLEAKTETIKNLL RQGFVVVK LDID+DTFRDIYSAYGT+VE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFD GQPASWEPRIVGFT+HET+ FFQELGAFLKQ RYYYKHFWEDGDLLI+DNRRVIHEREEF+DD+IVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|542100575|ref|WP_021016742.1|</Hit_id>
+  <Hit_def>Taurine catabolism dioxygenase TauD/TfdA [Serratia sp. ATCC 39006] &gt;gi|1315976189|gb|AUH00094.1| spore coat protein CotH [Serratia sp. ATCC 39006] &gt;gi|1320881241|gb|AUH04413.1| spore coat protein CotH [Serratia sp. ATCC 39006]</Hit_def>
+  <Hit_accession>WP_021016742</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.973</Hsp_bit-score>
+      <Hsp_score>1151</Hsp_score>
+      <Hsp_evalue>9.73455e-158</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>VKFNPIMASGFGAYIDHKDFLEAKTETIKKLLMRQGFVVVKNLDIDADTFRDIYSAYGTIVEYADEKIGVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHVLACQEMPAHLLRVLEEETFEVRVLERGYYVDVSPAGWFKVPVFTDLGWVRKMLVYFPFDEGQPASWEPRIVGFSDQETRTFFKELETFFKQPRYFYKHFWEDGDLLIMDNRRVIHEREEFNDDNILRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>VKFNP+ ASGFGAYIDH+DFLEAKTETIK LL RQGFVVVKNLDID+DTFRDIYSAYGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDH LACQE PAHLLRVLEEETFEVRVL            WFKVPVFTDLGWVRK+L+YFPFDEGQPASWEPRIVGF+D ET+ FF+EL  F KQPRY+YKHFWEDGDLLI+DNRRVIHEREEFNDD+I+RRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|737362594|ref|WP_035344780.1|</Hit_id>
+  <Hit_def>MULTISPECIES: spore coat protein CotH [Dickeya] &gt;gi|1442841640|emb|SLM64941.1| CpmC protein involved in carbapenem biosynthesis [Dickeya aquatica]</Hit_def>
+  <Hit_accession>WP_035344780</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>6.97588e-139</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>SGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SGFGAQMHSSDFIDAKPEEIKNLLMRQGFLLVKNIAMDANQFRDTYSAYGKIVEYADEKIGVGFGYKDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNMKFRGATTVCDHVLACQEMPAHLRRVLEEETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWVRKMLMYFPFDEGQPASWEPRIVGFSEYETKAFFDELGQFMKQPRYFYKHYWEDADLLIMDNRRVIHEREEFNDDNIIRRLYRGQTVE</Hsp_hseq>
+      <Hsp_midline>SGFGA +   DF++AK E IKNLL RQGF++VKN+ +D++ FRD YSAYG IVE            +DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKN+KFRGATTVCDH LACQE PAHL RVLEEETFEVRVL            WFKVPVFTDLGWVRK+L+YFPFDEGQPASWEPRIVGF+++ET+AFF ELG F+KQPRY+YKH+WED DLLI+DNRRVIHEREEFNDD+I+RRLYRGQT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|552944480|ref|WP_023045188.1|</Hit_id>
+  <Hit_def>MULTISPECIES: spore coat protein CotH [Photorhabdus] &gt;gi|550873202|gb|ERT12338.1| spore coat protein CotH [Photorhabdus temperata J3] &gt;gi|822096602|gb|AKH63553.1| spore coat protein CotH [Photorhabdus thracensis]</Hit_def>
+  <Hit_accession>WP_023045188</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>7.93153e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>SEIVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>NSCLQWSPIMKSGFGAKISADDFLKSSTEEIKNLLMRQGFVVVNKINLDADEFRDIYSKYGTIVEYADEKIDVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNMKFRGATTVCDHVLACKEMPKHLLNVLENETFEVRVLEYGYYVDVSPTGWFKVPVFTDLGWVRKMLIYFPFDEGQPSSWEPRIVGFTDEETKRFFTELTQFMKNPRYYYKHYWEKGDLVIMDNRRVIHEREEFDDDNIIRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>+  ++++P+  SGFGA I   DFL++ TE IKNLL RQGFVVV  +++D+D FRDIYS YGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKN+KFRGATTVCDH LAC+E P HLL VLE ETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQP+SWEPRIVGFTD ET+ FF EL  F+K PRYYYKH+WE GDL+I+DNRRVIHEREEF+DD+I+RRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|742452368|ref|WP_038909223.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Dickeya zeae]</Hit_def>
+  <Hit_accession>WP_038909223</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>1.68038e-138</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>LLNYTSLMDSGFGAKMSSSDFMEAKPEEIKNLLMRQGFLLVKNIAMDANQFRDTYSAYGKIVEYADEKIGVGFGYKDTLKLDGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYSAEIKNLKFRGATTICDHVLACQEMPTHLRRVLEEETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFSEYETKAFFGELGMFMKQPRYFYKHYWEDADLLIMDNRRVIHEREEFNDDNIIRRLYRGQTVE</Hsp_hseq>
+      <Hsp_midline>++ +  +  SGFGA +   DF+EAK E IKNLL RQGF++VKN+ +D++ FRD YSAYG IVE            +DTLKL+GEKGKIVTGRGQLPFHADGGLLLSQVDQVFLY+AEIKN+KFRGATT+CDH LACQE P HL RVLEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGF+++ET+AFF ELG F+KQPRY+YKH+WED DLLI+DNRRVIHEREEFNDD+I+RRLYRGQT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|502345100|ref|WP_012767994.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Dickeya chrysanthemi] &gt;gi|247536483|gb|ACT05104.1| Taurine catabolism dioxygenase TauD/TfdA [Dickeya chrysanthemi Ech1591]</Hit_def>
+  <Hit_accession>WP_012767994</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>1.84968e-138</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>MLNYTALMDSGFGAQMHSSDFMEAKPEEIKNLLMRQGFLLVKNIAMDANQFRDTYSAYGKVVEYADEKIGVGFGYKDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDLVFLYAAEIKNMKFRGATTVCDHVLACQEMPAHLRRVLEEETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWVRKMLMYFPFDEGQPASWEPRIVGFSEYETKAFFDELGQFMKQPRYFYKHYWEDADLLIMDNRRVIHEREEFNDDNIIRRLYRGQTVE</Hsp_hseq>
+      <Hsp_midline>++ +  +  SGFGA +   DF+EAK E IKNLL RQGF++VKN+ +D++ FRD YSAYG +VE            +DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVD VFLYAAEIKN+KFRGATTVCDH LACQE PAHL RVLEEETFEVRVL            WFKVPVFTDLGWVRK+L+YFPFDEGQPASWEPRIVGF+++ET+AFF ELG F+KQPRY+YKH+WED DLLI+DNRRVIHEREEFNDD+I+RRLYRGQT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|726971284|ref|WP_033580928.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Dickeya chrysanthemi]</Hit_def>
+  <Hit_accession>WP_033580928</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>2.71417e-138</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>MLNYTALMDSGFGAQMHSSDFMEAKPEEIKNLLMRQGFLLVKNIAMDANQFRDTYSAYGKVVEYADEKIGVGFGYKDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDLVFLYAAEIKNMKFRGATTVCDHVLACQEMPAHLRRILEEETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWVRKMLMYFPFDEGQPASWEPRIVGFSEYETKAFFDELGQFMKQPRYFYKHYWEDADLLIMDNRRVIHEREEFNDDNIIRRLYRGQTVE</Hsp_hseq>
+      <Hsp_midline>++ +  +  SGFGA +   DF+EAK E IKNLL RQGF++VKN+ +D++ FRD YSAYG +VE            +DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVD VFLYAAEIKN+KFRGATTVCDH LACQE PAHL R+LEEETFEVRVL            WFKVPVFTDLGWVRK+L+YFPFDEGQPASWEPRIVGF+++ET+AFF ELG F+KQPRY+YKH+WED DLLI+DNRRVIHEREEFNDD+I+RRLYRGQT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1269643810|ref|WP_099114231.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Xenorhabdus miraniensis] &gt;gi|1269065373|gb|PHM48854.1| Pyoverdine biosynthesis protein [Xenorhabdus miraniensis]</Hit_def>
+  <Hit_accession>WP_099114231</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>2.33744e-136</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>LQWSPIMKSGFGAKINADNFLKTDTEVIKNLLMRQGFVIVNQLNIDANEFRDIYSKYGTIVEYVDEKIEVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNMKFRGATTVCDHVLACKEMPEHLLKVLENEIFEVRVLERGYYVDVSPAGWFKVPVFTDLGWVRKMLIYFPFDENQPASWEPRIVGFTTEETKRFFTELTSFMKKPRYYYKHYWEAGDLIIMDNRRVIHEREEFDDDKIIRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>++++P+  SGFGA I+  +FL+  TE IKNLL RQGFV+V  L+ID++ FRDIYS YGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKN+KFRGATTVCDH LAC+E P HLL+VLE E FEVRVL            WFKVPVFTDLGWVRK+LIYFPFDE QPASWEPRIVGFT  ET+ FF EL +F+K+PRYYYKH+WE GDL+I+DNRRVIHEREEF+DD I+RRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1425865914|ref|WP_112896107.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Photorhabdus bodei] &gt;gi|1418162236|gb|RAX09884.1| spore coat protein CotH [Photorhabdus bodei]</Hit_def>
+  <Hit_accession>WP_112896107</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.504</Hsp_bit-score>
+      <Hsp_score>1007</Hsp_score>
+      <Hsp_evalue>7.71481e-136</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>LQWSPIMQSGFGANISTDDFLKASAKEIKNLLMRQGFIVVNKINLNADEFRDIYSKYGTIVEYADEKIDVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNMKFRGATTVCDHVLACKEMPKHLLNILENEIFEVRVLEYGYYVDVSPAGWFQVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTDEETKRFFAELTEFMKNPRYYYKHYWERGDLIIMDNRRVIHEREEFDDDNIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>++++P+  SGFGA I   DFL+A  + IKNLL RQGF+VV  +++++D FRDIYS YGTIVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKN+KFRGATTVCDH LAC+E P HLL +LE E FEVRVL            WF+VPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFTD ET+ FF EL  F+K PRYYYKH+WE GDL+I+DNRRVIHEREEF+DD+IVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|723590998|ref|WP_033569424.1|</Hit_id>
+  <Hit_def>MULTISPECIES: spore coat protein CotH [Dickeya] &gt;gi|1512339033|gb|RNM08593.1| spore coat protein CotH [Dickeya sp. FVG1-MFV-O17] &gt;gi|1512356081|gb|RNM25021.1| spore coat protein CotH [Dickeya sp. FVG10-MFV-A16]</Hit_def>
+  <Hit_accession>WP_033569424</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>1.5268e-135</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>MLNYTALMETGFGAKMNSSDFMKASPEEIKSLLMRQGFLLVKNIAMDANEFRDIYSAYGKIVEYADEKIGVGFGYKDTLKLDGEKGKIVTGRGQLPFHADGGLLLSKVDQVFLYAAEIKNMKFRGATTVCDHVLACQEMPTHLRRILEEETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFSEYETKTFFDELSQFMKQPRYFYKHYWEDSDLLIMDNRRVIHEREEFNDDNIIRRLYRGQTVE</Hsp_hseq>
+      <Hsp_midline>++ +  +  +GFGA ++  DF++A  E IK+LL RQGF++VKN+ +D++ FRDIYSAYG IVE            +DTLKL+GEKGKIVTGRGQLPFHADGGLLLS+VDQVFLYAAEIKN+KFRGATTVCDH LACQE P HL R+LEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGF+++ET+ FF EL  F+KQPRY+YKH+WED DLLI+DNRRVIHEREEFNDD+I+RRLYRGQT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|499457122|ref|WP_011144586.1|</Hit_id>
+  <Hit_def>MULTISPECIES: spore coat protein CotH [Photorhabdus] &gt;gi|22035769|emb|CAD29762.1| CpmC protein [Photorhabdus laumondii subsp. laumondii] &gt;gi|36783629|emb|CAE12479.1| CpmC protein involved in carbapenem biosynthesis [Photorhabdus laumondii subsp. laumondii TTO1] &gt;gi|967490971|gb|KTL59558.1| spore coat protein CotH [Photorhabdus laumondii subsp. laumondii] &gt;gi|1389491357|gb|AWK40179.1| spore coat protein CotH [Photorhabdus laumondii subsp. laumondii] &gt;gi|1418119623|gb|RAW68799.1| spore coat protein CotH [Photorhabdus sp. S7-51] &gt;gi|1418120634|gb|RAW69760.1| spore coat protein CotH [Photorhabdus sp. S14-60] &gt;gi|1418127268|gb|RAW76263.1| spore coat protein CotH [Photorhabdus sp. S15-56] &gt;gi|1418133709|gb|RAW82353.1| spore coat protein CotH [Photorhabdus sp. S5P8-50] &gt;gi|1418133867|gb|RAW82505.1| spore coat protein CotH [Photorhabdus sp. S12-55] &gt;gi|1418163833|gb|RAX11414.1| spore coat protein CotH [Photorhabdus sp. HUG-39] &gt;gi|1435050568|gb|AXG41017.1| spore coat protein CotH [Photorhabdus laumondii subsp. laumondii] &gt;gi|1435055104|gb|AXG45529.1| spore coat protein CotH [Photorhabdus laumondii subsp. laumondii]</Hit_def>
+  <Hit_accession>WP_011144586</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>1.55528e-135</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>LQWSPIMKSGFGANISADDFLKVSAEEIKNLLMRQGFVVVNKINLNADEFRDIYSKYGTIVEYADEKIDVGFGYRDTLKLEGEKGKVVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNMKFRGATTVCDHVLACKEMPKHLLHVLENEIFEVRVLEYGYYVDVSPAGWFQVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIIGFTDEETKRFFAELTEFMKNPRYYYKHYWERGDLIIMDNRRVIHEREEFDDDNIVRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>++++P+  SGFGA I   DFL+   E IKNLL RQGFVVV  +++++D FRDIYS YGTIVE            RDTLKLEGEKGK+VTGRGQLPFHADGGLLLSQVDQVFLYAAEIKN+KFRGATTVCDH LAC+E P HLL VLE E FEVRVL            WF+VPVFTDLGWVRK+LIYFPFDEGQPASWEPRI+GFTD ET+ FF EL  F+K PRYYYKH+WE GDL+I+DNRRVIHEREEF+DD+IVRRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|742467281|ref|WP_038924119.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Dickeya dadantii]</Hit_def>
+  <Hit_accession>WP_038924119</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>6.34283e-135</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>MLNYTALMETGFGAKMNSSDFMKASPDEIKSLLMRQGFLLVKNIAMDANEFRDIYSAYGKIVEYADEKIGVGFGYKDTLKLDGEKGKIVTGRGQLPFHADGGLLLSKVDQVFLYAAEIKNMKFRGATTVCDHVLACQEMPTHLRRILEEETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFSEYETKTFFDELSQFMKQPRYFYKHYWEDSDLLIMDNRRVIHEREEFNDDNIIRRLYRGQTVE</Hsp_hseq>
+      <Hsp_midline>++ +  +  +GFGA ++  DF++A  + IK+LL RQGF++VKN+ +D++ FRDIYSAYG IVE            +DTLKL+GEKGKIVTGRGQLPFHADGGLLLS+VDQVFLYAAEIKN+KFRGATTVCDH LACQE P HL R+LEEETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGF+++ET+ FF EL  F+KQPRY+YKH+WED DLLI+DNRRVIHEREEFNDD+I+RRLYRGQT +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1224498512|ref|WP_092519467.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Xenorhabdus japonica] &gt;gi|1097472736|emb|SFN75373.1| carbapenem synthase [Xenorhabdus japonica]</Hit_def>
+  <Hit_accession>WP_092519467</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>1.93204e-134</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>LQWSPIMKSGFGAKISANDFLKSSAEEVKNILMKQGFVIVNQINLDADEFRDIYSKYGKIVEYADEKIDVGFGYRDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIENMKFRGATTVCDHVLACKEMPKHLLNVLENETFEVRVLEYGYYVDVSPAGWFKVPVFTDLGWVRKMLIYFPFDEGQPASWEPRIVGFTAEETKRFFTELTQFMKNPRYYYKHYWEKGDLVIMDNRRVIHEREEFDDDNIIRRLYRGQTAE</Hsp_hseq>
+      <Hsp_midline>++++P+  SGFGA I   DFL++  E +KN+L +QGFV+V  +++D+D FRDIYS YG IVE            RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEI+N+KFRGATTVCDH LAC+E P HLL VLE ETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFDEGQPASWEPRIVGFT  ET+ FF EL  F+K PRYYYKH+WE GDL+I+DNRRVIHEREEF+DD+I+RRLYRGQTA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|503276640|ref|WP_013511301.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Pantoea sp. At-9b] &gt;gi|316951998|gb|ADU71472.1| Taurine catabolism dioxygenase TauD/TfdA (plasmid) [Pantoea sp. At-9b]</Hit_def>
+  <Hit_accession>WP_013511301</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>1.89034e-132</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTA</Hsp_qseq>
+      <Hsp_hseq>VKFLPAMPSGFGAKIAKEDFITASPESIKKILMRQGFAIIKNLNIDANDFRDIYSSYGNVVEYADEKISVGFGYRDTLKLEGEKGKIVTGRGQLPLHADGGLLLSQVDLVFLYAVEIKNLKFRGATTLCDHKLACDEMPQHLLRVLEEETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWIRKMLIYFPFDKDQPASWESRIIGFTARETQDFFKELSQFIKQPRYFYKHYWEDGDLLIMDNRRVIHEREEFNEDRIVRRLYRGQTV</Hsp_hseq>
+      <Hsp_midline>VKF P   SGFGA I   DF+ A  E+IK +L RQGF ++KNL+ID++ FRDIYS+YG +VE            RDTLKLEGEKGKIVTGRGQLP HADGGLLLSQVD VFLYA EIKN+KFRGATT+CDH LAC E P HLLRVLEEETFEVRVL            WFKVPVFTDLGW+RK+LIYFPFD+ QPASWE RI+GFT  ETQ FF+EL  F+KQPRY+YKH+WEDGDLLI+DNRRVIHEREEFN+D IVRRLYRGQT </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|873901127|ref|WP_048607560.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Providencia rettgeri] &gt;gi|1101501014|gb|APC12407.1| (5R)-carbapenem-3-carboxylate synthase [Providencia rettgeri] &gt;gi|1356803314|gb|AVL75834.1| spore coat protein CotH [Providencia rettgeri]</Hit_def>
+  <Hit_accession>WP_048607560</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>8.88846e-131</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>PVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>PAMPTGFGAKMSASHFINSDTNSIKHLLMRQGFLIVNKLNIDANEFRDIYSKYGTIVEYADEKIDVGFGYRDTLKLDGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAVEIKNMKFRGSTTICDHVLACNEMPNHLRQVLENETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWVRKMLIYFPFDTDQPASWEPRIVGFTKDETQRFFTELSAFMKLPRYYYKHYWENGDLLIMDNRRVIHEREEFNDDKIIRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>P   +GFGA +    F+ + T +IK+LL RQGF++V  L+ID++ FRDIYS YGTIVE            RDTLKL+GEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYA EIKN+KFRG+TT+CDH LAC E P HL +VLE ETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFD  QPASWEPRIVGFT  ETQ FF EL AF+K PRYYYKH+WE+GDLLI+DNRRVIHEREEFNDD I+RRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|757596838|ref|WP_042844562.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Providencia rettgeri]</Hit_def>
+  <Hit_accession>WP_042844562</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>1.04474e-129</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>PVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>PAMPTGFGAKMSASHFINSDTNSIKHLLMRQGFLIVNKLNIDANEFRDIYSKYGTIVEYADEKIDVGFGYRDTLKLDGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAVEIKNMKFRGSTTICDHVLACNEMPNHLRQVLENETFEVRVLEHGYYVDVSPAGWFKVPVFTDLGWVRKMLIYFPFDTDQPASWETRIVGFTKDETQRFFTELSAFMKLPRYYYKHYWENGDLLIMDNRRVIHEREEFNDDKIIRRLYRGQTAD</Hsp_hseq>
+      <Hsp_midline>P   +GFGA +    F+ + T +IK+LL RQGF++V  L+ID++ FRDIYS YGTIVE            RDTLKL+GEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYA EIKN+KFRG+TT+CDH LAC E P HL +VLE ETFEVRVL            WFKVPVFTDLGWVRK+LIYFPFD  QPASWE RIVGFT  ETQ FF EL AF+K PRYYYKH+WE+GDLLI+DNRRVIHEREEFNDD I+RRLYRGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1120086994|ref|WP_072958113.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Vibrio gazogenes] &gt;gi|1110211812|emb|SHF23693.1| carbapenem synthase [Vibrio gazogenes DSM 21264] &gt;gi|1145431781|emb|SJN58391.1| (5R)-carbapenem-3-carboxylate synthase [Vibrio gazogenes]</Hit_def>
+  <Hit_accession>WP_072958113</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>2.15134e-109</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER------------DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>MDYEPIMSTSFGAKMTEESFKQSTPEEIKQLLREKGFLVVQDIKLDANDFRDFYTAYGEIVEYSEERIGVGFGYVDTLKLDGEKGKIVTGRGQLPLHADGGLLLTAVDHVFLYSNTIENMKFRGATTVVDHVLANQEMPNHLKDILENETFQARVLEKGYYSDVSPEGWFDVPVFTDLGWIKKMLIYFPFHEGQPASWESRIVGFSQEENDKFFRELEAFYKQDRYYYKHYWKSNELLIMDNRRVIHEREEFQDDNIVRRLYRGQTSE</Hsp_hseq>
+      <Hsp_midline>+ + P+ ++ FGA +    F ++  E IK LL  +GF+VV+++ +D++ FRD Y+AYG IVE             DTLKL+GEKGKIVTGRGQLP HADGGLLL+ VD VFLY+  I+N+KFRGATTV DH LA QE P HL  +LE ETF+ RVL            WF VPVFTDLGW++K+LIYFPF EGQPASWE RIVGF+  E   FF+EL AF KQ RYYYKH+W+  +LLI+DNRRVIHEREEF DD+IVRRLYRGQT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1148590979|ref|WP_077337354.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Vibrio ruber] &gt;gi|1145439617|emb|SJN59565.1| (5R)-carbapenem-3-carboxylate synthase [Vibrio ruber DSM 16370]</Hit_def>
+  <Hit_accession>WP_077337354</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>9.83792e-109</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER------------DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>MDYEPIMSTSFGARMTEEGFRQSTPEEIKQLLREKGFLVVQDIKLDANDFRDFYTTYGEIVEYSEERIGVGFGYVDTLKLDGEKGKIVTGRGQLPLHADGGLLLTAVDHVFLYSDTIENMKFRGATTVVDHVLANQEMPSHLKDILENETFQARVLEKGYYSDVSPEGWFDVPVFTDLGWIKKMLIYFPFHEGQPASWESRIVGFSQEENDKFFKELEAFYKQDRYYYKHYWKSNELLIMDNRRVIHEREEFQDDNIVRRLYRGQTSE</Hsp_hseq>
+      <Hsp_midline>+ + P+ ++ FGA +    F ++  E IK LL  +GF+VV+++ +D++ FRD Y+ YG IVE             DTLKL+GEKGKIVTGRGQLP HADGGLLL+ VD VFLY+  I+N+KFRGATTV DH LA QE P+HL  +LE ETF+ RVL            WF VPVFTDLGW++K+LIYFPF EGQPASWE RIVGF+  E   FF+EL AF KQ RYYYKH+W+  +LLI+DNRRVIHEREEF DD+IVRRLYRGQT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|973380290|ref|WP_059123304.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Vibrio sp. MEBiC08052] &gt;gi|972246852|gb|KUI96586.1| Taurine catabolism dioxygenase TauD/TfdA [Vibrio sp. MEBiC08052]</Hit_def>
+  <Hit_accession>WP_059123304</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>1.12175e-108</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER------------DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>MDYEPIMSTSFGARMTEENFRQSTPEEIKQLLREKGFLVVQDIKLDANDFRDFYTTYGEIVEYSEERIGVGFGYVDTLKLDGEKGKIVTGRGQLPLHADGGLLLTAVDHVFLYSNTIENMKFRGATTVVDHVLANQEMPGHLKDILENETFQARVLEKGYYSDVSPEGWFDVPVFTDLGWIKKMLIYFPFHEGQPASWESRIVGFSQEENDKFFKELESFYKQDRYYYKHYWKSNELLIMDNRRVIHEREEFQDDNIVRRLYRGQTSE</Hsp_hseq>
+      <Hsp_midline>+ + P+ ++ FGA +   +F ++  E IK LL  +GF+VV+++ +D++ FRD Y+ YG IVE             DTLKL+GEKGKIVTGRGQLP HADGGLLL+ VD VFLY+  I+N+KFRGATTV DH LA QE P HL  +LE ETF+ RVL            WF VPVFTDLGW++K+LIYFPF EGQPASWE RIVGF+  E   FF+EL +F KQ RYYYKH+W+  +LLI+DNRRVIHEREEF DD+IVRRLYRGQT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1123829072|ref|WP_074371466.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Vibrio spartinae] &gt;gi|1119189728|emb|SIO92850.1| (5R)-carbapenem-3-carboxylate synthase [Vibrio spartinae]</Hit_def>
+  <Hit_accession>WP_074371466</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>3.00151e-108</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER------------DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>MDYEPIMSTSFGAQMTEEGFRQSTPEEIKQLLREKGFLVVQDIKLDANDFRDFYTTYGEIVEYSEERIGVGFGYVDTLKLDGEKGKIVTGRGQLPLHADGGLLLTAVDHVFLYSNTIENMKFRGATTVVDHVLANQEMPSHLKDILENETFQARVLEKGYYADVSPEDWFDVPVFTDLGWIKKMLIYFPFHDGQPASWESRIVGFSQEENDKFFRELEAFYKQDRYYYKHYWKSNELLIMDNRRVIHEREEFQDDNIVRRLYRGQTSE</Hsp_hseq>
+      <Hsp_midline>+ + P+ ++ FGA +    F ++  E IK LL  +GF+VV+++ +D++ FRD Y+ YG IVE             DTLKL+GEKGKIVTGRGQLP HADGGLLL+ VD VFLY+  I+N+KFRGATTV DH LA QE P+HL  +LE ETF+ RVL            WF VPVFTDLGW++K+LIYFPF +GQPASWE RIVGF+  E   FF+EL AF KQ RYYYKH+W+  +LLI+DNRRVIHEREEF DD+IVRRLYRGQT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|493867089|ref|WP_006813710.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Providencia rustigianii] &gt;gi|282567318|gb|EFB72853.1| taurine catabolism dioxygenase, TauD/TfdA family [Providencia rustigianii DSM 4541] &gt;gi|1437749465|emb|SUC25435.1| taurine dioxygenase [Providencia rustigianii] &gt;gi|1539486130|emb|VEB63296.1| taurine dioxygenase [Providencia rustigianii]</Hit_def>
+  <Hit_accession>WP_006813710</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>7.70926e-107</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER------------DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL--------------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>IKWQPMMSTGFGAKMSANDFMQADTNNIKNLLMRQGFLVINKLKFDVLAFRDMYTQFGSIVERVEQHTEAEPECRDVMQLDGKKDRLLTGRNQLPFHADGGVLLSPVDQIFLYANEIKNMKFHGATIICDQVLALKEAPPHLIKILKHETFQVRALDRGCNIDISVDGWFDMEQEGWCNYPVFTDLGWIEQMLIYFPFNDGQQANWESRIVGFSKEETKKFFAELAEFIKQPRYSYKHYWENGDLLIMDNRRVLHEREEFEDDKIIRHLYRGQTTD</Hsp_hseq>
+      <Hsp_midline>+K+ P+ ++GFGA +   DF++A T  IKNLL RQGF+V+  L  D   FRD+Y+ +G+IVER            D ++L+G+K +++TGR QLPFHADGG+LLS VDQ+FLYA EIKN+KF GAT +CD  LA +E P HL+++L+ ETF+VR L                    W   PVFTDLGW+ ++LIYFPF++GQ A+WE RIVGF+  ET+ FF EL  F+KQPRY YKH+WE+GDLLI+DNRRV+HEREEF DD I+R LYRGQT D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|917019882|ref|WP_051626594.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Burkholderia jiangsuensis] &gt;gi|620648143|gb|KAK49821.1| spore coat protein CotH [Caballeronia jiangsuensis]</Hit_def>
+  <Hit_accession>WP_051626594</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>1.89531e-106</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>SGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SGFGALMNRDAFLGADPADIKEILKEKGFALIRGLDLQKQDFLKLYSAYGNIIAYVNEREKVGYGYRDTLELDGDKKKIVTGRGQLPYHADGGLLLSQVDLVFLYGARIKNMKFRGATLVTDHVLAVEEMPSHLRDVLENETFEVRVTERGYYVDVSPDGWFKVPVFTDLGWVRKMLLYFPFDEGQPASWEPRIVGFSTYETQKFFTELSNFFKNPRYTYTHYWTEGDLLIADNRRSIHEREEFNDPAIERVLWRGQTAE</Hsp_hseq>
+      <Hsp_midline>SGFGA ++   FL A    IK +L+ +GF +++ LD+    F  +YSAYG I+             RDTL+L+G+K KIVTGRGQLP+HADGGLLLSQVD VFLY A IKN+KFRGAT V DH LA +E P+HL  VLE ETFEVRV             WFKVPVFTDLGWVRK+L+YFPFDEGQPASWEPRIVGF+ +ETQ FF EL  F K PRY Y H+W +GDLLI DNRR IHEREEFND  I R L+RGQTA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1019484844|emb|SAK41474.1|</Hit_id>
+  <Hit_def>(5R)-carbapenem-3-carboxylate synthase [Caballeronia pedi]</Hit_def>
+  <Hit_accession>SAK41474</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>9.66067e-106</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>SGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SGFGALMNRDAFIGADPHKIKEILKEKGFVLIRDLALQKQDFLKLYSSYGNIIAYVNEREKVGYGYRDTLELDGDKKKIVTGRGQLPFHADGGLLLSQVDLVFLYGARIQNMKFRGATLVTDHVLAVEEMPAHLREVLEHETFEVRVTERGYYVDVSPDGWFKVPVFTDLGWVRKMLLYFPFDEGQPASWEPRIVGFSPYETHKFFTELSSFFKNPRYTYTHYWKEGDLLITDNRRSIHEREEFNDPAIERVLWRGQTAE</Hsp_hseq>
+      <Hsp_midline>SGFGA ++   F+ A    IK +L+ +GFV++++L +    F  +YS+YG I+             RDTL+L+G+K KIVTGRGQLPFHADGGLLLSQVD VFLY A I+N+KFRGAT V DH LA +E PAHL  VLE ETFEVRV             WFKVPVFTDLGWVRK+L+YFPFDEGQPASWEPRIVGF+ +ET  FF EL +F K PRY Y H+W++GDLLI DNRR IHEREEFND  I R L+RGQTA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1540094448|emb|VEH53447.1|</Hit_id>
+  <Hit_def>taurine dioxygenase [Providencia rustigianii]</Hit_def>
+  <Hit_accession>VEH53447</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>9.95286e-106</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER------------DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL--------------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>IKWQPMMSTGFGAKMSANDFMQADTNNIKKLLMRQGFLVINKLKFDVVAFRDMYTQFGSIVERVEQHTEAEPECRDVMQLDGKKDRLLTGRNQLPFHADGGVLLSPVDQIFLYANEIKNMKFHGATIICDQVLALKEAPPHLIKILKHETFQVRALDRGCNIDISVDGWFDMEQEGWCNYPVFTDLGWIEQMLIYFPFDDSQQANWESRIVGFSKEETKKFFAELAEFIKQPRYSYKHYWENGDLLIMDNRRVLHEREEFEDDKIIRHLYRGQTTD</Hsp_hseq>
+      <Hsp_midline>+K+ P+ ++GFGA +   DF++A T  IK LL RQGF+V+  L  D   FRD+Y+ +G+IVER            D ++L+G+K +++TGR QLPFHADGG+LLS VDQ+FLYA EIKN+KF GAT +CD  LA +E P HL+++L+ ETF+VR L                    W   PVFTDLGW+ ++LIYFPFD+ Q A+WE RIVGF+  ET+ FF EL  F+KQPRY YKH+WE+GDLLI+DNRRV+HEREEF DD I+R LYRGQT D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1425185667|ref|WP_112835991.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Providencia rustigianii] &gt;gi|1411322538|emb|SPY76259.1| taurine dioxygenase [Providencia rustigianii] &gt;gi|1437756963|emb|SUC34225.1| taurine dioxygenase [Providencia rustigianii]</Hit_def>
+  <Hit_accession>WP_112835991</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>3.03506e-105</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER------------DTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL--------------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>IKWQPMMSTGFGAKMSANDFMQTDTNNIKKLLMRQGFLVINKLKFDVIAFRDMYTQFGSIVERVEQHTEAEPECRDVMQLDGKKDRLLTGRNQLPFHADGGVLLSPVDQIFLYANEIKNMKFHGATIICDQVLALKEAPPHLIKILKHETFQVRALDRGCNIDISVDGWFDMEQEGWCNYPVFTDLGWIEQMLIYFPFNDGQQANWESRIVGFSKEETKKFFAELAEFIKQPRYSYKHYWENGDLLIMDNRRVLHEREEFEDDKIIRHLYRGQTTD</Hsp_hseq>
+      <Hsp_midline>+K+ P+ ++GFGA +   DF++  T  IK LL RQGF+V+  L  D   FRD+Y+ +G+IVER            D ++L+G+K +++TGR QLPFHADGG+LLS VDQ+FLYA EIKN+KF GAT +CD  LA +E P HL+++L+ ETF+VR L                    W   PVFTDLGW+ ++LIYFPF++GQ A+WE RIVGF+  ET+ FF EL  F+KQPRY YKH+WE+GDLLI+DNRRV+HEREEF DD I+R LYRGQT D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1248226721|ref|WP_096724574.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Pseudomonas acidophila] &gt;gi|1246467446|gb|PCE22659.1| spore coat protein CotH [Pseudomonas acidophila]</Hit_def>
+  <Hit_accession>WP_096724574</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.301</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>1.08866e-102</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>ASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>ASGFGTHLNRDVFLNTEPEEIKEILKQKGFALVRGLELSKQDFLKMYSQFGHIVAYVNDREKVGYGYRDTLELDGDKRKIVTGRGQLPFHADGGLLLSQVDIVFLYGASIKNMRFRGATLMTDHVLAIEEMPSHLRDVLEQETFEVRVTERGYYANVSPDGWFKVPVFTDLGWVRKMLVYFPFDDDQPASWESRIVGFTPFETKKFFRELSQFFKNPRYTYTHYWREGDLLISDNRRSIHEREEFNDAAIERTLWRGQTAD</Hsp_hseq>
+      <Hsp_midline>ASGFG +++   FL  + E IK +L+++GF +V+ L++    F  +YS +G IV             RDTL+L+G+K KIVTGRGQLPFHADGGLLLSQVD VFLY A IKN++FRGAT + DH LA +E P+HL  VLE+ETFEVRV             WFKVPVFTDLGWVRK+L+YFPFD+ QPASWE RIVGFT  ET+ FF+EL  F K PRY Y H+W +GDLLI DNRR IHEREEFND  I R L+RGQTAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1000926126|ref|WP_061172941.1|</Hit_id>
+  <Hit_def>TauD/TfdA family dioxygenase [Caballeronia pedi]</Hit_def>
+  <Hit_accession>WP_061172941</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>4.66783e-102</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>FLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>FIGADPHKIKEILKEKGFVLIRDLALQKQDFLKLYSSYGNIIAYVNEREKVGYGYRDTLELDGDKKKIVTGRGQLPFHADGGLLLSQVDLVFLYGARIQNMKFRGATLVTDHVLAVEEMPAHLREVLEHETFEVRVTERGYYVDVSPDGWFKVPVFTDLGWVRKMLLYFPFDEGQPASWEPRIVGFSPYETHKFFTELSSFFKNPRYTYTHYWKEGDLLITDNRRSIHEREEFNDPAIERVLWRGQTAE</Hsp_hseq>
+      <Hsp_midline>F+ A    IK +L+ +GFV++++L +    F  +YS+YG I+             RDTL+L+G+K KIVTGRGQLPFHADGGLLLSQVD VFLY A I+N+KFRGAT V DH LA +E PAHL  VLE ETFEVRV             WFKVPVFTDLGWVRK+L+YFPFDEGQPASWEPRIVGF+ +ET  FF EL +F K PRY Y H+W++GDLLI DNRR IHEREEFND  I R L+RGQTA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|756187363|ref|WP_042629025.1|</Hit_id>
+  <Hit_def>spore coat protein CotH [Burkholderia plantarii] &gt;gi|755904260|gb|AJK50814.1| putative TauD/TfdA family dioxygenase [Burkholderia plantarii] &gt;gi|941156175|gb|ALK34956.1| Taurine catabolism dioxygenase TauD/TfdA [Burkholderia plantarii]</Hit_def>
+  <Hit_accession>WP_042629025</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>6.82573e-77</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>SGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>SGIGIALQAGEFLAMEPQVLRDLLKVEGFAVVRGLRLGKPEFAELYRRYGHPVEYSGQRAKVGYGYGDMLELNGDRDKIVTGRGRLPFHTDGGILRSNVDQIFLYGAEIENLRFSGATLVTDHVAALRDMPRHLRAVLEHDTFEVRAAEAGYYSGASPEGWFKVDTFRDYGWVRALMIYFPFDNGDAPSWETRITGFSAFETRKFFDELGKFLRRDTYTYAHYWSTGDLLISDNRRTLHEREPFREEASRRVLWRGQTSE</Hsp_hseq>
+      <Hsp_midline>SG G  +   +FL  + + +++LL+ +GF VV+ L +    F ++Y  YG  VE             D L+L G++ KIVTGRG+LPFH DGG+L S VDQ+FLY AEI+N++F GAT V DH  A ++ P HL  VLE +TFEVR              WFKV  F D GWVR ++IYFPFD G   SWE RI GF+  ET+ FF ELG FL++  Y Y H+W  GDLLI DNRR +HERE F ++   R L+RGQT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1508630871|gb|RNA01790.1|</Hit_id>
+  <Hit_def>spore coat [Brachionus plicatilis]</Hit_def>
+  <Hit_accession>RNA01790</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>6.25759e-69</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>SGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE-----------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEG-QPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRL</Hsp_qseq>
+      <Hsp_hseq>SGFGCLIQKNTFEKLSGKYLKGLLMDKGFVLVKNLDYSDKKLVDMCKGFGQIVNHDQEKKVGYGYKDVFKLDGTKNKIVNGREILPLHADGGLVQTRVDHVFLYANEIENLKFQGATTVVDLKLALEEMPPHLKRVLDEETFESNVFDREYYSEASPKNWFKVPVFKDYGWTRQFYCYFNFDENFSNPGWETRILGFSRKETDNFFKELDDFFREYRYCYTHMWQKGDLLIMDNRNSIHAREPF--DDVGKRI</Hsp_hseq>
+      <Hsp_midline>SGFG  I    F +   + +K LL  +GFV+VKNLD       D+   +G IV            +D  KL+G K KIV GR  LP HADGGL+ ++VD VFLYA EI+N+KF+GATTV D  LA +E P HL RVL+EETFE  V             WFKVPVF D GW R+   YF FDE      WE RI+GF+  ET  FF+EL  F ++ RY Y H W+ GDLLI+DNR  IH RE F  DD+ +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1508630868|gb|RNA01787.1|</Hit_id>
+  <Hit_def>spore coat [Brachionus plicatilis]</Hit_def>
+  <Hit_accession>RNA01787</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>2.61378e-54</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>TIKNLLERQGFVVVKNL-DIDSDTFRDIYSAYGTIVE-------------RDTLKLEG-EKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDD</Hsp_qseq>
+      <Hsp_hseq>NVKGLLKDKGFCIIKGYQNIDRDKLIDICQNFGELEEYIDEKKKHKYIGHKHIFEVDGSQETNAVRGRGELPIHADGGLLKKQIDIIALYAAKMDGMKFQGGTGIIDFKLALEEMPLHLRRVLEEEKFETLGLEEPYYSNASSEDWLHIPVLTDLGWTKKCVLYFNYEDEKLASWKTRIQGFSHNETRNFFTELIKYLKSPHYCYLHFWKQDDLLLMDNRRCIHYREPFSKD</Hsp_hseq>
+      <Hsp_midline> +K LL+ +GF ++K   +ID D   DI   +G + E             +   +++G ++   V GRG+LP HADGGLL  Q+D + LYAA++  +KF+G T + D  LA +E P HL RVLEEE FE   L            W  +PV TDLGW +K ++YF +++ + ASW+ RI GF+ +ET+ FF EL  +LK P Y Y HFW+  DLL++DNRR IH RE F+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1508630869|gb|RNA01788.1|</Hit_id>
+  <Hit_def>spore coat [Brachionus plicatilis]</Hit_def>
+  <Hit_accession>RNA01788</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>1.0466e-50</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>GFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE-----------RDTLKLEGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFE------------VRVLWFKVPVFTDLGWVRKILIYFPFDE-GQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQTAD</Hsp_qseq>
+      <Hsp_hseq>GFGLKASRSFFEKLSPSVVKGMIKDKGFILVNDMNYTRESFADMASKYGNLIKFAQETRPGMKSNQVLDLDGNSERLVSGRVELPLHSDGNILKTNVDLVFLYADEIKNLKYQGGTTIVDFKKALEQMPPHLKRILDEEQFETLGIEKGYYPEGVEPYWFQMETYNDRGWTKQFNIYLNYKEKSQGISWITRLRGFSESENERFFFELDKYFRKYEHSYLHYWKKGDLIIMDNRRVLHARQSF-DKGSTRLIFRIQLSE</Hsp_hseq>
+      <Hsp_midline>GFG       F +     +K +++ +GF++V +++   ++F D+ S YG +++              L L+G   ++V+GR +LP H+DG +L + VD VFLYA EIKN+K++G TT+ D   A ++ P HL R+L+EE FE            V   WF++  + D GW ++  IY  + E  Q  SW  R+ GF++ E + FF EL  + ++  + Y H+W+ GDL+I+DNRRV+H R+ F D    R ++R Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1403897126|gb|PZF95832.1|</Hit_id>
+  <Hit_def>hypothetical protein C1I93_14750 [Jishengella endophytica]</Hit_def>
+  <Hit_accession>PZF95832</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.67703e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>SGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER-------DTLKL--EGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRV-----------LWFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>SGLGTRFGA-DVADDLVDTCQRAATRTGLALVRGLDLDADSFQRLVHALGDTVDHKFGEGRADLLELNASADDGKVVTGRGPLPLHTDGLLVGERTDLIVLYAARFSDRPGSGETTVCDQLAAWAEMPDDLRQVIEHTGLEYLVEERGYFPTVPQSWYEIPAVRDYGRVRSLNLTLPFPPGVPRGWQVRVKGADEEDSARFFARLGEFLHRPRYLYQHSWQVGDLMVIDNQRTLHGRTAISDDG-ERLLFRGQ</Hsp_hseq>
+      <Hsp_midline>SG G      D  +   +T +    R G  +V+ LD+D+D+F+ +  A G  V+        D L+L    + GK+VTGRG LP H DG L+  + D + LYAA   +    G TTVCD   A  E P  L +V+E    E  V            W+++P   D G VR + +  PF  G P  W+ R+ G  + ++  FF  LG FL +PRY Y+H W+ GDL+++DN+R +H R   +DD   R L+RGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1407436684|ref|WP_111243861.1|</Hit_id>
+  <Hit_def>TauD/TfdA family dioxygenase [Jishengella endophytica] &gt;gi|1479362213|gb|RIW41533.1| TauD/TfdA family dioxygenase [Jishengella endophytica]</Hit_def>
+  <Hit_accession>WP_111243861</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>2.92314e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>SGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER-------DTLKL--EGEKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRV-----------LWFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>SGLGTRFGA-DVADDLVDTCQRAATRTGLALVRGLDLDADSFQRLVHALGDTVDHKFGEGRADLLELNASADDGKVVTGRGPLPLHTDGLLVGERTDLIVLYAARFSDRPGSGETTVCDQLAAWAEMPDDLRQVIEHTGLEYLVEERGYFPTVPQSWYEIPAVRDYGRVRSLNLTLPFPPGVPRGWQVRVKGADEEDSARFFARLGEFLHRPRYLYQHSWQVGDLMVIDNQRTLHGRTAISDDG-ERLLFRGQ</Hsp_hseq>
+      <Hsp_midline>SG G      D  +   +T +    R G  +V+ LD+D+D+F+ +  A G  V+        D L+L    + GK+VTGRG LP H DG L+  + D + LYAA   +    G TTVCD   A  E P  L +V+E    E  V            W+++P   D G VR + +  PF  G P  W+ R+ G  + ++  FF  LG FL +PRY Y+H W+ GDL+++DN+R +H R   +DD   R L+RGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1408869495|gb|RAO07992.1|</Hit_id>
+  <Hit_def>(5R)-carbapenem-3-carboxylate synthase [Micromonospora noduli] &gt;gi|1408886930|gb|RAO25271.1| (5R)-carbapenem-3-carboxylate synthase [Micromonospora noduli] &gt;gi|1408894397|gb|RAO32619.1| (5R)-carbapenem-3-carboxylate synthase [Micromonospora noduli] &gt;gi|1408916278|gb|RAO53827.1| (5R)-carbapenem-3-carboxylate synthase [Micromonospora noduli]</Hit_def>
+  <Hit_accession>RAO07992</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>2.8844e-42</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>NPVDASGFGAYIDHRDFLEAKTETIKNLLERQ-------GFVVVKNLDIDSDTFRDIYSAYGTIVER-------DTLKLEGEK--GKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFE-----------VRVLWFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>NTLTGSGLGTVLT-----SPPGEAVEELARRSQEAALTSGAALTRGLDFTEEAFQRLVHLLGQTVDHKFGEGQADLLLLNASRDEGKVVTGRGPLPLHTDGLLVGEQVDLIVLYAKDFADEPGSGETTVCDQLAAWREIPAHLGKVLADGRLEYLVEERGYFPQVPADWYEIPTTRDYGRVRSLNLALGFPPDVPQGWQVRVAGMDAHDSAAFFAELSAHLHSPRYLYQHRWQTGDLLVIDNQRTLHGRTAIGSDG-VRLLYRGQ</Hsp_hseq>
+      <Hsp_midline>N +  SG G  +          E ++ L  R        G  + + LD   + F+ +    G  V+        D L L   +  GK+VTGRG LP H DG L+  QVD + LYA +  +    G TTVCD   A +E PAHL +VL +   E           V   W+++P   D G VR + +   F    P  W+ R+ G   H++ AFF EL A L  PRY Y+H W+ GDLL++DN+R +H R     D  VR LYRGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1425059958|ref|WP_112730988.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micromonospora noduli]</Hit_def>
+  <Hit_accession>WP_112730988</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>4.62788e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQ-------GFVVVKNLDIDSDTFRDIYSAYGTIVER-------DTLKLEGEK--GKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFE-----------VRVLWFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>VMTENTLTGSGLGTVLT-----SPPGEAVEELARRSQEAALTSGAALTRGLDFTEEAFQRLVHLLGQTVDHKFGEGQADLLLLNASRDEGKVVTGRGPLPLHTDGLLVGEQVDLIVLYAKDFADEPGSGETTVCDQLAAWREIPAHLGKVLADGRLEYLVEERGYFPQVPADWYEIPTTRDYGRVRSLNLALGFPPDVPQGWQVRVAGMDAHDSAAFFAELSAHLHSPRYLYQHRWQTGDLLVIDNQRTLHGRTAIGSDG-VRLLYRGQ</Hsp_hseq>
+      <Hsp_midline>++  N +  SG G  +          E ++ L  R        G  + + LD   + F+ +    G  V+        D L L   +  GK+VTGRG LP H DG L+  QVD + LYA +  +    G TTVCD   A +E PAHL +VL +   E           V   W+++P   D G VR + +   F    P  W+ R+ G   H++ AFF EL A L  PRY Y+H W+ GDLL++DN+R +H R     D  VR LYRGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1424335351|ref|WP_112602265.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micromonospora noduli]</Hit_def>
+  <Hit_accession>WP_112602265</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>4.62788e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQ-------GFVVVKNLDIDSDTFRDIYSAYGTIVER-------DTLKLEGEK--GKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFE-----------VRVLWFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>VMTENTLTGSGLGTVLT-----SPPGEAVEELARRSQEAALTSGAALTRGLDFTEEAFQRLVHLLGQTVDHKFGEGQADLLLLNASRDEGKVVTGRGPLPLHTDGLLVGEQVDLIVLYAKDFADEPGSGETTVCDQLAAWREIPAHLGKVLADGRLEYLVEERGYFPQVPADWYEIPTTRDYGRVRSLNLALGFPPDVPQGWQVRVAGMDAHDSAAFFAELSAHLHSPRYLYQHRWQTGDLLVIDNQRTLHGRTAIGSDG-VRLLYRGQ</Hsp_hseq>
+      <Hsp_midline>++  N +  SG G  +          E ++ L  R        G  + + LD   + F+ +    G  V+        D L L   +  GK+VTGRG LP H DG L+  QVD + LYA +  +    G TTVCD   A +E PAHL +VL +   E           V   W+++P   D G VR + +   F    P  W+ R+ G   H++ AFF EL A L  PRY Y+H W+ GDLL++DN+R +H R     D  VR LYRGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1424315655|ref|WP_112583128.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micromonospora noduli]</Hit_def>
+  <Hit_accession>WP_112583128</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>9.6867e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQ-------GFVVVKNLDIDSDTFRDIYSAYGTIVER-------DTLKLEGEK--GKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFE-----------VRVLWFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>VMTENTLTGSGLGTVLP-----SPPGEAVEELARRSQEAALTSGAALTRGLDFTEEAFQRLVHLLGQTVDHKFGEGQADLLLLNASRDEGKVVTGRGPLPLHTDGLLVGEQVDLIVLFAKDFADEPGSGETTVCDQLAAWREIPAHLGKVLADGRLEYLVEERGYFPQVPADWYEIPTTRDYGRVRSLNLALGFPPDVPQGWQVRVAGMDAHDSAAFFAELSAHLHSPRYLYQHRWQTGDLLVIDNQRTLHGRTAIGSDG-VRLLYRGQ</Hsp_hseq>
+      <Hsp_midline>++  N +  SG G  +          E ++ L  R        G  + + LD   + F+ +    G  V+        D L L   +  GK+VTGRG LP H DG L+  QVD + L+A +  +    G TTVCD   A +E PAHL +VL +   E           V   W+++P   D G VR + +   F    P  W+ R+ G   H++ AFF EL A L  PRY Y+H W+ GDLL++DN+R +H R     D  VR LYRGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1408865736|gb|RAO04272.1|</Hit_id>
+  <Hit_def>(5R)-carbapenem-3-carboxylate synthase [Micromonospora noduli] &gt;gi|1408872817|gb|RAO11275.1| (5R)-carbapenem-3-carboxylate synthase [Micromonospora noduli]</Hit_def>
+  <Hit_accession>RAO04272</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.15336e-41</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>NPVDASGFGAYIDHRDFLEAKTETIKNLLERQ-------GFVVVKNLDIDSDTFRDIYSAYGTIVER-------DTLKLEGEK--GKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFE-----------VRVLWFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>NTLTGSGLGTVLP-----SPPGEAVEELARRSQEAALTSGAALTRGLDFTEEAFQRLVHLLGQTVDHKFGEGQADLLLLNASRDEGKVVTGRGPLPLHTDGLLVGEQVDLIVLFAKDFADEPGSGETTVCDQLAAWREIPAHLGKVLADGRLEYLVEERGYFPQVPADWYEIPTTRDYGRVRSLNLALGFPPDVPQGWQVRVAGMDAHDSAAFFAELSAHLHSPRYLYQHRWQTGDLLVIDNQRTLHGRTAIGSDG-VRLLYRGQ</Hsp_hseq>
+      <Hsp_midline>N +  SG G  +          E ++ L  R        G  + + LD   + F+ +    G  V+        D L L   +  GK+VTGRG LP H DG L+  QVD + L+A +  +    G TTVCD   A +E PAHL +VL +   E           V   W+++P   D G VR + +   F    P  W+ R+ G   H++ AFF EL A L  PRY Y+H W+ GDLL++DN+R +H R     D  VR LYRGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1528201955|ref|WP_124772886.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micromonospora sp. LB39] &gt;gi|1526339304|gb|RQX03010.1| hypothetical protein DLJ59_13710 [Micromonospora sp. LB39]</Hit_def>
+  <Hit_accession>WP_124772886</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>2.06998e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>IVKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQ-------GFVVVKNLDIDSDTFRDIYSAYGTIVER-------DTLKLEGEK--GKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFE-----------VRVLWFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>MMAENTLTDSGFGTVLT-----SPPGETVEELARRSQEAALTSGVALTRGLDFTENAFQRLVHLLGQTVDHKFGEGQADLLLLNASRDVGKVVTGRGPLPLHTDGLLVGEQVDLIVLYAKDFADEPGSGETTVCDQLAAWREIPAHLGKVVADGRLEYLVEERGYFPQVPADWYEIPTTRDYGRVRSLNLALGFPPDVPQGWQVRVAGVSADDSAAFFAELSAHLHSPRYLYQHRWQTGDLLVIDNQRTLHGRTAIGSDG-VRLLYRGQ</Hsp_hseq>
+      <Hsp_midline>++  N +  SGFG  +          ET++ L  R        G  + + LD   + F+ +    G  V+        D L L   +  GK+VTGRG LP H DG L+  QVD + LYA +  +    G TTVCD   A +E PAHL +V+ +   E           V   W+++P   D G VR + +   F    P  W+ R+ G +  ++ AFF EL A L  PRY Y+H W+ GDLL++DN+R +H R     D  VR LYRGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|516048048|ref|WP_017478631.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pseudomonas sp. PAMC 26793]</Hit_def>
+  <Hit_accession>WP_017478631</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.39842e-41</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>VKFNPVDASGFGAYIDHRDFLEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVE------------RDTLKLEG--EKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL-----------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQ</Hsp_qseq>
+      <Hsp_hseq>LRGQPLTASGLGIQLPENTPLSAVRQAVLD----HGVALLQNLEFDQNSFRQFVESLGDKVSYAEDKAKVGYGFADILNLDGSHDKEKVITGRGSLPLHTDGILLGTQVDLIILYAADVKDIDEDGATVVCDQLAAWNDMPASLRKPLLHGELEYMAFERGYFATVPEGWYPISTFRDYGRVRSLNLALPFDGQAKASWDVRVPGLNEQASAAWFAELEQHLTAAPYLYSHRWRKGDLLVIDNQRTLHGRRGLQ-PNTCRKLLRGQ</Hsp_hseq>
+      <Hsp_midline>++  P+ ASG G  +     L A  + + +     G  +++NL+ D ++FR    + G  V              D L L+G  +K K++TGRG LP H DG LL +QVD + LYAA++K++   GAT VCD   A  + PA L + L     E               W+ +  F D G VR + +  PFD    ASW+ R+ G  +  + A+F EL   L    Y Y H W  GDLL++DN+R +H R      +  R+L RGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|764670499|ref|WP_044451787.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mastigocladus laminosus] &gt;gi|1143637309|gb|ONN63369.1| hypothetical protein BLD44_03745 [Mastigocladus laminosus UU774]</Hit_def>
+  <Hit_accession>WP_044451787</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>3.77561e-41</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>PVDASGFGAYID-HRDF-LEAKTETIKNLLERQGFVVVKNLDIDSDTFRDIYSAYGTIVER------------DTLKLEG--EKGKIVTGRGQLPFHADGGLLLSQVDQVFLYAAEIKNVKFRGATTVCDHALACQENPAHLLRVLEEETFEVRVL------------WFKVPVFTDLGWVRKILIYFPFDEGQPASWEPRIVGFTDHETQAFFQELGAFLKQPRYYYKHFWEDGDLLIVDNRRVIHEREEFNDDDIVRRLYRGQT</Hsp_qseq>
+      <Hsp_hseq>PLVSSGMGRELSLPKDLNLEMLVSQLVDLVTKYKLVIIRDLDLTEAGFRNFLSSLGLPVQHKGDQASVGYGFGDILKLDGGFQETKVVTGRGPLPLHSDGVLLSTQIDLIVFYCVASSEGSQSGSTFVCDQLTALREAPPSLLKKIKENGIEYSVVEKGFFTTVADKDWFPINAFHSHNGEDVLKIALPFPKGSPTSWKARVANLLDIESEKLLADLSKFLEQPRYTYRHRWKTGDLMLVDNHTTLHGRDAIEGDS-VRQIWRGQA</Hsp_hseq>
+      <Hsp_midline>P+ +SG G  +   +D  LE     + +L+ +   V++++LD+    FR+  S+ G  V+             D LKL+G  ++ K+VTGRG LP H+DG LL +Q+D +  Y          G+T VCD   A +E P  LL+ ++E   E  V+            WF +  F        + I  PF +G P SW+ R+    D E++    +L  FL+QPRY Y+H W+ GDL++VDN   +H R+    D  VR+++RGQ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>183094085</Statistics_db-num>
+      <Statistics_db-len>66801522811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
