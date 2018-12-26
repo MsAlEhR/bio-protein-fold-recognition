@@ -332,7 +332,7 @@ if __name__ == '__main__':
     
     #dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
     
-    m_thread_dl_bxml(protein_dtfrm, 'refahi-bxmls.txt', './BXML/tg_bxml/', 5)
+    m_thread_dl_bxml(protein_dtfrm, 'mir-bxmls.txt', './BXML/tg_bxml/', 7)
     
     #fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
     
