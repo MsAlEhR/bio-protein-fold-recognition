@@ -1,0 +1,2353 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_102605</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1b5qa1347</BlastOutput_query-def>
+  <BlastOutput_query-len>347</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_102605</Iteration_query-ID>
+  <Iteration_query-def>d1b5qa1347</Iteration_query-def>
+  <Iteration_query-len>347</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1394902246|gb|PWZ45985.1|</Hit_id>
+  <Hit_def>Polyamine oxidase [Zea mays]</Hit_def>
+  <Hit_accession>PWZ45985</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.193</Hsp_bit-score>
+      <Hsp_score>1528</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDRSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDD+SGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>7.8943e-20</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEIL--INCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGLQVSTPLKFSSTAPRKRC</Hsp_hseq>
+      <Hsp_midline>+  +  WPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSG+  +  L   + A +K C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|6225822|sp|O64411.1|PAO1_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Polyamine oxidase 1; Flags: Precursor &gt;gi|3043529|emb|CAA05249.1| polyamine oxidase (plasmid) [Zea mays] &gt;gi|9843858|emb|CAC03739.1| flavin containing polyamine oxidase [Zea mays] &gt;gi|9844865|emb|CAC04001.1| polyamine oxidase [Zea mays]</Hit_def>
+  <Hit_accession>O64411</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.193</Hsp_bit-score>
+      <Hsp_score>1528</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>5.16788e-31</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1160351452|ref|NP_001105106.2|</Hit_id>
+  <Hit_def>polyamine oxidase 1 precursor [Zea mays] &gt;gi|1142645958|gb|AQK40944.1| polyamine oxidase1 [Zea mays]</Hit_def>
+  <Hit_accession>NP_001105106</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.808</Hsp_bit-score>
+      <Hsp_score>1527</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>5.32555e-31</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|6730082|pdb|1B37|A</Hit_id>
+  <Hit_def>Chain A, A 30 Angstrom U-Shaped Catalytic Tunnel In The Crystal Structure Of Polyamine Oxidase &gt;gi|6730083|pdb|1B37|B Chain B, A 30 Angstrom U-Shaped Catalytic Tunnel In The Crystal Structure Of Polyamine Oxidase &gt;gi|6730084|pdb|1B37|C Chain C, A 30 Angstrom U-Shaped Catalytic Tunnel In The Crystal Structure Of Polyamine Oxidase &gt;gi|6980739|pdb|1B5Q|A Chain A, A 30 Angstrom U-Shaped Catalytic Tunnel In The Crystal Structure Of Polyamine Oxidase &gt;gi|6980740|pdb|1B5Q|B Chain B, A 30 Angstrom U-Shaped Catalytic Tunnel In The Crystal Structure Of Polyamine Oxidase &gt;gi|6980741|pdb|1B5Q|C Chain C, A 30 Angstrom U-Shaped Catalytic Tunnel In The Crystal Structure Of Polyamine Oxidase &gt;gi|13096271|pdb|1H81|A Chain A, Structure Of Polyamine Oxidase In The Reduced State &gt;gi|13096272|pdb|1H81|B Chain B, Structure Of Polyamine Oxidase In The Reduced State &gt;gi|13096273|pdb|1H81|C Chain C, Structure Of Polyamine Oxidase In The Reduced State &gt;gi|13096274|pdb|1H82|A Chain A, Structure Of Polyamine Oxidase In Complex With Guazatine &gt;gi|13096275|pdb|1H82|B Chain B, Structure Of Polyamine Oxidase In Complex With Guazatine &gt;gi|13096276|pdb|1H82|C Chain C, Structure Of Polyamine Oxidase In Complex With Guazatine &gt;gi|13096277|pdb|1H83|A Chain A, Structure Of Polyamine Oxidase In Complex With 1,8- Diaminooctane &gt;gi|13096278|pdb|1H83|B Chain B, Structure Of Polyamine Oxidase In Complex With 1,8- Diaminooctane &gt;gi|13096279|pdb|1H83|C Chain C, Structure Of Polyamine Oxidase In Complex With 1,8- Diaminooctane &gt;gi|13096280|pdb|1H84|A Chain A, Covalent Adduct Between Polyamine Oxidase And N1ethyln11 ((cycloheptyl)methyl)4,8diazaundecane At Ph 4.6 &gt;gi|13096281|pdb|1H84|B Chain B, Covalent Adduct Between Polyamine Oxidase And N1ethyln11 ((cycloheptyl)methyl)4,8diazaundecane At Ph 4.6 &gt;gi|13096282|pdb|1H84|C Chain C, Covalent Adduct Between Polyamine Oxidase And N1ethyln11 ((cycloheptyl)methyl)4,8diazaundecane At Ph 4.6 &gt;gi|13096283|pdb|1H86|A Chain A, Covalent Adduct Between Polyamine Oxidase And N1ethyln11 ((Cycloheptyl)methyl)4,8diazaundecane At Ph 7.0 &gt;gi|13096284|pdb|1H86|B Chain B, Covalent Adduct Between Polyamine Oxidase And N1ethyln11 ((Cycloheptyl)methyl)4,8diazaundecane At Ph 7.0 &gt;gi|13096285|pdb|1H86|C Chain C, Covalent Adduct Between Polyamine Oxidase And N1ethyln11 ((Cycloheptyl)methyl)4,8diazaundecane At Ph 7.0</Hit_def>
+  <Hit_accession>1B37_A</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>591.652</Hsp_bit-score>
+      <Hsp_score>1524</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>5.00662e-31</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>400</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|312207852|pdb|3KPF|A</Hit_id>
+  <Hit_def>Chain A, X-Ray Structure Of The Mutant Lys300met Of Polyamine Oxidase From Zea Mays &gt;gi|312207853|pdb|3KPF|B Chain B, X-Ray Structure Of The Mutant Lys300met Of Polyamine Oxidase From Zea Mays &gt;gi|315113352|pdb|3KU9|A Chain A, X-Ray Structure Of The Mutant Lys300met Of Polyamine Oxidase From Zea Mays In Complex With Spermine &gt;gi|315113353|pdb|3KU9|B Chain B, X-Ray Structure Of The Mutant Lys300met Of Polyamine Oxidase From Zea Mays In Complex With Spermine &gt;gi|315113394|pdb|3L1R|A Chain A, X-Ray Structure Of The Mutant Lys300met Of Polyamine Oxidase From Zea Mays In Complex With Spermidine &gt;gi|315113395|pdb|3L1R|B Chain B, X-Ray Structure Of The Mutant Lys300met Of Polyamine Oxidase From Zea Mays In Complex With Spermidine</Hit_def>
+  <Hit_accession>3KPF_A</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.882</Hsp_bit-score>
+      <Hsp_score>1522</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>8.15075e-31</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>400</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|9844871|emb|CAC04002.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Zea mays]</Hit_def>
+  <Hit_accession>CAC04002</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.956</Hsp_bit-score>
+      <Hsp_score>1517</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDRSGKIVDPRLQLIKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDD+SGKIVDPRLQL KVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>5.21991e-31</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|530279405|gb|AGT17227.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Saccharum hybrid cultivar R570]</Hit_def>
+  <Hit_accession>AGT17227</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.584</Hsp_bit-score>
+      <Hsp_score>1407</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PGVIVVGAGMSGISAAKRLSDAGITDLLILEATDHIGGRMHKKNFAGINVEVGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGLYDEDYIQKRIDRADAVEESGDKLSSTLHASGRDDMSILAMQRLNDHQPNGPATPVDMVVDYYKYDYEFAEPPRVTSLQNTVPLPTFSDFGDDVYFVADQRGYEAVVYYLAGQYLKT-DRSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYRADYVMVSASLGVLQSALIQFKPQLPAWKVTAIYQF</Hsp_hseq>
+      <Hsp_midline>P VIVVGAGMSGISAAKRLS+AGITDLLILEATDHIGGRMHK NFAGINVE+GANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGG+YDEDY+QKRI+ AD+VEE G+KLS+TLHASGRDDMSILAMQRLN+HQPNGPATPVDMVVDYYK+DYEFAEPPRVTSLQNTVPL TFSDFGDDVYFVADQRGYEAVVYYLAGQYLKT D+SGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVY ADYVMVSASLGVLQS LIQFKP+LP WKV AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.72552e-30</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILVNCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEIL+NCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|242080861|ref|XP_002445199.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Sorghum bicolor] &gt;gi|1174552244|gb|OQU80059.1| hypothetical protein SORBI_3007G073100 [Sorghum bicolor]</Hit_def>
+  <Hit_accession>XP_002445199</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.191</Hsp_bit-score>
+      <Hsp_score>1393</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNG--GKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIVVGAGMSGISAAKRLSDAGITDLLILEATDHIGGRMHKKNFAGINVEVGANWVEGVNSNRGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGLYDEDYVQKRIDRADSVEELGEKLSGTLHASGRDDMSILAMQRLYDHQPNGPATPVDMVVDYYKYDYEFAEPPRVTSLQNVVPLPTFSDFGDDVYFVADQRGYEAVVYYLAGQFLKT-DRSGKIVDPRLQLNKVVREINYSPGGVTVKTEDNSVYRADYVMVSASLGVLQSALIQFKPQLPAWKVTAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVIVVGAGMSGISAAKRLS+AGITDLLILEATDHIGGRMHK NFAGINVE+GANWVEGVN   GKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGG+YDEDYVQKRI+ ADSVEE+GEKLS TLHASGRDDMSILAMQRL +HQPNGPATPVDMVVDYYK+DYEFAEPPRVTSLQN VPL TFSDFGDDVYFVADQRGYEAVVYYLAGQ+LKT D+SGKIVDPRLQLNKVVREI YSPGGVTVKTEDNSVY ADYVMVSASLGVLQS LIQFKP+LP WKV AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.44733e-30</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>488</Hsp_hit-from>
+      <Hsp_hit-to>551</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1382756351|gb|PUZ42409.1|</Hit_id>
+  <Hit_def>hypothetical protein GQ55_9G580000 [Panicum hallii var. hallii] &gt;gi|1382756352|gb|PUZ42410.1| hypothetical protein GQ55_9G580000 [Panicum hallii var. hallii]</Hit_def>
+  <Hit_accession>PUZ42409</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.857</Hsp_bit-score>
+      <Hsp_score>1348</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLCDAGITDLLILEATDHVGGRMHKQNFAGINVEVGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDHLAQNVYKEDGGLYDEHYVQKRIDQADNVEESGKILTGTLHTSGRDDMSVLAMQRLYDHQPNGPATPVDMVVDYYKYDYEFAEPPRVTSLQNTVPLPTFSDFGDDVYFVADQRGYESVVFYLAGQYLKT-DKFGKIVDPRLKLNKVVREISYSPSGVTVKTEDNAVYLADYVMVSASLGVLQSDLIQFKPQLPSWKVVAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRL +AGITDLLILEATDH+GGRMHK NFAGINVE+GANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFD+LAQNVYKEDGG+YDE YVQKRI+ AD+VEE G+ L+ TLH SGRDDMS+LAMQRL +HQPNGPATPVDMVVDYYK+DYEFAEPPRVTSLQNTVPL TFSDFGDDVYFVADQRGYE+VV+YLAGQYLKT DK GKIVDPRL+LNKVVREI YSP GVTVKTEDN+VY ADYVMVSASLGVLQSDLIQFKP+LP+WKV AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.19712e-30</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>424</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>RGSFSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLAGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>R  +  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYL+GIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1435198031|ref|XP_025798525.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Panicum hallii] &gt;gi|1238328469|gb|PAN51102.1| hypothetical protein PAHAL_9G570200 [Panicum hallii]</Hit_def>
+  <Hit_accession>XP_025798525</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.472</Hsp_bit-score>
+      <Hsp_score>1347</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLCDAGMTDLLILEATDHVGGRMHKQNFAGINVEVGANWVEGVNGGKMNPIWPIVNSTLMLRNFRSDFDHLAQNVYKEDGGLYDEHYVQKRIDQADNVEESGKKLTGTLHTSGRDDMSVLAMQRLYDHQPNGPATPVDMVVDYYKYDYEFAEPPRVTSLQNTVPLPTFSDFGDDVYFVADQRGYESVVFYLAGQYLKT-DKFGKIVDPRLKLNKVVREISYSPSGVTVKTEDNAVYLADYVMVSASLGVLQSDLIQFKPQLPSWKVVAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRL +AG+TDLLILEATDH+GGRMHK NFAGINVE+GANWVEGVNGGKMNPIWPIVNSTL LRNFRSDFD+LAQNVYKEDGG+YDE YVQKRI+ AD+VEE G+KL+ TLH SGRDDMS+LAMQRL +HQPNGPATPVDMVVDYYK+DYEFAEPPRVTSLQNTVPL TFSDFGDDVYFVADQRGYE+VV+YLAGQYLKT DK GKIVDPRL+LNKVVREI YSP GVTVKTEDN+VY ADYVMVSASLGVLQSDLIQFKP+LP+WKV AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.29346e-30</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>424</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>RGTFSNWPIGVNRYEYDQLRAPIGRVYFTGEHTSEHFNGYVHGAYLAGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>R  +  WP+GVNRYEYDQLRAP+GRVYFTGEHTSEH+NGYVHGAYL+GIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|514821384|ref|XP_004985372.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Setaria italica] &gt;gi|1433441944|gb|RCV46127.1| hypothetical protein SETIT_9G507600v2 [Setaria italica]</Hit_def>
+  <Hit_accession>XP_004985372</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.072</Hsp_bit-score>
+      <Hsp_score>1320</Hsp_score>
+      <Hsp_evalue>2.11929e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLSEAGITDLLILEATDHVGGRMHKQNFAGINVEVGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKENGGLYDQDYVQKRLDQADKAEESGKKLSGTLPASGSNDMSILAMQRLYDHQPNGPEMPVDMALDYYKFDYELAEPPRVSSMQNCVPLPTFSDFGDDTYFVADQRGYESVVYHLAGQYLKT-DKSGKIVDPRLKLNKVVREISYSPNGVTVKTEDNSVYQADYVMVSASLGVLQSDLIQFKPQLPAWKVVAIYKF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRLSEAGITDLLILEATDH+GGRMHK NFAGINVE+GANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKE+GG+YD+DYVQKR++ AD  EE G+KLS TL ASG +DMSILAMQRL +HQPNGP  PVDM +DYYKFDYE AEPPRV+S+QN VPL TFSDFGDD YFVADQRGYE+VVY+LAGQYLKT DKSGKIVDPRL+LNKVVREI YSP GVTVKTEDNSVY ADYVMVSASLGVLQSDLIQFKP+LP WKV AIY+F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.13029e-29</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPIGVSRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLAGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WP+GV+RYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYL+GIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|14485485|emb|CAC42080.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Hordeum vulgare subsp. vulgare] &gt;gi|14488151|emb|CAC42118.1| flavin containing polyamine oxidase [Hordeum vulgare subsp. vulgare]</Hit_def>
+  <Hit_accession>CAC42080</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.715</Hsp_bit-score>
+      <Hsp_score>1236</Hsp_score>
+      <Hsp_evalue>1.20515e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNG-GKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLSEAGITDLVILEATDHVGGRMHKQSFGGINVEVGANWVEGVNGAGRMNPIWPLVNSTLKLKNFRSDFDGLADNVYKENGGVYERAYVQKRLDRWGEVEEGGEKLSAKLRPSGQDDMSILAMQRLNDHLPNGPTSPVDMVLDYFKHDYEFAEPPRVTSLQNVVPLATFTDFGDDVYFVADQRGYEAVVYYLAGQYLKA-DKSGNIVDPRLQLNKVVTEISHSGGGVTVRTEDAKVYKADYVMVSTSVGVLQSDLIQFKPRLPTWKVLSIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRLSEAGITDL+ILEATDH+GGRMHK +F GINVE+GANWVEGVNG G+MNPIWP+VNSTLKL+NFRSDFD LA NVYKE+GGVY+  YVQKR++    VEE GEKLSA L  SG+DDMSILAMQRLN+H PNGP +PVDMV+DY+K DYEFAEPPRVTSLQN VPLATF+DFGDDVYFVADQRGYEAVVYYLAGQYLK  DKSG IVDPRLQLNKVV EI +S GGVTV+TED  VY ADYVMVS S+GVLQSDLIQFKP+LPTWKV +IYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>2.0771e-29</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>RGTFSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSADILIKCAQKRMC</Hsp_hseq>
+      <Hsp_midline>R  +  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSA+ILI CAQK+MC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1149788345|ref|XP_020156005.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like [Aegilops tauschii subsp. tauschii]</Hit_def>
+  <Hit_accession>XP_020156005</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.019</Hsp_bit-score>
+      <Hsp_score>1229</Hsp_score>
+      <Hsp_evalue>1.49739e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLSEAGITDLVILEATDHLGGRMRKHNFGGVSVEIGANWVEGVNGGKMNPIWPLVNSTLKLRNFRSDFDGLAENVYKETGGVYDRAYVQKRLDRANEVEEGGAKLSAKLRPSGQDDMSILAMQRLNNHLPNGPASPVDMILDYFKHDYEFAEPPRVTSLQNVVPLATFRDFGDDVYFVADKRGYEAVVHHLAGQYLEA-DKARNIVDPRLQLNKVVREISYSGSGVTVRTEDDKVYKADYVMVSTSVGVLQSDLIQFKPRLPAWKVLSIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRLSEAGITDL+ILEATDH+GGRM K NF G++VE+GANWVEGVNGGKMNPIWP+VNSTLKLRNFRSDFD LA+NVYKE GGVYD  YVQKR++ A+ VEE G KLSA L  SG+DDMSILAMQRLN H PNGPA+PVDM++DY+K DYEFAEPPRVTSLQN VPLATF DFGDDVYFVAD+RGYEAVV++LAGQYL+  DK+  IVDPRLQLNKVVREI YS  GVTV+TED+ VY ADYVMVS S+GVLQSDLIQFKP+LP WKV +IYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>7.35389e-29</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>RGTFSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSADILIKCAHKRMC</Hsp_hseq>
+      <Hsp_midline>R  +  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSA+ILI CA K+MC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|573923953|ref|XP_006649546.1|</Hit_id>
+  <Hit_def>PREDICTED: polyamine oxidase-like [Oryza brachyantha]</Hit_def>
+  <Hit_accession>XP_006649546</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.019</Hsp_bit-score>
+      <Hsp_score>1229</Hsp_score>
+      <Hsp_evalue>1.55044e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGISGISAGKRLSEAGITDVLILEATDHVGGRMRKENFAGVNVEVGANWVEGVNGGKMNPIWPIVNSTLKLRNFHSDFDYLAQNIYKEDGGLYDEAEAQKIIDRANKVGDSGEKLAATLSPSGRDDLSILAMQRLNNHQPSGPSSPVDMVVDYFLYDYEFAEPPRVTSLQNAVPAKTFSDFGGDVYFVADQRGYESVVHYLAGQYLNT-SKSGDIADARLQLNKVVREISYSSSGVIVKTEDGSVYQADYVMVSASLGVLQSDLIQFKPQLPKWKILAIYEF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAG+SGISA KRLSEAGITD+LILEATDH+GGRM K NFAG+NVE+GANWVEGVNGGKMNPIWPIVNSTLKLRNF SDFDYLAQN+YKEDGG+YDE   QK I+ A+ V + GEKL+ATL  SGRDD+SILAMQRLN HQP+GP++PVDMVVDY+ +DYEFAEPPRVTSLQN VP  TFSDFG DVYFVADQRGYE+VV+YLAGQYL T  KSG I D RLQLNKVVREI YS  GV VKTED SVY ADYVMVSASLGVLQSDLIQFKP+LP WK+ AIY+F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.75685e-26</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWKVRAIYQ----FWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFYKGTFSNWPIGVNRYEFDQLRAPVGRVYFTGEHTSEFYNGYVHGGYLAGIDSADILINCARKKVC</Hsp_hseq>
+      <Hsp_midline>+P W     Y+     WP+GVNRYE+DQLRAPVGRVYFTGEHTSE YNGYVHG YL+GIDSA+ILINCA+KK+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1002295181|ref|XP_015611019.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Oryza sativa Japonica Group] &gt;gi|1511375422|sp|A0A0P0XM10.1|PAO6_ORYSJ RecName: Full=Polyamine oxidase 6; Short=OsPAO6; AltName: Full=Polyamine oxidase B; Flags: Precursor &gt;gi|937932832|dbj|BAT07747.1| Os09g0368200 [Oryza sativa Japonica Group] &gt;gi|1040974508|dbj|BAV17937.1| polyamine oxidase 6 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>XP_015611019</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>2.77064e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGISGISAGKRIWEAGIADVLILEATDRIGGRMHKQSFAGVNVEIGANWVEGVNGEKKNPIWPIVNSTLKLRSFRSDFDSLAQNVYK-DGGLCDEAYVQKRMDRADEVDKSGENLSATLHPSGRDDMSILSMQRLNDHLPNGPSSPVDMAVDYFTYDYEFAEPPRVTSLQNTVPLPTFTDFGDDTYFVADQRGYESVVHHLAGQYLNA-DKSGNIADARLKLNKVVREISYSSTGVTVKTEDNSTYQADYVMVSASLGVLQSDLIQFKPQLPSWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAG+SGISA KR+ EAGI D+LILEATD IGGRMHK +FAG+NVE+GANWVEGVNG K NPIWPIVNSTLKLR+FRSDFD LAQNVYK DGG+ DE YVQKR++ AD V++ GE LSATLH SGRDDMSIL+MQRLN+H PNGP++PVDM VDY+ +DYEFAEPPRVTSLQNTVPL TF+DFGDD YFVADQRGYE+VV++LAGQYL   DKSG I D RL+LNKVVREI YS  GVTVKTEDNS Y ADYVMVSASLGVLQSDLIQFKP+LP+WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>6.66364e-29</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFRGSFSNWPIGVSRYEYDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+P W      R  +  WP+GV+RYEYDQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|49387668|dbj|BAD25914.1|</Hit_id>
+  <Hit_def>putative polyamine oxidase precursor [Oryza sativa Japonica Group] &gt;gi|49388776|dbj|BAD25971.1| putative polyamine oxidase precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>BAD25914</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>2.78525e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGISGISAGKRIWEAGIADVLILEATDRIGGRMHKQSFAGVNVEIGANWVEGVNGEKKNPIWPIVNSTLKLRSFRSDFDSLAQNVYK-DGGLCDEAYVQKRMDRADEVDKSGENLSATLHPSGRDDMSILSMQRLNDHLPNGPSSPVDMAVDYFTYDYEFAEPPRVTSLQNTVPLPTFTDFGDDTYFVADQRGYESVVHHLAGQYLNA-DKSGNIADARLKLNKVVREISYSSTGVTVKTEDNSTYQADYVMVSASLGVLQSDLIQFKPQLPSWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAG+SGISA KR+ EAGI D+LILEATD IGGRMHK +FAG+NVE+GANWVEGVNG K NPIWPIVNSTLKLR+FRSDFD LAQNVYK DGG+ DE YVQKR++ AD V++ GE LSATLH SGRDDMSIL+MQRLN+H PNGP++PVDM VDY+ +DYEFAEPPRVTSLQNTVPL TF+DFGDD YFVADQRGYE+VV++LAGQYL   DKSG I D RL+LNKVVREI YS  GVTVKTEDNS Y ADYVMVSASLGVLQSDLIQFKP+LP+WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>6.71415e-29</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>408</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFRGSFSNWPIGVSRYEYDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+P W      R  +  WP+GV+RYEYDQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|122234459|sp|Q0J290.1|PAO7_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Polyamine oxidase 7; Short=OsPAO7; Flags: Precursor &gt;gi|113631244|dbj|BAF24925.1| Os09g0368500 [Oryza sativa Japonica Group] &gt;gi|937932835|dbj|BAT07750.1| Os09g0368500 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q0J290</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>2.02245e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIIGAGISGISAGKRLSEAGITDILILEATDHIGGRMHKQRFAGVNVEIGANWVEGVNGEKMNPIWPIVNSTLKLRNFLSDFDSLAQNVYK-DGGLCDAAYVQKRIDLADEADKSGENLSATLHPSGRDDMSILSMQRLNNHLPNGPSSPVDMVVDYFTYDYEFAEPPRVTSLRNTVPLPTFTDFGDDNYFVADQRGYEAVVYYLAGQYLEA-DKSGNIVDARLQLNKVVREISYSSTGVTVKTEDNSTYQADYVMVSASLGVLQSDLIQFKPQLPSWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI++GAG+SGISA KRLSEAGITD+LILEATDHIGGRMHK  FAG+NVE+GANWVEGVNG KMNPIWPIVNSTLKLRNF SDFD LAQNVYK DGG+ D  YVQKRI+LAD  ++ GE LSATLH SGRDDMSIL+MQRLN H PNGP++PVDMVVDY+ +DYEFAEPPRVTSL+NTVPL TF+DFGDD YFVADQRGYEAVVYYLAGQYL+  DKSG IVD RLQLNKVVREI YS  GVTVKTEDNS Y ADYVMVSASLGVLQSDLIQFKP+LP+WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.79159e-16</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>LPTWKVRAIYQ----FWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGI</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFQGSFSNWPIGVSRYEHDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGI</Hsp_hseq>
+      <Hsp_midline>+P W     +Q     WP+GV+RYE+DQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1443098006|ref|XP_015611432.2|</Hit_id>
+  <Hit_def>polyamine oxidase [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>XP_015611432</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>2.22424e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIIGAGISGISAGKRLSEAGITDILILEATDHIGGRMHKQRFAGVNVEIGANWVEGVNGEKMNPIWPIVNSTLKLRNFLSDFDSLAQNVYK-DGGLCDAAYVQKRIDLADEADKSGENLSATLHPSGRDDMSILSMQRLNNHLPNGPSSPVDMVVDYFTYDYEFAEPPRVTSLRNTVPLPTFTDFGDDNYFVADQRGYEAVVYYLAGQYLEA-DKSGNIVDARLQLNKVVREISYSSTGVTVKTEDNSTYQADYVMVSASLGVLQSDLIQFKPQLPSWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI++GAG+SGISA KRLSEAGITD+LILEATDHIGGRMHK  FAG+NVE+GANWVEGVNG KMNPIWPIVNSTLKLRNF SDFD LAQNVYK DGG+ D  YVQKRI+LAD  ++ GE LSATLH SGRDDMSIL+MQRLN H PNGP++PVDMVVDY+ +DYEFAEPPRVTSL+NTVPL TF+DFGDD YFVADQRGYEAVVYYLAGQYL+  DKSG IVD RLQLNKVVREI YS  GVTVKTEDNS Y ADYVMVSASLGVLQSDLIQFKP+LP+WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>4.51649e-23</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>418</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LPTWKVRAIYQ----FWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFQGSFSNWPIGVSRYEHDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGIDSAEILINC</Hsp_hseq>
+      <Hsp_midline>+P W     +Q     WP+GV+RYE+DQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSAEILINC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|49387670|dbj|BAD25916.1|</Hit_id>
+  <Hit_def>putative polyamine oxidase precursor [Oryza sativa Japonica Group] &gt;gi|49388778|dbj|BAD25973.1| putative polyamine oxidase precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>BAD25916</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>2.26527e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIIGAGISGISAGKRLSEAGITDILILEATDHIGGRMHKQRFAGVNVEIGANWVEGVNGEKMNPIWPIVNSTLKLRNFLSDFDSLAQNVYK-DGGLCDAAYVQKRIDLADEADKSGENLSATLHPSGRDDMSILSMQRLNNHLPNGPSSPVDMVVDYFTYDYEFAEPPRVTSLRNTVPLPTFTDFGDDNYFVADQRGYEAVVYYLAGQYLEA-DKSGNIVDARLQLNKVVREISYSSTGVTVKTEDNSTYQADYVMVSASLGVLQSDLIQFKPQLPSWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI++GAG+SGISA KRLSEAGITD+LILEATDHIGGRMHK  FAG+NVE+GANWVEGVNG KMNPIWPIVNSTLKLRNF SDFD LAQNVYK DGG+ D  YVQKRI+LAD  ++ GE LSATLH SGRDDMSIL+MQRLN H PNGP++PVDMVVDY+ +DYEFAEPPRVTSL+NTVPL TF+DFGDD YFVADQRGYEAVVYYLAGQYL+  DKSG IVD RLQLNKVVREI YS  GVTVKTEDNS Y ADYVMVSASLGVLQSDLIQFKP+LP+WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.9199e-16</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>408</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>LPTWKVRAIYQ----FWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGI</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFQGSFSNWPIGVSRYEHDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGI</Hsp_hseq>
+      <Hsp_midline>+P W     +Q     WP+GV+RYE+DQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1070941018|gb|OEL23073.1|</Hit_id>
+  <Hit_def>Polyamine oxidase [Dichanthelium oligosanthes]</Hit_def>
+  <Hit_accession>OEL23073</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>9.5836e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PKVIIVGAGMAGISAGKRLSDAGITDFVILEATDRIGGRIHKTKFAGLNVEMGANWVEGVGGEQMNPIWTMANKTLQLRTFFSDFDGLSKNTYKEDGGLHPEDFVKKRIERADEVEESGSKLAGTLHASGRDDMSVMAMQRLNDHLPSGPSTPVDMVIDYYKYDYEFAEPPRVTSLQNTQPLSTFKNFGDDVHFVADQRGYESVVYYVAGQYLKT-DKSGAIVDPRLKLNQVVKEITYFPSGVMVKTEDNKVYRADYVMVSVSLGVLQTDLIRFRPQLPNWKIVSIYQF</Hsp_hseq>
+      <Hsp_midline>P+VI+VGAGM+GISA KRLS+AGITD +ILEATD IGGR+HKT FAG+NVE+GANWVEGV G +MNPIW + N TL+LR F SDFD L++N YKEDGG++ ED+V+KRIE AD VEE G KL+ TLHASGRDDMS++AMQRLN+H P+GP+TPVDMV+DYYK+DYEFAEPPRVTSLQNT PL+TF +FGDDV+FVADQRGYE+VVYY+AGQYLKT DKSG IVDPRL+LN+VV+EI Y P GV VKTEDN VY ADYVMVS SLGVLQ+DLI+F+P+LP WK+ +IYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>2.10659e-27</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>410</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGTFSNWPIGVNRYEYDLLRAPVGRVYFTGEHTSEHYNGYVHGAYLAGIDSAHILINCAKKNMC</Hsp_hseq>
+      <Hsp_midline>+P W      +  +  WP+GVNRYEYD LRAPVGRVYFTGEHTSEHYNGYVHGAYL+GIDSA ILINCA+K MC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|573923955|ref|XP_006649547.1|</Hit_id>
+  <Hit_def>PREDICTED: polyamine oxidase-like [Oryza brachyantha]</Hit_def>
+  <Hit_accession>XP_006649547</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>7.06938e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFD-YLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQ----------------FWPVGVNR</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGISGISAGKRLSEAGITDVLILEATDHVGGRMRKENFTGVNVEVGANWVEGVNGEKMNPIWPIVNSTLRLRNFFSDFETYLAQNVYKEDGGVHDEAEVQKTIDRAHEVGESGEKLSATLPTSGRDDMSILAMQRLNDHLPNGPSSPVDMVIDYFIYDYAFAEPPRVTSLQNGVPQRTSTDFGDDSFFVADQRGYESVVHYLAGQYLDTDD-SGNVADARLQLNKAVNEITYSSSGVTVETEDGSVYQADYVMVSASLGVLQSDLIQFKPQLPKWKILAIYEFDMAVYTKIFLKFPERFWPVGKGR</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAG+SGISA KRLSEAGITD+LILEATDH+GGRM K NF G+NVE+GANWVEGVNG KMNPIWPIVNSTL+LRNF SDF+ YLAQNVYKEDGGV+DE  VQK I+ A  V E GEKLSATL  SGRDDMSILAMQRLN+H PNGP++PVDMV+DY+ +DY FAEPPRVTSLQN VP  T +DFGDD +FVADQRGYE+VV+YLAGQYL TDD SG + D RLQLNK V EI YS  GVTV+TED SVY ADYVMVSASLGVLQSDLIQFKP+LP WK+ AIY+                FWPVG  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>9.91507e-29</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFRGSFSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEFYNGYVHGGYLSGIDSAEILINCAQKNMC</Hsp_hseq>
+      <Hsp_midline>+P W      R  +  WP+GVNRYEYDQLRAPVGRVYFTGEHTSE YNGYVHG YLSGIDSAEILINCAQK MC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1149804291|ref|XP_020162143.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like [Aegilops tauschii subsp. tauschii]</Hit_def>
+  <Hit_accession>XP_020162143</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>3.68144e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNST--LKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLSEAGITDLVILEATDRIGGRIHKTKFAGVNVEMGANWVEGVNGDEMNPIWTMANGTGGLNLRTFRSDFDHLASNTYKQDGGLYDEKVVENIIERMDEVEESGSKLSGTLHHSGQQDMSVMAMQRLNDHMPSGPARPVDMVVDYYQHDFEFAEPPRVTSLQNTQPLPTFSNFGDDVYFVADQRGYESVVYHVAGQYLKTDRKSGAVTDPRLKLNTVVREISYFPSGVTVKTEDDKVYRADYVVVSASLGVLQTDLIRFKPQLPSWKIVSIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRLSEAGITDL+ILEATD IGGR+HKT FAG+NVE+GANWVEGVNG +MNPIW + N T  L LR FRSDFD+LA N YK+DGG+YDE  V+  IE  D VEE G KLS TLH SG+ DMS++AMQRLN+H P+GPA PVDMVVDYY+ D+EFAEPPRVTSLQNT PL TFS+FGDDVYFVADQRGYE+VVY++AGQYLKTD KSG + DPRL+LN VVREI Y P GVTVKTED+ VY ADYV+VSASLGVLQ+DLI+FKP+LP+WK+ +IYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.78599e-26</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSFSNWPIGVNRYEYDLIRAPVGRVYFTGEHTSEKYNGYVHGAYLAGIDSADILINCAKKKMC</Hsp_hseq>
+      <Hsp_midline>+P W      +  +  WP+GVNRYEYD +RAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSA+ILINCA+KKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|326515008|dbj|BAJ99865.1|</Hit_id>
+  <Hit_def>predicted protein [Hordeum vulgare subsp. vulgare]</Hit_def>
+  <Hit_accession>BAJ99865</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.595</Hsp_bit-score>
+      <Hsp_score>1163</Hsp_score>
+      <Hsp_evalue>8.08558e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLWDAGVRDLLILEATDRVGGRMHKHNFGGLNVEIGANWVEGLNGDKTNPIWPMVNSTLKLRNFYSDFDGVVANVYKESGGLYDEEFVQKRMDRADEVEELGGKFAAKLDPSGRDDISILAMQRLFNHQPNGPTTPVDMALDYYKYDYEFAEPPRVTSLQGTEPTATFADFGDDANFVADQRGFETIIYHIAGQYLRS-DKSGNIIDPRVKLNKVVRQISYNDKGVVVTTEDNSAYSADYVMVSTSLGVLQSDLIQFKPQLPAWKIMAIYRF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRL +AG+ DLLILEATD +GGRMHK NF G+NVE+GANWVEG+NG K NPIWP+VNSTLKLRNF SDFD +  NVYKE GG+YDE++VQKR++ AD VEE+G K +A L  SGRDD+SILAMQRL  HQPNGP TPVDM +DYYK+DYEFAEPPRVTSLQ T P ATF+DFGDD  FVADQRG+E ++Y++AGQYL++ DKSG I+DPR++LNKVVR+I Y+  GV V TEDNS YSADYVMVS SLGVLQSDLIQFKP+LP WK+ AIY+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|326498221|dbj|BAJ98538.1|</Hit_id>
+  <Hit_def>predicted protein [Hordeum vulgare subsp. vulgare]</Hit_def>
+  <Hit_accession>BAJ98538</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.447</Hsp_bit-score>
+      <Hsp_score>1173</Hsp_score>
+      <Hsp_evalue>5.69051e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNST--LKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLSEAGITDLVILEATDRIGGRIHKTKFAGVNVEMGANWVEGVNGDEMNPIWTMANGTGGLNLRTFRSDFDHLASNTYKQDGGLYDEKVVENIIERMDEVEESGSKLSGTLHHSGQQDMSVMAMQRLNDHMPSGPARPVDMVIDYYQHDFEFAEPPRVTSLQNTQPLPTFSDFGDDVYFVADQRGYESVVYHVAGQYLKTDRKSGAIVDQRLKLNTVAREITYFPSGVAVRTEDNKVYRADYVVVSASLGVLQTDLIRFKPQLPSWKIVSIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRLSEAGITDL+ILEATD IGGR+HKT FAG+NVE+GANWVEGVNG +MNPIW + N T  L LR FRSDFD+LA N YK+DGG+YDE  V+  IE  D VEE G KLS TLH SG+ DMS++AMQRLN+H P+GPA PVDMV+DYY+ D+EFAEPPRVTSLQNT PL TFSDFGDDVYFVADQRGYE+VVY++AGQYLKTD KSG IVD RL+LN V REI Y P GV V+TEDN VY ADYV+VSASLGVLQ+DLI+FKP+LP+WK+ +IYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>8.60786e-26</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSFSNWPIGVNRYEYDLIRAPVGRVYFTGEHTSEKYNGYVHGAYLAGIDSADILINCAKNKMC</Hsp_hseq>
+      <Hsp_midline>+P W      +  +  WP+GVNRYEYD +RAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSA+ILINCA+ KMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|357146145|ref|XP_003573891.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Brachypodium distachyon] &gt;gi|1371072169|ref|XP_024316248.1| polyamine oxidase [Brachypodium distachyon] &gt;gi|944061003|gb|KQJ96593.1| hypothetical protein BRADI_3g25580v3 [Brachypodium distachyon] &gt;gi|944061004|gb|KQJ96594.1| hypothetical protein BRADI_3g25580v3 [Brachypodium distachyon]</Hit_def>
+  <Hit_accession>XP_003573891</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.366</Hsp_bit-score>
+      <Hsp_score>1165</Hsp_score>
+      <Hsp_evalue>9.17098e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNST--LKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQ----------------FWPVGVNR</Hsp_qseq>
+      <Hsp_hseq>PKVIIVGAGMSGISAGKRLSDARISDFMILEATDRIGGRIHKTKFAGVNVEMGANWVEGVNGKEKNPIWTMANSTGGLNLRTFRSDFDHLASNTYKQDGGLYDDKFVEKIIERMDEVEESGTKLAGTLHLSGQEDMSVMAMQRLNDHMPTGPARPVDMVIDYYQHDFEFAEPPRVTSLQNTVPLPTFDNFGDDVYFVADQRGFESVVYHVAGQYLKTDKATGAIVDPRLKLNTVVREITHFPSGVTVKTEDNNVYKADYVMVSASLGVLQSELIRFRPQLPSWKILSIYQFDMAVYTKIFLKFPRSFWPVGPGR</Hsp_hseq>
+      <Hsp_midline>P+VI+VGAGMSGISA KRLS+A I+D +ILEATD IGGR+HKT FAG+NVE+GANWVEGVNG + NPIW + NST  L LR FRSDFD+LA N YK+DGG+YD+ +V+K IE  D VEE G KL+ TLH SG++DMS++AMQRLN+H P GPA PVDMV+DYY+ D+EFAEPPRVTSLQNTVPL TF +FGDDVYFVADQRG+E+VVY++AGQYLKTD  +G IVDPRL+LN VVREI + P GVTVKTEDN+VY ADYVMVSASLGVLQS+LI+F+P+LP+WK+ +IYQ                FWPVG  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>2.2696e-26</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWKVRAIYQ----FWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNKFYKGSFSNWPIGVNRYEYDLIRAPVGRVYFTGEHTSENYNGYVHGAYLAGIDSADVLINCAKKKLC</Hsp_hseq>
+      <Hsp_midline>+P W     Y+     WP+GVNRYEYD +RAPVGRVYFTGEHTSE+YNGYVHGAYL+GIDSA++LINCA+KK+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|14485487|emb|CAC42081.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Hordeum vulgare subsp. vulgare] &gt;gi|14488153|emb|CAC42119.1| flavin containing polyamine oxidase [Hordeum vulgare subsp. vulgare]</Hit_def>
+  <Hit_accession>CAC42081</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.825</Hsp_bit-score>
+      <Hsp_score>1161</Hsp_score>
+      <Hsp_evalue>3.71852e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLWDAGVRDLLILEATDRVGGRMHKHNFGGLNVEIGANWVEGLNGDKTNPIWPMVNSTLKLRNFYSDFDGVVANVYKESGGLYDEEFVQKRMDRADEVEELGGKFAAKLDPSGRDDISILAMQRLFNHQPNGPTTPVDMALDYYKYDYEFAEPPRVTSLQGTEPTATFADFGDDANFVADQRGFETIIYHIAGQYLRS-DKSGNIIDPRVKLNKVVRQISYNDKGVVVTTEDNSAYSADYVMVSTSLGVLQSDLIQFKPQLPAWKIMAIYRF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRL +AG+ DLLILEATD +GGRMHK NF G+NVE+GANWVEG+NG K NPIWP+VNSTLKLRNF SDFD +  NVYKE GG+YDE++VQKR++ AD VEE+G K +A L  SGRDD+SILAMQRL  HQPNGP TPVDM +DYYK+DYEFAEPPRVTSLQ T P ATF+DFGDD  FVADQRG+E ++Y++AGQYL++ DKSG I+DPR++LNKVVR+I Y+  GV V TEDNS YSADYVMVS SLGVLQSDLIQFKP+LP WK+ AIY+F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>6.5504e-21</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVG-RVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKM</Hsp_qseq>
+      <Hsp_hseq>KGSYSNWPIGVNRYEYDQLRAPVGGRVYFTGEHTSEHYNGYVHGAYLAGIHSADILMNKASNNV</Hsp_hseq>
+      <Hsp_midline>+  Y  WP+GVNRYEYDQLRAPVG RVYFTGEHTSEHYNGYVHGAYL+GI SA+IL+N A   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|255678841|dbj|BAF24924.2|</Hit_id>
+  <Hit_def>Os09g0368200 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>BAF24924</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.981</Hsp_bit-score>
+      <Hsp_score>1164</Hsp_score>
+      <Hsp_evalue>5.181e-154</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>IVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>IRKGKHLTCISAGKRIWEAGIADVLILEATDRIGGRMHKQSFAGVNVEIGANWVEGVNGEKKNPIWPIVNSTLKLRSFRSDFDSLAQNVYK-DGGLCDEAYVQKRMDRADEVDKSGENLSATLHPSGRDDMSILSMQRLNDHLPNGPSSPVDMAVDYFTYDYEFAEPPRVTSLQNTVPLPTFTDFGDDTYFVADQRGYESVVHHLAGQYLNA-DKSGNIADARLKLNKVVREISYSSTGVTVKTEDNSTYQADYVMVSASLGVLQSDLIQFKPQLPSWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>I  G  ++ ISA KR+ EAGI D+LILEATD IGGRMHK +FAG+NVE+GANWVEGVNG K NPIWPIVNSTLKLR+FRSDFD LAQNVYK DGG+ DE YVQKR++ AD V++ GE LSATLH SGRDDMSIL+MQRLN+H PNGP++PVDM VDY+ +DYEFAEPPRVTSLQNTVPL TF+DFGDD YFVADQRGYE+VV++LAGQYL   DKSG I D RL+LNKVVREI YS  GVTVKTEDNS Y ADYVMVSASLGVLQSDLIQFKP+LP+WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.47137e-28</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>458</Hsp_hit-from>
+      <Hsp_hit-to>531</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFRGSFSNWPIGVSRYEYDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+P W      R  +  WP+GV+RYEYDQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1149725331|ref|XP_020188563.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like [Aegilops tauschii subsp. tauschii]</Hit_def>
+  <Hit_accession>XP_020188563</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>2.23915e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLWDAGVRDLLILEATGRVGGRMHKHNFGGLNVEIGANWVEGLNGDKVNPIWPMVNASLKLRNFYSDFDGVVGNVYKESGGLYDEEFVQKRMDRGDEVEELGGKLAAEMDPSGRDDISILAMQRLFNHQPNGPATPVDMVLDYFRYDYEFAEPPRVTSLQGTEPTATFADFGDDANFVADQRGFETLIYHIAGQYLRS-DKSGNIVDPRVKLNKVVREISYDQRGVVVTTEDNSAYSADYVIVSASIGVLQSDLIQFKPQLPAWKILAIYRF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRL +AG+ DLLILEAT  +GGRMHK NF G+NVE+GANWVEG+NG K+NPIWP+VN++LKLRNF SDFD +  NVYKE GG+YDE++VQKR++  D VEE+G KL+A +  SGRDD+SILAMQRL  HQPNGPATPVDMV+DY+++DYEFAEPPRVTSLQ T P ATF+DFGDD  FVADQRG+E ++Y++AGQYL++ DKSG IVDPR++LNKVVREI Y   GV V TEDNS YSADYV+VSAS+GVLQSDLIQFKP+LP WK+ AIY+F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>1.79621e-21</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVG-RVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSYSNWPVGVNRYEYDQLRAPVGGRVYFTGEHTSEHYNGYVHGAYLAGIDSADILMN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WPVGVNRYEYDQLRAPVG RVYFTGEHTSEHYNGYVHGAYL+GIDSA+IL+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|473792519|gb|EMS46361.1|</Hit_id>
+  <Hit_def>Polyamine oxidase [Triticum urartu]</Hit_def>
+  <Hit_accession>EMS46361</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.417</Hsp_bit-score>
+      <Hsp_score>1121</Hsp_score>
+      <Hsp_evalue>5.67421e-148</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>RVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLP</Hsp_qseq>
+      <Hsp_hseq>RVIIVGAGMSGISAGKRLSEAGITDLLILEATDHVGGRMRKRNFGGVNVEMGANWVEGVNGGKMNPIWPLVNSTLKLRNFRSDFDGLAENVYKERGGVYDRAYVQKRLHRSNEVEEGGAKLSAKLRPSGQDDMSILAMQRLNNHLPNGPASPVDMILDYFKHDYEFAEPPRVTSLQNVVPLATFRDFGDDVYFVADRRGYEAVVHHLAGQYLEA-DKSGNI---------VVREISHSGSGVAVKTEDDKVYKADYVMVSTSVGVLQSDLIKFKPRLP</Hsp_hseq>
+      <Hsp_midline>RVI+VGAGMSGISA KRLSEAGITDLLILEATDH+GGRM K NF G+NVE+GANWVEGVNGGKMNPIWP+VNSTLKLRNFRSDFD LA+NVYKE GGVYD  YVQKR+  ++ VEE G KLSA L  SG+DDMSILAMQRLN H PNGPA+PVDM++DY+K DYEFAEPPRVTSLQN VPLATF DFGDDVYFVAD+RGYEAVV++LAGQYL+  DKSG I         VVREI +S  GV VKTED+ VY ADYVMVS S+GVLQSDLI+FKP+LP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>3.42379e-28</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>432</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>RGTFSNWPIGVNRYEYNQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSADILIKCAHKRMC</Hsp_hseq>
+      <Hsp_midline>R  +  WP+GVNRYEY+QLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSA+ILI CA K+MC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1149768570|ref|XP_020148899.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like [Aegilops tauschii subsp. tauschii]</Hit_def>
+  <Hit_accession>XP_020148899</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>415.231</Hsp_bit-score>
+      <Hsp_score>1066</Hsp_score>
+      <Hsp_evalue>1.41523e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNST--LKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLI</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGISGISAGKRLSEAGITDVVILEATDRIGGRIHKTEFAGVNVETGANWVEGVNGDEMNPIWTMANGTGGLNLRTFRSDFDHLASNTYKQDGGLYDEKVVEKIIERMDEVEENGSKLSGTLHHSGQQDMSVMAMQRLNDHMPSGPARPVDMVIDYYKHDFEFAEPPRVTSLQNTQPLPTFSNFGDDVYFVADQRGYESVVYHIAGQYLKTDRKSGAIIDPRLKLNTVVREITYFPSGVAVRTEDNKVYRTDYLMPTASFVIESSFLV</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAG+SGISA KRLSEAGITD++ILEATD IGGR+HKT FAG+NVE GANWVEGVNG +MNPIW + N T  L LR FRSDFD+LA N YK+DGG+YDE  V+K IE  D VEE G KLS TLH SG+ DMS++AMQRLN+H P+GPA PVDMV+DYYK D+EFAEPPRVTSLQNT PL TFS+FGDDVYFVADQRGYE+VVY++AGQYLKTD KSG I+DPRL+LN VVREI Y P GV V+TEDN VY  DY+M +AS  +  S L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|944060469|gb|KQJ96059.1|</Hit_id>
+  <Hit_def>hypothetical protein BRADI_3g20677v3 [Brachypodium distachyon]</Hit_def>
+  <Hit_accession>KQJ96059</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>415.231</Hsp_bit-score>
+      <Hsp_score>1066</Hsp_score>
+      <Hsp_evalue>7.08505e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLADAGVRDVLILEATGRVGGRMHKHNFGGINVEIGANWVEGVEGKKVNPIWPMVNATLNLRNFLSDFDSVVSNVYKE----------KREWDRADEVEELGGKLASQMDPSGRDDISILAMQRLFNHQPNGPTTPVDMALDYFRYDYEFAEPPRATSLQNTEPLPTAADFGEDNHFVADQRGFEAIIYHIARQYLSSDRKSGNIVDPRLKLNKVVREISYNRKGVVVRTEDNSAYSGDYVIVSTSLGVLQSDLIQFKPQLPAWKIIAIYRFDMAVYTKIFLKFPTKFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRL++AG+ D+LILEAT  +GGRMHK NF GINVE+GANWVEGV G K+NPIWP+VN+TL LRNF SDFD +  NVYKE          ++  + AD VEE+G KL++ +  SGRDD+SILAMQRL  HQPNGP TPVDM +DY+++DYEFAEPPR TSLQNT PL T +DFG+D +FVADQRG+EA++Y++A QYL +D KSG IVDPRL+LNKVVREI Y+  GV V+TEDNS YS DYV+VS SLGVLQSDLIQFKP+LP WK+ AIY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.52019e-22</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKM</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFKGSYSNWPIGVNRYEYDQLRAPVGRVFFTGEHTSEHYNGYVHGAYLAGMDSADILMNSIFNKV</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WP+GVNRYEYDQLRAPVGRV+FTGEHTSEHYNGYVHGAYL+G+DSA+IL+N    K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1492274894|gb|RLN39499.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like isoform X1 [Panicum miliaceum]</Hit_def>
+  <Hit_accession>RLN39499</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.075</Hsp_bit-score>
+      <Hsp_score>1063</Hsp_score>
+      <Hsp_evalue>3.2029e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISTGKRLWESGVRDLLILEATERVGGRMHKHNFGGLNVEIGANWVEGVGGDKVNPIWPIVNSTLKLRNFYSDFDSVVGNVYKEDGGLYDEDYVQQRMDRAYEVDDMGTNLTKMMDPSGRDDISVLAMQRLFNHQPNGPATPVDMALDYFIYDYEFAEPPRVTSLQNTNPLPTDADFGEDSQFVADQRGFESIIHYIGSSYLST-DANGAISDRRVLLNKVVRQIAYNNRGVVVKTEDGSSYAADFVVVSTSLGVLQSDLIQFTPQLPFWKIVAIYRFDMAVYTKIFLKFPRRFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGIS  KRL E+G+ DLLILEAT+ +GGRMHK NF G+NVE+GANWVEGV G K+NPIWPIVNSTLKLRNF SDFD +  NVYKEDGG+YDEDYVQ+R++ A  V++MG  L+  +  SGRDD+S+LAMQRL  HQPNGPATPVDM +DY+ +DYEFAEPPRVTSLQNT PL T +DFG+D  FVADQRG+E++++Y+   YL T D +G I D R+ LNKVVR+I Y+  GV VKTED S Y+AD+V+VS SLGVLQSDLIQF P+LP WK+ AIY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.60457e-22</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSYSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGVDSADILIN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WP+GVNRYEYDQLRAPVGRVYFTGEHTSE YNGYVHGAYL+G+DSA+ILIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1435190824|ref|XP_025794784.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like isoform X2 [Panicum hallii]</Hit_def>
+  <Hit_accession>XP_025794784</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.92</Hsp_bit-score>
+      <Hsp_score>1060</Hsp_score>
+      <Hsp_evalue>7.34967e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISTGKRLWESGVRDLLILEATERVGGRMHKHNFGGLNVEIGANWVEGVGGDKVNPIWPIVNSTLKLRNFYSDFDSVVGNVYKEDGGLYDEDYVQQRMDRAYEVDDMGANLTKMMDPSGRDDISVLAMQRLFNHQPNGPATPVDMALDYFIYDYEFAEPPRVTSLQNTNPLPTDADFGEDSQFVADQRGFESIIHYVGSSYLST-DANGAISDRRVLLNKVVRRIAYNNRGVVVKTEDGSSYGADFVVVSTSLGVLQSDLIQFTPQLPFWKIAAIYRFDMAVYTKIFLKFPRRFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGIS  KRL E+G+ DLLILEAT+ +GGRMHK NF G+NVE+GANWVEGV G K+NPIWPIVNSTLKLRNF SDFD +  NVYKEDGG+YDEDYVQ+R++ A  V++MG  L+  +  SGRDD+S+LAMQRL  HQPNGPATPVDM +DY+ +DYEFAEPPRVTSLQNT PL T +DFG+D  FVADQRG+E++++Y+   YL T D +G I D R+ LNKVVR I Y+  GV VKTED S Y AD+V+VS SLGVLQSDLIQF P+LP WK+ AIY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>6.16577e-23</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSYSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLAGVDSANILIN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYL+G+DSA ILIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1382756346|gb|PUZ42404.1|</Hit_id>
+  <Hit_def>hypothetical protein GQ55_9G579800 [Panicum hallii var. hallii]</Hit_def>
+  <Hit_accession>PUZ42404</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.92</Hsp_bit-score>
+      <Hsp_score>1060</Hsp_score>
+      <Hsp_evalue>8.72027e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISTGKRLWESGVRDLLILEATERVGGRMHKHNFGGLNVEIGANWVEGVGGDKVNPIWPIVNSTLKLRNFYSDFDSVVGNVYKEDGGLYDEDYVQQRMDRAYEVDDMGTNLTKMMDPSGRDDISVLAMQRLFNHQPNGPATPVDMALDYFIYDYEFAEPPRVTSLQNTNPLPTDADFGEDSQFVADQRGFESIIHYVGSSYLST-DANGAISDRRVLLNKVVRRIAYNNRGVVVKTEDGSAYGADFVVVSTSLGVLQSDLIQFTPQLPFWKIAAIYRFDMAVYTKIFLKFPRRFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGIS  KRL E+G+ DLLILEAT+ +GGRMHK NF G+NVE+GANWVEGV G K+NPIWPIVNSTLKLRNF SDFD +  NVYKEDGG+YDEDYVQ+R++ A  V++MG  L+  +  SGRDD+S+LAMQRL  HQPNGPATPVDM +DY+ +DYEFAEPPRVTSLQNT PL T +DFG+D  FVADQRG+E++++Y+   YL T D +G I D R+ LNKVVR I Y+  GV VKTED S Y AD+V+VS SLGVLQSDLIQF P+LP WK+ AIY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>7.09836e-23</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSYSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLAGVDSANILIN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYL+G+DSA ILIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|218202036|gb|EEC84463.1|</Hit_id>
+  <Hit_def>hypothetical protein OsI_31096 [Oryza sativa Indica Group] &gt;gi|222641445|gb|EEE69577.1| hypothetical protein OsJ_29108 [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>EEC84463</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.453</Hsp_bit-score>
+      <Hsp_score>1051</Hsp_score>
+      <Hsp_evalue>1.44114e-138</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>MHKQSFAGVNVEIGANWVEGVNGEKKNPIWPIVNSTLKLRSFRSDFDSLAQNVYK-DGGLCDEAYVQKRMDRADEVDKSGENLSATLHPSGRDDMSILSMQRLNDHLPNGPSSPVDMAVDYFTYDYEFAEPPRVTSLQNTVPLPTFTDFGDDTYFVADQRGYESVVHHLAGQYLNA-DKSGNIADARLKLNKVVREISYSSTGVTVKTEDNSTYQADYVMVSASLGVLQSDLIQFKPQLPSWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>MHK +FAG+NVE+GANWVEGVNG K NPIWPIVNSTLKLR+FRSDFD LAQNVYK DGG+ DE YVQKR++ AD V++ GE LSATLH SGRDDMSIL+MQRLN+H PNGP++PVDM VDY+ +DYEFAEPPRVTSLQNTVPL TF+DFGDD YFVADQRGYE+VV++LAGQYL   DKSG I D RL+LNKVVREI YS  GVTVKTEDNS Y ADYVMVSASLGVLQSDLIQFKP+LP+WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>4.11423e-29</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFRGSFSNWPIGVSRYEYDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGIDSAEILINCAQKKMC</Hsp_hseq>
+      <Hsp_midline>+P W      R  +  WP+GV+RYEYDQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSAEILINCAQKKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1435190822|ref|XP_025794783.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like isoform X1 [Panicum hallii] &gt;gi|1385041758|gb|PAN51534.2| hypothetical protein PAHAL_9G569900 [Panicum hallii]</Hit_def>
+  <Hit_accession>XP_025794783</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>1.65759e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISTGKRLWESGVRDLLILEATERVGGRMHKHNFGGLNVEIGANWVEGVGGDKVNPIWPIVNSTLKLRNFYSDFDSVVGNVYKEDGGLYDEDYVQQRMDRAYEVDDMGANLTKMMDPSGRDDISVLAMQRLFNHQPNGPATPVDMALDYFIYDYEFAEPPRVTSLQNTNPLPTDADFGEDSQFVADQRGFESIIHYVGSSYLST-DANGAISDRRVLLNKVVRRIAYNNRGVVVKTEDGSSYGADFVVVSTSLGVLQSDLIQFTPQLPFWKIAAIYRFDMAVYTKIFLKFPRRFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGIS  KRL E+G+ DLLILEAT+ +GGRMHK NF G+NVE+GANWVEGV G K+NPIWPIVNSTLKLRNF SDFD +  NVYKEDGG+YDEDYVQ+R++ A  V++MG  L+  +  SGRDD+S+LAMQRL  HQPNGPATPVDM +DY+ +DYEFAEPPRVTSLQNT PL T +DFG+D  FVADQRG+E++++Y+   YL T D +G I D R+ LNKVVR I Y+  GV VKTED S Y AD+V+VS SLGVLQSDLIQF P+LP WK+ AIY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>7.03014e-23</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSYSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLAGVDSANILIN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYL+G+DSA ILIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1492249046|gb|RLN15822.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like isoform X1 [Panicum miliaceum]</Hit_def>
+  <Hit_accession>RLN15822</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>3.0165e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISTGKRLWESGVRDLLILEATERVGGRMHKHNFGGLNVEIGANWVEGVGGDKVNPIWPIVNSTLKLRNFYSDFDSVVGNVYKEDGGLYDEDYVQQRMDRAYEVDDMGTDLTKMMDPSGRDDISVLATQRLFNHQPNGPATPVDMALDYFIYDYEFAEPPRVTSLQNTNPLPTDADFGEDSQFVADQRGFESIIHYIGSSYLST-DANGAISDRRVLLNKVVRQIAYNNRGVVVKTEDGSSYGADFVVVSTSLGVLQSDLIQFRPQLPFWKIAAIYRFDMAVYTKIFLKFPRRFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGIS  KRL E+G+ DLLILEAT+ +GGRMHK NF G+NVE+GANWVEGV G K+NPIWPIVNSTLKLRNF SDFD +  NVYKEDGG+YDEDYVQ+R++ A  V++MG  L+  +  SGRDD+S+LA QRL  HQPNGPATPVDM +DY+ +DYEFAEPPRVTSLQNT PL T +DFG+D  FVADQRG+E++++Y+   YL T D +G I D R+ LNKVVR+I Y+  GV VKTED S Y AD+V+VS SLGVLQSDLIQF+P+LP WK+ AIY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>7.37793e-23</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSYSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLAGVDSANILIN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WP+GVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYL+G+DSA ILIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1162442725|ref|XP_020401135.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like [Zea mays]</Hit_def>
+  <Hit_accession>XP_020401135</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>5.61018e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGG-VYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKTLWEAGVRDLLILEATGRVGGRMHKHNFGGINVEIGANWVEGLGGDQLNPIWPLVNSTLKLRNFYSDFDSVVGNVYKENGGGLYDEEYVQKRMDRAYEVEELGANLTKKMHPSGRDDISVLAMQRLFNHQPNGPTTPVDMALDYFIYDYEFAEPPRVTSLQNTQPTPTNADFGEDNYFVADQRGYESIIHSIGSSYLST-DGNGKLKDRRILLNKVVRQIAYNKQGVVVKTEDGSSYRADYVVVSTSLGVLQTDLIQFKPQLPFWKIAAIYSFDMGVYTKIFLKFPERFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA K L EAG+ DLLILEAT  +GGRMHK NF GINVE+GANWVEG+ G ++NPIWP+VNSTLKLRNF SDFD +  NVYKE+GG +YDE+YVQKR++ A  VEE+G  L+  +H SGRDD+S+LAMQRL  HQPNGP TPVDM +DY+ +DYEFAEPPRVTSLQNT P  T +DFG+D YFVADQRGYE++++ +   YL T D +GK+ D R+ LNKVVR+I Y+  GV VKTED S Y ADYV+VS SLGVLQ+DLIQFKP+LP WK+ AIY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>1.68381e-21</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFKGSYSNWPVGVSRYEYDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGIDSANILIN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WPVGV+RYEYDQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSA ILIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|514821376|ref|XP_004985368.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Setaria italica] &gt;gi|1433441943|gb|RCV46126.1| hypothetical protein SETIT_9G507500v2 [Setaria italica]</Hit_def>
+  <Hit_accession>XP_004985368</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.912</Hsp_bit-score>
+      <Hsp_score>1047</Hsp_score>
+      <Hsp_evalue>7.90603e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLWESGVRELLFLEATERVGGRMHKHNFGGLNVEIGANWVEGIGGERVNPILPIVNDTLKLRNFYSDFDSVVGNFYRENGGLYDKDYVQKRMDRADEVEDLGANLTKMMDPSGRDDISILAMQRLFNHQPNGPSTPVDMALDYYKFDYEFAEPPRVTSLQNTEPTPTNADFGEDSNFVADQRGFESIIHYIGSSYLST-NANGKISDRRVLLNKVVRQIAYNNRGVVVKTEDGSSYAADFVVVSTSLGVLQSDLIQFKPQLPFWKIFSIYRFDMAVYTKIFLKFPRRFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRL E+G+ +LL LEAT+ +GGRMHK NF G+NVE+GANWVEG+ G ++NPI PIVN TLKLRNF SDFD +  N Y+E+GG+YD+DYVQKR++ AD VE++G  L+  +  SGRDD+SILAMQRL  HQPNGP+TPVDM +DYYKFDYEFAEPPRVTSLQNT P  T +DFG+D  FVADQRG+E++++Y+   YL T + +GKI D R+ LNKVVR+I Y+  GV VKTED S Y+AD+V+VS SLGVLQSDLIQFKP+LP WK+ +IY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.37901e-22</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>411</Hsp_hit-from>
+      <Hsp_hit-to>477</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSYSNWPIGVNRYEYDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGIDSADILIN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WP+GVNRYEYDQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSA+ILIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|218184397|gb|EEC66824.1|</Hit_id>
+  <Hit_def>hypothetical protein OsI_33252 [Oryza sativa Indica Group]</Hit_def>
+  <Hit_accession>EEC66824</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>3.59331e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKRLSDAGISDFVILEATDRIGGRIHKTNFAGVDVEMGANWVEGVTGKGMNPIWTIVNDELKLRTFNSDYDHLANNTYKQNGGLYEEAFVQKIIDRADEVEESGGKLSASLHASGSEDMSVMAMQRLNDHMPWGPSAAVDMVIDYCKYDYEFAEPPRVTSLQNTKPLPTFNNFGDEVHFVADQRGYESVVYHVAGKYLRTDKSSGAIVDPRLKLNKVVRDITYLPRGVTVKTEDGQIYRADYVMLSA------------------WKIVSIYQF</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA KRLS+AGI+D +ILEATD IGGR+HKTNFAG++VE+GANWVEGV G  MNPIW IVN  LKLR F SD+D+LA N YK++GG+Y+E +VQK I+ AD VEE G KLSA+LHASG +DMS++AMQRLN+H P GP+  VDMV+DY K+DYEFAEPPRVTSLQNT PL TF++FGD+V+FVADQRGYE+VVY++AG+YL+TD  SG IVDPRL+LNKVVR+I Y P GVTVKTED  +Y ADYVM+SA                  WK+ +IYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>4.33467e-28</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>396</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGTFSNWPIGVNRYEYDQIRAPVGRVYFTGEHTSEHYNGYVHGAYLAGIDSADILIKCAQKKIC</Hsp_hseq>
+      <Hsp_midline>+P W      +  +  WP+GVNRYEYDQ+RAPVGRVYFTGEHTSEHYNGYVHGAYL+GIDSA+ILI CAQKK+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1205923766|ref|XP_021302102.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like [Sorghum bicolor] &gt;gi|992281977|gb|KXG39968.1| hypothetical protein SORBI_3001G472000 [Sorghum bicolor] &gt;gi|992281978|gb|KXG39969.1| hypothetical protein SORBI_3001G472000 [Sorghum bicolor]</Hit_def>
+  <Hit_accession>XP_021302102</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.889</Hsp_bit-score>
+      <Hsp_score>1008</Hsp_score>
+      <Hsp_evalue>8.51375e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGG-VYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIY----------------QFWPVG</Hsp_qseq>
+      <Hsp_hseq>PRVIIVGAGMSGISAGKQLWESGVRDLLILEATERVGGRMHNHNFGGINVEIGANWVEGLGGDNLNPIWPIVNDTLKLRTFYSDFDSVVGCVYKENGGGLYDEEYVQKKMDRAYEVQELGANLTKKMRPNGQDDISLLAMQRLFNHQPNGPATPVDMALDYFIYDYEFAEPPRVTSLQNTQPTPTNADFGEDNYFVADQRGFESIIHAIGSSYLST-DANGKLSDRRILLNKVVRQIAYNKEGVVVKTEDGSSYSADYVVVSTSLGVLQTDLIKFTPQLPFWKIAAIYRFDMGAYTKIFLKFPSKFWPVG</Hsp_hseq>
+      <Hsp_midline>PRVI+VGAGMSGISA K+L E+G+ DLLILEAT+ +GGRMH  NF GINVE+GANWVEG+ G  +NPIWPIVN TLKLR F SDFD +   VYKE+GG +YDE+YVQK+++ A  V+E+G  L+  +  +G+DD+S+LAMQRL  HQPNGPATPVDM +DY+ +DYEFAEPPRVTSLQNT P  T +DFG+D YFVADQRG+E++++ +   YL T D +GK+ D R+ LNKVVR+I Y+  GV VKTED S YSADYV+VS SLGVLQ+DLI+F P+LP WK+ AIY                +FWPVG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>2.48566e-21</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>420</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILIN</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFFKGSYSNWPIGVSRYEYDQLRAPVGRVYFTGEHTSERYNGYVHGAYLAGIDSANILIN</Hsp_hseq>
+      <Hsp_midline>+P W      +  Y  WP+GV+RYEYDQLRAPVGRVYFTGEHTSE YNGYVHGAYL+GIDSA ILIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1147600038|ref|XP_020103939.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Ananas comosus]</Hit_def>
+  <Hit_accession>XP_020103939</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>9.38332e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PSVIIVGAGFSGISAAKTLSDAGIKDFLILEATDHIGGRIHKTNFAGINVEKGANWVEGVNGTEVNPIWVMANE-LKLRRFYSDYDNISSNTYNQEGGLYGSSEVGKAIEESESIHSDGEKLSARLPPSGRSDISILTMQRLKNHVPT---SALDMVVDYYSYDYEFAEPPRVTSLQNTVPLPTFARFGESVYFVADQRGYESVVYHVAHQFLSTDKASGAINDPRLKLNKVVRHISQSSTGVTVTTEDGSVYKADYVMVSVSIGVLQTKLIKFEPDLPSWKILAVYQF</Hsp_hseq>
+      <Hsp_midline>P VI+VGAG SGISAAK LS+AGI D LILEATDHIGGR+HKTNFAGINVE GANWVEGVNG ++NPIW + N  LKLR F SD+D ++ N Y ++GG+Y    V K IE ++S+   GEKLSA L  SGR D+SIL MQRL  H P    + +DMVVDYY +DYEFAEPPRVTSLQNTVPL TF+ FG+ VYFVADQRGYE+VVY++A Q+L TD  SG I DPRL+LNKVVR I  S  GVTV TED SVY ADYVMVS S+GVLQ+ LI+F+P LP+WK+ A+YQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.72591e-24</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>477</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPIGVNRYEYDQIRAPVGRIYFTGEHTSEHYNGYVHGAYLAGIDSANIMIKCIKHGFC</Hsp_hseq>
+      <Hsp_midline>+  +  WP+GVNRYEYDQ+RAPVGR+YFTGEHTSEHYNGYVHGAYL+GIDSA I+I C +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1035933603|gb|OAY62706.1|</Hit_id>
+  <Hit_def>Polyamine oxidase [Ananas comosus]</Hit_def>
+  <Hit_accession>OAY62706</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>2.1386e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PSVIIVGAGFSGISAAKTLSDAGIKDFLILEATDRIGGRIHKTNFAGINVEKGANWVEGVNGTEVNPIWVMANE-LKLRRFYSDYDNISSNTYNQEGGLYGSSEVGKAIEESESIHSDGEKLSARLPPSGRSDISILTMQRLKNHVP---TSALDMVVDYYSYDYEFAEPPRVTSLQNTVPLPTFARFGESVYFVADQRGYESVVYHVAHQFLGTDKASGAINDPRLKLNKVVRHISQSSNGVTVTTEDGSVYKADYVMVSVSIGVLQTKLIKFEPDLPSWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>P VI+VGAG SGISAAK LS+AGI D LILEATD IGGR+HKTNFAGINVE GANWVEGVNG ++NPIW + N  LKLR F SD+D ++ N Y ++GG+Y    V K IE ++S+   GEKLSA L  SGR D+SIL MQRL  H P    + +DMVVDYY +DYEFAEPPRVTSLQNTVPL TF+ FG+ VYFVADQRGYE+VVY++A Q+L TD  SG I DPRL+LNKVVR I  S  GVTV TED SVY ADYVMVS S+GVLQ+ LI+F+P LP+WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>4.2799e-24</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPIGVNRYEYDQIRAPVGRIYFTGEHTSEHYNGYVHGAYLAGIDSANMMIKCIKNGFC</Hsp_hseq>
+      <Hsp_midline>+  +  WP+GVNRYEYDQ+RAPVGR+YFTGEHTSEHYNGYVHGAYL+GIDSA ++I C +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1175842008|ref|XP_020574525.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Phalaenopsis equestris] &gt;gi|1175842010|ref|XP_020574526.1| polyamine oxidase [Phalaenopsis equestris]</Hit_def>
+  <Hit_accession>XP_020574525</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>5.16667e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PSVIVVGAGFSGISAAKTLSDAGITNIVILEATNRIGGRICKVPFAGLNVEKGANWVEGVNGDKINPIWTISNQ-LNLKKYYSDYSKLSSNTYKEGGGLYDAAEIQSLIDTADEVSNASEQYSNSLPTSGRGDISILASQRLQNHVPSSAA---EMVVDYYNFDYEFAEPPRVTSLQNTVPLATFANFGEDVYFVADQRGYESVVYHVAHQFLKT-NKDGTIVDPRLILNKVVRAIEHYPSGVTVKTEDGSVYRADYVIVSVSLGVLQSKLIQFVPKLPEWKILAIYEF</Hsp_hseq>
+      <Hsp_midline>P VIVVGAG SGISAAK LS+AGIT+++ILEAT+ IGGR+ K  FAG+NVE GANWVEGVNG K+NPIW I N  L L+ + SD+  L+ N YKE GG+YD   +Q  I+ AD V    E+ S +L  SGR D+SILA QRL  H P+  A   +MVVDYY FDYEFAEPPRVTSLQNTVPLATF++FG+DVYFVADQRGYE+VVY++A Q+LKT +K G IVDPRL LNKVVR I++ P GVTVKTED SVY ADYV+VS SLGVLQS LIQF PKLP WK+ AIY+F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>2.81166e-24</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPIGVNRYEYDQIRAPVGRVYFTGEHTSEHYNGYVHGAYLAGIDSANILIKCIKTGDC</Hsp_hseq>
+      <Hsp_midline>+  +  WP+GVNRYEYDQ+RAPVGRVYFTGEHTSEHYNGYVHGAYL+GIDSA ILI C +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|672157525|ref|XP_008798475.1|</Hit_id>
+  <Hit_def>polyamine oxidase [Phoenix dactylifera]</Hit_def>
+  <Hit_accession>XP_008798475</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.252</Hsp_bit-score>
+      <Hsp_score>970</Hsp_score>
+      <Hsp_evalue>1.81982e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PSVIIVGAGLSGISAAKTLSDAGIKDILILEATDHIGGRIHKTKFAGLNVELGANWVEGVNGNMMNPIWEMVNK-LQLKTFYSDYNNLSSNTYMQGGRLHKASVVQEAIDLSEKVDESGEKLSKSLAPSGQEDISVLTYQRLKNHV---PSSPLEMALDYYLHDYEFAEPPRVTSLQNTVPLRTFADFGDDLYFVGDQRGYESVVYDVAKQFLKTNS-NGSIVDPRLLLNKVVRHILYSNGGVTVITEDGMSYKAAYVMVSVSIGVLQTKLIDFKPVLPRWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>P VI+VGAG+SGISAAK LS+AGI D+LILEATDHIGGR+HKT FAG+NVELGANWVEGVNG  MNPIW +VN  L+L+ F SD++ L+ N Y + G ++    VQ+ I+L++ V+E GEKLS +L  SG++D+S+L  QRL  H    P++P++M +DYY  DYEFAEPPRVTSLQNTVPL TF+DFGDD+YFV DQRGYE+VVY +A Q+LKT+  +G IVDPRL LNKVVR I YS GGVTV TED   Y A YVMVS S+GVLQ+ LI FKP LP WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>3.05029e-26</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWKVRAIYQ----FWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFYKGSFSNWPIGVNRYEYDQIRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSANMVIECIKNKMC</Hsp_hseq>
+      <Hsp_midline>+P W     Y+     WP+GVNRYEYDQ+RAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSA ++I C + KMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|695037095|ref|XP_009406028.1|</Hit_id>
+  <Hit_def>PREDICTED: polyamine oxidase [Musa acuminata subsp. malaccensis]</Hit_def>
+  <Hit_accession>XP_009406028</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>2.48436e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PKVIVVGAGMSGISAAKTLSDAGIKDILILEATDRIGGRMRKVNFAGMNVEMGANWVEGVNGPELNPIWKMANK-LHLRNFFSDYSNLSSNTYNEIGGLYQSSEVDEVIEEAAKVNSFGEKLSASLPPSGREDVSILTSQRLKNHV---PSTALEMVVDYYTYDYEFAEPPRVTSLQNTVPLPTFANFGEDVYFVADQRGYESLVYDLAGQFLRT-AKNGTIVDPRLLLGKVVRRIRHFQSGVVVVTEDGSVYKADYVIVSVSIGVLQTKLIKFEPDLPQWKILAMYQF</Hsp_hseq>
+      <Hsp_midline>P+VIVVGAGMSGISAAK LS+AGI D+LILEATD IGGRM K NFAG+NVE+GANWVEGVNG ++NPIW + N  L LRNF SD+  L+ N Y E GG+Y    V + IE A  V   GEKLSA+L  SGR+D+SIL  QRL  H    P+T ++MVVDYY +DYEFAEPPRVTSLQNTVPL TF++FG+DVYFVADQRGYE++VY LAGQ+L+T  K+G IVDPRL L KVVR I++   GV V TED SVY ADYV+VS S+GVLQ+ LI+F+P LP WK+ A+YQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.83675e-24</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>405</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWK----VRAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSDRFFKGAFSNWPLGVNRYEYDQIRAPIGKVYFTGEHTSEHYNGYVHGAYLAGIDSANMMIKCIKHKIC</Hsp_hseq>
+      <Hsp_midline>+P W      +  +  WP+GVNRYEYDQ+RAP+G+VYFTGEHTSEHYNGYVHGAYL+GIDSA ++I C + K+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1484768663|ref|XP_026379706.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like [Papaver somniferum]</Hit_def>
+  <Hit_accession>XP_026379706</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.015</Hsp_bit-score>
+      <Hsp_score>959</Hsp_score>
+      <Hsp_evalue>1.23205e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PTVIVVGAGMSGISAAKTLSDAGIKNILIIEATNRIGGRIKKTNFAGLSVELGANWVEGVNGDQVNPIWTMVNK-IGLKTYYSDFDHLANHTYKQMGGVYEESVAQQAYDSADELSTSSQKLSVSLSRRRQTDMSILASQRLKNHV---PSTPIEMAIDYYTYDYEFGEPPRVTSLQNTEPLQTFTDFGEDYYFVADSRGYESVVHYVAKQFLTT-DKAGNITDPRLVLNKAVREIQYSQSGVVVKTEDGSVYKADYVMVSASIGVLQTNLIDFVPDLPAWKLLAIYQF</Hsp_hseq>
+      <Hsp_midline>P VIVVGAGMSGISAAK LS+AGI ++LI+EAT+ IGGR+ KTNFAG++VELGANWVEGVNG ++NPIW +VN  + L+ + SDFD+LA + YK+ GGVY+E   Q+  + AD +    +KLS +L    + DMSILA QRL  H    P+TP++M +DYY +DYEF EPPRVTSLQNT PL TF+DFG+D YFVAD RGYE+VV+Y+A Q+L T DK+G I DPRL LNK VREI+YS  GV VKTED SVY ADYVMVSAS+GVLQ++LI F P LP WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>7.8368e-26</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPIGVDQHEYDQIRAPVGRVYFTGEHTSEHYNGYVHGAYLAGIDSANILVKCAKKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WP+GV+++EYDQ+RAPVGRVYFTGEHTSEHYNGYVHGAYL+GIDSA IL+ CA+KKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1150734777|ref|XP_020241364.1|</Hit_id>
+  <Hit_def>polyamine oxidase-like [Asparagus officinalis]</Hit_def>
+  <Hit_accession>XP_020241364</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>6.29515e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PKVIIVGAGFSGISAAKTLSDAGIKDILILEATDRIGGRIHKTKFAGLNVELGANWVEGVGGVQMNPIWTMANK-LKLRNFYSDYSNLTSNTYKQDGGLYERSTADESMKLSEDVNEKGEKFSNALPASGRQDISILTYQRLQNHV---PSTPLDMAIDYYAYDYEFAEPPRSTSLQNTLPLPTFKNFGEDVHFVAXXXXXXXXXYYVARQFLKT-NKKGDIVDPRLKLNKVVRKISHSKSGATVTTEDGSVYEADYVMVSVSLGVLQTKLIDFQPDLPQWKILAVYQF</Hsp_hseq>
+      <Hsp_midline>P+VI+VGAG SGISAAK LS+AGI D+LILEATD IGGR+HKT FAG+NVELGANWVEGV G +MNPIW + N  LKLRNF SD+  L  N YK+DGG+Y+     + ++L++ V E GEK S  L ASGR D+SIL  QRL  H    P+TP+DM +DYY +DYEFAEPPR TSLQNT+PL TF +FG+DV+FVA         YY+A Q+LKT +K G IVDPRL+LNKVVR+I +S  G TV TED SVY ADYVMVS SLGVLQ+ LI F+P LP WK+ A+YQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.63405e-26</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>477</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>RAIYQFWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>KGTFSNWPLGVNRYEYDQIRAPVGRVYFTGEHTSEHYNGYVHGAYLAGIDSANMMIDCIKKKMC</Hsp_hseq>
+      <Hsp_midline>+  +  WP+GVNRYEYDQ+RAPVGRVYFTGEHTSEHYNGYVHGAYL+GIDSA ++I+C +KKMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|225425517|ref|XP_002267667.1|</Hit_id>
+  <Hit_def>PREDICTED: polyamine oxidase [Vitis vinifera] &gt;gi|297739028|emb|CBI28517.3| unnamed protein product, partial [Vitis vinifera]</Hit_def>
+  <Hit_accession>XP_002267667</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>3.24632e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PTVIVVGAGMSGISAAKTLSDAGIKNILILEATDRIGGRIHKTNFAGLSVEMGANWVEGVGGSEMNPIWEMVNK-IKLKTFFSDYDNVSSNTYKQVGGLYAESVAQHLLDSLDNVVEFSENLSTLLTAKKQEDISVLTAQRLKNRV---PSTPLEMAIDYYNYDYEFAEPPRVTSLQNTAPLPTFANFGEDLYFVGDSRGYESVVHYVAKQFLTT-NKDGQITDPRLLLNKAVVQITYSPSGVIIKTEDGSVYRAEYVMLSPSIGVLQSTLIDFKPDLPPWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>P VIVVGAGMSGISAAK LS+AGI ++LILEATD IGGR+HKTNFAG++VE+GANWVEGV G +MNPIW +VN  +KL+ F SD+D ++ N YK+ GG+Y E   Q  ++  D+V E  E LS  L A  ++D+S+L  QRL       P+TP++M +DYY +DYEFAEPPRVTSLQNT PL TF++FG+D+YFV D RGYE+VV+Y+A Q+L T +K G+I DPRL LNK V +I YSP GV +KTED SVY A+YVM+S S+GVLQS LI FKP LP WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.68983e-23</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>394</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LGVLQSDLIQFKPK-----LPTWKVRAIYQ----FWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>MGVLRAMFGKNIPEATDILVPRWWSNKFYKGTFSNWPIGVSRFEFDQIRAPVGRVYFTGEHTSQHYNGYVHGAYLAGIDSANILIPCIKKGAC</Hsp_hseq>
+      <Hsp_midline>+GVL++   +  P+     +P W     Y+     WP+GV+R+E+DQ+RAPVGRVYFTGEHTS+HYNGYVHGAYL+GIDSA ILI C +K  C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|743838166|ref|XP_010936625.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: polyamine oxidase [Elaeis guineensis]</Hit_def>
+  <Hit_accession>XP_010936625</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.844</Hsp_bit-score>
+      <Hsp_score>930</Hsp_score>
+      <Hsp_evalue>4.25735e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>PRVIVVGAGMSGISAAKRLSEAGITDLLILEATDHIGGRMHKTNFAGINVELGANWVEGVNGGKMNPIWPIVNSTLKLRNFRSDFDYLAQNVYKEDGGVYDEDYVQKRIELADSVEEMGEKLSATLHASGRDDMSILAMQRLNEHQPNGPATPVDMVVDYYKFDYEFAEPPRVTSLQNTVPLATFSDFGDDVYFVADQRGYEAVVYYLAGQYLKTDDKSGKIVDPRLQLNKVVREIKYSPGGVTVKTEDNSVYSADYVMVSASLGVLQSDLIQFKPKLPTWKVRAIYQF</Hsp_qseq>
+      <Hsp_hseq>PSVIIVGAGMSGISVAKTLSDAGIKDILIFEATDHIGGRIHKTKFAGLNVEMGANWVEGVNGDEMNPXWEMVNK-LXLKTFYSDXTNISSNTYMQGGGLYKTSVVQEAIDLSEKVDESGETLSTSLPSSGREDISVLAFQRLKNHV---PSSPLKMVIDYYVYDYEFAEPPRVTSLQNIVPLPTFDNFGEDLYFVRDQRDYESVVHHVAKQFLKTNDNX----DPRRLLNKVVRRILYSIGGITLITEDGMSYKAEYVMVSVSIGVLQTKLIDFKPVLPQWKILAIYQF</Hsp_hseq>
+      <Hsp_midline>P VI+VGAGMSGIS AK LS+AGI D+LI EATDHIGGR+HKT FAG+NVE+GANWVEGVNG +MNP W +VN  L L+ F SD   ++ N Y + GG+Y    VQ+ I+L++ V+E GE LS +L +SGR+D+S+LA QRL  H    P++P+ MV+DYY +DYEFAEPPRVTSLQN VPL TF +FG+D+YFV DQR YE+VV+++A Q+LKT+D      DPR  LNKVVR I YS GG+T+ TED   Y A+YVMVS S+GVLQ+ LI FKP LP WK+ AIYQF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>3.80172e-25</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>431</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LPTWKVRAIYQ----FWPVGVNRYEYDQLRAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSAEILINCAQKKMC</Hsp_qseq>
+      <Hsp_hseq>VPRWWSNRFYKGSFSNWPIGVNRYEYEQIKAPVGRVYFTGEHTSEHYNGYVHGAYLSGIDSANIMLKCINNKMC</Hsp_hseq>
+      <Hsp_midline>+P W     Y+     WP+GVNRYEY+Q++APVGRVYFTGEHTSEHYNGYVHGAYLSGIDSA I++ C   KMC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>183518263</Statistics_db-num>
+      <Statistics_db-len>66960884416</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

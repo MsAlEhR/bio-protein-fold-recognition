@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_27875</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1e3ja2172</BlastOutput_query-def>
+  <BlastOutput_query-len>172</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_27875</Iteration_query-ID>
+  <Iteration_query-def>d1e3ja2172</Iteration_query-def>
+  <Iteration_query-len>172</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1101332885|ref|XP_018906447.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase-like [Bemisia tabaci] &gt;gi|13096215|pdb|1E3J|A Chain A, Ketose Reductase (Sorbitol Dehydrogenase) From Silverleaf Whitefly &gt;gi|4106364|gb|AAD02817.1| NADP(H)-dependent ketose reductase [Bemisia argentifolii]</Hit_def>
+  <Hit_accession>XP_018906447</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.717</Hsp_bit-score>
+      <Hsp_score>844</Hsp_score>
+      <Hsp_evalue>3.41332e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIE-RIRSAIGDLPNVTIDCSGNEKCITIGINITRTGG-TLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_hseq>
+      <Hsp_midline>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIE RIRSAIGDLPNVTIDCSGNEKCITIGINITRTGG TLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|939690411|ref|XP_014289176.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Halyomorpha halys]</Hit_def>
+  <Hit_accession>XP_014289176</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.33215e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGA-FVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VSLDEGALLEPLSVGVHACSRAGVTLGSTVLILGAGPIGLVSTLVAKYMGAKSLVCLDLLEGRLKVAKNCGADYTIQITP--KDDINVVAQKIEETLGEKPGITIDCTGYENTVKIGLQATKNGG-TFVLVGMGQDEVKIPLVNACAREIDIRGVFRYCNDYPRALAIVASGK</Hsp_hseq>
+      <Hsp_midline>VSL+EGALLEPLSVGVHAC RAGV LG+TVL++GAGPIGLVS L AK  GA  +VC      RL+VAKNCGAD T+ + P  +++ +++ ++I   +G+ P +TIDC+G E  + IG+  T+ GG T +LVGMG   V +PLVNACAREIDI+ VFRYCNDYP AL +VASG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1069806932|ref|XP_018327547.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Agrilus planipennis]</Hit_def>
+  <Hit_accession>XP_018327547</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.05948e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGM-GSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VSLEEGAILEPLSVGVHACKRGGVQFGSTVFISGAGPIGLVSLLAAKAFGATKVAITDLVESRLEVAKKLGADYTILLKRGESEESLL--NRIREALGDLATVSLDCSGVEQSVRIAIQATRSGGTA-VLVGLGGKENLSLPLSGTLVREVDIRGVFRYVNDYQTSLDLIATGK</Hsp_hseq>
+      <Hsp_midline>VSLEEGA+LEPLSVGVHAC+R GVQ G+TV + GAGPIGLVS+LAAKA+GA  V  T     RLEVAK  GAD T+++   + EES +   RIR A+GDL  V++DCSG E+ + I I  TR+GGT  +LVG+ G + +++PL     RE+DI+ VFRY NDY  +L+++A+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1233188766|ref|XP_022195590.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase-like [Nilaparvata lugens]</Hit_def>
+  <Hit_accession>XP_022195590</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>1.73683e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGA-FVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAI-GDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VSFEEAALIEPLSVGMHACRRGKLQIGDTVLVIGAGPIGLVTLICAKAMGARRVIITDLLDFKLEVAKELGADHTLLVKPSDDEKE--VTKKIQEILEGNLPDITIDCSGFESTIKLGLQATRNGG-TLVLVGMGAQEVKLPLLAAMCREVDIKGVFRYANDYPVVLSMISSGK</Hsp_hseq>
+      <Hsp_midline>VS EE AL+EPLSVG+HACRR  +Q+G TVLVIGAGPIGLV+++ AKA GA  V+ T     +LEVAK  GAD TL+V P+ +E+   + ++I+  + G+LP++TIDCSG E  I +G+  TR GG TL+LVGMG+Q V +PL+ A  RE+DIK VFRY NDYP+ L M++SG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1121827203|ref|XP_019388761.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase isoform X2 [Crocodylus porosus]</Hit_def>
+  <Hit_accession>XP_019388761</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.80379e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>ITFEEGALIEPLSVGIHACRRAGVTLGSKVFICGAGPIGLVTLLIAKAMGAAQVIITDLTASRLEKAKEIGADFTLVV---KKETPQELASKVQGLLGCMPEITVECTGAQDCIQAGIYATRSGG-TLVLVGLGQEMVTVPIVNAAVREVDIRGIFRYCNTWPMAISLLASKR</Hsp_hseq>
+      <Hsp_midline>++ EEGAL+EPLSVG+HACRRAGV LG+ V + GAGPIGLV++L AKA GA  V+ T  +  RLE AK  GAD TLVV   K+E    +  +++  +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1121827201|ref|XP_019388760.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase isoform X1 [Crocodylus porosus]</Hit_def>
+  <Hit_accession>XP_019388760</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.86513e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>ITFEEGALIEPLSVGIHACRRAGVTLGSKVFICGAGPIGLVTLLIAKAMGAAQVIITDLTASRLEKAKEIGADFTLVV---KKETPQELASKVQGLLGCMPEITVECTGAQDCIQAGIYATRSGG-TLVLVGLGQEMVTVPIVNAAVREVDIRGIFRYCNTWPMAISLLASKR</Hsp_hseq>
+      <Hsp_midline>++ EEGAL+EPLSVG+HACRRAGV LG+ V + GAGPIGLV++L AKA GA  V+ T  +  RLE AK  GAD TLVV   K+E    +  +++  +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|677496981|gb|KFQ86386.1|</Hit_id>
+  <Hit_def>Sorbitol dehydrogenase, partial [Phoenicopterus ruber ruber]</Hit_def>
+  <Hit_accession>KFQ86386</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>3.48696e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1113798436|ref|XP_019333338.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase isoform X1 [Alligator mississippiensis]</Hit_def>
+  <Hit_accession>XP_019333338</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>3.99062e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>ITFEEGALIEPLSVGIHACRRAGVTLGSKVFICGAGPIGLVTLLIAKAMGAAQVIITDLSASRLEKAKEIGADFTLVV---KKETPQELASKVQGLLGCMPEITVECTGAQDCIQAGIYATHSGG-TLVLVGMGQEMVTIPIVNAAVREVDIRGIFRYCNTWPMAISLLASKR</Hsp_hseq>
+      <Hsp_midline>++ EEGAL+EPLSVG+HACRRAGV LG+ V + GAGPIGLV++L AKA GA  V+ T  S  RLE AK  GAD TLVV   K+E    +  +++  +G +P +T++C+G + CI  GI  T +GG TL+LVGMG +MVT+P+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1011565765|gb|KYO21448.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Alligator mississippiensis]</Hit_def>
+  <Hit_accession>KYO21448</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>4.41682e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>ITFEEGALIEPLSVGIHACRRAGVTLGSKVFICGAGPIGLVTLLIAKAMGAAQVIITDLSASRLEKAKEIGADFTLVV---KKETPQELASKVQGLLGCMPEITVECTGAQDCIQAGIYATHSGG-TLVLVGMGQEMVTIPIVNAAVREVDIRGIFRYCNTWPMAISLLASKR</Hsp_hseq>
+      <Hsp_midline>++ EEGAL+EPLSVG+HACRRAGV LG+ V + GAGPIGLV++L AKA GA  V+ T  S  RLE AK  GAD TLVV   K+E    +  +++  +G +P +T++C+G + CI  GI  T +GG TL+LVGMG +MVT+P+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1113798438|ref|XP_019333339.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase isoform X2 [Alligator mississippiensis]</Hit_def>
+  <Hit_accession>XP_019333339</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>5.0257e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>ITFEEGALIEPLSVGIHACRRAGVTLGSKVFICGAGPIGLVTLLIAKAMGAAQVIITDLSASRLEKAKEIGADFTLVV---KKETPQELASKVQGLLGCMPEITVECTGAQDCIQAGIYATHSGG-TLVLVGMGQEMVTIPIVNAAVREVDIRGIFRYCNTWPMAISLLASKR</Hsp_hseq>
+      <Hsp_midline>++ EEGAL+EPLSVG+HACRRAGV LG+ V + GAGPIGLV++L AKA GA  V+ T  S  RLE AK  GAD TLVV   K+E    +  +++  +G +P +T++C+G + CI  GI  T +GG TL+LVGMG +MVT+P+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|156145614|gb|ABU53620.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Pyrrhocoris apterus]</Hit_def>
+  <Hit_accession>ABU53620</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>7.89184e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGA-FVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VSLDEGAVLEPLSVGVHACKRRGVTLGSVVLVLGAGPIGLVTILVAKHMGAGHVICIDLLENRLAVAKECGADYTLKRNATDDVDS--VAAKIEEIFTVKPNISIDCGGSQRTVNIGFKATRNGGKFVM-VGMGSNEVTIPLVAASAREVDIIGVFRYCNDYPLALSMVASGK</Hsp_hseq>
+      <Hsp_midline>VSL+EGA+LEPLSVGVHAC+R GV LG+ VLV+GAGPIGLV++L AK  GA  V+C      RL VAK CGAD TL  +   + +S  +  +I       PN++IDC G+++ + IG   TR GG  +M VGMGS  VT+PLV A ARE+DI  VFRYCNDYP+AL MVASG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|837787363|ref|XP_012783416.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Ochotona princeps]</Hit_def>
+  <Hit_accession>XP_012783416</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>8.06825e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVAS</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRGGVTLGNNVLVCGAGPIGLVTLLVAKAMGAARVVVTDLSASRLSLAKEVGADCLLQISKESPQE---VAKKVQGLLGCQPDVTIECTGAEPSIQAGIYSTRSGG-TLVLVGLGSEMATIPLVHAAVREVDIKGVFRYCNTWPIAISMLAS</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRR GV LG  VLV GAGPIGLV++L AKA GA  VV T  S  RL +AK  GAD  L +     +E   + ++++  +G  P+VTI+C+G E  I  GI  TR+GG TL+LVG+GS+M T+PLV+A  RE+DIK VFRYCN +PIA+ M+AS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1101397392|ref|XP_018909656.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase-like [Bemisia tabaci]</Hit_def>
+  <Hit_accession>XP_018909656</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>8.1567e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGA-FVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VSMEEGALLEPLSVGVHACKRAGITIGSNVLITGAGPIGLVSLITAKAMGARRVIITDIQEHRLTVAKQCGADYTVLIHKGDDEQE--LARRIHEELGEAPDKTIDCSGIETTIALGIEATKSGG-VIVIVGCGPNNVRIPLIKALSREVDIRGVFRYANDYPAALAMVASGK</Hsp_hseq>
+      <Hsp_midline>VS+EEGALLEPLSVGVHAC+RAG+ +G+ VL+ GAGPIGLVS++ AKA GA  V+ T     RL VAK CGAD T+++    +E+   + RRI   +G+ P+ TIDCSG E  I +GI  T++GG  +++VG G   V +PL+ A +RE+DI+ VFRY NDYP AL MVASG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1444706761|ref|XP_025971782.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase isoform X1 [Dromaius novaehollandiae]</Hit_def>
+  <Hit_accession>XP_025971782</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>1.43636e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALVEPLSVGIHACRRAGVTLGSKVFVSGAGPIGLVNVLVAKMMGAAVVVVTDLSASRLQKAKEIGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIKGIFRYCNTWPMAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V GAGPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DIK +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|699598695|ref|XP_009869167.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase, partial [Apaloderma vittatum] &gt;gi|677307237|gb|KFP89665.1| Sorbitol dehydrogenase, partial [Apaloderma vittatum]</Hit_def>
+  <Hit_accession>XP_009869167</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>1.62405e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLEKAKEVGADFTLQV---KNETPQEVAAKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGSEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLSSKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RLE AK  GAD TL V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+GS+MVTVP+VNA  RE+DI+ +FRYCN +P+A+ +++S R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1444495590|ref|XP_025924048.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Apteryx rowi]</Hit_def>
+  <Hit_accession>XP_025924048</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>2.49372e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAVVVVTDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQDCIQAGIYATRSGG-TLVLVGLGPEMVTVPIINAAVREVDIKGIFRYCNTWPMAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP++NA  RE+DIK +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|926506743|ref|XP_013802258.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Apteryx australis mantelli]</Hit_def>
+  <Hit_accession>XP_013802258</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>4.48147e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAVVVVTDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQDCIQAGIYATRSGG-TLVLVGLGPEMVTVPIINAAVREVDIKGIFRYCNTWPMAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP++NA  RE+DIK +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|678210080|gb|KFV77059.1|</Hit_id>
+  <Hit_def>Sorbitol dehydrogenase, partial [Struthio camelus australis]</Hit_def>
+  <Hit_accession>KFV77059</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>4.53133e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVVTDLSASRLQKAKEIGADFTIQV---KNETAQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIKGIFRYCNTWPMAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E +  +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DIK +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|952529160|gb|KRT82776.1|</Hit_id>
+  <Hit_def>hypothetical protein AMK59_4469, partial [Oryctes borbonicus]</Hit_def>
+  <Hit_accession>KRT82776</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>5.14251e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGA-FVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VSFEEGAVLEPLSVGVHGCKRAGVGVGSIVLVLGAGPIGLVTMLAAKAFGASTVLITDILQRRLDLAKEMGADHTLLVDKNVSDEEII--KQVVEKLGGQPTISMDCSGAEQSVRIAIQATKSGGCAL-LIGMGLSEMTVPLANALIREVDIRGVFRYCNDYPTSLDLIATGK</Hsp_hseq>
+      <Hsp_midline>VS EEGA+LEPLSVGVH C+RAGV +G+ VLV+GAGPIGLV++LAAKA+GA  V+ T    RRL++AK  GAD TL+VD    +E  I  +++   +G  P +++DCSG E+ + I I  T++GG  L L+GMG   +TVPL NA  RE+DI+ VFRYCNDYP +L+++A+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1208032446|gb|OWK58837.1|</Hit_id>
+  <Hit_def>Sorbitol dehydrogenase [Lonchura striata domestica]</Hit_def>
+  <Hit_accession>OWK58837</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>5.26412e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVIVAKMMGAAVVVVTDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESVLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+V+ AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1072285729|ref|XP_018429236.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Nanorana parkeri]</Hit_def>
+  <Hit_accession>XP_018429236</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>6.81282e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSQVFICGAGPIGLVSLIVAKMMGASQTVISDLSPSRLEKAKEVGADFLLQITNETPEQ---IARKVEELLGCMPEITIECTGAESCIQTGIYATRSGG-TLILVGLGPAMVNVPIVNAAVREVDIRGIFRYCNTWPMAISMLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V + GAGPIGLVS++ AK  GA   V +  SP RLE AK  GAD  L +     E+   I R++   +G +P +TI+C+G E CI  GI  TR+GG TL+LVG+G  MV VP+VNA  RE+DI+ +FRYCN +P+A+ M+AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1536085205|ref|XP_027232170.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase-like [Penaeus vannamei] &gt;gi|1516428366|gb|ROT63354.1| hypothetical protein C7M84_018759 [Penaeus vannamei]</Hit_def>
+  <Hit_accession>XP_027232170</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>7.33042e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAFVVC-TARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTLEEGAILEPLSVGVHACRRAGVTLGSTVLVCGAGPIGLVNLLTAKAMGATKVCITDIAENRLKVAKDMGADHTILVSSGDAEA---IAKEVEKVMGGMPDITIECSGAESSIRLGIFATKSGG-MMVLVGLGPSEVKIPIVNAAVREVDIRGIFRYANCYPLALDMIASGK</Hsp_hseq>
+      <Hsp_midline>V+LEEGA+LEPLSVGVHACRRAGV LG+TVLV GAGPIGLV++L AKA GA  VC T  +  RL+VAK+ GAD T++V     E    I + +   +G +P++TI+CSG E  I +GI  T++GG  ++LVG+G   V +P+VNA  RE+DI+ +FRY N YP+AL+M+ASG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|704514305|ref|XP_010081374.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Pterocles gutturalis]</Hit_def>
+  <Hit_accession>XP_010081374</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>7.56592e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRGGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNESPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPDMVTVPIVNAAVREVDIRGIFRYCNTWPVAIAMLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+R GV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G  MVTVP+VNA  RE+DI+ +FRYCN +P+A+ M+AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1176321698|ref|XP_020663746.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Pogona vitticeps]</Hit_def>
+  <Hit_accession>XP_020663746</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>7.77945e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFICGAGPIGLVTLLIAKVMGAAQVVISDLSAPRLEKAKEIGADFTLQV---KSESPEEVGRAVKDLLGCMPDITIECTGAQPCIQAGIYATRSGG-TLVLVGLGPEMVTIPIVNAAVREVDIRGIFRYCNTWPMAIAMLASKK</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V + GAGPIGLV++L AK  GA  VV +  S  RLE AK  GAD TL V   K E    + R ++  +G +P++TI+C+G + CI  GI  TR+GG TL+LVG+G +MVT+P+VNA  RE+DI+ +FRYCN +P+A+ M+AS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|697446442|ref|XP_009665323.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Struthio camelus australis]</Hit_def>
+  <Hit_accession>XP_009665323</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>8.48114e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVVTDLSASRLQKAKEIGADFTIQV---KNETAQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIKGIFRYCNTWPMAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E +  +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DIK +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|705668379|ref|XP_010114100.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase, partial [Chlamydotis macqueenii] &gt;gi|677142175|gb|KFP39761.1| Sorbitol dehydrogenase, partial [Chlamydotis macqueenii]</Hit_def>
+  <Hit_accession>XP_010114100</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>8.85116e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KDETPQEVASKVESLLGCMPEITVECTGVEACIQAGIYATRSGG-TLMLVGLGPEMVTVPILNAAVREVDIRGIFRYCNTWPVAISLLASKQ</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K+E    +  ++ S +G +P +T++C+G E CI  GI  TR+GG TLMLVG+G +MVTVP++NA  RE+DI+ +FRYCN +P+A+ ++AS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1443681430|ref|XP_025899710.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Nothoprocta perdicaria]</Hit_def>
+  <Hit_accession>XP_025899710</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>9.20896e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFVSGSGPIGLVNVIVAKMMGAAVVIVTDLSASRLQKAKEVGADNILQV---KNETPQEVASKIKSLLGCMPDITVECTGVEACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIKGIFRYCNTWPMAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V G+GPIGLV+V+ AK  G A V+ T  S  RL+ AK  GAD  L V   K E    +  +I+S +G +P++T++C+G E CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DIK +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|678145817|gb|KFV14968.1|</Hit_id>
+  <Hit_def>Sorbitol dehydrogenase, partial [Pterocles gutturalis]</Hit_def>
+  <Hit_accession>KFV14968</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>1.33846e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRGGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNESPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPDMVTVPIVNAAVREVDIRGIFRYCNTWPVAIAMLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+R GV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G  MVTVP+VNA  RE+DI+ +FRYCN +P+A+ M+AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|675621991|ref|XP_008939091.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase, partial [Merops nubicus] &gt;gi|677429269|gb|KFQ30235.1| Sorbitol dehydrogenase, partial [Merops nubicus]</Hit_def>
+  <Hit_accession>XP_008939091</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>1.393e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVVTDLSAARLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGAEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G++MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|697020759|ref|XP_009571897.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase, partial [Fulmarus glacialis] &gt;gi|678977114|gb|KFV90402.1| Sorbitol dehydrogenase, partial [Fulmarus glacialis]</Hit_def>
+  <Hit_accession>XP_009571897</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>1.48623e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|91077558|ref|XP_972317.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Tribolium castaneum]</Hit_def>
+  <Hit_accession>XP_972317</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>1.58428e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>MDLEEGALMEPLSVGVHACRRAGVRIGSVVLVLGAGPIGLVSMLTAKAMGASKVIITDIVGHRLQKAKELGADFTLQIGQNTTEEEIVSE--IKAKLGEDPNITLECTGAEQCVRVALQVTKSGG-TVILVGLGKFEMTVPLAGALVREVNIRGVFRYNNDYPIAIEMVKTGK</Hsp_hseq>
+      <Hsp_midline>+ LEEGAL+EPLSVGVHACRRAGV++G+ VLV+GAGPIGLVS+L AKA GA  V+ T     RL+ AK  GAD TL +     EE  + E  I++ +G+ PN+T++C+G E+C+ + + +T++GG T++LVG+G   +TVPL  A  RE++I+ VFRY NDYPIA+EMV +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1215454871|gb|OXB56753.1|</Hit_id>
+  <Hit_def>hypothetical protein ASZ78_008520 [Callipepla squamata]</Hit_def>
+  <Hit_accession>OXB56753</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>1.86381e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFICGSGPIGLVNVIIAKMMGAAAVVVTDLSASRLQTAKEVGADFTLQV---KNETPQEVATKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPMAISLLASRR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V + G+GPIGLV+V+ AK  G A VV T  S  RL+ AK  GAD TL V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1215488759|gb|OXB81941.1|</Hit_id>
+  <Hit_def>hypothetical protein H355_004024 [Colinus virginianus]</Hit_def>
+  <Hit_accession>OXB81941</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>1.96734e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSKVFICGSGPIGLVNVIIAKMMGAAAVVVTDLSASRLQTAKEVGADFTLQV---KNETPQEVATKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPMAISLLASRR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V + G+GPIGLV+V+ AK  G A VV T  S  RL+ AK  GAD TL V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|543353525|ref|XP_005521389.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Pseudopodoces humilis]</Hit_def>
+  <Hit_accession>XP_005521389</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>2.15748e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVIVAKMMGAAAVVVTDLSASRLQKAKEVGADFTIQV---KNEAPQEVASKVKSVLGCMPEITVECTGAQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+V+ AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  +++S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|729746731|ref|XP_010569839.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase isoform X2 [Haliaeetus leucocephalus] &gt;gi|729746733|ref|XP_010569840.1| PREDICTED: sorbitol dehydrogenase isoform X2 [Haliaeetus leucocephalus]</Hit_def>
+  <Hit_accession>XP_010569839</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>2.57788e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1394688844|ref|XP_025055683.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Alligator sinensis]</Hit_def>
+  <Hit_accession>XP_025055683</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>2.95906e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>ITFEEGALIEPLSVGIHACQRAGVTLGSKVFICGAGPIGLVTLLIAKAMGAAQVIITDLTASRLEKAKEIGADFTLVV---KKETPQELASKVQGLLGCMPEITVECTGAQDCIQAGIYATHSGG-TLVLVGMGQEMVTIPIVNAAVREVDIRGIFRYCNTWPMAISLLASKR</Hsp_hseq>
+      <Hsp_midline>++ EEGAL+EPLSVG+HAC+RAGV LG+ V + GAGPIGLV++L AKA GA  V+ T  +  RLE AK  GAD TLVV   K+E    +  +++  +G +P +T++C+G + CI  GI  T +GG TL+LVGMG +MVT+P+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1341023059|ref|XP_023789465.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase [Cyanistes caeruleus]</Hit_def>
+  <Hit_accession>XP_023789465</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>3.06854e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVIVAKMMGAAAVVVTDLSASRLQKAKEVGADFTIQV---KNESPQEVASKVESVLGCMPEITVECTGAQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+V+ AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|676826423|gb|KFP20023.1|</Hit_id>
+  <Hit_def>Sorbitol dehydrogenase, partial [Egretta garzetta]</Hit_def>
+  <Hit_accession>KFP20023</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>3.9269e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|541965213|ref|XP_005437584.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Falco cherrug]</Hit_def>
+  <Hit_accession>XP_005437584</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>3.97274e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPKEVAFKVESLLGCMPEITVECTGVEACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G E CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|723142528|ref|XP_010288275.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase, partial [Phaethon lepturus] &gt;gi|677488453|gb|KFQ77858.1| Sorbitol dehydrogenase, partial [Phaethon lepturus]</Hit_def>
+  <Hit_accession>XP_010288275</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>4.0126e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|224062245|ref|XP_002193475.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Taeniopygia guttata]</Hit_def>
+  <Hit_accession>XP_002193475</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>4.07405e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVIVAKMMGAAVVVVTDLSASRLQKAKEVGADFTIQV---KNETAQEVASKVESVLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+V+ AK  G A VV T  S  RL+ AK  GAD T+ V   K E +  +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|148237649|ref|NP_001086483.1|</Hit_id>
+  <Hit_def>sorbitol dehydrogenase L homeolog [Xenopus laevis] &gt;gi|49670447|gb|AAH75202.1| Sord-prov protein [Xenopus laevis]</Hit_def>
+  <Hit_accession>NP_001086483</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>4.1463e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGSRVFICGAGPIGLVSLLVAKMMGASQVVISDLSLSRLEKAKELGADFVVQV---ATEPPEVIARKVEELLGTMPEITIECTGAESCIQAGIYATRSGG-TLILVGLGPAMVNVPIVNAAVREVDIRGIFRYCNTWPMAISMLSSKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG+ V + GAGPIGLVS+L AK  GA  VV +  S  RLE AK  GAD  + V     E   +I R++   +G +P +TI+C+G E CI  GI  TR+GG TL+LVG+G  MV VP+VNA  RE+DI+ +FRYCN +P+A+ M++S R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|529425678|ref|XP_005232675.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Falco peregrinus]</Hit_def>
+  <Hit_accession>XP_005232675</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>4.19264e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPKEVAFKVESLLGCMPEITVECTGVEACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G E CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|697466895|gb|KGL99763.1|</Hit_id>
+  <Hit_def>Sorbitol dehydrogenase, partial [Charadrius vociferus]</Hit_def>
+  <Hit_accession>KGL99763</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>4.28108e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|699702207|ref|XP_009891446.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Charadrius vociferus]</Hit_def>
+  <Hit_accession>XP_009891446</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>4.40249e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|677540482|gb|KFR02024.1|</Hit_id>
+  <Hit_def>Sorbitol dehydrogenase, partial [Nipponia nippon]</Hit_def>
+  <Hit_accession>KFR02024</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>4.42198e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAATVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|698431786|ref|XP_009815495.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase, partial [Gavia stellata] &gt;gi|678190308|gb|KFV58001.1| Sorbitol dehydrogenase, partial [Gavia stellata]</Hit_def>
+  <Hit_accession>XP_009815495</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>4.56752e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|697843390|ref|XP_009642052.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Egretta garzetta]</Hit_def>
+  <Hit_accession>XP_009642052</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>4.84653e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEVGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|677233489|gb|KFP53386.1|</Hit_id>
+  <Hit_def>Sorbitol dehydrogenase, partial [Cathartes aura]</Hit_def>
+  <Hit_accession>KFP53386</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>4.87312e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYG-AFVVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVASGR</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACKRAGVTLGSKVFVSGSGPIGLVNVLVAKMMGAAAVVITDLSASRLQKAKEMGADFTIQV---KNETPQEVASKVESLLGCMPEITVECTGVQACIQAGIYATRSGG-TLVLVGLGPEMVTVPIVNAAVREVDIRGIFRYCNTWPVAIALLASKR</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HAC+RAGV LG+ V V G+GPIGLV+VL AK  G A VV T  S  RL+ AK  GAD T+ V   K E    +  ++ S +G +P +T++C+G + CI  GI  TR+GG TL+LVG+G +MVTVP+VNA  RE+DI+ +FRYCN +P+A+ ++AS R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|826308220|ref|XP_012504888.1|</Hit_id>
+  <Hit_def>PREDICTED: sorbitol dehydrogenase [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012504888</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>5.08966e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VSLEEGALLEPLSVGVHACRRAGVQLGTTVLVIGAGPIGLVSVLAAKAYGAF-VVCTARSPRRLEVAKNCGADVTLVVDPAKEEESSIIERRIRSAIGDLPNVTIDCSGNEKCITIGINITRTGGTTLMLVGMGSQMVTVPLVNACAREIDIKSVFRYCNDYPIALEMVAS</Hsp_qseq>
+      <Hsp_hseq>VTFEEGALIEPLSVGIHACRRAGVTLGNKVLVCGAGPIGLVSLLVAKAMGAAQVVVTDLSASRLSKAQEVGADLVLQISKETPQE---VASKVEGLLGCKPEVTIECTGAEACIQAGIYATRSGG-TLVLVGLGSEMATVPLLHAAVREVDIKGVFRYCNTWPMAISMLAS</Hsp_hseq>
+      <Hsp_midline>V+ EEGAL+EPLSVG+HACRRAGV LG  VLV GAGPIGLVS+L AKA GA  VV T  S  RL  A+  GAD+ L +     +E   +  ++   +G  P VTI+C+G E CI  GI  TR+GG TL+LVG+GS+M TVPL++A  RE+DIK VFRYCN +P+A+ M+AS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>183518263</Statistics_db-num>
+      <Statistics_db-len>66960884416</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
