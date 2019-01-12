@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_168129</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1p5zb_229</BlastOutput_query-def>
+  <BlastOutput_query-len>229</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_168129</Iteration_query-ID>
+  <Iteration_query-def>d1p5zb_229</Iteration_query-def>
+  <Iteration_query-len>229</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|303324853|pdb|3IPX|A</Hit_id>
+  <Hit_def>Chain A, X-Ray Structure Of Human Deoxycytidine Kinase In Complex With Adp And An Inhibitor &gt;gi|303324854|pdb|3IPY|A Chain A, X-Ray Structure Of Human Deoxycytidine Kinase In Complex With An Inhibitor &gt;gi|303324855|pdb|3IPY|B Chain B, X-Ray Structure Of Human Deoxycytidine Kinase In Complex With An Inhibitor</Hit_def>
+  <Hit_accession>3IPX_A</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>1.01254e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|4503269|ref|NP_000779.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Homo sapiens] &gt;gi|118447|sp|P27707.1|DCK_HUMAN RecName: Full=Deoxycytidine kinase; Short=dCK &gt;gi|181510|gb|AAA35752.1| deoxycytidine kinase [Homo sapiens] &gt;gi|49168538|emb|CAG38764.1| DCK [Homo sapiens] &gt;gi|49456707|emb|CAG46674.1| DCK, partial [Homo sapiens] &gt;gi|74355077|gb|AAI03765.1| Deoxycytidine kinase [Homo sapiens] &gt;gi|92058715|gb|AAI14618.1| Deoxycytidine kinase [Homo sapiens] &gt;gi|119626042|gb|EAX05637.1| deoxycytidine kinase [Homo sapiens] &gt;gi|189069271|dbj|BAG36303.1| unnamed protein product [Homo sapiens] &gt;gi|331271627|gb|AED02503.1| deoxynucleoside kinase [Homo sapiens] &gt;gi|649099537|gb|AIC48622.1| DCK, partial [synthetic construct] &gt;gi|649118298|gb|AIC54266.1| DCK, partial [synthetic construct] &gt;gi|1147682139|emb|SJX32344.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gi|1147701964|emb|SJX45560.1| unnamed protein product, partial [Human ORFeome Gateway entry vector]</Hit_def>
+  <Hit_accession>NP_000779</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.855</Hsp_bit-score>
+      <Hsp_score>1213</Hsp_score>
+      <Hsp_evalue>1.04735e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|60829963|gb|AAX36904.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAX36904</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.855</Hsp_bit-score>
+      <Hsp_score>1213</Hsp_score>
+      <Hsp_evalue>1.1225e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|54696740|gb|AAV38742.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase, partial [synthetic construct] &gt;gi|54696742|gb|AAV38743.1| deoxycytidine kinase, partial [synthetic construct] &gt;gi|61367804|gb|AAX43049.1| deoxycytidine kinase, partial [synthetic construct] &gt;gi|61367811|gb|AAX43050.1| deoxycytidine kinase, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAV38742</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>1.30883e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|162330060|pdb|2QRN|A</Hit_id>
+  <Hit_def>Chain A, Human Deoxycytidine Kinase Dcmp, Udp, Mg Ion Product Complex &gt;gi|162330061|pdb|2QRN|B Chain B, Human Deoxycytidine Kinase Dcmp, Udp, Mg Ion Product Complex &gt;gi|162330062|pdb|2QRN|C Chain C, Human Deoxycytidine Kinase Dcmp, Udp, Mg Ion Product Complex &gt;gi|162330063|pdb|2QRN|D Chain D, Human Deoxycytidine Kinase Dcmp, Udp, Mg Ion Product Complex &gt;gi|162330064|pdb|2QRO|A Chain A, Human Deoxycytidine Kinase Damp, Udp, Mg Ion Product Complex &gt;gi|162330065|pdb|2QRO|B Chain B, Human Deoxycytidine Kinase Damp, Udp, Mg Ion Product Complex &gt;gi|162330066|pdb|2QRO|C Chain C, Human Deoxycytidine Kinase Damp, Udp, Mg Ion Product Complex &gt;gi|162330067|pdb|2QRO|D Chain D, Human Deoxycytidine Kinase Damp, Udp, Mg Ion Product Complex</Hit_def>
+  <Hit_accession>2QRN_A</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>1.45958e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|33357874|pdb|1P5Z|B</Hit_id>
+  <Hit_def>Chain B, Structure Of Human Dck Complexed With Cytarabine And Adp-Mg &gt;gi|33357875|pdb|1P60|A Chain A, Structure Of Human Dck Complexed With 2&apos;-Deoxycytidine And Adp, Space Group C 2 2 21 &gt;gi|33357876|pdb|1P60|B Chain B, Structure Of Human Dck Complexed With 2&apos;-Deoxycytidine And Adp, Space Group C 2 2 21 &gt;gi|33357877|pdb|1P61|B Chain B, Structure Of Human Dck Complexed With 2&apos;-Deoxycytidine And Adp, P 43 21 2 Space Group &gt;gi|33357878|pdb|1P62|B Chain B, Structure Of Human Dck Complexed With Gemcitabine And Adp-Mg &gt;gi|88191995|pdb|2A7Q|A Chain A, Crystal Structure Of Human Dck Complexed With Clofarabine And Adp</Hit_def>
+  <Hit_accession>1P5Z_B</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>1.62334e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|823674058|gb|AKI72240.1|</Hit_id>
+  <Hit_def>DCK, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI72240</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>1.71583e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKVSIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKK+SIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|33304131|gb|AAQ02573.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAQ02573</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>1.9857e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|823674060|gb|AKI72241.1|</Hit_id>
+  <Hit_def>DCK, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI72241</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>4.60507e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDGEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKD EKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|426344576|ref|XP_004038837.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004038837</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>4.91836e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|54696744|gb|AAV38744.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Homo sapiens] &gt;gi|54696746|gb|AAV38745.1| deoxycytidine kinase [Homo sapiens] &gt;gi|61357638|gb|AAX41419.1| deoxycytidine kinase [synthetic construct] &gt;gi|61357644|gb|AAX41420.1| deoxycytidine kinase [synthetic construct] &gt;gi|823674062|gb|AKI72242.1| DCK, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAV38744</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.774</Hsp_bit-score>
+      <Hsp_score>1205</Hsp_score>
+      <Hsp_evalue>1.7946e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKSVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEK VLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|332233150|ref|XP_003265766.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase isoform X2 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_003265766</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>3.997e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|88191971|pdb|2A2Z|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Deoxycytidine Kinase In Complex With Deoxycytidine And Uridine Diphosphate &gt;gi|88191972|pdb|2A2Z|B Chain B, Crystal Structure Of Human Deoxycytidine Kinase In Complex With Deoxycytidine And Uridine Diphosphate &gt;gi|88191973|pdb|2A2Z|C Chain C, Crystal Structure Of Human Deoxycytidine Kinase In Complex With Deoxycytidine And Uridine Diphosphate &gt;gi|88191974|pdb|2A2Z|D Chain D, Crystal Structure Of Human Deoxycytidine Kinase In Complex With Deoxycytidine And Uridine Diphosphate &gt;gi|88191975|pdb|2A30|A Chain A, Crystal Structure Of Human Deoxycytidine Kinase In Complex With Deoxycytidine &gt;gi|88191976|pdb|2A30|B Chain B, Crystal Structure Of Human Deoxycytidine Kinase In Complex With Deoxycytidine &gt;gi|88191977|pdb|2A30|C Chain C, Crystal Structure Of Human Deoxycytidine Kinase In Complex With Deoxycytidine &gt;gi|88191978|pdb|2A30|D Chain D, Crystal Structure Of Human Deoxycytidine Kinase In Complex With Deoxycytidine</Hit_def>
+  <Hit_accession>2A2Z_A</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.848</Hsp_bit-score>
+      <Hsp_score>1200</Hsp_score>
+      <Hsp_evalue>5.75383e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTN---VLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTN   VLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|240104636|pdb|3HP1|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Dck R104mD133A IN COMPLEX WITH L-Dt And Adp</Hit_def>
+  <Hit_accession>3HP1_A</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.003</Hsp_bit-score>
+      <Hsp_score>1203</Hsp_score>
+      <Hsp_evalue>6.41874e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSMIRAQLASLNGKLKDAEKPVLFFERSVYSARYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLS IRAQLASLNGKLKDAEKPVLFFERSVYS RYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|114594358|ref|XP_517245.2|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Pan troglodytes] &gt;gi|397475199|ref|XP_003809031.1| deoxycytidine kinase [Pan paniscus] &gt;gi|1331823303|gb|PNI82703.1| DCK isoform 1 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_517245</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.848</Hsp_bit-score>
+      <Hsp_score>1200</Hsp_score>
+      <Hsp_evalue>9.09966e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNEIEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPETCLHRMYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNE EWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPETCLHR+YLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1285033075|pdb|5MQJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal structure of dCK mutant C3S &gt;gi|1285033076|pdb|5MQJ|B Chain B, Crystal structure of dCK mutant C3S &gt;gi|1285033077|pdb|5MQJ|C Chain C, Crystal structure of dCK mutant C3S &gt;gi|1285033078|pdb|5MQJ|D Chain D, Crystal structure of dCK mutant C3S</Hit_def>
+  <Hit_accession>5MQJ_A</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>9.1476e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLSEDWEVVPEPVARWSNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQL EDWEVVPEPVARW NVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|297673690|ref|XP_002814884.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Pongo abelii] &gt;gi|1331900618|gb|PNJ48675.1| DCK isoform 1 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002814884</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.848</Hsp_bit-score>
+      <Hsp_score>1200</Hsp_score>
+      <Hsp_evalue>9.40409e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVAKWCNVQSTQNKFEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVA+WCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1285033079|pdb|5MQL|A</Hit_id>
+  <Hit_def>Chain A, Crystal structure of dCK mutant C3S in complex with masitinib and UDP &gt;gi|1285033080|pdb|5MQL|B Chain B, Crystal structure of dCK mutant C3S in complex with masitinib and UDP &gt;gi|1285033081|pdb|5MQL|C Chain C, Crystal structure of dCK mutant C3S in complex with masitinib and UDP &gt;gi|1285033082|pdb|5MQL|D Chain D, Crystal structure of dCK mutant C3S in complex with masitinib and UDP &gt;gi|1285033083|pdb|5MQT|A Chain A, Crystal structure of dCK mutant C3S in complex with imatinib and UDP &gt;gi|1285033084|pdb|5MQT|B Chain B, Crystal structure of dCK mutant C3S in complex with imatinib and UDP &gt;gi|1285033085|pdb|5MQT|C Chain C, Crystal structure of dCK mutant C3S in complex with imatinib and UDP &gt;gi|1285033086|pdb|5MQT|D Chain D, Crystal structure of dCK mutant C3S in complex with imatinib and UDP</Hit_def>
+  <Hit_accession>5MQL_A</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>1.23547e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLSEDWEVVPEPVARWSNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQL EDWEVVPEPVARW NVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|185177722|pdb|2ZI4|A</Hit_id>
+  <Hit_def>Chain A, C4s Dck Variant Of Dck In Complex With L-da+adp &gt;gi|185177723|pdb|2ZI5|A Chain A, C4s Dck Variant Of Dck In Complex With L-Da+udp &gt;gi|185177724|pdb|2ZI5|B Chain B, C4s Dck Variant Of Dck In Complex With L-Da+udp &gt;gi|185177725|pdb|2ZI5|C Chain C, C4s Dck Variant Of Dck In Complex With L-Da+udp &gt;gi|185177726|pdb|2ZI5|D Chain D, C4s Dck Variant Of Dck In Complex With L-Da+udp &gt;gi|185177727|pdb|2ZI6|A Chain A, C4s Dck Variant Of Dck In Complex With D-Da+udp &gt;gi|185177728|pdb|2ZI6|B Chain B, C4s Dck Variant Of Dck In Complex With D-Da+udp &gt;gi|185177729|pdb|2ZI6|C Chain C, C4s Dck Variant Of Dck In Complex With D-Da+udp &gt;gi|185177730|pdb|2ZI6|D Chain D, C4s Dck Variant Of Dck In Complex With D-Da+udp &gt;gi|193885263|pdb|2ZI7|B Chain B, C4s Dck Variant Of Dck In Complex With D-Dg+udp &gt;gi|193885264|pdb|2ZI7|A Chain A, C4s Dck Variant Of Dck In Complex With D-Dg+udp &gt;gi|193885267|pdb|2ZIA|A Chain A, C4s Dck Variant Of Dck In Complex With Cladribine+udp &gt;gi|193885268|pdb|2ZIA|B Chain B, C4s Dck Variant Of Dck In Complex With Cladribine+udp &gt;gi|301598591|pdb|3MJR|A Chain A, Human dCK complex with Acyclic Nucleoside &gt;gi|301598592|pdb|3MJR|B Chain B, Human dCK complex with Acyclic Nucleoside &gt;gi|301598593|pdb|3MJR|C Chain C, Human dCK complex with Acyclic Nucleoside &gt;gi|301598594|pdb|3MJR|D Chain D, Human dCK complex with Acyclic Nucleoside &gt;gi|306991646|pdb|3KFX|A Chain A, Human Dck Complex With 5-Me Dc And Adp &gt;gi|306991647|pdb|3KFX|B Chain B, Human Dck Complex With 5-Me Dc And Adp</Hit_def>
+  <Hit_accession>2ZI4_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>1.13205e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLSEDWEVVPEPVARWSNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESESMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQL EDWEVVPEPVARW NVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESE MNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|134104939|pdb|2NO9|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Deoxycytidine Kinase Complexed With Troxacitabine And Adp. &gt;gi|134104940|pdb|2NO9|B Chain B, The Structure Of Deoxycytidine Kinase Complexed With Troxacitabine And Adp. &gt;gi|134104941|pdb|2NOA|A Chain A, The Structure Of Deoxycytidine Kinase Complexed With Lamivudine And Adp. &gt;gi|134104942|pdb|2NOA|B Chain B, The Structure Of Deoxycytidine Kinase Complexed With Lamivudine And Adp. &gt;gi|151567752|pdb|2NO0|A Chain A, C4s Dck Variant Of Dck In Complex With Gemcitabine+adp &gt;gi|151567753|pdb|2NO0|B Chain B, C4s Dck Variant Of Dck In Complex With Gemcitabine+adp &gt;gi|151567754|pdb|2NO1|A Chain A, C4s Dck Variant Of Dck In Complex With D-Dc+adp &gt;gi|151567755|pdb|2NO1|B Chain B, C4s Dck Variant Of Dck In Complex With D-Dc+adp &gt;gi|151567756|pdb|2NO6|A Chain A, C4s Dck Variant Of Dck In Complex With Ftc+adp &gt;gi|151567757|pdb|2NO6|B Chain B, C4s Dck Variant Of Dck In Complex With Ftc+adp &gt;gi|151567758|pdb|2NO7|A Chain A, C4s Dck Variant Of Dck In Complex With L-dc+adp &gt;gi|151567759|pdb|2NO7|B Chain B, C4s Dck Variant Of Dck In Complex With L-dc+adp</Hit_def>
+  <Hit_accession>2NO9_A</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>1.1358e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLSEDWEVVPEPVARWSNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESESMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQL EDWEVVPEPVARW NVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESE MNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|544192006|pdb|4JLK|A</Hit_id>
+  <Hit_def>Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The F2.2.1 Inhibitor (2-[({2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-5-methyl-1,3-thiazol-4- Yl}methyl)sulfanyl]pyrimidine-4,6-diamine) &gt;gi|544192007|pdb|4JLK|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The F2.2.1 Inhibitor (2-[({2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-5-methyl-1,3-thiazol-4- Yl}methyl)sulfanyl]pyrimidine-4,6-diamine) &gt;gi|544192115|pdb|4L5B|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Di-43 Inhibitor &gt;gi|544192116|pdb|4L5B|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Di-43 Inhibitor &gt;gi|575403281|pdb|4JLJ|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The F2.1.1 Inhibitor (2-[({2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-1,3-thiazol-4- Yl}methyl)sulfanyl]pyrimidine-4,6-diamine) &gt;gi|575403282|pdb|4JLJ|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The F2.1.1 Inhibitor (2-[({2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-1,3-thiazol-4- Yl}methyl)sulfanyl]pyrimidine-4,6-diamine) &gt;gi|575403283|pdb|4JLM|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The F2.3.1 Inhibitor (2-[({5-ethyl-2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-1,3-thiazol-4- Yl}methyl)sulfanyl]pyrimidine-4,6-diamine) &gt;gi|575403284|pdb|4JLM|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The F2.3.1 Inhibitor (2-[({5-ethyl-2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-1,3-thiazol-4- Yl}methyl)sulfanyl]pyrimidine-4,6-diamine) &gt;gi|575403285|pdb|4JLN|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The F2.4.1 Inhibitor (2-[({2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-5-propyl-1,3-thiazol-4- Yl}methyl)sulfanyl]pyrimidine-4,6-diamine) &gt;gi|575403286|pdb|4JLN|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The F2.4.1 Inhibitor (2-[({2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-5-propyl-1,3-thiazol-4- Yl}methyl)sulfanyl]pyrimidine-4,6-diamine) &gt;gi|594147102|pdb|4KCG|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Di-39 Inhibitor &gt;gi|594147103|pdb|4KCG|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Di-39 Inhibitor &gt;gi|704360573|pdb|4Q18|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 4 [1- [5-(4-{[(2,6-diaminopyrimidin-4-yl)sulfanyl]methyl}-5-propyl-1,3- Thiazol-2-yl)-2-methoxyphenoxy]-2-methylpropan-2-ol] &gt;gi|704360574|pdb|4Q18|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 4 [1- [5-(4-{[(2,6-diaminopyrimidin-4-yl)sulfanyl]methyl}-5-propyl-1,3- Thiazol-2-yl)-2-methoxyphenoxy]-2-methylpropan-2-ol] &gt;gi|704360577|pdb|4Q19|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 5 {5- (4-{[(4,6-diaminopyrimidin-2-yl)sulfanyl]methyl}-5-propyl-1,3- Thiazol-2-yl)-2-methoxyphenol} &gt;gi|704360578|pdb|4Q19|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 5 {5- (4-{[(4,6-diaminopyrimidin-2-yl)sulfanyl]methyl}-5-propyl-1,3- Thiazol-2-yl)-2-methoxyphenol} &gt;gi|704360582|pdb|4Q1C|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 8 {2, 2&apos;-[{4-[(2r)-4-{[(4,6-diaminopyrimidin-2-yl)sulfanyl]methyl}-5- Propyl-2,3-dihydro-1,3-thiazol-2-yl]benzene-1,2-diyl}bis(oxy) ]diethanol} &gt;gi|704360583|pdb|4Q1C|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 8 {2, 2&apos;-[{4-[(2r)-4-{[(4,6-diaminopyrimidin-2-yl)sulfanyl]methyl}-5- Propyl-2,3-dihydro-1,3-thiazol-2-yl]benzene-1,2-diyl}bis(oxy) ]diethanol} &gt;gi|704360588|pdb|4Q1E|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 10 {2- {[(1r/s)-1-{2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-5-methyl-1,3- Thiazol 4-yl}ethyl]sulfanyl}pyrimidine-4,6-diamine} &gt;gi|704360589|pdb|4Q1E|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 10 {2- {[(1r/s)-1-{2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-5-methyl-1,3- Thiazol 4-yl}ethyl]sulfanyl}pyrimidine-4,6-diamine} &gt;gi|704360592|pdb|4Q1F|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 12r {n-{2-[5-(4-{(1r)-1-[(4,6-diaminopyrimidin-2-yl)sulfanyl]ethyl}-5- Methyl-1,3-thiazol-2-yl)-2-methoxyphenoxy]ethyl}methanesulfonamide} &gt;gi|704360593|pdb|4Q1F|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 12r {n-{2-[5-(4-{(1r)-1-[(4,6-diaminopyrimidin-2-yl)sulfanyl]ethyl}-5- Methyl-1,3-thiazol-2-yl)-2-methoxyphenoxy]ethyl}methanesulfonamide} &gt;gi|757819119|pdb|4Q1A|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 6 {2- [5-(4-{[(4,6-diaminopyrimidin-2-yl)sulfanyl]methyl}-5-propyl-1,3- Thiazol-2-yl)-2-methoxyphenoxy]ethanol} &gt;gi|757819120|pdb|4Q1A|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 6 {2- [5-(4-{[(4,6-diaminopyrimidin-2-yl)sulfanyl]methyl}-5-propyl-1,3- Thiazol-2-yl)-2-methoxyphenoxy]ethanol} &gt;gi|757819121|pdb|4Q1B|A Chain A, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 7 {n- (2-(3-(4-(((4,6-diaminopyrimidin-2-yl)thio)methyl)-5-propylthiazol-2- Yl)phenoxy)ethyl)methanesulfonamide} &gt;gi|757819122|pdb|4Q1B|B Chain B, Human Dck C4s-s74e Mutant In Complex With Udp And The Inhibitor 7 {n- (2-(3-(4-(((4,6-diaminopyrimidin-2-yl)thio)methyl)-5-propylthiazol-2- Yl)phenoxy)ethyl)methanesulfonamide} &gt;gi|757819123|pdb|4Q1D|A Chain A, Human dCK C4S-S74E mutant in complex with UDP and the inhibitor 9 {2-{[(1R)-1-{2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-5-propyl-1,3-thiazol-4-yl}ethyl]sulfanyl}pyrimidine-4,6-diamine} &gt;gi|757819124|pdb|4Q1D|B Chain B, Human dCK C4S-S74E mutant in complex with UDP and the inhibitor 9 {2-{[(1R)-1-{2-[3-(2-fluoroethoxy)-4-methoxyphenyl]-5-propyl-1,3-thiazol-4-yl}ethyl]sulfanyl}pyrimidine-4,6-diamine}</Hit_def>
+  <Hit_accession>4JLK_A</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>1.28142e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLSEDWEVVPEPVARWSNVQSTQDEFEELTMEQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESESMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQL EDWEVVPEPVARW NVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESE MNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|326328032|pdb|3QEJ|A</Hit_id>
+  <Hit_def>Chain A, S74e-dck Mutant In Complex With Udp &gt;gi|326328033|pdb|3QEJ|B Chain B, S74e-dck Mutant In Complex With Udp &gt;gi|326328034|pdb|3QEN|A Chain A, S74e Dck In Complex With 5-Bromodeoxycytidine And Udp &gt;gi|326328035|pdb|3QEN|B Chain B, S74e Dck In Complex With 5-Bromodeoxycytidine And Udp</Hit_def>
+  <Hit_accession>3QEJ_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>1.33447e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLSEDWEVVPEPVARWSNVQSTQDEFEELTMEQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESESMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQL EDWEVVPEPVARW NVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESE MNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|185177720|pdb|2ZI3|A</Hit_id>
+  <Hit_def>Chain A, C4s-e247a Dck Variant Of Dck In Complex With D-da+adp &gt;gi|185177721|pdb|2ZI3|B Chain B, C4s-e247a Dck Variant Of Dck In Complex With D-da+adp &gt;gi|193885265|pdb|2ZI9|A Chain A, C4s-E247a Dck Variant Of Dck In Complex With Cladribine+adp &gt;gi|193885266|pdb|2ZI9|B Chain B, C4s-E247a Dck Variant Of Dck In Complex With Cladribine+adp</Hit_def>
+  <Hit_accession>2ZI3_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>6.06127e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLSEDWEVVPEPVARWSNVQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESESMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYASLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQL EDWEVVPEPVARW NVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESE MNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKY SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1348534742|ref|XP_007112771.2|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Physeter catodon]</Hit_def>
+  <Hit_accession>XP_007112771</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>9.52565e-163</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>IKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>IKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHDSLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>IKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK++SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|326328036|pdb|3QEO|A</Hit_id>
+  <Hit_def>Chain A, S74e-R104m-D133a Dck Variant In Complex With L-Deoxythymidine And Udp &gt;gi|326328037|pdb|3QEO|B Chain B, S74e-R104m-D133a Dck Variant In Complex With L-Deoxythymidine And Udp</Hit_def>
+  <Hit_accession>3QEO_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>1.18367e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQLSEDWEVVPEPVARWSNVQSTQDEFEELTMEQKNGGNVLQMMYEKPERWSFTFQTYACLSMIRAQLASLNGKLKDAEKPVLFFERSVYSARYIFASNLYESESMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQL EDWEVVPEPVARW NVQST            NGGNVLQMMYEKPERWSFTFQTYACLS IRAQLASLNGKLKDAEKPVLFFERSVYS RYIFASNLYESE MNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|383873328|ref|NP_001244483.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Macaca mulatta] &gt;gi|685541468|ref|XP_009205231.1| deoxycytidine kinase isoform X1 [Papio anubis] &gt;gi|685541470|ref|XP_009205232.1| deoxycytidine kinase isoform X2 [Papio anubis] &gt;gi|724803888|ref|XP_010382372.1| PREDICTED: deoxycytidine kinase [Rhinopithecus roxellana] &gt;gi|795242736|ref|XP_011853536.1| PREDICTED: deoxycytidine kinase isoform X2 [Mandrillus leucophaeus] &gt;gi|795340912|ref|XP_011782513.1| PREDICTED: deoxycytidine kinase [Colobus angolensis palliatus] &gt;gi|1059085227|ref|XP_017734594.1| PREDICTED: deoxycytidine kinase [Rhinopithecus bieti] &gt;gi|1297727057|ref|XP_023045999.1| deoxycytidine kinase [Piliocolobus tephrosceles] &gt;gi|1411157169|ref|XP_025241050.1| deoxycytidine kinase isoform X2 [Theropithecus gelada] &gt;gi|355687358|gb|EHH25942.1| Deoxycytidine kinase [Macaca mulatta] &gt;gi|355749344|gb|EHH53743.1| Deoxycytidine kinase [Macaca fascicularis]</Hit_def>
+  <Hit_accession>NP_001244483</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.759</Hsp_bit-score>
+      <Hsp_score>1179</Hsp_score>
+      <Hsp_evalue>1.59622e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLLFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTDFDYLQEVPILILDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVL FERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKT+FDYLQEVPIL LDVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|562826620|ref|XP_006142963.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Tupaia chinensis]</Hit_def>
+  <Hit_accession>XP_006142963</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>4.728e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQNEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|635042915|ref|XP_007997023.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_007997023</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>6.35756e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDESEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLLFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTDFDYLQEVPILIMDVNEDFKDKHENLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVL FERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKT+FDYLQEVPIL +DVNEDFKDK+E+LVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|675649160|ref|XP_008991448.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_008991448</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.447</Hsp_bit-score>
+      <Hsp_score>1173</Hsp_score>
+      <Hsp_evalue>1.14952e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKKVCEDWEVVPEPVARWCNVHSTQDEFEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWTNNQFGQSLELDGIIYLRATPEKCLHRMYLRGRNEEQGIPLEYLEKLHHKHESWLLHRTLKTNFNYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILK++CEDWEVVPEPVARWCNV ST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDW NNQFGQSLELDGIIYL+ATPE CLHR+YLRGRNEEQGIPLEYLEKLH+KHESWLLHRTLKTNF+YLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|548961169|ref|NP_001272173.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Macaca fascicularis] &gt;gi|67970435|dbj|BAE01560.1| unnamed protein product [Macaca fascicularis]</Hit_def>
+  <Hit_accession>NP_001272173</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>1.56275e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLLFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTDFDYLQEVPILIPDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVL FERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKT+FDYLQEVPIL  DVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|602681324|ref|XP_007446163.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Lipotes vexillifer]</Hit_def>
+  <Hit_accession>XP_007446163</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>2.07844e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHDSLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK++SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|795383367|ref|XP_011938344.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011938344</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.677</Hsp_bit-score>
+      <Hsp_score>1171</Hsp_score>
+      <Hsp_evalue>2.85677e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDCEVVPEPVARWCNVQSTQDEFEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLLFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTDFDYLQEVPILILDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CED EVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVL FERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKT+FDYLQEVPIL LDVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|795623892|ref|XP_011732094.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Macaca nemestrina]</Hit_def>
+  <Hit_accession>XP_011732094</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.292</Hsp_bit-score>
+      <Hsp_score>1170</Hsp_score>
+      <Hsp_evalue>3.36764e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLLFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMHNQFGQSLELDGIIYLRATPEKCLHRIYLRGRNEEQGIPLEYLEKLHYKHENWLLHRTLKTDFDYLQEVPILILDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVL FERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWM+NQFGQSLELDGIIYL+ATPE CLHRIYLRGRNEEQGIPLEYLEKLHYKHE+WLLHRTLKT+FDYLQEVPIL LDVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1378872523|ref|XP_024609958.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: deoxycytidine kinase [Neophocaena asiaeorientalis asiaeorientalis]</Hit_def>
+  <Hit_accession>XP_024609958</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>3.6136e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTVKTNFDYLQEVPILTLDVNEDFKDKHDSLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRT+KTNFDYLQEVPILTLDVNEDFKDK++SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|311262318|ref|XP_003129122.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase isoform X2 [Sus scrofa]</Hit_def>
+  <Hit_accession>XP_003129122</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.907</Hsp_bit-score>
+      <Hsp_score>1169</Hsp_score>
+      <Hsp_evalue>4.78358e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQNEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHSSLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK+ SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1131193799|ref|XP_019788242.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase isoform X1 [Tursiops truncatus]</Hit_def>
+  <Hit_accession>XP_019788242</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.907</Hsp_bit-score>
+      <Hsp_score>1169</Hsp_score>
+      <Hsp_evalue>5.27987e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFKELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTVKTNFDYLQEVPILTLDVNEDFKDKHDSLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRT+KTNFDYLQEVPILTLDVNEDFKDK++SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|488584435|ref|XP_004477598.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase isoform X1 [Dasypus novemcinctus]</Hit_def>
+  <Hit_accession>XP_004477598</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.907</Hsp_bit-score>
+      <Hsp_score>1169</Hsp_score>
+      <Hsp_evalue>5.39697e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELNGIIYLRATPAKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLEL+GIIYL+ATP  CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|471401452|ref|XP_004383381.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_004383381</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.521</Hsp_bit-score>
+      <Hsp_score>1168</Hsp_score>
+      <Hsp_evalue>6.089e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RVKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQNEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLASLNGRLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHENWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>R+KKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLASLNG+LKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHE+WLLHRTLKTNFDYLQEVPILTLDVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1246217566|ref|XP_022455272.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase isoform X2 [Delphinapterus leucas]</Hit_def>
+  <Hit_accession>XP_022455272</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.833</Hsp_bit-score>
+      <Hsp_score>1174</Hsp_score>
+      <Hsp_evalue>6.93207e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTVKTNFDYLQEVPILTLDVNEDFKDKHDSLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRT+KTNFDYLQEVPILTLDVNEDFKDK++SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|585699386|ref|XP_006896888.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase-like [Elephantulus edwardii]</Hit_def>
+  <Hit_accession>XP_006896888</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.136</Hsp_bit-score>
+      <Hsp_score>1167</Hsp_score>
+      <Hsp_evalue>8.84095e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLASLNGRLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEIPILTLDVNEDFKAKHENLVEKVKEFLSAL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLASLNG+LKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQE+PILTLDVNEDFK K+E+LVEKVKEFLS L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|77736093|ref|NP_001029745.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Bos taurus] &gt;gi|555970189|ref|XP_005897117.1| PREDICTED: deoxycytidine kinase [Bos mutus] &gt;gi|594092079|ref|XP_006069401.1| deoxycytidine kinase [Bubalus bubalis] &gt;gi|1131284901|ref|XP_019818451.1| PREDICTED: deoxycytidine kinase [Bos indicus] &gt;gi|1542956749|ref|XP_027400498.1| deoxycytidine kinase [Bos indicus x Bos taurus] &gt;gi|122139964|sp|Q3MHR2.1|DCK_BOVIN RecName: Full=Deoxycytidine kinase; Short=dCK &gt;gi|75773424|gb|AAI05142.1| Deoxycytidine kinase [Bos taurus] &gt;gi|296486436|tpg|DAA28549.1| TPA: deoxycytidine kinase [Bos taurus]</Hit_def>
+  <Hit_accession>NP_001029745</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.136</Hsp_bit-score>
+      <Hsp_score>1167</Hsp_score>
+      <Hsp_evalue>9.03702e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHDSLIEKVKDFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK++SL+EKVK+FLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|548470599|ref|XP_005681795.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase isoform X1 [Capra hircus] &gt;gi|556777512|ref|XP_005983845.1| PREDICTED: deoxycytidine kinase [Pantholops hodgsonii] &gt;gi|803311972|ref|XP_012014305.1| PREDICTED: deoxycytidine kinase isoform X2 [Ovis aries musimon]</Hit_def>
+  <Hit_accession>XP_005681795</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.136</Hsp_bit-score>
+      <Hsp_score>1167</Hsp_score>
+      <Hsp_evalue>1.06531e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQNEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHDSLIEKVKDFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK++SL+EKVK+FLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1187556494|ref|XP_020732084.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Odocoileus virginianus texanus]</Hit_def>
+  <Hit_accession>XP_020732084</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.136</Hsp_bit-score>
+      <Hsp_score>1167</Hsp_score>
+      <Hsp_evalue>1.08893e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQNEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHDSLIEKVKDFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK++SL+EKVK+FLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1246217564|ref|XP_022455271.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase isoform X1 [Delphinapterus leucas]</Hit_def>
+  <Hit_accession>XP_022455271</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>1.30722e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTVKTNFDYLQEVPILTLDVNEDFKDKHDSLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRT+KTNFDYLQEVPILTLDVNEDFKDK++SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|426231838|ref|XP_004009944.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase isoform X2 [Ovis aries]</Hit_def>
+  <Hit_accession>XP_004009944</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.751</Hsp_bit-score>
+      <Hsp_score>1166</Hsp_score>
+      <Hsp_evalue>1.51321e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQNEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHDSLIEKVKDFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK++SL+EKVK+FLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1044411145|ref|XP_017357123.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Cebus capucinus imitator]</Hit_def>
+  <Hit_accession>XP_017357123</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.751</Hsp_bit-score>
+      <Hsp_score>1166</Hsp_score>
+      <Hsp_evalue>1.65198e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIASGKSTFVNILKKVCEDWEVVPEPVAKWCSVHSTQDEFEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQLGQSLELDGIIYLQATPETCLHRMYLRGRNEEQGIPLEYLEKLHHKHESWLLHRTLKTNFNYLQEVPILTLDVNEDFKDKHENLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIA+GKSTFVNILK++CEDWEVVPEPVA+WC+V ST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQ GQSLELDGIIYLQATPETCLHR+YLRGRNEEQGIPLEYLEKLH+KHESWLLHRTLKTNF+YLQEVPILTLDVNEDFKDK+E+LVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|532033204|ref|XP_005359516.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Microtus ochrogaster]</Hit_def>
+  <Hit_accession>XP_005359516</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.366</Hsp_bit-score>
+      <Hsp_score>1165</Hsp_score>
+      <Hsp_evalue>2.24583e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQNTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNSQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQ+T            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMN+QFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|466076849|ref|XP_004283618.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Orcinus orca]</Hit_def>
+  <Hit_accession>XP_004283618</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.981</Hsp_bit-score>
+      <Hsp_score>1164</Hsp_score>
+      <Hsp_evalue>2.47883e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQSTQDEFKELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEEPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLNRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTVKTNFDYLQEVPILTLDVNEDFKDKHDSLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQST            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAE+PVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CL+RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRT+KTNFDYLQEVPILTLDVNEDFKDK++SLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|589958246|ref|XP_006991719.1|</Hit_id>
+  <Hit_def>PREDICTED: deoxycytidine kinase [Peromyscus maniculatus bairdii]</Hit_def>
+  <Hit_accession>XP_006991719</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.595</Hsp_bit-score>
+      <Hsp_score>1163</Hsp_score>
+      <Hsp_evalue>3.67894e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKQVCEDWEVVPEPVARWCNVQNTQDEFEELTTSQKSGGNVLQMMYEKPERWSFTFQSYACLSRIRAQLAALNGKLKDAEKPVLFFERSVYSDRYIFASNLYESDCMNETEWTIYQDWHDWMNSQFGQSLELDGIIYLRATPEKCLSRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKHESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILKQ+CEDWEVVPEPVARWCNVQ+T            +GGNVLQMMYEKPERWSFTFQ+YACLSRIRAQLA+LNGKLKDAEKPVLFFERSVYSDRYIFASNLYES+CMNETEWTIYQDWHDWMN+QFGQSLELDGIIYL+ATPE CL RIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDK+ESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|817298827|ref|XP_012319853.1|</Hit_id>
+  <Hit_def>deoxycytidine kinase [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_012319853</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.595</Hsp_bit-score>
+      <Hsp_score>1163</Hsp_score>
+      <Hsp_evalue>4.78675e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCNVQST------------NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQATPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_qseq>
+      <Hsp_hseq>RIKKISIEGNIAAGKSTFVNILKKVCEDWEVVSEPVARWCNVHSTQDEFEELTTSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLRATPEKCLHRMYLRGRNEEQGIPLEYLEKLHHKYESWLLHRTLKTNFSYLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_hseq>
+      <Hsp_midline>RIKKISIEGNIAAGKSTFVNILK++CEDWEVV EPVARWCNV ST            NGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAEKPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYL+ATPE CLHR+YLRGRNEEQGIPLEYLEKLH+K+ESWLLHRTLKTNF YLQEVPILTLDVNEDFKDKYESLVEKVKEFLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>184243125</Statistics_db-num>
+      <Statistics_db-len>67226276519</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
