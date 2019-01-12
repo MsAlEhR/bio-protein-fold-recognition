@@ -252,7 +252,7 @@ def m_thread_dl_bxml(dataset, input_file, save_path, no_workers=1):
     xml_files = [p_name.rstrip('\n') for p_name in xml_list.readlines()\
                  if not isfile(join(save_path, p_name.rstrip('\n') + '.xml'))]
     
-    print(xml_files)
+    print("%d proteins need to be downloaded from the file." % (len(xml_files)))
     
     # A FIFO queue
     q = Queue()
@@ -332,7 +332,7 @@ if __name__ == '__main__':
     
     #dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
     
-    m_thread_dl_bxml(protein_dtfrm, 'mir-bxmls.txt', './BXML/tg_bxml/', 7)
+    m_thread_dl_bxml(protein_dtfrm, 'mir-bxmls.txt', './BXML/tg_bxml/', 5)
     
     #fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
     
