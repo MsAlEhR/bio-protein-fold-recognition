@@ -1,0 +1,965 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_110735</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1lupa_31</BlastOutput_query-def>
+  <BlastOutput_query-len>31</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_110735</Iteration_query-ID>
+  <Iteration_query-def>d1lupa_31</Iteration_query-def>
+  <Iteration_query-len>31</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|41017287|sp|P60273.1|MTX2_GRARO</Hit_id>
+  <Hit_def>RecName: Full=Kappa-theraphotoxin-Gr2a; Short=Kappa-TRTX-Gr2a; AltName: Full=Toxin GsMTx-2; Short=MTx2 &gt;gi|47117375|sp|P61231.1|TXP2_PARSR RecName: Full=Kappa-theraphotoxin-Ps1b; Short=Kappa-TRTX-Ps1b; AltName: Full=PaTX2; AltName: Full=Phrixotoxin-2 &gt;gi|22219300|pdb|1LUP|A Chain A, Solution structure of a toxin (GsMTx2) from the tarantula, Grammostola spatulata, which inhibits mechanosensitive ion channels</Hit_def>
+  <Hit_accession>P60273</Hit_accession>
+  <Hit_len>31</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.50401e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRIINM</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDEERKCCEGLVCRLWCKRIINM</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCDEERKCCEGLVCRLWCKRIINM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|475392934|dbj|BAN13519.1|</Hit_id>
+  <Hit_def>GTx2-2 [Grammostola rosea]</Hit_def>
+  <Hit_accession>BAN13519</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>4.27391e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKR</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDEERKCCEGLVCRLWCKK</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCDEERKCCEGLVCRLWCK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|363548389|sp|P61409.2|AF2_GRARO</Hit_id>
+  <Hit_def>RecName: Full=Kappa-theraphotoxin-Gr2c; Short=Kappa-TRTX-Gr2c; AltName: Full=GsAF II; Short=GsAFII; AltName: Full=Mechanotoxin-alpha; Flags: Precursor &gt;gi|342305996|dbj|BAK55734.1| GsAFII [Grammostola rosea] &gt;gi|475392930|dbj|BAN13517.1| GTx2-1-1 [Grammostola rosea]</Hit_def>
+  <Hit_accession>P61409</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>4.56729e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRIIN</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDEERKCCEGLVCRLWCKKKIE</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCDEERKCCEGLVCRLWCK+ I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|475392932|dbj|BAN13518.1|</Hit_id>
+  <Hit_def>GTx2-1-2 [Grammostola rosea]</Hit_def>
+  <Hit_accession>BAN13518</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>4.9311e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRIIN</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDEERKCCEGLVCRLWCKKKIE</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCDEERKCCEGLVCRLWCK+ I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|143681931|sp|P0C2P4.1|VSTX2_GRARO</Hit_id>
+  <Hit_def>RecName: Full=Kappa-theraphotoxin-Gr2b; Short=Kappa-TRTX-Gr2b; AltName: Full=Voltage sensor toxin 2; Short=VSTX2</Hit_def>
+  <Hit_accession>P0C2P4</Hit_accession>
+  <Hit_len>32</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.3872e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRIIN</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDEERKCCEGLVCRLWCKKKIE</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCDEERKCCEGLVCRLWCK+ I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|47117374|sp|P61230.1|TXP1_PARSR</Hit_id>
+  <Hit_def>RecName: Full=Kappa-theraphotoxin-Ps1a; Short=Kappa-TRTX-Ps1a; AltName: Full=PaTX1; AltName: Full=Phrixotoxin-1</Hit_def>
+  <Hit_accession>P61230</Hit_accession>
+  <Hit_len>29</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.25069e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRII</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSARKCCEGLVCRLWCKKII</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD  RKCCEGLVCRLWCK+II</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|253723156|pdb|1V7F|A</Hit_id>
+  <Hit_def>Chain A, Solution structure of phrixotoxin 1</Hit_def>
+  <Hit_accession>1V7F_A</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.30161e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRII</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSARKCCEGLVCRLWCKKII</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD  RKCCEGLVCRLWCK+II</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|25091451|sp|P83476.1|TXPR2_THRPR</Hit_id>
+  <Hit_def>RecName: Full=Beta/omega-theraphotoxin-Tp2a; Short=Beta/omega-TRTX-Tp2a; AltName: Full=ProTx-II; Short=PT-II; AltName: Full=Protoxin-2; Short=ProTx-2; Short=ProTx2 &gt;gi|1048347708|pdb|2N9T|A Chain A, Beta/omega-theraphotoxin-Tp2a &gt;gi|1243913868|pdb|5O0U|A Chain A, Crystal Structure Of Tarantula Venom Peptide Protoxin-ii</Hit_def>
+  <Hit_accession>P83476</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>6.56329e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRII</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSERKCCEGMVCRLWCKKKL</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD ERKCCEG+VCRLWCK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|118572485|sp|Q2PAY4.1|JZTX5_CHIGU</Hit_id>
+  <Hit_def>RecName: Full=Beta/kappa-theraphotoxin-Cg2a; Short=Beta/kappa-TRTX-Cg2a; AltName: Full=Jingzhaotoxin-5; AltName: Full=Jingzhaotoxin-V; Short=JZTX-V; AltName: Full=Peptide F8-15.73; Flags: Precursor &gt;gi|84618291|emb|CAJ21615.1| jingzhaotoxin-V precursor [Chilobrachys guangxiensis]</Hit_def>
+  <Hit_accession>Q2PAY4</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.82184e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRIIN</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSKRACCEGLRCKLWCRKIIG</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD +R CCEGL C+LWC++II </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|380692238|dbj|BAL72766.1|</Hit_id>
+  <Hit_def>toxin-like peptide [Grammostola rosea] &gt;gi|475392878|dbj|BAN13491.1| GsAFI [Grammostola rosea]</Hit_def>
+  <Hit_accession>BAL72766</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.0012e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKR</Hsp_qseq>
+      <Hsp_hseq>YCQKWLWTCDSERKCCEDMVCRLWCKK</Hsp_hseq>
+      <Hsp_midline>YCQKW+WTCD ERKCCE +VCRLWCK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1540347447|pdb|6MK4|A</Hit_id>
+  <Hit_def>Chain A, Beta/omega-theraphotoxin-Tp2a</Hit_def>
+  <Hit_accession>6MK4_A</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.15028e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRII</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSERKCCKGMVCRLWCKKKL</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD ERKCC+G+VCRLWCK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|306755745|sp|B1P1B6.1|JZT46_CHIGU</Hit_id>
+  <Hit_def>RecName: Full=Kappa-theraphotoxin-Cg2b; Short=Kappa-TRTX-Cg2b; AltName: Full=Jingzhaotoxin-46; Short=JZTX-46; Flags: Precursor &gt;gi|165905948|gb|ABY71666.1| cystine knot toxin [Chilobrachys guangxiensis]</Hit_def>
+  <Hit_accession>B1P1B6</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.58474e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSERKCCEGYVCELWCK</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD ERKCCEG VC LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|306526219|sp|P0C5X7.2|JZT45_CHIGU</Hit_id>
+  <Hit_def>RecName: Full=Kappa-theraphotoxin-Cg2a; Short=Kappa-TRTX-Cg2a; AltName: Full=Jingzhaotoxin-12; AltName: Full=Jingzhaotoxin-45; Short=JZTX-45; AltName: Full=Jingzhaotoxin-XII; Short=JZTX-XII; AltName: Full=Peptide F4-20.99; Flags: Precursor &gt;gi|165905946|gb|ABY71665.1| cystine knot toxin [Chilobrachys guangxiensis]</Hit_def>
+  <Hit_accession>P0C5X7</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.61314e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSERKCCEGYVCELWCK</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD ERKCCEG VC LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|380692226|dbj|BAL72760.1|</Hit_id>
+  <Hit_def>toxin-like peptide [Grammostola rosea] &gt;gi|475392936|dbj|BAN13520.1| GTx2-3 [Grammostola rosea]</Hit_def>
+  <Hit_accession>BAL72760</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>5.35486e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKR</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSERKCCEDMVCELWCKK</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD ERKCCE +VC LWCK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1132604861|pdb|5TCZ|A</Hit_id>
+  <Hit_def>Chain A, Beta/omega-theraphotoxin-Tp2a</Hit_def>
+  <Hit_accession>5TCZ_A</Hit_accession>
+  <Hit_len>32</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>5.5583e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRII</Hsp_qseq>
+      <Hsp_hseq>YCQKWMQTCDSERKCCEGMVCRLWCKKKL</Hsp_hseq>
+      <Hsp_midline>YCQKWM TCD ERKCCEG+VCRLWCK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|380692222|dbj|BAL72758.1|</Hit_id>
+  <Hit_def>beta-theraphotoxin [Grammostola rosea]</Hit_def>
+  <Hit_accession>BAL72758</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.18956e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKR</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSKRKCCEDMVCQLWCKK</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD +RKCCE +VC+LWCK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|380692224|dbj|BAL72759.1|</Hit_id>
+  <Hit_def>beta-theraphotoxin [Grammostola rosea]</Hit_def>
+  <Hit_accession>BAL72759</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.24273e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKR</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSKRKCCEDMVCQLWCKK</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD +RKCCE +VC+LWCK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|47605359|sp|P61408.1|AF1_GRARO</Hit_id>
+  <Hit_def>RecName: Full=Beta-theraphotoxin-Gr1b; Short=Beta-TRTX-Gr1b; AltName: Full=GsAF 1; AltName: Full=GsAF I; Short=GsAFI</Hit_def>
+  <Hit_accession>P61408</Hit_accession>
+  <Hit_len>29</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.39068e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRII</Hsp_qseq>
+      <Hsp_hseq>YCQKWLWTCDSERKCCEDMVCRLWCKKRL</Hsp_hseq>
+      <Hsp_midline>YCQKW+WTCD ERKCCE +VCRLWCK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|558446140|sp|P0DM68.1|TX4_SELPU</Hit_id>
+  <Hit_def>RecName: Full=U4-theraphotoxin-Spl1a; Short=U4-TRTX-Spl1a; AltName: Full=Orally active insecticidal peptide-4; Short=Toxin OAIP 4; Flags: Precursor</Hit_def>
+  <Hit_accession>P0DM68</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.72507e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKR</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDAERKCCEDMACELWCKK</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD ERKCCE + C LWCK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|145572738|sp|P85117.1|TX1_GRARO</Hit_id>
+  <Hit_def>RecName: Full=Beta-theraphotoxin-Gr1a; Short=Beta-TRTX-Gr1a; AltName: Full=GrTx1</Hit_def>
+  <Hit_accession>P85117</Hit_accession>
+  <Hit_len>29</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>6.61874e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>27</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKR</Hsp_qseq>
+      <Hsp_hseq>YCQKWMWTCDSKRKCCEDMVCQLWCKK</Hsp_hseq>
+      <Hsp_midline>YCQKWMWTCD +RKCCE +VC+LWCK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1390049386|pdb|6CHC|A</Hit_id>
+  <Hit_def>Chain A, JzTx-V toxin peptide, wild-type</Hit_def>
+  <Hit_accession>6CHC_A</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>7.47764e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>30</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRII</Hsp_qseq>
+      <Hsp_hseq>YCQKWXWTCDSKRACCEGLRCKLWCRKII</Hsp_hseq>
+      <Hsp_midline>YCQKW WTCD +R CCEGL C+LWC++II</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|939204588|sp|P0DL59.1|HM2A_PHLSP</Hit_id>
+  <Hit_def>RecName: Full=Mu-theraphotoxin-Phlo2a; Short=Mu-TRTX-Phlo2a</Hit_def>
+  <Hit_accession>P0DL59</Hit_accession>
+  <Hit_len>26</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>5.11952e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>26</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CQKWMWLCDEERKCCEDMVCKLWCK</Hsp_hseq>
+      <Hsp_midline>CQKWMW CDEERKCCE +VC+LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|403399496|sp|B3EWN1.1|PTX2_PTEMU</Hit_id>
+  <Hit_def>RecName: Full=Beta/kappa-theraphotoxin-Pm2a; Short=Beta/kappa-TRTX-Pm2a; AltName: Full=Pterinotoxin-2</Hit_def>
+  <Hit_accession>B3EWN1</Hit_accession>
+  <Hit_len>29</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.76371e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>27</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKR</Hsp_qseq>
+      <Hsp_hseq>YCQEFLWTCDEERKCCGDMVCRLWCKK</Hsp_hseq>
+      <Hsp_midline>YCQ+++WTCDEERKCC  +VCRLWCK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1386813620|pdb|6CGW|A</Hit_id>
+  <Hit_def>Chain A, Beta/kappa-theraphotoxin-Cg2a</Hit_def>
+  <Hit_accession>6CGW_A</Hit_accession>
+  <Hit_len>29</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>7.75388e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>29</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>YCQKWMWTCDEERKCCEGLVCRLWCKRII</Hsp_qseq>
+      <Hsp_hseq>YCQKWXWTCDSKRACCEGLRCKLWCRKEI</Hsp_hseq>
+      <Hsp_midline>YCQKW WTCD +R CCEGL C+LWC++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|17433178|sp|P58426.1|TXHP2_HETVE</Hit_id>
+  <Hit_def>RecName: Full=Kappa-sparatoxin-Hv1b; Short=Kappa-SPRTX-Hv1b; AltName: Full=Heteropodatoxin-2; Short=HpTX2; AltName: Full=Toxin KJ6 &gt;gi|159162260|pdb|1EMX|A Chain A, Solution Structure Of Hptx2, A Toxin From Heteropoda Venatoria Spider Venom That Blocks Kv4.2 Potassium Channel</Hit_def>
+  <Hit_accession>P58426</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.03373</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>27</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CGKLFSGCDTNADCCEGYVCRLWCK</Hsp_hseq>
+      <Hsp_midline>C K    CD    CCEG VCRLWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|48428590|sp|P61792.1|TXU2_HETVE</Hit_id>
+  <Hit_def>RecName: Full=Kappa-sparatoxin-Hv1d; Short=Kappa-SPRTX-Hv1d; AltName: Full=Toxin AU2</Hit_def>
+  <Hit_accession>P61792</Hit_accession>
+  <Hit_len>30</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.34565</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>27</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CGGLFSGCDSNADCCEGYVCRLWCK</Hsp_hseq>
+      <Hsp_midline>C      CD    CCEG VCRLWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|571350759|gb|AHF45784.1|</Hit_id>
+  <Hit_def>secretory peptide [Heteropoda venatoria]</Hit_def>
+  <Hit_accession>AHF45784</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.43115</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CGTLFSGCDTSKDCCEGYVCHLWCK</Hsp_hseq>
+      <Hsp_midline>C      CD  + CCEG VC LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|571350767|gb|AHF45788.1|</Hit_id>
+  <Hit_def>secretory peptide [Heteropoda venatoria]</Hit_def>
+  <Hit_accession>AHF45788</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.58399</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CGTLFSGCDTSKDCCEGYVCHLWCK</Hsp_hseq>
+      <Hsp_midline>C      CD  + CCEG VC LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|571350765|gb|AHF45787.1|</Hit_id>
+  <Hit_def>secretory peptide [Heteropoda venatoria]</Hit_def>
+  <Hit_accession>AHF45787</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.62326</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CGTLFSGCDTSKDCCEGYVCHLWCK</Hsp_hseq>
+      <Hsp_midline>C      CD  + CCEG VC LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|571350763|gb|AHF45786.1|</Hit_id>
+  <Hit_def>secretory peptide [Heteropoda venatoria]</Hit_def>
+  <Hit_accession>AHF45786</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.66295</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CGTLFSGCDTSKDCCEGYVCHLWCK</Hsp_hseq>
+      <Hsp_midline>C      CD  + CCEG VC LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|571350761|gb|AHF45785.1|</Hit_id>
+  <Hit_def>secretory peptide [Heteropoda venatoria]</Hit_def>
+  <Hit_accession>AHF45785</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.22026</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CGTLFSGCDTSKDCCEGYVCHLWCK</Hsp_hseq>
+      <Hsp_midline>C      CD  + CCEG VC LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|48428589|sp|P61791.1|TXJ1_HETVE</Hit_id>
+  <Hit_def>RecName: Full=Kappa-sparatoxin-Hv1e; Short=Kappa-SPRTX-Hv1e; AltName: Full=Toxin KJ1</Hit_def>
+  <Hit_accession>P61791</Hit_accession>
+  <Hit_len>29</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>6.56648</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>27</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CQKWMWTCDEERKCCEGLVCRLWCK</Hsp_qseq>
+      <Hsp_hseq>CGTLFSGCDTSKDCCEGYVCHLWCK</Hsp_hseq>
+      <Hsp_midline>C      CD  + CCEG VC LWCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1353453013|ref|WP_104956458.1|</Hit_id>
+  <Hit_def>molecular chaperone HscC [Mixta gaviniae] &gt;gi|1338958726|gb|AUX92568.1| molecular chaperone HscC [Mixta gaviniae]</Hit_def>
+  <Hit_accession>WP_104956458</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>8.83106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>QKWMWTCDEER--KCCEGLVCRL</Hsp_qseq>
+      <Hsp_hseq>QTWRWTLDEEQLGRCCQPLIARL</Hsp_hseq>
+      <Hsp_midline>Q W WT DEE+  +CC+ L+ RL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>184243125</Statistics_db-num>
+      <Statistics_db-len>67226276519</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
