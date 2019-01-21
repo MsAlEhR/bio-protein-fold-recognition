@@ -20,9 +20,9 @@ def gen_slc_feature(data_name,slc_feature,output_name,no_feature):
      Output :  Dataset with selected feature in .csv
     
     """
-    dataset = pd.read_csv('./dataset/'+data_name,sep=",")
+    dataset = pd.read_csv('./dataset/'+'TG/'+data_name,sep=",")
     
-    slct_feature = pd.read_csv('./dataset/DD/feature_selection/'+slc_feature,sep='\t',header=None)
+    slct_feature = pd.read_csv('./dataset/TG/'+slc_feature,sep='\t',header=None)
     
     dataset[['Fold','Protein name']+list(slct_feature[0][:no_feature])].to_csv('./dataset/'+output_name,sep=',',index=False)
     
@@ -54,6 +54,6 @@ def fusion_feature(data_name1, data_name2, merged_data_name):
 
 if __name__ == "__main__":
     
-#    df = fusion_feature("ACC_dataset.csv","dd_separated_dimer_dataset.csv", 'dd_fusion_acc_dimer_FULL.csv')
+#    df = fusion_feature("TG_ACC_dataset.csv","TG_dimer_dataset.csv", 'tg_fusion_acc_dimer_FULL.csv')
     
-    dtst = gen_slc_feature('dd_fusion_acc_dimer_FULL.csv','IG_feature_acc_dimer.txt','ACC_dimer_dataset_IG.csv',500)
+    dtst = gen_slc_feature('tg_fusion_acc_dimer_FULL.csv','IG_feature_acc_dimer.txt','TG_ACC_dimer_dataset_IG_700.csv',700)
