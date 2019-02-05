@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_239465</BlastOutput_query-ID>
+  <BlastOutput_query-def>1HUW</BlastOutput_query-def>
+  <BlastOutput_query-len>166</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_239465</Iteration_query-ID>
+  <Iteration_query-def>1HUW</Iteration_query-def>
+  <Iteration_query-len>166</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|27065194|pdb|1KF9|A</Hit_id>
+  <Hit_def>Chain A, Phage Display Derived Variant Of Human Growth Hormone Complexed With Two Copies Of The Extracellular Domain Of Its Receptor &gt;gi|27065197|pdb|1KF9|D Chain D, Phage Display Derived Variant Of Human Growth Hormone Complexed With Two Copies Of The Extracellular Domain Of Its Receptor &gt;gi|157831400|pdb|1HUW|A Chain A, The Crystal Structure Of Affinity-Matured Human Growth Hormone At 2 Angstroms Resolution</Hit_def>
+  <Hit_accession>1KF9_A</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>1.77564e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|821027307|ref|XP_012356859.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin-like isoform X1 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_012356859</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>3.19009e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLDQLAFDTYQEFEEAYILKEQKYSFLQNPQTSLCFSESIPTPSNRVKTQQKSNLELLRISVLLIQSWLEPVRFLRSVFANSLVYGASDSNVYHHLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRTVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYI KEQ +SF  NPQTSLC SESIPTPSN+ +TQQKSNLELLRIS+LLIQSWLEPV+FLRSVFANSLVYGASDSNVY  LKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LRTVQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|116634246|emb|CAJ84332.1|</Hit_id>
+  <Hit_def>growth hormone precursor [Cebus albifrons]</Hit_def>
+  <Hit_accession>CAJ84332</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.09767e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLLDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPASKKETQQKSNIELLRISLLLIQSWFEPVQLLRSVFANSLLYGISDSDVYEYLKDLEEGIQTLMGRLEDGSPRTGEIFRQTYSKFDINSQNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGL</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTP++K+ETQQKSN+ELLRISLLLIQSW EPVQ LRSVFANSL+YG SDS+VY+ LKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|821025690|ref|XP_012352899.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: somatotropin-like [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_012352899</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>2.13605e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLDQLAFDTYQEFEEAYILKEQKYSFLQNPQTSLCFSESIPTPSNRVKTQQKSNLELLRISMLLIQSWLEPVRFLRSVFANSLVYGASDRNVYHHLKDLEEGIQTLLGRLEDGSPRTGXIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRTVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYI KEQ +SF  NPQTSLC SESIPTPSN+ +TQQKSNLELLRIS+LLIQSWLEPV+FLRSVFANSLVYGASD NVY  LKDLEEGIQTL+GRLE                         ALLKNYGLLYCF KDM KV T+LRTVQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|525344094|ref|NP_001266907.1|</Hit_id>
+  <Hit_def>somatotropin-like precursor [Saimiri boliviensis] &gt;gi|17368174|sp|P58343.1|SOMA_SAIBB RecName: Full=Somatotropin; AltName: Full=Growth hormone; Flags: Precursor &gt;gi|14423137|gb|AAK62287.1|AF339060_1 growth hormone [Saimiri boliviensis]</Hit_def>
+  <Hit_accession>NP_001266907</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.248</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>2.14123e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLLDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPASKKETQQKSNLELLRISLILIQSWFEPVQLLRSVFANSLLYGVSDSDVYEYLKDLEEGIQTLMERLEDGSPRTGAIFRQTYSKFDINSQNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTP++K+ETQQKSNLELLRISL+LIQSW EPVQ LRSVFANSL+YG SDS+VY+ LKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|14582904|gb|AAK69708.1|AF359458_1</Hit_id>
+  <Hit_def>human growth hormone [synthetic construct] &gt;gi|208475|gb|AAC42099.1| growth hormone [synthetic construct] &gt;gi|208528|gb|AAA72260.1| human growth hormone [synthetic construct] &gt;gi|291481070|gb|ADE06645.1| human growth hormone [synthetic construct] &gt;gi|1000297350|gb|AML27053.1| human growth hormone [synthetic construct]</Hit_def>
+  <Hit_accession>AAK69708</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>3.80497e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|6671284|gb|AAF23136.1|AF205361_1</Hit_id>
+  <Hit_def>somatotropin [synthetic construct]</Hit_def>
+  <Hit_accession>AAF23136</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>4.34496e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2781338|pdb|1HWG|A</Hit_id>
+  <Hit_def>Chain A, 1:2 Complex Of Human Growth Hormone With Its Soluble Binding Protein &gt;gi|641739660|gb|AIA66930.1| human growth hormone, partial [synthetic construct] &gt;gi|1281372655|gb|ATY46609.1| growth hormone, partial [synthetic construct]</Hit_def>
+  <Hit_accession>1HWG_A</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>4.78397e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|6671282|gb|AAF23135.1|AF205360_1</Hit_id>
+  <Hit_def>recombinant ubiquitin-somatotropin fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAF23135</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>6.68534e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|33341802|gb|AAQ15272.1|AF370877_1</Hit_id>
+  <Hit_def>Staphylococcus hyicus lipase precursor/human growth hormone fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAQ15272</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>7.47342e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|426347157|ref|XP_004041225.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin isoform X1 [Gorilla gorilla gorilla] &gt;gi|313575593|gb|ADR66834.1| growth hormone [Gorilla gorilla] &gt;gi|936911226|tpe|CDW51391.1| TPA: growth hormone B2 [Gorilla gorilla] &gt;gi|1044690672|gb|ANT96469.1| pituitary growth hormone [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004041225</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.937</Hsp_bit-score>
+      <Hsp_score>694</Hsp_score>
+      <Hsp_evalue>2.28128e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|297701522|ref|XP_002827754.1|</Hit_id>
+  <Hit_def>somatotropin isoform X2 [Pongo abelii] &gt;gi|936911303|tpe|CDW51396.1| TPA: growth hormone B4 [Pongo abelii] &gt;gi|1044680098|gb|ANT87965.1| pituitary growth hormone [Pongo abelii] &gt;gi|1331902696|gb|PNJ50748.1| GH1 isoform 4 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002827754</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.937</Hsp_bit-score>
+      <Hsp_score>694</Hsp_score>
+      <Hsp_evalue>2.28128e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|13027812|ref|NP_000506.2|</Hit_id>
+  <Hit_def>somatotropin isoform 1 precursor [Homo sapiens] &gt;gi|134703|sp|P01241.2|SOMA_HUMAN RecName: Full=Somatotropin; AltName: Full=Growth hormone; Short=GH; Short=GH-N; AltName: Full=Growth hormone 1; AltName: Full=Pituitary growth hormone; Flags: Precursor &gt;gi|183149|gb|AAA52549.1| growth hormone GH-1 [Homo sapiens] &gt;gi|183157|gb|AAA98618.1| growth hormone [Homo sapiens] &gt;gi|50960193|gb|AAH75013.1| Growth hormone 1 [Homo sapiens] &gt;gi|50960727|gb|AAH75012.1| Growth hormone 1, isoform 1 [Homo sapiens] &gt;gi|59808940|gb|AAH90045.1| Growth hormone 1 [Homo sapiens] &gt;gi|119614657|gb|EAW94251.1| hCG1749481, isoform CRA_s [Homo sapiens] &gt;gi|167599428|gb|ABZ88711.1| growth hormone 1 isoform 1 precursor [Homo sapiens] &gt;gi|307686489|dbj|BAJ21175.1| growth hormone 1, partial [synthetic construct] &gt;gi|883746585|gb|AKQ21046.1| growth hormone [synthetic construct] &gt;gi|936911199|tpe|CDW51387.1| TPA: growth hormone B5 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_000506</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>2.49019e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|308210818|ref|NP_001184093.1|</Hit_id>
+  <Hit_def>somatotropin precursor [Pan troglodytes] &gt;gi|397480244|ref|XP_003811397.1| somatotropin isoform X2 [Pan paniscus] &gt;gi|20140015|sp|P58756.1|SOMA_PANTR RecName: Full=Somatotropin; AltName: Full=Growth hormone; Short=GH; Short=GH-N; AltName: Full=Growth hormone 1; AltName: Full=Pituitary growth hormone; Flags: Precursor &gt;gi|18462508|gb|AAL72284.1|AF374232_1 growth hormone [Pan troglodytes]</Hit_def>
+  <Hit_accession>NP_001184093</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>3.20361e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|515300|pdb|3HHR|A</Hit_id>
+  <Hit_def>Chain A, Human Growth Hormone And Extracellular Domain Of Its Receptor: Crystal Structure Of The Complex</Hit_def>
+  <Hit_accession>3HHR_A</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>4.23134e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCG</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCG</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|312406|emb|CAA23779.1|</Hit_id>
+  <Hit_def>growth hormone [Homo sapiens] &gt;gi|225906|prf||1403262B somatoliberin 20kD variant</Hit_def>
+  <Hit_accession>CAA23779</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>4.40135e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNASLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|12584848|gb|AAG59857.1|</Hit_id>
+  <Hit_def>human growth hormone/octahistidine/etch virus protease recognition site fusion protein precursor [Cloning vector pSGHV0]</Hit_def>
+  <Hit_accession>AAG59857</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.937</Hsp_bit-score>
+      <Hsp_score>694</Hsp_score>
+      <Hsp_evalue>8.33244e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2781341|pdb|1HWH|A</Hit_id>
+  <Hit_def>Chain A, 1:1 Complex Of Human Growth Hormone Mutant G120r With Its Soluble Binding Protein &gt;gi|6729890|pdb|1BP3|A Chain A, The Xray Structure Of A Growth Hormone-Prolactin Receptor Complex &gt;gi|157838058|pdb|1A22|A Chain A, HUMAN GROWTH HORMONE BOUND TO SINGLE RECEPTOR</Hit_def>
+  <Hit_accession>1HWH_A</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.08718e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEERIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEE IQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|725603541|ref|XP_010328557.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin-like isoform X1 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_010328557</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>1.15361e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLLDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPASKKETQQKSNLELLRISLILIQSWFEPVQLLRSVFANSLLYGVSDSDVYEYLKDLEEGIQTLMERLEDGSPRTGAIFRQTYSKFDINSQNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGL</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTP++K+ETQQKSNLELLRISL+LIQSW EPVQ LRSVFANSL+YG SDS+VY+ LKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|47121568|gb|AAT11508.1|</Hit_id>
+  <Hit_def>growth hormone 1 variant 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAT11508</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>1.24586e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNVMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DN  LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|675712679|ref|XP_008962016.1|</Hit_id>
+  <Hit_def>somatotropin isoform X1 [Pan paniscus]</Hit_def>
+  <Hit_accession>XP_008962016</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>1.6751e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|686754362|ref|XP_009250187.1|</Hit_id>
+  <Hit_def>somatotropin isoform X1 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_009250187</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>1.75009e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|119614650|gb|EAW94244.1|</Hit_id>
+  <Hit_def>hCG1749481, isoform CRA_l [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW94244</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>2.97524e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGL</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|53854131|gb|AAU95540.1|</Hit_id>
+  <Hit_def>growth hormone-like protein 3 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>AAU95540</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>3.09217e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVRFLRSVFANSLVYGASDSNVYDLLTDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLHCFRKDMDKVETFLRTVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPV+FLRSVFANSLVYGASDSNVYDLL DLEEGIQTLMGRLE                         ALLKNYGLL+CF KDM KV T+LRTVQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|821027309|ref|XP_012356860.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin-like isoform X2 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_012356860</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>3.33562e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEF-----EEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLDQLAFDTYQEFVSSWGMEAYILKEQKYSFLQNPQTSLCFSESIPTPSNRVKTQQKSNLELLRISVLLIQSWLEPVRFLRSVFANSLVYGASDSNVYHHLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRTVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEF      EAYI KEQ +SF  NPQTSLC SESIPTPSN+ +TQQKSNLELLRIS+LLIQSWLEPV+FLRSVFANSLVYGASDSNVY  LKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LRTVQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|31905|emb|CAA23778.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>CAA23778</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>3.33856e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRPFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSR  DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|635091289|ref|XP_008010310.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin isoform X2 [Chlorocebus sabaeus] &gt;gi|795235860|ref|XP_011852471.1| PREDICTED: somatotropin isoform X2 [Mandrillus leucophaeus] &gt;gi|795235867|ref|XP_011852472.1| PREDICTED: somatotropin isoform X2 [Mandrillus leucophaeus] &gt;gi|795316009|ref|XP_011926001.1| PREDICTED: somatotropin isoform X1 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_008010310</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>3.64427e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGTSDSDVYDLLKDLEEGIQTLMGRLEDGSSRTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYG SDS+VYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1044680099|gb|ANT87966.1|</Hit_id>
+  <Hit_def>placental growth hormone [Pongo abelii]</Hit_def>
+  <Hit_accession>ANT87966</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>5.00665e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYILKEQKYSFLQNPQTSLCFSESIPTPSNRVKTQQKSNLELLRISVLLIQSWLEPVWFLRSVFANSLVYGASDSNVYHHLKDLEEGIQTLMWRLEDGSPQTGQIFKQTYSKFDTKSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVKGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYI KEQ +SF  NPQTSLC SESIPTPSN+ +TQQKSNLELLRIS+LLIQSWLEPV FLRSVFANSLVYGASDSNVY  LKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSV+GSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|47121579|gb|AAT11509.1|</Hit_id>
+  <Hit_def>growth hormone 1 variant 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAT11509</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>5.00665e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMRRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|53854146|gb|AAU95547.1|</Hit_id>
+  <Hit_def>growth hormone-like protein 4 [Pygathrix nemaeus]</Hit_def>
+  <Hit_accession>AAU95547</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>5.40558e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRTSLLLIQSWLEPVQFLRSVFANSLVYGTSDSDVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLR SLLLIQSWLEPVQFLRSVFANSLVYG SDS+VYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|724907309|ref|XP_010378328.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin isoform X1 [Rhinopithecus roxellana] &gt;gi|1059163802|ref|XP_017738365.1| PREDICTED: somatotropin isoform X1 [Rhinopithecus bieti] &gt;gi|1297752991|ref|XP_023056037.1| somatotropin isoform X1 [Piliocolobus tephrosceles] &gt;gi|53854150|gb|AAU95549.1| growth hormone-like protein 1 [Rhinopithecus roxellana]</Hit_def>
+  <Hit_accession>XP_010378328</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>5.40558e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGTSDSDVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYG SDS+VYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|795548638|ref|XP_011717782.1|</Hit_id>
+  <Hit_def>somatotropin isoform X2 [Macaca nemestrina]</Hit_def>
+  <Hit_accession>XP_011717782</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>6.16479e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGTSDSDVYDLLKDLEEGIQTLMGRLEDGSSRTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKIETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYG SDS+VYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM K+ T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2914393|pdb|1AXI|A</Hit_id>
+  <Hit_def>Chain A, Structural Plasticity At The Hgh:hghbp Interface</Hit_def>
+  <Hit_accession>1AXI_A</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>6.41689e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRL-------------------------EALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEERIQTLMGRLTDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRRDMTYVATYLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEE IQTLMGRL                         +ALLKNYGLLYCF +DM+ V+TYLR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|795196965|ref|XP_011803362.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin isoform X1 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011803362</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>6.44086e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGTSDSDVYDLLKDLEEGIQTLMGRLEDGSPQTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYG SDS+VYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|441661779|ref|XP_004091537.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin isoform X4 [Nomascus leucogenys] &gt;gi|936911322|tpe|CDW51399.1| TPA: growth hormone B2 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_004091537</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>7.34548e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVRFLRSVFANSLVYGASDSNVYDLLTDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPV+FLRSVFANSLVYGASDSNVYDLL DLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1331842084|gb|PNJ01266.1|</Hit_id>
+  <Hit_def>GH1 isoform 1 [Pan troglodytes] &gt;gi|1331842085|gb|PNJ01267.1| GH1 isoform 2 [Pan troglodytes]</Hit_def>
+  <Hit_accession>PNJ01266</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>7.75893e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMERLEDGSPRTGQIFKQTYSKFDTNSHNHDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|374638325|gb|AEZ55149.1|</Hit_id>
+  <Hit_def>pituitary growth hormone [Pan troglodytes]</Hit_def>
+  <Hit_accession>AEZ55149</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>8.10639e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMERLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1411073976|ref|XP_025230146.1|</Hit_id>
+  <Hit_def>somatotropin isoform X1 [Theropithecus gelada] &gt;gi|1411073988|ref|XP_025230153.1| somatotropin isoform X1 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025230146</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>8.19566e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGTSDSDVYDLLKDLEEGIQTLMGRLEDGSSRTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRAVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYG SDS+VYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCR+VEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|594140547|ref|NP_001277233.1|</Hit_id>
+  <Hit_def>somatotropin precursor [Papio anubis] &gt;gi|295877512|gb|ADG56476.1| growth hormone [Papio hamadryas]</Hit_def>
+  <Hit_accession>NP_001277233</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>1.21566e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGTSDSDVHDLLKDLEEGIQTLMGRLEDGSSRTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYG SDS+V+DLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|53854129|gb|AAU95539.1|</Hit_id>
+  <Hit_def>growth hormone-like protein 2 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>AAU95539</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>1.61612e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLTQSWLEPVRFLRSVFANSLVYGASDSNVYDLLTDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLHCFRKDMDKVETFLRTVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLL QSWLEPV+FLRSVFANSLVYGASDSNVYDLL DLEEGIQTLMGRLE                         ALLKNYGLL+CF KDM KV T+LRTVQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1351464179|ref|XP_002827750.2|</Hit_id>
+  <Hit_def>growth hormone variant isoform X1 [Pongo abelii] &gt;gi|936911280|tpe|CDW51394.1| TPA: growth hormone B2 [Pongo abelii] &gt;gi|1331902687|gb|PNJ50739.1| GH2 isoform 4 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002827750</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>3.75577e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYILKEQKYSFLQNPQTSLCFSESIPTPSNRVKMQQKSNLELLRISVLLIQSWLEPVWFLRSVFANSLVYGASDSNVYHHLKDLEEGIQTLMWRLEDGSPQTGQIFKQTYSKFDTKSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVKGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYI KEQ +SF  NPQTSLC SESIPTPSN+ + QQKSNLELLRIS+LLIQSWLEPV FLRSVFANSLVYGASDSNVY  LKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSV+GSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|441661791|ref|XP_004091541.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin isoform X2 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_004091541</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>5.68862e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVRFLRSVFANSLVYGASDSNVYDLLTDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPV+FLRSVFANSLVYGASDSNVYDLL DLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|936911211|tpe|CDW51389.1|</Hit_id>
+  <Hit_def>TPA: growth hormone B2 [Pan troglodytes]</Hit_def>
+  <Hit_accession>CDW51389</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>6.85934e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQLLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMERLEDGSPRTGQIFKQTYSKFDTNSHNHDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQ LRSVFANSLVYGASDSNVYDLLKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|112293289|ref|NP_001036203.1|</Hit_id>
+  <Hit_def>somatotropin precursor [Macaca mulatta] &gt;gi|590121990|ref|NP_001277213.1| growth hormone 1 precursor [Macaca fascicularis] &gt;gi|586011|sp|P33093.2|SOMA_MACMU RecName: Full=Somatotropin; AltName: Full=Growth hormone; Short=GH; Short=GH-N; AltName: Full=Growth hormone 1; AltName: Full=Pituitary growth hormone; Flags: Precursor &gt;gi|293115|gb|AAA18842.1| growth hormone [Macaca mulatta] &gt;gi|68136592|gb|AAY85517.1| growth hormone 1 [Macaca mulatta] &gt;gi|936911344|tpe|CDW51403.1| TPA: growth hormone B3 [Macaca mulatta]</Hit_def>
+  <Hit_accession>NP_001036203</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>2.31308e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGTSYSDVYDLLKDLEEGIQTLMGRLEDGSSRTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKIETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYG S S+VYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM K+ T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|635093850|ref|XP_008011623.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin-like [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_008011623</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>2.36638e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGTSDSDVYDLLKDLEEGIQTLMGRLEDGSSRTGQIFKQTYSKFDTNSHNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYG SDS+VYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|725603543|ref|XP_010328558.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin-like isoform X2 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_010328558</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>6.91536e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEF-----EEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLLDNAMLRAHRLHQLAFDTYQEFVSSWGMKAYIPKEQKYSFLQNPQTSLCFSESIPTPASKKETQQKSNLELLRISLILIQSWFEPVQLLRSVFANSLLYGVSDSDVYEYLKDLEEGIQTLMERLEDGSPRTGAIFRQTYSKFDINSQNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGL</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEF      +AYIPKEQ +SF  NPQTSLC SESIPTP++K+ETQQKSNLELLRISL+LIQSW EPVQ LRSVFANSL+YG SDS+VY+ LKDLEEGIQTLM RLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|18462512|gb|AAL72286.1|AF374234_1</Hit_id>
+  <Hit_def>growth hormone [Ateles geoffroyi]</Hit_def>
+  <Hit_accession>AAL72286</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>9.89334e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLLDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPASKKETQQKSNLELLRISLLLIQSWFEPVQFLRSVFANSLLYGVSDSDVYEYLKDLEEGIQTLMGRLEDGSPQTGEIFRQTYRKFDINSQNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTP++K+ETQQKSNLELLRISLLLIQSW EPVQFLRSVFANSL+YG SDS+VY+ LKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|58339172|gb|AAW70564.1|</Hit_id>
+  <Hit_def>growth hormone-like protein 1 [Alouatta seniculus]</Hit_def>
+  <Hit_accession>AAW70564</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.12825e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLLDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPASKKETQQKSNLELLRLSLLLIQSWFEPVQFLRSVFANSLLYGVSDSDVYEYLKDLEEGIQTLMGRLEDGSPQTGEIFRQTYRKFDINSQNNDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTP++K+ETQQKSNLELLR+SLLLIQSW EPVQFLRSVFANSL+YG SDS+VY+ LKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|398359550|gb|AFO84000.1|</Hit_id>
+  <Hit_def>HSA-GGGGS-GH fusion protein, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AFO84000</Hit_accession>
+  <Hit_len>781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>1.18982e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>591</Hsp_hit-from>
+      <Hsp_hit-to>781</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEFEEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEFEEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|441661794|ref|XP_004091542.1|</Hit_id>
+  <Hit_def>PREDICTED: somatotropin isoform X3 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_004091542</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.61</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.97926e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>FPTIPLSRLADNAWLRADRLNQLAFDTYQEF------EEAYIPKEQIHSFWWNPQTSLCPSESIPTPSNKEETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLE-------------------------ALLKNYGLLYCFNKDMSKVSTYLRTVQCRSVEGSCGF</Hsp_qseq>
+      <Hsp_hseq>FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFVSSWEWEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVRFLRSVFANSLVYGASDSNVYDLLTDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF</Hsp_hseq>
+      <Hsp_midline>FPTIPLSRL DNA LRA RL+QLAFDTYQEF      EEAYIPKEQ +SF  NPQTSLC SESIPTPSN+EETQQKSNLELLRISLLLIQSWLEPV+FLRSVFANSLVYGASDSNVYDLL DLEEGIQTLMGRLE                         ALLKNYGLLYCF KDM KV T+LR VQCRSVEGSCGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>187417574</Statistics_db-num>
+      <Statistics_db-len>68351197366</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

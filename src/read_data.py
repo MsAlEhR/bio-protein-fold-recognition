@@ -16,7 +16,7 @@ start_t = time.time()
 
 # **************** Convert text data file to dictionary ************
 
-with open("../data/TG.dataset") as f:
+with open("../data/RDDtrain.fasta") as f:
     content = f.readlines()
 
 content = [x.strip() for x in content]
@@ -69,7 +69,9 @@ data_frame = pd.DataFrame(list_data, columns=['Fold', 'Protein name', \
                                               'Protein sequence'])
     
 # Save this dataframe to CSV file
-data_frame.to_csv('./dataset/TG_raw.csv', index=False, header=True)
+data_frame.to_csv('./dataset/RDD_raw.csv', index=False, header=True)
+data_frame['Protein name'].to_csv(r'RDD-bxml.txt', header=None, index=None, sep=' ', mode='a')
+
 
 # ******************************************************************
     

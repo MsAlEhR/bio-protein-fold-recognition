@@ -324,15 +324,15 @@ def dataset_PSSM(dataset, XML_path, out_path):
 
 if __name__ == '__main__':
     
-    protein_dtfrm = pd.read_csv(r"./dataset/TG_raw.csv")
+    protein_dtfrm = pd.read_csv(r"./dataset/RDD/RDD_raw.csv")
     
     
     
-    dataset_PSSM(protein_dtfrm, './BXML/tg_bxml/', './PSSM/tg_PSSM/')
+#    dataset_PSSM(protein_dtfrm, './BXML/tg_bxml/', './PSSM/tg_PSSM/')
     
     #dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
     
-    #m_thread_dl_bxml(protein_dtfrm, 'mir-bxmls.txt', './BXML/tg_bxml/', 5)
+    m_thread_dl_bxml(protein_dtfrm, 'RDD-bxml.txt', './BXML/rdd_bxml/', 5)
     
     #fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
     
