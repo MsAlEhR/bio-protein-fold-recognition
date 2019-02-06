@@ -40,13 +40,13 @@ def bigram(pssm_matrix,k=1):
 
 def create_dataset(protein_dtframe,function,k,dataset_name):
     
-    columns = ['F' + str(i) for i in range(1,401)]
+    columns = ['F' + str(i) for i in range(1,1601)]
     
     data_set = pd.DataFrame(columns=['Fold','Protein name'] + columns)
     
     for num, i in enumerate(protein_dtframe['Protein name']):
         
-        pssm_path = r"./PSSM/tg_PSSM" + "/" + i  + ".csv"
+        pssm_path = r"./PSSM/rdd_PSSM" + "/" + i  + ".csv"
         
         feature_vector = function(pssm_path,k)
         data_set.loc[i] =  [protein_dtframe.loc[num]['Fold'], i] + feature_vector
@@ -145,9 +145,9 @@ def acc_transformation(pssm_matrix,K):
 
 if __name__ == '__main__':
     
-    protein_dtfrm = pd.read_csv(r"./dataset/TG_raw.csv")
+    protein_dtfrm = pd.read_csv(r"./dataset/RDD/RDD_raw.csv")
     
-    data = create_dataset(protein_dtfrm,separated_dimer,6,'tg_dimer_dataset')  
+    data = create_dataset(protein_dtfrm,acc_transformation,4,'rdd_acc_dataset')  
     
     
     

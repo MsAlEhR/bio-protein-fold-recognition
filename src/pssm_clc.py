@@ -328,17 +328,17 @@ if __name__ == '__main__':
     
     
     
-#    dataset_PSSM(protein_dtfrm, './BXML/tg_bxml/', './PSSM/tg_PSSM/')
+    dataset_PSSM(protein_dtfrm, './BXML/rdd_bxml/', './PSSM/rdd_PSSM/')
     
     #dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
     
-    m_thread_dl_bxml(protein_dtfrm, 'RDD-bxml.txt', './BXML/rdd_bxml/', 5)
+#    m_thread_dl_bxml(protein_dtfrm, 'RDD-bxml.txt', './BXML/rdd_bxml/', 5)
     
     #fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
     
     #download_bxml(fasta_str,protein_dtfrm['Protein name'][1])
     
-#    match, subject = find_aligments(join('./dd_bxml/', \
+#    match, subject = find_aligments(join('./BXML/rdd_bxml/', \
 #                                    protein_dtfrm['Protein name'][1] + ".xml"),
 #                                    protein_dtfrm['Protein sequence'][1])
 #    
