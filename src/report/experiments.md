@@ -14,4 +14,7 @@ One-vs-One is used for multiclassification
 | ACC + IG + SVM                 | 91.0     |
 | (ACC+Dimer) + IG + SVM         | 70.59    |
 | (ACC+Dimer) + SVM              | 70.59    |
+| RDD (ACC+Dimer) +IG+ SVM          | 91.1     |
+
+
 
