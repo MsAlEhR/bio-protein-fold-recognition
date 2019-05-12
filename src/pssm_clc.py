@@ -25,7 +25,7 @@ def fasta_string(protein_name, protein_seq):
     """
     
     fasta = ">" + protein_name + "\n" + protein_seq
-    
+#    .split(".")[0]
     return fasta
     
 
@@ -324,19 +324,18 @@ def dataset_PSSM(dataset, XML_path, out_path):
 
 if __name__ == '__main__':
     
-    protein_dtfrm = pd.read_csv(r"./dataset/RDD/RDD_raw.csv")
+    protein_dtfrm = pd.read_csv(r"./dataset/EDD/EDD_raw.csv")
+#    
+#    
+#    dataset_PSSM(protein_dtfrm, './BXML/rdd_bxml/', './PSSM/rdd_PSSM/')
     
+#    dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
     
-    
-    dataset_PSSM(protein_dtfrm, './BXML/rdd_bxml/', './PSSM/rdd_PSSM/')
-    
-    #dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
-    
-#    m_thread_dl_bxml(protein_dtfrm, 'RDD-bxml.txt', './BXML/rdd_bxml/', 5)
-    
-    #fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
-    
-    #download_bxml(fasta_str,protein_dtfrm['Protein name'][1])
+    m_thread_dl_bxml(protein_dtfrm, 'EDD-bxml.txt', './BXML/edd_bxml/', 5)
+#    
+#    fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
+#    
+#    download_bxml(fasta_str,protein_dtfrm['Protein name'][1])
     
 #    match, subject = find_aligments(join('./BXML/rdd_bxml/', \
 #                                    protein_dtfrm['Protein name'][1] + ".xml"),

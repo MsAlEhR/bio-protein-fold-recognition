@@ -16,7 +16,7 @@ start_t = time.time()
 
 # **************** Convert text data file to dictionary ************
 
-with open("../data/RDDtrain.fasta") as f:
+with open("../data/EDD.fasta") as f:
     content = f.readlines()
 
 content = [x.strip() for x in content]
@@ -44,7 +44,6 @@ for num, line in enumerate(content):
 
         state_pn = True
         name_pr = line.replace(" ", "")
-
         protein[fold_type][name_pr] = ''
 
     elif state_pn is True:
@@ -69,8 +68,8 @@ data_frame = pd.DataFrame(list_data, columns=['Fold', 'Protein name', \
                                               'Protein sequence'])
     
 # Save this dataframe to CSV file
-data_frame.to_csv('./dataset/RDD_raw.csv', index=False, header=True)
-data_frame['Protein name'].to_csv(r'RDD-bxml.txt', header=None, index=None, sep=' ', mode='a')
+data_frame.to_csv('./dataset/EDD_raw.csv', index=False, header=True)
+data_frame['Protein name'].to_csv(r'EDD-bxml.txt', header=None, index=None, sep=' ', mode='a')
 
 
 # ******************************************************************

@@ -21,7 +21,7 @@ def create_tsv(dataset_name):
     """
 
     
-    dataset = pd.read_csv('./dataset/'+ dataset_name)
+    dataset = pd.read_csv('./dataset/RDD/'+ dataset_name)
     
     no_samples, no_features = dataset.shape
     no_features = no_features - 2
@@ -43,4 +43,4 @@ def create_tsv(dataset_name):
 
 if __name__ == "__main__":
          
-    dataset, label , feature = create_tsv('tg_fusion_acc_dimer_FULL.csv')
+    dataset, label , feature = create_tsv('rdd_fusion_acc_dimer_FULL.csv')
