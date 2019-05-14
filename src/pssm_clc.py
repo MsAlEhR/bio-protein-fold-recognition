@@ -331,7 +331,7 @@ if __name__ == '__main__':
     
 #    dl_bxml_dataset(protein_dtfrm, './BXML/tg_bxml/')
     
-    m_thread_dl_bxml(protein_dtfrm, 'EDD-bxml.txt', './BXML/edd_bxml/', 5)
+    m_thread_dl_bxml(protein_dtfrm, 'EDD-bxml.txt', './BXML/edd_bxml/', 1)
 #    
 #    fasta_str = fasta_string(protein_dtfrm['Protein name'][1],protein_dtfrm['Protein sequence'][1])
 #    
