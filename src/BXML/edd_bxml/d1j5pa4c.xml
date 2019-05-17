@@ -1,0 +1,1650 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_71319</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1j5pa4c</BlastOutput_query-def>
+  <BlastOutput_query-len>132</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_71319</Iteration_query-ID>
+  <Iteration_query-def>d1j5pa4c</Iteration_query-def>
+  <Iteration_query-len>132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1J5P|A</Hit_id>
+  <Hit_def>Chain A, ASPARTATE DEHYDROGENASE [Thermotoga maritima]</Hit_def>
+  <Hit_accession>1J5P_A</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>1.88505e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>HHMTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>HHMTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>HHMTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.00097268</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMLTVYSILRTLRNLESKIIFG</Hsp_hseq>
+      <Hsp_midline>P  SMLTVYSILRTLRNLESKIIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_004082138.1|</Hit_id>
+  <Hit_def>MULTISPECIES: L-aspartate dehydrogenase [Thermotoga] &gt;ref|NP_229443.1| L-aspartate dehydrogenase [Thermotoga maritima MSB8] &gt;sp|Q9X1X6.1| RecName: Full=L-aspartate dehydrogenase [Thermotoga maritima MSB8] &gt;gb|AAD36710.1| conserved hypothetical protein [Thermotoga maritima MSB8] &gt;gb|AGL50576.1| L-Aspartate dehydrogenase [Thermotoga maritima MSB8] &gt;gb|AHD18460.1| aspartate dehydrogenase [Thermotoga maritima MSB8] &gt;gb|AIY86719.1| L-aspartate dehydrogenase [Thermotoga sp. 2812B] &gt;gb|AKE27528.1| aspartate dehydrogenase [Thermotoga maritima] &gt;gb|AKE29401.1| aspartate dehydrogenase [Thermotoga maritima MSB8] &gt;gb|AKE31272.1| aspartate dehydrogenase [Thermotoga maritima] &gt;gb|EJX25437.1| L-aspartate dehydrogenase [Thermotoga sp. EMP]</Hit_def>
+  <Hit_accession>WP_004082138</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>5.13889e-71</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000954185</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMLTVYSILRTLRNLESKIIFG</Hsp_hseq>
+      <Hsp_midline>P  SMLTVYSILRTLRNLESKIIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_012311001.1|</Hit_id>
+  <Hit_def>MULTISPECIES: aspartate dehydrogenase [Thermotoga] &gt;sp|B1LB32.1| RecName: Full=Probable L-aspartate dehydrogenase [Thermotoga sp. RQ2] &gt;gb|ACB09530.1| Aspartate dehydrogenase [Thermotoga sp. RQ2] &gt;gb|ADA67249.1| Aspartate dehydrogenase [Thermotoga naphthophila RKU-10] &gt;tpg|HBF69764.1| aspartate dehydrogenase [Thermotoga sp.]</Hit_def>
+  <Hit_accession>WP_012311001</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>4.90106e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLGEFQVPSDVSTVVECASPEAVKEYSLQILKSPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRL EFQVPSDVSTVVECASPEAVKEYSLQILK+PVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00708971</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMLTVYSILRALRNLESKIVFG</Hsp_hseq>
+      <Hsp_midline>P  SMLTVYSILR LRNLESKI+FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1H2H|A</Hit_id>
+  <Hit_def>Chain A, HYPOTHETICAL PROTEIN TM1643 [Thermotoga maritima]</Hit_def>
+  <Hit_accession>1H2H_A</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>5.00937e-69</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>TVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>TVLIIGXGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>TVLIIG GNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00730122</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSXLTVYSILRTLRNLESKIIFG</Hsp_hseq>
+      <Hsp_midline>P  S LTVYSILRTLRNLESKIIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_038033058.1|</Hit_id>
+  <Hit_def>MULTISPECIES: aspartate dehydrogenase [Thermotoga] &gt;gb|AIY88485.1| L-aspartate dehydrogenase [Thermotoga sp. Cell2] &gt;gb|KHC94902.1| L-aspartate dehydrogenase [Thermotoga sp. TBGT1765] &gt;gb|KHC95219.1| L-aspartate dehydrogenase [Thermotoga sp. TBGT1766] &gt;gb|KHC97124.1| L-aspartate dehydrogenase [Thermotoga sp. Xyl54]</Hit_def>
+  <Hit_accession>WP_038033058</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.66664e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLGEFQVPSDVSTVVECASPEAVKEYSLQILKSPVNYIIISTSAFADEVFRERFFNELKNSPARVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRL EFQVPSDVSTVVECASPEAVKEYSLQILK+PVNYIIISTSAFADEVFRERFF+ELKNSPARVFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.00151637</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMLTVYSILRTLRNLESKIVFG</Hsp_hseq>
+      <Hsp_midline>P  SMLTVYSILRTLRNLESKI+FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_011943676.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermotoga petrophila] &gt;gb|ABQ47162.1| Aspartate dehydrogenase [Thermotoga petrophila RKU-1] &gt;gb|KUK23532.1| L-aspartate dehydrogenase [Thermotoga naphthophila] &gt;gb|KUK33796.1| L-aspartate dehydrogenase [Thermotoga sp. 47_83] &gt;tpg|HAA82917.1| aspartate dehydrogenase [Thermotoga naphthophila] &gt;tpg|HBU00766.1| aspartate dehydrogenase [Thermotoga naphthophila]</Hit_def>
+  <Hit_accession>WP_011943676</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.66741e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MTVLIIGMGNIGKKLAELRNFEKIYVYDRISKDIPGVVYLNEFQVPPDVSTVVECASPEAVKEYSFQILKSPVNYIIISTSAFADEVFRERFFNELKNSPARVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>MTVLIIGMGNIGKKL EL NFEKIY YDRISKDIPGVV L+EFQVP DVSTVVECASPEAVKEYS QILK+PVNYIIISTSAFADEVFRERFF+ELKNSPARVFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.00140147</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMLTVYSILRTLRNLESKIVFG</Hsp_hseq>
+      <Hsp_midline>P  SMLTVYSILRTLRNLESKI+FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_038052515.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermotoga sp. Mc24] &gt;gb|KHC92438.1| L-aspartate dehydrogenase [Thermotoga sp. Mc24]</Hit_def>
+  <Hit_accession>WP_038052515</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>4.8613e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MTALIIGMGNIGKKLVELGNFENVYVYDRVPKDIPGVIRLDEFQIPSNVDAIVECASPEAVKEYSLQILKNPVNYIVISTSAFADKVFREKFFNELKNSPARVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>MT LIIGMGNIGKKLVELGNFE +Y YDR+ KDIPGV+RLDEFQ+PS+V  +VECASPEAVKEYSLQILKNPVNYI+ISTSAFAD+VFRE+FF+ELKNSPARVFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.00409348</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMLTVYSILRTLKNLESKIVFG</Hsp_hseq>
+      <Hsp_midline>P  SMLTVYSILRTL+NLESKI+FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_101512812.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermotoga sp. SG1] &gt;gb|PLV57187.1| aspartate dehydrogenase [Thermotoga sp. SG1]</Hit_def>
+  <Hit_accession>WP_101512812</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>1.12427e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKD-IPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MRVLIIGVGNIGKQILKMTHFEKVYAFDKFQKDNIPDIYWLEEFHIPEDVDTVIECASPEAVKEYSFQILKSPVNYLIISTSAFADRAFRESFFEELKVSPARVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>M VLIIG+GNIGK+++++ +FEK+YA+D+  KD IP +  L+EF +P DV TV+ECASPEAVKEYS QILK+PVNY+IISTSAFAD  FRE FF ELK SPARVFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>5.16672</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMVTVYSILKTIESLNSKIVFG</Hsp_hseq>
+      <Hsp_midline>P  SM+TVYSIL+T+ +L SKI+FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_038067070.1|</Hit_id>
+  <Hit_def>MULTISPECIES: aspartate dehydrogenase [Thermotoga] &gt;gb|AJG40842.1| aspartate dehydrogenase [Thermotoga sp. RQ7] &gt;gb|KFZ22029.1| L-aspartate dehydrogenase [Thermotoga neapolitana LA10] &gt;tpg|HBF11419.1| aspartate dehydrogenase [Thermotoga neapolitana]</Hit_def>
+  <Hit_accession>WP_038067070</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.73702e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKD-IPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRNLESKII</Hsp_qseq>
+      <Hsp_hseq>MRVLIIGVGNIGKQILKMTHFEKVYAFDKFRKDHIPDIHWLEEFHVPEDVDTVIECASPEAVKEYSSQILKSPVNYLIISTSAFADRVFRESFFEELKVSPAKVFFPSGAIGGLDLLAAVRKNIHRVII</Hsp_hseq>
+      <Hsp_midline>M VLIIG+GNIGK+++++ +FEK+YA+D+  KD IP +  L+EF VP DV TV+ECASPEAVKEYS QILK+PVNY+IISTSAFAD VFRE FF ELK SPA+VFFPSG++  +  +    +N+   II</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>4.97169</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMVTVYSILKTIESLNSKIVFG</Hsp_hseq>
+      <Hsp_midline>P  SM+TVYSIL+T+ +L SKI+FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|ACM22921.1|</Hit_id>
+  <Hit_def>L-aspartate dehydrogenase [Thermotoga neapolitana DSM 4359]</Hit_def>
+  <Hit_accession>ACM22921</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>2.17464e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKD-IPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRNLESKII</Hsp_qseq>
+      <Hsp_hseq>MRVLIIGVGNIGKQILKMTHFEKVYAFDKFRKDHIPDIHWLEEFHVPEDVDTVIECASPEAVKEYSSQILKSPVNYLIISTSAFADRVFRESFFEELKVSPAKVFFPSGAIGGLDLLAAVRKNIHRVII</Hsp_hseq>
+      <Hsp_midline>M VLIIG+GNIGK+++++ +FEK+YA+D+  KD IP +  L+EF VP DV TV+ECASPEAVKEYS QILK+PVNY+IISTSAFAD VFRE FF ELK SPA+VFFPSG++  +  +    +N+   II</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>5.427</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSMVTVYSILKTIESLNSKIVFG</Hsp_hseq>
+      <Hsp_midline>P  SM+TVYSIL+T+ +L SKI+FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_101510230.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermotoga sp. KOL6] &gt;gb|PLV60304.1| aspartate dehydrogenase [Thermotoga sp. KOL6]</Hit_def>
+  <Hit_accession>WP_101510230</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>2.85809e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISK-DIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKLLIIGMGNIGKQIFRMASFEKAYIFDKYQRLTLPNAYQLETFHIPPDVDTVIECASPEAVKELSFQILESKVNYLIISTSAFADKVFREKFFETLKHSPTKVFFPSGAI</Hsp_hseq>
+      <Hsp_midline>M +LIIGMGNIGK++  + +FEK Y +D+  +  +P   +L+ F +P DV TV+ECASPEAVKE S QIL++ VNY+IISTSAFAD+VFRE+FF  LK+SP +VFFPSG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0214835</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PSGSMLTVYSILRTLRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>PKTSIITVYSILRTLKNLESKIIFG</Hsp_hseq>
+      <Hsp_midline>P  S++TVYSILRTL+NLESKIIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_014452224.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium pennivorans] &gt;gb|AFG35795.1| aspartate dehydrogenase [Fervidobacterium pennivorans DSM 9078]</Hit_def>
+  <Hit_accession>WP_014452224</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>8.95416e-22</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-EL-GNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRNL</Hsp_qseq>
+      <Hsp_hseq>MKILFIGGGNIANIVYSELEDHIEKCWYYDVVQTNLP-CERINNFTVPNEADVVVECASVEAVKQYGLDILKSGKDFYIISSGAFSDEDFFDRFMAELKNSDSTVYIPSGAIGGL-DIIYSIRNF</Hsp_hseq>
+      <Hsp_midline>M +L IG GNI   +  EL  + EK + YD +  ++P   R++ F VP++   VVECAS EAVK+Y L ILK+  ++ IIS+ AF+DE F +RF +ELKNS + V+ PSG++  +  I+ ++RN </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_069292989.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium thailandense] &gt;gb|ODN30520.1| aspartate dehydrogenase [Fervidobacterium thailandense]</Hit_def>
+  <Hit_accession>WP_069292989</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>1.22059e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE-LGN-FEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKVFFIGGGNITRIVLEKLGDRIERCWYYDLEKKDIPCQFIGDKFYIPSEADVVVEAASVEAVKTFGIDVLKSGKDFYVISSGAFADEEFTRRFAEELKNSTSKVFVPSGAV</Hsp_hseq>
+      <Hsp_midline>M V  IG GNI + ++E LG+  E+ + YD   KDIP     D+F +PS+   VVE AS EAVK + + +LK+  ++ +IS+ AFADE F  RF  ELKNS ++VF PSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_064011871.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium pennivorans] &gt;gb|ANE41547.1| aspartate dehydrogenase [Fervidobacterium pennivorans] &gt;gb|PHJ12760.1| aspartate dehydrogenase [Fervidobacterium sp. SC_NGM5_O18]</Hit_def>
+  <Hit_accession>WP_064011871</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>2.66104e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-ELGN-FEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRNLESKI</Hsp_qseq>
+      <Hsp_hseq>MKILFIGGGNIANIVYNELKDHIEKCWYYDVLQTNLP-CERMNDFTIPNEADVVVECASVEAVKQYGVDILKSGKDFYIISSGAFSDEDFFDKFMIELKNSNSTVYVPSGAIGGL-DIVYSIRNFIEKV</Hsp_hseq>
+      <Hsp_midline>M +L IG GNI   +  EL +  EK + YD +  ++P   R+++F +P++   VVECAS EAVK+Y + ILK+  ++ IIS+ AF+DE F ++F  ELKNS + V+ PSG++  +  I+ ++RN   K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>emb|SHN61546.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium gondwanense DSM 13020]</Hit_def>
+  <Hit_accession>SHN61546</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>4.01992e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>HHMTVLIIGMGNIGKKL-VELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRNLESKIIF</Hsp_qseq>
+      <Hsp_hseq>QKLNILFIGGGNIAGILKSELKDHIDLCWYYDLKKTDLDCQYLERFEIPRETDIVVECASVEAVKEFGIDILKSGKDFYIISSGAFADEEFRATFLAELKNSSSNVYIPSGAIGGI-DIVRAVRNYVEKVVL</Hsp_hseq>
+      <Hsp_midline>  + +L IG GNI   L  EL +   +  Y  + K       L+ F++P +   VVECAS EAVKE+ + ILK+  ++ IIS+ AFADE FR  F +ELKNS + V+ PSG++  +  I+R +RN   K++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_072759477.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium gondwanense]</Hit_def>
+  <Hit_accession>WP_072759477</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>4.0302e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>HHMTVLIIGMGNIGKKL-VELGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRNLESKIIF</Hsp_qseq>
+      <Hsp_hseq>QKLNILFIGGGNIAGILKSELKDHIDLCWYYDLKKTDLDCQYLERFEIPRETDIVVECASVEAVKEFGIDILKSGKDFYIISSGAFADEEFRATFLAELKNSSSNVYIPSGAIGGI-DIVRAVRNYVEKVVL</Hsp_hseq>
+      <Hsp_midline>  + +L IG GNI   L  EL +   +  Y  + K       L+ F++P +   VVECAS EAVKE+ + ILK+  ++ IIS+ AFADE FR  F +ELKNS + V+ PSG++  +  I+R +RN   K++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_090221670.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium changbaicum] &gt;gb|QAV33335.1| aspartate dehydrogenase [Fervidobacterium changbaicum] &gt;emb|SDG88868.1| aspartate dehydrogenase [Fervidobacterium changbaicum]</Hit_def>
+  <Hit_accession>WP_090221670</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>4.58282e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE--LGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRNLESKI</Hsp_qseq>
+      <Hsp_hseq>MKVFFIGGGNIAKIVYQELRDEIEKCWYYDVIETDLP-CERLERFFVPEDADVVVECASVDAVKQYGLDVLKSGKDFYIISSGAFSDVEFFDKFMEELKRSSQTVYIPSGAIGGL-DIIRAVKKFISKV</Hsp_hseq>
+      <Hsp_midline>M V  IG GNI K + +      EK + YD I  D+P   RL+ F VP D   VVECAS +AVK+Y L +LK+  ++ IIS+ AF+D  F ++F  ELK S   V+ PSG++  +  I+R ++   SK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_033192244.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium islandicum] &gt;gb|AMW33278.1| aspartate dehydrogenase [Fervidobacterium islandicum]</Hit_def>
+  <Hit_accession>WP_033192244</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>1.76302e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE--LGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRNLESKI</Hsp_qseq>
+      <Hsp_hseq>MKVFFIGGGNIAKIVYQELRDEIEKCWYYDVIETDLP-CERLERFFVPEDADVVVECASVDAVKQYGLDVLKSGKDFYIISSGAFSDVEFFDKFMEELKRSSQTAYIPSGAIGGL-DIIRAVKKFISKV</Hsp_hseq>
+      <Hsp_midline>M V  IG GNI K + +      EK + YD I  D+P   RL+ F VP D   VVECAS +AVK+Y L +LK+  ++ IIS+ AF+D  F ++F  ELK S    + PSG++  +  I+R ++   SK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_114702793.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermosipho africanus] &gt;gb|RDI91068.1| L-aspartate dehydrogenase [Thermosipho africanus Ob7]</Hit_def>
+  <Hit_accession>WP_114702793</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>2.51452e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-EL-GNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKPLFLGFGNAANVILKELEGYIQDFYYFDEKNVASSNGKKLEKFLIPNDCSFVVECASVEAVKEYYRDIIISNKDFYILSTGAFADENFRNEFFRLLKNSTSKIYIPSGAI</Hsp_hseq>
+      <Hsp_midline>M  L +G GN    ++ EL G  +  Y +D  +       +L++F +P+D S VVECAS EAVKEY   I+ +  ++ I+ST AFADE FR  FF  LKNS ++++ PSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|PHJ13967.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium sp. SC_NGM5_G05]</Hit_def>
+  <Hit_accession>PHJ13967</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.04447e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE--LGNFEKIYAYDRISKDIPGVVR------LDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKVMFIGGGNIANIVIEELKDHITECWYFD-ISPTSLSERRDVKCHFLENFEIPNEADIVVECASVEAVKKYGIEVLKSGKDFYIISSGAFADEEFFEKFIEKLKNSNSNVFIPSGAI</Hsp_hseq>
+      <Hsp_midline>M V+ IG GNI   ++E    +  + + +D IS       R      L+ F++P++   VVECAS EAVK+Y +++LK+  ++ IIS+ AFADE F E+F  +LKNS + VF PSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_013931791.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Pseudothermotoga thermarum] &gt;gb|AEH50568.1| aspartate dehydrogenase [Pseudothermotoga thermarum DSM 5069]</Hit_def>
+  <Hit_accession>WP_013931791</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.07235e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>VLIIGMGNIGK-KLVELGNF-EKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>VFFIGGGNIAHIVLGELKDLIEKAYYFD-VKETGLNAVKIEPFCVPDDADIVVECASVDAVKKYAFDVLKSEKDFYIMSSGAFADEDFLKEFLRKLQDSRCRVFIPSGAI</Hsp_hseq>
+      <Hsp_midline>V  IG GNI    L EL +  EK Y +D + +     V+++ F VP D   VVECAS +AVK+Y+  +LK+  ++ I+S+ AFADE F + F  +L++S  RVF PSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_126993576.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermosipho globiformans]</Hit_def>
+  <Hit_accession>WP_126993576</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>4.01934e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-EL-GNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKPLFLGFGNAANVILKELEGYIQDFYYFDEKNVTSFNGKKLEKFLIPNDCSFVVECASVEAVKEYYRDIIIANKDFYILSTGAFADENFRNDFFRLLENSTSKVYIPSGAI</Hsp_hseq>
+      <Hsp_midline>M  L +G GN    ++ EL G  +  Y +D  +       +L++F +P+D S VVECAS EAVKEY   I+    ++ I+ST AFADE FR  FF  L+NS ++V+ PSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_004102946.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermosipho africanus] &gt;gb|EKF49221.1| L-aspartate dehydrogenase [Thermosipho africanus H17ap60334]</Hit_def>
+  <Hit_accession>WP_004102946</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.12161e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-EL-GNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKPLFLGFGNAANVILKELEGYIQDFYYFDEKNVTSSKGKKLEKFFIPDDCSFVVECASVEAVKEYYRDIIISNKDFYILSTGAFADENFRNDFFRFIENSTSKIYIPSGAI</Hsp_hseq>
+      <Hsp_midline>M  L +G GN    ++ EL G  +  Y +D  +       +L++F +P D S VVECAS EAVKEY   I+ +  ++ I+ST AFADE FR  FF  ++NS ++++ PSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_012580482.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermosipho africanus] &gt;gb|ACJ76344.1| L-aspartate dehydrogenase [Thermosipho africanus TCF52B]</Hit_def>
+  <Hit_accession>WP_012580482</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.12161e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-EL-GNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKPLFLGFGNAANVILKELEGYIQDFYYFDEKNVTSSKGKKLEKFFIPDDCSFVVECASVEAVKEYYRDIIISNKDFYILSTGAFADENFRNDFFRFIENSTSKIYIPSGAI</Hsp_hseq>
+      <Hsp_midline>M  L +G GN    ++ EL G  +  Y +D  +       +L++F +P D S VVECAS EAVKEY   I+ +  ++ I+ST AFADE FR  FF  ++NS ++++ PSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>tpg|HCI29662.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Fervidobacterium sp.]</Hit_def>
+  <Hit_accession>HCI29662</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>8.16657e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-ELGNF-EKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MRVFFIGGGNIARIVADELGGLVTRSWYYDIKETGFSGEYIGNTFYIPKEADFVVECASVGAVKEYGEQVIKSGKDFYIISSGAFADTSFFENFLDLLKDSQSSVFVPSGAI</Hsp_hseq>
+      <Hsp_midline>M V  IG GNI + +  ELG    + + YD       G    + F +P +   VVECAS  AVKEY  Q++K+  ++ IIS+ AFAD  F E F   LK+S + VF PSG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_077289937.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermosipho sp. 1223] &gt;gb|OOC46129.1| aspartate dehydrogenase [Thermosipho sp. 1223]</Hit_def>
+  <Hit_accession>WP_077289937</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.04897e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-ELGNF-EKIYAYD--RISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGS---MLTVYSILRT-----LRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>MKPMFLGFGNSTKIILKELKDIIDDFYYYDEKKITSDLG--IRLENFSIPEDCDMVIECASVGAVKKYYREILDSGKDFYILSTGAFADSTFRNNFMKKIVDSKSNIYIPSGAIGGLDVIYSIRKYIDKVFLKTFKPPISFG</Hsp_hseq>
+      <Hsp_midline>M  + +G GN  K ++ EL +  +  Y YD  +I+ D+   +RL+ F +P D   V+ECAS  AVK+Y  +IL +  ++ I+ST AFAD  FR  F  ++ +S + ++ PSG+   +  +YSI +      L+  +  I FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_075666522.1|</Hit_id>
+  <Hit_def>MULTISPECIES: aspartate dehydrogenase [Thermosipho] &gt;gb|ANQ54422.1| aspartate dehydrogenase [Thermosipho sp. 1070] &gt;gb|APT72866.1| aspartate dehydrogenase [Thermosipho sp. 1063] &gt;gb|ONN26464.1| aspartate dehydrogenase [Thermosipho affectus]</Hit_def>
+  <Hit_accession>WP_075666522</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.07108e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-ELGNF-EKIYAYD--RISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGS---MLTVYSILRT-----LRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>MKPMFLGFGNSTKIILKELKDIIDDFYYYDEKKITSDLG--IRLENFSIPEDCDMVIECASVGAVKKYYREILDSGKDFYILSTGAFADSTFRNNFMKKIVDSKSNIYIPSGAIGGLDVIYSIRKYIDKVFLKTFKPPISFG</Hsp_hseq>
+      <Hsp_midline>M  + +G GN  K ++ EL +  +  Y YD  +I+ D+   +RL+ F +P D   V+ECAS  AVK+Y  +IL +  ++ I+ST AFAD  FR  F  ++ +S + ++ PSG+   +  +YSI +      L+  +  I FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_077288021.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermosipho sp. 1074] &gt;gb|OOC42302.1| aspartate dehydrogenase [Thermosipho sp. 1074]</Hit_def>
+  <Hit_accession>WP_077288021</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>1.62528e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-ELGNF-EKIYAYD--RISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGS---MLTVYSILRT-----LRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>MKPMFLGFGNSTKIILKELKDIIDDFYYYDEKKITSDLG--IRLENFSIPEDCDMVIECASVEAVKKYYREILDSGKDFYILSTGAFADSTFRNNFMKKIVDSKSNIYISSGAIGGLDVIYSIRKYIDKVFLKTFKPPISFG</Hsp_hseq>
+      <Hsp_midline>M  + +G GN  K ++ EL +  +  Y YD  +I+ D+   +RL+ F +P D   V+ECAS EAVK+Y  +IL +  ++ I+ST AFAD  FR  F  ++ +S + ++  SG+   +  +YSI +      L+  +  I FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|KLO23161.1|</Hit_id>
+  <Hit_def>hypothetical protein X274_06925 [Marinitoga sp. 1155]</Hit_def>
+  <Hit_accession>KLO23161</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>2.3153e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRL-DEFQV-------PSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTL</Hsp_qseq>
+      <Hsp_hseq>MKVFLLGAGNSAKIILDELNFEKVYVYDKNFKQFEKLKEIHNEIEYLDIKNLETTDVDYIIEVASVEALKNYGLKLLDMNKNLIVLSTGAFADKIFRYNFVKKLNNKNINVYVVSGAIGGI-DLIRTI</Hsp_hseq>
+      <Hsp_midline>M V ++G GN  K +++  NFEK+Y YD+  K    +  + +E +         +DV  ++E AS EA+K Y L++L    N I++ST AFAD++FR  F  +L N    V+  SG++  +  ++RT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KLO21638.1|</Hit_id>
+  <Hit_def>hypothetical protein X275_08505 [Marinitoga sp. 1197]</Hit_def>
+  <Hit_accession>KLO21638</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>4.99366e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRL-DEFQV-------PSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRN</Hsp_qseq>
+      <Hsp_hseq>MKVFLLGAGNSAKIILDELDFEKVYVYDKNFKQFEKLKEIHNEIEYLDIKNLETTDVDYIIEVASVEALKNYGLKLLDMNKNLIVLSTGAFADKTFRYNFVKKLNNKNINVYVVSGAIGGI-DLIRTISN</Hsp_hseq>
+      <Hsp_midline>M V ++G GN  K +++  +FEK+Y YD+  K    +  + +E +         +DV  ++E AS EA+K Y L++L    N I++ST AFAD+ FR  F  +L N    V+  SG++  +  ++RT+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_084822669.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Marinitoga sp. 1155]</Hit_def>
+  <Hit_accession>WP_084822669</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>7.98637e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRL-DEFQV-------PSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTL</Hsp_qseq>
+      <Hsp_hseq>LKVFLLGAGNSAKIILDELNFEKVYVYDKNFKQFEKLKEIHNEIEYLDIKNLETTDVDYIIEVASVEALKNYGLKLLDMNKNLIVLSTGAFADKIFRYNFVKKLNNKNINVYVVSGAIGGI-DLIRTI</Hsp_hseq>
+      <Hsp_midline>+ V ++G GN  K +++  NFEK+Y YD+  K    +  + +E +         +DV  ++E AS EA+K Y L++L    N I++ST AFAD++FR  F  +L N    V+  SG++  +  ++RT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_012057785.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermosipho melanesiensis] &gt;gb|ABR31426.1| Aspartate dehydrogenase [Thermosipho melanesiensis BI429] &gt;gb|APT74485.1| aspartate dehydrogenase [Thermosipho melanesiensis] &gt;gb|OOC36444.1| aspartate dehydrogenase [Thermosipho melanesiensis] &gt;gb|OOC37262.1| aspartate dehydrogenase [Thermosipho melanesiensis] &gt;gb|OOC38014.1| aspartate dehydrogenase [Thermosipho melanesiensis] &gt;gb|OOC41242.1| aspartate dehydrogenase [Thermosipho melanesiensis] &gt;gb|OOC43237.1| aspartate dehydrogenase [Thermosipho melanesiensis]</Hit_def>
+  <Hit_accession>WP_012057785</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.06878e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE-----LGNFEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTV---YSILRT-----LRNLESKIIFG</Hsp_qseq>
+      <Hsp_hseq>MKPLFLGFGNAAKIILEELEDLISDF---YYYDEKKITNGSGTMLEEFYIPDDSDMVIECASVGAVRKYYREILSSNKDFYILSTGAFADEDFRRDFNNILEKSQSNVFLPSGAIGGVDVIYAIKKYIDKVFLRTYKPPISFG</Hsp_hseq>
+      <Hsp_midline>M  L +G GN  K ++E     + +F   Y YD           L+EF +P D   V+ECAS  AV++Y  +IL +  ++ I+ST AFADE FR  F + L+ S + VF PSG++  V   Y+I +      LR  +  I FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_084825156.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Marinitoga sp. 1197]</Hit_def>
+  <Hit_accession>WP_084825156</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.70146e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGNFEKIYAYDRISKDIPGVVRL-DEFQV-------PSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRN</Hsp_qseq>
+      <Hsp_hseq>LKVFLLGAGNSAKIILDELDFEKVYVYDKNFKQFEKLKEIHNEIEYLDIKNLETTDVDYIIEVASVEALKNYGLKLLDMNKNLIVLSTGAFADKTFRYNFVKKLNNKNINVYVVSGAIGGI-DLIRTISN</Hsp_hseq>
+      <Hsp_midline>+ V ++G GN  K +++  +FEK+Y YD+  K    +  + +E +         +DV  ++E AS EA+K Y L++L    N I++ST AFAD+ FR  F  +L N    V+  SG++  +  ++RT+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|KUK91139.1|</Hit_id>
+  <Hit_def>Aspartate dehydrogenase [Thermotogales bacterium 46_20]</Hit_def>
+  <Hit_accession>KUK91139</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.48275e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-ELGN-FEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRN</Hsp_qseq>
+      <Hsp_hseq>ISVLLIGGGNIAHILLNELGHRIRKSYYHDLRKTDLEATF-LESFLIPEVTDIVVECAGINAVKQHGIEAIKAGKDLYIISSGAFSDPKFPTELLNHLKSSTSKVFVPSGAIGGL-DIIRAVRT</Hsp_hseq>
+      <Hsp_midline>++VL+IG GNI   L+ ELG+   K Y +D    D+     L+ F +P     VVECA   AVK++ ++ +K   +  IIS+ AF+D  F     + LK+S ++VF PSG++  +  I+R +R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>tpg|HAA85878.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Kosmotogaceae bacterium]</Hit_def>
+  <Hit_accession>HAA85878</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.52939e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV-ELGN-FEKIYAYDRISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLRN</Hsp_qseq>
+      <Hsp_hseq>ISVLLIGGGNIAHILLNELGHRIRKSYYHDLRKTDLEATF-LESFLIPEVTDIVVECAGINAVKQHGIEAIKAGKDLYIISSGAFSDPKFPTELLNHLKSSTSKVFVPSGAIGGL-DIIRAVRT</Hsp_hseq>
+      <Hsp_midline>++VL+IG GNI   L+ ELG+   K Y +D    D+     L+ F +P     VVECA   AVK++ ++ +K   +  IIS+ AF+D  F     + LK+S ++VF PSG++  +  I+R +R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|OQY10853.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Marinitoga sp. 4572_148]</Hit_def>
+  <Hit_accession>OQY10853</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.40401e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE-LG-NFEKIYAYD-------RISKDIPGVVRLDEFQVPS-DVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKLFFLGGGNSARIILEEMGENIEKAYVFDINREQIEKLKNDFNNVEFCDIEKLNDLDVEYVIEVASVEALKAYGLKILDMNKNLIILSTGAFADENFRNNFVKKLNNTDSKVYVVSGAV</Hsp_hseq>
+      <Hsp_midline>M +  +G GN  + ++E +G N EK Y +D       ++  D   V   D  ++   DV  V+E AS EA+K Y L+IL    N II+ST AFADE FR  F  +L N+ ++V+  SG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|RLF55431.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermoplasmata archaeon]</Hit_def>
+  <Hit_accession>RLF55431</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.41849e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV----ELGNFEKIYAYDRISK---DIPGVVR-------LDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSI</Hsp_qseq>
+      <Hsp_hseq>MILGIIGCGAIGSDIALFADELDDIETIYLYDKVKEAENRLAGRIKKGRIARDIDELIERSDV--VFECASQEAVYQYSEKVLRAGKDLVIMSVGALLDDELRERLAGIAKEKRCKIYLPSGALCGIDGI</Hsp_hseq>
+      <Hsp_midline>M + IIG G IG  +     EL + E IY YD++ +    + G ++       +DE    SDV  V ECAS EAV +YS ++L+   + +I+S  A  D+  RER     K    +++ PSG++  +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_072865380.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Marinitoga hydrogenitolerans] &gt;emb|SHF05712.1| aspartate dehydrogenase [Marinitoga hydrogenitolerans DSM 16785]</Hit_def>
+  <Hit_accession>WP_072865380</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.26736e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE-LGN-FEKIYAYDRISKDIPGVVR----LDEFQVPS----DVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKLFFLGAGNSAKIILEELENSIEKAYFFDKDKEKIEILKKRFENIDYADIEDLNNLNVDFVIEVASVEALEEYGIKILEMNKNLVILSTGAFADKIFRYKFVKKLNNSNSKVYIASGAV</Hsp_hseq>
+      <Hsp_midline>M +  +G GN  K ++E L N  EK Y +D+  + I  + +    +D   +      +V  V+E AS EA++EY ++IL+   N +I+ST AFAD++FR +F  +L NS ++V+  SG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KYK26564.1|</Hit_id>
+  <Hit_def>hypothetical protein AYK23_02855 [Euryarchaeota archaeon SG8-5]</Hit_def>
+  <Hit_accession>KYK26564</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.36431e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVEL----GNFEKIYAYDR-------ISKDIPGVVRLDEFQVPSDVS-TVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSI</Hsp_qseq>
+      <Hsp_hseq>MKLTVIGCGSIGKTLANMLDGTDGVEAMYFVDRNKTRIEKLSRQCPSVKCADDYESAVEKSDVVVEVASQSAVKEYIPHALESGKDVIVMSVGAFVDDEFREKCKVMAKQNHCRVYVPSGAVCGIDGI</Hsp_hseq>
+      <Hsp_midline>M + +IG G+IGK L  +       E +Y  DR       +S+  P V   D+++   + S  VVE AS  AVKEY    L++  + I++S  AF D+ FRE+     K +  RV+ PSG++  +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|RLF43399.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermoplasmata archaeon]</Hit_def>
+  <Hit_accession>RLF43399</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.6077e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV----ELGNFEKIYAYDRISKDIPGVVR-LDEFQVPSDV-------STVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSI</Hsp_qseq>
+      <Hsp_hseq>MILGIIGCGAIGTDVALAADEMEDIEEIYLYDKVKDAENKLMRKLKKGRVAKDIDELIERSNAVFEAASQEAVFEYGEKVLESGKDLVIMSMGALFDDDFRERLISLAKKNRCKIYLPSGAICGIDGI</Hsp_hseq>
+      <Hsp_midline>M + IIG G IG  +     E+ + E+IY YD++      ++R L + +V  D+       + V E AS EAV EY  ++L++  + +I+S  A  D+ FRER  S  K +  +++ PSG++  +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_020449329.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Candidatus Methanomassiliicoccus intestinalis] &gt;gb|AGN26804.1| L-aspartate dehydrogenase [Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1]</Hit_def>
+  <Hit_accession>WP_020449329</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>3.17974e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE----LGNFEKIYAYDRISKDIP-------------GVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSI</Hsp_qseq>
+      <Hsp_hseq>MRILIIGCGSIGSILAETVHEIPEVDRIYITDQ-KKDLSIHLIERLNKTSFVSLVEIDSIM--TEVDLVVEAASQTAAKTYIPQVLRKGTDVMMMSVGAFSDEKFKDECFELAKNNHARIYVPSGAVCGTDGI</Hsp_hseq>
+      <Hsp_midline>M +LIIG G+IG  L E    +   ++IY  D+  KD+               +V +D     ++V  VVE AS  A K Y  Q+L+   + +++S  AF+DE F++  F   KN+ AR++ PSG++     I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_014296770.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Marinitoga piezophila] &gt;gb|AEX85699.1| aspartate dehydrogenase [Marinitoga piezophila KA3]</Hit_def>
+  <Hit_accession>WP_014296770</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>3.9326e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE--LGNFEKIYAYDRISKDIPGVVRLDEFQVPS----------DVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKIFLIGAGNSAKIILEELKEELDKVYVYDV---DKSQIEKLKEFYNISYADIKDIANLDIDYVIEVASTKAVVEYGKFVIENNKNFIILSTGAFADRDFLNDFQEALKKSNSRVYVVSGAI</Hsp_hseq>
+      <Hsp_midline>M + +IG GN  K ++E      +K+Y YD    D   + +L EF   S          D+  V+E AS +AV EY   +++N  N+II+ST AFAD  F   F   LK S +RV+  SG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_075780610.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Marinitoga sp. 1137] &gt;gb|APT76151.1| hypothetical protein LN42_06965 [Marinitoga sp. 1137]</Hit_def>
+  <Hit_accession>WP_075780610</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>4.35414e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE--LGNFEKIYAYDRISKDIPGVVRLDEFQVPS----------DVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MKIFLIGAGNSAKIILEELKEELDKVYVYDV---DKSQIEKLKEFYNISYADIKDIANLDIDYVIEVASTKAVVEYGKFVIENNKNFIILSTGAFADRDFLNDFQEALKKSNSRVYVVSGAI</Hsp_hseq>
+      <Hsp_midline>M + +IG GN  K ++E      +K+Y YD    D   + +L EF   S          D+  V+E AS +AV EY   +++N  N+II+ST AFAD  F   F   LK S +RV+  SG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_130645990.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Methanofollis sp. FWC-SCC2] &gt;gb|TAJ45628.1| aspartate dehydrogenase [Methanofollis sp. FWC-SCC2]</Hit_def>
+  <Hit_accession>WP_130645990</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>5.52621e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGN-FEKIYAYDRI---SKDIP---GVVRLDEFQ--VPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSI</Hsp_qseq>
+      <Hsp_hseq>LAVGIIGCGNVGRILAEKQNTFRITAAYDCVPGCALDFSARFGAKPLTEFAELLAEPVEIVVEAASVSAVREYAIDVLRSGKDLIILSVGALADETFRIELLGEARRLNRKIHVPSGAIMGLDNI</Hsp_hseq>
+      <Hsp_midline>+ V IIG GN+G+ L E  N F    AYD +   + D     G   L EF   +   V  VVE AS  AV+EY++ +L++  + II+S  A ADE FR     E +    ++  PSG+++ + +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|RLF44959.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermoplasmata archaeon]</Hit_def>
+  <Hit_accession>RLF44959</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>8.13894e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLV----ELGNFEKIYAYDRISKDIPGVVR----------LDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSI</Hsp_qseq>
+      <Hsp_hseq>MILGIIGCGAIGTDVALAADKMEDIEEIYLYDKIEEAEKNLVKKLRKGRIAKNVDELIERSD--AVFEAASQEAVFEYGEKILESGKDLVIMSMGALFDDDFRERLISIAKRNRCKIYLPSGAICGIDGI</Hsp_hseq>
+      <Hsp_midline>M + IIG G IG  +     ++ + E+IY YD+I +    +V+          +DE    SD   V E AS EAV EY  +IL++  + +I+S  A  D+ FRER  S  K +  +++ PSG++  +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|RPJ30694.1|</Hit_id>
+  <Hit_def>hypothetical protein EHM25_05760 [Nitrosopumilales archaeon]</Hit_def>
+  <Hit_accession>RPJ30694</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>8.36615e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>VLIIGMGNIGKKLV------ELGNFEKIYAYDRISKDIPGV------VRL----DEF---QVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKN----SPARVFFPSGSMLTVYSILRTLRNL</Hsp_qseq>
+      <Hsp_hseq>VAVIGYGSIGKEIIASARRHEIPNARIVAVFDKASQVINSVEIENSDVHLFSDFDEFYNSQTYSNLDIIIECASKDAVREYGKKIIESKKDLIVLSVGAFSD----KEYLSELQDLSNLNNTRILIPTGAIAGLDSI-RSVKNI</Hsp_hseq>
+      <Hsp_midline>V +IG G+IGK+++      E+ N   +  +D+ S+ I  V      V L    DEF   Q  S++  ++ECAS +AV+EY  +I+++  + I++S  AF+D    + + SEL++    +  R+  P+G++  + SI R+++N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|RLF36162.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Thermoplasmata archaeon]</Hit_def>
+  <Hit_accession>RLF36162</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.14907e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIG----KKLVELGNFEKIYAYD---RISKDIPGVVRLDEFQVPSD----VSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSIL</Hsp_qseq>
+      <Hsp_hseq>MNLGIIGCGAIGSDVAKAVDEMDEIERIYLYDINKKASNKLLKTLKKAEIQRVEDFLKHVDVVFEGASQDAVREYAEKILKAGKDLIIMSVGSLFDDKFRKKLEKLAKENKCKVYIPTGAICGIDGIL</Hsp_hseq>
+      <Hsp_midline>M + IIG G IG    K + E+   E+IY YD   + S  +   ++  E Q   D    V  V E AS +AV+EY+ +ILK   + II+S  +  D+ FR++     K +  +V+ P+G++  +  IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|OYT58048.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Euryarchaeota archaeon ex4484_162] &gt;gb|RLF29636.1| aspartate dehydrogenase [Thermoplasmata archaeon] &gt;gb|RLF35046.1| aspartate dehydrogenase [Thermoplasmata archaeon]</Hit_def>
+  <Hit_accession>OYT58048</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.25884e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVELGN----FEKIYAYDRISKDIPGVVRL---------DEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSIL</Hsp_qseq>
+      <Hsp_hseq>MNLGIIGCGAIGSDVAKAADRMREIKKIYLYDRDKKAADTLCRLLRKAEVRKVEDF--IEDVDVVFEAASQQAVVEYGLKVLRAGKDLIIMSIGSLFDDQLRKKLENTARRKRCRIYLPSGAVCGIDGIL</Hsp_hseq>
+      <Hsp_midline>M + IIG G IG  + +  +     +KIY YDR  K    + RL         ++F    DV  V E AS +AV EY L++L+   + II+S  +  D+  R++  +  +    R++ PSG++  +  IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_015283186.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Aciduliprofundum sp. MAR08-339] &gt;gb|AGB04562.1| aspartate dehydrogenase [Aciduliprofundum sp. MAR08-339]</Hit_def>
+  <Hit_accession>WP_015283186</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.8215e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVE-LGNFEKIYAYD-RISKDIPGVVRLDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSMLTVYSILRTLR</Hsp_qseq>
+      <Hsp_hseq>MKIGIIGCGAIAHEIAKHRDDVAALYDMDCNKCKDLPGFLCKDIDSLISRSDLIIEAASPSAVKEYAEKIIEAGKDLLIMSVGGLADDDFRAKIFRMAREMGVRIYLPAGAIGGI-DIIRSAR</Hsp_hseq>
+      <Hsp_midline>M + IIG G I  ++ +   +   +Y  D    KD+PG +  D   + S    ++E ASP AVKEY+ +I++   + +I+S    AD+ FR + F   +    R++ P+G++  +  I+R+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_010879332.1|</Hit_id>
+  <Hit_def>aspartate dehydrogenase [Archaeoglobus fulgidus] &gt;sp|O28440.1| RecName: Full=Probable L-aspartate dehydrogenase [Archaeoglobus fulgidus DSM 4304] &gt;gb|AAB89415.1| conserved hypothetical protein [Archaeoglobus fulgidus DSM 4304] &gt;gb|AIG98838.1| aspartate dehydrogenase [Archaeoglobus fulgidus DSM 8774] &gt;pdb|2DC1|A Chain A, Crystal Structure Of L-Aspartate Dehydrogenase From Hyperthermophilic Archaeon Archaeoglobus Fulgidus [Archaeoglobus fulgidus] &gt;pdb|2DC1|B Chain B, Crystal Structure Of L-Aspartate Dehydrogenase From Hyperthermophilic Archaeon Archaeoglobus Fulgidus [Archaeoglobus fulgidus]</Hit_def>
+  <Hit_accession>WP_010879332</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.88603e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MTVLIIGMGNIGKKLVEL---GNFEKIYAYDRISKDIPGVVR-LDEFQVPSDVSTVVECASPEAVKEYSLQILKNPVNYIIISTSAFADEVFRERFFSELKNSPARVFFPSGSM</Hsp_qseq>
+      <Hsp_hseq>MLVGLIGYGAIGKFLAEWLERNGFE-IAAILDVRGEHEKMVRGIDEF-LQREMDVAVEAASQQAVKDYAEKILKAGIDLIVLSTGAFADRDFLSRVREVCRKTGRRVYIASGAI</Hsp_hseq>
+      <Hsp_midline>M V +IG G IGK L E      FE I A   +  +   +VR +DEF +  ++   VE AS +AVK+Y+ +ILK  ++ I++ST AFAD  F  R     + +  RV+  SG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>209552778</Statistics_db-num>
+      <Statistics_db-len>75469528019</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
