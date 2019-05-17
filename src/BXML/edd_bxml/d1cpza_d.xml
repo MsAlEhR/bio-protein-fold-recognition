@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_177297</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1cpza_d</BlastOutput_query-def>
+  <BlastOutput_query-len>68</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_177297</Iteration_query-ID>
+  <Iteration_query-def>d1cpza_d</Iteration_query-def>
+  <Iteration_query-len>68</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1CPZ|A</Hit_id>
+  <Hit_def>Chain A, Copper Chaperone Of Enterococcus Hirae (Apo-Form) [Enterococcus hirae]</Hit_def>
+  <Hit_accession>1CPZ_A</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>8.79941e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>AQEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>AQEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_hseq>
+      <Hsp_midline>AQEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_010718490.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus hirae] &gt;sp|Q47840.1| RecName: Full=Copper chaperone CopZ; AltName: Full=Activator of copYZAB [Enterococcus hirae ATCC 9790] &gt;gb|AFM70728.1| copper chaperone [Enterococcus hirae ATCC 9790] &gt;gb|AND72929.1| copper-binding protein [Enterococcus hirae] &gt;gb|ASV81888.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|EOF61613.1| copper chaperone CopZ [Enterococcus hirae EnGen0127] &gt;gb|EOH69882.1| copper chaperone CopZ [Enterococcus hirae ATCC 9790] &gt;gb|EOU07149.1| copper chaperone CopZ [Enterococcus hirae ATCC 9790] &gt;gb|KDR91397.1| copper-binding protein [Enterococcus hirae] &gt;gb|KNB94507.1| copper-binding protein [Enterococcus hirae] &gt;gb|OJG51587.1| copper chaperone [Enterococcus hirae] &gt;gb|OQO32958.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO39458.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO41477.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO45778.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO47153.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO49392.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO53181.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO53489.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO57781.1| copper-binding protein [Enterococcus hirae] &gt;gb|OQO59943.1| copper-binding protein [Enterococcus hirae] &gt;gb|OWW46613.1| copper-binding protein [Enterococcus hirae 81-15-F4] &gt;gb|OWW59748.1| copper-binding protein [Enterococcus hirae 78-09-C1] &gt;gb|OWW60304.1| copper-binding protein [Enterococcus hirae 88-15-E09] &gt;gb|OWW63516.1| copper-binding protein [Enterococcus hirae 67-03-C5] &gt;gb|OWW65866.1| copper-binding protein [Enterococcus hirae 57-03-H11] &gt;gb|OWW70259.1| copper-binding protein [Enterococcus hirae 57-09-G6] &gt;gb|OZS39189.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|PCE00880.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|PCE05499.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|PPE99323.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|PPF01688.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|PWG77572.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT45432.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT50037.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT51015.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT52678.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT56911.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT61364.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT62536.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT64023.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT68198.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RBT69054.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|ROX93468.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|ROY03037.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|ROY52553.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|ROZ14927.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RXA64179.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RXA73752.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RXA75299.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RXA79451.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RXA85926.1| copper chaperone CopZ [Enterococcus hirae] &gt;gb|RYS93004.1| copper chaperone CopZ [Enterococcus hirae] &gt;emb|CAA86836.1| activator of copYZAB [Enterococcus hirae ATCC 9790] &gt;emb|STD80817.1| copper chaperone [Enterococcus hirae] &gt;emb|VEE79679.1| copper chaperone [Enterococcus hirae] &gt;emb|VFA58693.1| copper chaperone [Enterococcus hirae] &gt;tpg|HCE19628.1| copper chaperone CopZ [Enterococcus sp.] &gt;tpg|HCU83136.1| copper chaperone CopZ [Enterococcus sp.]</Hit_def>
+  <Hit_accession>WP_010718490</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>3.34313e-39</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_hseq>
+      <Hsp_midline>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_010752400.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus villorum] &gt;gb|EOH86179.1| copper chaperone CopZ [Enterococcus villorum ATCC 700913] &gt;gb|EOW78747.1| copper chaperone CopZ [Enterococcus villorum ATCC 700913] &gt;gb|OQO68743.1| copper-binding protein [Enterococcus villorum] &gt;gb|OQO72298.1| copper-binding protein [Enterococcus villorum]</Hit_def>
+  <Hit_accession>WP_010752400</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>1.38777e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QEFSIKGMSCNHCVARIEETLNHLEGVKKATVNLKKETGKIKFDETKIQATKICQVINELGYQAEVI</Hsp_hseq>
+      <Hsp_midline>QEFS+KGMSCNHCVARIEE +  + GVKK  V LKKE   +KFDE  +QAT+ICQ INELGYQAEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_071855055.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus ratti] &gt;gb|OJG83028.1| copper chaperone CopZ [Enterococcus ratti]</Hit_def>
+  <Hit_accession>WP_071855055</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>3.16167e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QEFLIKGMHCNHCVARVEEALRNLEGVKKVKIHLKKEKGLVKFDETSVPLEEICQTINELGYQAEVI</Hsp_hseq>
+      <Hsp_midline>QEF +KGM CNHCVAR+EEA+  + GVKKVK+ LKKEK +VKFDE +V   EICQ INELGYQAEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>emb|STP30792.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus durans] &gt;emb|STP39517.1| copper chaperone CopZ [Enterococcus durans]</Hit_def>
+  <Hit_accession>STP30792</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>8.1009e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QEFSIKGMSCNHCVERVEEAVHSLDGVKKIKVNLKKENGIVKYDEEKIQPEKICQTINALGYQSEVI</Hsp_hseq>
+      <Hsp_midline>QEFS+KGMSCNHCV R+EEAV  + GVKK+KV LKKE  +VK+DE  +Q  +ICQ IN LGYQ+EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_005875579.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus durans] &gt;gb|AKX85081.1| copper-binding protein [Enterococcus durans] &gt;gb|EMS76796.1| P-ATPase superfamily P-type ATPase copper (Cu) transporter [Enterococcus durans IPLA 655] &gt;gb|EOT31633.1| copper chaperone CopZ [Enterococcus durans ATCC 6056] &gt;gb|EOU18643.1| copper chaperone CopZ [Enterococcus durans ATCC 6056] &gt;gb|KST47861.1| copper-binding protein [Enterococcus durans] &gt;gb|PEH45251.1| copper-binding protein [Enterococcus durans] &gt;gb|RSL37515.1| copper-binding protein [Enterococcus durans] &gt;gb|RXE80691.1| copper-binding protein [Enterococcus durans] &gt;gb|RYT07219.1| copper-binding protein [Enterococcus durans] &gt;gb|TBX35304.1| copper chaperone CopZ [Enterococcus durans]</Hit_def>
+  <Hit_accession>WP_005875579</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>8.60978e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QEFSIKGMSCNHCVERVEEAVHSLDGVKKIKVNLKKENGIVKYDEEKIQPEKICQTINALGYQSEVI</Hsp_hseq>
+      <Hsp_midline>QEFS+KGMSCNHCV R+EEAV  + GVKK+KV LKKE  +VK+DE  +Q  +ICQ IN LGYQ+EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_065772954.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_065772954</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.36529e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEEAVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINELGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EEAV  + GV+KVKV LKK    VKFDE  VQ+ +ICQAINELGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_104660176.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus durans] &gt;gb|PQD42015.1| copper-binding protein [Enterococcus durans] &gt;gb|ROX80849.1| copper-binding protein [Enterococcus durans]</Hit_def>
+  <Hit_accession>WP_104660176</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>2.11796e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QEFSIKGMSCNHCVERVEDAVHSLDGVKKIKVNLKKENGIVKYDEEKIQPEKICQTINALGYQSEVI</Hsp_hseq>
+      <Hsp_midline>QEFS+KGMSCNHCV R+E+AV  + GVKK+KV LKKE  +VK+DE  +Q  +ICQ IN LGYQ+EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_086310592.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus sp. 3G1_DIV0629] &gt;gb|OTO28190.1| copper chaperone CopZ [Enterococcus sp. 3G1_DIV0629]</Hit_def>
+  <Hit_accession>WP_086310592</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>2.69648e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCVARVEEAVSSLDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVAR+EEAV  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_002344382.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|ELB51134.1| copper ion binding protein [Enterococcus faecium EnGen0038]</Hit_def>
+  <Hit_accession>WP_002344382</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.28555e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCVARIEEAVSALDGVQKVKVNLKKANGTVKFDETKIQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVARIEEAV  + GV+KVKV LKK    VKFDE  +Q+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_113846001.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus durans] &gt;gb|RCA11197.1| copper chaperone CopZ [Enterococcus durans]</Hit_def>
+  <Hit_accession>WP_113846001</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>3.50923e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QEFSIKGMSCNHCVERVEEAVHSLDGVKKIKVNLKKENGIVKYDEEKIQPEKICQTIDALGYQSEVI</Hsp_hseq>
+      <Hsp_midline>QEFS+KGMSCNHCV R+EEAV  + GVKK+KV LKKE  +VK+DE  +Q  +ICQ I+ LGYQ+EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_002291786.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Enterococcus] &gt;gb|AII38877.1| copper-binding protein [Enterococcus faecium T110] &gt;gb|AYM72599.1| copper-binding protein [Enterococcus faecium] &gt;gb|AYQ59185.1| copper-binding protein [Enterococcus faecium] &gt;gb|EFF37645.1| copper binding protein [Enterococcus faecium E980] &gt;gb|ELA70027.1| copper ion binding protein [Enterococcus faecium EnGen0015] &gt;gb|ELB05546.1| copper ion binding protein [Enterococcus faecium EnGen0028] &gt;gb|ELB31421.1| copper ion binding protein [Enterococcus faecium EnGen0042] &gt;gb|ELB36964.1| copper ion binding protein [Enterococcus faecium EnGen0033] &gt;gb|ELB41764.1| copper ion binding protein [Enterococcus faecium EnGen0026] &gt;gb|EOH55751.1| copper ion binding protein [Enterococcus faecium EnGen0263] &gt;gb|EPI12835.1| copper chaperone CopZ [Enterococcus faecium SD2A-2] &gt;gb|KEI54154.1| copper-binding protein [Enterococcus faecium UC7256] &gt;gb|KST53782.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXA11009.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OAQ47718.1| copper-binding protein [Enterococcus faecium] &gt;gb|OFP42030.1| copper-binding protein [Enterococcus sp. HMSC061C05] &gt;gb|OHQ69698.1| copper-binding protein [Enterococcus sp. HMSC072F02] &gt;gb|OTN93191.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTN97359.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO41523.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO52868.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO90810.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTP01983.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTP03455.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTP05772.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OUZ26136.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OZN14697.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCE11286.1| copper-binding protein [Enterococcus faecium] &gt;gb|PEH47930.1| copper-binding protein [Enterococcus faecium] &gt;gb|PEQ19812.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL12336.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL14557.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB77536.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC50951.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC79745.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC95909.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD03146.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD85957.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE37958.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF25422.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG58262.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG64501.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG66403.1| copper-binding protein [Enterococcus faecium] &gt;gb|QAT22567.1| copper-binding protein [Enterococcus faecium] &gt;gb|RBS75178.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS80162.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT00094.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT08119.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT35282.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RDG07888.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX49099.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX54554.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX60394.1| copper-binding protein [Enterococcus faecium] &gt;gb|RRG15576.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA50721.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA58313.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA68181.1| copper-binding protein [Enterococcus faecium] &gt;gb|TAQ19447.1| copper chaperone CopZ [Enterococcus faecium] &gt;tpg|HAW88113.1| copper-binding protein [Enterococcus sp.]</Hit_def>
+  <Hit_accession>WP_002291786</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>4.13733e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCVARVEEAVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVAR+EEAV  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_123830649.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|ROX96673.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_123830649</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>6.14241e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCVARVEEAVSALDGVQKVKVNLKKANGTVKFDETKIQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVAR+EEAV  + GV+KVKV LKK    VKFDE  +Q+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_104866899.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|PQF06758.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_104866899</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>8.92114e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCVARVEEAVSALDGVQRVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVAR+EEAV  + GV++VKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_123835059.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|ROY67798.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY88430.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_123835059</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.02895e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCVARVEEAVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQSINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVAR+EEAV  + GV+KVKV LKK    VKFDE  VQ+ +ICQ+IN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_077940648.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|ATU29728.1| copper-binding protein [Enterococcus faecium] &gt;gb|OTN79527.1| copper chaperone CopZ [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_077940648</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.30999e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCVARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVAR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_002308701.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Enterococcus] &gt;gb|AWX47267.1| copper-binding protein [Enterococcus faecium] &gt;gb|AYA34096.1| copper-binding protein [Enterococcus faecium] &gt;gb|AZV36761.1| copper-binding protein [Enterococcus faecium Com15] &gt;gb|EEI59919.1| copper chaperone CopZ [Enterococcus faecium TX1330] &gt;gb|EEV49904.1| cation transport ATPase [Enterococcus faecium 1,141,733] &gt;gb|EEV58476.1| copper-translocating P-type ATPase [Enterococcus faecium Com12] &gt;gb|EEV61089.1| cation transport ATPase [Enterococcus faecium Com15] &gt;gb|EFF61358.1| copper chaperone CopZ [Enterococcus faecium PC4.1] &gt;gb|EJV43267.1| copper chaperone CopZ [Enterococcus faecium TX1337RF] &gt;gb|ELB03539.1| copper ion binding protein [Enterococcus faecium EnGen0003] &gt;gb|ELB08468.1| copper ion binding protein [Enterococcus faecium EnGen0029] &gt;gb|ELB56180.1| copper ion binding protein [Enterococcus faecium EnGen0056] &gt;gb|ELB61664.1| copper ion binding protein [Enterococcus faecium EnGen0047] &gt;gb|EOG07152.1| copper ion binding protein [Enterococcus faecium EnGen0170] &gt;gb|EOM20271.1| copper ion binding protein [Enterococcus faecium EnGen0193] &gt;gb|OFQ01913.1| copper-binding protein [Enterococcus sp. HMSC076E04] &gt;gb|OFR85917.1| copper-binding protein [Enterococcus sp. HMSC067C01] &gt;gb|OQO66802.1| copper-binding protein [Enterococcus faecium] &gt;gb|OTO46077.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO89255.1| copper chaperone CopZ [Enterococcus sp. 10F3_DIV0382] &gt;gb|OZN16759.1| copper-binding protein [Enterococcus faecium] &gt;gb|OZN19547.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB56882.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC05999.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC12795.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC34669.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC41079.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC49018.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD54056.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF08836.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF43977.1| copper-binding protein [Enterococcus faecium] &gt;gb|PWF40882.1| copper-binding protein [Enterococcus faecium] &gt;gb|PWQ89494.1| copper-binding protein [Enterococcus faecium] &gt;gb|QAR72869.1| copper-binding protein [Enterococcus faecium] &gt;gb|RAX31723.1| copper-binding protein [Enterococcus sp. HPCN18] &gt;gb|RIX93059.1| copper-binding protein [Enterococcus faecium TX1330] &gt;gb|ROX47650.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX57416.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX75299.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXD19467.1| copper-binding protein [Enterococcus faecium] &gt;emb|SJX70294.1| Activator of copYZAB [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002308701</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.6862e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEEAVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EEAV  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_081134363.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus durans] &gt;gb|ASV94180.1| copper-binding protein [Enterococcus durans] &gt;gb|OQO81346.1| copper-binding protein [Enterococcus durans] &gt;gb|RGW64029.1| copper-binding protein [Enterococcus durans]</Hit_def>
+  <Hit_accession>WP_081134363</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>2.3958e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KELSIKGMSCNHCVERVEEAVHSLDGVKKIKVNLKKENGIVKYDEEKIQPEKICQTINALGYQSEVI</Hsp_hseq>
+      <Hsp_midline>+E S+KGMSCNHCV R+EEAV  + GVKK+KV LKKE  +VK+DE  +Q  +ICQ IN LGYQ+EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_002303088.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|EFF29631.1| copper ion binding protein [Enterococcus faecium U0317] &gt;gb|EJY21570.1| copper chaperone CopZ [Enterococcus faecium 515] &gt;gb|ELB78558.1| copper ion binding protein [Enterococcus faecium EnGen0046] &gt;gb|OOP58219.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK14487.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK45478.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHK58560.1| copper-binding protein [Enterococcus faecium] &gt;gb|PZM53339.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN55417.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN59928.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN90589.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002303088</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>2.58714e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINRLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_127823921.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_127823921</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>3.29375e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKTNGTVKFDETKVQSKKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_002337817.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Enterococcus] &gt;gb|AMP60798.1| copper-binding protein [Enterococcus faecium] &gt;gb|AUC73168.1| copper-binding protein [Enterococcus faecium] &gt;gb|EKA03623.1| copper chaperone CopZ [Enterococcus sp. GMD3E] &gt;gb|EKA13643.1| copper chaperone CopZ [Enterococcus sp. GMD1E] &gt;gb|EKQ76833.1| P-ATPase superfamily P-type ATPase copper (Cu) transporter [Enterococcus sp. GMD5E] &gt;gb|ELB18949.1| copper ion binding protein [Enterococcus faecium EnGen0025] &gt;gb|EPI20768.1| copper chaperone CopZ [Enterococcus faecium OC2A-1] &gt;gb|OFM90615.1| copper-binding protein [Enterococcus sp. HMSC069A01] &gt;gb|OTO74488.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO81341.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|PQB65911.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB96462.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC21986.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC51456.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX78264.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW40133.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW62279.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW89075.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002337817</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>4.52823e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQSKKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_086317416.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO57040.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO62127.1| copper chaperone CopZ [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_086317416</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>4.67982e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQSQKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_002338937.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|ELB27234.1| copper ion binding protein [Enterococcus faecium EnGen0039] &gt;gb|ELB62352.1| copper ion binding protein [Enterococcus faecium EnGen0052] &gt;gb|PQC17576.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE54062.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG70424.1| copper-binding protein [Enterococcus faecium] &gt;gb|PWS25341.1| copper-binding protein [Enterococcus faecium] &gt;emb|VFA71436.1| copper chaperone CopZ [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002338937</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>4.88986e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKASGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_002289040.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Enterococcus] &gt;ref|YP_006376488.1| P-ATPase superfamily P-type ATPase copper (Cu) transporter [Enterococcus faecium DO] &gt;gb|AFC64000.1| copper chaperone CopZ [Enterococcus faecium Aus0004] &gt;gb|AFK59506.1| P-ATPase superfamily P-type ATPase copper (Cu) transporter [Enterococcus faecium DO] &gt;gb|AGS75887.1| copper chaperone CopZ [Enterococcus faecium Aus0085] &gt;gb|ALF50551.1| copper-binding protein [Enterococcus faecium] &gt;gb|ALL10630.1| copper-binding protein [Enterococcus faecium] &gt;gb|ALZ51437.1| copper-binding protein [Enterococcus faecium] &gt;gb|AMQ97656.1| copper-binding protein [Enterococcus faecium] &gt;gb|ANB94208.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOM15282.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOM19642.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOM21429.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOM25628.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOM28027.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOM30308.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOM34807.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOM36514.1| copper-binding protein [Enterococcus faecium] &gt;gb|AON60549.1| copper-binding protein [Enterococcus faecium] &gt;gb|AOT78546.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|APE39719.1| copper-binding protein [Enterococcus faecium] &gt;gb|APJ05839.1| copper-binding protein [Enterococcus faecium] &gt;gb|APV54708.1| copper-binding protein [Enterococcus faecium] &gt;gb|APV57497.1| copper-binding protein [Enterococcus faecium] &gt;gb|AQT55874.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|AQY28998.1| copper-binding protein [Enterococcus faecium] &gt;gb|AQY32280.1| copper-binding protein [Enterococcus faecium] &gt;gb|ATD78788.1| copper-binding protein [Enterococcus faecium] &gt;gb|ATU00623.1| copper-binding protein [Enterococcus faecium] &gt;gb|ATU03574.1| copper-binding protein [Enterococcus faecium] &gt;gb|ATW36591.1| copper-binding protein [Enterococcus faecium] &gt;gb|AUH48024.1| copper-binding protein [Enterococcus faecium] &gt;gb|AUI16136.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|AUI19062.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|AUI22031.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|AUI25002.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|AUI27976.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|AUI30952.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|AUI33880.1| Copper chaperone CopZ [Enterococcus faecium] &gt;gb|AUJ67835.1| copper-binding protein [Enterococcus faecium] &gt;gb|AUO62154.1| copper-binding protein [Enterococcus faecium] &gt;gb|AVJ43212.1| copper-binding protein [Enterococcus faecium] &gt;gb|AVJ45132.1| copper-binding protein [Enterococcus faecium] &gt;gb|AVL44957.1| copper-binding protein [Enterococcus faecium] &gt;gb|AWV58884.1| copper-binding protein [Enterococcus faecium] &gt;gb|AWV61902.1| copper-binding protein [Enterococcus faecium] &gt;gb|AZQ17986.1| copper-binding protein [Enterococcus faecium] &gt;gb|EAN09155.1| Copper ion-binding [Enterococcus faecium DO] &gt;gb|EEV47115.1| cation transport ATPase [Enterococcus faecium 1,231,501] &gt;gb|EEV53486.1| cation transport ATPase [Enterococcus faecium 1,231,410] &gt;gb|EEV57411.1| cation transport ATPase [Enterococcus faecium 1,231,408] &gt;gb|EEW61221.1| copper ion binding protein [Enterococcus faecium C68] &gt;gb|EEW64330.1| copper ion binding protein [Enterococcus faecium TC 6] &gt;gb|EFF20397.1| copper chaperone [Enterococcus faecium E1071] &gt;gb|EFF22606.1| copper-binding protein [Enterococcus faecium E1636] &gt;gb|EFF25641.1| putative copper binding protein [Enterococcus faecium E1679] &gt;gb|EFF32252.1| copper ion binding protein [Enterococcus faecium E1039] &gt;gb|EFF35252.1| copper-binding protein [Enterococcus faecium E1162] &gt;gb|EFR68186.1| copper chaperone CopZ [Enterococcus faecium TX0133a01] &gt;gb|EFR71298.1| copper chaperone CopZ [Enterococcus faecium TX0133B] &gt;gb|EFR74649.1| copper chaperone CopZ [Enterococcus faecium TX0133A] &gt;gb|EFR76830.1| copper chaperone CopZ [Enterococcus faecium TX0133C] &gt;gb|EFS06465.1| copper chaperone CopZ [Enterococcus faecium TX0133a04] &gt;gb|EFS08056.1| copper chaperone CopZ [Enterococcus faecium TX0082] &gt;gb|EHM32935.1| copper-binding protein [Enterococcus faecium E4453] &gt;gb|EHM34677.1| copper-binding protein [Enterococcus faecium E4452] &gt;gb|EJX38286.1| copper chaperone CopZ [Enterococcus faecium V689] &gt;gb|EJX38822.1| copper chaperone CopZ [Enterococcus faecium R501] &gt;gb|EJX41829.1| copper chaperone CopZ [Enterococcus faecium S447] &gt;gb|EJX48020.1| copper chaperone CopZ [Enterococcus faecium R499] &gt;gb|EJX51628.1| copper chaperone CopZ [Enterococcus faecium R497] &gt;gb|EJX52189.1| copper chaperone CopZ [Enterococcus faecium R496] &gt;gb|EJX54638.1| copper chaperone CopZ [Enterococcus faecium R494] &gt;gb|EJX59790.1| copper chaperone CopZ [Enterococcus faecium R446] &gt;gb|EJX62107.1| copper chaperone CopZ [Enterococcus faecium P1986] &gt;gb|EJX67157.1| copper chaperone CopZ [Enterococcus faecium P1190] &gt;gb|EJX71135.1| copper chaperone CopZ [Enterococcus faecium P1137] &gt;gb|EJX71204.1| copper chaperone CopZ [Enterococcus faecium P1140] &gt;gb|EJX74499.1| copper chaperone CopZ [Enterococcus faecium P1139] &gt;gb|EJX78258.1| copper chaperone CopZ [Enterococcus faecium ERV99] &gt;gb|EJX84317.1| copper chaperone CopZ [Enterococcus faecium P1123] &gt;gb|EJX86027.1| copper chaperone CopZ [Enterococcus faecium ERV69] &gt;gb|EJX89831.1| copper chaperone CopZ [Enterococcus faecium ERV38] &gt;gb|EJX93263.1| copper chaperone CopZ [Enterococcus faecium ERV168] &gt;gb|EJX98136.1| copper chaperone CopZ [Enterococcus faecium ERV165] &gt;gb|EJY00669.1| copper chaperone CopZ [Enterococcus faecium ERV161] &gt;gb|EJY04207.1| copper chaperone CopZ [Enterococcus faecium ERV102] &gt;gb|EJY06353.1| copper chaperone CopZ [Enterococcus faecium ERV1] &gt;gb|EJY10638.1| copper chaperone CopZ [Enterococcus faecium E422] &gt;gb|EJY15674.1| copper chaperone CopZ [Enterococcus faecium E417] &gt;gb|EJY16534.1| copper chaperone CopZ [Enterococcus faecium C497] &gt;gb|EJY18632.1| copper chaperone CopZ [Enterococcus faecium C621] &gt;gb|EJY24770.1| copper chaperone CopZ [Enterococcus faecium C1904] &gt;gb|EJY28028.1| copper chaperone CopZ [Enterococcus faecium 513] &gt;gb|EJY33872.1| copper chaperone CopZ [Enterococcus faecium 514] &gt;gb|EJY35668.1| copper chaperone CopZ [Enterococcus faecium 511] &gt;gb|EJY40248.1| copper chaperone CopZ [Enterococcus faecium 510] &gt;gb|EJY40509.1| copper chaperone CopZ [Enterococcus faecium 506] &gt;gb|EJY42062.1| copper chaperone CopZ [Enterococcus faecium 509] &gt;gb|EJY44688.1| copper chaperone CopZ [Enterococcus faecium 505] &gt;gb|EJY51631.1| copper chaperone CopZ [Enterococcus faecium 503] &gt;gb|EKU85975.1| copper ion binding protein [Enterococcus faecium FB129-CNAB4] &gt;gb|ELA50628.1| copper ion binding protein [Enterococcus faecium EnGen0005] &gt;gb|ELA52732.1| copper ion binding protein [Enterococcus faecium EnGen0012] &gt;gb|ELA55514.1| copper ion binding protein [Enterococcus faecium EnGen0010] &gt;gb|ELA59306.1| copper ion binding protein [Enterococcus faecium EnGen0013] &gt;gb|ELA61204.1| copper ion binding protein [Enterococcus faecium EnGen0022] &gt;gb|ELA62303.1| copper ion binding protein [Enterococcus faecium EnGen0014] &gt;gb|ELA65905.1| copper ion binding protein [Enterococcus faecium EnGen0019] &gt;gb|ELA68041.1| copper ion binding protein [Enterococcus faecium EnGen0008] &gt;gb|ELA73696.1| copper ion binding protein [Enterococcus faecium EnGen0017] &gt;gb|ELA77127.1| copper ion binding protein [Enterococcus faecium EnGen0002] &gt;gb|ELA78517.1| copper ion binding protein [Enterococcus faecium EnGen0011] &gt;gb|ELA82609.1| copper ion binding protein [Enterococcus faecium EnGen0004] &gt;gb|ELA87049.1| copper ion binding protein [Enterococcus faecium EnGen0021] &gt;gb|ELA87356.1| copper ion binding protein [Enterococcus faecium EnGen0016] &gt;gb|ELA91604.1| copper ion binding protein [Enterococcus faecium EnGen0009] &gt;gb|ELA92525.1| copper ion binding protein [Enterococcus faecium EnGen0020] &gt;gb|ELA96631.1| copper ion binding protein [Enterococcus faecium EnGen0001] &gt;gb|ELA97877.1| copper ion binding protein [Enterococcus faecium EnGen0018] &gt;gb|ELB01122.1| copper ion binding protein [Enterococcus faecium EnGen0007] &gt;gb|ELB12833.1| copper ion binding protein [Enterococcus faecium EnGen0032] &gt;gb|ELB14248.1| copper ion binding protein [Enterococcus faecium EnGen0027] &gt;gb|ELB17064.1| copper ion binding protein [Enterococcus faecium EnGen0031] &gt;gb|ELB24427.1| copper ion binding protein [Enterococcus faecium EnGen0040] &gt;gb|ELB29234.1| copper ion binding protein [Enterococcus faecium EnGen0036] &gt;gb|ELB45144.1| copper ion binding protein [Enterococcus faecium EnGen0044] &gt;gb|ELB45932.1| copper ion binding protein [Enterococcus faecium EnGen0043] &gt;gb|ELB47229.1| copper ion binding protein [Enterococcus faecium EnGen0034] &gt;gb|ELB54505.1| copper ion binding protein [Enterococcus faecium EnGen0030] &gt;gb|ELB64327.1| copper ion binding protein [Enterococcus faecium EnGen0054] &gt;gb|ELB67365.1| copper ion binding protein [Enterococcus faecium EnGen0048] &gt;gb|ELB70053.1| copper ion binding protein [Enterococcus faecium EnGen0051] &gt;gb|ELB73582.1| copper ion binding protein [Enterococcus faecium EnGen0050] &gt;gb|ELB74354.1| copper ion binding protein [Enterococcus faecium EnGen0057] &gt;gb|ELB82037.1| copper ion binding protein [Enterococcus faecium EnGen0049] &gt;gb|ELB84278.1| copper ion binding protein [Enterococcus faecium EnGen0045] &gt;gb|EOD82422.1| copper ion binding protein [Enterococcus faecium EnGen0041] &gt;gb|EOD87288.1| copper ion binding protein [Enterococcus faecium EnGen0006] &gt;gb|EOF54374.1| copper ion binding protein [Enterococcus faecium EnGen0131] &gt;gb|EOF60286.1| copper ion binding protein [Enterococcus faecium EnGen0124] &gt;gb|EOF61293.1| copper ion binding protein [Enterococcus faecium EnGen0133] &gt;gb|EOF65360.1| copper ion binding protein [Enterococcus faecium EnGen0126] &gt;gb|EOF66606.1| copper ion binding protein [Enterococcus faecium EnGen0135] &gt;gb|EOF70285.1| copper ion binding protein [Enterococcus faecium EnGen0130] &gt;gb|EOF73932.1| copper ion binding protein [Enterococcus faecium EnGen0128] &gt;gb|EOF74408.1| copper ion binding protein [Enterococcus faecium EnGen0132] &gt;gb|EOF77449.1| copper ion binding protein [Enterococcus faecium EnGen0136] &gt;gb|EOF78214.1| copper ion binding protein [Enterococcus faecium EnGen0138] &gt;gb|EOF80030.1| copper ion binding protein [Enterococcus faecium EnGen0137] &gt;gb|EOF85213.1| copper ion binding protein [Enterococcus faecium EnGen0140] &gt;gb|EOF86549.1| copper ion binding protein [Enterococcus faecium EnGen0161] &gt;gb|EOF87685.1| copper ion binding protein [Enterococcus faecium EnGen0162] &gt;gb|EOF93772.1| copper ion binding protein [Enterococcus faecium EnGen0166] &gt;gb|EOF96351.1| copper ion binding protein [Enterococcus faecium EnGen0169] &gt;gb|EOF98626.1| copper ion binding protein [Enterococcus faecium EnGen0168] &gt;gb|EOF98709.1| copper ion binding protein [Enterococcus faecium EnGen0167] &gt;gb|EOG04060.1| copper ion binding protein [Enterococcus faecium EnGen0171] &gt;gb|EOG08224.1| copper ion binding protein [Enterococcus faecium EnGen0175] &gt;gb|EOG10294.1| copper ion binding protein [Enterococcus faecium EnGen0176] &gt;gb|EOG15838.1| copper ion binding protein [Enterococcus faecium EnGen0177] &gt;gb|EOG19339.1| copper ion binding protein [Enterococcus faecium EnGen0179] &gt;gb|EOG20250.1| copper ion binding protein [Enterococcus faecium EnGen0178] &gt;gb|EOG23511.1| copper ion binding protein [Enterococcus faecium EnGen0180] &gt;gb|EOG25982.1| copper ion binding protein [Enterococcus faecium EnGen0182] &gt;gb|EOG26915.1| copper ion binding protein [Enterococcus faecium EnGen0181] &gt;gb|EOG32102.1| copper ion binding protein [Enterococcus faecium EnGen0183] &gt;gb|EOG34246.1| copper ion binding protein [Enterococcus faecium EnGen0184] &gt;gb|EOH34104.1| copper ion binding protein [Enterococcus faecium EnGen0185] &gt;gb|EOH44146.1| copper ion binding protein [Enterococcus faecium EnGen0190] &gt;gb|EOH44340.1| copper ion binding protein [Enterococcus faecium EnGen0191] &gt;gb|EOH44852.1| copper ion binding protein [Enterococcus faecium EnGen0189] &gt;gb|EOH51133.1| copper ion binding protein [Enterococcus faecium EnGen0257] &gt;gb|EOH52952.1| copper ion binding protein [Enterococcus faecium EnGen0264] &gt;gb|EOH59688.1| copper ion binding protein [Enterococcus faecium EnGen0265] &gt;gb|EOH67270.1| copper ion binding protein [Enterococcus faecium ATCC 8459] [Enterococcus faecium ATCC 8459 = NRRL B-2354] &gt;gb|EOI36870.1| copper ion binding protein [Enterococcus faecium EnGen0267] &gt;gb|EOI43127.1| copper ion binding protein [Enterococcus faecium EnGen0313] &gt;gb|EOI43665.1| copper ion binding protein [Enterococcus faecium EnGen0315] &gt;gb|EOI50711.1| copper ion binding protein [Enterococcus faecium EnGen0317] &gt;gb|EOI53074.1| copper ion binding protein [Enterococcus faecium EnGen0322] &gt;gb|EOI61830.1| copper ion binding protein [Enterococcus faecium EnGen0318] &gt;gb|EOI61861.1| copper ion binding protein [Enterococcus faecium EnGen0314] &gt;gb|EOI63688.1| copper ion binding protein [Enterococcus faecium EnGen0316] &gt;gb|EOI70976.1| copper ion binding protein [Enterococcus faecium EnGen0319] &gt;gb|EOI71346.1| copper ion binding protein [Enterococcus faecium EnGen0323] &gt;gb|EOI73064.1| copper ion binding protein [Enterococcus faecium EnGen0321] &gt;gb|EOI80598.1| copper ion binding protein [Enterococcus faecium EnGen0312] &gt;gb|EOK12962.1| copper ion binding protein [Enterococcus faecium EnGen0372] &gt;gb|EOK16392.1| copper ion binding protein [Enterococcus faecium EnGen0371] &gt;gb|EOK67792.1| copper ion binding protein [Enterococcus faecium EnGen0129] &gt;gb|EOK69726.1| copper ion binding protein [Enterococcus faecium EnGen0134] &gt;gb|EOK70322.1| copper ion binding protein [Enterococcus faecium EnGen0125] &gt;gb|EOK75663.1| copper ion binding protein [Enterococcus faecium EnGen0142] &gt;gb|EOK75894.1| copper ion binding protein [Enterococcus faecium EnGen0145] &gt;gb|EOK81101.1| copper ion binding protein [Enterococcus faecium EnGen0147] &gt;gb|EOK81660.1| copper ion binding protein [Enterococcus faecium EnGen0146] &gt;gb|EOK84975.1| copper ion binding protein [Enterococcus faecium EnGen0148] &gt;gb|EOK85984.1| copper ion binding protein [Enterococcus faecium EnGen0149] &gt;gb|EOK88165.1| copper ion binding protein [Enterococcus faecium EnGen0150] &gt;gb|EOK88927.1| copper ion binding protein [Enterococcus faecium EnGen0151] &gt;gb|EOK97836.1| copper ion binding protein [Enterococcus faecium EnGen0155] &gt;gb|EOK98648.1| copper ion binding protein [Enterococcus faecium EnGen0153] &gt;gb|EOK99953.1| copper ion binding protein [Enterococcus faecium EnGen0152] &gt;gb|EOL03773.1| copper ion binding protein [Enterococcus faecium EnGen0156] &gt;gb|EOL06897.1| copper ion binding protein [Enterococcus faecium EnGen0160] &gt;gb|EOL09822.1| copper ion binding protein [Enterococcus faecium EnGen0158] &gt;gb|EOL11066.1| copper ion binding protein [Enterococcus faecium EnGen0159] &gt;gb|EOL68355.1| copper ion binding protein [Enterococcus faecium EnGen0305] &gt;gb|EOL68432.1| copper ion binding protein [Enterococcus faecium EnGen0308] &gt;gb|EOL71644.1| copper ion binding protein [Enterococcus faecium EnGen0320] &gt;gb|EOM01375.1| copper ion binding protein [Enterococcus faecium EnGen0258] &gt;gb|EOM02482.1| copper ion binding protein [Enterococcus faecium EnGen0259] &gt;gb|EOM06903.1| copper ion binding protein [Enterococcus faecium EnGen0260] &gt;gb|EOM11054.1| copper ion binding protein [Enterococcus faecium EnGen0261] &gt;gb|EOM14258.1| copper ion binding protein [Enterococcus faecium EnGen0262] &gt;gb|EOM25766.1| copper ion binding protein [Enterococcus faecium EnGen0192] &gt;gb|EOM27272.1| copper ion binding protein [Enterococcus faecium EnGen0254] &gt;gb|EOM32604.1| copper ion binding protein [Enterococcus faecium EnGen0255] &gt;gb|EOM36214.1| copper ion binding protein [Enterococcus faecium EnGen0256] &gt;gb|EOM40238.1| copper ion binding protein [Enterococcus faecium EnGen0172] &gt;gb|EOM41049.1| copper ion binding protein [Enterococcus faecium EnGen0173] &gt;gb|EOM44992.1| copper ion binding protein [Enterococcus faecium EnGen0174] &gt;gb|EOM56308.1| copper ion binding protein [Enterococcus faecium EnGen0186] &gt;gb|EOM57501.1| copper ion binding protein [Enterococcus faecium EnGen0187] &gt;gb|EOM61697.1| copper ion binding protein [Enterococcus faecium EnGen0188] &gt;gb|EOM64794.1| copper ion binding protein [Enterococcus faecium EnGen0163] &gt;gb|EOM66777.1| copper ion binding protein [Enterococcus faecium EnGen0164] &gt;gb|EOM69855.1| copper ion binding protein [Enterococcus faecium EnGen0165] &gt;gb|EOR11767.1| copper ion binding protein [Enterococcus faecium D344SRF] &gt;gb|EOT36752.1| copper chaperone CopZ [Enterococcus faecium EnGen0376] &gt;gb|EOT54378.1| copper chaperone CopZ [Enterococcus faecium EnGen0375] &gt;gb|EOT91809.1| copper chaperone CopZ [Enterococcus faecium EnGen0375] &gt;gb|EOT94452.1| copper chaperone CopZ [Enterococcus faecium EnGen0376] &gt;gb|EOT97893.1| copper chaperone CopZ [Enterococcus faecium EnGen0377] &gt;gb|EOU00672.1| copper chaperone CopZ [Enterococcus faecium EnGen0377] &gt;gb|EOU06400.1| copper chaperone CopZ [Enterococcus faecium ATCC 8459] [Enterococcus faecium ATCC 8459 = NRRL B-2354] &gt;gb|EPI07265.1| copper chaperone CopZ [Enterococcus faecium SD3B-2] &gt;gb|EPI14337.1| copper chaperone CopZ [Enterococcus faecium SD1C-2] &gt;gb|EPI20387.1| copper chaperone CopZ [Enterococcus faecium LA4B-2] &gt;gb|EQJ10880.1| copper chaperone CopZ [Clostridioides difficile Y384] &gt;gb|ERK34453.1| copper-binding protein [Enterococcus faecium CRL1879] &gt;gb|ERT30736.1| copper chaperone CopZ [Enterococcus faecium BM4538] &gt;gb|ERT37514.1| hypothetical protein O992_01080 [Enterococcus faecium NEF1] &gt;gb|EZP89381.1| copper-binding protein [Enterococcus faecium VRE1044] &gt;gb|EZP92221.1| copper-binding protein [Enterococcus faecium VSE1036] &gt;gb|EZP95483.1| copper-binding protein [Enterococcus faecium VRE1261] &gt;gb|EZP98483.1| copper-binding protein [Enterococcus faecium VRE0576] &gt;gb|KEI49778.1| copper-binding protein [Enterococcus faecium UC8668] &gt;gb|KEI56146.1| copper-binding protein [Enterococcus faecium UC10237] &gt;gb|KEI59643.1| copper-binding protein [Enterococcus faecium UC7251] &gt;gb|KFO16267.1| copper-binding protein [Enterococcus faecium UC7267] &gt;gb|KGK73514.1| copper-binding protein [Enterococcus faecium] &gt;gb|KGK76838.1| copper-binding protein [Enterococcus faecium] &gt;gb|KGQ71784.1| copper-binding protein [Enterococcus faecium] &gt;gb|KGQ76137.1| copper-binding protein [Enterococcus faecium] &gt;gb|KKJ65977.1| copper-binding protein [Enterococcus faecium MRSN 11639] &gt;gb|KKJ69522.1| copper-binding protein [Enterococcus faecium MRSN 3418] &gt;gb|KNB91890.1| copper-binding protein [Enterococcus faecium] &gt;gb|KNB93884.1| copper-binding protein [Enterococcus faecium] &gt;gb|KNB97078.1| copper-binding protein [Enterococcus faecium] &gt;gb|KNB99666.1| copper-binding protein [Enterococcus faecium] &gt;gb|KNB99900.1| copper-binding protein [Enterococcus faecium] &gt;gb|KOR91574.1| copper-binding protein [Enterococcus faecium] &gt;gb|KST45485.1| copper-binding protein [Enterococcus faecium] &gt;gb|KST49779.1| copper-binding protein [Enterococcus faecium] &gt;gb|KUE82343.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW20717.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW55077.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW58197.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW63632.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW64602.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW65020.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW71255.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW71599.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW73702.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW74043.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW82440.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW87158.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW89083.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW90244.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW90369.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWW94171.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWX16914.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWX18679.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWX91956.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWX92228.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWX96924.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWX98978.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWX99474.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY04478.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY06642.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY10994.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY14185.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY14692.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY23698.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY24082.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY30197.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY32140.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY33285.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY34254.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY38676.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY43110.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY43470.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY44763.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY49738.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY51291.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY55705.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY57160.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY62871.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY63693.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY65961.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY69306.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY71976.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY75069.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY76218.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY82074.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY87312.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY87400.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY90695.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY93770.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWY96261.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ01969.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ04483.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ04907.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ05604.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ08860.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ09268.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ17464.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ19570.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ20974.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ25115.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ25228.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ26174.1| copper-binding protein [Enterococcus faecium] &gt;gb|KWZ54429.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH01692.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH04440.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH05627.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH06801.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH12624.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH13189.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH17947.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH20984.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH23354.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXH54789.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXS08351.1| copper-binding protein [Enterococcus faecium] &gt;gb|KXW82522.1| copper-binding protein [Enterococcus faecium C68] &gt;gb|KXW84963.1| copper-binding protein [Enterococcus faecium] &gt;gb|KZK36127.1| copper-binding protein [Enterococcus faecium] &gt;gb|OBP99941.1| copper-binding protein [Enterococcus faecium] &gt;gb|OBU82746.1| copper-binding protein [Enterococcus faecium] &gt;gb|OFK27562.1| copper-binding protein [Enterococcus sp. HMSC077E07] &gt;gb|OFK51159.1| copper-binding protein [Enterococcus sp. HMSC073E08] &gt;gb|OFK60112.1| copper-binding protein [Enterococcus sp. HMSC055G03] &gt;gb|OFK95115.1| copper-binding protein [Enterococcus sp. HMSC063H10] &gt;gb|OFL40045.1| copper-binding protein [Enterococcus sp. HMSC058D07] &gt;gb|OFL71436.1| copper-binding protein [Enterococcus sp. HMSC073E07] &gt;gb|OFN33036.1| copper-binding protein [Enterococcus sp. HMSC077E04] &gt;gb|OFN42980.1| copper-binding protein [Enterococcus sp. HMSC072G01] &gt;gb|OFN49953.1| copper-binding protein [Enterococcus sp. HMSC056C08] &gt;gb|OFO98552.1| copper-binding protein [Enterococcus sp. HMSC076D08] &gt;gb|OFP09770.1| copper-binding protein [Enterococcus sp. HMSC065H03] &gt;gb|OFP73801.1| copper-binding protein [Enterococcus sp. HMSC060E05] &gt;gb|OFP92914.1| copper-binding protein [Enterococcus sp. HMSC063C12] &gt;gb|OFQ77476.1| copper-binding protein [Enterococcus sp. HMSC065H12] &gt;gb|OFR82659.1| copper-binding protein [Enterococcus sp. HMSC072F07] &gt;gb|OHO42505.1| copper-binding protein [Enterococcus sp. HMSC034B11] &gt;gb|OHO48987.1| copper-binding protein [Enterococcus sp. HMSC035B04] &gt;gb|OHO54117.1| copper-binding protein [Enterococcus sp. HMSC035C10] &gt;gb|OHP24148.1| copper-binding protein [Enterococcus sp. HMSC060D07] &gt;gb|OHP26866.1| copper-binding protein [Enterococcus sp. HMSC060D09] &gt;gb|OHQ58101.1| copper-binding protein [Enterococcus sp. HMSC070F12] &gt;gb|OHQ68890.1| copper-binding protein [Enterococcus sp. HMSC072D11] &gt;gb|OHQ81651.1| copper-binding protein [Enterococcus sp. HMSC074F07] &gt;gb|OHR67319.1| copper-binding protein [Enterococcus sp. HMSC34G12] &gt;gb|OHY79459.1| copper-binding protein [Enterococcus faecium] &gt;gb|OHY83974.1| copper-binding protein [Enterococcus faecium] &gt;gb|OHY84374.1| copper-binding protein [Enterococcus faecium] &gt;gb|OJT39022.1| copper-binding protein [Enterococcus faecium] &gt;gb|OLY99445.1| copper-binding protein [Enterococcus faecium] &gt;gb|OLZ01204.1| copper-binding protein [Enterococcus faecium] &gt;gb|OLZ03911.1| copper-binding protein [Enterococcus faecium] &gt;gb|OLZ09338.1| copper-binding protein [Enterococcus faecium] &gt;gb|OLZ12561.1| copper-binding protein [Enterococcus faecium] &gt;gb|OLZ34955.1| copper-binding protein [Enterococcus faecium] &gt;gb|ONN34183.1| copper-binding protein [Enterococcus faecium] &gt;gb|ONN34951.1| copper-binding protein [Enterococcus faecium] &gt;gb|ONN42694.1| copper-binding protein [Enterococcus faecium] &gt;gb|ONN46391.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOE22873.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL45592.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL46213.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL49983.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL57926.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL58858.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL61531.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL63793.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL64806.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL66692.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL69360.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL72202.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL75096.1| copper-binding protein [Enterococcus faecium] &gt;gb|OOL82991.1| copper-binding protein [Enterococcus faecium] &gt;gb|OPH27626.1| copper-binding protein [Enterococcus faecium] &gt;gb|OPH27899.1| copper-binding protein [Enterococcus faecium] &gt;gb|OPH27928.1| copper-binding protein [Enterococcus faecium] &gt;gb|OQO60748.1| copper-binding protein [Enterococcus faecium] &gt;gb|OQO64817.1| copper-binding protein [Enterococcus faecium] &gt;gb|OSP64519.1| copper-binding protein [Enterococcus faecium] &gt;gb|OSP80301.1| copper-binding protein [Enterococcus faecium] &gt;gb|OTN68923.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTN70471.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTN80979.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTN91078.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTN99474.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO06849.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO32521.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO44671.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO49879.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO58057.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO63196.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO65872.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO79327.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO84288.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO86670.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTO93098.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OTP09393.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OUK08791.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK09671.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK13552.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK20735.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK22673.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK28669.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK31469.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK36313.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK36645.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK43335.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUK45176.1| copper-binding protein [Enterococcus faecium] &gt;gb|OUZ22093.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OUZ31578.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OWZ86728.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|OXM08885.1| copper-binding protein [Enterococcus faecium] &gt;gb|OZH63901.1| copper-binding protein [Enterococcus faecium] &gt;gb|OZH64255.1| copper-binding protein [Enterococcus faecium] &gt;gb|OZH68106.1| copper-binding protein [Enterococcus faecium] &gt;gb|OZH71695.1| copper-binding protein [Enterococcus faecium] &gt;gb|OZH75101.1| copper-binding protein [Enterococcus faecium] &gt;gb|OZN11671.1| copper-binding protein [Enterococcus faecium] &gt;gb|OZN23184.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCD91236.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCD95660.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCE02725.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCE05169.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCO41131.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCT04925.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCT08616.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCT36499.1| copper-binding protein [Enterococcus faecium] &gt;gb|PCT42692.1| copper-binding protein [Enterococcus faecium] &gt;gb|PEX98966.1| copper-binding protein [Enterococcus faecium] &gt;gb|PEY03071.1| copper-binding protein [Enterococcus faecium] &gt;gb|PEY05821.1| copper-binding protein [Enterococcus faecium] &gt;gb|PEY06104.1| copper-binding protein [Enterococcus faecium] &gt;gb|PEY10723.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHK51463.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHK56001.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHK90664.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL04198.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL07282.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL09375.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL17727.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL21119.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL69360.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL77567.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL80648.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL81427.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL84137.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL86869.1| copper-binding protein [Enterococcus faecium] &gt;gb|PHL91944.1| copper-binding protein [Enterococcus faecium] &gt;gb|PJN98604.1| copper-binding protein [Enterococcus faecium] &gt;gb|PJO04582.1| copper-binding protein [Enterococcus faecium] &gt;gb|PJO07375.1| copper-binding protein [Enterococcus faecium] &gt;gb|PJO83767.1| copper-binding protein [Enterococcus faecium] &gt;gb|PLQ05260.1| copper-binding protein [Enterococcus faecium] &gt;gb|PLQ06434.1| copper-binding protein [Enterococcus faecium] &gt;gb|PLQ06487.1| copper-binding protein [Enterococcus faecium] &gt;gb|PLQ13326.1| copper-binding protein [Enterococcus faecium] &gt;gb|PLQ13422.1| copper-binding protein [Enterococcus faecium] &gt;gb|PNE91533.1| copper-binding protein [Enterococcus faecium] &gt;gb|PNE96246.1| copper-binding protein [Enterococcus faecium] &gt;gb|PNL24280.1| copper-binding protein [Enterococcus faecium] &gt;gb|PNN22628.1| copper-binding protein [Enterococcus faecium] &gt;gb|POH49191.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB40602.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB47403.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB53066.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB61530.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB68960.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB69835.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB77489.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB86809.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB90439.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB92525.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQB99167.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC06396.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC21956.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC42998.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC50565.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC62255.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC67866.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC76305.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC77759.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC83453.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC89347.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQC94439.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD08741.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD27928.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD29531.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD36702.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD37316.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD52726.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD70162.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD76664.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD89235.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQD91222.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE47056.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE49835.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE64509.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE66810.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE79473.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE89630.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQE95650.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF01221.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF16740.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF35326.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF38737.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF47099.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF50101.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF65950.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF68671.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF73607.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF74221.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF77679.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF77805.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF85035.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQF87430.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG00872.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG04015.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG06054.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG17152.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG22128.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG23765.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG29483.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG34211.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG43031.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG44549.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG48817.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG62464.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG73591.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG82423.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG92741.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG92926.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQG95723.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQH01690.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQH06442.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQV96561.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQW00332.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQW01975.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQW09934.1| copper-binding protein [Enterococcus faecium] &gt;gb|PQW11357.1| copper-binding protein [Enterococcus faecium] &gt;gb|PXY56965.1| copper-binding protein [Enterococcus faecium] &gt;gb|PXY57577.1| copper-binding protein [Enterococcus faecium] &gt;gb|PZM53506.1| copper-binding protein [Enterococcus faecium] &gt;gb|PZM71019.1| copper-binding protein [Enterococcus faecium] &gt;gb|PZM73458.1| copper-binding protein [Enterococcus faecium] &gt;gb|PZM75309.1| copper-binding protein [Enterococcus faecium] &gt;gb|QBF49767.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RAQ24642.1| copper-binding protein [Enterococcus faecium] &gt;gb|RAQ26449.1| copper-binding protein [Enterococcus faecium] &gt;gb|RAQ31930.1| copper-binding protein [Enterococcus faecium] &gt;gb|RAQ34421.1| copper-binding protein [Enterococcus faecium] &gt;gb|RAU62428.1| copper-binding protein [Enterococcus faecium] &gt;gb|RAU63651.1| copper-binding protein [Enterococcus faecium] &gt;gb|RAU65266.1| copper-binding protein [Enterococcus faecium] &gt;gb|RBN43765.1| copper-binding protein [Enterococcus faecium] &gt;gb|RBN47638.1| copper-binding protein [Enterococcus faecium] &gt;gb|RBS28521.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS33925.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS34749.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS35021.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS40846.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS42883.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS43250.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS48075.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS49450.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS50546.1| hypothetical protein EB25_00897 [Enterococcus faecium] &gt;gb|RBS57404.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS58404.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS60053.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS64909.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS66373.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS67058.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS71590.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS77434.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS81654.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS83574.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS87709.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS90012.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS91970.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS94004.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBS96728.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT01153.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT04436.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT07438.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT14274.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT15737.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT16952.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT21298.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT26014.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT26919.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT28855.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT31499.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT32351.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RBT40537.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RCF59508.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF61280.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF61537.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF67645.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF67761.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF75284.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF75424.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF75553.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF81027.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF84378.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF85855.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF87505.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF96586.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCF97816.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCG00290.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCG03301.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCG05038.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCG06142.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCG09633.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN64018.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN66236.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN71065.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN73730.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN74765.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN79237.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN83528.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN87198.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN91354.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN91465.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN94898.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCN99879.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCO01455.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT61220.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT63061.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT63756.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT68378.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT74940.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT75344.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT75350.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT78376.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT84666.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT87511.1| copper-binding protein [Enterococcus faecium] &gt;gb|RCT88027.1| copper-binding protein [Enterococcus faecium] &gt;gb|RFD90537.1| copper-binding protein [Enterococcus faecium] &gt;gb|RFD93290.1| copper-binding protein [Enterococcus faecium] &gt;gb|RFD96117.1| copper-binding protein [Enterococcus faecium] &gt;gb|RFD96631.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROW75949.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROW87483.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROW90554.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROW97058.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX35619.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX38791.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX39608.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX40236.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX49301.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX53889.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX59265.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX60154.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX73387.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX80424.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX87760.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX88182.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROX90758.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY04044.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY04996.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY07977.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY11597.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY14209.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY21768.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY27461.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY29335.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY31339.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY40978.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY41940.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY49531.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY49917.1| copper-binding protein [Enterococcus faecalis] &gt;gb|ROY54960.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY55524.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY60981.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY61932.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY64715.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY71687.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY73092.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY78064.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY78315.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY81055.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY89389.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY97897.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROY99017.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROZ04597.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROZ07372.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROZ17655.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROZ19247.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROZ20183.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROZ28392.1| copper-binding protein [Enterococcus faecium] &gt;gb|ROZ37988.1| copper-binding protein [Enterococcus faecalis] &gt;gb|RRQ53391.1| copper-binding protein [Enterococcus faecium] &gt;gb|RRQ55370.1| copper-binding protein [Enterococcus faecium] &gt;gb|RRQ59966.1| copper-binding protein [Enterococcus faecium] &gt;gb|RRQ83002.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA18110.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA22284.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA25514.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA28129.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA29917.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA39521.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA39924.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA44618.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA47067.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA56491.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA60914.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA65888.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA66171.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA73337.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA75868.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA77325.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA81909.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA85495.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA85977.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA90694.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA93987.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA96104.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSA97909.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSB01832.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSB04784.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSB08843.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSB09633.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD38405.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD44171.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD50232.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD63501.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD67145.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD71863.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD77911.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD81011.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD81499.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD86177.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD89302.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD92520.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSD94719.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSE08055.1| copper-binding protein [Enterococcus faecium] &gt;gb|RSH71797.1| copper-binding protein [Enterococcus faecium] &gt;gb|RTM19848.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXA22969.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXA59733.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXA82672.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXE89870.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXE93512.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXF07634.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXU71610.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXU75395.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXU76417.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXU87553.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW34964.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW36353.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW43003.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW44833.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW48580.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW49142.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW50799.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW55743.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW56332.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW57891.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW64459.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW65122.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW68584.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW70375.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW74298.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW77208.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW79234.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW81001.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW82457.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW85468.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW91623.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW93644.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW96230.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW99149.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXW99874.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXX03558.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXX05790.1| copper-binding protein [Enterococcus faecium] &gt;gb|RXX06143.1| copper-binding protein [Enterococcus faecium] &gt;gb|RYJ65909.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ72056.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ72068.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ73689.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ78037.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ80842.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ82976.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ84548.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ85787.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ92983.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ93036.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ94709.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYJ99316.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK01500.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK02200.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK08172.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK09836.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK10886.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK17464.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK20548.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK21477.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK25075.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK28528.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK29609.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK30782.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK36330.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK37955.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK42862.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK45003.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK45378.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK48971.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK52557.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK56688.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK58784.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK59915.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK64490.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK68159.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK69687.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK73729.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK75583.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK80102.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK82888.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK84012.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK86067.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK92716.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK93139.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYK96279.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYL00527.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|RYL02183.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP48017.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP48184.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP51683.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP56359.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP56482.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP60312.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP64981.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP65420.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP66305.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP73490.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP75077.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP75482.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP81376.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP84961.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP85184.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP89451.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP92982.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP94151.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAP97984.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ01912.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ02226.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ09051.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ09760.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ10930.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ14524.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ20228.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ23442.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ26911.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ28596.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ31863.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ35149.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ37295.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ40869.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ44175.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ46045.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ49767.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ53270.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ54804.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ58927.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ62065.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ63341.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ67211.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ70304.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ73636.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ74440.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ79174.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TAQ80300.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TBV28993.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TBV30953.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TBV34445.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TBV35605.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TBV38007.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TBV45301.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TBV50300.1| copper chaperone CopZ [Enterococcus faecium] &gt;gb|TEA58042.1| copper-binding protein [Enterococcus faecium] &gt;dbj|BBI26261.1| copper chaperone [Enterococcus faecium] &gt;dbj|BBI39443.1| copper-binding protein [Enterococcus faecium] &gt;emb|CUX98316.1| Activator of copYZAB&apos; [Enterococcus faecium] &gt;emb|CVH52588.1| Activator of copYZAB [Enterococcus faecium] &gt;emb|SAM40667.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM42266.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM48937.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM49346.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM49374.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM51811.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM51950.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM53915.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM54090.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAM68248.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAZ16835.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SAZ22194.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI27709.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI39493.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI54308.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI62528.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI66727.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI71036.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI72476.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI79938.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI80072.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI81682.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI82046.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI85419.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI88045.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI91022.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI91826.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI93150.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI93316.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI93385.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI93872.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI94162.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI94198.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI94484.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI94596.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI94933.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI95659.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI96061.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI96645.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI97721.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI98682.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI98973.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI99261.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMI99624.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ00740.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ01067.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ01387.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ01900.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ02584.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ02729.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ03204.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ03360.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ03467.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ03482.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ04368.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ04957.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ05473.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ05822.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ09484.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ12052.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ12243.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ14480.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ25627.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ55601.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ59634.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ68052.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ82750.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMJ89483.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK01893.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK04643.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK06862.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK08555.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK11622.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK15918.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK16662.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK17588.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK20641.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK23579.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK28465.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK28481.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK29415.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK30454.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK31204.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK31461.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK34371.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK39348.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK40812.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK44240.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK46892.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK47990.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK48337.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK48619.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK49245.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK49375.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK49705.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK49810.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK51287.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK52071.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK53001.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK53091.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK53151.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK53717.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK53989.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK54900.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK55793.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK55870.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK57236.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK58966.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK59349.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK59494.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK62032.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK62123.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK69841.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK75130.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK78726.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK81477.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMK83663.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML00727.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML08676.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML18917.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML24435.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML32199.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML35184.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML36887.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML45517.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML49985.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML51299.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML54888.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML56440.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML58931.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML74565.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML85067.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML87822.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML87982.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML88266.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML94536.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML95417.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML95686.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML96936.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SML97082.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM06052.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM06395.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM07035.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM07508.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM08162.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM08647.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM09550.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM09653.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM10703.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM10900.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM12236.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM12747.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM13025.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM13700.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM14022.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM15218.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM15349.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM15891.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM16017.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM17268.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM17344.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM17680.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM18662.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM18732.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM19774.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM21049.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM21291.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM32782.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM37583.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM39550.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM42430.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM50192.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM56006.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM60552.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM65697.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM67591.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM69157.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM71089.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM71579.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM77778.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM81176.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM81440.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM82683.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM84922.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM86272.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM89535.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM92691.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM93567.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM94541.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMM95886.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMN06780.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SMN09319.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|SPW71516.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|STD32013.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|STD63462.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|STD67410.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|STD75050.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|STD78225.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|VEF84878.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|VFA45363.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|VFA48011.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|VFA76693.1| copper chaperone CopZ [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002289040</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>5.51736e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_002338450.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|ELB21724.1| copper ion binding protein [Enterococcus faecium EnGen0035]</Hit_def>
+  <Hit_accession>WP_002338450</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>6.22538e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQSENICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+  ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_060800915.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|KWY08060.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060800915</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>9.65682e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALYGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_070544146.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Enterococcus] &gt;gb|OFN69853.1| copper-binding protein [Enterococcus sp. HMSC063D12] &gt;gb|QAA19345.1| copper-binding protein [Enterococcus faecium] &gt;gb|QAA20991.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_070544146</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.06594e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCVARVEEAVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLEYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVAR+EEAV  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN L Y+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_002341532.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|ELB34161.1| copper ion binding protein [Enterococcus faecium EnGen0024] &gt;gb|ERT50201.1| copper chaperone CopZ [Enterococcus faecium 10/96A] &gt;emb|VFA63940.1| copper chaperone CopZ [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002341532</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.12608e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKVNGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_016625482.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecalis] &gt;gb|EPH95079.1| copper chaperone CopZ [Enterococcus faecalis 13-SD-W-01]</Hit_def>
+  <Hit_accession>WP_016625482</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>1.15107e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIQGMSCDHCVQRVEKAIGQLEGVQKVKVNLKKEKSVVKFDDTQLGPESIVEAVNELGYQAEVL</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSC+HCV R+E+A+G++ GV+KVKV LKKEK+VVKFD+  +    I +A+NELGYQAEV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_125278155.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|RSA50680.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_125278155</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>2.24834e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQFEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ  +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_029485915.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|KEI51450.1| copper-binding protein [Enterococcus faecium UC8733] &gt;gb|OZS36825.1| copper-binding protein [Enterococcus faecium] &gt;gb|RDG10747.1| copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_029485915</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>5.23453e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KQFSIEGMSCNHCAARVEETVSALDGVQKVKVNLKKVSGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>++FS++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_002376514.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus faecium] &gt;gb|EJY50521.1| copper chaperone CopZ [Enterococcus faecium 504]</Hit_def>
+  <Hit_accession>WP_002376514</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>6.73758e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQISIEGMSCNHCAARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>Q+ S++GMSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_108146278.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus mundtii] &gt;gb|PTO34624.1| copper-binding protein [Enterococcus mundtii]</Hit_def>
+  <Hit_accession>WP_108146278</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>5.66405e-22</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>EFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KVTIKGMSCKHCVARVEETVNALPGVKKINVNLKKEIGTVSLDETMIQPSTICQAINDLGYQAEVI</Hsp_hseq>
+      <Hsp_midline>+ ++KGMSC HCVAR+EE V  + GVKK+ V LKKE   V  DE  +Q + ICQAIN+LGYQAEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_010734989.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Enterococcus] &gt;gb|EOH63516.1| copper ion binding protein [Enterococcus mundtii ATCC 882] &gt;gb|EOU13127.1| copper chaperone CopZ [Enterococcus mundtii ATCC 882] &gt;gb|ONN44794.1| copper-binding protein [Enterococcus mundtii] &gt;gb|PJK25973.1| copper-binding protein [Enterococcus mundtii] &gt;gb|PQC30124.1| copper-binding protein [Enterococcus mundtii] &gt;gb|PQF21942.1| copper-binding protein [Enterococcus mundtii] &gt;gb|PTO40524.1| copper-binding protein [Enterococcus mundtii] &gt;gb|PTO44568.1| copper-binding protein [Enterococcus mundtii] &gt;dbj|BAO07444.1| P-ATPase superfamily P-type ATPase copper (Cu) transporter [Enterococcus mundtii QU 25]</Hit_def>
+  <Hit_accession>WP_010734989</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.01325e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>EFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KVTIKGMSCKHCVARVEETVNALPGVKKINVNLKKEIGTVSLDETVIQPSTICQAINDLGYQAEVI</Hsp_hseq>
+      <Hsp_midline>+ ++KGMSC HCVAR+EE V  + GVKK+ V LKKE   V  DE  +Q + ICQAIN+LGYQAEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_086283906.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus sp. 10A9_DIV0425] &gt;gb|OTP12482.1| copper chaperone CopZ [Enterococcus sp. 10A9_DIV0425]</Hit_def>
+  <Hit_accession>WP_086283906</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.10622e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQLSIKGMSCQHCVARVEESVKALDGVKKIKVQLKKATGTVKYDESLVNPEKISQTINDLGYQAEFI</Hsp_hseq>
+      <Hsp_midline>Q+ S+KGMSC HCVAR+EE+V  + GVKK+KVQLKK    VK+DE+ V   +I Q IN+LGYQAE I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_071867486.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus mundtii] &gt;gb|AUB53151.1| copper-binding protein [Enterococcus mundtii] &gt;gb|OJG58892.1| copper ion binding protein [Enterococcus mundtii] &gt;gb|OTP27864.1| hypothetical protein A5802_001600 [Enterococcus mundtii] &gt;gb|PTO42711.1| copper-binding protein [Enterococcus mundtii] &gt;gb|RYT05022.1| copper-binding protein [Enterococcus mundtii] &gt;emb|SFL79732.1| copper chaperone [Enterococcus mundtii] &gt;emb|STD25518.1| copper chaperone CopZ [Enterococcus mundtii]</Hit_def>
+  <Hit_accession>WP_071867486</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>2.00073e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>EFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KVTIKGMSCKHCVARVEETVNALPGVKKINVNLKKEIGTVSLDETVIQPSTVCQAINDLGYQAEVI</Hsp_hseq>
+      <Hsp_midline>+ ++KGMSC HCVAR+EE V  + GVKK+ V LKKE   V  DE  +Q + +CQAIN+LGYQAEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_065096299.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus mundtii] &gt;gb|OBS62126.1| copper-binding protein [Enterococcus mundtii]</Hit_def>
+  <Hit_accession>WP_065096299</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>2.49172e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>EFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KVTIKGMSCKHCVARVEETVNALPGVKKINVNLKKEIGTVSLDETVIQPSTICQAINDLGYQSEVI</Hsp_hseq>
+      <Hsp_midline>+ ++KGMSC HCVAR+EE V  + GVKK+ V LKKE   V  DE  +Q + ICQAIN+LGYQ+EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_034687305.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus mundtii] &gt;gb|AZP93204.1| copper-binding protein [Enterococcus mundtii] &gt;gb|EYT96587.1| copper-binding protein [Enterococcus mundtii CRL35]</Hit_def>
+  <Hit_accession>WP_034687305</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>3.82256e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>EFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KVTIKGMSCKHCVARVEETVNALPGVKKINVNLKKEIGTVSLDETVIQSSTICQVINDLGYQAEVI</Hsp_hseq>
+      <Hsp_midline>+ ++KGMSC HCVAR+EE V  + GVKK+ V LKKE   V  DE  +Q++ ICQ IN+LGYQAEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_067483947.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Bacilli] &gt;gb|ASZ07033.1| copper chaperone [Enterococcus thailandicus] &gt;gb|OAQ55458.1| copper-binding protein [Enterococcus thailandicus] &gt;gb|OJG94202.1| copper chaperone CopZ [Enterococcus thailandicus] &gt;gb|OTP23046.1| copper chaperone CopZ [Enterococcus sp. 5B7_DIV0075]</Hit_def>
+  <Hit_accession>WP_067483947</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>7.09804e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QQFSIQGMSCNHCVAKVEETLQTLPGVQKVKVNLKKAKGMVKFDESQIQSDQIKEKITALGYPAEVI</Hsp_hseq>
+      <Hsp_midline>Q+FS++GMSCNHCVA++EE +  + GV+KVKV LKK K +VKFDE+ +Q+ +I + I  LGY AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_010740773.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Enterococcus] &gt;gb|EOH77300.1| copper ion binding protein [Enterococcus malodoratus ATCC 43197] &gt;gb|EOT64286.1| hypothetical protein I585_03483 [Enterococcus malodoratus ATCC 43197] &gt;gb|OJG60631.1| copper ion binding protein [Enterococcus malodoratus] &gt;emb|SES92112.1| copper chaperone [Enterococcus sp. kppr-6] &gt;emb|SPX00642.1| copper chaperone CopZ [Enterococcus malodoratus] &gt;emb|STD66341.1| copper chaperone CopZ [Enterococcus malodoratus] &gt;tpg|HCM84870.1| copper-binding protein [Enterococcus sp.]</Hit_def>
+  <Hit_accession>WP_010740773</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.83564e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KQFAINGMSCNHCVANVEKAIGQLDGIDKVKINLKKNNGVVKFDEAKVSADQIAAAVTEAGYETEVI</Hsp_hseq>
+      <Hsp_midline>++F++ GMSCNHCVA +E+A+G++ G+ KVK+ LKK   VVKFDEA V A +I  A+ E GY+ EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|OSP58047.1|</Hit_id>
+  <Hit_def>copper-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>OSP58047</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>5.55486e-20</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>MSCNHCAARVEETVSALDGVQKVKVNLKKANGTVKFDETKVQSEKICQAINGLGYKAEVI</Hsp_hseq>
+      <Hsp_midline>MSCNHC AR+EE V  + GV+KVKV LKK    VKFDE  VQ+ +ICQAIN LGY+AEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|EOL42075.1|</Hit_id>
+  <Hit_def>copper ion binding protein [Enterococcus phoeniculicola ATCC BAA-412] &gt;gb|EOT79646.1| hypothetical protein I589_01158 [Enterococcus phoeniculicola ATCC BAA-412] &gt;gb|OJG71711.1| copper ion binding protein [Enterococcus phoeniculicola]</Hit_def>
+  <Hit_accession>EOL42075</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>8.65969e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QNFSIKGMSCNHCVAKVEDSINQLPGIQKVKINLKKESGTVKFDESLVDAQKIATKVTEIGYATEVM</Hsp_hseq>
+      <Hsp_midline>Q FS+KGMSCNHCVA++E+++ ++ G++KVK+ LKKE   VKFDE+ V A +I   + E+GY  EV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_034684424.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus phoeniculicola]</Hit_def>
+  <Hit_accession>WP_034684424</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>9.72859e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QNFSIKGMSCNHCVAKVEDSINQLPGIQKVKINLKKESGTVKFDESLVDAQKIATKVTEIGYATEVM</Hsp_hseq>
+      <Hsp_midline>Q FS+KGMSCNHCVA++E+++ ++ G++KVK+ LKKE   VKFDE+ V A +I   + E+GY  EV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_010745648.1|</Hit_id>
+  <Hit_def>MULTISPECIES: copper chaperone CopZ [Enterococcus] &gt;gb|EOH78105.1| copper ion binding protein [Enterococcus raffinosus ATCC 49464] &gt;gb|EOT42164.1| hypothetical protein OMU_03087 [Enterococcus avium ATCC 14025] &gt;gb|EOT75555.1| hypothetical protein I590_02376 [Enterococcus raffinosus ATCC 49464] &gt;gb|EOU20397.1| hypothetical protein I570_02844 [Enterococcus avium ATCC 14025] &gt;gb|OFL90292.1| copper-binding protein [Enterococcus sp. HMSC072H05] &gt;gb|OFN67939.1| copper-binding protein [Enterococcus sp. HMSC064A12] &gt;gb|OFP17222.1| copper-binding protein [Enterococcus sp. HMSC066C04] &gt;gb|OFT76172.1| copper-binding protein [Enterococcus sp. HMSC05C03] &gt;gb|OFT88001.1| copper-binding protein [Enterococcus sp. HMSC29A04] &gt;gb|OFU59496.1| copper-binding protein [Enterococcus sp. HMSC14A10] &gt;gb|OJG24400.1| copper ion binding protein [Enterococcus avium] &gt;gb|PNE45082.1| copper-binding protein [Enterococcus avium] &gt;gb|PNE51478.1| copper-binding protein [Enterococcus avium] &gt;gb|RGY44855.1| copper chaperone [Enterococcus avium] &gt;gb|ROZ51710.1| copper chaperone [Enterococcus avium] &gt;gb|RVU94430.1| copper chaperone [Enterococcus avium] &gt;emb|SAM66080.1| copper chaperone CopZ [Enterococcus faecium] &gt;emb|STP26419.1| copper chaperone CopZ [Enterococcus avium]</Hit_def>
+  <Hit_accession>WP_010745648</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>1.44403e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KQFAINGMSCNHCVANVEKAINQLDGIDKVKINLKKNQGVVKFDEAQVSADQIAAAVTEAGYETEVI</Hsp_hseq>
+      <Hsp_midline>++F++ GMSCNHCVA +E+A+ ++ G+ KVK+ LKK + VVKFDEA V A +I  A+ E GY+ EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_071860685.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus devriesei]</Hit_def>
+  <Hit_accession>WP_071860685</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.94186e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KQFAINGMSCNHCVAKVEQAINQLDGIDKVKINLKKNNGTVKFDEAQVSADQIAAAVTEAGYETEVI</Hsp_hseq>
+      <Hsp_midline>++F++ GMSCNHCVA++E+A+ ++ G+ KVK+ LKK    VKFDEA V A +I  A+ E GY+ EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|OJG37179.1|</Hit_id>
+  <Hit_def>copper ion binding protein [Enterococcus devriesei]</Hit_def>
+  <Hit_accession>OJG37179</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>2.19109e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KQFAINGMSCNHCVAKVEQAINQLDGIDKVKINLKKNNGTVKFDEAQVSADQIAAAVTEAGYETEVI</Hsp_hseq>
+      <Hsp_midline>++F++ GMSCNHCVA++E+A+ ++ G+ KVK+ LKK    VKFDEA V A +I  A+ E GY+ EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_067623458.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus pseudoavium] &gt;gb|REC32294.1| copper-binding protein [Enterococcus pseudoavium]</Hit_def>
+  <Hit_accession>WP_067623458</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>2.31446e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KQFAINGMSCNHCVANVEKAINQLDGIDKVKINLKKNQGVIKFDEAKVSADQIAAAVTEAGYETEVI</Hsp_hseq>
+      <Hsp_midline>++F++ GMSCNHCVA +E+A+ ++ G+ KVK+ LKK + V+KFDEA V A +I  A+ E GY+ EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_122646573.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus sp. Marseille-P4358]</Hit_def>
+  <Hit_accession>WP_122646573</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>2.47193e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>QTFSIKGMSCEHCVARVENGINELPGIQKVKIQLKKNNGVVKFDENLVSSQQIADKITEVGYEAEVL</Hsp_hseq>
+      <Hsp_midline>Q FS+KGMSC HCVAR+E  +  + G++KVK+QLKK   VVKFDE  V + +I   I E+GY+AEV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_071856632.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus hermanniensis] &gt;gb|OJG46976.1| copper ion binding protein [Enterococcus hermanniensis]</Hit_def>
+  <Hit_accession>WP_071856632</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>4.0056e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KQFAINGMSCNHCVAKVENAVNQLAGIDKVKINLKKNQGVVKFDETKVSAEKIAAAVTEAGYETEVI</Hsp_hseq>
+      <Hsp_midline>++F++ GMSCNHCVA++E AV +++G+ KVK+ LKK + VVKFDE  V A +I  A+ E GY+ EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_088933263.1|</Hit_id>
+  <Hit_def>copper chaperone CopZ [Enterococcus sp. 3H8_DIV0648] &gt;gb|OTO20456.1| hypothetical protein A5875_001809 [Enterococcus sp. 3H8_DIV0648]</Hit_def>
+  <Hit_accession>WP_088933263</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>4.8268e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>QEFSVKGMSCNHCVARIEEAVGRISGVKKVKVQLKKEKAVVKFDEANVQATEICQAINELGYQAEVI</Hsp_qseq>
+      <Hsp_hseq>KQFAINGMTCNHCVANVEKAINELAGIDKVKINLKKNQGVVKFDEAQVSADQIAAAVTEAGYETEVI</Hsp_hseq>
+      <Hsp_midline>++F++ GM+CNHCVA +E+A+  ++G+ KVK+ LKK + VVKFDEA V A +I  A+ E GY+ EVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>209552778</Statistics_db-num>
+      <Statistics_db-len>75469528019</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

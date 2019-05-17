@@ -1,0 +1,2391 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_85193</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1cf2o1c</BlastOutput_query-def>
+  <BlastOutput_query-len>171</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_85193</Iteration_query-ID>
+  <Iteration_query-def>d1cf2o1c</Iteration_query-def>
+  <Iteration_query-len>171</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_013413357.1|</Hit_id>
+  <Hit_def>glyceraldehyde-3-phosphate dehydrogenase [Methanothermus fervidus] &gt;sp|P10618.1| RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase; Short=GAPDH; AltName: Full=NAD(P)-dependent glyceraldehyde-3-phosphate dehydrogenase [Methanothermus fervidus] &gt;gb|AAA88227.1| glyceraldehyde-3-phosphate dehydrogenase [Methanothermus fervidus DSM 2088] &gt;gb|ADP77079.1| glyceraldehyde-3-phosphate dehydrogenase [Methanothermus fervidus DSM 2088] &gt;pdb|1CF2|O Chain O, PROTEIN (GLYCERALDEHYDE-3-PHOSPHATE DEHYDROGENASE) [Methanothermus fervidus] &gt;pdb|1CF2|P Chain P, PROTEIN (GLYCERALDEHYDE-3-PHOSPHATE DEHYDROGENASE) [Methanothermus fervidus] &gt;pdb|1CF2|Q Chain Q, PROTEIN (GLYCERALDEHYDE-3-PHOSPHATE DEHYDROGENASE) [Methanothermus fervidus] &gt;pdb|1CF2|R Chain R, PROTEIN (GLYCERALDEHYDE-3-PHOSPHATE DEHYDROGENASE) [Methanothermus fervidus]</Hit_def>
+  <Hit_accession>WP_013413357</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>4.35029e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_hseq>
+      <Hsp_midline>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>3.10755e-11</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>IEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV---------------IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VEETPTVDDIID----VFEDTP-----RVILISAEDGLTSTAEIMEYAKELGRSRNDL--FEIPVWRESITVVDNEIYYMQAVHQESDIVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_hseq>
+      <Hsp_midline>+E   TVDD++D    V + TP     + + +  E G+ +  +  E  +++G S N L  +E    ++   VV               IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_112093587.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter tenebrarum] &gt;gb|RAO79298.1| type II glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter tenebrarum]</Hit_def>
+  <Hit_accession>WP_112093587</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>1.20823e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MVSVAINGYGTIGKRVADAVAAQKDMKIVGVSKTRPDFEARMALKKGYDLYISIPEREKLFQEAGIEISGTVEDMIDEADIIVDATPEGIGAKNLKMYREKGIKAIFQGGEKHEDIGLSFNSFTNYDDSLGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A Q DMK++GVSKTRPDFEARMALKKGYDLY++IPER KLF++AGIE++GTV+DM+DEADI++D TPEGIGAKNLKMY+EKGIKAIFQGGEKHEDIGLSFNS +NY++S G DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>0.000336038</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLELEEDNKKSIEKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+EED  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|PKL67591.1|</Hit_id>
+  <Hit_def>type II glyceraldehyde-3-phosphate dehydrogenase [Methanobacteriales archaeon HGW-Methanobacteriales-1]</Hit_def>
+  <Hit_accession>PKL67591</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>6.25198e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAVNGYGTIGKRVADAVSAQDDMKIVGVSKTKPDFEARMAVKKGYDLYISIPEREKLFQDAGIEISGTVDEMLDESDIIVDCTPEGIGAKNLEKYKELGLKAIFQGGEKHDNIGLSFNSFANYSDSYGKDYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VA+NGYGT+GKRVADA++ QDDMK++GVSKT+PDFEARMA+KKGYDLY++IPER KLF+ AGIE++GTVD+MLDE+DI++DCTPEGIGAKNL+ YKE G+KAIFQGGEKH++IGLSFNS +NY +SYGKDYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.35299e-05</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLEMEEDNNKSIEKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LEMEED  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KUK01727.1|</Hit_id>
+  <Hit_def>Glyceraldehyde-3-phosphate dehydrogenase [Methanobacteriaceae archaeon 41_258]</Hit_def>
+  <Hit_accession>KUK01727</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>3.86321e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MVSVAINGYGTIGKRVADAVAAQKDMKIVGVSKTKPDFEARMAIKKGYDLYISIPEREKLFQEAGIEISGTVEDMIEEADIIVDATPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSFTNYDDSLGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A Q DMK++GVSKT+PDFEARMA+KKGYDLY++IPER KLF++AGIE++GTV+DM++EADI++D TPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNS +NY++S G DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>0.000288608</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLELEEDNKKSIEKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+EED  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>dbj|BAW31737.1|</Hit_id>
+  <Hit_def>glyceraldehyde 3-phosphate dehydrogenase [Methanothermobacter sp. MT-2]</Hit_def>
+  <Hit_accession>BAW31737</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>1.01085e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MVSVAINGYGTIGKRVADAVSAQKDMKVVGVSKTKPDFEARMALEKGYDLYISIPEREKLFKEAGFEISGTVEDMIEEADIIVDATPEGIGAKNLKTYKEKGIKAIFQGGEKHEDIGLSFNSFANYDDSLGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA++ Q DMKV+GVSKT+PDFEARMAL+KGYDLY++IPER KLF++AG E++GTV+DM++EADI++D TPEGIGAKNLK YKEKGIKAIFQGGEKHEDIGLSFNS +NY++S G DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>0.00033285</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLELEEDNEKSIEKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+EED  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_013296190.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter marburgensis] &gt;gb|ADL58978.1| glyceraldehyde 3-phosphate dehydrogenase [Methanothermobacter marburgensis str. Marburg]</Hit_def>
+  <Hit_accession>WP_013296190</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>1.19e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MISVAINGYGTIGKRVADAVAAQDDMKVVGVSKTKPDFEARVAIEKGYDLYVSIPEREKLFDDAGIPVSGTVKDMLEEADIVVDATPEGIGAKNLELYREKGIKAIFQGGEKHDAIGLSFNSFTNYEESLGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A QDDMKV+GVSKT+PDFEAR+A++KGYDLYV+IPER KLF+ AGI V+GTV DML+EADIV+D TPEGIGAKNL++Y+EKGIKAIFQGGEKH+ IGLSFNS +NYEES G DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.000551533</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLELEEDNMKSIMKTNRAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+EED  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_048175632.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter sp. CaT2] &gt;dbj|BAM70166.1| glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter sp. CaT2]</Hit_def>
+  <Hit_accession>WP_048175632</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>2.26069e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MISVAINGYGTIGKRVADAVAAQDDMKVAGVSKTKPDFEARVAIEKGYDLYVSIPEREKLFDEAGIPVSGTVEDMLEEADIVVDATPEGIGAKNLEMYREKGIKAIFQGGEKHDAIGLSFNSFANYDESLGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A QDDMKV GVSKT+PDFEAR+A++KGYDLYV+IPER KLF++AGI V+GTV+DML+EADIV+D TPEGIGAKNL+MY+EKGIKAIFQGGEKH+ IGLSFNS +NY+ES G DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.000535997</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLELEEDNMKSIMKTNRAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+EED  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_010876640.1|</Hit_id>
+  <Hit_def>glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter thermautotrophicus] &gt;sp|O27090.1| RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase; Short=GAPDH; AltName: Full=NAD(P)-dependent glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter thermautotrophicus str. Delta H] &gt;gb|AAB85505.1| glyceraldehyde 3-phosphate dehydrogenase [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>WP_010876640</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>9.19443e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MISVAINGYGTIGKRVADAVAAQDDMKVAGVSKTKPDFEARVAIEKGYDLYVSIPEREKLFGEAGIPVSGTVEDMLEEADIVVDATPEGIGAKNLEMYREKGIKAIFQGGEKHDAIGLSFNSFANYDESLGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A QDDMKV GVSKT+PDFEAR+A++KGYDLYV+IPER KLF +AGI V+GTV+DML+EADIV+D TPEGIGAKNL+MY+EKGIKAIFQGGEKH+ IGLSFNS +NY+ES G DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.000535997</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLELEEDNMKSIMKTNRAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+EED  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_115892036.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter defluvii] &gt;gb|REE28352.1| glyceraldehyde 3-phosphate dehydrogenase (NAD(P)+) [Methanothermobacter defluvii]</Hit_def>
+  <Hit_accession>WP_115892036</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.03627e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MISVAINGYGTIGKRVADAVAAQEDMKVAGVSKTKPDFEARVAIEKGYDLYVSIPEREKLFDEAGIPVSGTVEDMLEEADIVVDATPEGIGAKNLEMYREKGIKAIFQGGEKHDAIGLSFNSFANYHESLGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A Q+DMKV GVSKT+PDFEAR+A++KGYDLYV+IPER KLF++AGI V+GTV+DML+EADIV+D TPEGIGAKNL+MY+EKGIKAIFQGGEKH+ IGLSFNS +NY ES G DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.000541126</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLELEEDNMKSIMKTNRAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+EED  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>dbj|BAZ99036.1|</Hit_id>
+  <Hit_def>hypothetical protein tca_00970 [Methanothermobacter sp. EMTCatA1]</Hit_def>
+  <Hit_accession>BAZ99036</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.27411e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MISVAINGYGTIGKRVADAVAAQDDMKVAGVSKTKPDFEARVAIEKGYDLYVSIPEREKLFDEAGIPVSGTVEDMLEEADIVVDATPEGIGAKNLEMYRKKGIKAIFQGGEKHDAIGLSFNSFANYDESLGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A QDDMKV GVSKT+PDFEAR+A++KGYDLYV+IPER KLF++AGI V+GTV+DML+EADIV+D TPEGIGAKNL+MY++KGIKAIFQGGEKH+ IGLSFNS +NY+ES G DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.000535997</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLELEEDNMKSIMKTNRAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+EED  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_074359300.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter wolfeii] &gt;emb|SCM58024.1| Glyceraldehyde-3-phosphate dehydrogenase [Methanothermobacter wolfeii]</Hit_def>
+  <Hit_accession>WP_074359300</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>3.77956e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MISVAINGYGTIGKRVADAVAAQDDMKVVGVSKTKPDFEARVAVEKGYDLYISIPEREKLFDEAGIPVSGTVEDMLEEADIVVDATPEGIGAKNLEMYRKKGIKAIFQGGEKHDAIGLSFNSFANYEDSLGAEYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A QDDMKV+GVSKT+PDFEAR+A++KGYDLY++IPER KLF++AGI V+GTV+DML+EADIV+D TPEGIGAKNL+MY++KGIKAIFQGGEKH+ IGLSFNS +NYE+S G +YTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.00164743</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VPESVDAIRALLEVEDDNMKSIRKTNRAMGIL</Hsp_hseq>
+      <Hsp_midline>VPE+VDA+RA+LE+E+D  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|RJS48082.1|</Hit_id>
+  <Hit_def>type II glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium sp.]</Hit_def>
+  <Hit_accession>RJS48082</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>1.99459e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKKVAINGYGTIGKRVADAVSAQNDLKIIGVSKTKPDFEARMAVEKGYELYISIPEREKLFQEAGIEISGTVDEMLHDADIVVDCTPEGIGAQNLLKYKEIGIKAIFQGGEKHDNVGLSFNSFANYDDSWGKDHVRVV</Hsp_hseq>
+      <Hsp_midline>MK VAINGYGT+GKRVADA++ Q+D+K+IGVSKT+PDFEARMA++KGY+LY++IPER KLF++AGIE++GTVD+ML +ADIV+DCTPEGIGA+NL  YKE GIKAIFQGGEKH+++GLSFNS +NY++S+GKD+ RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>0.000693146</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLEIEDNAEKSIQKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LE+E++  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_080460447.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter arboriphilus] &gt;gb|OQD58754.1| glyceraldehyde 3-phosphate dehydrogenase [Methanobrevibacter arboriphilus JCM 13429 = DSM 1125]</Hit_def>
+  <Hit_accession>WP_080460447</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>2.95803e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVVINGYGTIGKRVADAVSVQDDMKVIGVSKTKPDFEARMAVQKGYDLYIAIPEREKLFDKAGIEIAGTVDEMISDADIVVDCTPGNIGPQNLEKYKKAGVKAIYQGGEDHDLTGLSFNSFSNYDDSYGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA++ QDDMKVIGVSKT+PDFEARMA++KGYDLY+AIPER KLF+KAGIE+AGTVD+M+ +ADIV+DCTP  IG +NL+ YK+ G+KAI+QGGE H+  GLSFNS SNY++SYG DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>0.000231675</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLELESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LE+E D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_042703155.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter arboriphilus]</Hit_def>
+  <Hit_accession>WP_042703155</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>4.09924e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVVINGYGTIGKRVADAVSVQDDMKVTGVSKTKPDFESRMAVQKGYDLYIAIPEREKLFDKAGIEIAGTVDEMISDADIVVDCTPGNIGPQNLEKYKKAGVKAIYQGGEDHDLTGLSFNSFSNYDDSYGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA++ QDDMKV GVSKT+PDFE+RMA++KGYDLY+AIPER KLF+KAGIE+AGTVD+M+ +ADIV+DCTP  IG +NL+ YK+ G+KAI+QGGE H+  GLSFNS SNY++SYG DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>0.000229476</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLELESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LE+E D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_019267892.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter smithii]</Hit_def>
+  <Hit_accession>WP_019267892</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.42386e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGYGTIGKRVADAVAAQDDMKVIGVSKTRPNYEARTAVEEKGYDLYIGIPERANQFKEAGIEIAGTVEDMIQEADVVVDCTPGTIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNAISNYDDSYGKDYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VAINGYGT+GKRVADA+A QDDMKVIGVSKTRP++EAR A++ KGYDLY+ IPER   F++AGIE+AGTV+DM+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFN++SNY++SYGKDYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>0.000110213</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENIDAIRALLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPEN+DA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_019264857.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter smithii]</Hit_def>
+  <Hit_accession>WP_019264857</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.471e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGYGTIGKRVADAVAAQDDMKVIGVSKTRPNYEARTAVEEKGYDLYIGIPERANQFKEAGIEIAGTVEDMIQEADVVVDCTPGTIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNAISNYDDSYGKDYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VAINGYGT+GKRVADA+A QDDMKVIGVSKTRP++EAR A++ KGYDLY+ IPER   F++AGIE+AGTV+DM+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFN++SNY++SYGKDYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>0.00011127</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENIDAIRALLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPEN+DA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_094516315.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter smithii]</Hit_def>
+  <Hit_accession>WP_094516315</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.5033e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGYGTIGKRVADAVAAQDDMKVIGVSKTRPNYEARTAVEEKGYDLYIGIPERANQFKEAGIEIAGTVEDMIQEADVVVDCTPGTIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNAISNYDDSYGKDYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VAINGYGT+GKRVADA+A QDDMKVIGVSKTRP++EAR A++ KGYDLY+ IPER   F++AGIE+AGTV+DM+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFN++SNY++SYGKDYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>0.0001071</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENIDAIRALLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPEN+DA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_054835221.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter arboriphilus]</Hit_def>
+  <Hit_accession>WP_054835221</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.01546e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVVINGYGTIGKRVADAVSVQDDMKVTGVSKTKPDFEARMAVQKGYDLYIAIPEREKHFDKAGIEIAGTVDEMISDADIVVDCTPGNIGPQNLEKYKKAGVKAIYQGGEDHDLTGLSFNSFSNYDDSYGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA++ QDDMKV GVSKT+PDFEARMA++KGYDLY+AIPER K F+KAGIE+AGTVD+M+ +ADIV+DCTP  IG +NL+ YK+ G+KAI+QGGE H+  GLSFNS SNY++SYG DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>0.000217041</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLELESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LE+E D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_066973088.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter filiformis] &gt;gb|KZX11540.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter filiformis]</Hit_def>
+  <Hit_accession>WP_066973088</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.113e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVVINGYGTIGKRVADAVNIQNDMKVIGVSKTKPDFEAKMAVKKGYDLYIAIPEREQLFKDAGIEIAGTVDDMIKEADVVVDCTPGNVGPANLEKYKKEGVKAIYQGGEKHDLTGLSFNSFSNYDDSFGREYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA+  Q+DMKVIGVSKT+PDFEA+MA+KKGYDLY+AIPER +LF+ AGIE+AGTVDDM+ EAD+V+DCTP  +G  NL+ YK++G+KAI+QGGEKH+  GLSFNS SNY++S+G++YTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>0.000904837</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRSLLELEGDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+R++LE+E D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_019262557.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter smithii]</Hit_def>
+  <Hit_accession>WP_019262557</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>3.90863e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGYGTIGKRVADAVAAQDDMKVIGVSKTRPNYESRTAVEEKGYDLYIGIPERADQFKEAGIEIAGTVEDMIQEADVVVDCTPGTIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNAISNYDDSYGKDYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VAINGYGT+GKRVADA+A QDDMKVIGVSKTRP++E+R A++ KGYDLY+ IPER   F++AGIE+AGTV+DM+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFN++SNY++SYGKDYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>0.000101135</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENIDAIRALLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPEN+DA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_100815663.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter smithii] &gt;gb|ATZ60172.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter smithii]</Hit_def>
+  <Hit_accession>WP_100815663</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>4.08212e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGYGTIGKRVADAVAAQDDMKVIGVSKTRPNYESRTAVEEKGYDLYIGIPERADQFKEAGIEIAGTVEDMIQEADVVVDCTPGTIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNAISNYDDSYGKDYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VAINGYGT+GKRVADA+A QDDMKVIGVSKTRP++E+R A++ KGYDLY+ IPER   F++AGIE+AGTV+DM+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFN++SNY++SYGKDYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>0.0001071</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENIDAIRALLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPEN+DA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_004032973.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter] &gt;sp|A5ULT9.1| RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase; Short=GAPDH; AltName: Full=NAD(P)-dependent glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter smithii ATCC 35061] &gt;gb|ABQ87167.1| glyceraldehyde 3-phosphate dehydrogenase, GapA [Methanobrevibacter smithii ATCC 35061] &gt;gb|EEE41989.1| glyceraldehyde-3-phosphate dehydrogenase, type II [Methanobrevibacter smithii DSM 2375] &gt;gb|EFC93266.1| glyceraldehyde-3-phosphate dehydrogenase, type II [Methanobrevibacter smithii DSM 2374] &gt;gb|OED05239.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter sp. A54] &gt;emb|CDF29452.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter smithii CAG:186]</Hit_def>
+  <Hit_accession>WP_004032973</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>4.21727e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGYGTIGKRVADAVAAQDDMKVIGVSKTRPNYESRTAVEEKGYDLYIGIPERADQFKEAGIEIAGTVEDMIQEADVVVDCTPGTIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNAISNYDDSYGKDYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VAINGYGT+GKRVADA+A QDDMKVIGVSKTRP++E+R A++ KGYDLY+ IPER   F++AGIE+AGTV+DM+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFN++SNY++SYGKDYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>0.000103085</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENIDAIRALLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPEN+DA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_042691555.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter oralis] &gt;gb|KZX10189.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter oralis]</Hit_def>
+  <Hit_accession>WP_042691555</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>2.19627e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGYGTIGKRVADAVAAQDDMKIIGVSKTRPNYEARTAVEEKGYDLYIGIPEKEQLFKDAGIEIAGTVENMIQEADVVVDCTPGSIGPQNLEMYKKAGIKAIYQGGEDHELTGLSFNAISNYDDSYGADYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VAINGYGT+GKRVADA+A QDDMK+IGVSKTRP++EAR A++ KGYDLY+ IPE+ +LF+ AGIE+AGTV++M+ EAD+V+DCTP  IG +NL+MYK+ GIKAI+QGGE HE  GLSFN++SNY++SYG DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>0.000204967</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VIPENIDAIRAILEIESDKEKSIAKTNKSMGIL</Hsp_hseq>
+      <Hsp_midline>++PEN+DA+RAILE+E DK KSI KTNK+M IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_067260156.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter cuticularis] &gt;gb|KZX15275.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter cuticularis]</Hit_def>
+  <Hit_accession>WP_067260156</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>2.20502e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSIAINGYGTIGKRVADAVSAQNDMKVIGVSKTKPDFEARMAVNKDYDLYIAIPEREKLFDQAGIEIAGTVDEMIQDADIVVDCTPGNVGPENLEKYKKIGVKAIYQGGEDHDLTGLSFNSFSNYDDSFGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK++AINGYGT+GKRVADA++ Q+DMKVIGVSKT+PDFEARMA+ K YDLY+AIPER KLF++AGIE+AGTVD+M+ +ADIV+DCTP  +G +NL+ YK+ G+KAI+QGGE H+  GLSFNS SNY++S+G DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>3.17433e-05</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLELESDNEKSIAKTNKAMNIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LE+E D  KSI KTNKAMNIL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_012956654.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter ruminantium] &gt;gb|ADC47706.1| glyceraldehyde-3-phosphate dehydrogenase Gap [Methanobrevibacter ruminantium M1]</Hit_def>
+  <Hit_accession>WP_012956654</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>6.71774e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGFGTIGKRVADAVAAQDDMKVIGVSKTRPNFEARTAVEEKGYPLYIGIPEREPLFKEAGIEIAGTVEDMIQEADIVVDCTPGNIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNSFANYDDSYGADYARVV</Hsp_hseq>
+      <Hsp_midline>MK+VAING+GT+GKRVADA+A QDDMKVIGVSKTRP+FEAR A++ KGY LY+ IPER  LF++AGIE+AGTV+DM+ EADIV+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFNS +NY++SYG DY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>0.000149597</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>EKHEDIGLSFNSLSNYEESYGKDYTRVV---------------IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>EYAKDLGRSRNDL--YEIPVWKESINVVDNELFYMQAVHQESDVVPENVDAIRAMLEMESDNEKSIAKTNKAMGIF</Hsp_hseq>
+      <Hsp_midline>E  +D+G S N L  YE    K+   VV               +VPENVDA+RA+LEME D  KSI KTNKAM I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_067147519.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter olleyae] &gt;gb|AMK15868.1| glyceraldehyde-3-phosphate dehydrogenase Gap [Methanobrevibacter olleyae]</Hit_def>
+  <Hit_accession>WP_067147519</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>8.2562e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGFGTIGKRVADAVAAQDDMKVIGVSKTRPNFEARTAVEEKGYPLYIGIPERENLFKEAGIEIAGTVEDMIQEADIVVDCTPGNIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNSFANYDDSYGADYARVV</Hsp_hseq>
+      <Hsp_midline>MK+VAING+GT+GKRVADA+A QDDMKVIGVSKTRP+FEAR A++ KGY LY+ IPER  LF++AGIE+AGTV+DM+ EADIV+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFNS +NY++SYG DY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>5.59193e-05</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>EKHEDIGLSFNSLSNYEESYGKDYTRVV---------------IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>EYAKDLGRSRNDL--YEIPVWKESINVVDNELFYMQAVHQESDVVPENVDAIRAMLEIESDREKSITKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>E  +D+G S N L  YE    K+   VV               +VPENVDA+RA+LE+E D+ KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_074797950.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter olleyae] &gt;emb|SFL21019.1| glyceraldehyde 3-phosphate dehydrogenase (NAD(P)+) [Methanobrevibacter olleyae]</Hit_def>
+  <Hit_accession>WP_074797950</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>8.52944e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGFGTIGKRVADAVAAQDDMKVIGVSKTRPNFEARTAVEEKGYPLYIGIPERENLFKEAGIEIAGTVEDMIQEADIVVDCTPGNIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNSFANYDDSYGADYARVV</Hsp_hseq>
+      <Hsp_midline>MK+VAING+GT+GKRVADA+A QDDMKVIGVSKTRP+FEAR A++ KGY LY+ IPER  LF++AGIE+AGTV+DM+ EADIV+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFNS +NY++SYG DY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>0.000134685</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>EKHEDIGLSFNSLSNYEESYGKDYTRVV---------------IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>EYAKDLGRSRNDL--YEIPVWKESINVVDNELFYMQAVHQESDVVPENVDAIRAMLEIESDREKSITKTNKSMGIL</Hsp_hseq>
+      <Hsp_midline>E  +D+G S N L  YE    K+   VV               +VPENVDA+RA+LE+E D+ KSI KTNK+M IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_067044526.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter sp. YE315] &gt;gb|AMD18153.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter sp. YE315]</Hit_def>
+  <Hit_accession>WP_067044526</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>1.45168e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKTVAINGYGTIGKRVADAVAAQDDMKIVGVSKTRPNYEARTAVEEKGYPLYIGIPEREQMFKDAGIEIAGTVEDMIQEADVVVDCTPGSIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNAISNYDDSYGADYTRVV</Hsp_hseq>
+      <Hsp_midline>MK VAINGYGT+GKRVADA+A QDDMK++GVSKTRP++EAR A++ KGY LY+ IPER ++F+ AGIE+AGTV+DM+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFN++SNY++SYG DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.000502149</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VIPENIDAIRALLEMESDNEKSIAKTNEAMGIL</Hsp_hseq>
+      <Hsp_midline>++PEN+DA+RA+LEME D  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|AXV37201.1|</Hit_id>
+  <Hit_def>type II glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium sp. BRmetb2]</Hit_def>
+  <Hit_accession>AXV37201</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>1.48963e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVGINGYGTIGKRVADAVSAQDDMKIVGVTKTKPDFEAELAIRKGFDLYVSIPERVKLFEEAGLEISGTIDDLYDKLDIIVDCTPGGIGAKNKETYEKIGLKGIFQGGEKHDQIGLSFNSFSNYADVLGADYARVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA++ QDDMK++GV+KT+PDFEA +A++KG+DLYV+IPERVKLFE+AG+E++GT+DD+ D+ DI++DCTP GIGAKN + Y++ G+K IFQGGEKH+ IGLSFNS SNY +  G DY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.58669e-06</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>KGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV---------------IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>KGLGSTAEIMEYAKDLGRSRNDL--FEIAVWKESLNIVDGELYYMQAIHQESDVVPENVDAIRAMLEMEDDPQKSIQKTNKAMNIL</Hsp_hseq>
+      <Hsp_midline>KG+ +  +  E  +D+G S N L  +E +  K+   +V               +VPENVDA+RA+LEME+D  KSI KTNKAMNIL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_116669511.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter woesei] &gt;gb|PWB85864.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter woesei]</Hit_def>
+  <Hit_accession>WP_116669511</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>3.42126e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MISVAINGYGTIGKRVADAVAAQDDMKVVGVSKTRPNYEARTAVEEKNYDLYIGIPERESLFKEAGIEIAGTVEDMVQEADIVVDCTPGNIGPQNLEMYKKAGVKAIYQGGEDHDLTGLSFNSFSNYDDSYGADYTRVV</Hsp_hseq>
+      <Hsp_midline>M +VAINGYGT+GKRVADA+A QDDMKV+GVSKTRP++EAR A++ K YDLY+ IPER  LF++AGIE+AGTV+DM+ EADIV+DCTP  IG +NL+MYK+ G+KAI+QGGE H+  GLSFNS SNY++SYG DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>9.19205e-05</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_116592334.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter thaueri] &gt;gb|PWB86417.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter thaueri]</Hit_def>
+  <Hit_accession>WP_116592334</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>4.439e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKTVAINGYGTIGKRVADAVAAQDDMKVVGVSKTRPNYEARTAVEEKGYPLYIGIPEREQMFKDAGIEIAGTVEEMIQEADVVVDCTPGSIGPQNLEMYKKAGVKAIYQGGEDHELTGLSFNAISNYDDSYGADYTRVV</Hsp_hseq>
+      <Hsp_midline>MK VAINGYGT+GKRVADA+A QDDMKV+GVSKTRP++EAR A++ KGY LY+ IPER ++F+ AGIE+AGTV++M+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE HE  GLSFN++SNY++SYG DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.00052165</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VIPENIDAIRALLEMESDNEKSIAKTNKAMGIF</Hsp_hseq>
+      <Hsp_midline>++PEN+DA+RA+LEME D  KSI KTNKAM I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_040682057.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter boviskoreani]</Hit_def>
+  <Hit_accession>WP_040682057</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>1.36291e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSIAVNGIGTIGKRVADAVSAQDDMKIVGVCKTKPDFEARAAIEKGYDLYMAIPEREQLFKDAGIEVAGTVDDMIEEADLVVDCTPGKVGRTNLEKYKKAGTKAIYQGGEDHDLTGISFNSFSNYDESYGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK++A+NG GT+GKRVADA++ QDDMK++GV KT+PDFEAR A++KGYDLY+AIPER +LF+ AGIEVAGTVDDM++EAD+V+DCTP  +G  NL+ YK+ G KAI+QGGE H+  G+SFNS SNY+ESYG DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>0.00064231</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDCIRAMLEMESDNEKSIKKTNEAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVD +RA+LEME D  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|RBQ23111.1|</Hit_id>
+  <Hit_def>Glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter sp. NOE]</Hit_def>
+  <Hit_accession>RBQ23111</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>1.56936e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKLVAINGYGTIGKRVAIAVSSQDDMKLVGVSKTKPDFEARMAVEKGHDLYITIPEREKLFDQAGIEIAGTADEMIAESDIVVDCTPGNVGPENLDKYKKAGVKAIYQGGEDHDLTGLSFNSFSNYDDSYGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK VAINGYGT+GKRVA A++ QDDMK++GVSKT+PDFEARMA++KG+DLY+ IPER KLF++AGIE+AGT D+M+ E+DIV+DCTP  +G +NL  YK+ G+KAI+QGGE H+  GLSFNS SNY++SYG DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>0.000170718</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLELESDNEKSIEKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LE+E D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_069575274.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter] &gt;gb|OEC95039.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter sp. A27] &gt;gb|RPF52568.1| glyceraldehyde 3-phosphate dehydrogenase (NAD(P)+) [Methanobrevibacter gottschalkii DSM 11977] &gt;emb|SEK33987.1| glyceraldehyde 3-phosphate dehydrogenase (NAD(P)+) [Methanobrevibacter gottschalkii]</Hit_def>
+  <Hit_accession>WP_069575274</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>1.61439e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKTVAINGYGTIGKRVADAVAAQDDMKVIGVSKTRPNYEARTAVEEKGYPLYIGIPEREQMFKDAEIEISGTVEDMIQEADIVVDCTPGTIGPQNLEMYKKAGVKAIYQGGEDHDLTGLSFNAMSNYDESYGADYTRVV</Hsp_hseq>
+      <Hsp_midline>MK VAINGYGT+GKRVADA+A QDDMKVIGVSKTRP++EAR A++ KGY LY+ IPER ++F+ A IE++GTV+DM+ EADIV+DCTP  IG +NL+MYK+ G+KAI+QGGE H+  GLSFN++SNY+ESYG DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>0.000118963</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENIDAIRALLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPEN+DA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_058739908.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter millerae] &gt;gb|ALT69689.1| glyceraldehyde-3-phosphate dehydrogenase Gap [Methanobrevibacter millerae]</Hit_def>
+  <Hit_accession>WP_058739908</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>2.1638e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALK-KGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVAINGYGTIGKRVADAVAAQDDMKVIGVSKTRPNYEARTAVEEKEYPLYIGIPEREQMFKDAGIEIAGTVEDMIQEADVVVDCTPGSIGPQNLEMYKKAGVKAIYQGGEDHDLTGLSFNAISNYDDSYGADYTRVV</Hsp_hseq>
+      <Hsp_midline>MK+VAINGYGT+GKRVADA+A QDDMKVIGVSKTRP++EAR A++ K Y LY+ IPER ++F+ AGIE+AGTV+DM+ EAD+V+DCTP  IG +NL+MYK+ G+KAI+QGGE H+  GLSFN++SNY++SYG DYTRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>0.000159933</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VIPENIDAIRALLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>++PEN+DA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_016359044.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter sp. AbM4] &gt;gb|AGN17347.1| glyceraldehyde-3-phosphate dehydrogenase Gap [Methanobrevibacter sp. AbM4]</Hit_def>
+  <Hit_accession>WP_016359044</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>2.585e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSIAVNGIGTIGKRVADAVSAQDDMKIVGVCKTKPDFEAHAAIEKGYDLYMAIPEREQLFKDAGIEVAGTVDDMIEEADLVVDCTPGKVGRTNLEKYKKAGTKAIYQGGEDHDLTGISFNSFSNYEESYGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK++A+NG GT+GKRVADA++ QDDMK++GV KT+PDFEA  A++KGYDLY+AIPER +LF+ AGIEVAGTVDDM++EAD+V+DCTP  +G  NL+ YK+ G KAI+QGGE H+  G+SFNS SNYEESYG DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>0.00064231</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDCIRAMLEMESDNEKSIKKTNEAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVD +RA+LEME D  KSI KTN+AM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_067090205.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter curvatus] &gt;gb|KZX13851.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter curvatus]</Hit_def>
+  <Hit_accession>WP_067090205</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>8.96886e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MVKVAINGYGTIGKRVADAVALQDDMEVIGVSKTRPNYESKMAVQKGYNLYVGIPEREKSFAEAGIEISGTVDDMIEEADVVVDCTPGNIGPENLKKYQKAGVKAIYQGGEKHTLTGLSFNSFGNYADSLGKDCTRVV</Hsp_hseq>
+      <Hsp_midline>M  VAINGYGT+GKRVADA+A QDDM+VIGVSKTRP++E++MA++KGY+LYV IPER K F +AGIE++GTVDDM++EAD+V+DCTP  IG +NLK Y++ G+KAI+QGGEKH   GLSFNS  NY +S GKD TRVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>0.000223002</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENIDAIRALLELEENNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPEN+DA+RA+LE+EE+  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_048080361.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium]</Hit_def>
+  <Hit_accession>WP_048080361</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>1.65636e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLK-MYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVGINGYGTIGKRVADAVSAQDDMKIVGVTKRSPDFEARMAVEKGYDLYISVPERESSFEEAGIKVTGTADELLEKLDIVVDCTPEGIGAKNKEGTYEKMGLKAIFQGGEKHDQIGLSFNSFSNYNDVIGKDYARVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA++ QDDMK++GV+K  PDFEARMA++KGYDLY+++PER   FE+AGI+V GT D++L++ DIV+DCTPEGIGAKN +  Y++ G+KAIFQGGEKH+ IGLSFNS SNY +  GKDY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.20994e-05</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLEMEDDPSKSIQKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LEME+D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_071905946.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium congolense] &gt;emb|SCG84879.1| Glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium congolense]</Hit_def>
+  <Hit_accession>WP_071905946</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>2.03522e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVGINGYGTIGKRVADAVAAQEDMKIVGVTKRTPDFESKMAVQKGYPLYISVPEREELFEEVGIKVTGTVDDLYDEVDIMVDCTPEGIGAKNKEIYKKQGLKGIFQGGEKHDQIGQSFNSFANFKDAIGADYVRVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA+A Q+DMK++GV+K  PDFE++MA++KGY LY+++PER +LFE+ GI+V GTVDD+ DE DI++DCTPEGIGAKN ++YK++G+K IFQGGEKH+ IG SFNS +N++++ G DY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>0.000236495</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLELEDDPAKSIEKTNKAMGIV</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LE+E+D  KSI KTNKAM I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|P19314.2|</Hit_id>
+  <Hit_def>RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase; Short=GAPDH; AltName: Full=NAD(P)-dependent glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium bryantii] &gt;emb|CAA32780.1| unnamed protein product [Methanobacterium bryantii]</Hit_def>
+  <Hit_accession>P19314</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>7.07943e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLK-MYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVGINGYGTIGKRVADAVSAQDDMKIVGVTKRSPDFEARMAVENGYDLYISVPERESSFEEAGIKVTGTADELLEKLDIVVDCTPEGIGAKNKEGTYEKMGLKAIFQGGEKHDQIGLSFNSFSNYNDVIGKDYARVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA++ QDDMK++GV+K  PDFEARMA++ GYDLY+++PER   FE+AGI+V GT D++L++ DIV+DCTPEGIGAKN +  Y++ G+KAIFQGGEKH+ IGLSFNS SNY +  GKDY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>3.74175e-05</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLEMENDPSKSIQKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_042708289.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter wolinii]</Hit_def>
+  <Hit_accession>WP_042708289</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>7.26852e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSIAVNGIGTIGKRVADAVSAQDDMKIVGVCKTKPDFEAKVAVEKGYPLYIAIPEREQLFKDAGIEIAGTVDDMISEADLVVDCTPGKFGKENMDKYKKAGVKAIYQGGEDHSLTGRSFNSFSNYDESYGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK++A+NG GT+GKRVADA++ QDDMK++GV KT+PDFEA++A++KGY LY+AIPER +LF+ AGIE+AGTVDDM+ EAD+V+DCTP   G +N+  YK+ G+KAI+QGGE H   G SFNS SNY+ESYG DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>0.00140156</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VIPENIDCIRAMLELESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>++PEN+D +RA+LE+E D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_088540106.1|</Hit_id>
+  <Hit_def>type II glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter sp. 87.7] &gt;gb|OWT32443.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobrevibacter sp. 87.7]</Hit_def>
+  <Hit_accession>WP_088540106</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>4.39332e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSIAVNGIGTIGKRVADAVSAQDDMKIVGVCKTKPDFEAKVAVEKGYPLYIAIPEREQLFKDAGIEIAGTVDEMIPEADLVVDCTPGKFGKENMDKYKKAGVKAIYQGGEDHSLTGRSFNSFSNYDESYGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK++A+NG GT+GKRVADA++ QDDMK++GV KT+PDFEA++A++KGY LY+AIPER +LF+ AGIE+AGTVD+M+ EAD+V+DCTP   G +N+  YK+ G+KAI+QGGE H   G SFNS SNY+ESYG DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>0.00057295</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VIPENIDCIRAMLEMESDNEKSIAKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>++PEN+D +RA+LEME D  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_100904829.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium] &gt;gb|AUB54852.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium subterraneum] &gt;gb|AUB58160.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium sp. MZ-A1] &gt;gb|AUB61294.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium subterraneum] &gt;gb|PKL73657.1| type II glyceraldehyde-3-phosphate dehydrogenase [Methanobacteriales archaeon HGW-Methanobacteriales-2]</Hit_def>
+  <Hit_accession>WP_100904829</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>4.97935e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVGINGYGTIGKRVADAVACQDDMQIVGVTKRTPNFEAQMAVEKGFPLYISAPEREGLFEDAGIKVTGTIDDLYDKVDVMVDCTPGGIGAKNKEVYAEKGVKGIFQGGEKHEQIGKSFNSFANYQDNWGADYVRVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA+A QDDM+++GV+K  P+FEA+MA++KG+ LY++ PER  LFE AGI+V GT+DD+ D+ D+++DCTP GIGAKN ++Y EKG+K IFQGGEKHE IG SFNS +NY++++G DY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>3.88775e-05</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>IEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSL---SNYEESYG-KD----YTRVV-----IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>LENTPSVDDVID----TLEATP-----RVILVEAEKGLGSTAEIMECARDLGRSRSDLFEIAVWKESLNVKDGELFYMQAIHQESDVVPENVDCIRAMLEMEEDPAKSIEKTNKNMGIM</Hsp_hseq>
+      <Hsp_midline>+E   +VDD++D     ++ TP     + + +  EKG+ +  +  E   D+G S + L   + ++ES   KD    Y + +     +VPENVD +RA+LEMEED  KSI KTNK M I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_023991472.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium sp. MB1] &gt;emb|CDG64436.1| Glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium sp. MB1]</Hit_def>
+  <Hit_accession>WP_023991472</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>1.16498e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKKVGINGYGTIGKRVADAVACQDDMQIVGVTKRTPNFEAQMAVDKGFPLYISAPDREELFEEAGIKVSGTIDDLYDKVDIMVDCTPGGIGAKNKEIYAEKGIKGIFQGGEKHEQIGQSFNSFANYKDNWGVDFSRVV</Hsp_hseq>
+      <Hsp_midline>MK V INGYGT+GKRVADA+A QDDM+++GV+K  P+FEA+MA+ KG+ LY++ P+R +LFE+AGI+V+GT+DD+ D+ DI++DCTP GIGAKN ++Y EKGIK IFQGGEKHE IG SFNS +NY++++G D++RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.00210926</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDCIRAMLEMEEDPAKSIEKTDKNMGII</Hsp_hseq>
+      <Hsp_midline>+VPENVD +RA+LEMEED  KSI KT+K M I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_004030267.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium formicicum] &gt;gb|EKF86303.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium formicicum DSM 3637]</Hit_def>
+  <Hit_accession>WP_004030267</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>1.47856e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKNVGINGYGTIGKRVADAVACQDDMQIVGVTKRTPNFEAQMAVEKGFPLYISAPEREGLFEEAGIKVTGTIDDLYDKVDVMVDCTPGGIGAKNKEVYSEKGVKGIFQGGEKHELIGKSFNSFANYKDNWGADYSRVV</Hsp_hseq>
+      <Hsp_midline>MK V INGYGT+GKRVADA+A QDDM+++GV+K  P+FEA+MA++KG+ LY++ PER  LFE+AGI+V GT+DD+ D+ D+++DCTP GIGAKN ++Y EKG+K IFQGGEKHE IG SFNS +NY++++G DY+RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>0.000799536</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>LDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLS---FNSLSNYEESYG-KD----YTRVV-----IVPENVDAVRAILEMEEDKYKSINKTNKAMNI</Hsp_qseq>
+      <Hsp_hseq>LDEVIATLEATP-----RVMLVEAGKGLGSTAEIMECARDLGRPRSDLNEIAVWKESLNIKDGELFYMQAIHQESDVVPENVDCIRAMLEMEEDPAKSIAKTNKNMGI</Hsp_hseq>
+      <Hsp_midline>LDE    ++ TP     + + +   KG+ +  +  E   D+G      N ++ ++ES   KD    Y + +     +VPENVD +RA+LEMEED  KSI KTNK M I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|AXV39753.1|</Hit_id>
+  <Hit_def>type II glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium sp. BAmetb5]</Hit_def>
+  <Hit_accession>AXV39753</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>2.04641e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKNVGINGYGTIGKRVADAVACQDDMQIVGVTKRTPNFEAQMAVDKGFPLYISAPDREDLFEEAGIKVTGTIDDLYDKVDVMVDCTPGGIGAKNKEVYAEKGIKGIFQGGEKHEQIGQSFNSFANYQDNWGADFSRVV</Hsp_hseq>
+      <Hsp_midline>MK V INGYGT+GKRVADA+A QDDM+++GV+K  P+FEA+MA+ KG+ LY++ P+R  LFE+AGI+V GT+DD+ D+ D+++DCTP GIGAKN ++Y EKGIK IFQGGEKHE IG SFNS +NY++++G D++RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>0.00033285</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDCIRAMLEMEEDPAKSIEKTNKNMGIM</Hsp_hseq>
+      <Hsp_midline>+VPENVD +RA+LEMEED  KSI KTNK M I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_013824814.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium paludis] &gt;gb|AEG17312.1| Glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium paludis]</Hit_def>
+  <Hit_accession>WP_013824814</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>2.75793e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKAVGINGYGTIGKRVADAVAAQDDMKLAGVTKRTPDFESKMAVEKGYPLYISVPEREELFEEAGIKISGTIEDFYDKVDVIVDATPEGIGAKNMEIYKKLGIKSTFQGGEKHDQIGKSFNSFANFKDSIGADYVRVV</Hsp_hseq>
+      <Hsp_midline>MKAV INGYGT+GKRVADA+A QDDMK+ GV+K  PDFE++MA++KGY LY+++PER +LFE+AGI+++GT++D  D+ D+++D TPEGIGAKN+++YK+ GIK+ FQGGEKH+ IG SFNS +N+++S G DY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>0.00023425</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNI</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLEIEEDPAKSIAKTNKAMGI</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LE+EED  KSI KTNKAM I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_048071834.1|</Hit_id>
+  <Hit_def>phosphorylating glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium formicicum] &gt;gb|AIS32746.1| glyceraldehyde-3-phosphate dehydrogenase Gap [Methanobacterium formicicum] &gt;gb|KUK75330.1| Glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium sp. 42_16] &gt;emb|CEA12496.1| Glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium formicicum] &gt;emb|CEL24061.1| Glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium formicicum]</Hit_def>
+  <Hit_accession>WP_048071834</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>3.79461e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKNVGINGYGTIGKRVADAVACQDDMQIVGVTKRTPNFEAQMAVDKGFPLYISAPDREDLFEEAGIKVTGTIDDLYDKVDVMVDCTPGGIGAKNKEVYAEKGVKGIFQGGEKHEQIGQSFNSFANYQDNWGADFSRVV</Hsp_hseq>
+      <Hsp_midline>MK V INGYGT+GKRVADA+A QDDM+++GV+K  P+FEA+MA+ KG+ LY++ P+R  LFE+AGI+V GT+DD+ D+ D+++DCTP GIGAKN ++Y EKG+K IFQGGEKHE IG SFNS +NY++++G D++RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>0.000329692</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDCIRAMLEMEEDPAKSIEKTNKNMGIM</Hsp_hseq>
+      <Hsp_midline>+VPENVD +RA+LEMEED  KSI KTNK M I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_069582705.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium] &gt;sp|P19315.1| RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase; Short=GAPDH; AltName: Full=NAD(P)-dependent glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium formicicum] &gt;gb|OEC88226.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium sp. A39] &gt;gb|PAV04413.1| glyceraldehyde-3-phosphate dehydrogenase [Methanobacterium bryantii] &gt;emb|CAB37402.1| glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [Methanobacterium formicicum]</Hit_def>
+  <Hit_accession>WP_069582705</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>4.02934e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLK-MYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKSVGINGYGTIGKRVADAVSAQDDMKIVGVTKRSPDFEARMAVEKGYDLYISAPERENSFEEAGIKVTGTAEELFEKLDIVVDCTPEGIGAKNKEGTYEKMGLKATFQGGEKHDQIGLSFNSFSNYKDVIGKDYARVV</Hsp_hseq>
+      <Hsp_midline>MK+V INGYGT+GKRVADA++ QDDMK++GV+K  PDFEARMA++KGYDLY++ PER   FE+AGI+V GT +++ ++ DIV+DCTPEGIGAKN +  Y++ G+KA FQGGEKH+ IGLSFNS SNY++  GKDY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>0.000121257</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>VVPENVDAIRAMLEMEDNPSKSIEKTNKAMGIL</Hsp_hseq>
+      <Hsp_midline>+VPENVDA+RA+LEME++  KSI KTNKAM IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|EKQ55626.1|</Hit_id>
+  <Hit_def>glyceraldehyde-3-phosphate dehydrogenase, type II [Methanobacterium sp. Maddingley MBC34]</Hit_def>
+  <Hit_accession>EKQ55626</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>9.5285e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKAVAINGYGTVGKRVADAIAQQDDMKVIGVSKTRPDFEARMALKKGYDLYVAIPERVKLFEKAGIEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLSFNSLSNYEESYGKDYTRVV</Hsp_qseq>
+      <Hsp_hseq>MKNVGINGYGTIGKRVADAVACQDDMQIVGVTKRTPNFEAQMAVEKGFPLYISAPDREDLFTDAGIKVTGTIDDLYDKVDVMVDCTPGGIGAKNKEVYAEKGVKGIFQGGEKHEQIGKSFNSFANYQDNWGRDYVRVV</Hsp_hseq>
+      <Hsp_midline>MK V INGYGT+GKRVADA+A QDDM+++GV+K  P+FEA+MA++KG+ LY++ P+R  LF  AGI+V GT+DD+ D+ D+++DCTP GIGAKN ++Y EKG+K IFQGGEKHE IG SFNS +NY++++G+DY RVV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>0.000191431</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>IEVAGTVDDMLDEADIVIDCTPEGIGAKNLKMYKEKGIKAIFQGGEKHEDIGLS---FNSLSNYEESYG-KD----YTRVV-----IVPENVDAVRAILEMEEDKYKSINKTNKAMNIL</Hsp_qseq>
+      <Hsp_hseq>LENTPSLDDVID----TLEATP-----RVLLVEAGKGLGSTAEIMECARDLGRPRSDLNEIAVWKESLNIKDGELFYMQAIHQESDVVPENVDCIRAMLEMEEDPTKSIEKTNKNMGIM</Hsp_hseq>
+      <Hsp_midline>+E   ++DD++D     ++ TP     + L +   KG+ +  +  E   D+G      N ++ ++ES   KD    Y + +     +VPENVD +RA+LEMEED  KSI KTNK M I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>209552778</Statistics_db-num>
+      <Statistics_db-len>75469528019</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
