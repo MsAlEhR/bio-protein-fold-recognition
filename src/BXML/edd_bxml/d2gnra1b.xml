@@ -1,0 +1,1351 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_155691</BlastOutput_query-ID>
+  <BlastOutput_query-def>d2gnra1b</BlastOutput_query-def>
+  <BlastOutput_query-len>137</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_155691</Iteration_query-ID>
+  <Iteration_query-def>d2gnra1b</Iteration_query-def>
+  <Iteration_query-len>137</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|3IRB|A</Hit_id>
+  <Hit_def>Chain A, Uncharacterized Protein From Duf35 Family [Saccharolobus solfataricus] &gt;pdb|3IRB|B Chain B, Uncharacterized Protein From Duf35 Family [Saccharolobus solfataricus]</Hit_def>
+  <Hit_accession>3IRB_A</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>3.31564e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_qseq>
+      <Hsp_hseq>KEGSLLRWYDVXEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_hseq>
+      <Hsp_midline>KEGSLLRWYDV EAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_012710773.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Sulfolobus islandicus] &gt;gb|ACP37499.1| protein of unknown function DUF35 [Sulfolobus islandicus M.14.25] &gt;gb|ACP54643.1| protein of unknown function DUF35 [Sulfolobus islandicus M.16.27] &gt;gb|ACR41320.1| protein of unknown function DUF35 [Sulfolobus islandicus M.16.4]</Hit_def>
+  <Hit_accession>WP_012710773</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>2.53924e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_qseq>
+      <Hsp_hseq>KEGRLLRWYDVMEAEKYEYTVGPAGEQFFNGLKQGKIVGSKCSKCGRIFVPARSYCEHCFVKIENYVEVNKDEAYVDSYTIIYNDDEGNKLAQPVFIALIRFPNVEGGLLCYAEGNVKVEAKAKITSFQWPLRVKVD</Hsp_hseq>
+      <Hsp_midline>KEG LLRWYDVMEAE+YEYTVGPAGEQFFNGLKQ KI+GSKCSKCGRIFVPARSYCEHCFVKIENYVE+NKDEAYVDSYTIIYNDDEGNKLAQPV+IALIRFPN+EGGLLCYAEGNVKV AKAKI SFQWPLRVKVD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>2.53924e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_qseq>
+      <Hsp_hseq>KEGRLLRWYDVMEAEKYEYTVGPAGEQFFNGLKQGKIVGSKCSKCGRIFVPARSYCEHCFVKIENYVEVNKDEAYVDSYTIIYNDDEGNKLAQPVFIALIRFPNVEGGLLCYAEGNVKVEAKAKITSFQWPLRVKVD</Hsp_hseq>
+      <Hsp_midline>KEG LLRWYDVMEAE+YEYTVGPAGEQFFNGLKQ KI+GSKCSKCGRIFVPARSYCEHCFVKIENYVE+NKDEAYVDSYTIIYNDDEGNKLAQPV+IALIRFPN+EGGLLCYAEGNVKV AKAKI SFQWPLRVKVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_014512166.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Sulfolobus islandicus] &gt;gb|ADX81976.1| conserved hypothetical protein [Sulfolobus islandicus HVE10/4] &gt;gb|ADX84798.1| conserved hypothetical protein [Sulfolobus islandicus REY15A] &gt;gb|AGJ62210.1| putative nucleic-acid-binding protein containing a Zn-ribbon [Sulfolobus islandicus LAL14/1]</Hit_def>
+  <Hit_accession>WP_014512166</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>1.15459e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_qseq>
+      <Hsp_hseq>KEGRLLRWYDVMEAEKYEYTVGPAGEQFFNGLKQGKIVGSKCSKCGRIFVPARSYCEHCFVKIENYVEVNKDEAYVDSYTIIYNDDEGNKLAQPVFIALIRFPNVEGGLLCYAEGNVKVEAKAKITSFEWPLRVKVD</Hsp_hseq>
+      <Hsp_midline>KEG LLRWYDVMEAE+YEYTVGPAGEQFFNGLKQ KI+GSKCSKCGRIFVPARSYCEHCFVKIENYVE+NKDEAYVDSYTIIYNDDEGNKLAQPV+IALIRFPN+EGGLLCYAEGNVKV AKAKI SF+WPLRVKVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_012713363.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Sulfolobus islandicus] &gt;gb|ACP34993.1| protein of unknown function DUF35 [Sulfolobus islandicus L.S.2.15] &gt;gb|ACP45291.1| protein of unknown function DUF35 [Sulfolobus islandicus Y.G.57.14] &gt;gb|ACP48916.1| protein of unknown function DUF35 [Sulfolobus islandicus Y.N.15.51] &gt;gb|ADB86456.1| protein of unknown function DUF35 [Sulfolobus islandicus L.D.8.5] &gt;gb|PVU77091.1| DNA-binding protein [Sulfolobus islandicus]</Hit_def>
+  <Hit_accession>WP_012713363</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>1.29105e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_qseq>
+      <Hsp_hseq>KEGRLLRWYDVMEAEKYEYTVGPAGEQFFNGLKQGKIVGSKCRKCGRVFVPARSYCEHCFVKIENYVEVNKDEAYVDSYTIIYNDDEGNKLAQPVFIALIRFPNVEGGLLCYAEGNVKVEAKAKITSFEWPLRVKVD</Hsp_hseq>
+      <Hsp_midline>KEG LLRWYDVMEAE+YEYTVGPAGEQFFNGLKQ KI+GSKC KCGR+FVPARSYCEHCFVKIENYVE+NKDEAYVDSYTIIYNDDEGNKLAQPV+IALIRFPN+EGGLLCYAEGNVKV AKAKI SF+WPLRVKVD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>1.29105e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_qseq>
+      <Hsp_hseq>KEGRLLRWYDVMEAEKYEYTVGPAGEQFFNGLKQGKIVGSKCRKCGRVFVPARSYCEHCFVKIENYVEVNKDEAYVDSYTIIYNDDEGNKLAQPVFIALIRFPNVEGGLLCYAEGNVKVEAKAKITSFEWPLRVKVD</Hsp_hseq>
+      <Hsp_midline>KEG LLRWYDVMEAE+YEYTVGPAGEQFFNGLKQ KI+GSKC KCGR+FVPARSYCEHCFVKIENYVE+NKDEAYVDSYTIIYNDDEGNKLAQPV+IALIRFPN+EGGLLCYAEGNVKV AKAKI SF+WPLRVKVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_069283340.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Sulfolobus sp. A20] &gt;gb|AOL16698.1| DNA-binding protein [Sulfolobus sp. A20]</Hit_def>
+  <Hit_accession>WP_069283340</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>9.14567e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_qseq>
+      <Hsp_hseq>RDGKLLRWYDVMEVEKYEYTVGPAGEQFFNGLKQNKIIGSKCPKCGKVFVPARLYCEECFIKIENYVEIDANEVYVDSYTIIYKDDEGNKLQNPVYIALIRFKNAKGGLLCYADGNVRPGAKAKIVSFDWPLKVKVD</Hsp_hseq>
+      <Hsp_midline>++G LLRWYDVME E+YEYTVGPAGEQFFNGLKQNKIIGSKC KCG++FVPAR YCE CF+KIENYVEI+ +E YVDSYTIIY DDEGNKL  PVYIALIRF N +GGLLCYA+GNV+ GAKAKI+SF WPL+VKVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AHC52256.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Sulfolobus acidocaldarius SUSAZ]</Hit_def>
+  <Hit_accession>AHC52256</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>1.86265e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKVD</Hsp_qseq>
+      <Hsp_hseq>KEGSLLKWYDIMEAEKYEYTVGPAGERFFQGLKENKIIGSKCKKCGKVYLPPRIYCEDCFTKIEEYVELKLDDAYLDSFTTIYQDDDGQKLAEPVHIGLLRFKGVNGGLFCYLEGTPKKGGRIRVSNFNYPLRISIE</Hsp_hseq>
+      <Hsp_midline>KEGSLL+WYD+MEAE+YEYTVGPAGE+FF GLK+NKIIGSKC KCG++++P R YCE CF KIE YVE+  D+AY+DS+T IY DD+G KLA+PV+I L+RF  + GGL CY EG  K G + ++ +F +PLR+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_010979866.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Sulfurisphaera tokodaii] &gt;dbj|BAB66889.1| hypothetical protein STK_17970 [Sulfurisphaera tokodaii str. 7]</Hit_def>
+  <Hit_accession>WP_010979866</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>3.52974e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>EGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>EDKLLSWHEIMEAEEYVYTVGVAGEEFFNGLKQRKIIGGKCPKCGRIYVPARLYCEECFVK-NDFVEVTT-KPYIDTYTVVYKDDEGNKLEKPQVIALIRFEGTHGGLLAYIEGEADIGKEVEILEYKIPLIVRV</Hsp_hseq>
+      <Hsp_midline>E  LL W+++MEAE Y YTVG AGE+FFNGLKQ KIIG KC KCGRI+VPAR YCE CFVK  ++VE+   + Y+D+YT++Y DDEGNKL +P  IALIRF    GGLL Y EG   +G + +IL ++ PL V+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|ARM74722.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Acidianus manzaensis]</Hit_def>
+  <Hit_accession>ARM74722</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>2.50766e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>KDDYLLNWKDVMETEEYDYTAGVAGEEFLKGLSEGKIIGGKCPKCGKVYVPARLYCEDCFVQTE-FIEV-KEKPYLDTYTIVYKDDQGNKLEKPQVIGLVRFENVNGGLLALVEGNIKIGSEVEILQYGIPLVVRL</Hsp_hseq>
+      <Hsp_midline>K+  LL W DVME E Y+YT G AGE+F  GL + KIIG KC KCG+++VPAR YCE CFV+ E ++E+ K++ Y+D+YTI+Y DD+GNKL +P  I L+RF N+ GGLL   EGN+K+G++ +IL +  PL V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_009072953.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Metallosphaera yellowstonensis] &gt;gb|EHP69182.1| putative nucleic-acid-binding protein containing a Zn-ribbon [Metallosphaera yellowstonensis MK1]</Hit_def>
+  <Hit_accession>WP_009072953</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>2.16281e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>KETSLLSWKDVMEVESYVYTLGVDGEVFLNGLKEGKILGRKCTKCGRIYVPPRMYCEDCFVENGEYVEAKG--PYLDTFTIIYEDDEGRRLEKPLVIGLIRFRGCSGGLLGSVQGELKAGSEVEIMEYGIPLRVKT</Hsp_hseq>
+      <Hsp_midline>KE SLL W DVME E Y YT+G  GE F NGLK+ KI+G KC+KCGRI+VP R YCE CFV+   YVE      Y+D++TIIY DDEG +L +P+ I LIRF    GGLL   +G +K G++ +I+ +  PLRVK </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_048100396.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Candidatus Acidianus copahuensis] &gt;gb|EZQ02006.1| DNA-binding protein [Candidatus Acidianus copahuensis]</Hit_def>
+  <Hit_accession>WP_048100396</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>7.16449e-44</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>WKDIMEAEKYVYTLGEAGEKFLEGLKEGKIYGRKCRKCGRVYVPPRMYCEDCFEELDEYVTLRS--PYIDSFTTIYYDDEGNKLDKPVSIAIIRFEGVKGGLLAYVEGEANQNKNVEIISYDIPLKVKV</Hsp_hseq>
+      <Hsp_midline>W D+MEAE+Y YT+G AGE+F  GLK+ KI G KC KCGR++VP R YCE CF +++ YV +     Y+DS+T IY DDEGNKL +PV IA+IRF  ++GGLL Y EG        +I+S+  PL+VKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_011921413.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Metallosphaera sedula] &gt;gb|ABP94445.1| protein of unknown function DUF35 [Metallosphaera sedula DSM 5348] &gt;gb|AIM26432.1| protein of unknown function DUF35 [Metallosphaera sedula] &gt;gb|AKV73433.1| DNA-binding protein [Metallosphaera sedula] &gt;gb|AKV75676.1| DNA-binding protein [Metallosphaera sedula] &gt;gb|AKV77922.1| DNA-binding protein [Metallosphaera sedula] &gt;gb|AKV80167.1| DNA-binding protein [Metallosphaera sedula] &gt;gb|AKV82409.1| DNA-binding protein [Metallosphaera sedula] &gt;gb|QCO29982.1| Zn-ribbon domain-containing OB-fold protein [Metallosphaera prunae]</Hit_def>
+  <Hit_accession>WP_011921413</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>8.95647e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>KEGSLLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>RENELVTWKDVMEVERYVYTAGPDGEKFLRGLREGKILGRKCPRCGRVYVPPRMYCEDCFVENGEYVEVK--EAYLDSFTTIYYDNADRRLDQPITVGLVRFKGASGGLLAIVQGIPEIGKKVEIVEYGIPLRVRT</Hsp_hseq>
+      <Hsp_midline>+E  L+ W DVME ERY YT GP GE+F  GL++ KI+G KC +CGR++VP R YCE CFV+   YVE+   EAY+DS+T IY D+   +L QP+ + L+RF    GGLL   +G  ++G K +I+ +  PLRV+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_013738401.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Metallosphaera cuprina] &gt;gb|AEB95903.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]</Hit_def>
+  <Hit_accession>WP_013738401</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>1.17467e-40</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>MEVEKYVYTLGMDGEEFLLGLKKGKILGRKCPKCGRVYVPPRMYCEDCFRQNDSYVEVS--EPYLDSFTVIYYDDEGNKLESPLVIGLVRFRNAKGGLLAIVDGVPDIGKNVEILEYDIPLRVKV</Hsp_hseq>
+      <Hsp_midline>ME E+Y YT+G  GE+F  GLK+ KI+G KC KCGR++VP R YCE CF + ++YVE++  E Y+DS+T+IY DDEGNKL  P+ I L+RF N +GGLL   +G   +G   +IL +  PLRVKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_054836427.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Metallosphaera hakonensis] &gt;gb|AWR99239.1| DNA-binding protein [Metallosphaera hakonensis] [Metallosphaera hakonensis JCM 8857 = DSM 7519]</Hit_def>
+  <Hit_accession>WP_054836427</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>4.54148e-39</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>MEVDRYVYTLGIDGETFMQGLKQGKIIGRKCPKCGRVYVPPRMYCEDCFIENKDYIEVH--EPYLDSYTVIHYDNRGARL-EPLTIGLVRFKGVSGGLLALVDGKPEIGRKVEIESFDIPLRVKV</Hsp_hseq>
+      <Hsp_midline>ME +RY YT+G  GE F  GLKQ KIIG KC KCGR++VP R YCE CF++ ++Y+E++  E Y+DSYT+I+ D+ G +L +P+ I L+RF  + GGLL   +G  ++G K +I SF  PLRVKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|PVU74791.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Sulfolobus sp. SCGC AB-777_G06]</Hit_def>
+  <Hit_accession>PVU74791</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>7.14289e-39</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVK</Hsp_qseq>
+      <Hsp_hseq>LSLIDKMGAEEYLYTVGIAGEEFVKGIQAGKIIGSKCPRCGMTYVPPRLYCEECFCKTE-FVEVG-SAPYIDTYTVIYRDDKGNKVDPPQKIAMVRFEGVKGGLLAIVEGEVKIGKKVRILRYQIPLIVE</Hsp_hseq>
+      <Hsp_midline>L   D M AE Y YTVG AGE+F  G++  KIIGSKC +CG  +VP R YCE CF K E +VE+     Y+D+YT+IY DD+GNK+  P  IA++RF  ++GGLL   EG VK+G K +IL +Q PL V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_110379156.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Acidianus sulfidivorans] &gt;gb|AWR96266.1| DNA-binding protein [Acidianus sulfidivorans JP7]</Hit_def>
+  <Hit_accession>WP_110379156</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.06222e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLC------------YAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>LLDWKDVMETEEYDYTAGVAGEEFLKGLSEKKIIGAKCPKCNTIYVPARLYCENCFEKTE-FVEV-KTKPYLDTYTIIYKDNQGNKLEKPQIIGLVRFENTKGGLLAVIEGEEKEEERKLSIPSLNLGSEVEILRYEIPLVVRL</Hsp_hseq>
+      <Hsp_midline>LL W DVME E Y+YT G AGE+F  GL + KIIG+KC KC  I+VPAR YCE+CF K E +VE+ K + Y+D+YTIIY D++GNKL +P  I L+RF N +GGLL              +  ++ +G++ +IL ++ PL V++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.06222e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LLRWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLC------------YAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>LLDWKDVMETEEYDYTAGVAGEEFLKGLSEKKIIGAKCPKCNTIYVPARLYCENCFEKTE-FVEV-KTKPYLDTYTIIYKDNQGNKLEKPQIIGLVRFENTKGGLLAVIEGEEKEEERKLSIPSLNLGSEVEILRYEIPLVVRL</Hsp_hseq>
+      <Hsp_midline>LL W DVME E Y+YT G AGE+F  GL + KIIG+KC KC  I+VPAR YCE+CF K E +VE+ K + Y+D+YTIIY D++GNKL +P  I L+RF N +GGLL              +  ++ +G++ +IL ++ PL V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_110271922.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Acidianus brierleyi] &gt;gb|AWR96044.1| DNA-binding protein [Acidianus brierleyi]</Hit_def>
+  <Hit_accession>WP_110271922</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>3.05039e-29</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAKILSFQWPLRVKV</Hsp_qseq>
+      <Hsp_hseq>MEVFEYVYTAGKNGEEFFKALKDKKILGGRCDKCGKVSVPPKMFCD-CF-GLQKLEEI-KGKPFIDSFTIIYYDNDGKKLETPITLGFISFEGVEGGILAYIEGVPEIGKEVEILEYNIPLRVKV</Hsp_hseq>
+      <Hsp_midline>ME   Y YT G  GE+FF  LK  KI+G +C KCG++ VP + +C+ CF  ++   EI K + ++DS+TIIY D++G KL  P+ +  I F  +EGG+L Y EG  ++G + +IL +  PLRVKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_109159305.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Desulfurococcaceae archaeon AG1] &gt;gb|PWV37448.1| cobalt transporter ApaG [Desulfurococcaceae archaeon] &gt;dbj|GAY25237.1| cobalt transporter ApaG [Desulfurococcaceae archaeon AG1]</Hit_def>
+  <Hit_accession>WP_109159305</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>4.26652e-27</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVK</Hsp_qseq>
+      <Hsp_hseq>MEIKAYHYTPGPLGLRWLEGIKKGIIMAAKCRKCGNIFIPPKIYCPKCFSEVEDLVEL-REKPYLASYTIIYRDFNGERLSTPVIVGLVRFKGVDGGLIHYIEGPVE</Hsp_hseq>
+      <Hsp_midline>ME + Y YT GP G ++  G+K+  I+ +KC KCG IF+P + YC  CF ++E+ VE+ +++ Y+ SYTIIY D  G +L+ PV + L+RF  ++GGL+ Y EG V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_013335489.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Vulcanisaeta distributa] &gt;gb|ADN49764.1| protein of unknown function DUF35 [Vulcanisaeta distributa DSM 14429]</Hit_def>
+  <Hit_accession>WP_013335489</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>3.75837e-26</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYA----EGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>HWLHVIE-QGYRYTAGPIGTKFLEGIKAGKLLAGKCPVCGRLLIPPKAFCQYDFAEIKELVEI-APVGIVRSYTVVYEDSYGNKLPKPVVIGFIEFPGVAGGLVHYIVNVEPGNVRVGLKVK</Hsp_hseq>
+      <Hsp_midline> W  V+E + Y YT GP G +F  G+K  K++  KC  CGR+ +P +++C++ F +I+  VEI      V SYT++Y D  GNKL +PV I  I FP + GGL+ Y      GNV+VG K K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|PVU70625.1|</Hit_id>
+  <Hit_def>cobalt transporter ApaG [Vulcanisaeta sp. SCGC AB-777_J10]</Hit_def>
+  <Hit_accession>PVU70625</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>8.30051e-26</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYA----EGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>HWLHTIE-QGYRYTAGPIGTKFLEGLRAGKLLAGKCSVCGRVMIPPKAFCQYDFAEIKDLVEI-APLGIVRSYTVVYEDSYGNRLPKPVIIGFIEFPGITGGLVHYLINVDPSNVRVGLKVK</Hsp_hseq>
+      <Hsp_midline> W   +E + Y YT GP G +F  GL+  K++  KCS CGR+ +P +++C++ F +I++ VEI      V SYT++Y D  GN+L +PV I  I FP I GGL+ Y       NV+VG K K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KUO79416.1|</Hit_id>
+  <Hit_def>cobalt transporter ApaG [Vulcanisaeta sp. JCHS_4]</Hit_def>
+  <Hit_accession>KUO79416</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>2.06521e-25</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYA----EGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>HWLHTIE-QGYRYTAGPIGTKFLEGLRAGKLLAGKCPVCGRVMIPPKAFCQYDFAEIKDLVEITP-LGIVRSYTVVYEDSYGNRLPKPVIIGFIEFPGITGGLVHYLINVDPSNVRVGLKVK</Hsp_hseq>
+      <Hsp_midline> W   +E + Y YT GP G +F  GL+  K++  KC  CGR+ +P +++C++ F +I++ VEI      V SYT++Y D  GN+L +PV I  I FP I GGL+ Y       NV+VG K K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_081226184.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Vulcanisaeta sp. EB80] &gt;gb|PLC68817.1| cobalt transporter ApaG [Vulcanisaeta sp. EB80]</Hit_def>
+  <Hit_accession>WP_081226184</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>3.43884e-25</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYA----EGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>HWLHTIE-QGYRYTAGPIGTKFLEGLRAGKLLAGKCPVCGRVMIPPKAFCQYDFAEIKDLVEI-APLGIVRSYTVVYEDSYGNRLPKPVIIGFIEFPGITGGLVHYLINVDPSNVRVGLKVK</Hsp_hseq>
+      <Hsp_midline> W   +E + Y YT GP G +F  GL+  K++  KC  CGR+ +P +++C++ F +I++ VEI      V SYT++Y D  GN+L +PV I  I FP I GGL+ Y       NV+VG K K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|RLG52551.1|</Hit_id>
+  <Hit_def>nucleic acid-binding protein [Candidatus Korarchaeota archaeon]</Hit_def>
+  <Hit_accession>RLG52551</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>4.86373e-25</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>WYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>WLGDMETD-YIYTLGRAGEKFFRGLKEGKIVATRCRKCNLTYLPPRIYCEHCFSELDEWVEL-LDEGYIEAFTVLTVDADGNKLDPPEVIAFIAFDGVTGGLI</Hsp_hseq>
+      <Hsp_midline>W   ME + Y YT+G AGE+FF GLK+ KI+ ++C KC   ++P R YCEHCF +++ +VE+  DE Y++++T++  D +GNKL  P  IA I F  + GGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|KJR71693.1|</Hit_id>
+  <Hit_def>cobalt transporter ApaG [Vulcanisaeta sp. AZ3]</Hit_def>
+  <Hit_accession>KJR71693</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.84977e-24</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYA----EGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>HWLHTIE-QGYRYTAGPIGTKFLEGLKAGRLLAGKCPVCGKLFIPPKSFCQYDFAEIKELTEI-ASLGIVRSYTIVYEDSYGNKLPKPVVIGFIEFPGIVGGIIHYIINVEPNNVRIGLKVR</Hsp_hseq>
+      <Hsp_midline> W   +E + Y YT GP G +F  GLK  +++  KC  CG++F+P +S+C++ F +I+   EI      V SYTI+Y D  GNKL +PV I  I FP I GG++ Y       NV++G K +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.84977e-24</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYA----EGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>HWLHTIE-QGYRYTAGPIGTKFLEGLKAGRLLAGKCPVCGKLFIPPKSFCQYDFAEIKELTEI-ASLGIVRSYTIVYEDSYGNKLPKPVVIGFIEFPGIVGGIIHYIINVEPNNVRIGLKVR</Hsp_hseq>
+      <Hsp_midline> W   +E + Y YT GP G +F  GLK  +++  KC  CG++F+P +S+C++ F +I+   EI      V SYTI+Y D  GNKL +PV I  I FP I GG++ Y       NV++G K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|TET91374.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Methanomassiliicoccales archaeon]</Hit_def>
+  <Hit_accession>TET91374</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.35194e-23</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLK-QNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>HWYGDMEAS-YLYSTGIAGEKFFSTLRDKGNIMGASCPKCKKVFLPPRMYCEICFSETKNWKDVGK-EGKVETYSVAHVDIEGNPLDEPIVYGLIRFPRTEGGLV</Hsp_hseq>
+      <Hsp_midline> WY  MEA  Y Y+ G AGE+FF+ L+ +  I+G+ C KC ++F+P R YCE CF + +N+ ++ K E  V++Y++ + D EGN L +P+   LIRFP  EGGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|RLG92980.1|</Hit_id>
+  <Hit_def>nucleic acid-binding protein [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RLG92980</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>7.42058e-23</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>LLRWYDVMEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEI-NKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVK</Hsp_qseq>
+      <Hsp_hseq>MRHWLGHMETD-YRYTLGIAGERFLNEIKENARIMGARCKRCGVIYVPPKMYCEECFEKLEEWIDLGTRGEVY--TYTIAYVDMDGNRLAEPVIYALITFGDAYGGLI-HKLGEVK</Hsp_hseq>
+      <Hsp_midline>+  W   ME + Y YT+G AGE+F N +K+N +I+G++C +CG I+VP + YCE CF K+E ++++  + E Y  +YTI Y D +GN+LA+PV  ALI F +  GGL+ +  G VK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|RLI19538.1|</Hit_id>
+  <Hit_def>nucleic acid-binding protein [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RLI19538</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.12034e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>SLLRWYDVMEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>KLRHWHGHMEPD-YAYTLGVAGERFFKEIKENGRIMGAKCKRCGKIYVPPKLYCEECFEKLEEWVDVG-TRGKVYTYTVAYLDEHGKKLEKPVIYAFIKFEGKFGGLV</Hsp_hseq>
+      <Hsp_midline> L  W+  ME + Y YT+G AGE+FF  +K+N +I+G+KC +CG+I+VP + YCE CF K+E +V++      V +YT+ Y D+ G KL +PV  A I+F    GGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|TFF93387.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Candidatus Thorarchaeota archaeon]</Hit_def>
+  <Hit_accession>TFF93387</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>6.58991e-22</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MEAERYEYTVGPAGEQFFNGLK-QNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEG----NVKVGAKAKIL</Hsp_qseq>
+      <Hsp_hseq>MEAD-YIYTPGIAGDRFFRALRDEGKFLATHCEKCNHTYLPPRMYCERCFSELEKWVEVEP-TGIVDSFTVVHEDSNGEKLSEPVIVAFVRMDKTDGGIIHRLGGVKIETVKVGMKAKAV</Hsp_hseq>
+      <Hsp_midline>MEA+ Y YT G AG++FF  L+ + K + + C KC   ++P R YCE CF ++E +VE+      VDS+T+++ D  G KL++PV +A +R    +GG++    G     VKVG KAK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|OYT54735.1|</Hit_id>
+  <Hit_def>nucleic acid-binding protein [Candidatus Bathyarchaeota archaeon ex4484_218]</Hit_def>
+  <Hit_accession>OYT54735</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>8.28736e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>SLLRWYDVMEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>AIKHWTDVIPPE-YVYTVGVAGERFFREIKENGRIMGTKCSKCGYIYLPPRIYCEKCFDYIDEWVDVGL-KGRVYAYTVTYLDVDGSPLDKPIIFAVIKFDGVYGGLI</Hsp_hseq>
+      <Hsp_midline>++  W DV+  E Y YTVG AGE+FF  +K+N +I+G+KCSKCG I++P R YCE CF  I+ +V++   +  V +YT+ Y D +G+ L +P+  A+I+F  + GGL+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>8.28736e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>SLLRWYDVMEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>AIKHWTDVIPPE-YVYTVGVAGERFFREIKENGRIMGTKCSKCGYIYLPPRIYCEKCFDYIDEWVDVGL-KGRVYAYTVTYLDVDGSPLDKPIIFAVIKFDGVYGGLI</Hsp_hseq>
+      <Hsp_midline>++  W DV+  E Y YTVG AGE+FF  +K+N +I+G+KCSKCG I++P R YCE CF  I+ +V++   +  V +YT+ Y D +G+ L +P+  A+I+F  + GGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|RLI17712.1|</Hit_id>
+  <Hit_def>nucleic acid-binding protein [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RLI17712</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>1.95244e-21</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>HWLGNMEAH-YVYTLGVAGERFFKELKENGRIMGAKCPRCGIVYVPPRMYCEKCFAKLEEWVDVGR-KGVIHTFTIATLDIDGKKLEKPEIYALIKFEGAHGGII</Hsp_hseq>
+      <Hsp_midline> W   MEA  Y YT+G AGE+FF  LK+N +I+G+KC +CG ++VP R YCE CF K+E +V++ + +  + ++TI   D +G KL +P   ALI+F    GG++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>1.95244e-21</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>HWLGNMEAH-YVYTLGVAGERFFKELKENGRIMGAKCPRCGIVYVPPRMYCEKCFAKLEEWVDVGR-KGVIHTFTIATLDIDGKKLEKPEIYALIKFEGAHGGII</Hsp_hseq>
+      <Hsp_midline> W   MEA  Y YT+G AGE+FF  LK+N +I+G+KC +CG ++VP R YCE CF K+E +V++ + +  + ++TI   D +G KL +P   ALI+F    GG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_069808061.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Vulcanisaeta thermophila]</Hit_def>
+  <Hit_accession>WP_069808061</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>2.12888e-21</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCY</Hsp_qseq>
+      <Hsp_hseq>HWLHTIE-QGYRYTAGPIGSKFLEGLRSGKLLAGKCSVCGRLLIPPKAFCQYDFGEVKELVEV-APVGTLRTFTVVYEDSYGNKLPNPVIIGFITFPNTVGGIVHY</Hsp_hseq>
+      <Hsp_midline> W   +E + Y YT GP G +F  GL+  K++  KCS CGR+ +P +++C++ F +++  VE+      + ++T++Y D  GNKL  PV I  I FPN  GG++ Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>2.12888e-21</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCY</Hsp_qseq>
+      <Hsp_hseq>HWLHTIE-QGYRYTAGPIGSKFLEGLRSGKLLAGKCSVCGRLLIPPKAFCQYDFGEVKELVEV-APVGTLRTFTVVYEDSYGNKLPNPVIIGFITFPNTVGGIVHY</Hsp_hseq>
+      <Hsp_midline> W   +E + Y YT GP G +F  GL+  K++  KCS CGR+ +P +++C++ F +++  VE+      + ++T++Y D  GNKL  PV I  I FPN  GG++ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|OFX15535.1|</Hit_id>
+  <Hit_def>hypothetical protein A3K71_02465 [archaeon RBG_16_50_20]</Hit_def>
+  <Hit_accession>OFX15535</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>2.35625e-21</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>YEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>FRYTVGVAGEKFFREIMENGRLMASRCSSCNLNYLPPRIYCERCMSRLEEYVPV-ENEGTVEAFTITHQDAEGNPLQEPVGVALVRFPGAYGGLVHRTIDVLAIGDRVR</Hsp_hseq>
+      <Hsp_midline>+ YTVG AGE+FF  + +N +++ S+CS C   ++P R YCE C  ++E YV + ++E  V+++TI + D EGN L +PV +AL+RFP   GGL+      + +G + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>2.35625e-21</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>YEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>FRYTVGVAGEKFFREIMENGRLMASRCSSCNLNYLPPRIYCERCMSRLEEYVPV-ENEGTVEAFTITHQDAEGNPLQEPVGVALVRFPGAYGGLVHRTIDVLAIGDRVR</Hsp_hseq>
+      <Hsp_midline>+ YTVG AGE+FF  + +N +++ S+CS C   ++P R YCE C  ++E YV + ++E  V+++TI + D EGN L +PV +AL+RFP   GGL+      + +G + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|RLE81580.1|</Hit_id>
+  <Hit_def>nucleic acid-binding protein [Thermoprotei archaeon]</Hit_def>
+  <Hit_accession>RLE81580</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>2.39435e-21</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>MEAD-YLYTLGVAGERFFREIKENGRIMGAKCEKCGVIYLPPRLYCEACFSELKEWVDLGT-RGYIYTYTISYVDEEGKPLEKPVIYAIIRMDGVVGGIL</Hsp_hseq>
+      <Hsp_midline>MEA+ Y YT+G AGE+FF  +K+N +I+G+KC KCG I++P R YCE CF +++ +V++     Y+ +YTI Y D+EG  L +PV  A+IR   + GG+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_126449374.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Sulfodiicoccus acidiphilus] &gt;dbj|BBD72075.1| hypothetical protein HS1genome_0464 [Sulfodiicoccus acidiphilus]</Hit_def>
+  <Hit_accession>WP_126449374</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>3.71895e-21</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>MEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>MEIDAYEYTPGPMGDKWLEELKQGRLTASKCSSCGTVFLPPKLYCPVCRGEAKELVPTGKGRAV--NVVQVKVDDEGKKLTRPVKLALIRFDGIFGGLLHYVSDEVEEGDQVK</Hsp_hseq>
+      <Hsp_midline>ME + YEYT GP G+++   LKQ ++  SKCS CG +F+P + YC  C  + +  V   K  A   +   +  DDEG KL +PV +ALIRF  I GGLL Y    V+ G + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AET32564.1|</Hit_id>
+  <Hit_def>hypothetical protein P186_1131 [Pyrobaculum ferrireducens]</Hit_def>
+  <Hit_accession>AET32564</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>7.48387e-21</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>DVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGN-VKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>EVMEIEAYVYTAGPVGTKWLEALESGRLTAAYCPKCGRLYMPPKMYCPHDFQEVTELREVA-PLGVVETYTVIHRDFYGEPLKEPRVLAFIKFPGVEGGLIHYVKTDRPRVGMKVR</Hsp_hseq>
+      <Hsp_midline>+VME E Y YT GP G ++   L+  ++  + C KCGR+++P + YC H F ++    E+      V++YT+I+ D  G  L +P  +A I+FP +EGGL+ Y + +  +VG K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_014126491.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Thermoproteus tenax] &gt;emb|CCC81234.1| predicted DNA-binding protein, Zn-ribbon domain [Thermoproteus tenax Kra 1]</Hit_def>
+  <Hit_accession>WP_014126491</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.29327e-21</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>DVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCY--AEGNVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>EVMEIEAYIYTAGPVGTKWLENLKAGKLTAAYCPKCGRLFLPPKMFCPYDFEEVRELREIGQT-GVVESYTVIERDLSGERLPERKILAFIRFPGVEGGIIHYVKAEG-LAIGMKVK</Hsp_hseq>
+      <Hsp_midline>+VME E Y YT GP G ++   LK  K+  + C KCGR+F+P + +C + F ++    EI +    V+SYT+I  D  G +L +   +A IRFP +EGG++ Y  AEG + +G K K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|TET57009.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>TET57009</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>2.46767e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LLRWYDVMEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>MTHWPGHMETD-YIYTLGIAGERFFKEIKENGKIPGAKCKRCGQIFVPPRLYCEKCFDKLTDWVNVG-TKGKVYTFTIAYIDIKGARLKEPTIYALIKFDGTVGGLV</Hsp_hseq>
+      <Hsp_midline>+  W   ME + Y YT+G AGE+FF  +K+N KI G+KC +CG+IFVP R YCE CF K+ ++V +   +  V ++TI Y D +G +L +P   ALI+F    GGL+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>2.46767e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LLRWYDVMEAERYEYTVGPAGEQFFNGLKQN-KIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>MTHWPGHMETD-YIYTLGIAGERFFKEIKENGKIPGAKCKRCGQIFVPPRLYCEKCFDKLTDWVNVG-TKGKVYTFTIAYIDIKGARLKEPTIYALIKFDGTVGGLV</Hsp_hseq>
+      <Hsp_midline>+  W   ME + Y YT+G AGE+FF  +K+N KI G+KC +CG+IFVP R YCE CF K+ ++V +   +  V ++TI Y D +G +L +P   ALI+F    GGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|KYK30720.1|</Hit_id>
+  <Hit_def>hypothetical protein AYK19_17895 [Theionarchaea archaeon DG-70-1]</Hit_def>
+  <Hit_accession>KYK30720</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>2.60362e-20</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>HWVGDMEAQ-YVYTSGIAGDKFFTELKKGKILATKCAKCGKVFLPPRMYCEDCFCELTEWIEV-PNKGIVETFTVVHVDRDENPLETPEVRAFIRMEGTDGGFV</Hsp_hseq>
+      <Hsp_midline> W   MEA+ Y YT G AG++FF  LK+ KI+ +KC+KCG++F+P R YCE CF ++  ++E+  ++  V+++T+++ D + N L  P   A IR    +GG +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>2.60362e-20</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>RWYDVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLL</Hsp_qseq>
+      <Hsp_hseq>HWVGDMEAQ-YVYTSGIAGDKFFTELKKGKILATKCAKCGKVFLPPRMYCEDCFCELTEWIEV-PNKGIVETFTVVHVDRDENPLETPEVRAFIRMEGTDGGFV</Hsp_hseq>
+      <Hsp_midline> W   MEA+ Y YT G AG++FF  LK+ KI+ +KC+KCG++F+P R YCE CF ++  ++E+  ++  V+++T+++ D + N L  P   A IR    +GG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_116421126.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Pyrobaculum aerophilum] &gt;gb|RFA95954.1| cobalt transporter ApaG [Pyrobaculum aerophilum] &gt;gb|RFA99102.1| cobalt transporter ApaG [Pyrobaculum aerophilum]</Hit_def>
+  <Hit_accession>WP_116421126</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.2886e-19</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>DVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGN-VKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>EVMEIEAYVYTAGPIGTKWLEALKAGRLTAAYCPKCGRLFLPPKMYCPFDFEEVKELREIM-PLGVVESYTVIERDFYGGPLKEKKVLAFIKFPGVEGGLLHYVKSDGPRVGMKVK</Hsp_hseq>
+      <Hsp_midline>+VME E Y YT GP G ++   LK  ++  + C KCGR+F+P + YC   F +++   EI      V+SYT+I  D  G  L +   +A I+FP +EGGLL Y + +  +VG K K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KXH77297.1|</Hit_id>
+  <Hit_def>hypothetical protein AM324_12730 [Candidatus Thorarchaeota archaeon SMTZ1-83]</Hit_def>
+  <Hit_accession>KXH77297</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.68006e-19</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>YEYTVGPAGEQFFNGLK-QNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEG----NVKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>YIYTPGVAGDKFFKALRDEGKLLATPCEACKITYLPPRMYCERCFSELDKWIEA-KPSGTVDTFTLVHEDRDGNKLPEPVPVAFIRIDRTDGGLIHQLRGVDSKAVKIGMKVK</Hsp_hseq>
+      <Hsp_midline>Y YT G AG++FF  L+ + K++ + C  C   ++P R YCE CF +++ ++E  K    VD++T+++ D +GNKL +PV +A IR    +GGL+    G     VK+G K K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_011008701.1|</Hit_id>
+  <Hit_def>Zn-ribbon domain-containing OB-fold protein [Pyrobaculum aerophilum] &gt;gb|AAL64233.1| conserved protein associated with acetyl-CoA C-acyltransferase [Pyrobaculum aerophilum str. IM2]</Hit_def>
+  <Hit_accession>WP_011008701</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>2.86825e-19</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>DVMEAERYEYTVGPAGEQFFNGLKQNKIIGSKCSKCGRIFVPARSYCEHCFVKIENYVEINKDEAYVDSYTIIYNDDEGNKLAQPVYIALIRFPNIEGGLLCYAEGN-VKVGAKAK</Hsp_qseq>
+      <Hsp_hseq>EVMEIEAYVYTAGPIGTKWLETLKAGRLTAAYCPKCGRLFLPPKMYCPFDFEEVKELREIA-PLGVVESYTVIEMDFYGEPLKEKKVLAFIKFPGVEGGLLHYVKSDKPRVGMKVK</Hsp_hseq>
+      <Hsp_midline>+VME E Y YT GP G ++   LK  ++  + C KCGR+F+P + YC   F +++   EI      V+SYT+I  D  G  L +   +A I+FP +EGGLL Y + +  +VG K K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>215796893</Statistics_db-num>
+      <Statistics_db-len>460543478</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
