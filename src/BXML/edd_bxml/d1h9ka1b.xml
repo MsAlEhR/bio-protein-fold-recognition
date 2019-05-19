@@ -1,0 +1,2373 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_217027</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1h9ka1b</BlastOutput_query-def>
+  <BlastOutput_query-len>76</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_217027</Iteration_query-ID>
+  <Iteration_query-def>d1h9ka1b</Iteration_query-def>
+  <Iteration_query-len>76</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1H9J|A</Hit_id>
+  <Hit_def>Chain A, MOLYBDENUM-BINDING-PROTEIN [Azotobacter vinelandii] &gt;pdb|1H9K|A Chain A, MOLYBDENUM-BINDING-PROTEIN [Azotobacter vinelandii] &gt;pdb|1H9M|A Chain A, MOLYBDENUM-BINDING-PROTEIN [Azotobacter vinelandii] &gt;pdb|1H9M|B Chain B, MOLYBDENUM-BINDING-PROTEIN [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>1H9J_A</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>1.93712e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_hseq>
+      <Hsp_midline>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>4.9678e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGYRLSARNILTGTVKTIETGAVNAEVTLALQGGTEITSMVTKEAVAELGLKPGASASAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>S  ++SARN+  GTV  ++ GAVNAEV + L GG ++ ++VT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_012703510.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter vinelandii] &gt;gb|ACO81157.1| Mo processing, homeostasis [Azotobacter vinelandii DJ] &gt;gb|AGK13727.1| Mo processing, homeostasis [Azotobacter vinelandii CA] &gt;emb|CAA90038.1| potential molybdenum-pterin-binding-protein [Azotobacter vinelandii] &gt;emb|SFX65938.1| molybdate transport system regulatory protein [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>WP_012703510</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.41062e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_hseq>
+      <Hsp_midline>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.30207e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGYRLSARNILTGTVKTIETGAVNAEVTLALQGGTEITSMVTKEAVAELGLKPGASASAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>S  ++SARN+  GTV  ++ GAVNAEV + L GG ++ ++VT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.41062e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_hseq>
+      <Hsp_midline>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.30207e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGYRLSARNILTGTVKTIETGAVNAEVTLALQGGTEITSMVTKEAVAELGLKPGASASAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>S  ++SARN+  GTV  ++ GAVNAEV + L GG ++ ++VT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_131341781.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter chroococcum] &gt;gb|TBW10777.1| transporter [Azotobacter chroococcum]</Hit_def>
+  <Hit_accession>WP_131341781</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>3.32365e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKISARNVFNGTVSALKEGSVNAEVDIVLGGGDKLAAVVTLESARSLELAAGKPVVAVVKAPWVLLMTDSSGY</Hsp_hseq>
+      <Hsp_midline>MKISARNVF GTVSALKEG+VNAEVDI+LGGGDKLAAVVTLESARSL+LAAGK VVAVVKAPWVLLMTDSSGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.0096e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGYRLSARNILTGTVKSIETGAVNAEVTLALPGGTEITSMVTKEAVAELGLKPGASASAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>S  ++SARN+  GTV +++ GAVNAEV + L GG ++ ++VT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>3.32365e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKISARNVFNGTVSALKEGSVNAEVDIVLGGGDKLAAVVTLESARSLELAAGKPVVAVVKAPWVLLMTDSSGY</Hsp_hseq>
+      <Hsp_midline>MKISARNVF GTVSALKEG+VNAEVDI+LGGGDKLAAVVTLESARSL+LAAGK VVAVVKAPWVLLMTDSSGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.0096e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGYRLSARNILTGTVKSIETGAVNAEVTLALPGGTEITSMVTKEAVAELGLKPGASASAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>S  ++SARN+  GTV +++ GAVNAEV + L GG ++ ++VT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_131300683.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter chroococcum] &gt;gb|TBV93508.1| transporter [Azotobacter chroococcum] &gt;gb|TCL33382.1| molybdate transport system regulatory protein [Azotobacter chroococcum]</Hit_def>
+  <Hit_accession>WP_131300683</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>3.96001e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKISARNVFNGTVSALKEGSVNAEVDIVLGGGDKLAAVVTLESARSLELAAGKPVVAVIKAPWVLLMTDSSGY</Hsp_hseq>
+      <Hsp_midline>MKISARNVF GTVSALKEG+VNAEVDI+LGGGDKLAAVVTLESARSL+LAAGK VVAV+KAPWVLLMTDSSGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.74162e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGYRLSARNILTSTVKSIETGAVNAEVTLALPGGTEITSMVTKEAVAELGLKPGASASAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>S  ++SARN+   TV +++ GAVNAEV + L GG ++ ++VT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_039806947.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter chroococcum] &gt;gb|AJE23313.1| Molybdenum-pterin binding domain protein [Azotobacter chroococcum NCIMB 8003] &gt;gb|ASL28364.1| transporter [Azotobacter chroococcum] &gt;gb|TBW10073.1| transporter [Azotobacter chroococcum] &gt;gb|TBW36683.1| transporter [Azotobacter chroococcum]</Hit_def>
+  <Hit_accession>WP_039806947</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>4.9837e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKISARNVFNGTVSALKEGSVNAEVDIVLGGGDKLAAVVTLESARSLELAAGKPVVAVIKAPWVLLMTDSSGY</Hsp_hseq>
+      <Hsp_midline>MKISARNVF GTVSALKEG+VNAEVDI+LGGGDKLAAVVTLESARSL+LAAGK VVAV+KAPWVLLMTDSSGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.10767e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGYRLSARNILTGTVKSIETGAVNAEVTLALPGGTEITSMVTKEAVAELGLKPGASASAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>S  ++SARN+  GTV +++ GAVNAEV + L GG ++ ++VT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_090621487.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter beijerinckii] &gt;emb|SEI40137.1| molybdate transport system regulatory protein [Azotobacter beijerinckii] &gt;emb|SEI44720.1| molybdate transport system regulatory protein [Azotobacter beijerinckii] &gt;emb|SEQ61194.1| molybdate transport system regulatory protein [Azotobacter beijerinckii] &gt;emb|SFB03533.1| molybdate transport system regulatory protein [Azotobacter beijerinckii] &gt;emb|SFK61930.1| molybdate transport system regulatory protein [Azotobacter beijerinckii]</Hit_def>
+  <Hit_accession>WP_090621487</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.20826e-35</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKISARNVFSGTVSALKEGAVNAEVDIALSGGDKLAAVVTMESAKSLGLAAGKPVVAVIKAPWVLLMTDGSGY</Hsp_hseq>
+      <Hsp_midline>MKISARNVF GTVSALKEGAVNAEVDI L GGDKLAAVVT+ESA+SL LAAGK VVAV+KAPWVLLMTD SGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.58399e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GSGYRLSARNILTGTVKTIEAGAVNAEVTLTLAGGTEITSVVTKEAVAELGLKPGGSASAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>GS  ++SARN+  GTV  ++ GAVNAEV + L GG ++ +VVT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_039804652.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter chroococcum] &gt;gb|AJE21834.1| Molybdenum-pterin binding domain protein [Azotobacter chroococcum NCIMB 8003] &gt;gb|ASL26314.1| transporter [Azotobacter chroococcum] &gt;gb|TBW02651.1| transporter [Azotobacter chroococcum]</Hit_def>
+  <Hit_accession>WP_039804652</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>3.57031e-33</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVLEGTVSALKEGAVNAEVDVSLGGGDKLAAVVTLESARSLGLVAGTKVVAVVKAPWVMLATDGSGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNV +GTVSALKEGAVNAEVD+ LGGGDKLAAVVTLESARSL L AG +VVAVVKAPWV+L TD SGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>3.61602e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GSGYRLSARNILAGTVESVEAGKVNVEVTLALPGGTRITSVVTKEAATELGLKPGVKACAVIKASSVIL</Hsp_hseq>
+      <Hsp_midline>GS  ++SARN+  GTV +++ G VN EV + L GG ++ +VVT E+A  L L  G +  AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_012700848.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter vinelandii] &gt;gb|ACO78450.1| Molybdenum-pterin binding domain protein [Azotobacter vinelandii DJ] &gt;gb|AGK15006.1| Molybdenum-pterin binding domain protein [Azotobacter vinelandii CA] &gt;gb|AGK20516.1| Molybdenum-pterin binding domain protein [Azotobacter vinelandii CA6] &gt;emb|SFY18352.1| molybdate transport system regulatory protein [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>WP_012700848</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>8.79241e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTD</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVLEGTVSALKEGAVNAEVDVTLGGGDKLVAVVTLESARSLGLAAGKKVVAVIKAPWVLLAAD</Hsp_hseq>
+      <Hsp_midline>MK+SARNV +GTVSALKEGAVNAEVD+ LGGGDKL AVVTLESARSL LAAGK+VVAV+KAPWVLL  D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>8.81606e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GNGCRLSARNVLAGTIESIEVGTVNVEVILTLPGGARIVSVVTKEAAAELGLRPGASASAVIKASSVIL</Hsp_hseq>
+      <Hsp_midline>G+  ++SARNV  GT+ +++ G VN EV + L GG ++ +VVT E+A  L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_011767563.1|</Hit_id>
+  <Hit_def>transporter [Azoarcus sp. BH72] &gt;emb|CAL96457.1| putative molybdenum-pterin-binding-protein [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>WP_011767563</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.57585e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISKLQAGAVNAEVDIALGGGDALVAIVTMESVKTLELAAGKEVVALVKAPWVMLMTDS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEVDI LGGGD L A+VT+ES ++L+LAAGKEVVA+VKAPWV+LMTDS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.96237e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>SH-MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SHDVRLSARNCLTGTVKSVEPGAVNAEVTLVLPGGTEISSVVTREAVAELGLKPGVAATAVIKSSNVIL</Hsp_hseq>
+      <Hsp_midline>SH +++SARN   GTV +++ GAVNAEV ++L GG ++++VVT E+   L L  G    AV+K+  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_065341501.1|</Hit_id>
+  <Hit_def>transporter [Azoarcus olearius] &gt;gb|ANQ87006.1| putative molybdenum-pterin-binding-protein [Azoarcus olearius]</Hit_def>
+  <Hit_accession>WP_065341501</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.64627e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISKLQAGAVNAEVDIALGGGDALVAIVTMESVKTLELAAGKEVVALVKAPWVMLMTDS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEVDI LGGGD L A+VT+ES ++L+LAAGKEVVA+VKAPWV+LMTDS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.98346e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>SH-MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SHDVRLSARNCLTGTVKSVEPGAVNAEVTLVLPGGTEISSVVTREAVAELGLKPGVAATAVIKSSNVIL</Hsp_hseq>
+      <Hsp_midline>SH +++SARN   GTV +++ GAVNAEV ++L GG ++++VVT E+   L L  G    AV+K+  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_018988677.1|</Hit_id>
+  <Hit_def>transporter [Azoarcus toluclasticus]</Hit_def>
+  <Hit_accession>WP_018988677</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.93624e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSG</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFRGTVSALRPGSVNAEVELALAGGDRLVAIVTMESVRTLGIAVGNEVVALVKAPWVMVMTDASG</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF+GTVSAL+ G+VNAEV++ L GGD+L A+VT+ES R+L +A G EVVA+VKAPWV++MTD+SG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.23224e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGVRLSARNCLGGTVKSVAPGAVNAEVVITLASGAEVAAIVTKEAVGELGLKPGVAATAVIKASHVFL</Hsp_hseq>
+      <Hsp_midline>S +++SARN   GTV ++  GAVNAEV I L  G ++AA+VT E+   L L  G    AV+KA  V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_131255044.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter chroococcum] &gt;gb|TBW35302.1| transporter [Azotobacter chroococcum]</Hit_def>
+  <Hit_accession>WP_131255044</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>1.53692e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVLEGTVSALKEGAVNAEVDVSLGGGDKLAAVVTLESARSLGLVVGTKVVAVVKAPWVMLATDGSGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNV +GTVSALKEGAVNAEVD+ LGGGDKLAAVVTLESARSL L  G +VVAVVKAPWV+L TD SGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>6.11204e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GSGYRLSARNILAGTVESVEAGKVNVEVTLALPGGTRITSVVTKEAATELGLKLGVKACAVIKASSVIL</Hsp_hseq>
+      <Hsp_midline>GS  ++SARN+  GTV +++ G VN EV + L GG ++ +VVT E+A  L L  G +  AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_133595098.1|</Hit_id>
+  <Hit_def>transporter [Azoarcus indigens] &gt;gb|TDN44086.1| molybdate transport system regulatory protein [Azoarcus indigens]</Hit_def>
+  <Hit_accession>WP_133595098</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>4.63021e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGNISALRPGTVNAEVEIALGGGDALVAIVTMESMKTLELAEGKEVMALVKAPWVMVMTEADGI</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG +SAL+ G VNAEV+I LGGGD L A+VT+ES ++L+LA GKEV+A+VKAPWV++MT++ G </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>1.69694e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>ITLSARNTLRGTVKSVENGAVNSEVLISLPGGTEVAAVVTKDAVGELGLRPGVAATAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>+ +SARN  +GTV +++ GAVN+EV I L GG ++AAVVT ++   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_096450219.1|</Hit_id>
+  <Hit_def>transporter [Thauera sp. K11] &gt;gb|ATE61454.1| transporter [Thauera sp. K11]</Hit_def>
+  <Hit_accession>WP_096450219</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>6.2176e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKISARNKFEGTVAAVTAGAVNAEVGIDLASGDKLVAIITLESARSLQLAPGGKVVALVKAPWVMLMTDGSGI</Hsp_hseq>
+      <Hsp_midline>MKISARN F+GTV+A+  GAVNAEV I L  GDKL A++TLESARSLQLA G +VVA+VKAPWV+LMTD SG </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>2.43229e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GSGIRLSARNCLAGTVKTVTPGAVNAEVVVALPGGTEIVAIVTNDAVTELGLAPGVPATAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>GS +++SARN   GTV  +  GAVNAEV + L GG ++ A+VT ++   L LA G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_123424938.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas brassicacearum] &gt;gb|RON09203.1| transporter [Pseudomonas brassicacearum]</Hit_def>
+  <Hit_accession>WP_123424938</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>7.99235e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQLQEGAVNAEVSLTLSGGNQLVAVVTMESVKNLGLAVGKEAVALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+EGAVNAEV + L GG++L AVVT+ES ++L LA GKE VA+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>4.93355e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTSVTDGAVNAEVVIRLDGGSEVYSIVTREAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+++ +GAVNAEV I L GG ++ ++VT E+   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_131302900.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter chroococcum] &gt;gb|TBV90411.1| transporter [Azotobacter chroococcum] &gt;gb|TCL32105.1| molybdate transport system regulatory protein [Azotobacter chroococcum]</Hit_def>
+  <Hit_accession>WP_131302900</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>8.16877e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVLEGTVSALKEGVVNAEVDVSLGGGDKLAAVVTLESARSLGLVVGTKVVAVVKAPWVMLATDGSGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNV +GTVSALKEG VNAEVD+ LGGGDKLAAVVTLESARSL L  G +VVAVVKAPWV+L TD SGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.3927e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GSGYRLSARNILAGTVESVEAGKVNVEVTLALPGGTRITAVVTKEAATELGLKPGVKACAVIKASSVIL</Hsp_hseq>
+      <Hsp_midline>GS  ++SARN+  GTV +++ G VN EV + L GG ++ AVVT E+A  L L  G +  AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_131342467.1|</Hit_id>
+  <Hit_def>transporter [Azotobacter chroococcum] &gt;gb|OHC11522.1| transporter [Pseudomonadales bacterium GWC1_66_9] &gt;gb|TBW09475.1| transporter [Azotobacter chroococcum]</Hit_def>
+  <Hit_accession>WP_131342467</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>8.91429e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVLEGTVSALKEGAVNAEVDVSLGGGDKLAAVVTLESVRSLGLVVGTKVVAVVKAPWVMLATDGSGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNV +GTVSALKEGAVNAEVD+ LGGGDKLAAVVTLES RSL L  G +VVAVVKAPWV+L TD SGY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>2.76616e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GSGYRLSARNILAGTVESVEAGKVNVEVTLALPGGTRITSVVTREAATELGLKPGVKACAVIKASSVIL</Hsp_hseq>
+      <Hsp_midline>GS  ++SARN+  GTV +++ G VN EV + L GG ++ +VVT E+A  L L  G +  AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_133750409.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. LP_7_YM] &gt;gb|TDV67735.1| molybdate transport system regulatory protein [Pseudomonas sp. LP_7_YM]</Hit_def>
+  <Hit_accession>WP_133750409</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>8.91429e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSG</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTVKQIQEGAVNAEVALTLAGGEELVAVVTLQSVKSLDLAVGKEAVALIKAPWVMLMTDSGG</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGTV  ++EGAVNAEV + L GG++L AVVTL+S +SL LA GKE VA++KAPWV+LMTDS G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>3.97355e-07</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>LRLSARNCLQGKVTRVSDGAVNAEVVITLAGGTEVYSIVTRDAVSELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>+++SARN  +G V+ + +GAVNAEV I L GG ++ ++VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_110948603.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas bohemica]</Hit_def>
+  <Hit_accession>WP_110948603</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>9.62221e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGIVKQIQEGAVNAEVVLTLPGGEELVAVVTLQSVKSLGLAVGKEAVALIKAPWVMLMTDSSGF</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG V  ++EGAVNAEV + L GG++L AVVTL+S +SL LA GKE VA++KAPWV+LMTDSSG+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>6.63503e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGFRLSARNCLEGKVTRVSDGAVNAEVVVTLTGGAEVYSIVTREAVTELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S  ++SARN  +G V+ + +GAVNAEV + L GG ++ ++VT E+   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_007942642.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. GM21] &gt;gb|EJM25334.1| molybdenum-pterin binding domain containing protein [Pseudomonas sp. GM21]</Hit_def>
+  <Hit_accession>WP_007942642</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>1.66082e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISHLQPGAVNAEVSLKLSGGNELVAVVTMESVKSLGLAVGKEAVALVKAPWVMLMTDSS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEV + L GG++L AVVT+ES +SL LA GKE VA+VKAPWV+LMTDSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>6.51764e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTSVTDGAVNAEVVIKLDGGSEVYSIVTREAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+++ +GAVNAEV I L GG ++ ++VT E+   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_110963410.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas putida] &gt;gb|AWY39638.1| transporter [Pseudomonas putida]</Hit_def>
+  <Hit_accession>WP_110963410</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>4.06476e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGQVSKVQEGAVNAEVSLTLPGGEQLVAVVTMESIRNLGIAAGKEAVALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG VS ++EGAVNAEV + L GG++L AVVT+ES R+L +AAGKE VA+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.72601e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLQGKVLSVTDGAVNAEVVIELAGGSKVYSIVTRDAVTELGLKAGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V ++ +GAVNAEV I L GG K+ ++VT ++   L L AG    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_133840242.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas mandelii] &gt;gb|TDV74422.1| molybdate transport system regulatory protein [Pseudomonas mandelii]</Hit_def>
+  <Hit_accession>WP_133840242</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>4.68441e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQLQSGAVNAEVSLKLAGGNELVAVVTMESVKSLGLAVGKEAVALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEV + L GG++L AVVT+ES +SL LA GKE VA+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.26563e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTHVTDGAVNAEVVIQLDGGSEVYSIVTREAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+ + +GAVNAEV I L GG ++ ++VT E+   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_031316465.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter, partial [Pseudomonas] &gt;gb|AIN60942.1| transporter [Pseudomonas soli] &gt;gb|AUY34998.1| transporter [Pseudomonas sp. PONIH3] &gt;gb|PYC46017.1| transporter [Pseudomonas soli] &gt;emb|CRI54672.1| transporter [Pseudomonas sp. CCOS 191] &gt;emb|SEQ64586.1| molybdate transport system regulatory protein [Pseudomonas soli]</Hit_def>
+  <Hit_accession>WP_031316465</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>4.89345e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFEGTVSAVQPGAVNAEVELTLGGGEKLVAVVTMASLHNLNINVGKQAVALVKAPWVVLMTDAAGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF+GTVSA++ GAVNAEV++ LGGG+KL AVVT+ S  +L +  GK+ VA+VKAPWV+LMTD++GY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.49719e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>RLSARNSLEGEVLRVGDGAVNAEVVLKLSGGTEVYAIVTREAVQELGLKPGVKATALIKASHIIL</Hsp_hseq>
+      <Hsp_midline>++SARN  +G V  + +GAVNAEV + L GG ++ A+VT E+ + L L  G +  A++KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_077521451.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas resinovorans]</Hit_def>
+  <Hit_accession>WP_077521451</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>5.57819e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISALTEGAVNAEVVLDLPGGDSLVAVVTLQSVKSLGLAVGKDAIALVKAPWVMLMTDGS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+SAL EGAVNAEV + L GGD L AVVTL+S +SL LA GK+ +A+VKAPWV+LMTD S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.02498e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GSDIRLSARNCLNGTVVSVDAGAVNSEVVIELPGGAKVTSVVTREAVAELGLTKGVSATAVIKASHVIL</Hsp_hseq>
+      <Hsp_midline>GS +++SARN   GTV ++  GAVN+EV I L GG K+ +VVT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_054045715.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Pseudomonas] &gt;gb|KOY03880.1| transporter [Pseudomonas sp. 655] &gt;gb|KPN93297.1| transporter [Pseudomonas sp. In5]</Hit_def>
+  <Hit_accession>WP_054045715</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>6.02105e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQLQPGAVNAEVSLKLAGGNELVAVVTMESVKSLGLAVGKEAVALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEV + L GG++L AVVT+ES +SL LA GKE VA+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>8.98624e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTSVTDGAVNAEVVIRLDGGSDVYSIVTREAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+++ +GAVNAEV I L GG  + ++VT E+   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_110697037.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Pseudomonas] &gt;gb|PYB86477.1| transporter [Pseudomonas soli] &gt;gb|PZW85047.1| molybdate transport system regulatory protein [Pseudomonas sp. 2848] &gt;gb|TFF43059.1| transporter [Pseudomonas sp. RIT623]</Hit_def>
+  <Hit_accession>WP_110697037</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>6.35873e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFEGTVSAVQPGAVNAEVELTLGGGEKLVAVVTMASLHNLSINVGKQAVALVKAPWVVLMTDAAGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF+GTVSA++ GAVNAEV++ LGGG+KL AVVT+ S  +L +  GK+ VA+VKAPWV+LMTD++GY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.5558e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>RLSARNSLEGEVLRVGDGAVNAEVVLKLSGGTEVYAIVTREAVQELGLKPGVKATALIKASHIIL</Hsp_hseq>
+      <Hsp_midline>++SARN  +G V  + +GAVNAEV + L GG ++ A+VT E+ + L L  G +  A++KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_008025839.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. GM60] &gt;gb|EJM85870.1| molybdenum-pterin binding domain-containing protein [Pseudomonas sp. GM60]</Hit_def>
+  <Hit_accession>WP_008025839</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>6.64247e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQLQPGAVNAEVSLKLAGGNQLVAVVTMESVKSLGLAVGKEAIALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEV + L GG++L AVVT+ES +SL LA GKE +A+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>2.98167e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTSVIDGAVNAEVVIRLDGGDEVYSIVTRQAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+++ +GAVNAEV I L GGD++ ++VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_128605850.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. ERMR1:02] &gt;gb|PAM83818.1| transporter [Pseudomonas sp. ERMR1:02]</Hit_def>
+  <Hit_accession>WP_128605850</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>8.72607e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQVQSGAVNAEISLKLPGGNELVAVVTMESVKSLGLAVGKEAVALVKAPWVMLMTDSS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S ++ GAVNAE+ + L GG++L AVVT+ES +SL LA GKE VA+VKAPWV+LMTDSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.1149e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTSVTDGAVNAEVVIKLDGGSEVYSIVTRDAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+++ +GAVNAEV I L GG ++ ++VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_122708953.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. 286]</Hit_def>
+  <Hit_accession>WP_122708953</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.08544e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTVSELQEGAVNAEVVLTLAGGEQLVAVITMASVKSMGIAVGKEAVALIKAPWVMLMTDSS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGTVS L+EGAVNAEV + L GG++L AV+T+ S +S+ +A GKE VA++KAPWV+LMTDSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>4.15388e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGMVIRVSEGAVNSEVVVQLPGGAEVFSIVTREAVEELGLKPGASATAVIKASHIVL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V  + EGAVN+EV + L GG ++ ++VT E+   L L  G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_075805517.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas putida] &gt;gb|OLS60408.1| Molybdenum-pterin-binding protein MopA [Pseudomonas putida]</Hit_def>
+  <Hit_accession>WP_075805517</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.60774e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSG</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGQVSQVQEGAVNAEVVLTLPGGEQLVAVVTMESVRSLGIAVGKEAVALVKAPWVMLMTEAAG</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG VS ++EGAVNAEV + L GG++L AVVT+ES RSL +A GKE VA+VKAPWV+LMT+++G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.77417e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>IRLSARNCLEGKVLSVTDGAVNAEVLLELAGGSKVYSIVTRDAVDELGLKAGVSATAVIKASQIIL</Hsp_hseq>
+      <Hsp_midline>+++SARN  +G V ++ +GAVNAEV + L GG K+ ++VT ++   L L AG    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_033061233.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Pseudomonas fluorescens group] &gt;gb|KDD65865.1| transporter [Pseudomonas mandelii PD30] &gt;gb|KJZ40621.1| transporter [Pseudomonas fluorescens] &gt;gb|KJZ66410.1| transporter [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>WP_033061233</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.60774e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQLQPGAVNAEVSLKLSGGNELVAVVTMESVKNLGLAVGKEAVALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEV + L GG++L AVVT+ES ++L LA GKE VA+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.10753e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTSVIDGAVNSEVVIQLDGGTEVYSIVTRQAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+++ +GAVN+EV I L GG ++ ++VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_056740768.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. Root329] &gt;gb|KQV20650.1| transporter [Pseudomonas sp. Root329]</Hit_def>
+  <Hit_accession>WP_056740768</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.73535e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQLQPGAVNAEVSLKLSGGNELVAVVTMESVKNLGLAVGKEAVALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEV + L GG++L AVVT+ES ++L LA GKE VA+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.10753e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTSVIDGAVNSEVVIQLDGGTEVYSIVTRQAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+++ +GAVN+EV I L GG ++ ++VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_124417621.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. LBUM920] &gt;gb|AZF64234.1| Molybdate-binding domain of ModE [Pseudomonas sp. LBUM920]</Hit_def>
+  <Hit_accession>WP_124417621</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.93543e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGQVSQVQEGAVNAEVVLTLAGGEQLVAVVTIQSVRNLGIAVGKEAVALIKAPWVMLMTDSS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG VS ++EGAVNAEV + L GG++L AVVT++S R+L +A GKE VA++KAPWV+LMTDSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.09331e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGTVLSVNDGSVNAEVVIELAGGSKVYAIVTRDAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +GTV ++ +G+VNAEV I L GG K+ A+VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_106579056.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. R9.37] &gt;gb|PSL92204.1| transporter [Pseudomonas sp. R9.37]</Hit_def>
+  <Hit_accession>WP_106579056</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.95666e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGQVSQVQEGAVNAEVVLTLAGGEQLVAVVTIQSVRNLGIAVGKEAVALIKAPWVMLMTDSS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG VS ++EGAVNAEV + L GG++L AVVT++S R+L +A GKE VA++KAPWV+LMTDSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>7.88681e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGTVLSVNDGAVNAEVVIELAGGSKVYAIVTRDAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +GTV ++ +GAVNAEV I L GG K+ A+VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_119740125.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. Larv2_ips]</Hit_def>
+  <Hit_accession>WP_119740125</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.04395e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGQVSQVQEGAVNAEVVLTLAGGEQLVAVVTIQSVRNLGIAVGKEAVALIKAPWVMLMTDSS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG VS ++EGAVNAEV + L GG++L AVVT++S R+L +A GKE VA++KAPWV+LMTDSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>3.65498e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGTVLSVNDGAVNAEVVIELAGGSKVYAIVTRDAVAELGLAPGVSATVVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +GTV ++ +GAVNAEV I L GG K+ A+VT ++   L LA G     V+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|PKO56296.1|</Hit_id>
+  <Hit_def>transporter [Betaproteobacteria bacterium HGW-Betaproteobacteria-19]</Hit_def>
+  <Hit_accession>PKO56296</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>2.40742e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGSISAVLHGAVNAEVEVSLGGSDKLVAIVTMESVRTLELTVGTDVVALVKAPWVMLMADGS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG++SA+  GAVNAEV++ LGG DKL A+VT+ES R+L+L  G +VVA+VKAPWV+LM D S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.36314e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GSHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>GSDIRLSARNCLRGRVKSIELGAVNAEVTITLPGGTEVSSVVTREAVSELGLKPGVAATAVIKASNVIL</Hsp_hseq>
+      <Hsp_midline>GS +++SARN  +G V +++ GAVNAEV I L GG ++++VVT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_008367382.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. M47T1] &gt;gb|EIK97022.1| TOBE domain-containing protein [Pseudomonas sp. M47T1]</Hit_def>
+  <Hit_accession>WP_008367382</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>2.5424e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGVVSQVNEGAVNAEVALTLAGGESLVAVVTLASVKSLGLVAGKDAVALVKAPWVVLMTDAGGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG VS + EGAVNAEV + L GG+ L AVVTL S +SL L AGK+ VA+VKAPWV+LMTD+ GY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.01758e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>RLSARNSLQGQVVRVGDGAVNAEVVLRLAGGTEVFAIVTREAVQELGLAPGVTATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>++SARN  +G V  + +GAVNAEV + L GG ++ A+VT E+ + L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_134102615.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. OV341] &gt;gb|TDX66019.1| molybdate transport system regulatory protein [Pseudomonas sp. OV341]</Hit_def>
+  <Hit_accession>WP_134102615</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>2.5424e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQLQPGAVNAEVSLKLSGGNELVAVVTMESVKNLGLAVGKEAIALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEV + L GG++L AVVT+ES ++L LA GKE +A+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.18076e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTSVIDGAVNSEVVIQLDGGTEVYSIVTRQAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+++ +GAVN+EV I L GG ++ ++VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_096509079.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Pseudomonas] &gt;gb|RKS18504.1| molybdate transport system regulatory protein [Pseudomonas sp. WPR_5_2] &gt;dbj|BAV25285.1| molybdenum-pterin-binding protein MopA [Pseudomonas sp. LAB-08]</Hit_def>
+  <Hit_accession>WP_096509079</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>2.86661e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQVQSGAVNAEISLKLPGGNELVAVVTMESVKNLGLAVGKEAVALVKAPWVMLMTDSS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S ++ GAVNAE+ + L GG++L AVVT+ES ++L LA GKE VA+VKAPWV+LMTDSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>4.97293e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVTHVTDGAVNAEVVIQLDGGTEVYSIVTRDAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+ + +GAVNAEV I L GG ++ ++VT ++   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_010169682.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. PAMC 25886]</Hit_def>
+  <Hit_accession>WP_010169682</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>4.19962e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGQVSQVQEGAVNAEVVLTLPGGEQLVAVVTLESIRNLGIAVGKEAVALIKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKG VS ++EGAVNAEV + L GG++L AVVTLES R+L +A GKE VA++KAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.46157e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGKVLSVNDGAVNAEVVIELAGGSKVFSIVTRDAVAELGLKPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V ++ +GAVNAEV I L GG K+ ++VT ++   L L  G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_121430528.1|</Hit_id>
+  <Hit_def>transporter [Azoarcus sp. DN11] &gt;gb|AYH46072.1| transporter [Azoarcus sp. DN11]</Hit_def>
+  <Hit_accession>WP_121430528</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>4.53291e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSG</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFHGKIDALTPGAVNAEVDLVLAGGDHLVAIVTMESVRALGLAVGRELVALVKAPWVMLMTGAGG</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF G + AL  GAVNAEVD++L GGD L A+VT+ES R+L LA G+E+VA+VKAPWV+LMT + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.10127e-07</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>VHLSARNCLAGTVKSVAPGAVNAEVVLTLAGGSEIAAIVTREAVGELGLKPGAPATAVIKASHVIL</Hsp_hseq>
+      <Hsp_midline>+ +SARN   GTV ++  GAVNAEV + L GG ++AA+VT E+   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_046030123.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Pseudomonas] &gt;gb|KJZ37330.1| transporter [Pseudomonas fluorescens] &gt;gb|OOG13604.1| transporter [Pseudomonas sp. C9]</Hit_def>
+  <Hit_accession>WP_046030123</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>4.63291e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSS</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTISQLQPGAVNAEVSLTLPGGNELVAVVTMASVKSLGLAVGKEAVALVKAPWVMLMTESS</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGT+S L+ GAVNAEV + L GG++L AVVT+ S +SL LA GKE VA+VKAPWV+LMT+SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.4545e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SDIRLSARNCLEGIVTNVTDGAVNAEVVIKLDGGSEVYSIVTREAVAELGLAPGVSATAVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>S +++SARN  +G V+ + +GAVNAEV I L GG ++ ++VT E+   L LA G    AV+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_027916974.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Pseudomonas] &gt;gb|RAS29674.1| molybdate transport system regulatory protein [Pseudomonas sp. URMO17WK12:I7] &gt;emb|SMF14767.1| molybdate transport system regulatory protein [Pseudomonas sp. URMO17WK12:I5]</Hit_def>
+  <Hit_accession>WP_027916974</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.28093e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFEGTVSAVQPGAVNAEVELTLAGGEKLVAVVTMASLHNLNINVGKQAVALVKAPWVVLMTDADGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF+GTVSA++ GAVNAEV++ L GG+KL AVVT+ S  +L +  GK+ VA+VKAPWV+LMTD+ GY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.17865e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>RFSARNALEGEVVRVGDGAVNAEVVLKLAGGTEVFSIVTREAVQELGLAPGVQATALIKASHIIL</Hsp_hseq>
+      <Hsp_midline>+ SARN  +G V  + +GAVNAEV + L GG ++ ++VT E+ + L LA G +  A++KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_060485139.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas sp. NBRC 111123]</Hit_def>
+  <Hit_accession>WP_060485139</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.39742e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFEGTVSAVQPGAVNAEVELTLAGGEKLVAVVTMASLHNLNINVGKQAVALVKAPWVVLMTDADGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF+GTVSA++ GAVNAEV++ L GG+KL AVVT+ S  +L +  GK+ VA+VKAPWV+LMTD+ GY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.12282e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>RLSARNALEGEVVRVGDGAVNAEVVLKLAGGTEVFSIVTREAVQELGLAPGVQATALIKASHIIL</Hsp_hseq>
+      <Hsp_midline>++SARN  +G V  + +GAVNAEV + L GG ++ ++VT E+ + L LA G +  A++KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_085678420.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Pseudomonas]</Hit_def>
+  <Hit_accession>WP_085678420</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.82575e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFEGTVSAVQPGAVNAEVELTLAGGEKLVAVVTMASLHNLNINVGKQAVALVKAPWVVLMTDADGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF+GTVSA++ GAVNAEV++ L GG+KL AVVT+ S  +L +  GK+ VA+VKAPWV+LMTD+ GY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>7.30291e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>KLSARNALEGEVVRVGDGAVNAEVVLKLAGGTEVFSIVTREAVQELGLAPGVKATALIKASHIIL</Hsp_hseq>
+      <Hsp_midline>K+SARN  +G V  + +GAVNAEV + L GG ++ ++VT E+ + L LA G +  A++KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_038615821.1|</Hit_id>
+  <Hit_def>transporter [Pseudomonas alkylphenolica] &gt;gb|AIL64249.1| molybdenum-pterin binding domain-containing protein [Pseudomonas alkylphenolica]</Hit_def>
+  <Hit_accession>WP_038615821</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>6.15235e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFKGTVSNVQAGAVNAEVTLKLSGGEQLVAVVTMASLQSLGIAVGKDAVALVKAPWVVLMTDSGGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNVFKGTVS ++ GAVNAEV + L GG++L AVVT+ S +SL +A GK+ VA+VKAPWV+LMTDS GY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>9.64136e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>RFSARNCLEGKVVRVSEGAVNSEVVVQLAGGTEVFSIVTREAVDELGLKPGVSATVVIKASHIIL</Hsp_hseq>
+      <Hsp_midline>+ SARN  +G V  + EGAVN+EV + L GG ++ ++VT E+   L L  G     V+KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_016394076.1|</Hit_id>
+  <Hit_def>molybdenum-pterin-binding protein [Pseudomonas plecoglossicida] &gt;gb|AXM97464.1| transporter [Pseudomonas plecoglossicida] &gt;gb|EPB94783.1| molybdenum-pterin-binding protein [Pseudomonas plecoglossicida NB2011]</Hit_def>
+  <Hit_accession>WP_016394076</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>6.71342e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSGY</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFEGTVSAVQPGAVNAEVELTLAGGEKLVAVVTMTSLHNLGINVGKQAVALVKAPWVVLMTDAAGY</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF+GTVSA++ GAVNAEV++ L GG+KL AVVT+ S  +L +  GK+ VA+VKAPWV+LMTD++GY</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>7.46189e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>KISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>RLSARNALEGEVVRIGDGAVNAEVVLKLAGGTEVSSIVTREAVQELGLAAGVKATALIKASHIIL</Hsp_hseq>
+      <Hsp_midline>++SARN  +G V  + +GAVNAEV + L GG +++++VT E+ + L LAAG +  A++KA  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_114650154.1|</Hit_id>
+  <Hit_def>transporter [Thauera hydrothermalis]</Hit_def>
+  <Hit_accession>WP_114650154</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>7.16754e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLLMTDSSG</Hsp_qseq>
+      <Hsp_hseq>MKVSARNVFRGKVAATRPGSVNAEVDIDLGGGDRLVAVVTLASLEDLGLAPGSEVIALVKAPWVMVLTDASG</Hsp_hseq>
+      <Hsp_midline>MK+SARNVF+G V+A + G+VNAEVDI LGGGD+L AVVTL S   L LA G EV+A+VKAPWV+++TD+SG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.68948e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>SHMKISARNVFKGTVSALKEGAVNAEVDILLGGGDKLAAVVTLESARSLQLAAGKEVVAVVKAPWVLL</Hsp_qseq>
+      <Hsp_hseq>SGVKLSARNNLAGTISAVAVGAVNAEVTIALPGGTEVMAVITRDAVNELGLKPGVAATAVIKASHVVL</Hsp_hseq>
+      <Hsp_midline>S +K+SARN   GT+SA+  GAVNAEV I L GG ++ AV+T ++   L L  G    AV+KA  V+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>209552778</Statistics_db-num>
+      <Statistics_db-len>77769954806</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
