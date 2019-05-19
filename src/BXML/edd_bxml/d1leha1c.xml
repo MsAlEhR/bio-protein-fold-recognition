@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_121741</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1leha1c</BlastOutput_query-def>
+  <BlastOutput_query-len>230</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_121741</Iteration_query-ID>
+  <Iteration_query-def>d1leha1c</Iteration_query-def>
+  <Iteration_query-len>230</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1LEH|A</Hit_id>
+  <Hit_def>Chain A, LEUCINE DEHYDROGENASE [Lysinibacillus sphaericus] &gt;pdb|1LEH|B Chain B, LEUCINE DEHYDROGENASE [Lysinibacillus sphaericus]</Hit_def>
+  <Hit_accession>1LEH_A</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>5.12873e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_036122815.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase, partial [Lysinibacillus sphaericus]</Hit_def>
+  <Hit_accession>WP_036122815</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>2.00661e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLKVSVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGL VSVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HAU33746.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Lysinibacillus sp.]</Hit_def>
+  <Hit_accession>HAU33746</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>4.12118e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGLKISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERALKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEGL +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RA+KRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_048392303.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus] &gt;gb|KMN39998.1| leucine dehydrogenase [Lysinibacillus sp. LK3] &gt;gb|KUF34919.1| leucine dehydrogenase [Lysinibacillus sp. F5] &gt;gb|OCX65499.1| leucine dehydrogenase [Lysinibacillus sp. AR18-8] &gt;gb|PKU49943.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus fusiformis] &gt;gb|RDV33205.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp. PB300] &gt;emb|SCZ03283.1| leucine dehydrogenase [Lysinibacillus sp. SG9] &gt;emb|SDB49462.1| leucine dehydrogenase [Lysinibacillus sp. TC-37] &gt;emb|SFT14134.1| leucine dehydrogenase [Lysinibacillus sp. SG55] &gt;emb|SPU38323.1| butyryl-CoA dehydrogenase [Lysinibacillus sphaericus] &gt;tpg|HBT72994.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp.]</Hit_def>
+  <Hit_accession>WP_048392303</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>8.56615e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLKVSVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGL VSVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_004231189.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus fusiformis] &gt;gb|EFI67344.1| leucine dehydrogenase [Lysinibacillus fusiformis ZC1] &gt;gb|EKU44557.1| leucine dehydrogenase [Lysinibacillus fusiformis ZB2]</Hit_def>
+  <Hit_accession>WP_004231189</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>9.34938e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLKVSVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGL VSVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_036076580.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus] &gt;gb|KGR87129.1| leucine dehydrogenase [Lysinibacillus boronitolerans JCM 21713 = 10a = NBRC 103108] &gt;gb|TBV86851.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp. OL1]</Hit_def>
+  <Hit_accession>WP_036076580</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>1.18925e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLKISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGL +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_103118409.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp. YS11] &gt;gb|AUS87405.1| leucine dehydrogenase [Lysinibacillus sp. YS11]</Hit_def>
+  <Hit_accession>WP_103118409</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>4.61539e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLKVSVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHKLGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGL VSVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLH+LGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_053994462.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus macroides] &gt;gb|KOY83221.1| leucine dehydrogenase [Lysinibacillus macroides]</Hit_def>
+  <Hit_accession>WP_053994462</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>1.13584e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGRKVSVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVTDFGAIAVAPDDIYAQEVDIFSPCALGAILNDETIPQLKAKVVAGSANNQLKDSRHGDVLHDLGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLQNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEG  VSVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP+ IY    DIF+PCALGA+LND TIPQLKAKV+AGSA+NQLKD RHG  LH+LGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFLQ+++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_054610468.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp. ZYM-1] &gt;gb|KPN89571.1| leucine dehydrogenase [Lysinibacillus sp. ZYM-1]</Hit_def>
+  <Hit_accession>WP_054610468</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.91256e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGLKVSVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQDVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERALKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEGL VSVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RA+KRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_089986068.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus] &gt;gb|PCD82419.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus fusiformis] &gt;gb|QAS56525.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sphaericus] &gt;gb|RDV30428.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus fusiformis] &gt;emb|SCX56013.1| leucine dehydrogenase [Lysinibacillus sp. SG8] &gt;emb|SCY39755.1| leucine dehydrogenase [Lysinibacillus sp. LD79] &gt;emb|SDB32412.1| leucine dehydrogenase [Lysinibacillus sp. BC-14] &gt;emb|SEN60240.1| leucine dehydrogenase [Lysinibacillus sp. SG45] &gt;emb|SEQ69501.1| leucine dehydrogenase [Lysinibacillus sp. TC-13] &gt;emb|SFI37932.1| leucine dehydrogenase [Lysinibacillus sp. SG53] &gt;emb|SFS95344.1| leucine dehydrogenase [Lysinibacillus sp. BC-43]</Hit_def>
+  <Hit_accession>WP_089986068</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.95485e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGLKISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERALKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEGL +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RA+KRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_008179924.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Glu/Leu/Phe/Val dehydrogenase [Bacillaceae] &gt;gb|EAZ84301.1| leucine dehydrogenase [Bacillus sp. B14905] &gt;gb|KEK12366.1| leucine dehydrogenase [Lysinibacillus sphaericus] &gt;gb|ODV56947.1| leucine dehydrogenase [Lysinibacillus fusiformis] &gt;tpg|HBJ00598.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp.]</Hit_def>
+  <Hit_accession>WP_008179924</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>2.83521e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGLKISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQDVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERALKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEGL +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RA+KRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_069513098.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sphaericus] &gt;gb|OEC00597.1| leucine dehydrogenase [Lysinibacillus sphaericus] &gt;gb|POZ55912.1| Leucine dehydrogenase [Lysinibacillus sphaericus]</Hit_def>
+  <Hit_accession>WP_069513098</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>3.19761e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDMLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFGATAVAPDEIYSQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFEISKRDSIPTYVAANRLAEERIARVAKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSD LEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIF ISKRD +P+YVAA+R+AEERIA+VAK+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_036126920.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus] &gt;gb|AJK87287.1| leucine dehydrogenase [Lysinibacillus fusiformis] &gt;gb|KGA81014.1| leucine dehydrogenase [Lysinibacillus fusiformis] &gt;gb|KHK53305.1| leucine dehydrogenase [Lysinibacillus sp. A1]</Hit_def>
+  <Hit_accession>WP_036126920</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>3.93602e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGLKISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQDVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIIYAPDYVINAGGVINVADELYGYNRERALKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEGL +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGI+YAPDYVINAGGVINVADELYGYNR RA+KRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ACA40984.1|</Hit_id>
+  <Hit_def>Leucine dehydrogenase [Lysinibacillus sphaericus C3-41]</Hit_def>
+  <Hit_accession>ACA40984</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>4.26621e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGLKISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDFLHELGIVYAPDYVINAGGVINVADELYGYNRERALKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEGL +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG +LHELGIVYAPDYVINAGGVINVADELYGYNR RA+KRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_031417423.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sphaericus] &gt;gb|AMO33073.1| leucine dehydrogenase [Lysinibacillus sphaericus] &gt;gb|AMR91822.1| leucine dehydrogenase [Lysinibacillus sphaericus] &gt;gb|ANA45870.1| leucine dehydrogenase [Lysinibacillus sphaericus] &gt;gb|EWH32935.1| leucine dehydrogenase [Lysinibacillus sphaericus CBAM5] &gt;gb|KZL45333.1| leucine dehydrogenase [Lysinibacillus sphaericus] &gt;gb|PIJ98756.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sphaericus]</Hit_def>
+  <Hit_accession>WP_031417423</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>6.29892e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGLKISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDFLHELGIVYAPDYVINAGGVINVADELYGYNRERALKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEGL +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG +LHELGIVYAPDYVINAGGVINVADELYGYNR RA+KRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_107894324.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus mangiferihumi] &gt;gb|TKI70578.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus mangiferihumi]</Hit_def>
+  <Hit_accession>WP_107894324</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>7.58576e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGTDMLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFGATAVAPDEIYSQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFEISKRDSIPTYVAANRLAEERIARVAKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFG+D LEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIF ISKRD +P+YVAA+R+AEERIA+VAK+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AVK84560.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Lysinibacillus sp. B2A1]</Hit_def>
+  <Hit_accession>AVK84560</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>8.27925e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKASAKEAFGSDSLEGRTISVQGLGNVAYKLCEYLHKEGAKLVVTDINQAAIDRVVHDFGATAVAPDNIYSQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDLLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKA+AKEAFGSDSLEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG  LHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_025219917.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus] &gt;gb|AHN22341.1| leucine dehydrogenase [Lysinibacillus varians] &gt;gb|TKI50305.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus tabacifolii] &gt;gb|TKI65000.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus varians]</Hit_def>
+  <Hit_accession>WP_025219917</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>8.37028e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGTDMLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFGATAVAPDEIYSQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFEISKRDSIPTYVAANRLAEERIARVAKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFG+D LEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIF ISKRD +P+YVAA+R+AEERIA+VAK+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_024361159.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sphaericus] &gt;gb|AVK96420.1| leucine dehydrogenase [Lysinibacillus sphaericus] &gt;gb|TKI19663.1| Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sphaericus] &gt;dbj|BAD11020.1| leucine dehydrogenase [Lysinibacillus sphaericus] &gt;emb|SUV17791.1| butyryl-CoA dehydrogenase [Lysinibacillus sphaericus]</Hit_def>
+  <Hit_accession>WP_024361159</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>2.94348e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGTDMLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFGATAVAPDEIYSQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERALKRVDGIYDSIEKIFEISKRDSIPTYVAANRLAEERIARVAKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFG+D LEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RA+KRVDGIYDSIEKIF ISKRD +P+YVAA+R+AEERIA+VAK+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_053594585.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp. FJAT-14222] &gt;gb|KOS62550.1| leucine dehydrogenase [Lysinibacillus sp. FJAT-14222]</Hit_def>
+  <Hit_accession>WP_053594585</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>3.10888e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYLGMKAAAKEAFGSDSLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNEFGATAVAPEEIYSQEVDIFSPCALGAIINDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIVYTPDYVINAGGVINVADELYGYNRERAMKRVEGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVY GMKAAAKEAFGSDSLEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V E GA AVAP  IY    DIF+PCALGA++ND TIPQLKAKVIAGSA+NQL+D RHG YLHELGIVY PDYVINAGGVINVADELYGYNR RAMKRV+GIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_068984875.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus xylanilyticus]</Hit_def>
+  <Hit_accession>WP_068984875</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>3.91136e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGFDSLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINKAAIDRVVNDFGATAVAPEEIYSQEVDIFSPCALGAILNDETIPQLKAKVVAGSANNQLQDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNSERAMKRVEGIYDSIEKIFTISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFG DSLEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+NKAA+   V + GA AVAP  IY    DIF+PCALGA+LND TIPQLKAKV+AGSA+NQL+D RHG YLHELGIVYAPDYVINAGGVINVADELYGYN  RAMKRV+GIYDSIEKIF ISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_010859732.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sphaericus] &gt;gb|EON72058.1| leucine dehydrogenase [Lysinibacillus sphaericus OT4b.31]</Hit_def>
+  <Hit_accession>WP_010859732</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>7.87489e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSEMLEGRTIAVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFGAIAVAPEEIYSQDADIFSPCALGAILNDDTIPQLKAKVIAGSANNQLQDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIERIFAISKRDGVPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+ LEG  ++VQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP  IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIE+IFAISKRDGVP+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_134019861.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp. YR326] &gt;gb|TDV02812.1| glutamate dehydrogenase/leucine dehydrogenase [Lysinibacillus sp. YR326]</Hit_def>
+  <Hit_accession>WP_134019861</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>1.55116e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDATAVAPEEIYSQEVDIFAPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNSERAMKRVEGIYDSIEKIFEISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP  IY    DIFAPCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGIVYAPDYVINAGGVINVADELYGYN  RAMKRV+GIYDSIEKIF ISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|TCJ74192.1|</Hit_id>
+  <Hit_def>UNVERIFIED_CONTAM: leucine dehydrogenase [Lysinibacillus sp. BK089]</Hit_def>
+  <Hit_accession>TCJ74192</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.711</Hsp_bit-score>
+      <Hsp_score>966</Hsp_score>
+      <Hsp_evalue>2.20094e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGIKAAAKEAFGSDSLEERTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFGATAVAPEEIYSQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVEGIYDSIEKIFEISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRG+KAAAKEAFGSDSLE   +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP  IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRV+GIYDSIEKIF ISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_079561767.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus] &gt;gb|OXS73514.1| leucine dehydrogenase [Lysinibacillus sp. KCTC 33748] &gt;emb|SKB79236.1| leucine dehydrogenase [Lysinibacillus sp. AC-3]</Hit_def>
+  <Hit_accession>WP_079561767</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.326</Hsp_bit-score>
+      <Hsp_score>965</Hsp_score>
+      <Hsp_evalue>2.95677e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYLGMKAAAKEAFGSDSLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDATAVAPEEIYSQEVDIFAPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDYLHELEIVYAPDYVINAGGVINVADELYGYNRERAMKRVEGIYDSLEKIFAISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVY GMKAAAKEAFGSDSLEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP  IY    DIFAPCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHEL IVYAPDYVINAGGVINVADELYGYNR RAMKRV+GIYDS+EKIFAISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_049664229.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus xylanilyticus] &gt;gb|KMY31580.1| leucine dehydrogenase [Lysinibacillus xylanilyticus] &gt;gb|TDY04506.1| UNVERIFIED_CONTAM: leucine dehydrogenase [Lysinibacillus xylanilyticus]</Hit_def>
+  <Hit_accession>WP_049664229</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.785</Hsp_bit-score>
+      <Hsp_score>961</Hsp_score>
+      <Hsp_evalue>1.11011e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDATAVAPEEIYSQEVDIFAPCALGAILNDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIAYAPDYVINAGGVINVADELYGYNSERAMKRVEGIYDSIEKIFEISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP  IY    DIFAPCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGI YAPDYVINAGGVINVADELYGYN  RAMKRV+GIYDSIEKIF ISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_016993885.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus boronitolerans]</Hit_def>
+  <Hit_accession>WP_016993885</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.785</Hsp_bit-score>
+      <Hsp_score>961</Hsp_score>
+      <Hsp_evalue>1.30213e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLKISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDAIAVAPDEIYAQEVDIFSPCALGAILNDETIPQLKAKVIAGSANNQLKDSRHGDYLHELGIVYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIEKIFAISKRDGIPTYVAANRLAEERIARVAKSRSQFLKNEK</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGL +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP+ IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQLKD RHG YLHELGIVYAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIEKIFAISKRDG+P+YVAA+R+AEERIA+VAK+RSQFL++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_107923887.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus parviboronicapiens]</Hit_def>
+  <Hit_accession>WP_107923887</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.4</Hsp_bit-score>
+      <Hsp_score>960</Hsp_score>
+      <Hsp_evalue>1.59242e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSEMLDGRTIAVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFGAVAVAPEEIYSQDVDIFSPCALGAILNDDTIPQLKAKVIAGSANNQLQDSRHGDYLHELGIAYAPDYVINAGGVINVADELYGYNRERAMKRVDGIYDSIERIFAISKRDGVPTYVAANRLAEERIARVAKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+ L+G  ++VQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V + GA AVAP  IY    DIF+PCALGA+LND TIPQLKAKVIAGSA+NQL+D RHG YLHELGI YAPDYVINAGGVINVADELYGYNR RAMKRVDGIYDSIE+IFAISKRDGVP+YVAA+R+AEERIA+VAK+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_100544435.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus xylanilyticus] &gt;gb|PJO42185.1| leucine dehydrogenase [Lysinibacillus xylanilyticus]</Hit_def>
+  <Hit_accession>WP_100544435</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.015</Hsp_bit-score>
+      <Hsp_score>959</Hsp_score>
+      <Hsp_evalue>2.46594e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSESLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQAAIDRVVNDFDATAVAPEEIYSQEVDIFAPCALGAIINDETIPQLKAKVIAGSANNQLQDSRHGDYLHELGIAYAPDYVINAGGVINVADELYGYNSERAMKRVEGIYDSIEKIFEISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILNGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGS+SLEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+AA+   V +  A AVAP  IY    DIFAPCALGA++ND TIPQLKAKVIAGSA+NQL+D RHG YLHELGI YAPDYVINAGGVINVADELYGYN  RAMKRV+GIYDSIEKIF ISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NILNGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_053483730.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Lysinibacillus sp. FJAT-14745] &gt;gb|KOP78327.1| leucine dehydrogenase [Lysinibacillus sp. FJAT-14745]</Hit_def>
+  <Hit_accession>WP_053483730</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.859</Hsp_bit-score>
+      <Hsp_score>956</Hsp_score>
+      <Hsp_evalue>5.5987e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYLGMKAAAKEAFGSDSLEGRTISVQGLGNVAYKLCEYLHNEGAKLVVTDINQGAIDRVVNAFGATAVAPEEIYSQDVDIFSPCALGAILNDETIPQLKAKVVAGSANNQLQDSRHGDYLHELGIVYTPDYVINAGGVINVADELYGYNRERAMKRVEGIYDSIEKIFEISKRDGIPTYVAANRLAEERIARVSKSRSQFLKNEKNILHGR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVY GMKAAAKEAFGSDSLEG  +SVQGLGNVA  LC+ L+ EGAKLVVTD+N+ A+   V   GA AVAP  IY    DIF+PCALGA+LND TIPQLKAKV+AGSA+NQL+D RHG YLHELGIVY PDYVINAGGVINVADELYGYNR RAMKRV+GIYDSIEKIF ISKRDG+P+YVAA+R+AEERIA+V+K+RSQFL++++NIL+GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_025948995.1|</Hit_id>
+  <Hit_def>MULTISPECIES: leucine dehydrogenase [Geobacillus] &gt;gb|ASS98918.1| leucine dehydrogenase [Geobacillus thermocatenulatus] &gt;gb|KLR73653.1| leucine dehydrogenase [Geobacillus sp. T6] &gt;gb|OXB89673.1| leucine dehydrogenase [Geobacillus thermocatenulatus] &gt;gb|RAN22853.1| leucine dehydrogenase [Geobacillus sp. A8]</Hit_def>
+  <Hit_accession>WP_025948995</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>1.83529e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDHTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_055739333.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Glu/Leu/Phe/Val dehydrogenase [Bacillus] &gt;gb|KQL53599.1| leucine dehydrogenase [Bacillus shackletonii] &gt;gb|RTZ54462.1| Glu/Leu/Phe/Val dehydrogenase [Bacillus sp. SAJ1]</Hit_def>
+  <Hit_accession>WP_055739333</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>3.2703e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGCYVGMKAAAKEAFGTDSLEGLTVAVQGVGNVAFEMCRYLHEEGAKLIVTDINKEAVGRAVEQFGAKAVDPNEIYGVDCDIFAPCALGAIINDDTIPQIKAKVIAGSANNQLKETRHGDQIHEMGIVYAPDFVINAGGVINVADELYGYNRDRAMKKVEGIYNSIEKIIEISKRDGIPTYVAADRMAEERIAKVSKSRSQFLLNSRHILSNR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYG Y GMKAAAKEAFG+DSLEGL V+VQG+GNVA  +C+ L+ EGAKL+VTD+NK AV  AV + GA AV PN IYGV CDIFAPCALGA++ND TIPQ+KAKVIAGSA+NQLK+ RHG  +HE+GIVYAPD+VINAGGVINVADELYGYNR RAMK+V+GIY+SIEKI  ISKRDG+P+YVAADRMAEERIAKV+K+RSQFL + R+IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_063193012.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus sp. JS12] &gt;gb|AMQ21126.1| leucine dehydrogenase [Geobacillus sp. JS12]</Hit_def>
+  <Hit_accession>WP_063193012</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>4.64731e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_044730885.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus kaustophilus] &gt;gb|KJE27685.1| leucine dehydrogenase [Geobacillus kaustophilus]</Hit_def>
+  <Hit_accession>WP_044730885</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>4.96231e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_044737308.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus kaustophilus]</Hit_def>
+  <Hit_accession>WP_044737308</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>5.24105e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>dbj|GAD13035.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus kaustophilus GBlys]</Hit_def>
+  <Hit_accession>GAD13035</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>5.42e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_033009431.1|</Hit_id>
+  <Hit_def>MULTISPECIES: leucine dehydrogenase [Bacillaceae] &gt;gb|AKM19612.1| Leucine dehydrogenase [Geobacillus sp. 12AMOR1] &gt;gb|AKU25702.1| leucine dehydrogenase [Geobacillus sp. LC300] &gt;gb|ATA60603.1| glutamate dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KFL16545.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KFX34474.1| Glu/Leu/Phe/Val dehydrogenase [Geobacillus icigianus] &gt;gb|KFX35813.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KMY61387.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KMY62174.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KMY63679.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KQC48225.1| leucine dehydrogenase [Geobacillus sp. Sah69] &gt;gb|KYD29801.1| Leucine dehydrogenase [Geobacillus sp. B4113_201601] &gt;gb|KYD35074.1| Leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KZE93461.1| Leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KZM58130.1| leucine dehydrogenase [Geobacillus sp. 15] &gt;gb|OAO78242.1| Leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|PJW15415.1| Glu/Leu/Phe/Val dehydrogenase [Geobacillus sp. Manikaran-105] &gt;gb|PJW18493.1| Glu/Leu/Phe/Val dehydrogenase [Geobacillus sp. WSUCF-018B] &gt;gb|RLP90690.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|RLQ08062.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|RLQ10121.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|RLQ13780.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;dbj|BAD18325.1| leucine dehydrogenase [Geobacillus stearothermophilus] &gt;emb|STO12967.1| Leucine dehydrogenase [[Flavobacterium] thermophilum]</Hit_def>
+  <Hit_accession>WP_033009431</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>5.71997e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDIIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_031408396.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus vulcani]</Hit_def>
+  <Hit_accession>WP_031408396</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>5.84639e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_011231863.1|</Hit_id>
+  <Hit_def>MULTISPECIES: leucine dehydrogenase [Bacillaceae] &gt;gb|ACX76960.1| Glu/Leu/Phe/Val dehydrogenase [Geobacillus sp. Y412MC61] &gt;gb|ADI26150.1| Glu/Leu/Phe/Val dehydrogenase [Geobacillus sp. C56-T3] &gt;gb|ADU94786.1| Glu/Leu/Phe/Val dehydrogenase [Geobacillus sp. Y412MC52] &gt;gb|AEV19975.1| Leucine dehydrogenase [Geobacillus thermoleovorans CCB_US3_UF5] &gt;gb|ALA71326.1| leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;gb|AMV11508.1| leucine dehydrogenase [Geobacillus thermoleovorans] &gt;gb|AOL35117.1| leucine dehydrogenase [Geobacillus thermoleovorans] &gt;gb|AUI37922.1| Glu/Leu/Phe/Val dehydrogenase [[Bacillus] caldolyticus] &gt;gb|AWO75484.1| Glu/Leu/Phe/Val dehydrogenase [Geobacillus thermoleovorans] &gt;gb|EQB95119.1| leucine dehydrogenase [Geobacillus sp. A8] &gt;gb|ESU72375.1| leucine dehydrogenase [Geobacillus sp. MAS1] &gt;gb|KDE46523.1| leucine dehydrogenase [Geobacillus sp. CAMR12739] &gt;gb|KDE47580.1| leucine dehydrogenase [Geobacillus sp. CAMR5420] &gt;gb|ODA17806.1| leucine dehydrogenase [Geobacillus thermoleovorans] &gt;gb|OKO91145.1| Leucine dehydrogenase [Geobacillus sp. 1017] &gt;gb|OQP12013.1| leucine dehydrogenase [Geobacillus thermoleovorans] &gt;gb|OQP17759.1| leucine dehydrogenase [Geobacillus zalihae] &gt;gb|QCK83501.1| leucine dehydrogenase [Geobacillus kaustophilus NBRC 102445] &gt;gb|RXS89510.1| leucine dehydrogenase [Geobacillus sp. PK12] &gt;gb|TCK07881.1| UNVERIFIED_ORG: leucine dehydrogenase [Anoxybacillus amylolyticus] &gt;pdb|6ACF|A Chain A, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACF|B Chain B, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACF|C Chain C, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACF|D Chain D, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACF|E Chain E, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACF|F Chain F, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACF|G Chain G, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACF|H Chain H, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACH|A Chain A, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACH|B Chain B, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACH|C Chain C, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACH|D Chain D, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACH|E Chain E, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACH|F Chain F, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACH|G Chain G, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;pdb|6ACH|H Chain H, Leucine dehydrogenase [Geobacillus stearothermophilus 10] &gt;dbj|BAD18372.1| leucine dehydrogenase [Geobacillus kaustophilus HTA426] &gt;dbj|BAD76666.1| leucine dehydrogenase [Geobacillus kaustophilus HTA426] &gt;dbj|GAJ58269.1| leucine dehydrogenase [Geobacillus thermoleovorans B23]</Hit_def>
+  <Hit_accession>WP_011231863</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>5.91064e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|AGE22965.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus sp. GHH01]</Hit_def>
+  <Hit_accession>AGE22965</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>5.98026e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_079936385.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus sp. LEMMY01] &gt;gb|OPX02100.1| leucine dehydrogenase [Geobacillus sp. LEMMY01]</Hit_def>
+  <Hit_accession>WP_079936385</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>6.17479e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_094238947.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus lituanicus] &gt;gb|ASS86499.1| leucine dehydrogenase [Geobacillus lituanicus]</Hit_def>
+  <Hit_accession>WP_094238947</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>6.66577e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDIIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_066231986.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus jurassicus]</Hit_def>
+  <Hit_accession>WP_066231986</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>8.76037e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVIAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  ++VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_101353382.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Bacillus camelliae] &gt;gb|PKR86013.1| leucine dehydrogenase [Bacillus camelliae]</Hit_def>
+  <Hit_accession>WP_101353382</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>9.13735e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGCYVGMKAAAKEAFGNDSLEGLTVAVQGVGNVAFEMCRYLHEEGAKLIVTDINKEAVSRAVEQFGAVAVDPNDIYSVDCDIFAPCALGAIINDDTIPQLKAKVIAGSANNQLKETRHGDLIHEMGIVYAPDFVINAGGVINVADELYGYNRDRAMKKVEGIYNSIEKIIEISKRDGIPTYVAADRMAEERIAKVSKSRSQFLLNNRHILSNR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYG Y GMKAAAKEAFG+DSLEGL V+VQG+GNVA  +C+ L+ EGAKL+VTD+NK AVS AV + GA AV PN IY V CDIFAPCALGA++ND TIPQLKAKVIAGSA+NQLK+ RHG  +HE+GIVYAPD+VINAGGVINVADELYGYNR RAMK+V+GIY+SIEKI  ISKRDG+P+YVAADRMAEERIAKV+K+RSQFL + R+IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>dbj|BAD11088.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>BAD11088</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>9.87956e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDIIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_121678369.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|RLP97789.1| leucine dehydrogenase [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>WP_121678369</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>1.56352e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDIIHEMGMVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+G+VYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|EPR29688.1|</Hit_id>
+  <Hit_def>Leucine dehydrogenase [Geobacillus sp. WSUCF1]</Hit_def>
+  <Hit_accession>EPR29688</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>2.24424e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILN</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILS</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_033004866.1|</Hit_id>
+  <Hit_def>MULTISPECIES: leucine dehydrogenase [Geobacillus] &gt;gb|OQP24683.1| leucine dehydrogenase [Geobacillus zalihae]</Hit_def>
+  <Hit_accession>WP_033004866</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>2.31731e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILN</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEAVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDMIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILS</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK AV+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_053532191.1|</Hit_id>
+  <Hit_def>leucine dehydrogenase [Geobacillus stearothermophilus] &gt;gb|KOR95512.1| leucine dehydrogenase [Geobacillus stearothermophilus ATCC 12980]</Hit_def>
+  <Hit_accession>WP_053532191</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>2.64208e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPEFGSSGNPSPATAYGVYRGMKAAAKEAFGSDSLEGKVVAVQGVGNVAYHLCRHLHEEGAKLIVTDINKEVVARAVEEFGAKAVDPNDIYGVECDIFAPCALGGIINDQTIPQLKAKVIAGSANNQLKEPRHGDIIHEMGIVYAPDYVINAGGVINVADELYGYNRERAMKKIEQIYDNIEKVFAIAKRDNIPTYVAADRMAEERIETMRKARSQFLQNGHHILSRR</Hsp_hseq>
+      <Hsp_midline>GISP FGSSGNPSP TAYGVYRGMKAAAKEAFGSDSLEG  V+VQG+GNVA  LC+ L+ EGAKL+VTD+NK  V+ AV E GA AV PN IYGV CDIFAPCALG ++ND TIPQLKAKVIAGSA+NQLK+PRHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMK+++ IYD+IEK+FAI+KRD +P+YVAADRMAEERI  + KARSQFLQ+  +IL+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_121678980.1|</Hit_id>
+  <Hit_def>Glu/Leu/Phe/Val dehydrogenase [Falsibacillus sp. GY 10110] &gt;gb|RLQ98293.1| Glu/Leu/Phe/Val dehydrogenase [Falsibacillus sp. GY 10110]</Hit_def>
+  <Hit_accession>WP_121678980</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.54</Hsp_bit-score>
+      <Hsp_score>937</Hsp_score>
+      <Hsp_evalue>5.60369e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGSDSLEGLAVSVQGLGNVAKALCKKLNTEGAKLVVTDVNKAAVSAAVAEEGADAVAPNAIYGVTCDIFAPCALGAVLNDFTIPQLKAKVIAGSADNQLKDPRHGKYLHELGIVYAPDYVINAGGVINVADELYGYNRTRAMKRVDGIYDSIEKIFAISKRDGVPSYVAADRMAEERIAKVAKARSQFLQDQRNILNGR</Hsp_qseq>
+      <Hsp_hseq>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFGTDSLEGKTVAVQGVGNVAFNLCRHLHEEGANLIVTDINKEAVQRAVEEFGAKAVDPNEIYSVPCDIFAPCALGAVVNDDTIPQLKAKVIAGAANNQLKETRHGDTIHEMGIVYAPDYVINAGGVINVADELYGYNRDRAMKRVEQIYNNVEKVFEIAKRDGIPSYLAADRMAEERIQTMHKSRSQFLQNGKHILNNR</Hsp_hseq>
+      <Hsp_midline>GISPAFGSSGNPSPVTAYGVYRGMKAAAKEAFG+DSLEG  V+VQG+GNVA  LC+ L+ EGA L+VTD+NK AV  AV E GA AV PN IY V CDIFAPCALGAV+ND TIPQLKAKVIAG+A+NQLK+ RHG  +HE+GIVYAPDYVINAGGVINVADELYGYNR RAMKRV+ IY+++EK+F I+KRDG+PSY+AADRMAEERI  + K+RSQFLQ+ ++ILN R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216046246</Statistics_db-num>
+      <Statistics_db-len>550339452</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
