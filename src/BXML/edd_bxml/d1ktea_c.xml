@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_191143</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1ktea_c</BlastOutput_query-def>
+  <BlastOutput_query-len>105</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_191143</Iteration_query-ID>
+  <Iteration_query-def>d1ktea_c</Iteration_query-def>
+  <Iteration_query-len>105</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1KTE|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Thioltransferase At 2.2 Angstrom Resolution [Sus scrofa]</Hit_def>
+  <Hit_accession>1KTE_A</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>1.32547e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_999398.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Sus scrofa] &gt;ref|XP_005655046.1| glutaredoxin-1 isoform X1 [Sus scrofa] &gt;sp|P12309.2| RecName: Full=Glutaredoxin-1; AltName: Full=Thioltransferase-1; Short=TTase-1 [Sus scrofa] &gt;gb|AAA31132.1| thioltransferase [Sus scrofa] &gt;gb|ADZ99031.1| glutaredoxin [Sus scrofa] &gt;gb|AEE61370.1| glutaredoxin [Sus scrofa]</Hit_def>
+  <Hit_accession>NP_999398</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>4.6812e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQIGALK</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQ+GA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_006194565.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Camelus ferus] &gt;ref|XP_010947851.1| PREDICTED: glutaredoxin-1 [Camelus bactrianus] &gt;ref|XP_010947852.1| PREDICTED: glutaredoxin-1 [Camelus bactrianus] &gt;ref|XP_010992265.1| PREDICTED: glutaredoxin-1 [Camelus dromedarius] &gt;ref|XP_014422991.1| PREDICTED: glutaredoxin-1 [Camelus ferus] &gt;ref|XP_015102217.1| PREDICTED: glutaredoxin-1 [Vicugna pacos] &gt;ref|XP_015102218.1| PREDICTED: glutaredoxin-1 [Vicugna pacos] &gt;gb|TKS50112.1| hypothetical protein Cadr_00004548 [Camelus dromedarius]</Hit_def>
+  <Hit_accession>XP_006194565</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>8.17594e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRRTQELLSQLPFKQGLLEFVDITATGDTNEIQDYLQQLTGARTVPRVFIGKECIGGCNDLMNMHERGELLMRLKHIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CR+TQELLSQLPFK+GLLEFVDITAT DTNEIQDYLQQLTGARTVPRVFIGKECIGGC DL +MH+RGELL RL+ +GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|NP_001120760.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Ovis aries] &gt;ref|XP_005709470.2| PREDICTED: glutaredoxin-1 [Capra hircus] &gt;ref|XP_017905512.1| PREDICTED: glutaredoxin-1 [Capra hircus] &gt;gb|ACC91310.1| thioltransferase [Ovis aries]</Hit_def>
+  <Hit_accession>NP_001120760</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>1.2683e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITAASNTSEIQDYLEQLTGARTVPRVFIGQECIGGCTDLVNMHERGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDITA S+T+EIQDYL+QLTGARTVPRVFIG+ECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_006047571.2|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Bubalus bubalis] &gt;ref|XP_025147994.1| glutaredoxin-1 [Bubalus bubalis]</Hit_def>
+  <Hit_accession>XP_006047571</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>2.21996e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITAAGNTSEIQDYLQQLTGARTVPRVFIGQECIGGCTDLVNMHERGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDITA  +T+EIQDYLQQLTGARTVPRVFIG+ECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_027824961.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 isoform X1 [Ovis aries] &gt;ref|XP_027824962.1| glutaredoxin-1 isoform X1 [Ovis aries]</Hit_def>
+  <Hit_accession>XP_027824961</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>3.15515e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITAASNTSEIQDYLEQLTGARTVPRVFIGQECIGGCTDLVNMHERGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDITA S+T+EIQDYL+QLTGARTVPRVFIG+ECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_005982317.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 isoform X1 [Pantholops hodgsonii] &gt;ref|XP_005982318.1| PREDICTED: glutaredoxin-1 isoform X2 [Pantholops hodgsonii]</Hit_def>
+  <Hit_accession>XP_005982317</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>3.71875e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITSASNTSEIQDYLEQLTGARTVPRVFIGQECIGGCTDLVNMHERGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDIT+ S+T+EIQDYL+QLTGARTVPRVFIG+ECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_010830251.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 isoform X1 [Bison bison bison]</Hit_def>
+  <Hit_accession>XP_010830251</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>1.78617e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITAAGNISEIQDYLQQLTGARTVPRVFIGQECIGGCTDLVNMHERGELLTRLKQMGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDITA  + +EIQDYLQQLTGARTVPRVFIG+ECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|NP_001032693.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Bos taurus] &gt;ref|XP_010830252.1| PREDICTED: glutaredoxin-1 isoform X2 [Bison bison bison] &gt;sp|P10575.3| RecName: Full=Glutaredoxin-1; AltName: Full=Thioltransferase; Short=TTase [Bos taurus] &gt;gb|AAI09979.1| Glutaredoxin (thioltransferase)-like [Bos taurus] &gt;tpg|DAA27145.1| TPA: glutaredoxin-1 [Bos taurus]</Hit_def>
+  <Hit_accession>NP_001032693</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>2.56674e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITAAGNISEIQDYLQQLTGARTVPRVFIGQECIGGCTDLVNMHERGELLTRLKQMGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDITA  + +EIQDYLQQLTGARTVPRVFIG+ECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_024849981.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 isoform X1 [Bos taurus] &gt;ref|XP_027401373.1| glutaredoxin-1 [Bos indicus x Bos taurus] &gt;ref|XP_027401374.1| glutaredoxin-1 [Bos indicus x Bos taurus]</Hit_def>
+  <Hit_accession>XP_024849981</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>2.99102e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITAAGNISEIQDYLQQLTGARTVPRVFIGQECIGGCTDLVNMHERGELLTRLKQMGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDITA  + +EIQDYLQQLTGARTVPRVFIG+ECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>tpg|DAA21226.1|</Hit_id>
+  <Hit_def>TPA: glutaredoxin (thioltransferase)-like [Bos taurus]</Hit_def>
+  <Hit_accession>DAA21226</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>3.05951e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITAAGNTSEIQDYLQQLTGARTVPRVFIGQECIGGCTDLVNTHERGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDITA  +T+EIQDYLQQLTGARTVPRVFIG+ECIGGCTDL + H+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_020745197.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Odocoileus virginianus texanus]</Hit_def>
+  <Hit_accession>XP_020745197</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>8.12642e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVDSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVDITAAGDTSEIQDYLQQLTGARTVPRVFIGQECIGGCSDLVNMHETGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFV+SKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFVDITA  DT+EIQDYLQQLTGARTVPRVFIG+ECIGGC+DL +MH+ GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MBW04660.1|</Hit_id>
+  <Hit_def>Glutaredoxin-1 [Eschrichtius robustus]</Hit_def>
+  <Hit_accession>MBW04660</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>8.19664e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVLIKPTCPYCRRAQELLSQLPFKQGLLEFVDITAHDDTNEIQDYLQQLTGARMVPRVFIGKECIGGCSDLVNMHEKGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVV IKPTCP+CR+ QELLSQLPFK+GLLEFVDITA  DTNEIQDYLQQLTGAR VPRVFIGKECIGGC+DL +MH++GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_024602750.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Neophocaena asiaeorientalis asiaeorientalis] &gt;ref|XP_024602751.1| glutaredoxin-1 [Neophocaena asiaeorientalis asiaeorientalis]</Hit_def>
+  <Hit_accession>XP_024602750</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>2.06573e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYSRRAQELLSHLPFKQGLLEFVDITARSDTNEIQDYLQQLTGARTVPRVFIGQECIGGCNDLVNMHEKGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+ R+ QELLS LPFK+GLLEFVDITA SDTNEIQDYLQQLTGARTVPRVFIG+ECIGGC DL +MH++GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_005899364.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Bos mutus] &gt;ref|XP_014334777.1| PREDICTED: glutaredoxin-1 [Bos mutus] &gt;gb|ELR53865.1| hypothetical protein M91_17305 [Bos mutus]</Hit_def>
+  <Hit_accession>XP_005899364</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>2.54472e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKQGLLEFVGITAAGNTSEIQDYLQQLTGARTVPQVFIGQECIGGCTDLVNMHERGEVLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFK+GLLEFV ITA  +T+EIQDYLQQLTGARTVP+VFIG+ECIGGCTDL +MH+RGE+LTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_011985791.2|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Ovis aries]</Hit_def>
+  <Hit_accession>XP_011985791</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>3.42248e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQEHLSQLPFKQGLLEFVDITAASNTSEIQDYLEQLTGARTVPRVFICQECIGGCTDLVNMHERGELLTRLMQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQE LSQLPFK+GLLEFVDITA S+T+EIQDYL+QLTGARTVPRVFI +ECIGGCTDL +MH+RGELLTRL Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_004625487.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Octodon degus] &gt;ref|XP_023564400.1| glutaredoxin-1 [Octodon degus]</Hit_def>
+  <Hit_accession>XP_004625487</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>3.86166e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNGKIQPGKVVVFIKPTCPYCRKTQEILSQLPFKEGLLEFVDITATSNTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLVALQQNGELMVRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVN KIQPGKVVVFIKPTCP+CRKTQE+LSQLPFKEGLLEFVDITATS+TNEIQDYLQQLTGARTVPRVFIGK+CIGGC+DL ++ + GEL+ RL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_005890068.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Bos mutus] &gt;gb|ELR60509.1| Glutaredoxin-1 [Bos mutus]</Hit_def>
+  <Hit_accession>XP_005890068</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>4.80957e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVGITAAGNTSEIQDYLQQLTGARTVPQVFIGQECIGGCTDLVNMHERGEVLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFV ITA  +T+EIQDYLQQLTGARTVP+VFIG+ECIGGCTDL +MH+RGE+LTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_007450293.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Lipotes vexillifer]</Hit_def>
+  <Hit_accession>XP_007450293</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>5.99017e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYSRRAQELLSHLPFKQGLLEFVDITAHSDTNEIQDYLQQLTGARTVPRVFIGQECIGGCNDLVNMHEKGELVTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+ R+ QELLS LPFK+GLLEFVDITA SDTNEIQDYLQQLTGARTVPRVFIG+ECIGGC DL +MH++GEL+TRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_005326205.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Ictidomys tridecemlineatus] &gt;ref|XP_026241689.1| glutaredoxin-1 [Urocitellus parryii]</Hit_def>
+  <Hit_accession>XP_005326205</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>6.25901e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVDGKIQPGKVVVFIKPTCPFCRKTQEILSQLPFKQGLLEFVDITATGDTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLITMQENGELLTRLKQIGALK</Hsp_hseq>
+      <Hsp_midline>AQ FV+ KIQPGKVVVFIKPTCPFCRKTQE+LSQLPFK+GLLEFVDITAT DTNEIQDYLQQLTGARTVPRVFIGK+CIGGC+DL +M + GELLTRL+Q+GA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_007197520.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Balaenoptera acutorostrata scammoni] &gt;ref|XP_007197521.1| glutaredoxin-1 [Balaenoptera acutorostrata scammoni]</Hit_def>
+  <Hit_accession>XP_007197520</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.50602e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYSRRAQELLSHLPFKQGLLEFVDITAHGDTNEIQDYLQQLTGARTVPRVFIGQECIGGCNELVNMHAKGELLTRLQQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+ R+ QELLS LPFK+GLLEFVDITA  DTNEIQDYLQQLTGARTVPRVFIG+ECIGGC +L +MH +GELLTRLQQ+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_015339286.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Marmota marmota marmota] &gt;ref|XP_027783509.1| glutaredoxin-1 [Marmota flaviventris]</Hit_def>
+  <Hit_accession>XP_015339286</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.53945e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVDGKIQPGKVVVFIKPTCPFCRKTQEILSQLPFKQGLLEFVDITATGDTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLITMQENGELLSRLKQIGALK</Hsp_hseq>
+      <Hsp_midline>AQ FV+ KIQPGKVVVFIKPTCPFCRKTQE+LSQLPFK+GLLEFVDITAT DTNEIQDYLQQLTGARTVPRVFIGK+CIGGC+DL +M + GELL+RL+Q+GA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_022448217.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Delphinapterus leucas] &gt;ref|XP_022448229.1| glutaredoxin-1 [Delphinapterus leucas] &gt;gb|TKC49881.1| hypothetical protein EI555_015754 [Monodon monoceros]</Hit_def>
+  <Hit_accession>XP_022448217</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.62629e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYSSRAQELLSHLPFKQGLLEFVDITARSDTNEIQDYLQQLTGARTVPRVFIGQECIGGCNDLVNMHEKGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+  + QELLS LPFK+GLLEFVDITA SDTNEIQDYLQQLTGARTVPRVFIG+ECIGGC DL +MH++GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_004263567.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Orcinus orca] &gt;ref|XP_004324010.1| PREDICTED: glutaredoxin-1 [Tursiops truncatus] &gt;ref|XP_019785237.1| PREDICTED: glutaredoxin-1 [Tursiops truncatus] &gt;ref|XP_026956381.1| glutaredoxin-1 [Lagenorhynchus obliquidens] &gt;ref|XP_026956382.1| glutaredoxin-1 [Lagenorhynchus obliquidens] &gt;gb|TEA37280.1| hypothetical protein DBR06_SOUSAS6710012 [Sousa chinensis]</Hit_def>
+  <Hit_accession>XP_004263567</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>2.49512e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYSSRAQELLSHLPFKQGLLEFVDVTARSDTNEIQDYLQQLTGARTVPRVFIGQECIGGCNDLVNMHEKGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+  + QELLS LPFK+GLLEFVD+TA SDTNEIQDYLQQLTGARTVPRVFIG+ECIGGC DL +MH++GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>tpg|DAA12612.1|</Hit_id>
+  <Hit_def>TPA: glutaredoxin (thioltransferase)-like [Bos taurus]</Hit_def>
+  <Hit_accession>DAA12612</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>3.39276e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVGITAAGNTSEIQDYLQQLTRARTVPQVFIGQECIGGCTDLVNMHERGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFV ITA  +T+EIQDYLQQLT ARTVP+VFIG+ECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_003479487.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Cavia porcellus]</Hit_def>
+  <Hit_accession>XP_003479487</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>8.25342e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNGKIQSGKVVVFIKPTCPYCRKTQEILSQLPFREGFLEFVDITATSNTSEIQDYLQQLTGARTVPRVFIGRDCIGGCSDLETLQQNGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVN KIQ GKVVVFIKPTCP+CRKTQE+LSQLPF+EG LEFVDITATS+T+EIQDYLQQLTGARTVPRVFIG++CIGGC+DLE++ + GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_012500225.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012500225</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>9.01083e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNGKIQPGKVVVFIKPTCPYCRRTQEILSQLPFKQGFLEFVDITATSDANEIQDYLQRLTGARTVPRVFIGKECIGGCSDLITMQESGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN KIQPGKVVVFIKPTCP+CR+TQE+LSQLPFK+G LEFVDITATSD NEIQDYLQ+LTGARTVPRVFIGKECIGGC+DL +M + GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_020042128.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 isoform X1 [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020042128</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>9.8439e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNAKIQPGKVVVFIKPSCPYCRKTQEILSQLPFKQGLLEFVDITATSHTSEIQDYLKQLTGARTVPRVFIGKDCIGGCTDLEVMQQNGELLVRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN+KIQPGKVVVFIKP+CP+CRKTQE+LSQLPFK+GLLEFVDITATS T+EIQDYL+QLTGARTVPRVFIGK+CIGGCTDLE M + GELL RL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_020042129.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 isoform X2 [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020042129</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>1.04073e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNAKIQPGKVVVFIKPSCPYCRKTQEILSQLPFKQGLLEFVDITATSHTSEIQDYLKQLTGARTVPRVFIGKDCIGGCTDLEVMQQNGELLVRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN+KIQPGKVVVFIKP+CP+CRKTQE+LSQLPFK+GLLEFVDITATS T+EIQDYL+QLTGARTVPRVFIGK+CIGGCTDLE M + GELL RL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|P12864.1|</Hit_id>
+  <Hit_def>RecName: Full=Glutaredoxin-1; AltName: Full=Thioltransferase-1; Short=TTase-1 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>P12864</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.06233e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNSKIQPGKVVVFIKPTCPYCRKTQEILSQLPFKQGLLEFVDITATSDMSEIQDYLQQLTGARTVPRVFLGKDCIGGCSDLIAMQEKGELLARLKEMGALR</Hsp_hseq>
+      <Hsp_midline>AQ FVNSKIQPGKVVVFIKPTCP+CRKTQE+LSQLPFK+GLLEFVDITATSD +EIQDYLQQLTGARTVPRVF+GK+CIGGC+DL +M ++GELL RL+++GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_004651668.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Jaculus jaculus]</Hit_def>
+  <Hit_accession>XP_004651668</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.11001e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNSKIHPGKVVVFIKPTCPYCRKTQEILSALPFKHGLLEFVDITANSDTSEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLQSMQQSGELLTRLKTIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVNSKI PGKVVVFIKPTCP+CRKTQE+LS LPFK GLLEFVDITA SDT+EIQDYLQQLTGARTVPRVFIGK+CIGGC+DL+SM + GELLTRL+ +GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_021501292.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Meriones unguiculatus]</Hit_def>
+  <Hit_accession>XP_021501292</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.14716e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNCKIHPGKVVVFIKPTCPYCRKTQEILSQLPFKQGLLEFVDITATNNTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLVAMQQNGELMTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN KI PGKVVVFIKPTCP+CRKTQE+LSQLPFK+GLLEFVDITAT++TNEIQDYLQQLTGARTVPRVFIGK+CIGGC+DL +M + GEL+TRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|ELR46661.1|</Hit_id>
+  <Hit_def>hypothetical protein M91_10182 [Bos mutus]</Hit_def>
+  <Hit_accession>ELR46661</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.50933e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQTFVNSKIQSGKVVVFIKPTCPYCKRTPELLNQLPFKQGLLEFVSITANSDTNEIQDYLQQLTGARTVPRVFVGKECIGGCTDLVNIHERGELLTRIKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVNSKIQ GKVVVFIKPTCP+C++T ELL+QLPFK+GLLEFV ITA SDTNEIQDYLQQLTGARTVPRVF+GKECIGGCTDL ++H+RGELLTR++Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_012629346.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Microcebus murinus] &gt;ref|XP_020145763.1| glutaredoxin-1 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012629346</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>1.98583e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNGKIQPGKVVVFIKPTCPYCRRTQEILSQLPFKQGLLEFVDITATSEANEIQDYLQRLTGARTVPRVFIGKECIGGCSDLITMQESGELMTRLRQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN KIQPGKVVVFIKPTCP+CR+TQE+LSQLPFK+GLLEFVDITATS+ NEIQDYLQ+LTGARTVPRVFIGKECIGGC+DL +M + GEL+TRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_004769983.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Mustela putorius furo]</Hit_def>
+  <Hit_accession>XP_004769983</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>2.19199e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNSKIQPGKVVVFIKPTCPYCRRTQELLSELPFKQGLLEFVDITATSDTSKIQDYLETLTGARTVPRVFIGKDCIGGCSDLTEMHQSGELLKRLNQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVNSKIQPGKVVVFIKPTCP+CR+TQELLS+LPFK+GLLEFVDITATSDT++IQDYL+ LTGARTVPRVFIGK+CIGGC+DL  MH+ GELL RL Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_028376026.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Phyllostomus discolor]</Hit_def>
+  <Hit_accession>XP_028376026</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>2.52814e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AEEFVNSKIHPGKVVVFIKPTCPYCRKTQELLSQFSFRQGALEFVDITATGNTDKIQDYLQQLTGARTVPRVFIGKECIGGCTDLTNMHQRGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>A+ FVNSKI PGKVVVFIKPTCP+CRKTQELLSQ  F++G LEFVDITAT +T++IQDYLQQLTGARTVPRVFIGKECIGGCTDL +MH+RGELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_002713972.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>XP_002713972</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>2.78689e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNSKIQPGKVVVFIKPTCPYCRKTQEILSELPFKQGLLEFVDITATSDMSEIQDYLQQLTGARTVPRVFLGKDCIGGCSDLIAMQEKGELLARLKEMGALR</Hsp_hseq>
+      <Hsp_midline>AQ FVNSKIQPGKVVVFIKPTCP+CRKTQE+LS+LPFK+GLLEFVDITATSD +EIQDYLQQLTGARTVPRVF+GK+CIGGC+DL +M ++GELL RL+++GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_008592856.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008592856</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>7.01554e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AHEFVNSKIQPGKVVVFIKPTCPYCKKTQEILSQLPFKQGVLEFVDITATDDVNEIQDYLQQLTGARTVPRVFIGKNCIGGCSDLITMQQSGELMTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>A  FVNSKIQPGKVVVFIKPTCP+C+KTQE+LSQLPFK+G+LEFVDITAT D NEIQDYLQQLTGARTVPRVFIGK CIGGC+DL +M + GEL+TRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_019810995.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Bos indicus]</Hit_def>
+  <Hit_accession>XP_019810995</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>7.09295e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYCRKTQELLSQLPFKQGLLEFVGITAAGNXSEIQDYLQQLTRARTVPQVFIGQECIGGCTDLVNMHERGELLTRLKQXGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+CRKTQELLSQLPFK+GLLEFV ITA  + +EIQDYLQQLT ARTVP+VFIG+ECIGGCTDL +MH+RGELLTRL+Q GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_007078963.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Panthera tigris altaica] &gt;ref|XP_014920967.1| glutaredoxin-1 [Acinonyx jubatus] &gt;ref|XP_019284381.1| PREDICTED: glutaredoxin-1 [Panthera pardus] &gt;ref|XP_025779398.1| glutaredoxin-1 [Puma concolor]</Hit_def>
+  <Hit_accession>XP_007078963</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>7.41126e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AEEFVNCKIQPGKVVVFIKPSCPYCKRTQELLSQLPFKQGVLEFVDITATSDTSKIQDYLQQLTGARTVPRVFIGKDCIGGCTDLMDMHQSGELLKRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>A+ FVN KIQPGKVVVFIKP+CP+C++TQELLSQLPFK+G+LEFVDITATSDT++IQDYLQQLTGARTVPRVFIGK+CIGGCTDL  MH+ GELL RL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|NP_001185651.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Macaca mulatta] &gt;ref|NP_001271943.1| glutaredoxin-1 [Macaca fascicularis] &gt;ref|XP_003899983.1| glutaredoxin-1 isoform X1 [Papio anubis] &gt;ref|XP_003899984.1| glutaredoxin-1 isoform X1 [Papio anubis] &gt;ref|XP_003899985.1| glutaredoxin-1 isoform X1 [Papio anubis] &gt;ref|XP_005557467.1| PREDICTED: glutaredoxin-1 isoform X1 [Macaca fascicularis] &gt;ref|XP_005557468.1| PREDICTED: glutaredoxin-1 isoform X1 [Macaca fascicularis] &gt;ref|XP_005557469.1| PREDICTED: glutaredoxin-1 isoform X1 [Macaca fascicularis] &gt;ref|XP_009207074.1| glutaredoxin-1 isoform X1 [Papio anubis] &gt;ref|XP_011757126.1| glutaredoxin-1 [Macaca nemestrina] &gt;ref|XP_011757127.1| glutaredoxin-1 [Macaca nemestrina] &gt;ref|XP_011757128.1| glutaredoxin-1 [Macaca nemestrina] &gt;ref|XP_011844819.1| PREDICTED: glutaredoxin-1 isoform X1 [Mandrillus leucophaeus] &gt;ref|XP_011844820.1| PREDICTED: glutaredoxin-1 isoform X1 [Mandrillus leucophaeus] &gt;ref|XP_011844821.1| PREDICTED: glutaredoxin-1 isoform X1 [Mandrillus leucophaeus] &gt;ref|XP_011844822.1| PREDICTED: glutaredoxin-1 isoform X2 [Mandrillus leucophaeus] &gt;ref|XP_011944356.1| PREDICTED: glutaredoxin-1 [Cercocebus atys] &gt;ref|XP_011944357.1| PREDICTED: glutaredoxin-1 [Cercocebus atys] &gt;ref|XP_011944358.1| PREDICTED: glutaredoxin-1 [Cercocebus atys] &gt;ref|XP_011944359.1| PREDICTED: glutaredoxin-1 [Cercocebus atys] &gt;ref|XP_014995928.1| glutaredoxin-1 isoform X1 [Macaca mulatta] &gt;ref|XP_014995929.1| glutaredoxin-1 isoform X1 [Macaca mulatta] &gt;ref|XP_014995930.1| glutaredoxin-1 isoform X1 [Macaca mulatta] &gt;ref|XP_023067953.1| glutaredoxin-1 [Piliocolobus tephrosceles] &gt;ref|XP_023067955.1| glutaredoxin-1 [Piliocolobus tephrosceles] &gt;ref|XP_023067956.1| glutaredoxin-1 [Piliocolobus tephrosceles] &gt;ref|XP_023067957.1| glutaredoxin-1 [Piliocolobus tephrosceles] &gt;ref|XP_025242789.1| glutaredoxin-1 [Theropithecus gelada] &gt;ref|XP_025242791.1| glutaredoxin-1 [Theropithecus gelada] &gt;ref|XP_025242792.1| glutaredoxin-1 [Theropithecus gelada] &gt;ref|XP_025242793.1| glutaredoxin-1 [Theropithecus gelada] &gt;ref|XP_025242794.1| glutaredoxin-1 [Theropithecus gelada] &gt;ref|XP_028704966.1| glutaredoxin-1 isoform X1 [Macaca mulatta] &gt;dbj|BAE88025.1| unnamed protein product [Macaca fascicularis] &gt;dbj|BAE88893.1| unnamed protein product [Macaca fascicularis]</Hit_def>
+  <Hit_accession>NP_001185651</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>9.0299e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNGKIQPGKVVVFIKPTCPYCRRAQEILSQLPIKQGLLEFVDITATNHTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLVSMQQSGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN KIQPGKVVVFIKPTCP+CR+ QE+LSQLP K+GLLEFVDITAT+ TNEIQDYLQQLTGARTVPRVFIGK+CIGGC+DL SM + GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_023975792.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 isoform X1 [Physeter catodon] &gt;ref|XP_023975800.1| glutaredoxin-1 isoform X1 [Physeter catodon] &gt;ref|XP_023975807.1| glutaredoxin-1 isoform X1 [Physeter catodon]</Hit_def>
+  <Hit_accession>XP_023975792</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>9.53924e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQAFVNSKIQPGKVVVFIKPTCPYSIRAQELLSHLPFKQGLLEFVDITAHGDTSEIQDYLQQLTGARTVPRVFIGQECIGGCSDLVNMHEKGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQAFVNSKIQPGKVVVFIKPTCP+  + QELLS LPFK+GLLEFVDITA  DT+EIQDYLQQLTGARTVPRVFIG+ECIGGC+DL +MH++GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_022360554.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Enhydra lutris kenyoni] &gt;ref|XP_022360555.1| glutaredoxin-1 [Enhydra lutris kenyoni] &gt;ref|XP_022360556.1| glutaredoxin-1 [Enhydra lutris kenyoni]</Hit_def>
+  <Hit_accession>XP_022360554</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.03009e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNSKIQPGKVVVFIKPTCPYCRRTQELLRELPFKQGLLEFVDITATSDTSKIQDYLEMLTGARTVPRVFIGKDCIGGCSDLTEMHQSGELLKRLNQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVNSKIQPGKVVVFIKPTCP+CR+TQELL +LPFK+GLLEFVDITATSDT++IQDYL+ LTGARTVPRVFIGK+CIGGC+DL  MH+ GELL RL Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_012577236.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Condylura cristata] &gt;ref|XP_012577237.1| PREDICTED: glutaredoxin-1 [Condylura cristata] &gt;ref|XP_012577618.1| PREDICTED: glutaredoxin-1 [Condylura cristata]</Hit_def>
+  <Hit_accession>XP_012577236</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.05295e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNSKIQPGKVVVFIKPTCPYCKKTQEILGQLPFKEGFLEFVDITATGDTNEIQDYLQQLTGARTVPRVFLGKDCIGGCSDLVAMQQNGELLKRLKEIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVNSKIQPGKVVVFIKPTCP+C+KTQE+L QLPFKEG LEFVDITAT DTNEIQDYLQQLTGARTVPRVF+GK+CIGGC+DL +M + GELL RL+++GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_002927906.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Ailuropoda melanoleuca] &gt;gb|EFB21886.1| hypothetical protein PANDA_017752, partial [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>XP_002927906</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.12462e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNSKIQPGKVVVFIKPTCPYCRRTQELLSELPFKQGALEFVDITATSDTSKIQDYLETLTGARTVPRVFIGKDCIGGCSDLIEMHQRGELLKRLNEIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVNSKIQPGKVVVFIKPTCP+CR+TQELLS+LPFK+G LEFVDITATSDT++IQDYL+ LTGARTVPRVFIGK+CIGGC+DL  MH+RGELL RL ++GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_005356615.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Microtus ochrogaster] &gt;ref|XP_005356616.1| glutaredoxin-1 [Microtus ochrogaster]</Hit_def>
+  <Hit_accession>XP_005356615</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.17509e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNGKIQPGKVVVFIKPTCPYCQKTQEILRQLPFKQGLLEFVDITATNNTNEIQDYLQQLTGARTVPRVFIGKDCIGGCNDLIAMQQNGELMTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN KIQPGKVVVFIKPTCP+C+KTQE+L QLPFK+GLLEFVDITAT++TNEIQDYLQQLTGARTVPRVFIGK+CIGGC DL +M + GEL+TRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_021064313.1|</Hit_id>
+  <Hit_def>glutaredoxin-1 [Mus pahari]</Hit_def>
+  <Hit_accession>XP_021064313</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.26719e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNCKIQSGKVVVFIKPTCPYCRKTQEILSQLPFKQGLLEFVDITATNNTNAIQDYLQQLTGARTVPRVFIGKDCIGGCNDLISMQNNGELMTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN KIQ GKVVVFIKPTCP+CRKTQE+LSQLPFK+GLLEFVDITAT++TN IQDYLQQLTGARTVPRVFIGK+CIGGC DL SM   GEL+TRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|OBS79713.1|</Hit_id>
+  <Hit_def>hypothetical protein A6R68_22085 [Neotoma lepida]</Hit_def>
+  <Hit_accession>OBS79713</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.31139e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNGKIQPGKVVVFIKPTCPYCQKTQEILRQLPFKQGLLEFVDITATNNTNEIQDYLQQLTGARTVPRIFIGKDCIGGCSDLIAMQQNGELMTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN KIQPGKVVVFIKPTCP+C+KTQE+L QLPFK+GLLEFVDITAT++TNEIQDYLQQLTGARTVPR+FIGK+CIGGC+DL +M + GEL+TRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>emb|VFV19906.1|</Hit_id>
+  <Hit_def>glutaredoxin-1-like [Lynx pardinus]</Hit_def>
+  <Hit_accession>VFV19906</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>1.35528e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AEEFVNCKIQPGKVVVFIKPSCPYCKRTQELLSQLPFKQGALEFVDITATSDTSKIQDYLQQLTGARTVPRVFIGKDCIGGCTDLMDMHQSGELLKRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>A+ FVN KIQPGKVVVFIKP+CP+C++TQELLSQLPFK+G LEFVDITATSDT++IQDYLQQLTGARTVPRVFIGK+CIGGCTDL  MH+ GELL RL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_007977129.1|</Hit_id>
+  <Hit_def>PREDICTED: glutaredoxin-1 [Chlorocebus sabaeus] &gt;ref|XP_007977134.1| PREDICTED: glutaredoxin-1 [Chlorocebus sabaeus] &gt;ref|XP_007977144.1| PREDICTED: glutaredoxin-1 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_007977129</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>1.35528e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AQAFVNSKIQPGKVVVFIKPTCPFCRKTQELLSQLPFKEGLLEFVDITATSDTNEIQDYLQQLTGARTVPRVFIGKECIGGCTDLESMHKRGELLTRLQQVGAVK</Hsp_qseq>
+      <Hsp_hseq>AQEFVNGKIQPGKVVVFIKPTCPYCRRAQEILSQLPIKQGLLEFVDITATDHTNEIQDYLQQLTGARTVPRVFIGKDCIGGCSDLVSMQQSGELLTRLKQIGALQ</Hsp_hseq>
+      <Hsp_midline>AQ FVN KIQPGKVVVFIKPTCP+CR+ QE+LSQLP K+GLLEFVDITAT  TNEIQDYLQQLTGARTVPRVFIGK+CIGGC+DL SM + GELLTRL+Q+GA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>215796893</Statistics_db-num>
+      <Statistics_db-len>460543478</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
