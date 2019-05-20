@@ -1,0 +1,1432 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_56901</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1oi7a1c</BlastOutput_query-def>
+  <BlastOutput_query-len>121</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_56901</Iteration_query-ID>
+  <Iteration_query-def>d1oi7a1c</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1OI7|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Succinyl-Coa Synthetase Alpha Subunit From Thermus Thermophilus [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>1OI7_A</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>1.00945e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011228009.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus thermophilus] &gt;ref|YP_143803.1| succinyl-CoA synthetase subunit alpha [Thermus thermophilus HB8] &gt;dbj|BAD70360.1| succinyl-CoA synthetase alpha chain [Thermus thermophilus HB8] &gt;tpg|HAH39643.1| succinate--CoA ligase subunit alpha [Thermus sp.]</Hit_def>
+  <Hit_accession>WP_011228009</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>2.58172e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLSYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQML+YGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|3UFX|A</Hit_id>
+  <Hit_def>Chain A, succinyl-CoA synthetase alpha subunit [Thermus aquaticus] &gt;pdb|3UFX|D Chain D, succinyl-CoA synthetase alpha subunit [Thermus aquaticus] &gt;pdb|3UFX|F Chain F, succinyl-CoA synthetase alpha subunit [Thermus aquaticus] &gt;pdb|3UFX|H Chain H, succinyl-CoA synthetase alpha subunit [Thermus aquaticus]</Hit_def>
+  <Hit_accession>3UFX_A</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>8.93968e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNKETRVLVQGITGREGQFHTKQMLSYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVN+ETRVLVQGITGREGQFHTKQML+YGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_011172624.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus thermophilus] &gt;gb|AAS80517.1| succinyl-CoA synthetase alpha chain [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>WP_011172624</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>4.36486e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLSYGTKIVAGVTPGKGGTEVLGIPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQML+YGTKIVAGVTPGKGG EVLG+PVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>prf||1414360A</Hit_id>
+  <Hit_def>succinyl-CoA synthetase alpha [Thermus aquaticus]</Hit_def>
+  <Hit_accession>1414360A</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>5.99047e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLDYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_014509987.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus thermophilus] &gt;sp|P09143.1| RecName: Full=Succinate--CoA ligase [GDP-forming] subunit alpha; AltName: Full=Succinyl-CoA synthetase subunit alpha; Short=SCS-alpha [Thermus thermophilus] &gt;pir|SYTWSA| succinate-CoA ligase (ADP-forming) (EC 6.2.1.5) alpha chain [validated] - Thermus aquaticus [Thermus aquaticus] &gt;gb|AEG32962.1| succinyl-CoA synthetase, alpha subunit [Thermus thermophilus SG0.5JP17-16] &gt;emb|CAA38007.1| succinate--CoA ligase (ADP-forming) [Thermus thermophilus] &gt;emb|CAA39507.1| succinyl-CoA synthetase [Thermus aquaticus] &gt;emb|VCU53481.1| Succinate--CoA ligase [GDP-forming] subunit alpha [Thermus thermophilus] &gt;prf||1712304D succinyl CoA synthetase:SUBUNIT=alpha [Thermus thermophilus]</Hit_def>
+  <Hit_accession>WP_014509987</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>5.99047e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLDYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AAA27504.2|</Hit_id>
+  <Hit_def>succinyl-CoA synthetase alpha-subunit [Thermus aquaticus]</Hit_def>
+  <Hit_accession>AAA27504</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>1.04532e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLDYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_014630008.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus thermophilus] &gt;gb|AFH39417.1| succinyl-CoA synthetase, alpha subunit [Thermus thermophilus JL-18]</Hit_def>
+  <Hit_accession>WP_014630008</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>6.26177e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLDYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVANHEIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVA+HE+DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>prf||1708208A</Hit_id>
+  <Hit_def>succinyl CoA synthetase [Thermus aquaticus]</Hit_def>
+  <Hit_accession>1708208A</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>7.29559e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQCITGREGQFHTKQMLDYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQ ITGREGQFHTKQML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_008631842.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus parvatiensis] &gt;gb|EIA39460.1| succinyl-CoA synthetase, alpha subunit [Thermus parvatiensis]</Hit_def>
+  <Hit_accession>WP_008631842</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.565</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.76606e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLDYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPILDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIP LDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_093005517.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus arciformis] &gt;emb|SDE56729.1| succinyl-CoA synthetase (ADP-forming) alpha subunit [Thermus arciformis]</Hit_def>
+  <Hit_accession>WP_093005517</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.17934e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRDTRVLVQGITGREGQFHTQQMLAYGTKIVAGVTPGKGGAEVLGVPVYDTVKEAVANHEVDASIIFVPAPMAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNR+TRVLVQGITGREGQFHT+QML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVA+HEVDASIIFVPAP AADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_018112165.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus igniterrae]</Hit_def>
+  <Hit_accession>WP_018112165</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>2.61157e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKQMLDYGTKVVAGVTPGKGGTEVLGLPVYDTVKEAVKHHPIDASIIFVPAPMAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTKQML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAV HH +DASIIFVPAP AADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_038056305.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_038056305</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>6.04018e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTKEMLAYGTQVVAGVTPGKGGSEVLGLPVYDTVKEAVAHHRIDASIIFVPAPMAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHTK+ML YGT++VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAP AADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_014515310.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus sp. CCB_US3_UF1] &gt;gb|AEV15950.1| Succinyl-CoA ligase [ADP-forming] subunit alpha [Thermus sp. CCB_US3_UF1]</Hit_def>
+  <Hit_accession>WP_014515310</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>6.58994e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTQQMLAYGTQVVAGVTPGKGGMEVLGLPVYDTVKEAVANHAIDASIIFVPAPMAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHT+QML YGT++VAGVTPGKGGMEVLG+PVYDTVKEAVA+H +DASIIFVPAP AADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>tpg|HAR69000.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus scotoductus]</Hit_def>
+  <Hit_accession>HAR69000</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>8.71559e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_096410940.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus thermophilus] &gt;dbj|BAW01302.1| succinyl-CoA synthetase subunit alpha [Thermus thermophilus]</Hit_def>
+  <Hit_accession>WP_096410940</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>1.47505e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRDTRVLVQGITGREGQFHTKQMLDYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAAEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNR+TRVLVQGITGREGQFHTKQML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+A EEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_022797943.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus islandicus]</Hit_def>
+  <Hit_accession>WP_022797943</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>5.27239e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTQQMLSYGTQIVAGVTPGKGGAEVLGVPVYDTVKEAVARHKVDASIIFVPAPMAADAALEAAHAGIPLVVLITEGIPTLDMVRAVEEIRALGVRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHT+QML+YGT+IVAGVTPGKGG EVLGVPVYDTVKEAVA H+VDASIIFVPAP AADAALEAAHAGIPL+VLITEGIPTLDMVRAVEEI+ALG RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_105316652.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus tenuipuniceus]</Hit_def>
+  <Hit_accession>WP_105316652</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>6.62661e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTQQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_038042862.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus tengchongensis] &gt;gb|TFU18149.1| succinate--CoA ligase subunit alpha [Thermus tengchongensis]</Hit_def>
+  <Hit_accession>WP_038042862</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>8.98806e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGTEVLGLPVYDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1608626402|ref|WP_135259402.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus tengchongensis]</Hit_def>
+  <Hit_accession>WP_135259402</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>9.69971e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_028493128.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus antranikianii]</Hit_def>
+  <Hit_accession>WP_028493128</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>2.2672e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_019550025.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|KPD30700.1| succinyl-CoA synthetase subunit alpha [Thermus scotoductus] &gt;gb|RTG92208.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTG93339.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTG97254.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTG99273.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTG99596.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH00603.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH06531.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH08424.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH09359.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH14969.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH15387.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH16260.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH21124.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH24464.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH27045.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH29737.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH32103.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH36216.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH36416.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH96190.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH97070.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI04066.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI04403.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI04629.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI11378.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI17548.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI17875.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI19225.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI22988.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI25397.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI26813.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI33861.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI35764.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI39351.1| succinate--CoA ligase subunit alpha [Thermus scotoductus]</Hit_def>
+  <Hit_accession>WP_019550025</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>2.29201e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_016329018.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus oshimai] &gt;gb|AFV75825.1| succinyl-CoA synthetase, alpha subunit [Thermus oshimai JL-2]</Hit_def>
+  <Hit_accession>WP_016329018</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>2.3171e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTQQMLAYGTQVVAGVTPGKGGTEVLGLPVYDTVKEAVAHHKVDASIIFVPAPAAADAALEAAHAGVPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHT+QML YGT++VAGVTPGKGG EVLG+PVYDTVKEAVAHH+VDASIIFVPAPAAADAALEAAHAG+PLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_015716712.1|</Hit_id>
+  <Hit_def>MULTISPECIES: succinate--CoA ligase subunit alpha [Thermus] &gt;gb|ADW21431.1| succinate-CoA ligase, alpha subunit subfamily [Thermus scotoductus SA-01] &gt;gb|ETN88526.1| succinyl-CoA synthetase subsunit alpha [Thermus sp. NMX2.A1]</Hit_def>
+  <Hit_accession>WP_015716712</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>2.3171e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_038047129.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus caliditerrae]</Hit_def>
+  <Hit_accession>WP_038047129</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>4.12545e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGTEVLGLPVYDTVREAVAHHAIDASIIFVPAPAAADAALEAAHAGVPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTV+EAVAHH +DASIIFVPAPAAADAALEAAHAG+PLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_130839448.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus sp. CFH 72773T]</Hit_def>
+  <Hit_accession>WP_130839448</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>5.78093e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTQQMLAYGTKVVAGVTPGKGGTEVLGLPVYDTVKEAVAHHAIDASIVFVPAPAAADAALEAAHAGVPLIVLITEGIPTLDMVRAVEEIQALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASI+FVPAPAAADAALEAAHAG+PLIVLITEGIPTLDMVRAVEEI+ALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1608621516|ref|WP_135255616.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus sp. YIM 78456]</Hit_def>
+  <Hit_accession>WP_135255616</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.06335e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHAQQMLAYGTKVVAGVTPGKGGTEVLGLPVYDTVREAVAHHPIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFH +QML YGTK+VAGVTPGKGG EVLG+PVYDTV+EAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_003047935.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus aquaticus] &gt;gb|ALJ91211.1| succinyl-CoA ligase [ADP-forming] alpha chain [Thermus aquaticus Y51MC23] &gt;gb|EED09752.1| succinyl-CoA synthetase, alpha subunit [Thermus aquaticus Y51MC23]</Hit_def>
+  <Hit_accession>WP_003047935</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.81241e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTQQMLAYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVKNHAIDASIIFVPAPGAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIRTLGVRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHT+QML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAV +H +DASIIFVPAP AADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEI+ LG RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_126248759.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI48746.1| succinate--CoA ligase subunit alpha [Thermus scotoductus]</Hit_def>
+  <Hit_accession>WP_126248759</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.89304e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVHDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PV+DTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_126207066.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH32621.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTH96880.1| succinate--CoA ligase subunit alpha [Thermus scotoductus] &gt;gb|RTI13778.1| succinate--CoA ligase subunit alpha [Thermus scotoductus]</Hit_def>
+  <Hit_accession>WP_126207066</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>2.04287e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVAHHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPILDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVAHH +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIP LDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_038068696.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus scotoductus]</Hit_def>
+  <Hit_accession>WP_038068696</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>2.77053e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVARHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVA H +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_053767920.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus aquaticus] &gt;gb|KOX90338.1| Succinyl-CoA ligase [ADP-forming] subunit alpha [Thermus aquaticus]</Hit_def>
+  <Hit_accession>WP_053767920</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>2.98981e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVNRETRVLVQGITGREGQFHTQQMLAYGTKIVAGVTPGKGGTEVLGVPVYDTVKEAVKNHAIDASVIFVPAPGAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIRTLGVRLIGG</Hsp_hseq>
+      <Hsp_midline>MILVNRETRVLVQGITGREGQFHT+QML YGTKIVAGVTPGKGG EVLGVPVYDTVKEAV +H +DAS+IFVPAP AADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEI+ LG RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>dbj|GBD40290.1|</Hit_id>
+  <Hit_def>Succinate--CoA ligase [GDP-forming] subunit alpha [bacterium HR38]</Hit_def>
+  <Hit_accession>GBD40290</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>3.29742e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTRQMLEYGTKVVAGVTPGKGGSEVLGLPVYDTVKEAVARHAIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVEEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVA H +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AVEEIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_114312610.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus caldifontis]</Hit_def>
+  <Hit_accession>WP_114312610</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>7.48459e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRETRVLVQGITGREGQFHTQQMLDYGTRVVAGVTPGKGGTEVLGLPVYDTVKEAVAQHPIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVAEIKALGSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NRETRVLVQGITGREGQFHT+QML YGT++VAGVTPGKGG EVLG+PVYDTVKEAVA H +DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AV EIKALGSRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_117236710.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus sp. L198]</Hit_def>
+  <Hit_accession>WP_117236710</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>5.92376e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILVHRETRVLVQGITGREGQFHTQQMLAYGTKIVAGVTPGKGGTEVLGVPVYDTVKEATEDHAIDASIIFVPAPAAADAALEAAHAGIPLVVLITEGIPTLDMVRAAEEIKALGVRLIGG</Hsp_hseq>
+      <Hsp_midline>MILV+RETRVLVQGITGREGQFHT+QML YGTKIVAGVTPGKGG EVLGVPVYDTVKEA   H +DASIIFVPAPAAADAALEAAHAGIPL+VLITEGIPTLDMVRA EEIKALG RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_038063979.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Thermus filiformis] &gt;gb|KIX84377.1| succinyl-CoA synthetase subsunit alpha [Thermus filiformis]</Hit_def>
+  <Hit_accession>WP_038063979</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>1.94977e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALG-SRLIGG</Hsp_qseq>
+      <Hsp_hseq>MILINRDTTVLVQGITGREGQFHTKQMLDYGTKVVAGVTPGKGGTEVLGLPVYDTVKEAVANHKIDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVKAVAEIKAMGRSRLIGG</Hsp_hseq>
+      <Hsp_midline>MIL+NR+T VLVQGITGREGQFHTKQML YGTK+VAGVTPGKGG EVLG+PVYDTVKEAVA+H++DASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMV+AV EIKA+G SRLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_013704156.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Marinithermus hydrothermalis] &gt;gb|AEB12109.1| succinyl-CoA synthetase, alpha subunit [Marinithermus hydrothermalis DSM 14884]</Hit_def>
+  <Hit_accession>WP_013704156</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>5.27533e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVNKDTRVLVQGITGREGRFHTEQMIQYGTRIVAGVTPGKGGQEVLGVPVYDTVREAVAHHEIDASIIFVPAPAAADAALEAARAGIPLVVLITEGIPALDMVRAVKEIKELGVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILVN++TRVLVQGITGREG+FHT+QM+ YGT+IVAGVTPGKGG EVLGVPVYDTV+EAVAHHE+DASIIFVPAPAAADAALEAA AGIPL+VLITEGIP LDMVRAV+EIK LG RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_013457654.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Oceanithermus profundus] &gt;gb|ADR36484.1| succinyl-CoA synthetase (ADP-forming) alpha subunit [Oceanithermus profundus DSM 14977]</Hit_def>
+  <Hit_accession>WP_013457654</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.45558e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIGG</Hsp_qseq>
+      <Hsp_hseq>ILINKDTRVLVQGITGREGRFHAEQMQKYGTKIVAGVTPGKGGQEVLGVPVYDTVKEAVAHHGIDASIVFVPAAAAADAALEAAHAGVPLVVLITEGIPTLDMVAAVKEIKELGVRLIGG</Hsp_hseq>
+      <Hsp_midline>IL+N++TRVLVQGITGREG+FH +QM  YGTKIVAGVTPGKGG EVLGVPVYDTVKEAVAHH +DASI+FVPA AAADAALEAAHAG+PL+VLITEGIPTLDMV AV+EIK LG RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_110525824.1|</Hit_id>
+  <Hit_def>MULTISPECIES: succinate--CoA ligase subunit alpha [Meiothermus] &gt;gb|PZA08222.1| succinate--CoA ligase subunit alpha [Meiothermus sp. Pnk-1] &gt;gb|RYM38964.1| succinate--CoA ligase subunit alpha [Meiothermus silvanus]</Hit_def>
+  <Hit_accession>WP_110525824</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>7.75149e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVNKDTQVLVQGITGREGAFHTEQMIKAGTKIVAGMTPGKGGQMAQGVPVYDTVKEATRHHRIDASIIFVPAPGAADAALEAAHAGIPLVVLITEGIPTLDMVKAVAEIKAMGNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILVN++T+VLVQGITGREG FHT+QM+  GTKIVAG+TPGKGG    GVPVYDTVKEA  HH +DASIIFVPAP AADAALEAAHAGIPL+VLITEGIPTLDMV+AV EIKA+G+ RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|PVU75420.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Sulfolobus sp. SCGC AB-777_G06]</Hit_def>
+  <Hit_accession>PVU75420</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>7.87335e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIG</Hsp_qseq>
+      <Hsp_hseq>MTLVNRNTRVLVQGITGREGSFHTKHMLDYGTKIVAGVTPGKGGTEVYGVPVYDTVAEALKEHEVDASIIFVPAKFAIDALFEAIDNGIPLVVTITEHIPVMDMLRVKRYAKLKGSRIIG</Hsp_hseq>
+      <Hsp_midline>M LVNR TRVLVQGITGREG FHTK ML YGTKIVAGVTPGKGG EV GVPVYDTV EA+  HEVDASIIFVPA  A DA  EA   GIPL+V ITE IP +DM+R     K  GSR+IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>dbj|GBC94342.1|</Hit_id>
+  <Hit_def>Succinate--CoA ligase [ADP-forming] subunit alpha [bacterium HR16]</Hit_def>
+  <Hit_accession>GBC94342</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>1.11461e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIG</Hsp_qseq>
+      <Hsp_hseq>VLIDKNTRVLVQGITGREGEFHTRQMLDYGTQVVAGVTPGKGGQEVLGVPVFDTVKQAVSATGADASVIFVPAPFAADAVLEAADAGIRLIVCITEGIPVQDMVKTVALVRQKGVRLIG</Hsp_hseq>
+      <Hsp_midline>+L+++ TRVLVQGITGREG+FHT+QML YGT++VAGVTPGKGG EVLGVPV+DTVK+AV+    DAS+IFVPAP AADA LEAA AGI LIV ITEGIP  DMV+ V  ++  G RLIG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|KUK27064.1|</Hit_id>
+  <Hit_def>Succinyl-CoA ligase [ADP-forming] subunit alpha [Acetothermia bacterium 64_32] &gt;tpg|HAF70602.1| succinate--CoA ligase subunit alpha [Candidatus Acetothermia bacterium]</Hit_def>
+  <Hit_accession>KUK27064</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>2.3815e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGSRLIG</Hsp_qseq>
+      <Hsp_hseq>ILVNEATRVLVQGMTGSEGAFHTKQMLAYGTKVVAGVTPGKGGQSFEGIPVYDSVRQAVEDHRADASILFVPAPFACDAMLEAAEAGIPLLVCITEGIPLHDMLRAYHLIRGYGARLIG</Hsp_hseq>
+      <Hsp_midline>ILVN  TRVLVQG+TG EG FHTKQML YGTK+VAGVTPGKGG    G+PVYD+V++AV  H  DASI+FVPAP A DA LEAA AGIPL+V ITEGIP  DM+RA   I+  G+RLIG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_013158597.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Meiothermus silvanus] &gt;gb|ADH64049.1| succinyl-CoA synthetase, alpha subunit [Meiothermus silvanus DSM 9946]</Hit_def>
+  <Hit_accession>WP_013158597</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>2.47332e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVDKNTKVLVQGITGREGAFHTEQMMKAGTSVVAGMTPGKGGQTALGVPVYDTVKEATTHHHIDASIIFVPAPGAADAALEAAHAGIPLVVLITEGIPTLDMVKAVAEIKAMGNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILV++ T+VLVQGITGREG FHT+QM+  GT +VAG+TPGKGG   LGVPVYDTVKEA  HH +DASIIFVPAP AADAALEAAHAGIPL+VLITEGIPTLDMV+AV EIKA+G+ RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_027894144.1|</Hit_id>
+  <Hit_def>MULTISPECIES: succinate--CoA ligase subunit alpha [Meiothermus] &gt;gb|RIH90366.1| Succinate--CoA ligase [GDP-forming] subunit alpha [Meiothermus terrae]</Hit_def>
+  <Hit_accession>WP_027894144</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>3.8998e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVNKNTRVLVQGITGREGAFHTEQMIKAGTQVVAGMTPGKGGQTAQGIPVYDTVKEAANHHHIDASIIFVPAPGAADAALEAAHAGIPLVVLITEGIPTMDMVKAVAEIKAMGNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILVN+ TRVLVQGITGREG FHT+QM+  GT++VAG+TPGKGG    G+PVYDTVKEA  HH +DASIIFVPAP AADAALEAAHAGIPL+VLITEGIPT+DMV+AV EIKA+G+ RLIGG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>3.8998e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVNKNTRVLVQGITGREGAFHTEQMIKAGTQVVAGMTPGKGGQTAQGIPVYDTVKEAANHHHIDASIIFVPAPGAADAALEAAHAGIPLVVLITEGIPTMDMVKAVAEIKAMGNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILVN+ TRVLVQGITGREG FHT+QM+  GT++VAG+TPGKGG    G+PVYDTVKEA  HH +DASIIFVPAP AADAALEAAHAGIPL+VLITEGIPT+DMV+AV EIKA+G+ RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_119340689.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Meiothermus hypogaeus] &gt;gb|RIH78659.1| Succinate--CoA ligase [GDP-forming] subunit alpha [Meiothermus hypogaeus]</Hit_def>
+  <Hit_accession>WP_119340689</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>1.37136e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVNKNTSVIVQGITGREGAFHTEAMMKAGTRVVAGVTPGKGGQTTLGVPVYDTVKEAAVHHHIDASIIFVPAPGAADAALEAAHAGVPLVVLITEGIPTMDMVKAVAEIKALGNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILVN+ T V+VQGITGREG FHT+ M+  GT++VAGVTPGKGG   LGVPVYDTVKEA  HH +DASIIFVPAP AADAALEAAHAG+PL+VLITEGIPT+DMV+AV EIKALG+ RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_018467383.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Meiothermus timidus]</Hit_def>
+  <Hit_accession>WP_018467383</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>1.49558e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVNKNTQVLVQGITGREGAFHAEQMMKAGTKVVAGMTPGKGGQMAQGIPVYDTVKEATRHHRIDASIIFVPAPGAADAALEAAHAGIPLVVLITEGIPTLDMVKAVAEIKAMGNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILVN+ T+VLVQGITGREG FH +QM+  GTK+VAG+TPGKGG    G+PVYDTVKEA  HH +DASIIFVPAP AADAALEAAHAGIPL+VLITEGIPTLDMV+AV EIKA+G+ RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_119275453.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Meiothermus roseus] &gt;gb|RIH89855.1| Succinate--CoA ligase [GDP-forming] subunit alpha [Meiothermus roseus]</Hit_def>
+  <Hit_accession>WP_119275453</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.66679e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVNKNTQVLVQGITGREGAFHAEQMMKAGTKIVAGMTPGKGGQMAQGVPVYDTVKEATHHHRIDASIIFVPAPGAADAALEAAHAGIPLVVLITEGIPTMDMVKAVAEIKAMGNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILVN+ T+VLVQGITGREG FH +QM+  GTKIVAG+TPGKGG    GVPVYDTVKEA  HH +DASIIFVPAP AADAALEAAHAGIPL+VLITEGIPT+DMV+AV EIKA+G+ RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_013013647.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Meiothermus ruber] &gt;gb|ADD28128.1| succinyl-CoA synthetase, alpha subunit [Meiothermus ruber DSM 1279] &gt;gb|AGK04598.1| succinyl-CoA synthetase subunit alpha [Meiothermus ruber DSM 1279] &gt;dbj|GAO75078.1| succinyl-CoA synthetase subunit alpha [Meiothermus ruber H328]</Hit_def>
+  <Hit_accession>WP_013013647</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>9.64493e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVNKDTQVIVQGITGREGAFHTEAMMKAGTKVVAGVTPGKGGQTMLGVPVYDTVKEATAHHRVDASIIFVPAPAAADAALEAAHAGIPLVVLITEGIPTLDMVKAVAEIKAMQNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILVN++T+V+VQGITGREG FHT+ M+  GTK+VAGVTPGKGG  +LGVPVYDTVKEA AHH VDASIIFVPAPAAADAALEAAHAGIPL+VLITEGIPTLDMV+AV EIKA+ + RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_114799425.1|</Hit_id>
+  <Hit_def>succinate--CoA ligase subunit alpha [Meiothermus sp. QL-1] &gt;gb|RDI94785.1| succinate--CoA ligase subunit alpha [Meiothermus sp. QL-1]</Hit_def>
+  <Hit_accession>WP_114799425</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.04049e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ILVNRETRVLVQGITGREGQFHTKQMLTYGTKIVAGVTPGKGGMEVLGVPVYDTVKEAVAHHEVDASIIFVPAPAAADAALEAAHAGIPLIVLITEGIPTLDMVRAVEEIKALGS-RLIGG</Hsp_qseq>
+      <Hsp_hseq>ILVDKNTQVLVQGITGREGAFHTEAMLKAGTKVVAGVTPGKGGQTALGLPVYDTVKEAVARHRIDASIIFVPAPAAADAALEAAHAGVPLVVLITEGIPTLDMVRAVAEIKALGNVRLIGG</Hsp_hseq>
+      <Hsp_midline>ILV++ T+VLVQGITGREG FHT+ ML  GTK+VAGVTPGKGG   LG+PVYDTVKEAVA H +DASIIFVPAPAAADAALEAAHAG+PL+VLITEGIPTLDMVRAV EIKALG+ RLIGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>215796893</Statistics_db-num>
+      <Statistics_db-len>460543478</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

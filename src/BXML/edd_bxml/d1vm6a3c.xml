@@ -1,0 +1,1945 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_210737</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1vm6a3c</BlastOutput_query-def>
+  <BlastOutput_query-len>128</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_210737</Iteration_query-ID>
+  <Iteration_query-def>d1vm6a3c</Iteration_query-def>
+  <Iteration_query-len>128</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_004081877.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga maritima] &gt;ref|NP_229320.1| dihydrodipicolinate reductase [Thermotoga maritima MSB8] &gt;sp|Q9X1K8.1| RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase; Short=HTPA reductase [Thermotoga maritima MSB8] &gt;gb|AAD36587.1| dihydrodipicolinate reductase [Thermotoga maritima MSB8] &gt;gb|AGL50452.1| Dihydrodipicolinate reductase [Thermotoga maritima MSB8] &gt;gb|AHD18585.1| dihydrodipicolinate reductase [Thermotoga maritima MSB8] &gt;gb|AKE27407.1| dihydrodipicolinate reductase [Thermotoga maritima] &gt;gb|AKE29279.1| dihydrodipicolinate reductase [Thermotoga maritima MSB8] &gt;gb|AKE31151.1| dihydrodipicolinate reductase [Thermotoga maritima]</Hit_def>
+  <Hit_accession>WP_004081877</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>5.47324e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALKAAEFL</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYN---FSIGINVLKRFL</Hsp_hseq>
+      <Hsp_midline>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAY+   F+IG      FL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>7.84799e-12</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_hseq>
+      <Hsp_midline>+A SRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1VM6|A</Hit_id>
+  <Hit_def>Chain A, Dihydrodipicolinate Reductase [Thermotoga maritima] &gt;pdb|1VM6|B Chain B, Dihydrodipicolinate Reductase [Thermotoga maritima] &gt;pdb|1VM6|C Chain C, Dihydrodipicolinate Reductase [Thermotoga maritima] &gt;pdb|1VM6|D Chain D, Dihydrodipicolinate Reductase [Thermotoga maritima]</Hit_def>
+  <Hit_accession>1VM6_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>8.41537e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALKAAEFL</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYN---FSIGINVLKRFL</Hsp_hseq>
+      <Hsp_midline>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAY+   F+IG      FL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>9.35687e-12</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_hseq>
+      <Hsp_midline>+A SRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_008194957.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga] &gt;gb|AIY86849.1| dihydrodipicolinate reductase [Thermotoga sp. 2812B] &gt;gb|EJX25567.1| dihydrodipicolinate reductase [Thermotoga sp. EMP]</Hit_def>
+  <Hit_accession>WP_008194957</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>1.36071e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALKAAEFL</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVELCKKYRAGLVLGTTALKEEHFQMLRELSKEVPVVQAYN---FSIGINVLKRFL</Hsp_hseq>
+      <Hsp_midline>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTV+LCKKYRAGLVLGTTALKEEH QMLRELSKEVPVVQAY+   F+IG      FL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>3.96707e-11</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRTVFAIGALKAAEFLVGKDPGIYSFEEVIFG</Hsp_hseq>
+      <Hsp_midline>+A SRTVFAIGALKAAEFLVGKDPG+YSFEEVIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_012311108.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga] &gt;sp|B1LBR0.1| RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase; Short=HTPA reductase [Thermotoga sp. RQ2] &gt;gb|ACB09758.1| Dihydrodipicolinate reductase [Thermotoga sp. RQ2] &gt;gb|ADA67374.1| dihydrodipicolinate reductase [Thermotoga naphthophila RKU-10] &gt;gb|AIY88594.1| dihydrodipicolinate reductase [Thermotoga sp. Cell2] &gt;gb|KHC94194.1| dihydrodipicolinate reductase [Thermotoga sp. TBGT1765] &gt;gb|KHC94762.1| dihydrodipicolinate reductase [Thermotoga sp. TBGT1766] &gt;gb|KHC95365.1| dihydrodipicolinate reductase [Thermotoga sp. Xyl54] &gt;tpg|HBF69334.1| 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga sp.]</Hit_def>
+  <Hit_accession>WP_012311108</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>1.08511e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALKAAEFL</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELGSPDVVVDFSSPEALPKTVELCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYN---FSIGINVLKRFL</Hsp_hseq>
+      <Hsp_midline>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEEL SPDVV+DFSSPEALPKTV+LCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAY+   F+IG      FL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>8.53346e-12</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_hseq>
+      <Hsp_midline>+A SRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_011943767.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga] &gt;sp|A5IM63.1| RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase; Short=HTPA reductase [Thermotoga petrophila RKU-1] &gt;gb|ABQ47286.1| dihydrodipicolinate reductase [Thermotoga petrophila RKU-1] &gt;gb|KHC91228.1| dihydrodipicolinate reductase [Thermotoga sp. Mc24] &gt;gb|KUK22110.1| 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga naphthophila] &gt;tpg|HAA82206.1| 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga naphthophila]</Hit_def>
+  <Hit_accession>WP_011943767</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>2.38308e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALKAAEFL</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGIEELDSPDVVVDFSSPEALPKTVELCKKYRAGLVLGTTALKEEHFQMLRDLSREVPVVQAYN---FSIGINVLKRFL</Hsp_hseq>
+      <Hsp_midline>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNG+EELDSPDVV+DFSSPEALPKTV+LCKKYRAGLVLGTTALKEEH QMLR+LS+EVPVVQAY+   F+IG      FL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>8.99191e-12</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_hseq>
+      <Hsp_midline>+A SRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_015919466.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga] &gt;sp|B9K866.1| RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase; Short=HTPA reductase [Thermotoga neapolitana DSM 4359] &gt;gb|ACM23149.1| Dihydrodipicolinate reductase [Thermotoga neapolitana DSM 4359] &gt;gb|AJG41062.1| dihydrodipicolinate reductase [Thermotoga sp. RQ7] &gt;gb|KFZ21650.1| dihydrodipicolinate reductase [Thermotoga neapolitana LA10] &gt;tpg|HBF11572.1| 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga neapolitana]</Hit_def>
+  <Hit_accession>WP_015919466</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>4.58099e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALKAAEFL</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGKEIKDSPDVIVDFSSADALPETVDLCRKYKSALVLGTTALKEEHFEMLRELSKEVPVVQSYN---FSIGINVLKRFL</Hsp_hseq>
+      <Hsp_midline>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNG E  DSPDV++DFSS +ALP+TVDLC+KY++ LVLGTTALKEEH +MLRELSKEVPVVQ+Y+   F+IG      FL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.73208e-09</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRTVFAIGALKAAEFLVGREPGFYSFEEIVFG</Hsp_hseq>
+      <Hsp_midline>+A SRTVFAIGALKAAEFLVG++PG YSFEE++FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_101513886.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga sp. SG1] &gt;gb|PLV55616.1| 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga sp. SG1]</Hit_def>
+  <Hit_accession>WP_101513886</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>9.82413e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALKAAEFL</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGKEIKDSPDVIVDFSSADALPGTVDLCRRYKSALVLGTTALKEEHFEMLKELSKEVPVVQSYN---FSIGINVLKRFL</Hsp_hseq>
+      <Hsp_midline>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNG E  DSPDV++DFSS +ALP TVDLC++Y++ LVLGTTALKEEH +ML+ELSKEVPVVQ+Y+   F+IG      FL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>6.93268e-09</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRTVFAIGALKAAEFLVGREPGFYSFEKIVFG</Hsp_hseq>
+      <Hsp_midline>+A SRTVFAIGALKAAEFLVG++PG YSFE+++FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_101510176.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga sp. KOL6] &gt;gb|PLV60249.1| 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga sp. KOL6]</Hit_def>
+  <Hit_accession>WP_101510176</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>4.05576e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALKAAEFL</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGFSGRMGQEIQKVFSEKGHELVLKVDVNGVEEIGSPEVIVDFSSPEALTTTVNLCRKYKSGLVLGTTGLTDEHFKLLKELSNEIPVVQAYN---FSIGINVLKKFL</Hsp_hseq>
+      <Hsp_midline>MKYGIVG+SGRMGQEIQKVFSEKGHELVLKVDVNGVEE+ SP+V++DFSSPEAL  TV+LC+KY++GLVLGTT L +EH ++L+ELS E+PVVQAY+   F+IG     +FL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>4.74737e-07</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRTVFAIGALKAAEFVVNRRAGLYSFEEVLFG</Hsp_hseq>
+      <Hsp_midline>+A SRTVFAIGALKAAEF+V +  G+YSFEEV+FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|RKX51534.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga sp.]</Hit_def>
+  <Hit_accession>RKX51534</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>3.92524e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MRYGVVGFSGRMGREVIEVFSERGHELVLKVDLEQEQYLGKPDVIVDFSNPSALKRTVKLCEENSAGLVIGTTGLNEKDLEIIKDLSKKVPVVQSFN---FSIG</Hsp_hseq>
+      <Hsp_midline>M+YG+VG+SGRMG+E+ +VFSE+GHELVLKVD+   + L  PDV++DFS+P AL +TV LC++  AGLV+GTT L E+ L+++++LSK+VPVVQ+++   F+IG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.00042435</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RAISRRTFALGALKAAEFILRKEPGFYEFPKIVFG</Hsp_hseq>
+      <Hsp_midline>+A SR  FA+GALKAAEF++ K+PG Y F +++FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_072758565.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Fervidobacterium gondwanense] &gt;emb|SHN56539.1| dihydrodipicolinate reductase [Fervidobacterium gondwanense DSM 13020]</Hit_def>
+  <Hit_accession>WP_072758565</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.45188e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>LKYGIVGFRGKMGREIFEYFSTFGDECVLKKDVDSFEQTDTPQVIIDFSSPSALEETVKLCREHKIALVLGTTALEERHFEMLRELANEVPVVQSYN</Hsp_hseq>
+      <Hsp_midline>+KYGIVG+ G+MG+EI + FS  G E VLK DV+  E+ D+P V+IDFSSP AL +TV LC++++  LVLGTTAL+E H +MLREL+ EVPVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|RKX40458.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermotogae bacterium] &gt;gb|RKX53781.1| 4-hydroxy-tetrahydrodipicolinate reductase [Thermotoga sp.]</Hit_def>
+  <Hit_accession>RKX40458</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.60285e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTV</Hsp_qseq>
+      <Hsp_hseq>MRYGVVGFSGRMGREIIETFKEKGHELVYMLDIENEFADGEPQVILDFSRPEAVGKTVEVCRKYKAALVIGTTGLGEKELEMIRELSREVPVIQSYNFSV</Hsp_hseq>
+      <Hsp_midline>M+YG+VG+SGRMG+EI + F EKGHELV  +D+        P V++DFS PEA+ KTV++C+KY+A LV+GTT L E+ L+M+RELS+EVPV+Q+Y+ +V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000414617</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFL--VGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RALSRKTFALGALKAAEFLLNVGK-PGMYDFEKIIFG</Hsp_hseq>
+      <Hsp_midline>+A SR  FA+GALKAAEFL  VGK PGMY FE++IFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|RKX50591.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermotogae bacterium]</Hit_def>
+  <Hit_accession>RKX50591</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>3.10237e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTV</Hsp_qseq>
+      <Hsp_hseq>MRYGVVGFSGRMGREIIETFKERGHELVYMLDIENEFTDGEPQVILDFSRPEAVGKTVEVCRKYKAALVIGTTGLGEKELEMIRELSREVPVIQSYNFSV</Hsp_hseq>
+      <Hsp_midline>M+YG+VG+SGRMG+EI + F E+GHELV  +D+        P V++DFS PEA+ KTV++C+KY+A LV+GTT L E+ L+M+RELS+EVPV+Q+Y+ +V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.000105877</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFL--VGKDPGMYSFEEVIFG</Hsp_qseq>
+      <Hsp_hseq>RALSRKTFALGALKAAEFLLNVGK-PGMYDFEEIIFG</Hsp_hseq>
+      <Hsp_midline>+A SR  FA+GALKAAEFL  VGK PGMY FEE+IFG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_013047427.1|</Hit_id>
+  <Hit_def>dihydrodipicolinate reductase [Aminobacterium colombiense] &gt;gb|ADE56161.1| dihydrodipicolinate reductase [Aminobacterium colombiense DSM 12261]</Hit_def>
+  <Hit_accession>WP_013047427</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>5.33835e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGASGRMGQEIQKAFAE--HTLCLTVDINGETCDDTPQVIVDFSNRMALPRTIELCRLHRAGLVVGTTAIVQEDIELLRKLGEEVPVVQSFN---FSVG</Hsp_hseq>
+      <Hsp_midline>M+YG+VG SGRMGQEIQK F+E  H L L VD+NG    D+P V++DFS+  ALP+T++LC+ +RAGLV+GTTA+ +E +++LR+L +EVPVVQ+++   F++G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>0.000353292</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RALSRSVFALGAYRAAQFVVNAEPGFYSFEEVI</Hsp_hseq>
+      <Hsp_midline>+A SR+VFA+GA +AA+F+V  +PG YSFEEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_124888027.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Fretibacterium sp. OH1220_COT-178] &gt;gb|RRD65016.1| 4-hydroxy-tetrahydrodipicolinate reductase [Fretibacterium sp. OH1220_COT-178]</Hit_def>
+  <Hit_accession>WP_124888027</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>3.68602e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGCRGRMGVEVERAFGALGHSLVLTSDLEGVECRERPEVLVDFSSHAALAGTASLCREHRCGLVVGTTALKEEHFSLLRALGTEVPVVQSFN---FATG</Hsp_hseq>
+      <Hsp_midline>MKYGIVG  GRMG E+++ F   GH LVL  D+ GVE  + P+V++DFSS  AL  T  LC+++R GLV+GTTALKEEH  +LR L  EVPVVQ+++   FA G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.0843639</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RALNRSVFALGALRAAEFARTARPGFYSFRDVL</Hsp_hseq>
+      <Hsp_midline>+A +R+VFA+GAL+AAEF     PG YSF +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_069293110.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Fervidobacterium thailandense] &gt;gb|ODN30425.1| 4-hydroxy-tetrahydrodipicolinate reductase [Fervidobacterium thailandense]</Hit_def>
+  <Hit_accession>WP_069293110</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>3.93311e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MKYGLVGAKGKMGKEIRELFSSHGDDLVLEVDVDHFVERGIPEVIVDFSSPNAVPTTVELCKRYSAHLVIGTTALTQEHFELLRELGQHVAVVQSFN</Hsp_hseq>
+      <Hsp_midline>MKYG+VG  G+MG+EI+++FS  G +LVL+VDV+   E   P+V++DFSSP A+P TV+LCK+Y A LV+GTTAL +EH ++LREL + V VVQ+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_064012526.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fervidobacterium pennivorans] &gt;gb|ANE42270.1| dihydrodipicolinate reductase [Fervidobacterium pennivorans]</Hit_def>
+  <Hit_accession>WP_064012526</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>4.09183e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGANGKMGVEIQSYFSSLGDLCVLRKDRGVLEEIERPQVIIDFSSPDAVFETVELCRKYSCGLVIGTTALTEEHFSRLKELSEHVPVVQSYN</Hsp_hseq>
+      <Hsp_midline>M+YG+VG +G+MG EIQ  FS  G   VL+ D   +EE++ P V+IDFSSP+A+ +TV+LC+KY  GLV+GTTAL EEH   L+ELS+ VPVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_073072751.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermosipho atlanticus] &gt;emb|SHH38957.1| dihydrodipicolinate reductase [Thermosipho atlanticus DSM 15807]</Hit_def>
+  <Hit_accession>WP_073072751</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.00708e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MNFGVIGYKGRMGKLILELFQEHNHTPVLLVDKNEIIEKEKPDVIIDFSNKDALETTIYFCKKYSSNLVIGTTALKEEHFKLLKELSENVAVVQSYN---FSIG</Hsp_hseq>
+      <Hsp_midline>M +G++GY GRMG+ I ++F E  H  VL VD N + E + PDV+IDFS+ +AL  T+  CKKY + LV+GTTALKEEH ++L+ELS+ V VVQ+Y+   F+IG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.168924</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RALSRKVFALGALKAAEFVMKKTRGFFTFKDIL</Hsp_hseq>
+      <Hsp_midline>+A SR VFA+GALKAAEF++ K  G ++F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_077197771.1|</Hit_id>
+  <Hit_def>hypothetical protein [Thermosipho affectus] &gt;gb|ONN27970.1| dihydrodipicolinate reductase [Thermosipho affectus]</Hit_def>
+  <Hit_accession>WP_077197771</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>1.21441e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MKYGVIGYKGKMGRLITKLFNEKGHTSVLYVDKNSIKQTDIPEIIIDFSSKDALPHTIELCIKNSANLVIGTTGLSNEDISSLKDLSKKVAILQSYN</Hsp_hseq>
+      <Hsp_midline>MKYG++GY G+MG+ I K+F+EKGH  VL VD N +++ D P+++IDFSS +ALP T++LC K  A LV+GTT L  E +  L++LSK+V ++Q+Y+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0400025</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISREVFALGALKASEWLLSKKKGYYTFKDVI</Hsp_hseq>
+      <Hsp_midline>+A SR VFA+GALKA+E+L+ K  G Y+F++VI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_041263051.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Fervidobacterium pennivorans]</Hit_def>
+  <Hit_accession>WP_041263051</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>1.31433e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGANGKMGAEIQSYFSSLGDLCVLRKDMGVFEEIERPQVIIDFSSPDAVFETIELCRKFNCGLVIGTTALSEEHFAKLKELAEHVPVVQSYN</Hsp_hseq>
+      <Hsp_midline>M+YG+VG +G+MG EIQ  FS  G   VL+ D+   EE++ P V+IDFSSP+A+ +T++LC+K+  GLV+GTTAL EEH   L+EL++ VPVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AFG34453.1|</Hit_id>
+  <Hit_def>dihydrodipicolinate reductase [Fervidobacterium pennivorans DSM 9078]</Hit_def>
+  <Hit_accession>AFG34453</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>8.08056e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>IRYGLVGANGKMGAEIQSYFSSLGDLCVLRKDMGVFEEIERPQVIIDFSSPDAVFETIELCRKFNCGLVIGTTALSEEHFAKLKELAEHVPVVQSYN</Hsp_hseq>
+      <Hsp_midline>++YG+VG +G+MG EIQ  FS  G   VL+ D+   EE++ P V+IDFSSP+A+ +T++LC+K+  GLV+GTTAL EEH   L+EL++ VPVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_024821266.1|</Hit_id>
+  <Hit_def>dihydrodipicolinate reductase [Aminobacterium mobile]</Hit_def>
+  <Hit_accession>WP_024821266</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>8.91596e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MRYGLIGASGRMGQEIQKVFAD--HTLCLSVDVDGEWCNDTPQVIVDFSSRTAFPRTIELCREHGAALVIGTTAITKEDVDHLRSLGQDVPVIQSFN---FSVG</Hsp_hseq>
+      <Hsp_midline>M+YG++G SGRMGQEIQKVF++  H L L VDV+G    D+P V++DFSS  A P+T++LC+++ A LV+GTTA+ +E +  LR L ++VPV+Q+++   F++G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>0.000157395</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RALSRTVFALGALRAAQFAVTAEPGFYAFEEVI</Hsp_hseq>
+      <Hsp_midline>+A SRTVFA+GAL+AA+F V  +PG Y+FEEVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_075665212.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 4-hydroxy-tetrahydrodipicolinate reductase [Thermosipho] &gt;gb|ANQ53102.1| dihydrodipicolinate reductase [Thermosipho sp. 1070] &gt;gb|APT71551.1| dihydrodipicolinate reductase [Thermosipho sp. 1063] &gt;gb|OOC45627.1| dihydrodipicolinate reductase [Thermosipho sp. 1074]</Hit_def>
+  <Hit_accession>WP_075665212</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>9.87038e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MKYGVIGYKGKIGRLITKLFNEKGHTPVLYVDKNSIKQTDIPEIIIDFSSKDALPHTIELCIKNSANLVIGTTGLSNEDISSLKDLSKKVAILQSYN</Hsp_hseq>
+      <Hsp_midline>MKYG++GY G++G+ I K+F+EKGH  VL VD N +++ D P+++IDFSS +ALP T++LC K  A LV+GTT L  E +  L++LSK+V ++Q+Y+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0424382</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISREVFALGALKASEWLLSKKKGYYTFKDVI</Hsp_hseq>
+      <Hsp_midline>+A SR VFA+GALKA+E+L+ K  G Y+F++VI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_047265484.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 4-hydroxy-tetrahydrodipicolinate reductase [Marinitoga] &gt;gb|KLO24368.1| dihydrodipicolinate reductase [Marinitoga sp. 1155] &gt;gb|KLO24440.1| dihydrodipicolinate reductase [Marinitoga sp. 1197]</Hit_def>
+  <Hit_accession>WP_047265484</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>1.48069e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MKYGIIGRNGRMGNEIYNLFSEKGHKLVFSYDKNGENFIENPDILIDFSLPEVFNKVIEYTKKFKCPLIIGTTGLSNEQINELKTLSHEIPIIQSYN---FSIG</Hsp_hseq>
+      <Hsp_midline>MKYGI+G +GRMG EI  +FSEKGH+LV   D NG   +++PD++IDFS PE   K ++  KK++  L++GTT L  E +  L+ LS E+P++Q+Y+   F+IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_114702386.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermosipho africanus] &gt;gb|RDI92811.1| dihydrodipicolinate reductase [Thermosipho africanus Ob7]</Hit_def>
+  <Hit_accession>WP_114702386</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>2.44414e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MRFGVVGFKGKMGKVILDVFSNDGHTPVLLIDKDEIIEEDFPEVIIDFSTPDALEKTSSYCEKYNSNLVIGTTALTEKHLKILENLSKKVAVVQSYN---FSIG</Hsp_hseq>
+      <Hsp_midline>M++G+VG+ G+MG+ I  VFS  GH  VL +D + + E D P+V+IDFS+P+AL KT   C+KY + LV+GTTAL E+HL++L  LSK+V VVQ+Y+   F+IG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0194687</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISRKVFALGALKAAKFILNKKSGFYTFKDII</Hsp_hseq>
+      <Hsp_midline>+A SR VFA+GALKAA+F++ K  G Y+F+++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_077288644.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermosipho sp. 1223] &gt;gb|OOC47559.1| dihydrodipicolinate reductase [Thermosipho sp. 1223]</Hit_def>
+  <Hit_accession>WP_077288644</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>2.60764e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MKYGVIGYKGKIGKLITKLFNEKGHTPVLYVDKNSIKQTDIPEIIIDFSSKDALPHTIELCIKNSANLVIGTTGLLNEDISSLKDLSKKVAILQSYN</Hsp_hseq>
+      <Hsp_midline>MKYG++GY G++G+ I K+F+EKGH  VL VD N +++ D P+++IDFSS +ALP T++LC K  A LV+GTT L  E +  L++LSK+V ++Q+Y+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.0450215</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISREVFALGALKASEWLLSKKKGYYTFKDVI</Hsp_hseq>
+      <Hsp_midline>+A SR VFA+GALKA+E+L+ K  G Y+F++VI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>tpg|HCI29762.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Fervidobacterium sp.]</Hit_def>
+  <Hit_accession>HCI29762</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>3.50008e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGSMGKMGREIKDYFSTFGDKLVFETDRDYINESGRPDVIIDFSSPTALVSTIEYCKKYCAGLVIGTTGLNEEDFDKLKELSQSVPVVQSYN</Hsp_hseq>
+      <Hsp_midline>M+YG+VG  G+MG+EI+  FS  G +LV + D + + E   PDV+IDFSSP AL  T++ CKKY AGLV+GTT L EE    L+ELS+ VPVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_126993930.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermosipho globiformans]</Hit_def>
+  <Hit_accession>WP_126993930</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>8.826e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MRFGLVGFKGKMGKIILDVFSNDGHTPVLLIDKDEIIEEDFPEVIVDFSTPDALEKTSSYCEKYNSNLVIGTTALTEKHLKILENLSKKVAVVQSYN---FSIG</Hsp_hseq>
+      <Hsp_midline>M++G+VG+ G+MG+ I  VFS  GH  VL +D + + E D P+V++DFS+P+AL KT   C+KY + LV+GTTAL E+HL++L  LSK+V VVQ+Y+   F+IG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.0139121</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISRKVFALGALKAAKFILNKKSGIYTFKDII</Hsp_hseq>
+      <Hsp_midline>+A SR VFA+GALKAA+F++ K  G+Y+F+++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_011993263.1|</Hit_id>
+  <Hit_def>dihydrodipicolinate reductase [Fervidobacterium nodosum] &gt;gb|ABS59940.1| Dihydrodipicolinate reductase [Fervidobacterium nodosum Rt17-B1] &gt;gb|PHJ12537.1| dihydrodipicolinate reductase [Fervidobacterium sp. SC_NGM5_G05]</Hit_def>
+  <Hit_accession>WP_011993263</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>8.87012e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEEL-DSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MKYGVIGANGKMGREIIDYFSSIGDELVMKIDI-GLEEIVDRPDVIIDFSNRSALDKTIELCQKFSCPLVIGTTALTGEDFDRLRELSNIVPVVQSYN</Hsp_hseq>
+      <Hsp_midline>MKYG++G +G+MG+EI   FS  G ELV+K+D+ G+EE+ D PDV+IDFS+  AL KT++LC+K+   LV+GTTAL  E    LRELS  VPVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_033191323.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 4-hydroxy-tetrahydrodipicolinate reductase [Fervidobacterium] &gt;gb|AMW32172.1| 4-hydroxy-tetrahydrodipicolinate reductase [Fervidobacterium islandicum] &gt;gb|QAV32495.1| 4-hydroxy-tetrahydrodipicolinate reductase [Fervidobacterium changbaicum] &gt;emb|SDH57718.1| dihydrodipicolinate reductase [Fervidobacterium changbaicum]</Hit_def>
+  <Hit_accession>WP_033191323</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.39173e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>LRYGLIGANGKMGTEIQSYFSLFGDVCVFKKDKGFSEEIETPQVIIDFSSPDAVFETVELCKKYGSGLVIGTTALMQEHFDALHELANYVPVVQSYN</Hsp_hseq>
+      <Hsp_midline>++YG++G +G+MG EIQ  FS  G   V K D    EE+++P V+IDFSSP+A+ +TV+LCKKY +GLV+GTTAL +EH   L EL+  VPVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_045088460.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Defluviitoga tunisiensis] &gt;emb|CEP79138.1| 4-hydroxy-tetrahydrodipicolinate reductase [Defluviitoga tunisiensis]</Hit_def>
+  <Hit_accession>WP_045088460</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.57135e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MKFGIVGYKGRMGNEVKLLFEEKGHEFVWGYDKDGEYFSQTPELIIDFSLPEVLEKTIEFVKNFKVPLIIGTTGLSEEQLQSLKLLSQEIPIVQSYN---FSIG</Hsp_hseq>
+      <Hsp_midline>MK+GIVGY GRMG E++ +F EKGHE V   D +G     +P+++IDFS PE L KT++  K ++  L++GTT L EE LQ L+ LS+E+P+VQ+Y+   F+IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>emb|SSC11491.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Mesotoga infera]</Hit_def>
+  <Hit_accession>SSC11491</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.77434e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGSSGRMGHEIKEVFS--AHELVLEVDESGIFRRGEPNVFVDFSNRSVLATTLQLCSQYGAGLVIGTTALAEEDMKAIKELSNHVPVVQSYN</Hsp_hseq>
+      <Hsp_midline>M+YG+VG SGRMG EI++VFS   HELVL+VD +G+     P+V +DFS+   L  T+ LC +Y AGLV+GTTAL EE ++ ++ELS  VPVVQ+Y+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.00359202</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>HAISRRVFAIGALRAAEFCVSAKNGFYSFEEVL</Hsp_hseq>
+      <Hsp_midline> A SR VFAIGAL+AAEF V    G YSFEEV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_013931418.1|</Hit_id>
+  <Hit_def>dihydrodipicolinate reductase [Pseudothermotoga thermarum] &gt;gb|AEH50194.1| dihydrodipicolinate reductase [Pseudothermotoga thermarum DSM 5069]</Hit_def>
+  <Hit_accession>WP_013931418</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.20752e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGYKGKMGKELQQVFLEDGHELVVKVDVNEREITARPDVILDFSSPSALQTTISLAKEFNCAVVVGTTGLSQQQLQELKMLGEIVPVV--YSAN-FSIG</Hsp_hseq>
+      <Hsp_midline>M+YG+VGY G+MG+E+Q+VF E GHELV+KVDVN  E    PDV++DFSSP AL  T+ L K++   +V+GTT L ++ LQ L+ L + VPVV  YS   F+IG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.266103</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISRRTFALGALKAAKFAVNASRGFYSFSEVL</Hsp_hseq>
+      <Hsp_midline>+A SR  FA+GALKAA+F V    G YSF EV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_012579389.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Thermosipho africanus] &gt;sp|B7IF14.1| RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase; Short=HTPA reductase [Thermosipho africanus TCF52B] &gt;gb|ACJ74678.1| dihydrodipicolinate reductase [Thermosipho africanus TCF52B]</Hit_def>
+  <Hit_accession>WP_012579389</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.35507e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MRFGVVGFKGKMGKVILDVFSNDGHTPILLIDKDEIIEEDFPEVIVDFSTPDALEKTSSYCEKYNSNLVIGTTALTEKHFKILENLSKKVAVVQSYN---FSIG</Hsp_hseq>
+      <Hsp_midline>M++G+VG+ G+MG+ I  VFS  GH  +L +D + + E D P+V++DFS+P+AL KT   C+KY + LV+GTTAL E+H ++L  LSK+V VVQ+Y+   F+IG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0214896</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISRKVFALGALKAAKFILNKKSGFYTFKDII</Hsp_hseq>
+      <Hsp_midline>+A SR VFA+GALKAA+F++ K  G Y+F+++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|EKF48821.1|</Hit_id>
+  <Hit_def>dihydrodipicolinate reductase [Thermosipho africanus H17ap60334]</Hit_def>
+  <Hit_accession>EKF48821</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.36546e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MRFGVVGFKGKMGKVILDVFSNDGHTPILLIDKDEIIEEDFPEVIVDFSTPDALEKTSSYCEKYNSNLVIGTTALTEKHFKILENLSKKVAVVQSYN---FSIG</Hsp_hseq>
+      <Hsp_midline>M++G+VG+ G+MG+ I  VFS  GH  +L +D + + E D P+V++DFS+P+AL KT   C+KY + LV+GTTAL E+H ++L  LSK+V VVQ+Y+   F+IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_014806838.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Acetomicrobium mobile] &gt;gb|AFM21605.1| dihydrodipicolinate reductase [Acetomicrobium mobile DSM 13181]</Hit_def>
+  <Hit_accession>WP_014806838</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.15919e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNG-VEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALK</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGSTGRMGQEIQKAFVD--HTLCLTVNYEGSWSDGGKPDVIMDFSNPSCLPETVRLCREHGAALVIGTTGLKDSDFEMLRELARQVAVVQSYNFSI-GINALK</Hsp_hseq>
+      <Hsp_midline>M+YG+VG +GRMGQEIQK F +  H L L V+  G   +   PDV++DFS+P  LP+TV LC+++ A LV+GTT LK+   +MLREL+++V VVQ+Y+ ++  I ALK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.00225446</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISRSVFAYGALRAAEFAATAKPGLYSFEEVL</Hsp_hseq>
+      <Hsp_midline>+A SR+VFA GAL+AAEF     PG+YSFEEV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|AJC74229.1|</Hit_id>
+  <Hit_def>dihydrodipicolinate reductase [Pseudothermotoga hypogea DSM 11164 = NBRC 106472]</Hit_def>
+  <Hit_accession>AJC74229</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.88969e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>MKYGIVGSKGKMGREIMEYFSSFGDECVVEKDVDHFVERDVPQLIIDFSSPQGLKESVELCRKYNCGLIVGTTGLTDESFRLLGELSKTLPVVQSYN</Hsp_hseq>
+      <Hsp_midline>MKYGIVG  G+MG+EI + FS  G E V++ DV+   E D P ++IDFSSP+ L ++V+LC+KY  GL++GTT L +E  ++L ELSK +PVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_103898843.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga halophila] &gt;gb|POZ92175.1| dihydrodipicolinate reductase [Petrotoga halophila DSM 16923]</Hit_def>
+  <Hit_accession>WP_103898843</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>4.2032e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGA---LKAAEFLVGKDPGM</Hsp_qseq>
+      <Hsp_hseq>MKIGIVGYKGRMGKEIKDLFEEKNHEFVWGYDKDGEHFQEKPQIIIDFSLPEVFEKTEDYVKKFKVPLIIGTTGLQDEQIEALKALAKDVPVVQSYN---FSIGIQLFLKMVDFLKDKIDGW</Hsp_hseq>
+      <Hsp_midline>MK GIVGY GRMG+EI+ +F EK HE V   D +G    + P ++IDFS PE   KT D  KK++  L++GTT L++E ++ L+ L+K+VPVVQ+Y+   F+IG    LK  +FL  K  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_013405732.1|</Hit_id>
+  <Hit_def>dihydrodipicolinate reductase [Halanaerobium hydrogeniformans] &gt;gb|ADQ14650.1| dihydrodipicolinate reductase [Halanaerobium hydrogeniformans]</Hit_def>
+  <Hit_accession>WP_013405732</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>4.67066e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MKYGIIGYSGRMGQSIEKIFSQAGHELVYQKDENGEKELEKPELIIDFSLKEAFPETVRVIKEKEIPLIIGTTGLDEGDFKQLNQLAEKVAVIQSFN---FSIG</Hsp_hseq>
+      <Hsp_midline>MKYGI+GYSGRMGQ I+K+FS+ GHELV + D NG +EL+ P+++IDFS  EA P+TV + K+    L++GTT L E   + L +L+++V V+Q+++   F+IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_073160551.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Halanaerobium congolense] &gt;gb|KXS49671.1| dihydrodipicolinate reductase [Halanaerobium sp. T82-1] &gt;gb|ODS50503.1| dihydrodipicolinate reductase [Halanaerobium sp. 4-GBenrich] &gt;gb|OEG61792.1| 4-hydroxy-tetrahydrodipicolinate reductase [Halanaerobium sp. MDAL1] &gt;gb|PTX17241.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;gb|PUU92160.1| dihydrodipicolinate reductase [Halanaerobium sp.] &gt;gb|PXV62173.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;gb|TDP25670.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;gb|TDS27892.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;gb|TDX37042.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SDF09528.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SDH80731.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SDJ19073.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SDK55635.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SDM13241.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SES82606.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SET76449.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SFO96290.1| dihydrodipicolinate reductase [Halanaerobium congolense] &gt;emb|SHN14068.1| dihydrodipicolinate reductase [Halanaerobium congolense]</Hit_def>
+  <Hit_accession>WP_073160551</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>7.66975e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MKYGIIGYSGRMGQAIEKLFSKAGHKLVYQKDENSEKETEKPEVIIDFSLKEAFPKTVRVIEEKKVPLVIGTTGLDEDDFAKLDKLAEEVPVIQSFN---FSIG</Hsp_hseq>
+      <Hsp_midline>MKYGI+GYSGRMGQ I+K+FS+ GH+LV + D N  +E + P+V+IDFS  EA PKTV + ++ +  LV+GTT L E+    L +L++EVPV+Q+++   F+IG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_074198976.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Acetomicrobium flavidum] &gt;emb|SIN62339.1| dihydrodipicolinate reductase [Acetomicrobium flavidum]</Hit_def>
+  <Hit_accession>WP_074198976</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>7.72836e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNG-VEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALK</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGSTGRMGQEIQKAFVD--HTLCLTVNYEGSWSDGGKPDVIMDFSNPSCLPETVRLCREHGAALVIGTTGLKDGDFEMLRELARQVAVVQSYNFSI-GINALK</Hsp_hseq>
+      <Hsp_midline>M+YG+VG +GRMGQEIQK F +  H L L V+  G   +   PDV++DFS+P  LP+TV LC+++ A LV+GTT LK+   +MLREL+++V VVQ+Y+ ++  I ALK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.00246563</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISRSVFAYGALRAAEFAATAKPGLYSFEEVL</Hsp_hseq>
+      <Hsp_midline>+A SR+VFA GAL+AAEF     PG+YSFEEV+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>7.72836e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNG-VEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGALK</Hsp_qseq>
+      <Hsp_hseq>MRYGLVGSTGRMGQEIQKAFVD--HTLCLTVNYEGSWSDGGKPDVIMDFSNPSCLPETVRLCREHGAALVIGTTGLKDGDFEMLRELARQVAVVQSYNFSI-GINALK</Hsp_hseq>
+      <Hsp_midline>M+YG+VG +GRMGQEIQK F +  H L L V+  G   +   PDV++DFS+P  LP+TV LC+++ A LV+GTT LK+   +MLREL+++V VVQ+Y+ ++  I ALK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.00246563</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAISRSVFAYGALRAAEFAATAKPGLYSFEEVL</Hsp_hseq>
+      <Hsp_midline>+A SR+VFA GAL+AAEF     PG+YSFEEV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_103076117.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga mexicana] &gt;gb|PNS01492.1| dihydrodipicolinate reductase [Petrotoga mexicana DSM 14811]</Hit_def>
+  <Hit_accession>WP_103076117</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>8.38323e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGA---LKAAEFLVGKDPGM</Hsp_qseq>
+      <Hsp_hseq>MKIGIVGYKGRMGKEIKDLFEEKNHEFVWGYDKDGEYFQETPQIIIDFSLPEVFEKTEDYVKKFNVPLIIGTTGLQDEQIEALKALAKDVPVVQSYN---FSIGIQLFLKMVDFLKDKIDGW</Hsp_hseq>
+      <Hsp_midline>MK GIVGY GRMG+EI+ +F EK HE V   D +G    ++P ++IDFS PE   KT D  KK+   L++GTT L++E ++ L+ L+K+VPVVQ+Y+   F+IG    LK  +FL  K  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_103067327.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga olearia] &gt;gb|KUK16081.1| 4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga mobilis] &gt;gb|PNR95414.1| dihydrodipicolinate reductase [Petrotoga olearia DSM 13574] &gt;gb|RMA72603.1| dihydrodipicolinate reductase [Petrotoga olearia] &gt;tpg|HBT51627.1| 4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga sp.]</Hit_def>
+  <Hit_accession>WP_103067327</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.05142e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGA---LKAAEFLVGKDPGM</Hsp_qseq>
+      <Hsp_hseq>MKIGIVGYKGRMGKEIKDLFEEKNHEFVWGYDKDGEYFQDKPQIIVDFSLPEVFEKTEEYVRKFNVPLIIGTTALQDEQFEALKTLSKNVPVVQSYN---FSIGIQLFLKMVDFLKDKIDGW</Hsp_hseq>
+      <Hsp_midline>MK GIVGY GRMG+EI+ +F EK HE V   D +G    D P +++DFS PE   KT +  +K+   L++GTTAL++E  + L+ LSK VPVVQ+Y+   F+IG    LK  +FL  K  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_103079587.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga miotherma] &gt;gb|PNR97333.1| dihydrodipicolinate reductase [Petrotoga miotherma DSM 10691]</Hit_def>
+  <Hit_accession>WP_103079587</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.08599e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGA---LKAAEFLVGKDPGM</Hsp_qseq>
+      <Hsp_hseq>MKIGIVGYKGRMGKEIKDLFEEKNHEFVWGYDKDGEYFQEPPQIIIDFSLPEVFEKTEDYVKKFKVPLIIGTTGLRDEQIEALKALAKDVPVVQSYN---FSIGIQLFLKMVDFLKDKIDGW</Hsp_hseq>
+      <Hsp_midline>MK GIVGY GRMG+EI+ +F EK HE V   D +G    + P ++IDFS PE   KT D  KK++  L++GTT L++E ++ L+ L+K+VPVVQ+Y+   F+IG    LK  +FL  K  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_051368783.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Pseudothermotoga hypogea]</Hit_def>
+  <Hit_accession>WP_051368783</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.46773e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYS</Hsp_qseq>
+      <Hsp_hseq>LKYGIVGSKGKMGREIMEYFSSFGDECVVEKDVDHFVERDVPQLIIDFSSPQGLKESVELCRKYNCGLIVGTTGLTDESFRLLGELSKTLPVVQSYN</Hsp_hseq>
+      <Hsp_midline>+KYGIVG  G+MG+EI + FS  G E V++ DV+   E D P ++IDFSSP+ L ++V+LC+KY  GL++GTT L +E  ++L ELSK +PVVQ+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_121958881.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga sp. 9T1HF07.CasAA.8.2] &gt;gb|PNR89937.1| dihydrodipicolinate reductase [Petrotoga sp. 9T1HF07.CasAA.8.2]</Hit_def>
+  <Hit_accession>WP_121958881</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.51709e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGA---LKAAEFLVGKDPGM</Hsp_qseq>
+      <Hsp_hseq>MKIGIVGYKGRMGKEIKDLFEEKNHEFVWGYDKDGEYFQEKPQLIIDFSLAEAFEKTEDYVNKFKVPLIIGTTGLQDEQIEALKTLSKDVPVVQSYN---FSIGIQLFLKMADFLKDKIDGW</Hsp_hseq>
+      <Hsp_midline>MK GIVGY GRMG+EI+ +F EK HE V   D +G    + P ++IDFS  EA  KT D   K++  L++GTT L++E ++ L+ LSK+VPVVQ+Y+   F+IG    LK A+FL  K  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_072864538.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Marinitoga hydrogenitolerans] &gt;emb|SHE83185.1| dihydrodipicolinate reductase [Marinitoga hydrogenitolerans DSM 16785]</Hit_def>
+  <Hit_accession>WP_072864538</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.59073e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MKYGIIGRNGRMGNEIYNLFSEKGHDLVFSYDKEGENFLETPEVLIDFSLPTAFEKVIEYVEKFRCPLIIGTTGLSNEQITKLKELSQTLPIIQSYN---FSLG</Hsp_hseq>
+      <Hsp_midline>MKYGI+G +GRMG EI  +FSEKGH+LV   D  G   L++P+V+IDFS P A  K ++  +K+R  L++GTT L  E +  L+ELS+ +P++Q+Y+   F++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_012002779.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dihydrodipicolinate reductase [Pseudothermotoga] &gt;gb|ABV33298.1| Dihydrodipicolinate reductase [Pseudothermotoga lettingae TMO] &gt;gb|KUK21147.1| 4-hydroxy-tetrahydrodipicolinate reductase [Pseudothermotoga lettingae] &gt;tpg|HBJ80497.1| 4-hydroxy-tetrahydrodipicolinate reductase [Pseudothermotoga sp.] &gt;tpg|HBT26623.1| 4-hydroxy-tetrahydrodipicolinate reductase [Pseudothermotoga sp.]</Hit_def>
+  <Hit_accession>WP_012002779</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.89676e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIG</Hsp_qseq>
+      <Hsp_hseq>MKYGLVGFSGKMGKEIIEVFSEYCHQLVAKFDRTHREVQEKPDIILDFSSPEALKETVELSKKFLCPAVIGTTNLKEQDISMLNELSALVPVV--YSSN-FSVG</Hsp_hseq>
+      <Hsp_midline>MKYG+VG+SG+MG+EI +VFSE  H+LV K D    E  + PD+++DFSSPEAL +TV+L KK+    V+GTT LKE+ + ML ELS  VPVV  YS   F++G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>1.50133</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>QAYSRTVFAIGALKAAEFLVGKDPGMYSFEEVI</Hsp_qseq>
+      <Hsp_hseq>RAMSRKIFALGALKAAEFAISTKASFYTFRDVL</Hsp_hseq>
+      <Hsp_midline>+A SR +FA+GALKAAEF +      Y+F +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_012209039.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga mobilis] &gt;gb|ABX31939.1| Dihydrodipicolinate reductase [Petrotoga mobilis SJ95]</Hit_def>
+  <Hit_accession>WP_012209039</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.9441e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGA---LKAAEFLVGK</Hsp_qseq>
+      <Hsp_hseq>MKIGIVGYKGRMGKEIKDLFEEKNHEFVWGYDKDGEYFQEKPQLIIDFSLPEVFEKTEDYVKKFKVPLIIGTTGLQDEQIEALKTLSKDVPVVQSYN---FSIGIQLFLKMADLLKDK</Hsp_hseq>
+      <Hsp_midline>MK GIVGY GRMG+EI+ +F EK HE V   D +G    + P ++IDFS PE   KT D  KK++  L++GTT L++E ++ L+ LSK+VPVVQ+Y+   F+IG    LK A+ L  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_121567239.1|</Hit_id>
+  <Hit_def>4-hydroxy-tetrahydrodipicolinate reductase [Petrotoga sp. Shatin.DS.tank11.9.2.9.3] &gt;gb|RLL85178.1| dihydrodipicolinate reductase [Petrotoga sp. Shatin.DS.tank11.9.2.9.3]</Hit_def>
+  <Hit_accession>WP_121567239</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>2.11923e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MKYGIVGYSGRMGQEIQKVFSEKGHELVLKVDVNGVEELDSPDVVIDFSSPEALPKTVDLCKKYRAGLVLGTTALKEEHLQMLRELSKEVPVVQAYSRTVFAIGA---LKAAEFLVGKDPGM</Hsp_qseq>
+      <Hsp_hseq>MKIGIVGYKGRMGKEIKDLFEEKNHEFVWGYDKDGEYFQETPQLIIDFSLPEVFEKTEDYVKKFNVPLIIGTTGLQDEQIESLKALAKDVPVVQSYN---FSIGIQLFLKMVDFLKDKIDGW</Hsp_hseq>
+      <Hsp_midline>MK GIVGY GRMG+EI+ +F EK HE V   D +G    ++P ++IDFS PE   KT D  KK+   L++GTT L++E ++ L+ L+K+VPVVQ+Y+   F+IG    LK  +FL  K  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>215796893</Statistics_db-num>
+      <Statistics_db-len>460543478</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
