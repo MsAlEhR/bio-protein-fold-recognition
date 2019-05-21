@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_241057</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1krha3d</BlastOutput_query-def>
+  <BlastOutput_query-len>104</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_241057</Iteration_query-ID>
+  <Iteration_query-def>d1krha3d</Iteration_query-def>
+  <Iteration_query-len>104</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AAC46438.1|</Hit_id>
+  <Hit_def>BenC [Acinetobacter baylyi] [Acinetobacter baylyi ADP1] &gt;pdb|1KRH|A Chain A, Benzoate 1,2-dioxygenase Reductase [Acinetobacter sp.] &gt;pdb|1KRH|B Chain B, Benzoate 1,2-dioxygenase Reductase [Acinetobacter sp.]</Hit_def>
+  <Hit_accession>AAC46438</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>7.60166e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_004925482.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baylyi] &gt;gb|ENV54551.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baylyi DSM 14961 = CIP 107474] &gt;gb|MAK28923.1| NADH oxidase [Acinetobacter sp.]</Hit_def>
+  <Hit_accession>WP_004925482</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>1.36097e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRIAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI IAQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|P07771.2|</Hit_id>
+  <Hit_def>RecName: Full=Benzoate 1,2-dioxygenase electron transfer component; Includes: RecName: Full=Ferredoxin; Includes: RecName: Full=Ferredoxin--NAD(+) reductase [Acinetobacter baylyi] &gt;emb|CAG68302.1| benzoate 1,2-dioxygenase electron transfer component [Includes: Ferredoxin; Ferredoxin--NAD(+) reductase] [Acinetobacter baylyi ADP1]</Hit_def>
+  <Hit_accession>P07771</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>1.58709e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRIAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI IAQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_119689548.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli]</Hit_def>
+  <Hit_accession>WP_119689548</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>1.90642e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_025094909.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli]</Hit_def>
+  <Hit_accession>WP_025094909</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>2.03492e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_088459565.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli]</Hit_def>
+  <Hit_accession>WP_088459565</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.12537e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_053469668.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter] &gt;gb|KOR16162.1| NADH oxidase [Acinetobacter sp. C15] &gt;gb|RSB54733.1| NADH oxidase [Acinetobacter soli]</Hit_def>
+  <Hit_accession>WP_053469668</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.17209e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_076032668.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli] &gt;gb|APV35736.1| NADH oxidase [Acinetobacter soli]</Hit_def>
+  <Hit_accession>WP_076032668</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.2441e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_104124805.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli] &gt;gb|PPB86575.1| NADH oxidase [Acinetobacter soli]</Hit_def>
+  <Hit_accession>WP_104124805</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.29343e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_120429668.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baylyi]</Hit_def>
+  <Hit_accession>WP_120429668</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.29343e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_004946716.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli] &gt;gb|ENV59595.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter soli NIPH 2899]</Hit_def>
+  <Hit_accession>WP_004946716</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.3185e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_055414528.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli] &gt;gb|KQD04247.1| NADH oxidase [Acinetobacter soli]</Hit_def>
+  <Hit_accession>WP_055414528</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.39536e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_004936943.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli] &gt;gb|ENV57307.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter soli CIP 110264]</Hit_def>
+  <Hit_accession>WP_004936943</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>3.54274e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQIALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQ+ALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_119026483.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter soli]</Hit_def>
+  <Hit_accession>WP_119026483</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>5.65389e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQSSSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQ+SSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_048764079.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter sp. 243_ASPC]</Hit_def>
+  <Hit_accession>WP_048764079</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>1.31997e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHQVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPMDCREGACGTCRAFCASGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_hseq>
+      <Hsp_midline>SNHQVALQFEDGVTRFI +AQGETLSDAAYRQQINIPMDCREG CGTCRAFC SGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_130802020.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter sp. Marseille-P8049]</Hit_def>
+  <Hit_accession>WP_130802020</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>2.45696e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHHVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPLDCREGACGTCRAFCESGSYDMPEDNYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTK</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQQINIP+DCREG CGTCRAFCESG+YDMPEDNYIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_120370410.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter sp. WCHAc060096] &gt;gb|RKG33197.1| NADH oxidase [Acinetobacter sp. WCHAc060096]</Hit_def>
+  <Hit_accession>WP_120370410</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>1.01935e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHHVALQFEDGVTRFIRVAQGETLSDAAYRQQINIPLDCREGACGTCRAYCESGSYDMPEDNYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTK</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQQINIP+DCREG CGTCRA+CESG+YDMPEDNYIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKTK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>tpg|HCK63830.1|</Hit_id>
+  <Hit_def>NADH oxidase [Acinetobacter radioresistens]</Hit_def>
+  <Hit_accession>HCK63830</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>3.44403e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEENYIEDALTPEEAEEGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE+NYIEDALTPEEA++GY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_125564550.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein, partial [Acinetobacter baumannii] &gt;gb|RSP61971.1| NADH oxidase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_125564550</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>7.1413e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|EYD45077.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain protein [Acinetobacter baumannii 25493_5]</Hit_def>
+  <Hit_accession>EYD45077</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>1.57097e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|EYD05110.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain protein [Acinetobacter baumannii 44362_3]</Hit_def>
+  <Hit_accession>EYD05110</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>1.69626e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>tpg|HAV17320.1|</Hit_id>
+  <Hit_def>NADH oxidase [Acinetobacter nosocomialis]</Hit_def>
+  <Hit_accession>HAV17320</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>1.80953e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|RDJ49063.1|</Hit_id>
+  <Hit_def>NADH oxidase, partial [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>RDJ49063</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>2.61939e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_002048784.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter calcoaceticus/baumannii complex] &gt;gb|ELW85764.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter sp. OIFC021] &gt;gb|EXE48860.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter sp. 766875]</Hit_def>
+  <Hit_accession>WP_002048784</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>4.13293e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGNYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESGNYDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_114193905.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter calcoaceticus/baumannii complex] &gt;gb|RSN86017.1| NADH oxidase [Acinetobacter nosocomialis] &gt;emb|SSO21513.1| benC [Acinetobacter baumannii] &gt;emb|SSQ79641.1| benC [Acinetobacter baumannii] &gt;emb|SSR66083.1| benC [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_114193905</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>4.17804e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEENYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE+NYIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|OYW70776.1|</Hit_id>
+  <Hit_def>NADH oxidase, partial [Pseudomonadales bacterium 32-42-5]</Hit_def>
+  <Hit_accession>OYW70776</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>4.98999e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFITVTQGESLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEETYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSEVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI + QGE+LSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE+ YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASSEVCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_004770850.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter sp. NIPH 758] &gt;gb|ENU92614.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter sp. NIPH 758]</Hit_def>
+  <Hit_accession>WP_004770850</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>6.37996e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFICVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEETYIEDALTPEEAEQGYILACQCRPSSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFIC+AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE+ YIEDALTPEEA+QGY+LACQCRP+SDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>emb|VDA08813.1|</Hit_id>
+  <Hit_def>Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>VDA08813</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>7.71799e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEETYIEDALTPEEAAQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE+ YIEDALTPEEA QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_046812977.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter pittii] &gt;gb|TGU86413.1| 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter pittii]</Hit_def>
+  <Hit_accession>WP_046812977</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>8.36877e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNIALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGNYDMPEETYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH +ALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESGNYDMPE+ YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_016167750.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter] &gt;gb|AUX87638.1| NADH oxidase [Acinetobacter sp. ACNIH2] &gt;gb|EOR05901.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter tandoii DSM 14970 = CIP 107469]</Hit_def>
+  <Hit_accession>WP_016167750</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>8.4601e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNIALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEETYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSEVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH +ALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE+ YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASSEVCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>emb|SUV50767.1|</Hit_id>
+  <Hit_def>benC [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>SUV50767</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>9.44673e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDIPEETYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YD+PE+ YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_097080076.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter puyangensis] &gt;emb|SNX46334.1| benzoate/toluate 1,2-dioxygenase reductase subunit [Acinetobacter puyangensis]</Hit_def>
+  <Hit_accession>WP_097080076</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>9.95588e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEDSYIEDALTPEEAEQGYILACQCRPTSDAIFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPED+YIEDALTPEEA+QGY+LACQCRPTSDA+FQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_057076999.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter pittii] &gt;gb|KRJ19546.1| NADH oxidase [Acinetobacter pittii]</Hit_def>
+  <Hit_accession>WP_057076999</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>1.00645e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNIALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGNYDMPEETYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH +ALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESGNYDMPE+ YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_116760747.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter sp. AM] &gt;gb|PWB14969.1| NADH oxidase [Acinetobacter sp. AM]</Hit_def>
+  <Hit_accession>WP_116760747</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>1.01743e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNIALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEETYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSEVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH +ALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE+ YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASSEVCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_102760486.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|PNC45667.1| NADH oxidase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_102760486</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.17161e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_064479741.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|OAM11565.1| NADH oxidase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_064479741</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.18439e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_072618622.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|OJK06499.1| NADH oxidase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_072618622</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.23694e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_031997582.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|EXE38523.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 1546444] &gt;gb|OTT67820.1| NADH oxidase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_031997582</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.25044e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_032046577.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|KCY11127.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 1598530]</Hit_def>
+  <Hit_accession>WP_032046577</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.25044e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_114065019.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|RCI30823.1| NADH oxidase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_114065019</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.26408e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_000064950.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|ARN31441.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|EEX01861.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gb|EME54696.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii MSP4-16] &gt;gb|ENW74084.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gb|EXR78940.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 541915] &gt;gb|KFC03604.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gb|PJZ08780.1| NADH oxidase [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;gb|PSD95504.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RCU29465.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RCU32878.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RCU35706.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSG21248.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSG86240.1| NADH oxidase [Acinetobacter baumannii] &gt;emb|SSP67615.1| benC [Acinetobacter baumannii] &gt;emb|SUU02067.1| benC [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000064950</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.27788e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_083008949.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter nosocomialis] &gt;gb|ARG17641.1| NADH oxidase [Acinetobacter nosocomialis]</Hit_def>
+  <Hit_accession>WP_083008949</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.33457e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFINVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGHYDMPEENYIEDALTPKEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE+NYIEDALTP+EA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_002163312.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|EKP67462.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii OIFC035] &gt;gb|ENW43367.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii NIPH 329] &gt;gb|OTK48105.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OTU02806.1| NADH oxidase [Acinetobacter baumannii] &gt;emb|SSU97509.1| benC [Acinetobacter baumannii] &gt;emb|SSV56852.1| benC [Acinetobacter baumannii] &gt;emb|SSV60954.1| benC [Acinetobacter baumannii] &gt;emb|SSV88428.1| benC [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_002163312</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.34914e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_114153777.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;emb|SSR06059.1| benC [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_114153777</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.42437e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_000064953.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|ACJ40368.1| NADH oxidase [Acinetobacter baumannii AB0057] &gt;gb|AIL75146.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|AJF81176.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|AKA32429.1| benzoate 1,2-dioxygenase, electron transfer component [Acinetobacter baumannii] &gt;gb|ALJ88501.1| Benzoate 1,2-dioxygenase [Acinetobacter baumannii] &gt;gb|ARG31169.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|ASF76697.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|ATP87816.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|ATY44768.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii AB307-0294] &gt;gb|AVN13811.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|AVN25544.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|AXB14106.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|AXX51585.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|EGJ59319.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 6013150] &gt;gb|EGJ64936.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 6013113] &gt;gb|EJO40464.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii Canada BC-5] &gt;gb|EKA75136.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii IS-58] &gt;gb|EKK07646.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii IS-235] &gt;gb|EKK17202.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii IS-251] &gt;gb|EKL56848.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii Naval-83] &gt;gb|EKP61340.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii Canada BC1] &gt;gb|EMT95163.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ABNIH7] &gt;gb|EMT95208.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ABNIH6] &gt;gb|EMU03205.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ABNIH11] &gt;gb|EMU17666.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ABNIH10] &gt;gb|EMU31321.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ABNIH19] &gt;gb|ENW38319.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii NIPH 527] &gt;gb|ENW62182.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii NIPH 290] &gt;gb|ENW69888.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii ANC 4097] &gt;gb|EPS76793.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 1605] &gt;gb|EXA94015.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 1267820] &gt;gb|EZF21854.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii R1B] &gt;gb|KGP66732.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii AB5075] &gt;gb|KIQ74395.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|KLT79974.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii MRSN 7339] &gt;gb|KLT87659.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii MRSN 3527] &gt;gb|KLT95972.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii MRSN 58] &gt;gb|KQE44468.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|KRJ89535.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|KZA12631.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|KZA54775.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|KZA62043.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|KZA86922.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|KZA90793.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|KZA95146.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|OKL26966.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OKL28170.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OKO36544.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;gb|OSY57676.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OSY61338.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OTM24183.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OTT23186.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OUD55191.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OYD33133.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|OYD37736.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PAX05159.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PCN81581.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PCN91678.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PCN96744.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PHP82196.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PPC35577.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PQL66809.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PQL79638.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PXA34390.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RCI20916.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RCI38679.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RDF49886.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RDF68669.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RDF78448.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RKL57010.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RKO41995.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RLS19998.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RND06931.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RND15113.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSF60916.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSP50529.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSQ33800.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSQ89100.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSR63498.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSR65260.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|RSR92698.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|TDA62244.1| 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|TDH77725.1| 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|TDH85741.1| 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|TDH99950.1| 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|TDI10888.1| 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|TDI26865.1| 2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;emb|CAM87396.1| benzoate 1,2-dioxygenase electron transfer component [Includes: Ferredoxin; Ferredoxin--NAD(+) reductase] [Acinetobacter baumannii AYE] &gt;emb|CQR67495.1| Benzoate 1,2-dioxygenase, ferredoxin reductase component [Acinetobacter baumannii] &gt;emb|CQR89649.1| Benzoate 1,2-dioxygenase, ferredoxin reductase component [Acinetobacter baumannii] &gt;emb|CRF36882.1| Benzoate 1,2-dioxygenase, ferredoxin reductase component [Acinetobacter baumannii] &gt;emb|CVH81272.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CVH82197.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CVH86571.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CVH88327.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CVH93252.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CVH97205.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CVH98358.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CVI02292.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CVI05054.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CZB51536.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|CZQ39142.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii] &gt;emb|SQI56334.1| benC [Acinetobacter baumannii] &gt;emb|SSP39547.1| benC [Acinetobacter baumannii] &gt;emb|SSQ29448.1| benC [Acinetobacter baumannii] &gt;emb|SSQ40824.1| benC [Acinetobacter baumannii] &gt;emb|SSQ42032.1| benC [Acinetobacter baumannii] &gt;emb|SVK01481.1| benC [Acinetobacter baumannii] &gt;emb|VCX06844.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000064953</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.43991e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_110982438.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_110982438</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.45562e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_032068516.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|EXC50787.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 99063] &gt;gb|OIF78377.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PPC35898.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|PPC60623.1| NADH oxidase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_032068516</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.45562e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_032039506.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|EXE70920.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 144107] &gt;gb|KQH06123.1| NADH oxidase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_032039506</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.45562e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_062937202.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|KZA36180.1| Benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_062937202</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.52021e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_000064952.1|</Hit_id>
+  <Hit_def>2Fe-2S iron-sulfur cluster binding domain-containing protein [Acinetobacter baumannii] &gt;gb|ANS22010.1| NADH oxidase [Acinetobacter baumannii PR07] &gt;gb|AUT36935.1| NADH oxidase [Acinetobacter baumannii] &gt;gb|EXC11832.1| benzoate 1,2-dioxygenase electron transfer component [Acinetobacter baumannii 4749] &gt;gb|OTT40226.1| NADH oxidase [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_000064952</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.55356e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>SNHQVALQFEDGVTRFICIAQGETLSDAAYRQQINIPMDCREGECGTCRAFCESGNYDMPEDNYIEDALTPEEAQQGYVLACQCRPTSDAVFQIQASSEVCKTK</Hsp_qseq>
+      <Hsp_hseq>SNHNVALQFEDGVTRFISVAQGETLSDAAYRQKINIPLDCRDGACGTCRAFCESGSYDMPEESYIEDALTPEEAEQGYILACQCRPTSDAVFQIQASSDVCKTE</Hsp_hseq>
+      <Hsp_midline>SNH VALQFEDGVTRFI +AQGETLSDAAYRQ+INIP+DCR+G CGTCRAFCESG+YDMPE++YIEDALTPEEA+QGY+LACQCRPTSDAVFQIQASS+VCKT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216046246</Statistics_db-num>
+      <Statistics_db-len>550339452</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
