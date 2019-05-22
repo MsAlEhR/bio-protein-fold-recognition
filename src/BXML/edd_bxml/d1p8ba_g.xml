@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_131271</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1p8ba_g</BlastOutput_query-def>
+  <BlastOutput_query-len>37</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_131271</Iteration_query-ID>
+  <Iteration_query-def>d1p8ba_g</Iteration_query-def>
+  <Iteration_query-len>37</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P62931.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1 F; AltName: Full=PA1 F; AltName: Full=PsaA1b005/PsaA1b011; Contains: RecName: Full=Albumin-1 F chain b; AltName: Full=Leginsulin F; AltName: Full=PA1b F; Contains: RecName: Full=Albumin-1 F chain a; AltName: Full=PA1a F; Flags: Precursor [Pisum sativum] &gt;emb|CAE00465.1| albumin 1 [Pisum sativum]</Hit_def>
+  <Hit_accession>P62931</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>8.77751e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_hseq>
+      <Hsp_midline>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P62926.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1 A; AltName: Full=PA1 A; Contains: RecName: Full=Albumin-1 A chain b; AltName: Full=Leginsulin A; AltName: Full=PA1b A; Contains: RecName: Full=Albumin-1 A chain a; AltName: Full=PA1a A; Flags: Precursor [Pisum sativum] &gt;gb|AAA33638.1| albumin 1 [Pisum sativum]</Hit_def>
+  <Hit_accession>P62926</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.80182e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVVGYCRNPSG</Hsp_hseq>
+      <Hsp_midline>ASCNGVCSPFEMPPCGTSACRCIPVGLV+GYCRNPSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1P8B|A</Hit_id>
+  <Hit_def>Chain A, Pea Albumin 1, subunit b [Pisum sativum]</Hit_def>
+  <Hit_accession>1P8B_A</Hit_accession>
+  <Hit_len>37</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>3.57203e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_hseq>
+      <Hsp_midline>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P62929.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1 D; AltName: Full=PA1 D; AltName: Full=PsaA1b012; Contains: RecName: Full=Albumin-1 D chain b; AltName: Full=Leginsulin D; AltName: Full=PA1b D; Contains: RecName: Full=Albumin-1 D chain a; AltName: Full=PA1a D; Flags: Precursor [Pisum sativum] &gt;emb|CAE00466.1| albumin 1 [Pisum sativum]</Hit_def>
+  <Hit_accession>P62929</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>3.94798e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ASCNGVCSPFEMPPCGTSACRCIPVGLFIGYCRNPSG</Hsp_hseq>
+      <Hsp_midline>ASCNGVCSPFEMPPCGTSACRCIPVGL IGYCRNPSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|P62930.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1 E; AltName: Full=PA1 E; AltName: Full=PsaA1b014; Short=Psa; Contains: RecName: Full=Albumin-1 E chain b; AltName: Full=Leginsulin E; AltName: Full=PA1b E; Contains: RecName: Full=Albumin-1 E chain a; AltName: Full=PA1a E; Flags: Precursor [Pisum sativum] &gt;gb|AAC61879.1| albumin 1 [Pisum sativum] &gt;emb|CAE00467.1| albumin 1 [Pisum sativum]</Hit_def>
+  <Hit_accession>P62930</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>7.9273e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ASCNGVCSPFEMPPCGSSACRCIPVGLLIGYCRNPSG</Hsp_hseq>
+      <Hsp_midline>ASCNGVCSPFEMPPCG+SACRCIPVGL+IGYCRNPSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|P62927.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1 B; AltName: Full=PA1 B; Contains: RecName: Full=Albumin-1 B chain b; AltName: Full=Leginsulin B; AltName: Full=PA1b B; Contains: RecName: Full=Albumin-1 B chain a; AltName: Full=PA1a B; Flags: Precursor [Pisum sativum] &gt;gb|AAA33639.1| albumin 1 [Pisum sativum]</Hit_def>
+  <Hit_accession>P62927</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.06683e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ASCNGVCSPFEMPPCGSSACRCIPVGLVVGYCRHPSG</Hsp_hseq>
+      <Hsp_midline>ASCNGVCSPFEMPPCG+SACRCIPVGLV+GYCR+PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|CAB82859.1|</Hit_id>
+  <Hit_def>seed albumin PA1 [Pisum sativum]</Hit_def>
+  <Hit_accession>CAB82859</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>2.54183e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ASCNGVCSPFEMPPCGSSACRCIPVGLVVGYCRHPSG</Hsp_hseq>
+      <Hsp_midline>ASCNGVCSPFEMPPCG+SACRCIPVGLV+GYCR+PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>emb|CAH05251.1|</Hit_id>
+  <Hit_def>putative albumin 1, partial [Vicia hirsuta]</Hit_def>
+  <Hit_accession>CAH05251</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.33399e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>AECNGVCSPFEMPPCGSSDCRCIPVGLVVGYCRYPSG</Hsp_hseq>
+      <Hsp_midline>A CNGVCSPFEMPPCG+S CRCIPVGLV+GYCR PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AHG94969.1|</Hit_id>
+  <Hit_def>insecticidal lentil peptide, partial [Lens culinaris subsp. culinaris]</Hit_def>
+  <Hit_accession>AHG94969</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.93457e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPS</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSSACRCIPVGLVVGYCRHPS</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +SACRCIPVGLV+GYCR+PS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_014524583.1|</Hit_id>
+  <Hit_def>albumin-1 [Vigna radiata var. radiata]</Hit_def>
+  <Hit_accession>XP_014524583</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.08451e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>SCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>DCSGVCSPFEMPPCGSTDCRCIPIGLVIGYCTYPSG</Hsp_hseq>
+      <Hsp_midline> C+GVCSPFEMPPCG++ CRCIP+GLVIGYC  PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|P62928.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1 C; AltName: Full=PA1 C; AltName: Full=PsaA1b015; Contains: RecName: Full=Albumin-1 C chain b; AltName: Full=Leginsulin C; AltName: Full=PA1b C; Contains: RecName: Full=Albumin-1 C chain a; AltName: Full=PA1a C; Flags: Precursor [Pisum sativum] &gt;emb|CAE00468.1| albumin 1 [Pisum sativum]</Hit_def>
+  <Hit_accession>P62928</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>5.09867e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>SCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>SCNGVCSPFDIPPCGSPLCRCIPAGLVIGNCRNPYG</Hsp_hseq>
+      <Hsp_midline>SCNGVCSPF++PPCG+  CRCIP GLVIG CRNP G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_020208147.1|</Hit_id>
+  <Hit_def>albumin-1-like [Cajanus cajan] &gt;ref|XP_020208149.1| albumin-1-like [Cajanus cajan] &gt;gb|KYP32738.1| Albumin-1 [Cajanus cajan] &gt;gb|KYP32741.1| Albumin-1 [Cajanus cajan]</Hit_def>
+  <Hit_accession>XP_020208147</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.41138e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGVCSPFEVPPCGSTDCRCIPVGLFVGYCTYPSG</Hsp_hseq>
+      <Hsp_midline>C+GVCSPFE+PPCG++ CRCIPVGL +GYC  PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|QCD85640.1|</Hit_id>
+  <Hit_def>Albumin I chain a [Vigna unguiculata]</Hit_def>
+  <Hit_accession>QCD85640</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.41211e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGACSPFQMPPCGSGDCRCIPIGLFVGYCTNPSG</Hsp_hseq>
+      <Hsp_midline>C+G CSPF+MPPCG+  CRCIP+GL +GYC NPSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|KYP36216.1|</Hit_id>
+  <Hit_def>Albumin-1, partial [Cajanus cajan]</Hit_def>
+  <Hit_accession>KYP36216</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>2.60058e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGVCSPFEVPPCGSRDCRCIPVGLFVGYCTYPSG</Hsp_hseq>
+      <Hsp_midline>C+GVCSPFE+PPCG+  CRCIPVGL +GYC  PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_020205770.1|</Hit_id>
+  <Hit_def>albumin-1-like isoform X1 [Cajanus cajan] &gt;ref|XP_020205771.1| albumin-1-like isoform X2 [Cajanus cajan]</Hit_def>
+  <Hit_accession>XP_020205770</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.82441e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGVCSPFEVPPCGSRDCRCIPVGLFVGYCTYPSG</Hsp_hseq>
+      <Hsp_midline>C+GVCSPFE+PPCG+  CRCIPVGL +GYC  PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_020208148.1|</Hit_id>
+  <Hit_def>albumin-1-like [Cajanus cajan] &gt;gb|KYP32739.1| Albumin-1 [Cajanus cajan]</Hit_def>
+  <Hit_accession>XP_020208148</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>5.0616e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>SCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>DCSGACSPFEVPPCGSTDCRCIPVGLFVGYCTYPSG</Hsp_hseq>
+      <Hsp_midline> C+G CSPFE+PPCG++ CRCIPVGL +GYC  PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_017432730.1|</Hit_id>
+  <Hit_def>PREDICTED: albumin-1-like [Vigna angularis] &gt;gb|KOM49199.1| hypothetical protein LR48_Vigan08g002600 [Vigna angularis] &gt;dbj|BAT89290.1| hypothetical protein VIGAN_06020800 [Vigna angularis var. angularis]</Hit_def>
+  <Hit_accession>XP_017432730</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>6.86231e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCSGACSPFEMPPCGSTDCRCIPIALFAGFCINPTG</Hsp_hseq>
+      <Hsp_midline>A C+G CSPFEMPPCG++ CRCIP+ L  G+C NP+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_014524585.1|</Hit_id>
+  <Hit_def>albumin-1 [Vigna radiata var. radiata]</Hit_def>
+  <Hit_accession>XP_014524585</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>7.08878e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCSGACSPFEMPPCRSRDCRCIPIGLFVGFCINPTG</Hsp_hseq>
+      <Hsp_midline>A C+G CSPFEMPPC +  CRCIP+GL +G+C NP+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|TKY68513.1|</Hit_id>
+  <Hit_def>Albumin-1 protein [Spatholobus suberectus]</Hit_def>
+  <Hit_accession>TKY68513</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.16503e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCSGACSPFEMPPCGSADCRCIPWGLFVGQCINPTG</Hsp_hseq>
+      <Hsp_midline>A C+G CSPFEMPPCG++ CRCIP GL +G C NP+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KRH20687.1|</Hit_id>
+  <Hit_def>hypothetical protein GLYMA_13G194400 [Glycine max]</Hit_def>
+  <Hit_accession>KRH20687</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>8.98699e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSRDCRCVPIGLVAGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +  CRC+P+GLV G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>emb|CAE00463.1|</Hit_id>
+  <Hit_def>albumin 1, partial [Glycine max]</Hit_def>
+  <Hit_accession>CAE00463</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>9.60759e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSRDCRCVPIGLVAGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +  CRC+P+GLV G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_003542811.2|</Hit_id>
+  <Hit_def>albumin-1 [Glycine max] &gt;ref|XP_028186274.1| albumin-1-like [Glycine soja]</Hit_def>
+  <Hit_accession>XP_003542811</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>9.71436e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSSDCRCVPIALFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +S CRC+P+ L +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|AEO44997.1|</Hit_id>
+  <Hit_def>leginsulin 1 [Glycine max]</Hit_def>
+  <Hit_accession>AEO44997</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>9.81936e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSSDCRCVPIALFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +S CRC+P+ L +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|NP_001237714.2|</Hit_id>
+  <Hit_def>albumin-1 precursor [Glycine max] &gt;ref|XP_028189078.1| albumin-1 [Glycine soja]</Hit_def>
+  <Hit_accession>NP_001237714</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.01313e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSRDCRCVPIGLVAGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +  CRC+P+GLV G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|RZB81822.1|</Hit_id>
+  <Hit_def>Albumin-1 [Glycine soja]</Hit_def>
+  <Hit_accession>RZB81822</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.01385e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSSDCRCVPIALFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +S CRC+P+ L +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AEO44998.1|</Hit_id>
+  <Hit_def>leginsulin 2 [Glycine max]</Hit_def>
+  <Hit_accession>AEO44998</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.05869e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSSDCRCVPIALFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +S CRC+P+ L +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>emb|CAH05244.1|</Hit_id>
+  <Hit_def>putative albumin 1, partial [Canavalia brasiliensis]</Hit_def>
+  <Hit_accession>CAH05244</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.08014e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>SCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPS</Hsp_qseq>
+      <Hsp_hseq>ACSGGCSPFEMPPCGSSDCRCIPWGLVAGYCINPT</Hsp_hseq>
+      <Hsp_midline>+C+G CSPFEMPPCG+S CRCIP GLV GYC NP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KRH20686.1|</Hit_id>
+  <Hit_def>hypothetical protein GLYMA_13G194300 [Glycine max]</Hit_def>
+  <Hit_accession>KRH20686</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.09366e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSSDCRCVPIALFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC +S CRC+P+ L +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>emb|CAH05241.1|</Hit_id>
+  <Hit_def>putative albumin 1, partial [Astragalus monspessulanus]</Hit_def>
+  <Hit_accession>CAH05241</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.11917e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>TDCSGVCSPFEMPPCGSTDCRCIPWGLFVGECKYPTG</Hsp_hseq>
+      <Hsp_midline>  C+GVCSPFEMPPCG++ CRCIP GL +G C+ P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|Q9ZQX0.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1; Short=A1; Contains: RecName: Full=Albumin-1 chain b; Short=A1b; AltName: Full=Leginsulin; Contains: RecName: Full=Albumin-1 chain a; Short=A1a; Flags: Precursor [Glycine soja] &gt;emb|CAA09880.2| leginsulin [Glycine soja]</Hit_def>
+  <Hit_accession>Q9ZQX0</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>1.20914e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEVPPCRSSDCRCVPIGLFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFE+PPC +S CRC+P+GL +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|AGV54160.1|</Hit_id>
+  <Hit_def>albumin-1C [Phaseolus vulgaris] &gt;gb|AGV54295.1| albumin-1C [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>AGV54160</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.00284e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGVCSPFEMPPCGSSDCRCVPYGLFIGSCIHPTG</Hsp_hseq>
+      <Hsp_midline>C+GVCSPFEMPPCG+S CRC+P GL IG C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_007133733.1|</Hit_id>
+  <Hit_def>hypothetical protein PHAVU_011G204600g [Phaseolus vulgaris] &gt;gb|ESW05727.1| hypothetical protein PHAVU_011G204600g [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>XP_007133733</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.02462e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGVCSPFEMPPCGSSDCRCVPYGLFIGSCIHPTG</Hsp_hseq>
+      <Hsp_midline>C+GVCSPFEMPPCG+S CRC+P GL IG C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_007133742.1|</Hit_id>
+  <Hit_def>hypothetical protein PHAVU_011G205500g [Phaseolus vulgaris] &gt;gb|ESW05736.1| hypothetical protein PHAVU_011G205500g [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>XP_007133742</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.95266e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTS-ACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGLCSPFEVPPCGSARDCRCIPVGLVVGFCTNPSG</Hsp_hseq>
+      <Hsp_midline>C+G+CSPFE+PPCG++  CRCIPVGLV+G+C NPSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_027909708.1|</Hit_id>
+  <Hit_def>albumin-1-like [Vigna unguiculata]</Hit_def>
+  <Hit_accession>XP_027909708</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>3.0207e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGPCSPFQMPPCGSGDCRCIPMGLFVGFCTNPSG</Hsp_hseq>
+      <Hsp_midline>C+G CSPF+MPPCG+  CRCIP+GL +G+C NPSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|Q9FRT8.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1; Short=A1; Contains: RecName: Full=Albumin-1 chain b; Short=A1b; AltName: Full=Leginsulin; Contains: RecName: Full=Albumin-1 chain a; Short=A1a; Flags: Precursor [Vigna radiata var. radiata] &gt;dbj|BAB19938.1| leginsulin, partial [Vigna radiata]</Hit_def>
+  <Hit_accession>Q9FRT8</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>3.24221e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEMPPCRSTDCRCIPIALFGGFCINPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFEMPPC ++ CRCIP+ L  G+C NP+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>emb|CAH05249.1|</Hit_id>
+  <Hit_def>putative albumin 1, partial [Onobrychis viciifolia]</Hit_def>
+  <Hit_accession>CAH05249</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>3.54531e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPS</Hsp_qseq>
+      <Hsp_hseq>EACDGVCSPFEMPPCGSTDCRCVPWGLFVGQCINPT</Hsp_hseq>
+      <Hsp_midline> +C+GVCSPFEMPPCG++ CRC+P GL +G C NP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_003627386.2|</Hit_id>
+  <Hit_def>albumin-1 [Medicago truncatula] &gt;gb|AET01862.2| Leginsulin/Albumin-1 [Medicago truncatula]</Hit_def>
+  <Hit_accession>XP_003627386</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>4.12325e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>TDCSGACSPFEMPPCRSSDCRCIPIGLVAGYCTYPSS</Hsp_hseq>
+      <Hsp_midline>  C+G CSPFEMPPC +S CRCIP+GLV GYC  PS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>emb|CAE00461.1|</Hit_id>
+  <Hit_def>albumin 1 [Medicago truncatula]</Hit_def>
+  <Hit_accession>CAE00461</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>4.12325e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>TDCSGACSPFEMPPCRSSDCRCIPIGLVAGYCTYPSS</Hsp_hseq>
+      <Hsp_midline>  C+G CSPFEMPPC +S CRCIP+GLV GYC  PS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|ADR30068.1|</Hit_id>
+  <Hit_def>albumin-1A [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>ADR30068</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>4.40994e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGVCSPFEMPPCGSSDCRCIPYGLFIGACTYPRG</Hsp_hseq>
+      <Hsp_midline>C+GVCSPFEMPPCG+S CRCIP GL IG C  P G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_007133740.1|</Hit_id>
+  <Hit_def>hypothetical protein PHAVU_011G205300g [Phaseolus vulgaris] &gt;ref|XP_007133741.1| hypothetical protein PHAVU_011G205400g [Phaseolus vulgaris] &gt;gb|ESW05734.1| hypothetical protein PHAVU_011G205300g [Phaseolus vulgaris] &gt;gb|ESW05735.1| hypothetical protein PHAVU_011G205400g [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>XP_007133740</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>4.60479e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGVCSPFEMPPCGSSDCRCIPYGLFIGACTYPRG</Hsp_hseq>
+      <Hsp_midline>C+GVCSPFEMPPCG+S CRCIP GL IG C  P G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|ADR30069.1|</Hit_id>
+  <Hit_def>albumin-1B [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>ADR30069</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>4.75656e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGVCSPFEMPPCGSSDCRCIPYGLFIGACTYPRG</Hsp_hseq>
+      <Hsp_midline>C+GVCSPFEMPPCG+S CRCIP GL IG C  P G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_027909709.1|</Hit_id>
+  <Hit_def>albumin-1 [Vigna unguiculata]</Hit_def>
+  <Hit_accession>XP_027909709</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>4.96671e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>SCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>DCSGACSPFEVPPCGSRDCRCIPVGLVVGFCIYPTG</Hsp_hseq>
+      <Hsp_midline> C+G CSPFE+PPCG+  CRCIPVGLV+G+C  P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>emb|CAA11040.1|</Hit_id>
+  <Hit_def>leginsulin [Glycine max]</Hit_def>
+  <Hit_accession>CAA11040</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>5.11275e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEVPPCRSRDCRCVPIGLFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFE+PPC +  CRC+P+GL +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>sp|Q39837.3|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1; Short=A1; Contains: RecName: Full=Albumin-1 chain b; Short=A1b; AltName: Full=Leginsulin; Contains: RecName: Full=Albumin-1 chain a; Short=A1a; Flags: Precursor [Glycine max] &gt;dbj|BAA04219.1| leginsulin precursor [Glycine max]</Hit_def>
+  <Hit_accession>Q39837</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>5.11275e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEVPPCRSRDCRCVPIGLFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFE+PPC +  CRC+P+GL +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|1JU8|A</Hit_id>
+  <Hit_def>Chain A, Leginsulin</Hit_def>
+  <Hit_accession>1JU8_A</Hit_accession>
+  <Hit_len>37</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>5.78787e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFEVPPCRSRDCRCVPIGLFVGFCIHPTG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPFE+PPC +  CRC+P+GL +G+C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|QCD85638.1|</Hit_id>
+  <Hit_def>Albumin I chain a [Vigna unguiculata]</Hit_def>
+  <Hit_accession>QCD85638</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>7.09496e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>SCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>DCSGACSPFEVPPCGSRDCRCIPIGLVVGFCIYPTG</Hsp_hseq>
+      <Hsp_midline> C+G CSPFE+PPCG+  CRCIP+GLV+G+C  P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_013451275.1|</Hit_id>
+  <Hit_def>albumin-1 [Medicago truncatula] &gt;gb|KEH25315.1| Leginsulin/Albumin-1 [Medicago truncatula] &gt;gb|RHN50397.1| putative albumin I [Medicago truncatula]</Hit_def>
+  <Hit_accession>XP_013451275</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.2253e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNP</Hsp_qseq>
+      <Hsp_hseq>ADCSGICSPFEMPPCRSSDCRCIPIALIGGFCINP</Hsp_hseq>
+      <Hsp_midline>A C+G+CSPFEMPPC +S CRCIP+ L+ G+C NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|AFW90511.1|</Hit_id>
+  <Hit_def>albumin-1C [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>AFW90511</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.37131e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGFCSPFEMPPCGSSDCRCVPYGLFVGSCIHPTG</Hsp_hseq>
+      <Hsp_midline>C+G CSPFEMPPCG+S CRC+P GL +G C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|ADR30073.1|</Hit_id>
+  <Hit_def>albumin-1C [Phaseolus vulgaris]</Hit_def>
+  <Hit_accession>ADR30073</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.40125e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CNGVCSPFEMPPCGTSACRCIPVGLVIGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>CSGFCSPFEMPPCGSSDCRCVPYGLFVGSCIHPTG</Hsp_hseq>
+      <Hsp_midline>C+G CSPFEMPPCG+S CRC+P GL +G C +P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>sp|Q9FRT9.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1; Short=A1; Contains: RecName: Full=Albumin-1 chain b; Short=A1b; AltName: Full=Leginsulin; Contains: RecName: Full=Albumin-1 chain a; Short=A1a; Flags: Precursor [Vigna angularis] &gt;dbj|BAB19937.1| leginsulin, partial [Vigna angularis]</Hit_def>
+  <Hit_accession>Q9FRT9</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.67068e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>ASCNGVCSPFEMPPCGTSACRCIPVGLV-IGYCRNPSG</Hsp_qseq>
+      <Hsp_hseq>ADCNGACSPFQMPPCGSTDCLCIPAGLLFVGYCTYPSG</Hsp_hseq>
+      <Hsp_midline>A CNG CSPF+MPPCG++ C CIP GL+ +GYC  PSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
