@@ -1,0 +1,965 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_89519</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1pvza_g</BlastOutput_query-def>
+  <BlastOutput_query-len>31</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_89519</Iteration_query-ID>
+  <Iteration_query-def>d1pvza_g</Iteration_query-def>
+  <Iteration_query-len>31</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|Q95NK7.1|</Hit_id>
+  <Hit_def>RecName: Full=Potassium channel toxin alpha-KTx 14.2; AltName: Full=BmKK2; AltName: Full=BmTXKS3; AltName: Full=KK1; AltName: Full=Neurotoxin BmP07; AltName: Full=Potassium ion channel blocker P07; AltName: Full=Toxin Kk2; Contains: RecName: Full=BmKK2-b; Flags: Precursor [Mesobuthus martensii] &gt;gb|AAK61822.1| toxin TXKs3 [Mesobuthus martensii] &gt;gb|AAQ13566.1| toxin KK1 precursor [Mesobuthus martensii] &gt;gb|AFR43620.1| toxin BmTXKS3 [Mesobuthus martensii] &gt;emb|CAC38036.1| K+ toxin-like peptide [Mesobuthus martensii] &gt;emb|CAC38039.1| k+ toxin-like peptide [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>Q95NK7</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.07519e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AFL70874.1|</Hit_id>
+  <Hit_def>MarKTX-6 precursor, partial [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>AFL70874</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.47122e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFAIRCATDADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPFAI+CATDADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q9BKB4.1|</Hit_id>
+  <Hit_def>RecName: Full=Potassium channel toxin alpha-KTx 14.4; AltName: Full=BmSKTx1; AltName: Full=Neurotoxin SKTx1; Flags: Precursor [Mesobuthus martensii] &gt;gb|AAK31986.1| SKTx1 precursor [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>Q9BKB4</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.33852e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFAIKCATNADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPFAIKCAT+ADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1PVZ|A</Hit_id>
+  <Hit_def>Chain A, K+ toxin-like peptide [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>1PVZ_A</Hit_accession>
+  <Hit_len>31</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>6.83418e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>31</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q967F9.1|</Hit_id>
+  <Hit_def>RecName: Full=Potassium channel toxin alpha-KTx 14.1; AltName: Full=BmKK1; AltName: Full=Toxin Kk1; Flags: Precursor [Mesobuthus martensii] &gt;emb|CAC38035.1| K+ toxin-like peptide [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>Q967F9</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>7.51384e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFAIKCATDADCSRKCPGNPSCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPFAIKCATDADCSRKCPGNP CRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AEB00696.1|</Hit_id>
+  <Hit_def>K+ channel blocker, partial [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>AEB00696</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.74529e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFAIRCANDADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPFAI+CA DADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q9BJX2.1|</Hit_id>
+  <Hit_def>RecName: Full=Potassium channel toxin alpha-KTx 14.3; AltName: Full=BmKK3; Short=Kk3; AltName: Full=Neurotoxin SKTx2; AltName: Full=Toxin KK2; Flags: Precursor [Mesobuthus martensii] &gt;gb|AAK33068.1| neurotoxin SKTx2 precursor [Mesobuthus martensii] &gt;gb|AAQ13567.1| toxin KK2 precursor [Mesobuthus martensii] &gt;gb|AFR43619.1| toxin SKTX2 [Mesobuthus martensii] &gt;emb|CAC38037.1| K+ toxin-like peptide [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>Q9BJX2</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.89046e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFEVRCATDADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPF ++CATDADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AFM38981.1|</Hit_id>
+  <Hit_def>KK3 precursor, partial [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>AFM38981</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.32231e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFEVRCATDADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPF ++CATDADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AEB00700.1|</Hit_id>
+  <Hit_def>K+ channel blocker, partial [Mesobuthus martensii] &gt;gb|AFL70873.1| MarKTX-5 precursor, partial [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>AEB00700</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.89195e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TRFAIRCATDADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>T FAI+CATDADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|A0ASK0.1|</Hit_id>
+  <Hit_def>RecName: Full=Potassium channel toxin alpha-KTx 14.x; AltName: Full=BmKK14; Flags: Precursor [Mesobuthus martensii] &gt;gb|AAW62366.1| KK14 precursor [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>A0ASK0</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>5.4263e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFEVRCATDADCARKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPF ++CATDADC+RKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AEB00697.1|</Hit_id>
+  <Hit_def>K+ channel blocker, partial [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>AEB00697</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.01217e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFEVRCATDADCSRKCPGNPPCRNGLCACT</Hsp_hseq>
+      <Hsp_midline>TPF ++CATDADCSRKCPGNPPCRNG CACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AEB00699.1|</Hit_id>
+  <Hit_def>K+ channel blocker, partial [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>AEB00699</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.89323e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFEVRCATDADCSRKCHGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPF ++CATDADCSRKC GNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|AAM77698.1|</Hit_id>
+  <Hit_def>putative potassium channel blocker [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>AAM77698</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.87206e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFAI-CATDADCSRKCPGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>TPFAI CATDADCSRKCPGNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|A0A059U906.1|</Hit_id>
+  <Hit_def>RecName: Full=Potassium channel toxin alpha-KTx 14.5; AltName: Full=Toxin Mgib29; Flags: Precursor [Mesobuthus gibbosus] &gt;gb|AHZ63136.1| potassium channel toxin alpha-KTx 14.5 [Mesobuthus gibbosus]</Hit_def>
+  <Hit_accession>A0A059U906</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.06446e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPFAIRCKTDSDCSYKCPGNPPCRNGFCKCT</Hsp_hseq>
+      <Hsp_midline>TPFAI+C TD+DCS KCPGNPPCRNGFC CT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AEB00698.1|</Hit_id>
+  <Hit_def>K+ channel blocker, partial [Mesobuthus martensii]</Hit_def>
+  <Hit_accession>AEB00698</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.35266e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TLFEVRCATDADCSRKCHGNPPCRNGFCACT</Hsp_hseq>
+      <Hsp_midline>T F ++CATDADCSRKC GNPPCRNGFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AMX81440.1|</Hit_id>
+  <Hit_def>potassium channel toxin meuK2 [Mesobuthus eupeus]</Hit_def>
+  <Hit_accession>AMX81440</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.16826e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCAC</Hsp_qseq>
+      <Hsp_hseq>TPFAIRCRSDIDCSFKCPGNPPCKNGFCAC</Hsp_hseq>
+      <Hsp_midline>TPFAI+C +D DCS KCPGNPPC+NGFCAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AIX87678.1|</Hit_id>
+  <Hit_def>potassium channel blocker AbTx5 [Androctonus bicolor]</Hit_def>
+  <Hit_accession>AIX87678</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>6.12275e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAVRCVTDADCFRKCPGNPPCKQGFCACT</Hsp_hseq>
+      <Hsp_midline>T  A++C TDADC RKCPGNPPC+ GFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AIX87683.1|</Hit_id>
+  <Hit_def>potassium channel blocker AbTx12 [Androctonus bicolor]</Hit_def>
+  <Hit_accession>AIX87683</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.02636e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAVGCVTDADCFRKCPGNPPCKQGFCACT</Hsp_hseq>
+      <Hsp_midline>T  A+ C TDADC RKCPGNPPC+ GFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|AIX87682.1|</Hit_id>
+  <Hit_def>potassium channel blocker AbTx11 [Androctonus bicolor]</Hit_def>
+  <Hit_accession>AIX87682</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>3.87298e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAVRCVTDADCSRKCPENSPCKQGFCACT</Hsp_hseq>
+      <Hsp_midline>T  A++C TDADCSRKCP N PC+ GFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AIX87676.1|</Hit_id>
+  <Hit_def>potassium channel blocker AbTx3 [Androctonus bicolor]</Hit_def>
+  <Hit_accession>AIX87676</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.29576e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAVRCVTDADCSRKCPENFPCKQGFCACT</Hsp_hseq>
+      <Hsp_midline>T  A++C TDADCSRKCP N PC+ GFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|AIX87677.1|</Hit_id>
+  <Hit_def>potassium channel blocker AbTx4 [Androctonus bicolor]</Hit_def>
+  <Hit_accession>AIX87677</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>2.8878e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAIRCVTDADCFRKCPENLPCKQGFCACT</Hsp_hseq>
+      <Hsp_midline>T  AI+C TDADC RKCP N PC+ GFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|AIX87680.1|</Hit_id>
+  <Hit_def>potassium channel blocker AbTx7 [Androctonus bicolor]</Hit_def>
+  <Hit_accession>AIX87680</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>3.88409e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAIRCLTDADCFRKCPENLPCKQGFCACT</Hsp_hseq>
+      <Hsp_midline>T  AI+C TDADC RKCP N PC+ GFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|AIX87681.1|</Hit_id>
+  <Hit_def>potassium channel blocker AbTx8 [Androctonus bicolor]</Hit_def>
+  <Hit_accession>AIX87681</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.99965e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAIRCVTDADCFRKCPENLPCEQGFCACT</Hsp_hseq>
+      <Hsp_midline>T  AI+C TDADC RKCP N PC  GFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|AIX87679.1|</Hit_id>
+  <Hit_def>potassium channel blocker AbTx6 [Androctonus bicolor]</Hit_def>
+  <Hit_accession>AIX87679</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>1.38767e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAIRCVTDADCFRKCPENLPCIKGFCACT</Hsp_hseq>
+      <Hsp_midline>T  AI+C TDADC RKCP N PC  GFCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|ACJ23144.1|</Hit_id>
+  <Hit_def>putative potassium channel toxin Tx590 [Buthus occitanus israelis]</Hit_def>
+  <Hit_accession>ACJ23144</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.51025e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCAC</Hsp_qseq>
+      <Hsp_hseq>TAIAVRCVTDDDCFRKCPGNPSCKRGFCAC</Hsp_hseq>
+      <Hsp_midline>T  A++C TD DC RKCPGNP C+ GFCAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AIL48752.1|</Hit_id>
+  <Hit_def>potassium channel blocker pMeKTx14-2 [Mesobuthus eupeus]</Hit_def>
+  <Hit_accession>AIL48752</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>2.43392e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TPIAVRCSTNSDCFGKCPGYPICKNKFCACT</Hsp_hseq>
+      <Hsp_midline>TP A++C+T++DC  KCPG P C+N FCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|AIL48751.1|</Hit_id>
+  <Hit_def>potassium channel blocker pMeKTx14-1 [Mesobuthus eupeus]</Hit_def>
+  <Hit_accession>AIL48751</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>6.04895e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAVRCSSDADCFGKCPGYPPCKDKFCSCT</Hsp_hseq>
+      <Hsp_midline>T  A++C++DADC  KCPG PPC++ FC+CT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|AEB00695.1|</Hit_id>
+  <Hit_def>K+ channel blocker, partial [Mesobuthus eupeus]</Hit_def>
+  <Hit_accession>AEB00695</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000150892</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAVRCSINADCFGKCPGHPICKNKFCACT</Hsp_hseq>
+      <Hsp_midline>T  A++C+ +ADC  KCPG+P C+N FCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|AEB00694.1|</Hit_id>
+  <Hit_def>K+ channel blocker, partial [Mesobuthus eupeus] &gt;gb|AFL70872.1| KTX-1 precursor, partial [Mesobuthus eupeus]</Hit_def>
+  <Hit_accession>AEB00694</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000347504</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>TPFAIKCATDADCSRKCPGNPPCRNGFCACT</Hsp_qseq>
+      <Hsp_hseq>TAIAVRCSINADCFGKCPGYPICKNKFCACT</Hsp_hseq>
+      <Hsp_midline>T  A++C+ +ADC  KCPG P C+N FCACT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|AMX81448.1|</Hit_id>
+  <Hit_def>potassium channel toxin meuK5 [Mesobuthus eupeus]</Hit_def>
+  <Hit_accession>AMX81448</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.381725</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>FAIKCATDADCSRKCPGNPPCRNGFC</Hsp_qseq>
+      <Hsp_hseq>FLLVCPNDLFCARRCFGKPPCINGFC</Hsp_hseq>
+      <Hsp_midline>F + C  D  C+R+C G PPC NGFC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_020492970.1|</Hit_id>
+  <Hit_def>tenascin-like [Labrus bergylta]</Hit_def>
+  <Hit_accession>XP_020492970</Hit_accession>
+  <Hit_len>975</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>3.47631</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>KCATDADCSRKCPGNPPCRNGFCAC</Hsp_qseq>
+      <Hsp_hseq>KCPCSGNCPRDCSGNGECQKGKCVC</Hsp_hseq>
+      <Hsp_midline>KC    +C R C GN  C+ G C C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_020793150.1|</Hit_id>
+  <Hit_def>tenascin-like [Boleophthalmus pectinirostris]</Hit_def>
+  <Hit_accession>XP_020793150</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>9.14181</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>KCATDADCSRKCPGNPPCRNGFCAC</Hsp_qseq>
+      <Hsp_hseq>KCACSASCANDCSGNGKCDRGKCIC</Hsp_hseq>
+      <Hsp_midline>KCA  A C+  C GN  C  G C C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KXJ17572.1|</Hit_id>
+  <Hit_def>BTB/POZ domain-containing protein 2 [Exaiptasia pallida]</Hit_def>
+  <Hit_accession>KXJ17572</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>9.84194</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>489</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>IKCATDADCSRKCPGNPPCRNGFC</Hsp_qseq>
+      <Hsp_hseq>IKCSTDKDCKRKLDGYVFCRYHYC</Hsp_hseq>
+      <Hsp_midline>IKC+TD DC RK  G   CR  +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

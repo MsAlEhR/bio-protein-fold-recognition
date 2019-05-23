@@ -1,0 +1,2068 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_152001</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1h1oa1a</BlastOutput_query-def>
+  <BlastOutput_query-len>82</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_152001</Iteration_query-ID>
+  <Iteration_query-def>d1h1oa1a</Iteration_query-def>
+  <Iteration_query-len>82</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1H1O|A</Hit_id>
+  <Hit_def>Chain A, Cytochrome C-552 [Acidithiobacillus ferrooxidans] &gt;pdb|1H1O|B Chain B, Cytochrome C-552 [Acidithiobacillus ferrooxidans]</Hit_def>
+  <Hit_accession>1H1O_A</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.4961e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_hseq>
+      <Hsp_midline>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_113526414.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrooxidans] &gt;gb|RBM01295.1| cytochrome C552 [Acidithiobacillus ferrooxidans]</Hit_def>
+  <Hit_accession>WP_113526414</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.00526e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_hseq>
+      <Hsp_midline>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_126604699.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferridurans] &gt;sp|P74917.2| RecName: Full=Cytochrome c-552; AltName: Full=Cytochrome c552; Flags: Precursor [Acidithiobacillus ferrooxidans] &gt;dbj|BBF65223.1| Cytochrome c-552 [Acidithiobacillus ferridurans] &gt;emb|CAA07032.1| c4-cytochrome (c552) [Acidithiobacillus ferridurans]</Hit_def>
+  <Hit_accession>WP_126604699</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.16451e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_hseq>
+      <Hsp_midline>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|EGQ63849.1|</Hit_id>
+  <Hit_def>cytochrome c552, partial [Acidithiobacillus sp. GGI-221]</Hit_def>
+  <Hit_accession>EGQ63849</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>2.41706e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQS</Hsp_qseq>
+      <Hsp_hseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYLEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQS</Hsp_hseq>
+      <Hsp_midline>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSY+EAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_012537627.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrooxidans] &gt;gb|ACH84942.1| cytochrome c class I [Acidithiobacillus ferrooxidans ATCC 53993] &gt;gb|ACK79877.1| cytochrome c552 [Acidithiobacillus ferrooxidans ATCC 23270] &gt;gb|PZD81103.1| cytochrome C552 [Acidithiobacillus ferrooxidans] &gt;gb|RRN81671.1| c-type cytochrome [Acidithiobacillus ferrooxidans]</Hit_def>
+  <Hit_accession>WP_012537627</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>6.51932e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYLEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_hseq>
+      <Hsp_midline>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSY+EAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>emb|CCA63060.1|</Hit_id>
+  <Hit_def>cytochrome c-552 precursor (Cytochrome c552) [uncultured bacterium]</Hit_def>
+  <Hit_accession>CCA63060</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>1.31322e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>VSSDCMVCHGMTGRNTLYPIVPRLAGQHKSYLEAQLKAYKDHFRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_hseq>
+      <Hsp_midline>VSSDCMVCHGMTGR+TLYPIVPRLAGQHKSY+EAQLKAYKDH RADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_014029248.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrivorans] &gt;gb|AEM47995.1| cytochrome c class I [Acidithiobacillus ferrivorans SS3] &gt;gb|OFA15130.1| cytochrome C552 [Acidithiobacillus ferrivorans]</Hit_def>
+  <Hit_accession>WP_014029248</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>7.75843e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>ISSDCMICHGMTGNNTIYPIVPKLAGQHKGYLETQLKAFKDRSRADQNGEIYMWPVAQSLDAANIKELASYFASQKPPMQSS</Hsp_hseq>
+      <Hsp_midline>+SSDCM+CHGMTG +T+YPIVP+LAGQHK Y+E QLKA+KD SRADQNGEIYMWPVAQ+LD+A I  LA YF +QKPPMQSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_071182559.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrivorans] &gt;gb|OFA16863.1| cytochrome C552 [Acidithiobacillus ferrivorans]</Hit_def>
+  <Hit_accession>WP_071182559</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>4.33886e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>ISSDCMICHGMTGHNTIYPIVPKLAGQHKGYLELQLKQFKDRTRADQNGEIYMWPVAQSLDAAKIKELASYFASQKPPMQSS</Hsp_hseq>
+      <Hsp_midline>+SSDCM+CHGMTG +T+YPIVP+LAGQHK Y+E QLK +KD +RADQNGEIYMWPVAQ+LD+AKI  LA YF +QKPPMQSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_065414353.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrivorans] &gt;gb|OCB01391.1| cytochrome C552 [Acidithiobacillus ferrivorans]</Hit_def>
+  <Hit_accession>WP_065414353</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>5.26734e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>ISSDCMICHGMTGNNTIYPIVPKLAGQHKGYLELQLKQFKDHSRADQNGQIYMWPVAQSLDAAKIKELASYFASQKPAMQSS</Hsp_hseq>
+      <Hsp_midline>+SSDCM+CHGMTG +T+YPIVP+LAGQHK Y+E QLK +KDHSRADQNG+IYMWPVAQ+LD+AKI  LA YF +QKP MQSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>5.43238</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNA</Hsp_qseq>
+      <Hsp_hseq>CMECHGSDGQGA--GAFPRLAGQRYGYMVQQLTYFHNGTRVNS----LMNQIVKNITVAQMKDVAAYLSS</Hsp_hseq>
+      <Hsp_midline>CM CHG  G+       PRLAGQ   YM  QL  + + +R +      M  + + +  A++  +A Y ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_035190469.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrivorans] &gt;emb|CDQ12443.1| Cytochrome c-552 [Acidithiobacillus ferrivorans] &gt;emb|SMH65013.1| Cytochrome c-552 [Acidithiobacillus ferrivorans]</Hit_def>
+  <Hit_accession>WP_035190469</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>1.19528e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>ISSDCMVCHGMTGNNTIYPIVPKLAGQHKGYLELQLKQFKDRTRADQNGQIYMWPVAQSLDAAKIKELASYFASQKPAMQSS</Hsp_hseq>
+      <Hsp_midline>+SSDCMVCHGMTG +T+YPIVP+LAGQHK Y+E QLK +KD +RADQNG+IYMWPVAQ+LD+AKI  LA YF +QKP MQSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>5.59526</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNA</Hsp_qseq>
+      <Hsp_hseq>CMECHGSDGQGA--GAFPRLAGQRYGYMVQQLTYFHNGTRVNS----LMNQIVKNITVAQMKDVAAYLSS</Hsp_hseq>
+      <Hsp_midline>CM CHG  G+       PRLAGQ   YM  QL  + + +R +      M  + + +  A++  +A Y ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_064218466.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrooxidans] &gt;gb|OAP92208.1| cytochrome C552 [Acidithiobacillus ferrooxidans]</Hit_def>
+  <Hit_accession>WP_064218466</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>3.43213e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>ISSDCMVCHGMTGNNTIYPIVPKLAGQHKGYLELQLKQFKDRSRADQNGQIYMWPVAQSLDAADIKELASYFASQKPPMHSS</Hsp_hseq>
+      <Hsp_midline>+SSDCMVCHGMTG +T+YPIVP+LAGQHK Y+E QLK +KD SRADQNG+IYMWPVAQ+LD+A I  LA YF +QKPPM SS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>6.42228</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNA</Hsp_qseq>
+      <Hsp_hseq>CMECHGSDGQGA--GAFPRLAGQRYGYIVQQLTYFHNGTRVNS----LMNQIAKNITVAQMKDVAAYLSS</Hsp_hseq>
+      <Hsp_midline>CM CHG  G+       PRLAGQ   Y+  QL  + + +R +      M  +A+ +  A++  +A Y ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AVK42812.1|</Hit_id>
+  <Hit_def>Cyc1 [Acidithiobacillus sp.]</Hit_def>
+  <Hit_accession>AVK42812</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>1.52201e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>VSSDCMICHGMTGHNTLYPIVPRLAGQHKGYLELQLKQFKDRSRGDQNGEIYMWPVAQSLTAAEMKELASYFAAQKPVMQSS</Hsp_hseq>
+      <Hsp_midline>VSSDCM+CHGMTG +TLYPIVPRLAGQHK Y+E QLK +KD SR DQNGEIYMWPVAQ+L +A++  LA YF AQKP MQSS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>7.81989</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNA</Hsp_qseq>
+      <Hsp_hseq>CMECHGSDGQGA--GAFPRLAGQRYGYIVQQLTYFHNGTRVNS----LMNQIAKNITVAQMKDVAAYLSS</Hsp_hseq>
+      <Hsp_midline>CM CHG  G+       PRLAGQ   Y+  QL  + + +R +      M  +A+ +  A++  +A Y ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_114282240.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidiferrobacter thiooxydans] &gt;gb|RCN58616.1| cytochrome C552 [Acidiferrobacter thiooxydans] &gt;gb|RCN59172.1| cytochrome C552 [Acidiferrobacter thiooxydans]</Hit_def>
+  <Hit_accession>WP_114282240</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>1.11375e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQSS</Hsp_qseq>
+      <Hsp_hseq>VSSDCAVCHGMHGASTDYNIIPRLAGQHKAYLVMQLKQFRNGHRADQNGNIYMAPVAQGLTTGQIDQVASYFAAQRPRMQAS</Hsp_hseq>
+      <Hsp_midline>VSSDC VCHGM G  T Y I+PRLAGQHK+Y+  QLK +++  RADQNG IYM PVAQ L + +I  +A YF AQ+P MQ+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_009566434.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrooxidans] &gt;gb|ACH83384.1| cytochrome c family protein [Acidithiobacillus ferrooxidans ATCC 53993] &gt;gb|ACK80252.1| cytochrome c552, putative [Acidithiobacillus ferrooxidans ATCC 23270] &gt;gb|EGQ62531.1| cytochrome c552, putative [Acidithiobacillus sp. GGI-221] &gt;gb|PZD81735.1| cytochrome C552 [Acidithiobacillus ferrooxidans] &gt;gb|RRN83493.1| c-type cytochrome [Acidithiobacillus ferrooxidans]</Hit_def>
+  <Hit_accession>WP_009566434</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>4.2292e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VHQSCMICHGQTGENTIYPMVPRLSGQQVQYLAWQLKQFKAHTRADQNAQIYMWPVAQAMSQKEIQSVAKYYAAQSP</Hsp_hseq>
+      <Hsp_midline>V   CM+CHG TG +T+YP+VPRL+GQ   Y+  QLK +K H+RADQN +IYMWPVAQA+   +I ++A Y+ AQ P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0685283</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGM--TGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFN</Hsp_qseq>
+      <Hsp_hseq>CMACHAVNATGRG----IFPRLAGQRYAYIVQQLTYLHDGNRVNP----IMQPVAEKLTNRQMREVAAYLS</Hsp_hseq>
+      <Hsp_midline>CM CH +  TGR     I PRLAGQ  +Y+  QL    D +R +      M PVA+ L + ++  +A Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_126605216.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferridurans] &gt;dbj|BBF66034.1| Cytochrome c-552 [Acidithiobacillus ferridurans]</Hit_def>
+  <Hit_accession>WP_126605216</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>4.46394e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VHQSCMICHGQTGENTIYPMVPRLSGQQVQYLAWQLKQFKAHTRADQNAQIYMWPVAQAMSQKEIQSVAKYYAAQSP</Hsp_hseq>
+      <Hsp_midline>V   CM+CHG TG +T+YP+VPRL+GQ   Y+  QLK +K H+RADQN +IYMWPVAQA+   +I ++A Y+ AQ P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.139173</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGM--TGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFN</Hsp_qseq>
+      <Hsp_hseq>CMACHAVNATGRG----IFPRLAGQRYAYIVQQLSYLHDGNRVNP----IMQPVAEKLTNRQMQDVAAYLS</Hsp_hseq>
+      <Hsp_midline>CM CH +  TGR     I PRLAGQ  +Y+  QL    D +R +      M PVA+ L + ++  +A Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_113525723.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidithiobacillus ferrooxidans] &gt;gb|RBM03511.1| cytochrome C552 [Acidithiobacillus ferrooxidans]</Hit_def>
+  <Hit_accession>WP_113525723</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>5.66156e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VHQSCMICHGQTGENTIYPMVPRLSGQQVQYLAWQLKQFKAHTRADQNAQIYMWPVAQAMSQKEIQSVAKYYAAQSP</Hsp_hseq>
+      <Hsp_midline>V   CM+CHG TG +T+YP+VPRL+GQ   Y+  QLK +K H+RADQN +IYMWPVAQA+   +I ++A Y+ AQ P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.146285</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGM--TGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFN</Hsp_qseq>
+      <Hsp_hseq>CMACHAVNATGRG----IFPRLAGQRYAYIVQQLSYLHDGNRVNP----IMQPVAEKLTNRQMRDVAAYLS</Hsp_hseq>
+      <Hsp_midline>CM CH +  TGR     I PRLAGQ  +Y+  QL    D +R +      M PVA+ L + ++  +A Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_052382348.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Paraburkholderia kururiensis]</Hit_def>
+  <Hit_accession>WP_052382348</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>5.97295e-16</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGVRGHSE-SPIFPRLAAQTPEYLSAQLKGFRDHARGETDARSYMWAIASQLDDATIASLADYYSRQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG+ G     PI PRLA Q   Y+ AQLK ++DH+R + +   YMW +A  LD A I +LADY++ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00294084</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGEQGQGN--GMFPRLAGQHREYLQRQIEVFSNGTRANAP---VMTTIAHSLDADEAKAVAAWLESR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+     + PRLAGQH+ Y++ Q++ + + +RA+      M  +A +LD+ +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_045240873.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Burkholderiaceae bacterium 16] &gt;gb|KJK20820.1| cytochrome C signal peptide protein [Burkholderiaceae bacterium 16]</Hit_def>
+  <Hit_accession>WP_045240873</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>6.40219e-16</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CATCHGANGRSD-SPRFPRLAGQTPEYLQAQLKGFRDHERGESDARSHMWGIAAQLDDATIQSLADYYGSQTP</Hsp_hseq>
+      <Hsp_midline>C  CHG  GR    P  PRLAGQ   Y++AQLK ++DH R + +   +MW +A  LD A I +LADY+ +Q P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0583677</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHG--ARAEGAGAFPRLAGQHRAYLLRQIEVFKNRSRGNSP---VMSAVAHDLSYDEASAVAAYLQSR</Hsp_hseq>
+      <Hsp_midline>C  CHG   R       PRLAGQH++Y+  Q++ +K+ SR +      M  VA  L   + +A+A Y  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_014088538.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudogulbenkiania sp. NH8B] &gt;dbj|BAK78472.1| cytochrome c, class I [Pseudogulbenkiania sp. NH8B]</Hit_def>
+  <Hit_accession>WP_014088538</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>7.60843e-16</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CANCHRADG-NSVSPLFPRLAGQQPAYLEQQLRAFRANNRSDQSAHDYMWGVAGTLDDATISGLAAYFAAQKP</Hsp_hseq>
+      <Hsp_midline>C  CH   G +++ P+ PRLAGQ  +Y+E QL+A++ ++R+DQ+   YMW VA  LD A I+ LA YF AQKP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_130024408.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pandoraea sp. XY-2] &gt;gb|QBC30089.1| cytochrome c4 [Pandoraea sp. XY-2]</Hit_def>
+  <Hit_accession>WP_130024408</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>9.50499e-16</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPP</Hsp_qseq>
+      <Hsp_hseq>CATCHGVTGHSE-SPMFPRLDGQTPQYLEAQLKGFRNHARGESDARAYMWGIASQLDDGTISALAEYYGHQNAP</Hsp_hseq>
+      <Hsp_midline>C  CHG+TG     P+ PRL GQ   Y+EAQLK +++H+R + +   YMW +A  LD   I+ALA+Y+  Q  P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00688165</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHG--MTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CAACHGPHAEGNGTF----PRLAGQHQAYLLRQIEVFKAGTRANAP---MMSAVAHTLTDVQATAVAAYLQSQ</Hsp_hseq>
+      <Hsp_midline>C  CHG    G  T     PRLAGQH++Y+  Q++ +K  +RA+      M  VA  L   + TA+A Y  +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_010562913.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas extremaustralis]</Hit_def>
+  <Hit_accession>WP_010562913</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.2055e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQS</Hsp_qseq>
+      <Hsp_hseq>VDNVCALCHGLTG-ESVSPTFPKLAGQQKDYLKAQLTEFKNHSRMSKAATEYMWGFTHLTDT-QIAELADYFAAQ-PPMQA</Hsp_hseq>
+      <Hsp_midline>V + C +CHG+TG +++ P  P+LAGQ K Y++AQL  +K+HSR  +    YMW      D+ +I  LADYF AQ PPMQ+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.127066</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKD---HSRADQNGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>AQCSACHGAQGQGQ--GLTPRVAGQHAAYMVSQLKVFQQADLRLRGDLTSEI-----AHTLSDADAESVAQYM</Hsp_hseq>
+      <Hsp_midline>+ C  CHG  G+     + PR+AGQH +YM +QLK ++      R D   EI     A  L  A   ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_078833411.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas extremaustralis]</Hit_def>
+  <Hit_accession>WP_078833411</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.23169e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQS</Hsp_qseq>
+      <Hsp_hseq>VDNVCALCHGLTG-ESVSPTFPKLAGQQKDYLKAQLTEFKNHSRMSKAATEYMWGFTHLTDT-QIAELADYFAAQ-PPMQA</Hsp_hseq>
+      <Hsp_midline>V + C +CHG+TG +++ P  P+LAGQ K Y++AQL  +K+HSR  +    YMW      D+ +I  LADYF AQ PPMQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_133372250.1|</Hit_id>
+  <Hit_def>cytochrome c4, partial [Sulfuriferula multivorans]</Hit_def>
+  <Hit_accession>WP_133372250</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.50791e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CSDCHGVTG-DSTNPTFPRLAGQQKWYLISQLKQFRGHHRQDPPGFEYMWGISRSLTDAQINELATYFSEQKP</Hsp_hseq>
+      <Hsp_midline>C  CHG+TG D+  P  PRLAGQ K Y+ +QLK ++ H R D  G  YMW ++++L  A+I  LA YF+ QKP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>2.1003</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNG</Hsp_qseq>
+      <Hsp_hseq>CMACHGAEGAGSEQ--FPRIAGQHADYIVKQLNVFQRSAEERPNG</Hsp_hseq>
+      <Hsp_midline>CM CHG  G  +     PR+AGQH  Y+  QL  ++  +    NG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_130926055.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas extremaustralis]</Hit_def>
+  <Hit_accession>WP_130926055</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.52747e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQS</Hsp_qseq>
+      <Hsp_hseq>VDNVCALCHGLTG-ESVSPTFPKLAGQQKDYLKAQLTEFKNHSRMSKAATEYMWGFTHLTDT-QIAELADYFAAQ-PPMQA</Hsp_hseq>
+      <Hsp_midline>V + C +CHG+TG +++ P  P+LAGQ K Y++AQL  +K+HSR  +    YMW      D+ +I  LADYF AQ PPMQ+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.151319</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKD---HSRADQNGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>AQCSACHGAQGQGQ--GLTPRVAGQHAAYMVSQLKVFQQADLRLRGDLTSEI-----AHTLSDADAESVAQYM</Hsp_hseq>
+      <Hsp_midline>+ C  CHG  G+     + PR+AGQH +YM +QLK ++      R D   EI     A  L  A   ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>emb|SKA84112.1|</Hit_id>
+  <Hit_def>Cytochrome c553 [Pseudomonas extremaustralis]</Hit_def>
+  <Hit_accession>SKA84112</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.79468e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQS</Hsp_qseq>
+      <Hsp_hseq>VDNVCALCHGLTG-ESVSPTFPKLAGQQKDYLKAQLTEFKNHSRMSKAATEYMWGFTHLTDT-QIAELADYFAAQ-PPMQA</Hsp_hseq>
+      <Hsp_midline>V + C +CHG+TG +++ P  P+LAGQ K Y++AQL  +K+HSR  +    YMW      D+ +I  LADYF AQ PPMQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|EZI30106.1|</Hit_id>
+  <Hit_def>cytochrome C [Pseudomonas extremaustralis 14-3 substr. 14-3b] &gt;emb|SDE96791.1| Cytochrome c553 [Pseudomonas extremaustralis]</Hit_def>
+  <Hit_accession>EZI30106</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.83327e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPPMQS</Hsp_qseq>
+      <Hsp_hseq>VDNVCALCHGLTG-ESVSPTFPKLAGQQKDYLKAQLTEFKNHSRMSKAATEYMWGFTHLTDT-QIAELADYFAAQ-PPMQA</Hsp_hseq>
+      <Hsp_midline>V + C +CHG+TG +++ P  P+LAGQ K Y++AQL  +K+HSR  +    YMW      D+ +I  LADYF AQ PPMQ+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.13548</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>SDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKD---HSRADQNGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>AQCSACHGAQGQGQ--GLTPRVAGQHAAYMVSQLKVFQQADLRLRGDLTSEI-----AHTLSDADAESVAQYM</Hsp_hseq>
+      <Hsp_midline>+ C  CHG  G+     + PR+AGQH +YM +QLK ++      R D   EI     A  L  A   ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_135847994.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas sp. 11K1] &gt;gb|QBZ92808.1| c-type cytochrome [Pseudomonas sp. 11K1]</Hit_def>
+  <Hit_accession>WP_135847994</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.87943e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CSLCHGLTG-ESVSPMFPKLAGQQKEYLQLQLKDFKNHVRSDKAGTKYMRGFTH-LTEAQITELADYFASQRP</Hsp_hseq>
+      <Hsp_midline>C +CHG+TG +++ P+ P+LAGQ K Y++ QLK +K+H R+D+ G  YM      L  A+IT LADYF +Q+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_009900870.1|</Hit_id>
+  <Hit_def>cytochrome c4, partial [Burkholderia thailandensis]</Hit_def>
+  <Hit_accession>WP_009900870</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.40507e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGAHGR-SESPMFPRLNAQTKEYLSAQLKGFREHARGETDARAYMWAIASQLDDATIASIADYYSHQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG  GR +  P+ PRL  Q K Y+ AQLK +++H+R + +   YMW +A  LD A I ++ADY++ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0667484</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGQNGQGA--GTFPRLAGQHADYLLRQIDVFKNGTRGN---APVMSAVAHTLNSDQAKAVAAWLQSR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  Y+  Q+  +K+ +R +      M  VA  L+S +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_135351806.1|</Hit_id>
+  <Hit_def>cytochrome c4, partial [Burkholderia thailandensis] &gt;gb|TGB19575.1| cytochrome c4, partial [Burkholderia thailandensis]</Hit_def>
+  <Hit_accession>WP_135351806</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>3.62988e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGAHGR-SESPMFPRLNAQTKEYLSAQLKGFREHARGETDARAYMWAIASQLDDATIASIADYYSHQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG  GR +  P+ PRL  Q K Y+ AQLK +++H+R + +   YMW +A  LD A I ++ADY++ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0815087</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGQNGQGA--GTFPRLAGQHADYLLRQIDVFKNGTRGN---APVMSAVAHTLNSDQAKAVAAWLQSR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  Y+  Q+  +K+ +R +      M  VA  L+S +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_077562541.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Polaromonas sp. C04] &gt;gb|OOG52213.1| cytochrome C [Polaromonas sp. C04]</Hit_def>
+  <Hit_accession>WP_077562541</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>3.88562e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VQKVCSMCHGMTG-ESVSPLFPKLAGQQKEYLVSQLTDFKGHARSDPSGVQHMWGFTR-LTSTQINELADYFSSQQP</Hsp_hseq>
+      <Hsp_midline>V   C +CHGMTG +++ P+ P+LAGQ K Y+ +QL  +K H+R+D +G  +MW   + L S +I  LADYF++Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.743457</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>SDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADY</Hsp_qseq>
+      <Hsp_hseq>TQCSACHGAGGEGN--GQFPRLAGQHANYVVRQLKVFKLTDERPRGA--VMKGVTHDLSEADMVAVASY</Hsp_hseq>
+      <Hsp_midline>+ C  CHG  G        PRLAGQH +Y+  QLK +K      +     M  V   L  A + A+A Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|AOI55258.1|</Hit_id>
+  <Hit_def>cytochrome C signal peptide protein [Burkholderia thailandensis] &gt;gb|AOJ48619.1| cytochrome C signal peptide protein [Burkholderia thailandensis] &gt;gb|AOJ54288.1| cytochrome C signal peptide protein [Burkholderia thailandensis] &gt;gb|AOJ60188.1| cytochrome C signal peptide protein [Burkholderia thailandensis] &gt;gb|KVG13576.1| cytochrome C signal peptide protein [Burkholderia thailandensis] &gt;gb|KVG18304.1| cytochrome C signal peptide protein [Burkholderia thailandensis] &gt;gb|KXF59553.1| cytochrome C signal peptide protein [Burkholderia thailandensis]</Hit_def>
+  <Hit_accession>AOI55258</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>3.98085e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGAHGR-SESPMFPRLNAQTKEYLSAQLKGFREHARGETDARAYMWAIASQLDDATIASIADYYSHQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG  GR +  P+ PRL  Q K Y+ AQLK +++H+R + +   YMW +A  LD A I ++ADY++ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0786112</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGQNGQGA--GTFPRLAGQHADYLLRQIDVFKNGTRGN---APVMSAVAHTLNSDQAKAVAAWLQSR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  Y+  Q+  +K+ +R +      M  VA  L+S +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_017775841.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Paraburkholderia kururiensis]</Hit_def>
+  <Hit_accession>WP_017775841</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>4.27556e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGVHGHSE-SPIFPRLSAQTPEYLTAQLKGFRDHARGETDARSYMWAIASQLDDATIASLADYYSHQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG+ G     PI PRL+ Q   Y+ AQLK ++DH+R + +   YMW +A  LD A I +LADY++ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00515283</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGEQGQGN--GTFPRLAGQHREYLQRQIEVFSNGTRANAP---VMTAIAHSLDADEAKAVAAWLESR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH+ Y++ Q++ + + +RA+      M  +A +LD+ +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_126878247.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Paraburkholderia kururiensis]</Hit_def>
+  <Hit_accession>WP_126878247</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.557e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGVHGHSE-SPIFPRLSAQTPEYLTAQLKGFRDHARGETDARSYMWAIASQLDDATIASLADYYSHQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG+ G     PI PRL+ Q   Y+ AQLK ++DH+R + +   YMW +A  LD A I +LADY++ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00801778</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGDEGQGN--GTFPRLAGQHREYLQRQIEVFSNGTRANAP---VMTAIAHSLDADEAKAVAAWLESR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH+ Y++ Q++ + + +RA+      M  +A +LD+ +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_051060033.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pandoraea sp. B-6]</Hit_def>
+  <Hit_accession>WP_051060033</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.80573e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKPP</Hsp_qseq>
+      <Hsp_hseq>CATCHGVSGRSE-SPMFPRLDAQTPPYLEAQLKGFRNHARGESDARAYMWGIASQLDDGTISALAEYYGHQNAP</Hsp_hseq>
+      <Hsp_midline>C  CHG++GR    P+ PRL  Q   Y+EAQLK +++H+R + +   YMW +A  LD   I+ALA+Y+  Q  P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0654842</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHG--MTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CAACHGPHAEGNGTF----PRLAGQHQAYLLRQIEVFKAGTRANAP---MMSAVAHTLTDIQAKAVAAYLQSQ</Hsp_hseq>
+      <Hsp_midline>C  CHG    G  T     PRLAGQH++Y+  Q++ +K  +RA+      M  VA  L   +  A+A Y  +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_025405793.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Burkholderia thailandensis] &gt;gb|AHI67601.1| cytochrome c-552 [Burkholderia thailandensis H0587] &gt;gb|AIP66703.1| cytochrome C signal peptide protein [Burkholderia thailandensis] &gt;gb|AJY31800.1| cytochrome c-552 [Burkholderia thailandensis 34] &gt;gb|AVR27551.1| cytochrome c4 [Burkholderia thailandensis] &gt;gb|PNE78094.1| cytochrome c4 [Burkholderia thailandensis] &gt;gb|TBW54904.1| cytochrome c4 [Burkholderia thailandensis]</Hit_def>
+  <Hit_accession>WP_025405793</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.8725e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGAHGR-SESPMFPRLNAQTKEYLSAQLKGFREHARGETDARAYMWAIASQLDDATIASIADYYSHQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG  GR +  P+ PRL  Q K Y+ AQLK +++H+R + +   YMW +A  LD A I ++ADY++ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0821392</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGQNGQGA--GTFPRLAGQHADYLLRQIDVFKNGTRGN---APVMSAVAHTLNSDQAKAVAAWLQSR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  Y+  Q+  +K+ +R +      M  VA  L+S +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_081013872.1|</Hit_id>
+  <Hit_def>MULTISPECIES: c-type cytochrome [Pseudomonas] &gt;gb|PMZ01551.1| cytochrome C [Pseudomonas sp. FW306-02-F02-AB] &gt;gb|PMZ07382.1| cytochrome C [Pseudomonas sp. FW306-02-H06C] &gt;gb|PMZ13469.1| cytochrome C [Pseudomonas sp. FW306-02-F02-AA] &gt;gb|PMZ19024.1| cytochrome C [Pseudomonas sp. FW306-02-F08-AA] &gt;gb|PMZ24957.1| cytochrome C [Pseudomonas sp. FW306-02-F04-BA] &gt;gb|PMZ31740.1| cytochrome C [Pseudomonas sp. FW306-02-H06B] &gt;gb|PMZ38644.1| cytochrome C [Pseudomonas sp. FW306-2-11AB] &gt;gb|PMZ43937.1| cytochrome C [Pseudomonas sp. FW306-02-H05-AA] &gt;gb|PMZ50170.1| cytochrome C [Pseudomonas sp. FW306-2-11AC] &gt;gb|PMZ56395.1| cytochrome C [Pseudomonas sp. FW300-N1A5] &gt;gb|PMZ63161.1| cytochrome C [Pseudomonas sp. FW306-2-11AA] &gt;gb|PMZ79846.1| cytochrome C [Pseudomonas sp. FW306-02-H05-AB] &gt;gb|PMZ92874.1| cytochrome C [Pseudomonas sp. FW306-2-11AD] &gt;gb|PNA08664.1| cytochrome C [Pseudomonas sp. GW456-11-11-14-LB1] &gt;gb|PNB06395.1| cytochrome C [Pseudomonas sp. FW306-02-H05-BA] &gt;gb|PNB10026.1| cytochrome C [Pseudomonas sp. FW306-2-11BA] &gt;gb|PNB29959.1| cytochrome C [Pseudomonas sp. FW306-02-F04-AA]</Hit_def>
+  <Hit_accession>WP_081013872</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>4.97673e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VDKVCSMCHGLTG-ESVSPMFPKLAGQQKEYLKLQLTDFKGHVRSDKTGTQYMWGFTH-LTETQISELADYFSSQSP</Hsp_hseq>
+      <Hsp_midline>V   C +CHG+TG +++ P+ P+LAGQ K Y++ QL  +K H R+D+ G  YMW     L   +I+ LADYF++Q P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>1.36735</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>SDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQ--NGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>AQCSSCHGAEGQGN--GQFPRLAGQHAEYMIRQLKVFQ---QTDQRPRGEL-MKQVTHSLSDEDAASVAHYI</Hsp_hseq>
+      <Hsp_midline>+ C  CHG  G+       PRLAGQH  YM  QLK ++   + DQ   GE+ M  V  +L      ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_110137328.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Acidiferrobacter sp. SPIII_3] &gt;gb|AWP23741.1| hypothetical protein C4901_10730 [Acidiferrobacter sp. SPIII_3]</Hit_def>
+  <Hit_accession>WP_110137328</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>5.21798e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEI</Hsp_qseq>
+      <Hsp_hseq>VSSDCAVCHGMHGASTDYNIIPRLAGQHKAYLVMQLKQFRNGHRADQNGNI</Hsp_hseq>
+      <Hsp_midline>VSSDC VCHGM G  T Y I+PRLAGQHK+Y+  QLK +++  RADQNG I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|KPK15753.1|</Hit_id>
+  <Hit_def>hypothetical protein AMJ67_14870 [Betaproteobacteria bacterium SG8_41]</Hit_def>
+  <Hit_accession>KPK15753</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>5.36943e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VVTVCSKCHGTDGNSS-SPAIPKLAGQHKEYFVAQVKAFRDRSRKDPDAHTDMWTISGRLDDAMVAKLADYYASQKP</Hsp_hseq>
+      <Hsp_midline>V + C  CHG  G  +  P +P+LAGQHK Y  AQ+KA++D SR D +    MW ++  LD A +  LADY+ +QKP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0832899</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNA</Hsp_qseq>
+      <Hsp_hseq>CVFCHGQQGQGI--AVFPRLAGQHAEYLVKQIKVF--HTDDRPNLAVTMKSVVERLSDEEAEQVAAYLQG</Hsp_hseq>
+      <Hsp_midline>C+ CHG  G+     + PRLAGQH  Y+  Q+K +  H+    N  + M  V + L   +   +A Y   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_054622467.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Rhodocyclaceae bacterium Paddy-1]</Hit_def>
+  <Hit_accession>WP_054622467</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>5.406e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CSNCHGLDG-NARSPNFPSLAGQQKAYLEAQLRQFRSHNRLDPAGFEYMWGLSRKLTDAQIEGLADYFTGQRP</Hsp_hseq>
+      <Hsp_midline>C  CHG+ G +   P  P LAGQ K+Y+EAQL+ ++ H+R D  G  YMW +++ L  A+I  LADYF  Q+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_009907921.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Burkholderia thailandensis] &gt;gb|ABC34285.1| cytochrome c family protein [Burkholderia thailandensis E264] &gt;gb|AHI76433.1| cytochrome c-552 [Burkholderia thailandensis 2002721723] &gt;gb|AHI82136.1| cytochrome c-552 [Burkholderia thailandensis E444] &gt;gb|AIC89443.1| cytochrome c-552 [Burkholderia thailandensis USAMRU Malaysia #20] &gt;gb|AIP28091.1| cytochrome c-552 [Burkholderia thailandensis E264] &gt;gb|AIS98709.1| cytochrome c-552 [Burkholderia thailandensis MSMB59] &gt;gb|AIT24348.1| cytochrome c-552 [Burkholderia thailandensis E254] &gt;gb|AJY02458.1| cytochrome c-552 [Burkholderia thailandensis 2002721643] &gt;gb|AVR07904.1| cytochrome c4 [Burkholderia thailandensis] &gt;gb|AWY60750.1| cytochrome c4 [Burkholderia thailandensis] &gt;gb|AWY64800.1| cytochrome c4 [Burkholderia thailandensis] &gt;gb|KIS53470.1| cytochrome c-552 [Burkholderia thailandensis Phuket 4W-1] &gt;gb|PHH33497.1| cytochrome c4 [Burkholderia thailandensis] &gt;gb|PNE72598.1| cytochrome c4 [Burkholderia thailandensis] &gt;gb|PNE84585.1| cytochrome c4 [Burkholderia thailandensis] &gt;gb|PNE90871.1| cytochrome c4 [Burkholderia thailandensis]</Hit_def>
+  <Hit_accession>WP_009907921</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>5.47846e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGAHGR-SESPMFPRLNAQTKEYLSAQLKGFREHARGETDARAYMWAIASQLDDATIASIADYYSHQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG  GR +  P+ PRL  Q K Y+ AQLK +++H+R + +   YMW +A  LD A I ++ADY++ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.084646</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGQNGQGA--GTFPRLAGQHADYLLRQIDVFKNGTRGN---APVMSAVAHTLNSDQAKAVAAWLQSR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  Y+  Q+  +K+ +R +      M  VA  L+S +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_059182948.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas sp. URMO17WK12:I11] &gt;emb|CRL52560.1| Cytochrome c-552 precursor [Pseudomonas sp. URMO17WK12:I11]</Hit_def>
+  <Hit_accession>WP_059182948</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>6.06036e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAQCHGQTG-ESFSPLFPKLAGQQKEYLKLQLADFKDHARSDKTGTQYMWGFTH-LTQTQIAELADYFSSQSP</Hsp_hseq>
+      <Hsp_midline>C  CHG TG ++  P+ P+LAGQ K Y++ QL  +KDH+R+D+ G  YMW     L   +I  LADYF++Q P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_027923139.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas sp. URMO17WK12:I12]</Hit_def>
+  <Hit_accession>WP_027923139</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>6.25639e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAQCHGQTG-ESFSPLFPKLAGQQKEYLKLQLADFKDHARSDKTGTQYMWGFTH-LTQTQIAELADYFSSQSP</Hsp_hseq>
+      <Hsp_midline>C  CHG TG ++  P+ P+LAGQ K Y++ QL  +KDH+R+D+ G  YMW     L   +I  LADYF++Q P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|ALI03256.1|</Hit_id>
+  <Hit_def>cytochrome C [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>ALI03256</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>7.00059e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VDKVCSMCHGLTG-ESVSPMFPKLAGQQKEYLKLQLTDFKGHVRSDKTGTQYMWGFTH-LTETQISELADYFSSQSP</Hsp_hseq>
+      <Hsp_midline>V   C +CHG+TG +++ P+ P+LAGQ K Y++ QL  +K H R+D+ G  YMW     L   +I+ LADYF++Q P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.21794</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQ--NGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>CSSCHGAEGQGN--GQFPRLAGQHAEYMIRQLKVFQ---QTDQRPRGEL-MKQVTHSLSDEDAASVAHYI</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  YM  QLK ++   + DQ   GE+ M  V  +L      ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_081427326.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas frederiksbergensis]</Hit_def>
+  <Hit_accession>WP_081427326</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>7.01662e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CSMCHGLTG-ESVSPMFPKLAGQQKEYLKLQLTDFKGHARSDKTGTQYMWGFTH-LTETQIGELADYFSSQSP</Hsp_hseq>
+      <Hsp_midline>C +CHG+TG +++ P+ P+LAGQ K Y++ QL  +K H+R+D+ G  YMW     L   +I  LADYF++Q P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>5.92387</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>CSSCHGAEGQGN--GQFPRLAGQHAYYMIRQLKVFQQTDQRPRGA--LMKQVTHSLSDADAASVAHYI</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  YM  QLK ++   +  +     M  V  +L  A   ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_103316187.1|</Hit_id>
+  <Hit_def>MULTISPECIES: c-type cytochrome [Pseudomonas] &gt;gb|POA31638.1| cytochrome C [Pseudomonas sp. GW456-R21] &gt;gb|POA70163.1| cytochrome C [Pseudomonas sp. GW460-R15]</Hit_def>
+  <Hit_accession>WP_103316187</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>7.32443e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VDKVCSMCHGLTG-ESVSPMFPKLAGQQKEYLKLQLTDFKGHVRSDKTGTQYMWGFTH-LTETQINELADYFSSQSP</Hsp_hseq>
+      <Hsp_midline>V   C +CHG+TG +++ P+ P+LAGQ K Y++ QL  +K H R+D+ G  YMW     L   +I  LADYF++Q P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>1.48202</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQ--NGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>CSSCHGAEGQGN--GQFPRLAGQHADYMIRQLKVFQ---QTDQRPRGEL-MKQVTHSLSDEDAASVAHYI</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  YM  QLK ++   + DQ   GE+ M  V  +L      ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|APC18439.1|</Hit_id>
+  <Hit_def>cytochrome C [Pseudomonas frederiksbergensis]</Hit_def>
+  <Hit_accession>APC18439</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>8.47305e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CSMCHGLTG-ESVSPMFPKLAGQQKEYLKLQLTDFKGHARSDKTGTQYMWGFTH-LTETQIGELADYFSSQSP</Hsp_hseq>
+      <Hsp_midline>C +CHG+TG +++ P+ P+LAGQ K Y++ QL  +K H+R+D+ G  YMW     L   +I  LADYF++Q P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>5.80173</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>CSSCHGAEGQGN--GQFPRLAGQHAYYMIRQLKVFQQTDQRPRGA--LMKQVTHSLSDADAASVAHYI</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  YM  QLK ++   +  +     M  V  +L  A   ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_114811558.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Paraburkholderia kururiensis]</Hit_def>
+  <Hit_accession>WP_114811558</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>9.16621e-15</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CAACHGVHGHSE-SPIFPRLSAQTPEYLTAQLKGFRDHARGETDARSYMWAIASQLDDATIASLADYYAHQEP</Hsp_hseq>
+      <Hsp_midline>C  CHG+ G     PI PRL+ Q   Y+ AQLK ++DH+R + +   YMW +A  LD A I +LADY+  Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0163655</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQ</Hsp_qseq>
+      <Hsp_hseq>CASCHGEQGQGN--GTFPRLAGQHHEYLQRQIEVFSNGTRANAP---VMTAIAHSLDADEAKAVAAWLESR</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  Y++ Q++ + + +RA+      M  +A +LD+ +  A+A +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_123582932.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas brassicacearum]</Hit_def>
+  <Hit_accession>WP_123582932</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>9.69278e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VDKVCSMCHGLTG-ESISPMFPKLAGQQKEYLKLQLADFKGHARSDVTGTQYMWGFTH-LTETQISELADYFSSQSP</Hsp_hseq>
+      <Hsp_midline>V   C +CHG+TG +++ P+ P+LAGQ K Y++ QL  +K H+R+D  G  YMW     L   +I+ LADYF++Q P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>4.2813</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>SDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNA</Hsp_qseq>
+      <Hsp_hseq>AQCSSCHGADGQGN--GQFPRLAGQHAYYMIRQLKVFQQTDQRPRGA--MMKQVTHSLSDADAESVAHYIAA</Hsp_hseq>
+      <Hsp_midline>+ C  CHG  G+       PRLAGQH  YM  QLK ++   +  +     M  V  +L  A   ++A Y  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|TAM38022.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Burkholderiaceae bacterium]</Hit_def>
+  <Hit_accession>TAM38022</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>1.04103e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSSDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>VQKECSLCHGITG-ESVSPLFPKLAGQKKEYLVAQLTDFKGHARSDPSGVQHMWGFTR-LTSPQIDELANYFSGQQP</Hsp_hseq>
+      <Hsp_midline>V  +C +CHG+TG +++ P+ P+LAGQ K Y+ AQL  +K H+R+D +G  +MW   + L S +I  LA+YF+ Q+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>1.49543</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>SDCMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADY</Hsp_qseq>
+      <Hsp_hseq>TQCSACHGAQGQGN--GAFPRLAGQHAYYVVRQLKVFKLTDERPRGAP--MRGVTHDLSEADMAAVASY</Hsp_hseq>
+      <Hsp_midline>+ C  CHG  G+       PRLAGQH  Y+  QLK +K      +     M  V   L  A + A+A Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|EXF94493.1|</Hit_id>
+  <Hit_def>cytochrome C [Pseudomonas fluorescens HK44]</Hit_def>
+  <Hit_accession>EXF94493</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.07016e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYFNAQKP</Hsp_qseq>
+      <Hsp_hseq>CSMCHGLTG-ESVSPMFPKLAGQQKEYLKLQLADFKGHVRSDKTGTQYMWGFTH-LTETQISELADYFSSQNP</Hsp_hseq>
+      <Hsp_midline>C +CHG+TG +++ P+ P+LAGQ K Y++ QL  +K H R+D+ G  YMW     L   +I+ LADYF++Q P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>8.37846</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>CMVCHGMTGRDTLYPIVPRLAGQHKSYMEAQLKAYKDHSRADQNGEIYMWPVAQALDSAKITALADYF</Hsp_qseq>
+      <Hsp_hseq>CNSCHGADGQGN--GPFPRLAGQHAEYMIRQLKVFQQTDQRPRGA--LMKQVTHSLNDEDAASVAHYI</Hsp_hseq>
+      <Hsp_midline>C  CHG  G+       PRLAGQH  YM  QLK ++   +  +     M  V  +L+     ++A Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
