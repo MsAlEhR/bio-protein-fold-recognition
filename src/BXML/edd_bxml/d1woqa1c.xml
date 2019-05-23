@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_227079</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1woqa1c</BlastOutput_query-def>
+  <BlastOutput_query-len>129</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_227079</Iteration_query-ID>
+  <Iteration_query-def>d1woqa1c</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1WOQ|A</Hit_id>
+  <Hit_def>Chain A, Inorganic Polyphosphate/atp-glucomannokinase [Arthrobacter sp. KM] &gt;pdb|1WOQ|B Chain B, Inorganic Polyphosphate/atp-glucomannokinase [Arthrobacter sp. KM] &gt;dbj|BAC78847.1| inorganic polyphosphate/ATP-glucomannokinase, partial [Arthrobacter sp. KM]</Hit_def>
+  <Hit_accession>1WOQ_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>8.14375e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_050055509.1|</Hit_id>
+  <Hit_def>ROK family protein [Pseudarthrobacter siccitolerans] &gt;emb|CCQ46636.1| inorganic polyphosphate/ATP-glucomannokinase [Pseudarthrobacter siccitolerans]</Hit_def>
+  <Hit_accession>WP_050055509</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.55251e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVSELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVV+ELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_066275160.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. OY3WO11] &gt;gb|OAE01515.1| polyphosphate glucokinase [Arthrobacter sp. OY3WO11]</Hit_def>
+  <Hit_accession>WP_066275160</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>1.99648e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVSELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVV+ELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_104188661.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. 9E14]</Hit_def>
+  <Hit_accession>WP_104188661</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>2.01843e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVSELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVV+ELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_104997520.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. PGP41] &gt;gb|AUZ34324.1| polyphosphate glucokinase [Arthrobacter sp. PGP41]</Hit_def>
+  <Hit_accession>WP_104997520</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>4.33961e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVSELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTSRLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVV+ELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLT+RLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_013600670.1|</Hit_id>
+  <Hit_def>ROK family protein [Pseudarthrobacter phenanthrenivorans] &gt;gb|ADX72737.1| Polyphosphate glucokinase [Pseudarthrobacter phenanthrenivorans Sphe3] &gt;gb|RKO27665.1| ROK family protein [Pseudarthrobacter phenanthrenivorans]</Hit_def>
+  <Hit_accession>WP_013600670</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>2.23756e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLQKGKLLGERFRVPTPQPATPEAVAEAVALVVSELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDL+KGKLLGERFRVPTPQPATPE+VAEAVALVV+ELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_043453142.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Micrococcaceae] &gt;gb|KIC66368.1| polyphosphate glucokinase [Pseudarthrobacter phenanthrenivorans] &gt;gb|PYG71578.1| polyphosphate glucokinase [Arthrobacter sp. RC1.1 241]</Hit_def>
+  <Hit_accession>WP_043453142</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>6.82531e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVAEAVALVVAELSARPEAPEAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VAEAVALVVAELSARPEAP AGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_018771536.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Arthrobacter] &gt;gb|KRE74866.1| polyphosphate glucokinase [Arthrobacter sp. Soil761]</Hit_def>
+  <Hit_accession>WP_018771536</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>7.95425e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVAEAVALVVAELSARPEAPEAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VAEAVALVVAELSARPEAP AGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_104045321.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. ZGTC412]</Hit_def>
+  <Hit_accession>WP_104045321</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>8.9708e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVAEAVALVVSELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNSDIDGLLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VAEAVALVV+ELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLN+DID LLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_134164395.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. 1704] &gt;gb|TDT69585.1| polyphosphate glucokinase [Arthrobacter sp. 1704]</Hit_def>
+  <Hit_accession>WP_134164395</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>9.16912e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVAEAVALVVAELSARPEAPEAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VAEAVALVVAELSARPEAP AGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_091421923.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. OV608]</Hit_def>
+  <Hit_accession>WP_091421923</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>1.05695e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGDRFRVPTPQPATPESVAEAVALVVSELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKAWLNTDIDALLTERLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLG+RFRVPTPQPATPESVAEAVALVV+ELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDK+WLNTDIDALLT RLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_015936795.1|</Hit_id>
+  <Hit_def>ROK family protein [Pseudarthrobacter chlorophenolicus] &gt;gb|ACL39575.1| ROK family protein [Pseudarthrobacter chlorophenolicus A6] &gt;emb|SDQ97128.1| polyphosphate glucokinase [Pseudarthrobacter chlorophenolicus]</Hit_def>
+  <Hit_accession>WP_015936795</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>3.55712e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGDRFRVPTPQPATPESVAEAVALVVAELSARPEAPEAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTARLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLG+RFRVPTPQPATPESVAEAVALVVAELSARPEAP AGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLTARLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_058267063.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter enclensis] &gt;gb|KSU77468.1| polyphosphate glucokinase [Arthrobacter enclensis] &gt;emb|SCB89140.1| polyphosphate glucokinase [Arthrobacter enclensis]</Hit_def>
+  <Hit_accession>WP_058267063</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>3.59623e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGDRFRVPTPQPATPEAVAEAVALVVAELSARPEAPAAGSPIGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTARLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLG+RFRVPTPQPATPE+VAEAVALVVAELSARPEAPAAGSP+GVTFPGIIQHGVVHSAANVDKSWL+TDIDALLTARLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_091719522.1|</Hit_id>
+  <Hit_def>ROK family protein [Pseudarthrobacter equi] &gt;emb|SDT17879.1| polyphosphate glucokinase [Pseudarthrobacter equi]</Hit_def>
+  <Hit_accession>WP_091719522</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>1.25055e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGDRFRVPTPQPATPEAVAEAVALVVAELSARPEAPEAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTARLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLG+RFRVPTPQPATPE+VAEAVALVVAELSARPEAP AGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLTARLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_056077499.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. Leaf137] &gt;gb|KQQ89470.1| polyphosphate glucokinase [Arthrobacter sp. Leaf137]</Hit_def>
+  <Hit_accession>WP_056077499</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>1.39501e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGDRFRVPTPQPATPEAVAEAVALVVAELSARPEAPEAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTARLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLG+RFRVPTPQPATPE+VAEAVALVVAELSARPEAP AGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLTARLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_018763570.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Micrococcaceae] &gt;gb|RAX14771.1| ROK family protein [Pseudarthrobacter sp. AG30] &gt;gb|TDT78225.1| polyphosphate glucokinase [Arthrobacter sp. AG258]</Hit_def>
+  <Hit_accession>WP_018763570</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>1.48958e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVAEAVALVVAELSARPEAPEAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTERLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VAEAVALVVAELSARPEAP AGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_056598800.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. Leaf141] &gt;gb|KQR00766.1| polyphosphate glucokinase [Arthrobacter sp. Leaf141]</Hit_def>
+  <Hit_accession>WP_056598800</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>1.52251e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVAEAVAQVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTERLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VAEAVA VVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_050684166.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. ZBG10] &gt;gb|KNH20918.1| polyphosphate glucokinase [Arthrobacter sp. ZBG10]</Hit_def>
+  <Hit_accession>WP_050684166</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>1.57327e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVAEAVAQVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDALLTERLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VAEAVA VVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDALLT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>emb|SEQ98149.1|</Hit_id>
+  <Hit_def>polyphosphate glucokinase [Arthrobacter sp. OV608]</Hit_def>
+  <Hit_accession>SEQ98149</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>1.72944e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGDRFRVPTPQPATPESVAEAVALVVSELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKAWLNTDIDALLTERLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLG+RFRVPTPQPATPESVAEAVALVV+ELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDK+WLNTDIDALLT RLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_102977252.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. AFG7.2] &gt;gb|PNI08018.1| polyphosphate glucokinase [Arthrobacter sp. AFG7.2]</Hit_def>
+  <Hit_accession>WP_102977252</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>3.38167e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVSELSARPEAPAADSPVGVTFPGIIQHGVVHSAANVDKSWLSMDIDGLLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVV+ELSARPEAPAA SPVGVTFPGIIQHGVVHSAANVDKSWL+ DID LLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_078105554.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. SRS-W-1-2016] &gt;gb|OOP64661.1| polyphosphate glucokinase [Arthrobacter sp. SRS-W-1-2016]</Hit_def>
+  <Hit_accession>WP_078105554</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>1.68388e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NGPLIGIDVGGTGIKGGIVDLKKGKLLGDRLRIPTPQPATPEAVAEVIAQIVEELSAREDAPAQGSPVGVTFPGIIQHGVVRSAANVDKSWLDTDIDSLLTKRLDRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>N PLIGID+GGTGIKGGIVDLKKGKLLG+R R+PTPQPATPE+VAE +A +V ELSAR +APA GSPVGVTFPGIIQHGVV SAANVDKSWL+TDID+LLT RL RPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_028266734.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. MA-N2]</Hit_def>
+  <Hit_accession>WP_028266734</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>1.15113e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NGPLIGIDVGGTGIKGGVVDLKKGKLVGDRLRIPTPQPATPEAVAEVIAQIVDELSSRSDAPAKGSPVGVTFPGIIQHGVVRSAANVDKSWIDTDIDSLLTKRLDRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>N PLIGID+GGTGIKGG+VDLKKGKL+G+R R+PTPQPATPE+VAE +A +V ELS+R +APA GSPVGVTFPGIIQHGVV SAANVDKSW++TDID+LLT RL RPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_133206208.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. JH1-1] &gt;gb|TDF91419.1| ROK family protein [Arthrobacter sp. JH1-1]</Hit_def>
+  <Hit_accession>WP_133206208</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>1.37103e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>HGPLIGIDVGGTGIKGGIVDLKKGKLVGDRLRILTPQPSTPEAVAEVIAQIVEDLSTRPDAPAPGSPVGVTFPGIIQHGVVRSAANVDKSWLNTDIDSLLSKRLDRPVKVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>+ PLIGID+GGTGIKGGIVDLKKGKL+G+R R+ TPQP+TPE+VAE +A +V +LS RP+APA GSPVGVTFPGIIQHGVV SAANVDKSWLNTDID+LL+ RL RPV+VINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_136323266.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. PAMC25564] &gt;gb|QCB98146.1| ROK family protein [Arthrobacter sp. PAMC25564]</Hit_def>
+  <Hit_accession>WP_136323266</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>2.19182e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGVDIGGTGIKAGIVDLKKGKLVGDRLRVPTPQPSTPEAVADVVAQVVAELSKRPDAPAADSPVGVTFPGIIQHGVVHSTANVDRSWLELDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIG+DIGGTGIK GIVDLKKGKL+G+R RVPTPQP+TPE+VA+ VA VVAELS RP+APAA SPVGVTFPGIIQHGVVHS ANVD+SWL  DIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_009359109.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter nitrophenolicus] &gt;gb|ELT43200.1| polyphosphate glucokinase [Arthrobacter nitrophenolicus]</Hit_def>
+  <Hit_accession>WP_009359109</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.33754e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARY</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLVGERFRVPTPQPATPEAVTEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDAMLTARLNRPVEVINDADAAGLAEARY</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+GERFRVPTPQPATPE+V EAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDA+LTARL RPVEVINDADAAGLAEARY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_104175503.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. Y81]</Hit_def>
+  <Hit_accession>WP_104175503</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>6.29164e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLVGDRFRVPTPQPATPESVAETVATVVEELNARPDAPALDSPIGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPESVAE VA VV EL+ARP+APA  SP+GVTFPGIIQHGVVHSAANVDKSWLNTDIDALLT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_133352175.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter nitrophenolicus] &gt;gb|TDL32150.1| ROK family protein [Arthrobacter nitrophenolicus]</Hit_def>
+  <Hit_accession>WP_133352175</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.09713e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARY</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLVGERFRVPTPQPATPEAVTEAVALVVAELSARPEAPAPGSPVGVTFPGIIQHGVVHSAANVDKSWLDTDIDAMLTARLNRPVEVINDADAAGLAEARY</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+GERFRVPTPQPATPE+V EAVALVVAELSARPEAPA GSPVGVTFPGIIQHGVVHSAANVDKSWL+TDIDA+LTARL RPVEVINDADAAGLAEARY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_137321986.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. 24S4-2] &gt;gb|QCO97814.1| ROK family protein [Arthrobacter sp. 24S4-2]</Hit_def>
+  <Hit_accession>WP_137321986</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>1.4888e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLVGDRFRVPTPQPATPESVAETVAAVVEELNARPDAPSPDSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPESVAE VA VV EL+ARP+AP+  SPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_087874078.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter globiformis]</Hit_def>
+  <Hit_accession>WP_087874078</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>1.46914e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRLATPQPATPEAVIEVVAKVVEELSVRPDAPAADSPIGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFR+ TPQPATPE+V E VA VV ELS RP+APAA SP+GVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_018779311.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Micrococcaceae] &gt;gb|KIA73661.1| polyphosphate glucokinase [Arthrobacter sp. MWB30] &gt;gb|KQQ98143.1| polyphosphate glucokinase [Arthrobacter sp. Leaf145]</Hit_def>
+  <Hit_accession>WP_018779311</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.88216e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVADVVAEIVAELSKRPEAPAADSPVGVTFPGIIQHGVVHSAANVDKSWLETDIDKKFTERLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VA+ VA +VAELS RPEAPAA SPVGVTFPGIIQHGVVHSAANVDKSWL TDID   T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_074590572.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter cupressi] &gt;emb|SDJ67626.1| polyphosphate glucokinase [Arthrobacter cupressi]</Hit_def>
+  <Hit_accession>WP_074590572</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>2.26523e-60</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>VDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>VDLKKGKLLGERFRIPTPQPSTPEAVAEVVAQIVEELSSRPDAPAEGSPVGVTFPGIIQHGVVRSAANVDKSWLDTDVDSLFSARLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>VDLKKGKLLGERFR+PTPQP+TPE+VAE VA +V ELS+RP+APA GSPVGVTFPGIIQHGVV SAANVDKSWL+TD+D+L +ARLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|PYG32702.1|</Hit_id>
+  <Hit_def>polyphosphate glucokinase [Paenarthrobacter nicotinovorans] &gt;dbj|GAT88645.1| polyphosphate glucokinase [Paenarthrobacter nicotinovorans] &gt;emb|SKB92441.1| polyphosphate glucokinase [Arthrobacter sp. 31Cvi3.1E]</Hit_def>
+  <Hit_accession>PYG32702</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>2.43529e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVADVVAEIVAELSKRPEAPAADSPVGVTFPGIIQHGVVHSAANVDKSWLETDIDKKFTERLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VA+ VA +VAELS RPEAPAA SPVGVTFPGIIQHGVVHSAANVDKSWL TDID   T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>tpg|HAP89395.1|</Hit_id>
+  <Hit_def>polyphosphate glucokinase [Arthrobacter bacterium] &gt;tpg|HBH57204.1| polyphosphate glucokinase [Arthrobacter bacterium] &gt;tpg|HCB56427.1| polyphosphate glucokinase [Arthrobacter bacterium] &gt;tpg|HCC39719.1| polyphosphate glucokinase [Arthrobacter bacterium] &gt;tpg|HCN23148.1| polyphosphate glucokinase [Arthrobacter bacterium]</Hit_def>
+  <Hit_accession>HAP89395</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>4.21564e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVADVVAQVVAELSGRPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARFGAGKG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VA+ VA VVAELS RPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEAR+GAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_062099121.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Micrococcaceae] &gt;gb|AMB42459.1| polyphosphate glucokinase [Arthrobacter sp. ATCC 21022] &gt;gb|KUR63312.1| polyphosphate glucokinase [Arthrobacter sp. ATCC 21022] &gt;gb|RWW96609.1| ROK family protein [Paenarthrobacter ureafaciens]</Hit_def>
+  <Hit_accession>WP_062099121</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.01898e-59</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>VDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>VDLKKGKLIGDRFRVPTPQPATPEAVAEVVAEIVEELSKRPDAPAPDSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDKQLTERLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>VDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS RP+APA  SPVGVTFPGIIQHGVVHSAANVDKSWLNTDID  LT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_031216804.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Arthrobacter] &gt;gb|ERI36631.2| polyphosphate glucokinase [Arthrobacter sp. AK-YN10] &gt;gb|OEH58412.1| polyphosphate glucokinase [Arthrobacter sp. D2] &gt;gb|OEH62102.1| polyphosphate glucokinase [Arthrobacter sp. D4]</Hit_def>
+  <Hit_accession>WP_031216804</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.08782e-59</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>VDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>VDLKKGKLIGDRFRVPTPQPATPEAVAEVVAEIVEELSKRPDAPAPDSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDKQLTERLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>VDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS RP+APA  SPVGVTFPGIIQHGVVHSAANVDKSWLNTDID  LT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|AOY71791.1|</Hit_id>
+  <Hit_def>polyphosphate glucokinase [Arthrobacter sp. ZXY-2]</Hit_def>
+  <Hit_accession>AOY71791</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.5552e-59</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>VDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>VDLKKGKLIGDRFRVPTPQPATPEAVAEVVAEIVEELSKRPDAPAPDSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDKQLTERLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>VDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS RP+APA  SPVGVTFPGIIQHGVVHSAANVDKSWLNTDID  LT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_066285748.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. B6]</Hit_def>
+  <Hit_accession>WP_066285748</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.73788e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPEAVAEVVAQVVTELSARPDAPVAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGKG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPE+VAE VA VV ELSARP+AP AGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>dbj|GAP56911.1|</Hit_id>
+  <Hit_def>polyphosphate glucokinase [Arthrobacter sp. Hiyo6]</Hit_def>
+  <Hit_accession>GAP56911</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>1.8398e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLVGERFRVPTPQPATPESVAEVVAEVVKELSSRPDAPAPDSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+GERFRVPTPQPATPESVAE VA VV ELS+RP+APA  SPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLT RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_115787257.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter silvisoli]</Hit_def>
+  <Hit_accession>WP_115787257</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>2.8461e-59</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>VDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>VDLKKGKLLGERFRIPTPQPSTPEAVAEVVAEIVKELSSRPDAPAEGSPVGVTFPGIIQHGVVRSAANVDKSWLDTDVDKLFSDRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>VDLKKGKLLGERFR+PTPQP+TPE+VAE VA +V ELS+RP+APA GSPVGVTFPGIIQHGVV SAANVDKSWL+TD+D L + RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_062067940.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Arthrobacter] &gt;gb|KUM40681.1| polyphosphate glucokinase [Arthrobacter sp. EpRS71] &gt;gb|PRB39430.1| ROK family protein [Arthrobacter sp. MYb51] &gt;gb|PRB97841.1| ROK family protein [Arthrobacter sp. MYb23]</Hit_def>
+  <Hit_accession>WP_062067940</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>2.99637e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELSSRPDAPAADTPVGVTFPGIIQHGVVNSAANVDKTWLSTDIDATFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS+RP+APAA +PVGVTFPGIIQHGVV+SAANVDK+WL+TDIDA  T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_089594515.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. YN] &gt;gb|ASN19791.1| polyphosphate glucokinase [Arthrobacter sp. YN]</Hit_def>
+  <Hit_accession>WP_089594515</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>4.3397e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELTSRPDAPAADSPVGVTFPGIIQHGVVKSAANVDKTWLSTDIDATFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V EL++RP+APAA SPVGVTFPGIIQHGVV SAANVDK+WL+TDIDA  T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_043470023.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Micrococcaceae]</Hit_def>
+  <Hit_accession>WP_043470023</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>4.73488e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELSSRPDAPAADSPVGVTFPGIIQHGVVNSAANVDKTWLGTDIDAAFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS+RP+APAA SPVGVTFPGIIQHGVV+SAANVDK+WL TDIDA  T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_026542526.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Micrococcaceae]</Hit_def>
+  <Hit_accession>WP_026542526</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>5.11006e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELSSRPEAPAADSPVGVTFPGIIQHGVVNSAANVDKTWLGTDIDGTFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS+RPEAPAA SPVGVTFPGIIQHGVV+SAANVDK+WL TDID   T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_076798009.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. QXT-31] &gt;gb|APX00663.1| polyphosphate glucokinase [Arthrobacter sp. QXT-31]</Hit_def>
+  <Hit_accession>WP_076798009</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>5.8237e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARY</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRLATPQPATPEAVIEVVAKVVEELSARPDAPAADSPIGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARY</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFR+ TPQPATPE+V E VA VV ELSARP+APAA SP+GVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>emb|SCZ65415.1|</Hit_id>
+  <Hit_def>polyphosphate glucokinase [Arthrobacter sp. UNCCL28]</Hit_def>
+  <Hit_accession>SCZ65415</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>6.97397e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELSSRPEAPAADSPVGVTFPGIIQHGVVNSAANVDKTWLGTDIDGTFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS+RPEAPAA SPVGVTFPGIIQHGVV+SAANVDK+WL TDID   T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|ABM09134.1|</Hit_id>
+  <Hit_def>polyphosphate glucokinase [Paenarthrobacter aurescens TC1] &gt;gb|AFR28550.1| polyphosphate glucokinase PpgK [Arthrobacter sp. Rue61a]</Hit_def>
+  <Hit_accession>ABM09134</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>7.20557e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELSSRPDAPAADSPVGVTFPGIIQHGVVNSAANVDKTWLGTDIDAAFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS+RP+APAA SPVGVTFPGIIQHGVV+SAANVDK+WL TDIDA  T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_090825753.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ROK family protein [Arthrobacter]</Hit_def>
+  <Hit_accession>WP_090825753</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>8.16316e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELSNRPDAPAADSPVGVTFPGIIQHGVVNSAANVDKTWLGTDIDATFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS RP+APAA SPVGVTFPGIIQHGVV+SAANVDK+WL TDIDA  T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_024820489.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. 31Y]</Hit_def>
+  <Hit_accession>WP_024820489</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.04874e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELSSRPDAPATDTPVGVTFPGIIQHGVVNSAANVDKTWLSTDIDATFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS+RP+APA  +PVGVTFPGIIQHGVV+SAANVDK+WL+TDIDA  T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>emb|SDX52188.1|</Hit_id>
+  <Hit_def>polyphosphate glucokinase [Arthrobacter sp. cf158] &gt;emb|SEJ75880.1| polyphosphate glucokinase [Arthrobacter sp. yr096]</Hit_def>
+  <Hit_accession>SDX52188</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.24203e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLIGDRFRVPTPQPATPEAVAEVVAQIVEELSNRPDAPAADSPVGVTFPGIIQHGVVNSAANVDKTWLGTDIDATFTKRLGRPVEVINDADAAGLAEARYGAGEG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKL+G+RFRVPTPQPATPE+VAE VA +V ELS RP+APAA SPVGVTFPGIIQHGVV+SAANVDK+WL TDIDA  T RLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_111906936.1|</Hit_id>
+  <Hit_def>ROK family protein [Arthrobacter sp. AQ5-06] &gt;gb|RAX46693.1| ROK family protein [Arthrobacter sp. AQ5-06]</Hit_def>
+  <Hit_accession>WP_111906936</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.24841e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPESVAEAVALVVAELSARPEAPAAGSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGAG</Hsp_qseq>
+      <Hsp_hseq>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATPDAVADVVAQVVAELSSRPEAPDADSPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAGKG</Hsp_hseq>
+      <Hsp_midline>NAPLIGIDIGGTGIKGGIVDLKKGKLLGERFRVPTPQPATP++VA+ VA VVAELS+RPEAP A SPVGVTFPGIIQHGVVHSAANVDKSWLNTDIDALLTARLGRPVEVINDADAAGLAEARYGAG G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
