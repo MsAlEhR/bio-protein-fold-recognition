@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_153509</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1fj2a_c</BlastOutput_query-def>
+  <BlastOutput_query-len>229</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_153509</Iteration_query-ID>
+  <Iteration_query-def>d1fj2a_c</Iteration_query-def>
+  <Iteration_query-len>229</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1FJ2|A</Hit_id>
+  <Hit_def>Chain A, Protein (acyl Protein Thioesterase 1) [Homo sapiens] &gt;pdb|1FJ2|B Chain B, Protein (acyl Protein Thioesterase 1) [Homo sapiens]</Hit_def>
+  <Hit_accession>1FJ2_A</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.937</Hsp_bit-score>
+      <Hsp_score>1221</Hsp_score>
+      <Hsp_evalue>2.87704e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MDPEFMSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MDPEFMSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MDPEFMSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_006321.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform 1 [Homo sapiens] &gt;sp|O75608.1| RecName: Full=Acyl-protein thioesterase 1; Short=APT-1; Short=hAPT1; AltName: Full=Lysophospholipase 1; AltName: Full=Lysophospholipase I; Short=LPL-I; Short=LysoPLA I [Homo sapiens] &gt;gb|AAC31610.1| lysophospholipase [Homo sapiens] &gt;gb|AAD26993.1| lysophospholipase [Homo sapiens] &gt;gb|AAG10063.1| acyl-protein thioesterase-1 [Homo sapiens] &gt;gb|AAH08652.1| Lysophospholipase I [Homo sapiens] &gt;gb|AAH10397.1| Lysophospholipase I [Homo sapiens] &gt;gb|ABM82453.1| lysophospholipase I [synthetic construct] &gt;gb|ABM85643.1| lysophospholipase I, partial [synthetic construct] &gt;gb|AIC55774.1| LYPLA1, partial [synthetic construct] &gt;gb|EAW86742.1| lysophospholipase I, isoform CRA_a [Homo sapiens] &gt;gb|EAW86744.1| lysophospholipase I, isoform CRA_a [Homo sapiens] &gt;pdb|5SYM|A Chain A, Acyl-protein thioesterase 1 [Homo sapiens] &gt;pdb|5SYM|B Chain B, Acyl-protein thioesterase 1 [Homo sapiens] &gt;dbj|BAF82089.1| unnamed protein product [Homo sapiens] &gt;dbj|BAG36480.1| unnamed protein product [Homo sapiens] &gt;emb|CAG33384.1| LYPLA1 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_006321</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>1.07291e-164</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>dbj|BAG58971.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG58971</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>3.93101e-164</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|NP_001125450.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Pongo abelii] &gt;ref|XP_003256011.1| PREDICTED: acyl-protein thioesterase 1 isoform X1 [Nomascus leucogenys] &gt;sp|Q5RBR7.1| RecName: Full=Acyl-protein thioesterase 1; Short=APT-1; AltName: Full=Lysophospholipase 1; AltName: Full=Lysophospholipase I; Short=LPL-I; Short=LysoPLA I [Pongo abelii] &gt;gb|PNJ46709.1| LYPLA1 isoform 1 [Pongo abelii] &gt;emb|CAH90793.1| hypothetical protein [Pongo abelii]</Hit_def>
+  <Hit_accession>NP_001125450</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>4.18251e-164</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_010386304.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 [Rhinopithecus roxellana]</Hit_def>
+  <Hit_accession>XP_010386304</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>5.94181e-164</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPVGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGP+GGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_017739853.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017739853</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>2.12159e-163</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIMPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPVGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAI+PAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGP+GGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_519760.2|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Pan troglodytes] &gt;gb|PNI42324.1| LYPLA1 isoform 1 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_519760</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>2.7306e-163</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTMQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALT QQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_023039997.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023039997</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>2.8531e-163</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPVGGVNRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGP+GG NRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|NP_001253217.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Macaca mulatta] &gt;ref|XP_003902807.1| acyl-protein thioesterase 1 isoform X1 [Papio anubis] &gt;ref|XP_005563377.1| PREDICTED: acyl-protein thioesterase 1 isoform X1 [Macaca fascicularis] &gt;ref|XP_007998839.1| PREDICTED: acyl-protein thioesterase 1 isoform X1 [Chlorocebus sabaeus] &gt;ref|XP_011740618.1| acyl-protein thioesterase 1 isoform X1 [Macaca nemestrina] &gt;ref|XP_011929208.1| PREDICTED: acyl-protein thioesterase 1 isoform X1 [Cercocebus atys] &gt;ref|XP_025250515.1| acyl-protein thioesterase 1 isoform X1 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>NP_001253217</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>3.04724e-163</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPVGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPVNVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGP+GGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNP NVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_017745631.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: acyl-protein thioesterase 1 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017745631</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>2.53245e-162</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPVGGANRDISILQCHGDCDPLVPLMFGSLTVENXKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGP+GGANRDISILQCHGDCDPLVPLMFGSLTVE  KTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_001103287.2|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>NP_001103287</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.825</Hsp_bit-score>
+      <Hsp_score>1161</Hsp_score>
+      <Hsp_evalue>2.8969e-160</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDEPGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI GANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_004580650.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X2 [Ochotona princeps]</Hit_def>
+  <Hit_accession>XP_004580650</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.817</Hsp_bit-score>
+      <Hsp_score>1148</Hsp_score>
+      <Hsp_evalue>2.7194e-158</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDAQEDEPGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPINGANRDISILQCHGDCDPLVPLMIGSLTAEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPD+QEDE GIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI GANRDISILQCHGDCDPLVPLM GSLT EKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_017387278.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X1 [Cebus capucinus imitator]</Hit_def>
+  <Hit_accession>XP_017387278</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>4.55411e-158</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAQLPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDEPGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYQGMMHSSCQQEMMDVKQFIDKVLPPI</Hsp_hseq>
+      <Hsp_midline>MS  LPA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI GANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTY+GMMHSSCQQEMMDVKQFIDK+LPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_002758950.3|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X1 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_002758950</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>6.61294e-158</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAQLPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDEPGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTMQQKLAGVTALSCWLPLRASFPQGPISGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKVLPPI</Hsp_hseq>
+      <Hsp_midline>MS  LPA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALT QQKLAGVTALSCWLPLRASFPQGPI GANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDK+LPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_004435763.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X1 [Ceratotherium simum simum]</Hit_def>
+  <Hit_accession>XP_004435763</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>1.10745e-157</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDEPGIKQAAENVKALIEQEVKNGIPSHRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGVNRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAEN+KALI+QEVKNGIPS+RIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI G NRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_023504378.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Equus caballus]</Hit_def>
+  <Hit_accession>XP_023504378</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>2.84487e-157</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIIPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIVGLSPDSQEDEPGIKQAAENVKALIEQEVKNGIPSHRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGVNRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAI+PAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDI+GLSPDSQEDE GIKQAAEN+KALI+QEVKNGIPS+RIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI G NRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_005085985.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X2 [Mesocricetus auratus]</Hit_def>
+  <Hit_accession>XP_005085985</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>3.03842e-157</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPINSTNKDISILQCHGDCDPLVPLMFGSLTVEKLKSLVNPSNVTFKIYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI   N+DISILQCHGDCDPLVPLMFGSLTVEKLK+LVNP+NVTFK YEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_011929210.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X3 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011929210</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>4.87451e-157</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQ---------------------------GGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQTQLPHTDLAACKLFAMEPVPRCSNFSSGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPVGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPVNVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQ                           GGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGP+GGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNP NVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_028749498.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_028749498</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>6.84243e-157</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPIMPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRGSFPQGPINSTNRDISVLQCHGDCDPLVPLMFGSLTVEKLKTLINPSNVTFKIYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAP+ PVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLR SFPQGPI   NRDIS+LQCHGDCDPLVPLMFGSLTVEKLKTL+NP+NVTFK YEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_020033619.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020033619</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>6.91791e-157</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPMPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPESQEDESGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRTSFPQGPISGTNRDISILQCHGDCDPLVPLMFGSLTVEKLKALVNPANVSFKIYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS P+PA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSP+SQEDESGIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLR SFPQGPI G NRDISILQCHGDCDPLVPLMFGSLTVEKLK LVNPANV+FK YEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_019490303.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 [Hipposideros armiger]</Hit_def>
+  <Hit_accession>XP_019490303</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>1.94008e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDEHGIKQAAENVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRTSFPQGPISGVNRDIAILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSSQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAEN+KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLR SFPQGPI G NRDI+ILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSS QQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_005362309.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Microtus ochrogaster]</Hit_def>
+  <Hit_accession>XP_005362309</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>2.00499e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPVVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPIKPVTLNMNMEMPSWFDIIGLSPDSQEDESGIKQAAENVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPINSANRDISILQCHGDCDPLVPLMFGSLTVEKLKALVNPSNVTFKIYEGMMHSSCQQEMMDVKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLP +VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAP++PVTLNMN+ MPSWFDIIGLSPDSQEDESGIKQAAEN+KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI  ANRDISILQCHGDCDPLVPLMFGSLTVEKLK LVNP+NVTFK YEGMMHSSCQQEMMDVKQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_011357462.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Pteropus vampyrus]</Hit_def>
+  <Hit_accession>XP_011357462</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>2.60889e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPESREDEPGIKQAAENVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRDSFPQGPINGVNRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSP+S+EDE GIKQAAEN+KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLR SFPQGPI G NRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|NP_001293032.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Ovis aries] &gt;ref|XP_017913997.1| PREDICTED: acyl-protein thioesterase 1 [Capra hircus] &gt;ref|XP_027826679.1| acyl-protein thioesterase 1 isoform X1 [Ovis aries] &gt;gb|AHL44974.1| lysophospholipase I [Ovis aries]</Hit_def>
+  <Hit_accession>NP_001293032</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>3.10945e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSLEDETGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGVNRDISILQCHGDLDPLVPLMFGSLTAEKLKTLVNPANVTFRTYAGMMHSSCQQEMMDIKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDS EDE+GIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGG NRDISILQCHGD DPLVPLMFGSLT EKLKTLVNPANVTF+TY GMMHSSCQQEMMD+KQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_014694264.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: acyl-protein thioesterase 1 [Equus asinus]</Hit_def>
+  <Hit_accession>XP_014694264</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>4.43939e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIIPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIVGLSPDSQEDEPGIKQAAENVKALIEQEVKNGIPSHRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGVNRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAI+PAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDI+GLSPDSQEDE GIKQAAEN+KALI+QEVKNGIPS+RIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI G NRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_011850903.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1-like isoform X1 [Mandrillus leucophaeus]</Hit_def>
+  <Hit_accession>XP_011850903</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.039</Hsp_bit-score>
+      <Hsp_score>1133</Hsp_score>
+      <Hsp_evalue>7.0795e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIMPAAWKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMDMAMPSWFDIIGFSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQRRALSLYTALTTQQKLADVTALSCWLPLRASFPQGPVGGADRDISILQCHGDCDPLVPLMFGCLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAI+PAA KATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNM++AMPSWFDIIG SPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQ  ALSLYTALTTQQKLA VTALSCWLPLRASFPQGP+GGA+RDISILQCHGDCDPLVPLMFG LTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_024434090.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Desmodus rotundus]</Hit_def>
+  <Hit_accession>XP_024434090</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>9.51999e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAVVPAARKASAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDEPGIKQAAENVKVLIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGVNREISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDIKHFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPA+VPAARKA+AAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAEN+K LI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI G NR+ISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMD+K FIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_027254732.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X3 [Cricetulus griseus] &gt;gb|ERE85974.1| acyl-protein thioesterase 1-like protein [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_027254732</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>9.625e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSHEDESGIKQAAESVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPINSTNRDISILQCHGDCDPLVPLMFGSLTVEKLKSLVNPSNVTFKVYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDS EDESGIKQAAE++KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI   NRDISILQCHGDCDPLVPLMFGSLTVEKLK+LVNP+NVTFK YEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|NP_001029860.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Bos taurus] &gt;ref|XP_025121192.1| acyl-protein thioesterase 1 isoform X1 [Bubalus bubalis] &gt;ref|XP_027416790.1| acyl-protein thioesterase 1 isoform X1 [Bos indicus x Bos taurus] &gt;sp|Q3MHR0.1| RecName: Full=Acyl-protein thioesterase 1; Short=APT-1; AltName: Full=Lysophospholipase 1; AltName: Full=Lysophospholipase I; Short=LPL-I; Short=LysoPLA I [Bos taurus] &gt;gb|AAI05144.1| Lysophospholipase I [Bos taurus] &gt;tpg|DAA22762.1| TPA: acyl-protein thioesterase 1 [Bos taurus]</Hit_def>
+  <Hit_accession>NP_001029860</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>1.00567e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSAHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSLEDETGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGVNRDISILQCHGDLDPLVPLMFGSLTAEKLKTLVNPANVTFRTYAGMMHSSCQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRS+HIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDS EDE+GIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGG NRDISILQCHGD DPLVPLMFGSLT EKLKTLVNPANVTF+TY GMMHSSCQQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_004837566.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Heterocephalus glaber]</Hit_def>
+  <Hit_accession>XP_004837566</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.113</Hsp_bit-score>
+      <Hsp_score>1128</Hsp_score>
+      <Hsp_evalue>3.36138e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPMPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFNIIGLSPDSQEDESGIKRAAENVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLQSSFPQGPISGVNKDISILQCHGDCDPLVPLMFGTLTVEKLKSLVNPANVTFKTYESMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS P+PAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWF+IIGLSPDSQEDESGIK+AAEN+KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPL++SFPQGPI G N+DISILQCHGDCDPLVPLMFG+LTVEKLK+LVNPANVTFKTYE MMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_007950403.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X1 [Orycteropus afer afer]</Hit_def>
+  <Hit_accession>XP_007950403</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.113</Hsp_bit-score>
+      <Hsp_score>1128</Hsp_score>
+      <Hsp_evalue>3.91936e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMSMSMPSWFDIIGLSPDSQEDEHGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVVGLSCWLPLRTSFPQGPISGANKDISILQCHGDCDPLVPLMFGTLTVERLKTLVNPANVTFKTYEGMMHSSCQEEMMDVKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNM+++MPSWFDIIGLSPDSQEDE GIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGV  LSCWLPLR SFPQGPI GAN+DISILQCHGDCDPLVPLMFG+LTVE+LKTLVNPANVTFKTYEGMMHSSCQ+EMMDVKQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_012864832.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 [Dipodomys ordii]</Hit_def>
+  <Hit_accession>XP_012864832</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.113</Hsp_bit-score>
+      <Hsp_score>1128</Hsp_score>
+      <Hsp_evalue>4.0505e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPIMPVTLNMNMAMPSWFDIIGLSPESQEDEYGIKQASESVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTMQQKLAGVTALSCWLPLRTSFPQGPISGANRDISILQCHGDCDPLVPLMFGCLTAEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAP+ PVTLNMN+AMPSWFDIIGLSP+SQEDE GIKQA+E++KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALT QQKLAGVTALSCWLPLR SFPQGPI GANRDISILQCHGDCDPLVPLMFG LT EKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_028374489.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Phyllostomus discolor]</Hit_def>
+  <Hit_accession>XP_028374489</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>4.93472e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDEPGIKQAAENVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGRISGVNRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNSANVTFKTYEGLMHSSCQQEMMDIKHFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAEN+KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQG I G NRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVN ANVTFKTYEG+MHSSCQQEMMD+K FIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_018888244.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X3 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_018888244</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>6.85782e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSTPLPAIVPAARKATACLIALFNDFSTRHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPVGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MSTPLPAIVPAARKATA +I L     T HGWAEAFAGIRSSHIKYICPHAPVRPVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGP+GGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_007516044.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X1 [Erinaceus europaeus]</Hit_def>
+  <Hit_accession>XP_007516044</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>7.56943e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSAHIKYICPHAPVMPVTLNMKMAMPSWFDIIGLSPDSQEDESGIKQAAENVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALNTQQKLAGVTALSCWLPLRASFPQGPISGVNRDISILQCHGVCDPLVPLMFGSLTAEKLKTLVNPANVTFKTYEGMMHSSCHQEMMDIKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRS+HIKYICPHAPV PVTLNM +AMPSWFDIIGLSPDSQEDESGIKQAAEN+KALI+QEVKNGIPSNRIILGGFSQGGALSLYTAL TQQKLAGVTALSCWLPLRASFPQGPI G NRDISILQCHG CDPLVPLMFGSLT EKLKTLVNPANVTFKTYEGMMHSSC QEMMD+KQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_026372257.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Ursus arctos horribilis]</Hit_def>
+  <Hit_accession>XP_026372257</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>9.12123e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPATVPAVRKATAAVIFLHGLGDTGHGWAEAFAGIRRSHIKYICPHAPIMPVTLNMNMAMPSWFDIIGLSPDSQEDEPGIKQAAENVKALIEQEVKNGIPSNRIVLGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGVNRDISILQCHGDCDPLVPLMFASLTAEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPA VPA RKATAAVIFLHGLGDTGHGWAEAFAGIR SHIKYICPHAP+ PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAEN+KALI+QEVKNGIPSNRI+LGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI G NRDISILQCHGDCDPLVPLMF SLT EKLKTLVNPANVTFKTYEGMMHSSCQQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|AAC63431.1|</Hit_id>
+  <Hit_def>calcium-independent phospholipase A2 isoform 1, partial [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>AAC63431</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.18324e-154</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>AIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>ASVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDEPGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAEVTALSCWLPLRASFPQGPISGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>A VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLA VTALSCWLPLRASFPQGPI GANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_021077838.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Mus pahari]</Hit_def>
+  <Hit_accession>XP_021077838</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>1.24008e-154</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPMPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIKSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAETVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFSQGPINSANRDISVLQCHGDCDPLVPLMFGSLTVERLKALVNPANVTFKIYEGMMHSSCQQEMMDVKHFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS P+PA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGI+SSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAE +KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASF QGPI  ANRDIS+LQCHGDCDPLVPLMFGSLTVE+LK LVNPANVTFK YEGMMHSSCQQEMMDVK FIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_007645251.2|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_007645251</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.417</Hsp_bit-score>
+      <Hsp_score>1121</Hsp_score>
+      <Hsp_evalue>4.0995e-154</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSHEDESGIKQAAESVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPINSTNRDISILQCHGDCDPLVPLLSGSLTVEKLKSLVNPSNVTFKVYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDS EDESGIKQAAE++KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI   NRDISILQCHGDCDPLVPL+ GSLTVEKLK+LVNP+NVTFK YEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_005322967.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Ictidomys tridecemlineatus]</Hit_def>
+  <Hit_accession>XP_005322967</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.032</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>5.51263e-154</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPSVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVMPVTLNMKMAMPSWFDIIGLSPDAQEDEPGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQSPISGPNREISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKIYEGMMHCSCQQEMMDVKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLP++VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPV PVTLNM +AMPSWFDIIGLSPD+QEDE GIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQ PI G NR+ISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFK YEGMMH SCQQEMMDVKQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_004375671.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X2 [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_004375671</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>8.09281e-154</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAARKATAAVIFLHGLGDTGHGWAEALAGIRSSHIKYICPHAPIMPVTLNMNMAMPSWFDIIGLSPDSQEDEHGIKQAAENVKALIDQEVKNGIPSARIILGGFSQGGALSLYTALTTQQKLAGVVGLSCWLPLRTSFPQGPISGANKDISILQCHGDFDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPAARKATAAVIFLHGLGDTGHGWAEA AGIRSSHIKYICPHAP+ PVTLNMN+AMPSWFDIIGLSPDSQEDE GIKQAAEN+KALIDQEVKNGIPS RIILGGFSQGGALSLYTALTTQQKLAGV  LSCWLPLR SFPQGPI GAN+DISILQCHGD DPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_021483503.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Meriones unguiculatus]</Hit_def>
+  <Hit_accession>XP_021483503</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>8.54908e-154</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPIMPVTLNMNMAMPSWFDIIGLSPDSQEDESGIIQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFSQGPINSANRDISVLQCHGDCDPLVPLMFGSLTVEKLKALVNPDNVTFKIYEGMMHSSCPQEMMDVKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAP+ PVTLNMN+AMPSWFDIIGLSPDSQEDESGI QAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASF QGPI  ANRDIS+LQCHGDCDPLVPLMFGSLTVEKLK LVNP NVTFK YEGMMHSSC QEMMDVKQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_028629246.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028629246</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>1.46337e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPMPAVVPAARKATAAVIFLHGLGDTGHGWAEAFADIKSSHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDESGIKQAAETVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFSQGPINSANRDISVLQCHGDCDPLVPLMFGSLTVERLKALVNPANVTFKIYEGMMHSSCQQEMMDVKHFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS P+PA+VPAARKATAAVIFLHGLGDTGHGWAEAFA I+SSHIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDESGIKQAAE +KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASF QGPI  ANRDIS+LQCHGDCDPLVPLMFGSLTVE+LK LVNPANVTFK YEGMMHSSCQQEMMDVK FIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_021013034.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Mus caroli]</Hit_def>
+  <Hit_accession>XP_021013034</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>2.03364e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPMPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIKSPHIKYICPHAPVMPVTLNMNMAMPSWFDIVGLSPDSQEDESGIKQAAETVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFSQGPINSANRDISVLQCHGDCDPLVPLMFGSLTVERLKALVNPANVTFKIYEGMMHSSCQQEMMDVKHFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS P+PA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGI+S HIKYICPHAPV PVTLNMN+AMPSWFDI+GLSPDSQEDESGIKQAAE +KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASF QGPI  ANRDIS+LQCHGDCDPLVPLMFGSLTVE+LK LVNPANVTFK YEGMMHSSCQQEMMDVK FIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_022371345.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform X1 [Enhydra lutris kenyoni]</Hit_def>
+  <Hit_accession>XP_022371345</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>2.10167e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPATVPAVRKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPIMPVTLNMNMAMPSWFDISGLSPESQEDEPGIKQAAENVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLQASFPQGPISGVNRDISILQCHGDCDPLVPLMFASLTAEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPA VPA RKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAP+ PVTLNMN+AMPSWFDI GLSP+SQEDE GIKQAAEN+KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPL+ASFPQGPI G NRDISILQCHGDCDPLVPLMF SLT EKLKTLVNPANVTFKTYEGMMHSSCQQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_004768872.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X1 [Mustela putorius furo]</Hit_def>
+  <Hit_accession>XP_004768872</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>2.17198e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPATVPAVRKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPIMPVTLNMNMAMPSWFDITGLLPESQEDEPGIKQAAENVKALIEQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGVNRDISILQCHGDCDPLVPLMFASLTAEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDIKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPA VPA RKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAP+ PVTLNMN+AMPSWFDI GL P+SQEDE GIKQAAEN+KALI+QEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI G NRDISILQCHGDCDPLVPLMF SLT EKLKTLVNPANVTFKTYEGMMHSSCQQEMMD+KQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_006900590.1|</Hit_id>
+  <Hit_def>PREDICTED: acyl-protein thioesterase 1 isoform X1 [Elephantulus edwardii]</Hit_def>
+  <Hit_accession>XP_006900590</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>3.11937e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAVVPAARKATAAVIFLHGLGDTGHGWADAFAGIRSSHIKYICPHAPVMPVTLNMNMTMPSWFDIIGLSPDSQEDEHGIKQAAENVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVIGLSCWLPLRTSFSQGPISGANKDLSILQCHGDCDPLVPLMFGSLTVERLKTLVNPANVTFKTYGGMMHSSCQQEMMDVKQFIDKLLPPV</Hsp_hseq>
+      <Hsp_midline>MS PLPA+VPAARKATAAVIFLHGLGDTGHGWA+AFAGIRSSHIKYICPHAPV PVTLNMN+ MPSWFDIIGLSPDSQEDE GIKQAAEN+KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGV  LSCWLPLR SF QGPI GAN+D+SILQCHGDCDPLVPLMFGSLTVE+LKTLVNPANVTFKTY GMMHSSCQQEMMDVKQFIDKLLPP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|NP_032892.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 isoform 1 [Mus musculus] &gt;sp|O77821.1| RecName: Full=Acyl-protein thioesterase 1; Short=APT-1; AltName: Full=Calcium-independent phospholipase A2; Short=CaIPLA2; AltName: Full=Lysophospholipase 1; AltName: Full=Lysophospholipase I; Short=LPL-I; Short=LysoPLA I [Oryctolagus cuniculus] &gt;sp|P97823.1| RecName: Full=Acyl-protein thioesterase 1; Short=APT-1; AltName: Full=Lysophospholipase 1; AltName: Full=Lysophospholipase I; Short=LPL-I; Short=LysoPLA I [Mus musculus] &gt;gb|AAB48627.1| lysophospholipase I [Mus musculus] &gt;gb|AAC63432.1| calcium-independent phospholipase A2 isoform 2 [Oryctolagus cuniculus] &gt;gb|AAH13536.1| Lysophospholipase 1 [Mus musculus] &gt;gb|EDL14248.1| lysophospholipase 1, isoform CRA_a [Mus musculus] &gt;dbj|BAB22276.1| unnamed protein product [Mus musculus] &gt;dbj|BAE27497.1| unnamed protein product [Mus musculus] &gt;dbj|BAE39355.1| unnamed protein product [Mus musculus]</Hit_def>
+  <Hit_accession>NP_032892</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>3.92744e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPMPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIKSPHIKYICPHAPVMPVTLNMNMAMPSWFDIVGLSPDSQEDESGIKQAAETVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFSQGPINSANRDISVLQCHGDCDPLVPLMFGSLTVERLKALINPANVTFKIYEGMMHSSCQQEMMDVKHFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS P+PA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGI+S HIKYICPHAPV PVTLNMN+AMPSWFDI+GLSPDSQEDESGIKQAAE +KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASF QGPI  ANRDIS+LQCHGDCDPLVPLMFGSLTVE+LK L+NPANVTFK YEGMMHSSCQQEMMDVK FIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_022412515.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Delphinapterus leucas]</Hit_def>
+  <Hit_accession>XP_022412515</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>6.22577e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPLPAIVPAVRKATAVVIFLHGLGDTGHGWAEAFAGIRSAHIKYICPHAPVMPVTLNMNMAMPSWFDIIGLSPDSQEDETGVKQAAERVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPISGVNRDISILQCHGDLDPLVPLMFGSLTAERLKTLVNPTNVTFKTYGGMMHSSCQQEMMDIKQFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS PLPAIVPA RKATA VIFLHGLGDTGHGWAEAFAGIRS+HIKYICPHAPV PVTLNMN+AMPSWFDIIGLSPDSQEDE+G+KQAAE +KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPI G NRDISILQCHGD DPLVPLMFGSLT E+LKTLVNP NVTFKTY GMMHSSCQQEMMD+KQFIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|NP_037138.1|</Hit_id>
+  <Hit_def>acyl-protein thioesterase 1 [Rattus norvegicus] &gt;sp|P70470.1| RecName: Full=Acyl-protein thioesterase 1; Short=APT-1; AltName: Full=Lysophospholipase 1; AltName: Full=Lysophospholipase I; Short=LPL-I; Short=LysoPLA I [Rattus norvegicus] &gt;gb|AAC63430.1| calcium-independent phospholipase A2 [Rattus norvegicus] &gt;gb|AAH85750.1| Lysophospholipase 1 [Rattus norvegicus] &gt;gb|EDM11589.1| lysophospholipase 1 [Rattus norvegicus] &gt;dbj|BAA09935.1| lysophospholipase [Rattus norvegicus]</Hit_def>
+  <Hit_accession>NP_037138</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>9.54959e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPI</Hsp_qseq>
+      <Hsp_hseq>MSAPMPAVVPAARKATAAVIFLHGLGDTGHGWAEAFAGIKSSHIKYICPHAPVMPVTLNMSMMMPSWFDIIGLSPDSQEDESGIKQAAETVKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFSQGPINSANRDISVLQCHGDCDPLVPLMFGSLTVERLKGLVNPANVTFKVYEGMMHSSCQQEMMDVKYFIDKLLPPI</Hsp_hseq>
+      <Hsp_midline>MS P+PA+VPAARKATAAVIFLHGLGDTGHGWAEAFAGI+SSHIKYICPHAPV PVTLNM++ MPSWFDIIGLSPDSQEDESGIKQAAE +KALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASF QGPI  ANRDIS+LQCHGDCDPLVPLMFGSLTVE+LK LVNPANVTFK YEGMMHSSCQQEMMDVK FIDKLLPPI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

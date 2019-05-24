@@ -1,0 +1,1460 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_152935</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1ggpb2b</BlastOutput_query-def>
+  <BlastOutput_query-len>128</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_152935</Iteration_query-ID>
+  <Iteration_query-def>d1ggpb2b</Iteration_query-def>
+  <Iteration_query-len>128</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1GGP|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Trichosanthes Kirilowii Lectin-1 And Its Relation To The Type 2 Ribosome Inactivating Proteins [Trichosanthes kirilowii]</Hit_def>
+  <Hit_accession>1GGP_B</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>8.97626e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_hseq>
+      <Hsp_midline>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1ABR|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Abrin-A [Abrus precatorius]</Hit_def>
+  <Hit_accession>1ABR_B</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>2.21714e-38</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWMADCDSNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSTILLMGCSNGWASQRWVFKNDGSIYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+WM++C + K EQQWAL TD SIRS  N++NCLTS       TILL  CS G ASQRWVF +DGSI SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AAB25434.1|</Hit_id>
+  <Hit_def>abrin-a B-chain=toxic lectin [Abrus precatorius, seeds, Peptide, 268 aa] [Abrus precatorius] &gt;prf||1908235A abrin a:SUBUNIT=B chain [Abrus precatorius]</Hit_def>
+  <Hit_accession>AAB25434</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>2.67366e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTSPFVTSISGYSDLCMQAQG--SNVWMADCDSNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSTILLMGCSNGWASQRWVFKNDGSIYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline> TS  VT ISG + LCMQA    +N+WM++C + K EQQWAL TD SIRS  N++NCLTS       TILL  CS G ASQRWVF +DGSI SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAB25435.1|</Hit_id>
+  <Hit_def>abrin-b B-chain=toxic lectin [Abrus precatorius, seeds, Peptide, 268 aa] [Abrus precatorius] &gt;prf||1908235B abrin b:SUBUNIT=B chain [Abrus precatorius]</Hit_def>
+  <Hit_accession>AAB25435</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>7.51357e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSA-ADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTSPFVTSISGYSDLCMQAQG--SNVWMADCDSNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSPIVLMACSNGWASQRWLFKNDGSIYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline> TS  VT ISG + LCMQA    +N+WM++C + K EQQWAL TD SIRS  N++NCLTS     G   +L+A  +G ASQRW+F +DGSI SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|P11140.2|</Hit_id>
+  <Hit_def>RecName: Full=Abrin-a; Contains: RecName: Full=Abrin-a A chain; AltName: Full=rRNA N-glycosidase; Contains: RecName: Full=Linker peptide; Contains: RecName: Full=Abrin-a B chain; Flags: Precursor [Abrus precatorius]</Hit_def>
+  <Hit_accession>P11140</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>8.57817e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWMADCDSNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSTILLMGCSNGWASQRWVFKNDGSIYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+WM++C + K EQQWAL TD SIRS  N++NCLTS       TILL  CS G ASQRWVF +DGSI SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AAA32624.1|</Hit_id>
+  <Hit_def>abrin-a, partial [Abrus precatorius]</Hit_def>
+  <Hit_accession>AAA32624</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>8.57817e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWMADCDSNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSTILLMGCSNGWASQRWVFKNDGSIYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+WM++C + K EQQWAL TD SIRS  N++NCLTS       TILL  CS G ASQRWVF +DGSI SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AAB23029.1|</Hit_id>
+  <Hit_def>abrin-a B chain=galactose-specific lectin [Abrus precatorius, Peptide, 267 aa] [Abrus precatorius]</Hit_def>
+  <Hit_accession>AAB23029</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.06513e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWLADCDSNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSPILLMGCSNGWASQRWLFKNDGSIYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+W+++C + K EQQWAL TD SIRS  N++NCLTS        ILL  CS G ASQRW+F +DGSI SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_027352454.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352454</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>1.58028e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCLQAQG--SNVWMADCDSNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSTIVLMGCSNGWASQRWVFKNDGSIYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LC+QA    +N+WM++C + K EQQWAL TD SIRS  N++NCLTS       TI+L  CS G ASQRWVF +DGSI SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q06076.1|</Hit_id>
+  <Hit_def>RecName: Full=Abrin-d; Contains: RecName: Full=Abrin-d A chain; AltName: Full=rRNA N-glycosidase; Contains: RecName: Full=Linker peptide; Contains: RecName: Full=Abrin-d B chain; Flags: Precursor [Abrus precatorius] &gt;gb|AAA32626.1| abrin-d, partial [Abrus precatorius]</Hit_def>
+  <Hit_accession>Q06076</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.02812e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSA-ADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWLADCDNNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSPIVLMACSNGWASQRWLFKNDGSIYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+W+++C   K EQQWAL TD SIRS  N++NCLTS     G   +L+A  +G ASQRW+F +DGSI SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AAL77434.1|</Hit_id>
+  <Hit_def>abrin isoform G precursor, partial [Abrus precatorius]</Hit_def>
+  <Hit_accession>AAL77434</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>4.47393e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGYSDLCMEAHE--SNMWLADCDRNKKEQQWALYPDGSIRPVQNTNNCLTSKDHKQGSTIVLMGCSNGWASQRWVFKNDGSVYSLYDDMVMDVKGSDPSLKQIILWPYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G + LCM+A    +N+W+++C   K EQQWAL  D SIR   N++NCLTS       TI+L  CS G ASQRWVF +DGS+ SLYDD  MD +G+  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_027352287.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352287</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.98029e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGYSDLCMEAHE--SNMWLADCDSNKKEQQWALYPDGSIRPVQNTDNCLTSEEHKQGATIVMMDCSNAWASQRWVFKNDGTIYSLYDDMVMDVKGSDPSLKQIILWPYTGNPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G + LCM+A    +N+W+++C + K EQQWAL  D SIR   N+DNCLTS       TI++  CS   ASQRWVF +DG+I SLYDD  MD +G+  + KQIILW     PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_027352168.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352168</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.19618e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIIGYLDLCMEAHG--SNMWLADCDSNKKEQQWALYPDGSIRPVQNTNNCLTSEEHKQGATIVMMDCSNAWASQRWVFKNDGTIYSLYDDMVMDVRGSDPNLKQIILWPYTGNPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I G   LCM+A    +N+W+++C + K EQQWAL  D SIR   N++NCLTS       TI++  CS   ASQRWVF +DG+I SLYDD  MD  G+    KQIILW     PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_027351670.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027351670</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>2.04191e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIVGYSDLCMEAHG--SNMWLADCDSKKKEQQWALYPDGSIRPVQNTNNCLTSEAHKREATIVMMGCRNAWASQRWVFKNDGTIYSLYDDMVMDVKRSDPSLKQIILWSYTGNPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I G + LCM+A    +N+W+++C + K EQQWAL  D SIR   N++NCLTS A     TI++  C    ASQRWVF +DG+I SLYDD  MD + +  + KQIILW     PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ABW23506.1|</Hit_id>
+  <Hit_def>prepropulchellin IV [Abrus pulchellus subsp. tenuiflorus]</Hit_def>
+  <Hit_accession>ABW23506</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>2.07646e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>435</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGYSNLCMEAHG--TNVWMADCDSNKKEQQWALYPDGSIRPVQNTNNCLTSDEHKQGATIVMMGCSNAWASQRWVFRNDGTIYNLYDDMVMDVRRSDPSLKQIILWSYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G + LCM+A     N+WM++C + K EQQWAL  D SIR   N++NCLTS       TI++  CS   ASQRWVF +DG+I +LYDD  MD   +  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_027352686.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352686</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>4.26247e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIVGYLDLCMEAHE--SNMWLADCDSNKKEQQWALYPDGSIRPVQNTNNCLTSEDHKQGATIVMMGCSNAWASQRWVFKSDGTIYNLYDDMVMDVKGSDPSLKQIILWSYNGNPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I G   LCM+A    +N+W+++C + K EQQWAL  D SIR   N++NCLTS       TI++  CS   ASQRWVF  DG+I +LYDD  MD +G+  + KQIILW     PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|ABW23504.1|</Hit_id>
+  <Hit_def>prepropulchellin II [Abrus pulchellus subsp. tenuiflorus]</Hit_def>
+  <Hit_accession>ABW23504</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>6.90552e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILW-WNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSIVGYLDLCMEAHG--SNVWLADCVSNKKEQQWALYTDGSIRSVQNTNNCLTSKEHKKGSLIVLMGCSNGWASQRWVFKNDGTIYSLYDDMVMDVKGSDPSLQNIILYPYTGGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT I G   LCM+A    +N+W+++C + K EQQWAL TD SIRS  N++NCLTS        I+L  CS G ASQRWVF +DG+I SLYDD  MD +G+  + + IIL+ +   +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_027352688.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352688</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>7.49293e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIVGYLDLCMEAHE--SNMWLADCDSNKKEQQWALYPDGSIRPVQNTNNCLTSEDHKQGATIVMMGCSNAWASQRWVFKNDSTIYSLYDDMVMDVRGSDPSLKQIILWPYNGNPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I G   LCM+A    +N+W+++C + K EQQWAL  D SIR   N++NCLTS       TI++  CS   ASQRWVF +D +I SLYDD  MD  G+  + KQIILW     PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ABW23503.1|</Hit_id>
+  <Hit_def>prepropulchellin I [Abrus pulchellus subsp. tenuiflorus]</Hit_def>
+  <Hit_accession>ABW23503</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>8.22504e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>436</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILW-WNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSIVGYLDLCMEAHG--SNVWLADCVSNKKEQQWALYTDGSIRSVQNTNNCLTSKEHKKGSLIVLMGCSNGWASQRWVFKNDGTIYSLYDDMVMDVKGSDPSLQNIILYPYTGGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT I G   LCM+A    +N+W+++C + K EQQWAL TD SIRS  N++NCLTS        I+L  CS G ASQRWVF +DG+I SLYDD  MD +G+  + + IIL+ +   +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|AAM19073.1|</Hit_id>
+  <Hit_def>pulchelin B-chain, partial [Abrus pulchellus subsp. tenuiflorus]</Hit_def>
+  <Hit_accession>AAM19073</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>2.28919e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSG-PASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGYLDLCMEAHG--SNVWLADCDSNKEEQQWALYPDGSIRPVQNTNNCLTSTDFKEGATIVTMGCSNASASQRWVFKNDGTIYSLYYDMVMDVRRSDPSLKQIILWPYTGNPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G   LCM+A    +N+W+++C + K EQQWAL  D SIR   N++NCLTS       TI+   CS   ASQRWVF +DG+I SLY D  MD   +  + KQIILW     PNQIWL LF</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>1.69782</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SVTQISGSAQLCMQAGNGPAN----LWMSECRAGKAEQQ-WALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPASQ--RWVFDDDGSILS</Hsp_qseq>
+      <Hsp_hseq>STVRIGGRDGMCLDVSNNVYNNGNPIIMWKCKDQLEENQLWTLKRDKTIRSK---GKCLTTHGYAPGDYVMIYNCTSPVPEATYWEIWDNGTIIN</Hsp_hseq>
+      <Hsp_midline>S  +I G   +C+   N   N    + M +C+    E Q W L  DK+IRS+     CLT+   A    +++  C+ P  +   W   D+G+I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_027352684.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352684</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>2.96159e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>435</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIVGYLDLCMEAHE--SNMWLGDCDSNKKEQQWALYPDGSIRPVQNTNNCLTSDEHKQGATIVMMDCSNAWASQRWVFKSDGTIYNLYDDMVMDVKGSDPSLKQIILWPYTGNPNQMWVTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I G   LCM+A    +N+W+ +C + K EQQWAL  D SIR   N++NCLTS       TI++  CS   ASQRWVF  DG+I +LYDD  MD +G+  + KQIILW     PNQ+W+ LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|ABW23505.1|</Hit_id>
+  <Hit_def>prepropulchellin III [Abrus pulchellus subsp. tenuiflorus]</Hit_def>
+  <Hit_accession>ABW23505</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>3.24193e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>435</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTS-AADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGYSNLCMEAHG--TNVWMADCDSNKKEQQWALYPDGSIRPVQNTNNCLTSDEHKQGATIVMMGYSNAWASQRWVFRNDGTIYNLYDDMVMDVRRSDPSLKQIILWSYTGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G + LCM+A     N+WM++C + K EQQWAL  D SIR   N++NCLTS     G   +++   +  ASQRWVF +DG+I +LYDD  MD   +  + KQIILW    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_027349055.1|</Hit_id>
+  <Hit_def>abrin-c isoform X1 [Abrus precatorius] &gt;ref|XP_027349056.1| abrin-c isoform X1 [Abrus precatorius] &gt;ref|XP_027349057.1| abrin-c isoform X1 [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027349055</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.10898e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCS-GPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWLADCDNNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSPILLMGCSNGWASQRWLFKNDGSIYNLHDDMVMDVKRSDPSLKEIILHPYHGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+W+++C   K EQQWAL TD SIRS  N++NCLTS        ILL  CS G ASQRW+F +DGSI +L+DD  MD + +  + K+IIL     +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|P28590.1|</Hit_id>
+  <Hit_def>RecName: Full=Abrin-c; Contains: RecName: Full=Abrin-c A chain; AltName: Full=rRNA N-glycosidase; Contains: RecName: Full=Linker peptide; Contains: RecName: Full=Abrin-c B chain; Flags: Precursor [Abrus precatorius] &gt;emb|CAA39202.1| preproabrin [Abrus precatorius]</Hit_def>
+  <Hit_accession>P28590</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>4.82519e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSA-ADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWLADCDNNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSPIVLMACSNGWASQRWLFKNDGSIYNLHDDMVMDVKRSDPSLKEIILHPYHGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+W+++C   K EQQWAL TD SIRS  N++NCLTS     G   +L+A  +G ASQRW+F +DGSI +L+DD  MD + +  + K+IIL     +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|Q06077.1|</Hit_id>
+  <Hit_def>RecName: Full=Abrin-b; Contains: RecName: Full=Abrin-b A chain; AltName: Full=rRNA N-glycosidase; Contains: RecName: Full=Linker peptide; Contains: RecName: Full=Abrin-b B chain; Flags: Precursor [Abrus precatorius] &gt;gb|AAA32625.1| abrin-b, partial [Abrus precatorius]</Hit_def>
+  <Hit_accession>Q06077</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>8.24309e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>402</Hsp_hit-from>
+      <Hsp_hit-to>527</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSA-ADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWLAYCDNNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSPIVLMACSNGWASQRWLFRNDGSIYNLHDDMVMDVKRSDPSLKEIILHPYHGKPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+W++ C   K EQQWAL TD SIRS  N++NCLTS     G   +L+A  +G ASQRW+F +DGSI +L+DD  MD + +  + K+IIL     +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_027338619.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027338619</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>9.10839e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGYLDLCMKAHG--SNMWLTDCDSNKKEQQWALYPDGSIRPVQNTNNCLTSEEHKEGATIVMMACSNAWVSQRWVFRNDGTIYSLYDDMVMDVRRSDPSLKQIILWTWTGNPNQKWVTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G   LCM+A    +N+W+++C + K EQQWAL  D SIR   N++NCLTS       TI++  CS    SQRWVF +DG+I SLYDD  MD   +  + KQIILW     PNQ W+ LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|EEF26618.1|</Hit_id>
+  <Hit_def>ricin homolog, truncated, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>EEF26618</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>4.4118e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGLCLQANSG--QVWIEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNIR-ETVVKILSCGPASSGQRWMFKNDGTILNLYSGLVLDVRASDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline> T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +DG+IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_027349058.1|</Hit_id>
+  <Hit_def>abrin-a isoform X2 [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027349058</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>5.91152e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSALVTSIVGYLDLCMEAHG--SKVWLGDCDSNKKEQQWALYPDGSIRPVQNTNNCLTSDDHKQGATIVMMDCSNAWASQRWAFRNDGTIYSLYDNMVMDVRGSDPSLKQIILWPYTGNPNQMWLTLF</Hsp_hseq>
+      <Hsp_midline>+TSA VT I G   LCM+A    + +W+ +C + K EQQWAL  D SIR   N++NCLTS       TI++  CS   ASQRW F +DG+I SLYD+  MD  G+  + KQIILW     PNQ+WL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_027334134.1|</Hit_id>
+  <Hit_def>abrin-d-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027334134</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>6.47248e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>436</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>HTGPFVTSIAGYLDLCMEAHG--SNVWLADCDSNKKEQQWAIYPDGSIRPVQNTNNCLTSEEHKPGATIVMMACSNAWASQRWVFKNDGTIYSLSDDMVMDVKGSDPSLKQIILWSWTGNPNQMWLTLF</Hsp_hseq>
+      <Hsp_midline> T   VT I+G   LCM+A    +N+W+++C + K EQQWA+  D SIR   N++NCLTS       TI++  CS   ASQRWVF +DG+I SL DD  MD +G+  + KQIILW     PNQ+WL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_027351637.1|</Hit_id>
+  <Hit_def>abrin-b isoform X2 [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027351637</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>8.95807e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>436</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSA-ADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWLADCDNNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSPIVLMACSNGWASQRWLFKNDGSIYNLHDDMVMDVKRSDPSLKEIILHPYHGKANQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+W+++C   K EQQWAL TD SIRS  N++NCLTS     G   +L+A  +G ASQRW+F +DGSI +L+DD  MD + +  + K+IIL     + NQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_027351635.1|</Hit_id>
+  <Hit_def>abrin-c isoform X1 [Abrus precatorius] &gt;ref|XP_027351636.1| abrin-c isoform X1 [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027351635</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>9.85278e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSA-ADAGPKTILLALCSGPASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TSPFVTSISGYSDLCMQAQG--SNVWLADCDNNKKEQQWALYTDGSIRSVQNTNNCLTSKDHKQGSPIVLMACSNGWASQRWLFKNDGSIYNLHDDMVMDVKRSDPSLKEIILHPYHGKANQIWLTLF</Hsp_hseq>
+      <Hsp_midline>TS  VT ISG + LCMQA    +N+W+++C   K EQQWAL TD SIRS  N++NCLTS     G   +L+A  +G ASQRW+F +DGSI +L+DD  MD + +  + K+IIL     + NQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_002534655.1|</Hit_id>
+  <Hit_def>ricin-like [Ricinus communis] &gt;ref|XP_002535287.1| ricin-like [Ricinus communis] &gt;gb|EEF27096.1| ricin homolog, truncated [Ricinus communis] &gt;gb|EEF27727.1| ricin homolog, truncated [Ricinus communis]</Hit_def>
+  <Hit_accession>XP_002534655</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>2.62174e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGLCLQANSG--QVWIEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNIR-ETVVKILSCGPASSGQRWMFKNDGTILNLYSGLVLDVRASDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline> T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +DG+IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_002534656.1|</Hit_id>
+  <Hit_def>ricin-like [Ricinus communis] &gt;gb|EEF27728.1| ricin homolog, truncated [Ricinus communis]</Hit_def>
+  <Hit_accession>XP_002534656</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>3.82368e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGLCFQANSGP--VWLEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNIR-ETVVKILSCGPASSGQRWMFKNDRTILNLYSGLVLDVRVSDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline> T   VT I G   LC QA +GP  +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +D +IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_027361932.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027361932</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>4.54537e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGYLDLCMEAHG--SNMWLADCDSKKEEQQWALYPDGSIRPVQNTNNCLTSEEHKQGATIVMMDCSNAWASQRWVFHSNGTIFNLYDNMVMDVKGSDPSLKQIILWPWTGKDNQIWVTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G   LCM+A    +N+W+++C + K EQQWAL  D SIR   N++NCLTS       TI++  CS   ASQRWVF  +G+I +LYD+  MD +G+  + KQIILW    + NQIW+ LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_027361928.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027361928</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>5.49688e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTTPVVTSIAGYLDLCMEAHG--SNMWLADCDSNKEEQQWALYPDGSIRPVQNTNNCLTSEEHKQGATIVMMDCSNAWASQRWVFHSNGTIFNLYDNMVMDVKGSDPSLKQIILWPWTGKDNQIWVTLF</Hsp_hseq>
+      <Hsp_midline>+T+  VT I+G   LCM+A    +N+W+++C + K EQQWAL  D SIR   N++NCLTS       TI++  CS   ASQRWVF  +G+I +LYD+  MD +G+  + KQIILW    + NQIW+ LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_027347553.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027347553</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>9.42097e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIVGYLDLCMEAHG--SKVWVADCDSNKKEQQWALYPDGSIRPVQSTNNCLTSGAHDQGVTIVIMGCSNAWASQRWVFKNDGTIYSLFDDMVMDVRQSNPSLKEIILWPYTGKPNQIWLTAF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I G   LCM+A    + +W+++C + K EQQWAL  D SIR   +++NCLTS A     TI++  CS   ASQRWVF +DG+I SL+DD  MD   +  + K+IILW    +PNQIWL  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_027352444.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352444</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.46112e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIVGYLDLCMEAHG--SKVWLADCDSNKKEQQWALYPDGSIRSVQSTNNCLTSGAHNQGATIVIMGCSSAWASQRWVFKIDGTICSLSDDMVMDVRRSDPSLKEIILWPYTGNPNQIWLTLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I G   LCM+A    + +W+++C + K EQQWAL  D SIRS  +++NCLTS A     TI++  CS   ASQRWVF  DG+I SL DD  MD   +  + K+IILW     PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|AFH96941.1|</Hit_id>
+  <Hit_def>ricin B-chain, partial [Ricinus communis] &gt;pdb|2AAI|B Chain B, Ricin (b Chain) [Ricinus communis] &gt;pdb|3RTI|B Chain B, Ricin [Ricinus communis] &gt;pdb|3RTJ|B Chain B, Ricin B Chain [Ricinus communis]</Hit_def>
+  <Hit_accession>AFH96941</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.4864e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGLCLQANSG--QVWIEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNIR-ETVVKILSCGPASSGQRWMFKNDGTILNLYSGLVLDVRASDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline> T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +DG+IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>prf||1111227A</Hit_id>
+  <Hit_def>ricin D B [Ricinus communis]</Hit_def>
+  <Hit_accession>1111227A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.4864e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGLCLQANSG--QVWIEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNIR-ETVVKILSCGPASSGQRWMFKNDGTILNLYSGLVLDVRASDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline> T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +DG+IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_027357184.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027357184</Hit_accession>
+  <Hit_len>701</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.51857e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>575</Hsp_hit-from>
+      <Hsp_hit-to>701</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTGPFVTSIAGYLDLCMEAHG--SNMWLADCDRNKKEQQWALYPDGSIRPVQNTNSCLTSEEHKQGATIVMMACSNAWASQRWVFRNDGTIYSLYDDMVMDVRRSDPSLKQIILWTWTGNPNQKWVTLF</Hsp_hseq>
+      <Hsp_midline>+T   VT I+G   LCM+A    +N+W+++C   K EQQWAL  D SIR   N+++CLTS       TI++  CS   ASQRWVF +DG+I SLYDD  MD   +  + KQIILW     PNQ W+ LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|P02879.1|</Hit_id>
+  <Hit_def>RecName: Full=Ricin; Contains: RecName: Full=Ricin A chain; AltName: Full=rRNA N-glycosidase; Contains: RecName: Full=Linker peptide; Contains: RecName: Full=Ricin B chain; Flags: Precursor [Ricinus communis] &gt;gb|EEF27734.1| Ricin precursor [Ricinus communis] &gt;emb|CAA26939.1| ricin precursor [Ricinus communis] &gt;emb|CAA37095.1| pre-propolypeptide (AA -35 to 541) [Ricinus communis]</Hit_def>
+  <Hit_accession>P02879</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>9.05806e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>576</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGLCLQANSG--QVWIEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNIR-ETVVKILSCGPASSGQRWMFKNDGTILNLYSGLVLDVRASDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline> T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +DG+IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_002534649.2|</Hit_id>
+  <Hit_def>ricin-like [Ricinus communis]</Hit_def>
+  <Hit_accession>XP_002534649</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>9.44418e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>481</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TQPFVTTIVGLYGLCLQANSG--QVWIEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNIR-ETVVKILSCGPASSGQRWMFKNDGTILNLYSGLVLDVRASDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline>T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +DG+IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|NP_001310630.1|</Hit_id>
+  <Hit_def>ricin precursor [Ricinus communis] &gt;emb|CAA26230.1| unnamed protein product [Ricinus communis]</Hit_def>
+  <Hit_accession>NP_001310630</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.3323e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>439</Hsp_hit-from>
+      <Hsp_hit-to>565</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGLCLQANSG--QVWIEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNIR-ETVVKILSCGPASSGQRWMFKNDGTILNLYSGLVLDVRRSDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline> T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +DG+IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_027338618.1|</Hit_id>
+  <Hit_def>abrin-a-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027338618</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>1.61745e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQA-GNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DPSPFVTSIAGYLDLCMEAHGN---NMWLADCDRNKEEQQWSLYPDGSIRPVQNENNCLTSQEHKEGAIIVMMACSNAWASQRWVFQNDGTIYSLYDEMVMDVKNSDPSLKQIILWSWTGNPNQKWVTLF</Hsp_hseq>
+      <Hsp_midline>+ S  VT I+G   LCM+A GN   N+W+++C   K EQQW+L  D SIR   N +NCLTS        I++  CS   ASQRWVF +DG+I SLYD+  MD + +  + KQIILW     PNQ W+ LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|ACY38598.1|</Hit_id>
+  <Hit_def>ricin B chain, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ACY38598</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.26888e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGLCLQANSG--QVWLEDCTSEKAEQQWALYADGSIRPQQNRDNCLTSDSNI-QGTVVKILSCGPASSGQRWMFKNDGTILNLYNGLVLDVRASDPSLKQIILHPFHGDPNQIWLPLL</Hsp_hseq>
+      <Hsp_midline> T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++    T++  L  GPAS  QRW+F +DG+IL+LY+   +D   +  + KQIIL     +PNQIWL L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|2Q3N|B</Hit_id>
+  <Hit_def>Chain B, Agglutinin-1 B Chain [Abrus precatorius] &gt;pdb|2ZR1|B Chain B, Agglutinin-1 Chain B [Abrus precatorius] &gt;pdb|2ZR1|D Chain D, Agglutinin-1 Chain B [Abrus precatorius]</Hit_def>
+  <Hit_accession>2Q3N_B</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.9928e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQA-GNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGFFKLCMEAHGN---SMWLDVCDITKEEQQWAVYPDGSIRPVQNTNNCLTCEEHKQGATIVMMGCSNAWASQRWVFKSDGTIYNLYDDMVMDVKSSDPSLKQIILWPYTGNANQMWATLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G  +LCM+A GN   ++W+  C   K EQQWA+  D SIR   N++NCLT        TI++  CS   ASQRWVF  DG+I +LYDD  MD + +  + KQIILW      NQ+W  LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|AAB22582.1|</Hit_id>
+  <Hit_def>proricin A chain, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>AAB22582</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>8.22633e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>541</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>TSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>TQPFVTTIVGLYGLCLQANSG--QVWIEDCSSEKAEQQWALYADGSIRPQQNRDNCLTSDSNI-RETVVKILSCGPASSGQRWMFKNDGTILNLYSGLVLDVRRSDPSLKQIILYPLHGDPNQIWLPLF</Hsp_hseq>
+      <Hsp_midline>T   VT I G   LC+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLTS ++   +T++  L  GPAS  QRW+F +DG+IL+LY    +D   +  + KQIIL+    +PNQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_027352555.1|</Hit_id>
+  <Hit_def>agglutinin-1-like [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352555</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.38688e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQA-GNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGFLNLCMEAHGN---SMWLDVCDITKEEQQWAVYPDGSIRPVQNTNNCLTSEEHKQGATIVMMGCSNAWASQRWVFKSDGTIYNLYDDMVMDVKSSDPSLKQIILWPYTGNANQMWATLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G   LCM+A GN   ++W+  C   K EQQWA+  D SIR   N++NCLTS       TI++  CS   ASQRWVF  DG+I +LYDD  MD + +  + KQIILW      NQ+W  LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_027352709.1|</Hit_id>
+  <Hit_def>agglutinin-1 [Abrus precatorius]</Hit_def>
+  <Hit_accession>XP_027352709</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.41548e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQA-GNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGFFNLCMEAHGN---SMWLDVCDITKEEQQWAVYPDGSIRPVQNTNNCLTSEEHKQGATIVMMGCSNAWASQRWVFKSDGTVYNLYDDMVMDVKSSDPSLKQIILWPYTGNANQMWATLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G   LCM+A GN   ++W+  C   K EQQWA+  D SIR   N++NCLTS       TI++  CS   ASQRWVF  DG++ +LYDD  MD + +  + KQIILW      NQ+W  LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>sp|Q9M6E9.1|</Hit_id>
+  <Hit_def>RecName: Full=Agglutinin-1; AltName: Full=Agglutinin I; Contains: RecName: Full=Agglutinin-1 chain A; AltName: Full=AAG-A; Contains: RecName: Full=Agglutinin-1 chain B; AltName: Full=AAG-B; Flags: Precursor [Abrus precatorius] &gt;gb|AAF28309.1| preproagglutinin [Abrus precatorius]</Hit_def>
+  <Hit_accession>Q9M6E9</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.39265e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQA-GNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGP-ASQRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>DTSPFVTSIAGFFKLCMEAHGN---SMWLDVCDITKEEQQWAVYPDGSIRPVQNTNNCLTCEEHKQGATIVMMGCSNAWASQRWVFKSDGTIYNLYDDMVMDVKSSDPSLKQIILWPYTGNANQMWATLF</Hsp_hseq>
+      <Hsp_midline>+TS  VT I+G  +LCM+A GN   ++W+  C   K EQQWA+  D SIR   N++NCLT        TI++  CS   ASQRWVF  DG+I +LYDD  MD + +  + KQIILW      NQ+W  LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>prf||1303208A</Hit_id>
+  <Hit_def>ricin E B [Ricinus communis]</Hit_def>
+  <Hit_accession>1303208A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.14259e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ETSASVTQISGSAQLCMQAGNGPANLWMSECRAGKAEQQWALLTDKSIRSETNSDNCLTSAADAGPKTILLALCSGPAS--QRWVFDDDGSILSLYDDKQMDSEGAAAAAKQIILWWNAAEPNQIWLALF</Hsp_qseq>
+      <Hsp_hseq>NTQPFVTTIVGLYGMCLQANSG--KVWLEDCTSEKAEQQWALYADGSIRPQQNRDNCLTTDANI-KGTVVKILSCGPASSGQRWMFKNDGTILNLYNGLVLDVRRSDPSLKQIIVHPVHGNLNQIWLPLF</Hsp_hseq>
+      <Hsp_midline> T   VT I G   +C+QA +G   +W+ +C + KAEQQWAL  D SIR + N DNCLT+ A+    T++  L  GPAS  QRW+F +DG+IL+LY+   +D   +  + KQII+       NQIWL LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

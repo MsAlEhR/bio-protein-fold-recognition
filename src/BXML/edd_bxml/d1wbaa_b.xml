@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_172005</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1wbaa_b</BlastOutput_query-def>
+  <BlastOutput_query-len>171</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_172005</Iteration_query-ID>
+  <Iteration_query-def>d1wbaa_b</Iteration_query-def>
+  <Iteration_query-len>171</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P15465.1|</Hit_id>
+  <Hit_def>RecName: Full=Albumin-1; AltName: Full=WBA-1 [Psophocarpus tetragonolobus] &gt;pdb|1WBA|A Chain A, Winged Bean Albumin 1 [Psophocarpus tetragonolobus]</Hit_def>
+  <Hit_accession>P15465</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>1.26074e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>DDPVYDAEGNKLVNRGKYTIVSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_qseq>
+      <Hsp_hseq>DDPVYDAEGNKLVNRGKYTIVSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_hseq>
+      <Hsp_midline>DDPVYDAEGNKLVNRGKYTIVSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAB23733.1|</Hit_id>
+  <Hit_def>Kunitz protease inhibitor, partial [Psophocarpus tetragonolobus]</Hit_def>
+  <Hit_accession>AAB23733</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.52143e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>DDPVYDAEGNKLVNRGKYTIVSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRN-ILENMRLKINFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_qseq>
+      <Hsp_hseq>QQPVYDTNGNQLRNNGEYYIVPVSGGAGIDVVATGTE--KCPLTIVQSSSSTKYSTVFKSE-ATLPRPINYITQNMAFSIKFGCNQYRGRPWTVVRGLPEGLALKLNG-YTNTAR-VLRIKPYSPGSRNYKLLFCPDGSQCANVGFTLMLSERKRLVVSNTLPTLQVQFQKY</Hsp_hseq>
+      <Hsp_midline>  PVYD  GN+L N G+Y IV  S GAGIDVVATG E  + PL+IV+S+ +  Y+T   SE  T P+P N I +NM   I F  + ++G  W+VV   P+G  LKL G Y N  +    I+  S   R YKLLFCP GS C N+G +     +KRLVVS     L V+F ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_001236001.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor precursor [Glycine max] &gt;ref|XP_028234511.1| trypsin inhibitor A-like [Glycine soja] &gt;gb|ACU16227.1| unknown [Glycine max] &gt;gb|KHN25851.1| Trypsin inhibitor A [Glycine soja] &gt;gb|KRH75606.1| hypothetical protein GLYMA_01G096200 [Glycine max] &gt;gb|RZC29214.1| Trypsin inhibitor A [Glycine soja]</Hit_def>
+  <Hit_accession>NP_001236001</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.44847e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTI--VSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINF-------ATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPV--GSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DVVLDTDGGVLQNGGQYSVLPVMRGSGGGLVVRATGNE--RCPLTVAQ-TRNEL-DKGIGTIISSPLRVAVIAEGHPLSISFGFFPVMPSCIPLTGD-WGIVDGLPEGPAVKLA-EYKNIVDGWFKIEKAH--PLGYKLLFCPLLEGSTCGDIGIQTDDDGIRRLVVT-KNNPLLVQFQK</Hsp_hseq>
+      <Hsp_midline>D V D +G  L N G+Y++  V    G G+ V ATGNE    PL++ + TRN +    I +   +P +   I E   L I+F       +  P  GD W +VD  P+G  +KLA  Y N V G F I+K    P  YKLLFCP+  GS C +IGI TD +G +RLVV+ +++PL+V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|ACU15724.1|</Hit_id>
+  <Hit_def>unknown, partial [Glycine max]</Hit_def>
+  <Hit_accession>ACU15724</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.27685e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTI--VSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPV-GSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DTIFDINGDFVRNGGTYYILPVIRGDGGGIEFAATGNETC--PLTVVQSPLEV--SKGLPLIISSPFEILSIQEGLILNIGFTFVPPCALIPSEWTTVKGLPEGLAVKLTG-YENKVPGWFKIERVSLEFNDYKLVFCATEDSTCVDIGVYIDGEGNRRLVVTENNDPLLVHFRK</Hsp_hseq>
+      <Hsp_midline>D ++D  G+ + N G Y I  V   DG GI+  ATGNE    PL++V+S   +  +  +     +P +  +I E + L I F   P    +   W+ V   P+G  +KL G Y N+V G F I++ S     YKL+FC    S C +IG+  D EG +RLVV+  +DPL+V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_003532234.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor KTI1-like [Glycine max] &gt;ref|XP_028246273.1| kunitz-type trypsin inhibitor KTI1-like [Glycine soja] &gt;gb|KHN01857.1| Kunitz-type trypsin inhibitor KTI1 [Glycine soja] &gt;gb|KRH46551.1| hypothetical protein GLYMA_08G341300 [Glycine max] &gt;gb|RZC00148.1| Kunitz-type trypsin inhibitor KTI1 [Glycine soja]</Hit_def>
+  <Hit_accession>XP_003532234</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.59678e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTI--VSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPV-GSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DTIFDINGDFVRNGGTYYILPVIRGDGGGIEFAATGNETC--PLTVVQSPLEV--SKGLPLIISSPFEILSIQEGLILNIGFTFVPPCALIPSEWTTVKGLPEGLAVKLTG-YENKVPGWFKIERVSLEFNDYKLVFCATEDSTCVDIGVYIDGEGNRRLVVTENNDPLLVHFKK</Hsp_hseq>
+      <Hsp_midline>D ++D  G+ + N G Y I  V   DG GI+  ATGNE    PL++V+S   +  +  +     +P +  +I E + L I F   P    +   W+ V   P+G  +KL G Y N+V G F I++ S     YKL+FC    S C +IG+  D EG +RLVV+  +DPL+V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|ALA09301.1|</Hit_id>
+  <Hit_def>Kunitz-type chymotrypsin inhibitor precursor [Rhynchosia sublobata]</Hit_def>
+  <Hit_accession>ALA09301</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.90522e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKG--DVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>LFDTDGELLLNGGSYYVVAVKRGSGGGIELTATGKETC--PVTVVQSRNEVSKGKPVTL--YSPILLLYINQNFPIRIGFTSAPTCAPTSTWTIVEGLPEGPAVKL-GDYDDARSGSFKIKKVSEDSHDYKIVFCSGDDTCEEIGVYVDSKGNRRLVLT-QNDPLVVQFQR</Hsp_hseq>
+      <Hsp_midline>++D +G  L+N G Y +V+     G GI++ ATG E    P+++V+S   +     ++    +P     I +N  ++I F + P       W++V+  P+G  +KL G Y +   G+F I+K S     YK++FC     C+ IG+  D +G +RLV++ Q+DPLVV+F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_020224523.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor KTI1-like [Cajanus cajan] &gt;gb|KYP60026.1| Kunitz-type trypsin inhibitor KTI1 [Cajanus cajan]</Hit_def>
+  <Hit_accession>XP_020224523</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>9.219e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRN------IMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGD--VWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNT-PRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VLDTDGKLLRNGGSYYVVPVKRGSGGGIELAATGNETC--PLTVVQSPNKASKGNPCLVLSSILFAYITP--------NFPFQINFASVPTCAPTLLWTVVDGLPEGPAVKIGG-YRDARSGAFQVQKASHRGCNHYKLLFC-LDDTCEDIGVYVDSEGNRRLVLT-KNDPLLIQFQR</Hsp_hseq>
+      <Hsp_midline>V D +G  L N G Y +V      G GI++ ATGNE    PL++V+S          +  +SI     TP        N   +INFA+ P      +W+VVD  P+G  +K+ G Y +   GAF +QK S+     YKLLFC +   C++IG+  D EG +RLV++ ++DPL+++F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|TKY66238.1|</Hit_id>
+  <Hit_def>Kunitz-type trypsin inhibitor KTI1 [Spatholobus suberectus]</Hit_def>
+  <Hit_accession>TKY66238</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>2.18463e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTI--VSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTP-PQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAG-RYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSP--CKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>QPVLDTDGEVVENRVAYYMLPVLRGKGGGIELAATGNETC--PLTVVQSRREV--SKGIPIMISCPYVGPCIAFEHGILNIGFTVVSRCAPIPSAWNVVKGLPEGQAVKITGYEFENVVIGAFTIEKASLDHNSYKLLFCTFGDKLICKDIGIHIDVHGNRRLVVA-ENNPFLFQLQK</Hsp_hseq>
+      <Hsp_midline> PV D +G  + NR  Y +  V    G GI++ ATGNE    PL++V+S R +  +  I      P   P    E+  L I F        +   W+VV   P+GQ +K+ G  + N V GAFTI+K S    +YKLLFC  G    CK+IGI  D  G +RLVV+ +++P + +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_003532236.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor KTI1-like [Glycine max] &gt;ref|XP_028246282.1| kunitz-type trypsin inhibitor KTI1-like [Glycine soja] &gt;gb|KHN01862.1| Trypsin inhibitor A [Glycine soja] &gt;gb|KRH46556.1| hypothetical protein GLYMA_08G341800 [Glycine max] &gt;gb|RZC00153.1| Trypsin inhibitor A [Glycine soja]</Hit_def>
+  <Hit_accession>XP_003532236</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>2.75365e-18</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVS-FSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKIN--FATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG--SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTNGDILQNPGTYFILSVFRPGGGVEFAATGNET--CPLTVVQTLFGRGFPVILSSQLRIPIIGEGQLFSILFRIVPWCATTPSK---WTIVEGLPESPAVKLTG-YDNTVPGEFKIEKANPFHNDYTLLFCPAGEESKCGHIGIHFDDDGNRRLVVS-EENILRVQFQK</Hsp_hseq>
+      <Hsp_midline>V D  G+ L N G Y I+S F  G G++  ATGNE    PL++V++     +   +SS+ + P      L ++  +I    AT P K   W++V+  P+   +KL G Y N V G F I+K +     Y LLFCP G  S C +IGI  D +G +RLVVS + + L V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KRH46559.1|</Hit_id>
+  <Hit_def>hypothetical protein GLYMA_08G342100 [Glycine max] &gt;gb|RZC00159.1| Trypsin inhibitor A [Glycine soja]</Hit_def>
+  <Hit_accession>KRH46559</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>3.51347e-18</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVS-FSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKI--NFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG--SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTDGDILQNPGTYFILSVFRPGGGVEFAATGNETC--PLTVVQTLFGRGFPAILSSRLRIPFIGEGQLFSILFRIVPWCATTPSK---WTIVEGLPESPAVKLTG-YDNTVPGEFKIEKANPFHNDYTLLFCPAGEESKCGHIGIHFDDDGNRRLVVS-EENILRVQFQK</Hsp_hseq>
+      <Hsp_midline>V D +G+ L N G Y I+S F  G G++  ATGNE    PL++V++     +   +SS  + P      L ++  +I    AT P K   W++V+  P+   +KL G Y N V G F I+K +     Y LLFCP G  S C +IGI  D +G +RLVVS + + L V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KHN10910.1|</Hit_id>
+  <Hit_def>Trypsin inhibitor A [Glycine soja]</Hit_def>
+  <Hit_accession>KHN10910</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>7.06763e-18</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVS-FSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKI--NFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG--SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTNGDILQNPGTYFILSVFRPGGGVEFAATGNET--CPLTVVQTLFGRGFPAILSSRLRIPFIGEGQLFSILFRIVPWCATTPSK---WTIVEGLPESPAVKLTG-YDNTVPGEFKIEKANPFHNDYTLLFCPAGEESKCGHIGIHFDDDGNRRLVVS-EENILRVQFQK</Hsp_hseq>
+      <Hsp_midline>V D  G+ L N G Y I+S F  G G++  ATGNE    PL++V++     +   +SS  + P      L ++  +I    AT P K   W++V+  P+   +KL G Y N V G F I+K +     Y LLFCP G  S C +IGI  D +G +RLVVS + + L V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|RDX65764.1|</Hit_id>
+  <Hit_def>Kunitz-type trypsin inhibitor KTI1, partial [Mucuna pruriens]</Hit_def>
+  <Hit_accession>RDX65764</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.6767e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTI--VSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPV-GSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DFVVDTDGDYLRNGGTYYVLPVIRGRGGGIEQALTGNETC--PLTVVQSPLEV--SKGLPLIISSPFRILYIYEGLILNIRFTFVPSCAPVPSTWTIVEGLPEGLAVKLTG-YENTVPGWFKIKRASLDFNDYKLVFCARDDSTCGDIGIYIDRHGIRRLVVT-QNDPLLVRFQK</Hsp_hseq>
+      <Hsp_midline>D V D +G+ L N G Y +  V    G GI+   TGNE    PL++V+S   +  +  +     +P +   I E + L I F   P    V   W++V+  P+G  +KL G Y N V G F I++ S     YKL+FC    S C +IGI  D  G +RLVV+ Q+DPL+V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_027926861.1|</Hit_id>
+  <Hit_def>trypsin inhibitor B-like [Vigna unguiculata] &gt;gb|QCE11824.1| Kunitz inhibitor ST1-like [Vigna unguiculata]</Hit_def>
+  <Hit_accession>XP_027926861</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.95855e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV---SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCP-VGSPCKNIGISTDPEGKKRLVVSYQSDP-LVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DVVTDRDGKALMNGGTYHILPLFGVRDG-GLELAATGNETC--PLTVVQSRTSQIF-RGLPVRISSPFRIGYINEGLILNLAFASSPSCAPTPPEWTVVKDLPEGQAVKLPG-YRSTVRGWFKIEK-SSLEYLYKVVFCARTGGTCGEVGISVDDEGMSRLVVTEEEDEGIIVEFMK</Hsp_hseq>
+      <Hsp_midline>D V D +G  L+N G Y I+      DG G+++ ATGNE    PL++V+S  + ++   +     +P +   I E + L + FA+ P        W+VV   P+GQ +KL G Y + V+G F I+K S+    YK++FC   G  C  +GIS D EG  RLVV+ + D  ++V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_020224521.1|</Hit_id>
+  <Hit_def>trypsin inhibitor 1A-like [Cajanus cajan]</Hit_def>
+  <Hit_accession>XP_020224521</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>2.18598e-17</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRN------IMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNT-PRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VLDTHGELLRNGGSYYMVPVKRGSGGGIELVATGNET--CPLTVVQSPNKASKGNPCLVASPILFPYITPNSPFQII------FAFVPTCAPTRLWTIVDGLPEGPAVKIGG-YHNIRNGAFQIQKASQRGCNHYKLLFC-LDDTCEDIGVYVDSEGNRRLVLT-KNDPFLVQFQR</Hsp_hseq>
+      <Hsp_midline>V D  G  L N G Y +V      G GI++VATGNE    PL++V+S          + A+ I     TP  P  I+        F        +W++VD  P+G  +K+ G Y N   GAF IQK S      YKLLFC +   C++IG+  D EG +RLV++ ++DP +V+F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|TKY66245.1|</Hit_id>
+  <Hit_def>Kunitz-type trypsin inhibitor KTI1 [Spatholobus suberectus]</Hit_def>
+  <Hit_accession>TKY66245</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>3.06937e-17</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTI--VSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPH---KGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG-SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VLDTDDDLVLNGGTYYVLPVIRGKGGGIERAATGKETC--PLTVVQSRNEDSKGLPITI--SSPYRILYITEGLILNIGFASPPRCAPTASLWTVVEGLREGPAVKLTG-YESKVSGWFKIEKASDNSHDYKILFCAHDVSTCGDIGIYIDRKGNRRLVVT-ENDPLLVQFQK</Hsp_hseq>
+      <Hsp_midline>V D + + ++N G Y +  V    G GI+  ATG E    PL++V+S         I+    +P +   I E + L I FA+ P       +W+VV+   +G  +KL G Y ++V G F I+K S+    YK+LFC    S C +IGI  D +G +RLVV+ ++DPL+V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_028247261.1|</Hit_id>
+  <Hit_def>trypsin inhibitor A-like [Glycine soja] &gt;gb|KHN04363.1| Trypsin inhibitor A [Glycine soja] &gt;gb|KHN10909.1| Trypsin inhibitor A [Glycine soja]</Hit_def>
+  <Hit_accession>XP_028247261</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>4.40231e-17</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSFS-DGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGD---VWSVVDFQPDGQQ-LKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VYDKDGNKLENKGFYYILDANLGGGGIEGAATGNETC--PLTVVQSLNELHSGLPILISSLT--FVRFISEERMLRLEFVGVPAPCAPSPLWTVVKGLPEGRQAVKLAG-YENTVKGWFEIRK--LVGQHYKLVFCARDTDACESIGVHVDENGKRVLVLTVD-DPLHVVFKK</Hsp_hseq>
+      <Hsp_midline>VYD +GNKL N+G Y I+  +  G GI+  ATGNE    PL++V+S   +     I     T    R I E   L++ F   P       +W+VV   P+G+Q +KLAG Y N VKG F I+K     + YKL+FC   +  C++IG+  D  GK+ LV++   DPL V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_020224522.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor KTI1-like [Cajanus cajan] &gt;gb|KYP60025.1| Kunitz-type trypsin inhibitor KTI1 [Cajanus cajan]</Hit_def>
+  <Hit_accession>XP_020224522</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.48842e-16</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPH--KGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNT-PRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VLDTDGKLLRNGGSYYVVPVKRGSGGGIELAATGNET--CPLTVVQSPNKASKGKPLSLA--FPILFPYITPNFPFQIMFASVPTCTPTRLWIVVDGLPEGPAVKIGG-YRDARSGAFQVQKASQRGCNHYKLLFC-LDDTCEDIGVYVDSEGNRRLVLT-KNDPFLVQFQR</Hsp_hseq>
+      <Hsp_midline>V D +G  L N G Y +V      G GI++ ATGNE    PL++V+S         +S     P     I  N   +I FA+ P      +W VVD  P+G  +K+ G Y +   GAF +QK S      YKLLFC +   C++IG+  D EG +RLV++ ++DP +V+F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|TKY66247.1|</Hit_id>
+  <Hit_def>Kunitz-type trypsin inhibitor KTI1 [Spatholobus suberectus]</Hit_def>
+  <Hit_accession>TKY66247</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.67372e-16</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPV-GSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VLDTDGDPLLNGGTYYVLPVIRGKGGGIELAKTGNETC--PLTVVQSPLDKGLPTRISS----PYRILYIYEGLPLNIQFTVVPLCASTPSKWTIVEGLLEGPAVKITG-YANTVAGWFSIEKASLDYNDYKLVFSEIDGSISGYIGIHIDSEGNRQLVVT-KNDPLLVHFQK</Hsp_hseq>
+      <Hsp_midline>V D +G+ L+N G Y ++      G GI++  TGNE    PL++V+S  +    T ISS    P +   I E + L I F   P        W++V+   +G  +K+ G Y N V G F+I+K S     YKL+F  + GS    IGI  D EG ++LVV+ ++DPL+V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|NP_001238352.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100306662 precursor [Glycine max] &gt;gb|ACU14950.1| unknown [Glycine max]</Hit_def>
+  <Hit_accession>NP_001238352</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.30267e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFA-------TDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFC--PVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_qseq>
+      <Hsp_hseq>VVDMEGNDLQNGGKYYVLPVIESSYGGIRVAATGKE--RCPLTVVQSADP--YDKGIATIISTPYRVPVIREGFPLNITFGDFAVILPCVPLRSE-WTVVNGQPEGPAVKI-GSPPNAENGWFEIEKLLTS--GYKLVFCTRPERSYCQDIGIHVDDENHARLVLT-NDDPLVVEFLKY</Hsp_hseq>
+      <Hsp_midline>V D EGN L N GKY ++    S   GI V ATG E    PL++V+S     Y   I++   TP +   I E   L I F          P + + W+VV+ QP+G  +K+ G  PN   G F I+K   +   YKL+FC  P  S C++IGI  D E   RLV++   DPLVV+F ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|RZB52706.1|</Hit_id>
+  <Hit_def>Trypsin inhibitor B [Glycine soja]</Hit_def>
+  <Hit_accession>RZB52706</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.37788e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVS-YQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DAVTDRDGAAIRNGGTYHILPLFGVKNGGLELAATGNET--CPLTVVQS-RTAQIFRGLPVRISSPYRIAYISEGLILNLAFASSPSCAPTPPNWTVVKGLPEGQGVKLPGYGRSTVSGWFKIEK-SSLEYLYKLVFCARASKACGEIGISVDDEGINRLVLTEEEGDGIIVEFMK</Hsp_hseq>
+      <Hsp_midline>D V D +G  + N G Y I+        G+++ ATGNE    PL++V+S R       +     +P +   I E + L + FA+ P        W+VV   P+GQ +KL G   + V G F I+K S+    YKL+FC   S  C  IGIS D EG  RLV++  + D ++V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_014633815.1|</Hit_id>
+  <Hit_def>uncharacterized protein LOC100306662 isoform X1 [Glycine max] &gt;gb|KRH46558.1| hypothetical protein GLYMA_08G342000 [Glycine max]</Hit_def>
+  <Hit_accession>XP_014633815</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.40228e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFA-------TDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFC--PVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_qseq>
+      <Hsp_hseq>VVDMEGNDLQNGGKYYVLPVIESSYGGIRVAATGKE--RCPLTVVQSADP--YDKGIATIISTPYRVPVIREGFPLNITFGNFAVILPCVPLRSE-WTVVNGQPEGPAVKI-GSPPNAENGWFEIEKLLTS--GYKLVFCTRPERSYCQDIGIHVDDENHARLVLT-NDDPLVVEFLKY</Hsp_hseq>
+      <Hsp_midline>V D EGN L N GKY ++    S   GI V ATG E    PL++V+S     Y   I++   TP +   I E   L I F          P + + W+VV+ QP+G  +K+ G  PN   G F I+K   +   YKL+FC  P  S C++IGI  D E   RLV++   DPLVV+F ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_028215182.1|</Hit_id>
+  <Hit_def>trypsin inhibitor B-like [Glycine soja]</Hit_def>
+  <Hit_accession>XP_028215182</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>2.09133e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVS-YQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DAVTDRDGAAIRNGGTYHILPLFGVKNGGLELAATGNET--CPLTVVQS-RTAQIFRGLPVRISSPYRIAYISEGLILNLAFASSPSCAPTPPNWTVVKGLPEGQGVKLPGYGRSTVSGWFKIEK-SSLEYLYKLVFCARASKACGEIGISVDDEGINRLVLTEEEGDGIIVEFMK</Hsp_hseq>
+      <Hsp_midline>D V D +G  + N G Y I+        G+++ ATGNE    PL++V+S R       +     +P +   I E + L + FA+ P        W+VV   P+GQ +KL G   + V G F I+K S+    YKL+FC   S  C  IGIS D EG  RLV++  + D ++V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_028246284.1|</Hit_id>
+  <Hit_def>trypsin inhibitor B-like [Glycine soja] &gt;ref|XP_028246285.1| trypsin inhibitor B-like [Glycine soja] &gt;gb|KHN01864.1| Trypsin inhibitor A [Glycine soja] &gt;gb|RZC00155.1| Trypsin inhibitor A [Glycine soja] &gt;gb|RZC00156.1| Trypsin inhibitor A [Glycine soja]</Hit_def>
+  <Hit_accession>XP_028246284</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>2.66416e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFA-------TDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFC--PVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_qseq>
+      <Hsp_hseq>VVDMEGNDLQNGGKYYVLPVIESSYGGIRVAATGKE--RCPLTVVQSPDP--YDKGIATIISTPYRVPVIREGFPLNITFGNFAVILPCVPLRSE-WTVVNGQPEGPAVKI-GSPPNAENGWFEIEKLLTS--GYKLVFCTRPERSYCQDIGIHVDDENHARLVLT-NDDPLVVEFLKY</Hsp_hseq>
+      <Hsp_midline>V D EGN L N GKY ++    S   GI V ATG E    PL++V+S     Y   I++   TP +   I E   L I F          P + + W+VV+ QP+G  +K+ G  PN   G F I+K   +   YKL+FC  P  S C++IGI  D E   RLV++   DPLVV+F ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>dbj|BAG68489.1|</Hit_id>
+  <Hit_def>Kunitz trypsin inhibitor [Glycine tomentella]</Hit_def>
+  <Hit_accession>BAG68489</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>3.06496e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIVS-FSDGAGIDVVATGNENPEDPLSIVKSTRNIM---YATSISSEDKTPPQPRNILENMRLKINF---------ATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG--SPCKNIGISTDP-EGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DFVLDVEGNPLENGGTYYILSDITAFGGIRAAPTGNERC--PLSVVQS-RNALDKGIGTIISSRLRI----RFIAEGHPLSIKFGPFAVILLCAGIPTE---WSVVEGLPEGPAVKI-GENKDAVDGYFKLKRVSEEFNNYKLLFCPQAEDSECGDIGISIDQDDGTRRLVVS-KNKPLLVQFQK</Hsp_hseq>
+      <Hsp_midline>D V D EGN L N G Y I+S  +   GI    TGNE    PLS+V+S RN +     T ISS  +     R I E   L I F         A  P +   WSVV+  P+G  +K+ G   + V G F +++ S     YKLLFCP    S C +IGIS D  +G +RLVVS ++ PL+V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_003551520.1|</Hit_id>
+  <Hit_def>trypsin inhibitor A [Glycine max] &gt;gb|KRH00084.1| hypothetical protein GLYMA_18G191400 [Glycine max]</Hit_def>
+  <Hit_accession>XP_003551520</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>5.25655e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIVSF--SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVS-YQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DAVTDRDGAAIRNGGTYHILPLFGVKNGGLELAATRNETC--PLTVVQS-RTAQIFRGLPVRISSPYRIAYISEGLILNLAFASSPSCAPTPPNWTVVKGLPEGQGVKLLGYGRSTVSGWFKIEK-SSLEYLYKLVFCARASKACGEIGISVDDEGINRLVLTEEEGDGIIVEFMK</Hsp_hseq>
+      <Hsp_midline>D V D +G  + N G Y I+        G+++ AT NE    PL++V+S R       +     +P +   I E + L + FA+ P        W+VV   P+GQ +KL G   + V G F I+K S+    YKL+FC   S  C  IGIS D EG  RLV++  + D ++V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_014492684.1|</Hit_id>
+  <Hit_def>trypsin inhibitor A-like [Vigna radiata var. radiata]</Hit_def>
+  <Hit_accession>XP_014492684</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>6.2331e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIVSF---SDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCP-VGSPCKNIGISTDPEGKKRLVVSYQS-DPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DVVTDRDGDALMNGGTYHILPLFGVRDG-GVELAATGNET--CPLTVVQSRTSKIF-RGLPVIISSPYRIAYINEALILNLAFASPPSCAPTPPKWTVVKDLPEGLAVKLPG-YSSTVSGWFKIEK-SSLEYLYKVVFCARSGGTCGEVGISVDDEGMSRLVLTEEEDDGIIVEFMK</Hsp_hseq>
+      <Hsp_midline>D V D +G+ L+N G Y I+      DG G+++ ATGNE    PL++V+S  + ++   +     +P +   I E + L + FA+ P        W+VV   P+G  +KL G Y + V G F I+K S+    YK++FC   G  C  +GIS D EG  RLV++ +  D ++V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|KYP60028.1|</Hit_id>
+  <Hit_def>Kunitz-type trypsin inhibitor KTI1 [Cajanus cajan]</Hit_def>
+  <Hit_accession>KYP60028</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>7.34317e-15</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>DGAGIDVVATGNENPEDPLSIVKSTRN------IMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNT-PRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>SGGGIELVATGNET--CPLTVVQSPNKASKGNPCLVASPILFPYITPNSPFQII------FAFVPTCAPTRLWTIVDGLPEGPAVKIGG-YHNIRNGAFQIQKASQRGCNHYKLLFC-LDDTCEDIGVYVDSEGNRRLVLT-KNDPFLVQFQR</Hsp_hseq>
+      <Hsp_midline> G GI++VATGNE    PL++V+S          + A+ I     TP  P  I+        F        +W++VD  P+G  +K+ G Y N   GAF IQK S      YKLLFC +   C++IG+  D EG +RLV++ ++DP +V+F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_003532235.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor KTI1-like [Glycine max] &gt;gb|KRH46555.1| hypothetical protein GLYMA_08G341700 [Glycine max]</Hit_def>
+  <Hit_accession>XP_003532235</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>1.97496e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVN--RGKYTI--VSFSDGAGIDVVATGNENPEDPLSIVKS--TRNIMYATSISSEDKTPPQPRNILENMRLKI---NFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPV---GSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_qseq>
+      <Hsp_hseq>DVVLDMDGNPLGNGWQNEYFMLPVTRGSGGGIALAATGNE--RCPVTVVQSHIERDKGYAATFRAPFHLP----FIAEGLPLTISFDNFEVLPRCVPTPLWWAIVDGLAEGPAVKI--EYRDIVEGWFKIQKAY--PLGYKLLFCPVPLEDSTCGDIGIYTDDKGFRRLVVT-KNKPLVVQFQKF</Hsp_hseq>
+      <Hsp_midline>D V D +GN L N  + +Y +  V+   G GI + ATGNE    P+++V+S   R+  YA +  +    P     I E + L I   NF   P        W++VD   +G  +K+   Y + V+G F IQK    P  YKLLFCPV    S C +IGI TD +G +RLVV+ ++ PLVV+F + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_028246281.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor KTI1-like [Glycine soja] &gt;gb|KHN01861.1| Kunitz-type trypsin inhibitor KTI1 [Glycine soja] &gt;gb|RZC00152.1| Kunitz-type trypsin inhibitor KTI1 [Glycine soja]</Hit_def>
+  <Hit_accession>XP_028246281</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>2.1704e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVN--RGKYTI--VSFSDGAGIDVVATGNENPEDPLSIVKS--TRNIMYATSISSEDKTPPQPRNILENMRLKI---NFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPV---GSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHRH</Hsp_qseq>
+      <Hsp_hseq>DVVLDMDGNPLGNGWQNEYFMLPVTRGSGGGIALAATGNE--RCPVTVVQSHIERDKGYAATFRAPFHLP----FIAEGLPLTISFDNFEVLPRCVPTPLWWAIVDGLAEGPAVKI--EYRDIVEGWFKIQKAY--PLGYKLLFCPVPLEDSTCGDIGIYTDDKGFRRLVVT-KNKPLVVQFQKF</Hsp_hseq>
+      <Hsp_midline>D V D +GN L N  + +Y +  V+   G GI + ATGNE    P+++V+S   R+  YA +  +    P     I E + L I   NF   P        W++VD   +G  +K+   Y + V+G F IQK    P  YKLLFCPV    S C +IGI TD +G +RLVV+ ++ PLVV+F + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_017418043.1|</Hit_id>
+  <Hit_def>PREDICTED: trypsin inhibitor A-like [Vigna angularis] &gt;gb|KOM38113.1| hypothetical protein LR48_Vigan03g149500 [Vigna angularis] &gt;dbj|BAT84537.1| hypothetical protein VIGAN_04194400 [Vigna angularis var. angularis]</Hit_def>
+  <Hit_accession>XP_017418043</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>2.8736e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV---SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCP-VGSPCKNIGISTDPEGKKRLVVSYQS-DPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DVVTDRDGDALKNGGTYHILPLFGVRDG-GVELAATGNETC--PLTVVQSRTSKIF-RGLPVIISSPYRIAYINEGLILNLAFASPPSCAPTPPKWTVVKDLSEGQAVKLPG-YRSTVNGWFKIEK-SSLEYLYKVVFCARSGGTCGEVGISVDDEGMSRLVLTEEEDDGIIVEFMK</Hsp_hseq>
+      <Hsp_midline>D V D +G+ L N G Y I+      DG G+++ ATGNE    PL++V+S  + ++   +     +P +   I E + L + FA+ P        W+VV    +GQ +KL G Y + V G F I+K S+    YK++FC   G  C  +GIS D EG  RLV++ +  D ++V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|RDX57616.1|</Hit_id>
+  <Hit_def>Kunitz-type trypsin inhibitor KTI1, partial [Mucuna pruriens]</Hit_def>
+  <Hit_accession>RDX57616</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>5.44433e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PVYDAEGNKLVNRGKYTIV--SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSE-DKTPPQPRNILENMRLKINFATDP---HKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVSYQSDPLVVKF</Hsp_qseq>
+      <Hsp_hseq>PVFDTNGKMLTNSSTYHLLPAEAGDGGGILAVATGNES--CPLTVVQSPSSSSLGLTVMFEIEYSLPY---IFESQPLYPRFLHEPTCKNTSYFWTIVPDQPEGSAVKIAG-YENTLSGWFKIER---LVFGYGLAFCPYSSYECQKIGTSIDESGNRRLVLS--KYPLSLTF</Hsp_hseq>
+      <Hsp_midline>PV+D  G  L N   Y ++     DG GI  VATGNE+   PL++V+S  +     ++  E + + P    I E+  L   F  +P   +    W++V  QP+G  +K+AG Y N + G F I++       Y L FCP  S  C+ IG S D  G +RLV+S    PL + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_028246289.1|</Hit_id>
+  <Hit_def>trypsin inhibitor A-like [Glycine soja]</Hit_def>
+  <Hit_accession>XP_028246289</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>6.34543e-14</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVS-FSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKI--NFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG--SPCKNIGISTDPEGKKRLVV-SYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTDGDILQNPGTYFILSVFRPGGGVEFAATGNET--CPLTVVQTLFGRGFPAILSSRLRIPFIGEGQLFSILFRIVPWCATTPSK---WTIVEGLPESPAVKLTG-YDNTVPGEFKIEKANPFHNDYTLLFCPAGEESKCGYVAVHFDQFRNRRFVVIEVQEHELWVMFQK</Hsp_hseq>
+      <Hsp_midline>V D +G+ L N G Y I+S F  G G++  ATGNE    PL++V++     +   +SS  + P      L ++  +I    AT P K   W++V+  P+   +KL G Y N V G F I+K +     Y LLFCP G  S C  + +  D    +R VV   Q   L V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_020224397.1|</Hit_id>
+  <Hit_def>trypsin inhibitor 1A-like [Cajanus cajan] &gt;gb|KYP60029.1| Trypsin inhibitor 1A [Cajanus cajan]</Hit_def>
+  <Hit_accession>XP_020224397</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>7.83489e-14</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GAGIDVVATGNENPEDPLSIVKSTRNIM--YATSISSEDKTPPQPRNILENMRLKINFATDPHKGD--VWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPR--TYKLLFCP-VGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>GGGIERVRTGKETC--PLTVVQSPFEVVNGLPVKIASSLRSYFIP----EDSKVRIGFSSSPECASNPWWTVVEGLPEGPAVKISGGYESTVEGWFKIMSVSSSPKLNNYKLMFCAREDDSCENIGIHKDAKGNRRLVVT-DKNPMVIQFVK</Hsp_hseq>
+      <Hsp_midline>G GI+ V TG E    PL++V+S   ++      I+S  ++   P    E+ +++I F++ P       W+VV+  P+G  +K++G Y + V+G F I   S++P+   YKL+FC      C+NIGI  D +G +RLVV+   +P+V++F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_003532237.2|</Hit_id>
+  <Hit_def>trypsin inhibitor A [Glycine max]</Hit_def>
+  <Hit_accession>XP_003532237</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>8.87732e-14</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVS-FSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKI--NFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG--SPCKNIGISTDPEGKKRLVV-SYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTDGDILQNPGTYFILSVFRPGGGVEFAATGNET--CPLTVVQTLFGRGFPAILSSRLRIPFIGEGQLFSILFRIVPWCATTPSK---WTIVEGLPESPAVKLTG-YDNTVPGEFKIEKANPFHNDYTLLFCPAGEESKCGYVAVHFDQFRNRRFVVIEVQEHGLWVMFQK</Hsp_hseq>
+      <Hsp_midline>V D +G+ L N G Y I+S F  G G++  ATGNE    PL++V++     +   +SS  + P      L ++  +I    AT P K   W++V+  P+   +KL G Y N V G F I+K +     Y LLFCP G  S C  + +  D    +R VV   Q   L V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_028777997.1|</Hit_id>
+  <Hit_def>trypsin inhibitor 1B-like [Prosopis alba]</Hit_def>
+  <Hit_accession>XP_028777997</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.14086e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIVSFSDGAGIDVVATGNENPEDPLSIVK--STRNIMYATSISSEDKTPPQPRNILENMRLKI--NFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DAVLDSEGSPLNNGGSYHIVPSLIGKGGGLGLAATGNETCPLTVVQIPSETTDGLAVMISSPARLAYIAEGLLLNMAFTAVPTCATTPSK---WTIIEEDPAGKSVKISG-YANTVDGKFKIIKYQS--LFYKIKFCPSGDPCGDLGLYYDETGNRHLVIVANETPLSVVFKK</Hsp_hseq>
+      <Hsp_midline>D V D+EG+ L N G Y IV    G G  +      N   PL++V+  S      A  ISS  +       +L NM        AT P K   W++++  P G+ +K++G Y N V G F I K  +    YK+ FCP G PC ++G+  D  G + LV+     PL V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|NP_001235773.2|</Hit_id>
+  <Hit_def>kunitz family trypsin and protease inhibitor precursor [Glycine max] &gt;gb|KRH46560.1| hypothetical protein GLYMA_08G342200 [Glycine max]</Hit_def>
+  <Hit_accession>NP_001235773</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.74909e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV---SFSDGAGIDVVATGNENPEDPLSIVKSTR--NIMYATSISSEDKTPPQPRNILENMRLKINFATDP---HKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTI----QKGSNTPRTYKLLFCPVG-SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DYVLDTDGHAVENHGTYYLLPAKSGSGGGGIEVAATGKESC--ALTVVQSLNEDSMGLPLKLSSPSITT---SHFTEYTSLSIEFTSAPAPCSSASEWTVVKGLPEGRAVKL-NDYGNTVEGDFAFVCAKREFYRCNKSYQLIFCPYGLMRCEDVGISIDDDGNRRLVIS-DGNPFLFKLQK</Hsp_hseq>
+      <Hsp_midline>D V D +G+ + N G Y ++   S S G GI+V ATG E+    L++V+S    ++     +SS   T     +  E   L I F + P        W+VV   P+G+ +KL   Y N V+G F      ++     ++Y+L+FCP G   C+++GIS D +G +RLV+S   +P + K  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_028777975.1|</Hit_id>
+  <Hit_def>trypsin inhibitor DE-3-like [Prosopis alba] &gt;ref|XP_028777995.1| trypsin inhibitor DE-3-like [Prosopis alba]</Hit_def>
+  <Hit_accession>XP_028777975</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.75012e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV--SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPH---KGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DILVDTEGNPVRNGGSYYILPALWGHGGGVGLAATGNETC--PLTVVQTFSEL--SNGLPTKLSSPYLIAYLTTNLITEFTAAAPPECAARPAKWTIVGGEDETKQVKLVG-YQNTLRGSFNIQ--TYHGLTYKIVFCPTDEDSCSALGISRNNKGDRILVVD-NNNPFVVVFHK</Hsp_hseq>
+      <Hsp_midline>D + D EGN + N G Y I+   +  G G+ + ATGNE    PL++V++   +  +  + ++  +P     +  N+  +   A  P    +   W++V  + + +Q+KL G Y N ++G+F IQ  +    TYK++FCP     C  +GIS + +G + LVV   ++P VV FH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|ACU14325.1|</Hit_id>
+  <Hit_def>unknown [Glycine max]</Hit_def>
+  <Hit_accession>ACU14325</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.83673e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV---SFSDGAGIDVVATGNENPEDPLSIVKSTR--NIMYATSISSEDKTPPQPRNILENMRLKINFATDP---HKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTI----QKGSNTPRTYKLLFCPVG-SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DYVLDTDGHAVENHGTYYLLPAKSGSGGGGIEVAATGKESC--ALTVVQSLNEDSMGLPLKLSSPSITT---SHFTEYTSLSIEFTSAPAPCSSASEWTVVKGLPEGRAVKL-NDYGNTVEGDFAFVCAKREFYRCNKSYQLIFCPYGLMRCEDVGISIDDDGNRRLVIS-DGNPFLFKLQK</Hsp_hseq>
+      <Hsp_midline>D V D +G+ + N G Y ++   S S G GI+V ATG E+    L++V+S    ++     +SS   T     +  E   L I F + P        W+VV   P+G+ +KL   Y N V+G F      ++     ++Y+L+FCP G   C+++GIS D +G +RLV+S   +P + K  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_028246291.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor KTI1-like [Glycine soja] &gt;gb|RZC00160.1| Kunitz-type trypsin inhibitor KTI1 [Glycine soja]</Hit_def>
+  <Hit_accession>XP_028246291</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.95792e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV---SFSDGAGIDVVATGNENPEDPLSIVKSTR--NIMYATSISSEDKTPPQPRNILENMRLKINFATDP---HKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTI----QKGSNTPRTYKLLFCPVG-SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DYVLDTDGHAVENHGTYYLLPAKSGSGGGGIEVAATGKESC--ALTVVQSLNEDSMGLPLKLSSPSITT---SHFTEYTSLSIEFTSAPAPCSSASEWTVVKGLPEGRAVKL-NDYGNTVEGDFAFVCAKREFYRCNKSYQLIFCPYGLMRCEDVGISIDDDGNRRLVIS-DGNPFLFKLQK</Hsp_hseq>
+      <Hsp_midline>D V D +G+ + N G Y ++   S S G GI+V ATG E+    L++V+S    ++     +SS   T     +  E   L I F + P        W+VV   P+G+ +KL   Y N V+G F      ++     ++Y+L+FCP G   C+++GIS D +G +RLV+S   +P + K  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|TKY65937.1|</Hit_id>
+  <Hit_def>Trypsin inhibitor A [Spatholobus suberectus]</Hit_def>
+  <Hit_accession>TKY65937</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.98547e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIVSFSDGAGIDVVATGNENPEDPLSIVKS-TRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKGDV---WSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DVVTDRDGDAIRNSGTYHILSLFGVRDGDIELATTENETCPLTVVQSRTSQIFRGLPI--RISSPYRVAYITEGLILSLAFASSPSCAPTPPKWIVVQDLPEGQSVKLPG-YRSTVSGWFKIEK-SSLEYLYKVVFYARASNTCGDIGISVDDEGTSRLVVT-DDEGIIVEFMK</Hsp_hseq>
+      <Hsp_midline>D V D +G+ + N G Y I+S       D+     EN   PL++V+S T  I     I     +P +   I E + L + FA+ P        W VV   P+GQ +KL G Y + V G F I+K S+    YK++F    S  C +IGIS D EG  RLVV+   + ++V+F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_028777977.1|</Hit_id>
+  <Hit_def>trypsin inhibitor DE5 alpha chain-like [Prosopis alba]</Hit_def>
+  <Hit_accession>XP_028777977</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>3.10166e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIV--SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPH---KGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG-SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTEGNPVRNGGSYNILPARSGNGGGLDLAATGGESCAVTVVQALSEQSNGSPTRLSS----PYRVRYLCTNLEVDLTAVAPPQCAAKPARWTIVGQEEENRQVKLAGQ-PDTVRGSFRIQ--THRGSTYKIVFCESGEESCRALGLSNDNKGHRILSVN-DENPFVVVFRK</Hsp_hseq>
+      <Hsp_midline>V D EGN + N G Y I+     +G G+D+ ATG E+    +    S ++    T +SS    P + R +  N+ + +     P    K   W++V  + + +Q+KLAG+ P+ V+G+F IQ  ++   TYK++FC  G   C+ +G+S D +G + L V+   +P VV F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_028797072.1|</Hit_id>
+  <Hit_def>trypsin inhibitor DE-3-like [Prosopis alba]</Hit_def>
+  <Hit_accession>XP_028797072</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>3.60744e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV--SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPH---KGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>DILVDTEGNPVRNGGSYYILPALWGHGGGVGLAATGNETC--PLTVVQTFSEL--SNGLPTKLSSPYLIAYLTTNLITEFTAAAPPECAARPAKWTIVGGEDETKQVKLVG-YQNTLRGSFNIQ--TYHGLTYKIVFCPTDEDSCSALGISRNNKGDRILVVD-NNNPFVVVFHK</Hsp_hseq>
+      <Hsp_midline>D + D EGN + N G Y I+   +  G G+ + ATGNE    PL++V++   +  +  + ++  +P     +  N+  +   A  P    +   W++V  + + +Q+KL G Y N ++G+F IQ  +    TYK++FCP     C  +GIS + +G + LVV   ++P VV FH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|P10821.1|</Hit_id>
+  <Hit_def>RecName: Full=Trypsin inhibitor 1A; AltName: Full=WTI-1A [Psophocarpus tetragonolobus]</Hit_def>
+  <Hit_accession>P10821</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>8.14405e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV--SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRN--ILENMRLKINFATDPHKGD--VWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>EPLLDSEGELVRNGGTYYLLPDRWALGGGIEAAATGTET--CPLTVVRSPNEV----SVGEPLRISSQLRSGFIPDYSVVRIGFANPPKCAPSPWWTVVEDQPQQPSVKLSELKSTKFDYLFKFEKVTSKFSSYKLKYCAKRDTCKDIGIYRDQKGYERLVVT-DENPLVVIFKK</Hsp_hseq>
+      <Hsp_midline>+P+ D+EG  + N G Y ++   ++ G GI+  ATG E    PL++V+S   +    S+    +   Q R+  I +   ++I FA  P       W+VV+ QP    +KL+     +    F  +K ++   +YKL +C     CK+IGI  D +G +RLVV+   +PLVV F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_028791511.1|</Hit_id>
+  <Hit_def>trypsin inhibitor DE5 alpha chain-like [Prosopis alba]</Hit_def>
+  <Hit_accession>XP_028791511</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>8.67359e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIV--SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPH---KGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVG-SPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTEGNPVRNGGSYNILPARSGNGGGLDLAATGGESCAVTVVQALSEQSNGSPTRLSS----PYRVRYLYTNLEVDLTAVAPPQCAAKPARWTIVGQEEENRQVKLAGQ-PDTVRGSFRIQ--THRGSTYKIVFCESGEESCRALGLSNDNKGHRILSIN-DDNPFVVVFRK</Hsp_hseq>
+      <Hsp_midline>V D EGN + N G Y I+     +G G+D+ ATG E+    +    S ++    T +SS    P + R +  N+ + +     P    K   W++V  + + +Q+KLAG+ P+ V+G+F IQ  ++   TYK++FC  G   C+ +G+S D +G + L ++   +P VV F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>sp|P32877.1|</Hit_id>
+  <Hit_def>RecName: Full=Trypsin inhibitor 1B; AltName: Full=WTI-1B [Psophocarpus tetragonolobus] &gt;gb|AAY57200.1| trypsin inhibitor 1B, partial [Psophocarpus tetragonolobus] &gt;gb|ACY64756.1| chymotrypsin-trypsin inhibitor, partial [Psophocarpus tetragonolobus] &gt;prf||0910196A inhibitor WTI,trypsin [Psophocarpus tetragonolobus]</Hit_def>
+  <Hit_accession>P32877</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.04903e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV--SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRN--ILENMRLKINFATDPHKGD--VWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>EPLLDSEGELVRNGGTYYLLPDRWALGGGIEAAATGTET--CPLTVVRSPNEV----SVGEPLRISSQLRSGFIPDYSLVRIGFANPPKCAPSPWWTVVEDQPQQPSVKLSELKSTKFDYLFKFEKVTSKFSSYKLKYCAKRDTCKDIGIYRDQKGYARLVVT-DENPLVVIFKK</Hsp_hseq>
+      <Hsp_midline>+P+ D+EG  + N G Y ++   ++ G GI+  ATG E    PL++V+S   +    S+    +   Q R+  I +   ++I FA  P       W+VV+ QP    +KL+     +    F  +K ++   +YKL +C     CK+IGI  D +G  RLVV+   +PLVV F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>dbj|BAC55863.1|</Hit_id>
+  <Hit_def>mwti1b [synthetic construct]</Hit_def>
+  <Hit_accession>BAC55863</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.32619e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>DPVYDAEGNKLVNRGKYTIV--SFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRN--ILENMRLKINFATDPHKGD--VWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVSYQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>EPLLDSEGELVRNGGTYYLLPDRWALGGGIEAAATGTET--CPLTVVRSPNEV----SVGEPLRISSQLRSGFIPDYSLVRIGFANPPKCAPSPWWTVVEDQPQQPSVKLSELKSTKFDYLFKFEKVTSKFSSYKLKYCAKRDTCKDIGIYRDQKGYARLVVT-DENPLVVIFKK</Hsp_hseq>
+      <Hsp_midline>+P+ D+EG  + N G Y ++   ++ G GI+  ATG E    PL++V+S   +    S+    +   Q R+  I +   ++I FA  P       W+VV+ QP    +KL+     +    F  +K ++   +YKL +C     CK+IGI  D +G  RLVV+   +PLVV F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_027925537.1|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor KTI1-like [Vigna unguiculata] &gt;gb|QCE11189.1| Kunitz inhibitor ST1-like [Vigna unguiculata]</Hit_def>
+  <Hit_accession>XP_027925537</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.58292e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTI---VSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINF------ATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGSPCKNIGISTDPEGKKRLVVS-YQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTDGNPLENGGTYFIRPVIITGNGGGVEFAATGNET--CPLSVRQNPSPL--SNGLPVEISSPIKFPFIKESFILDIRFPFVAPCAPSPSK---WTAVKFGGKGLVVKLTG-YDNTVAGGFKIKSVPNDIGGYILLFCPENSSCGYVAIEIYPTTNKRLGVTPYEETAFWIRFQR</Hsp_hseq>
+      <Hsp_midline>V D +GN L N G Y I   +   +G G++  ATGNE    PLS+ ++   +  +  +  E  +P +   I E+  L I F      A  P K   W+ V F   G  +KL G Y N V G F I+   N    Y LLFCP  S C  + I   P   KRL V+ Y+     ++F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_014506716.1|</Hit_id>
+  <Hit_def>factor Xa inhibitor BuXI-like [Vigna radiata var. radiata]</Hit_def>
+  <Hit_accession>XP_014506716</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>2.01001e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYT---IVSFSDGAGIDVVATGNENPEDPLSIVKSTRNIMYATSISSEDKTPPQPRNILENMRLKINFATDPHKG---DVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKGSNTPRTYKLLFCPVGS-PCKNIGISTDPEGKKRLVVSYQSD-PLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTEGKRLRNGGIYGLRPVIITGNGGGVEYAATGNET--CPLSVVQNPNP--FSLGFPVQISTPPRLYYIDEGANLILEFIAPPRCAPTPSLWTAVKAEEEELPVKLRG-YDNIVKGWFKIQSVPVDIGGYNILFCPLDSTSCGYVGIQFDDARNRHLVVTQKADTALWVRFER</Hsp_hseq>
+      <Hsp_midline>V D EG +L N G Y    ++   +G G++  ATGNE    PLS+V++     ++     +  TPP+   I E   L + F   P       +W+ V  + +   +KL G Y N VKG F IQ        Y +LFCP+ S  C  +GI  D    + LVV+ ++D  L V+F R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|NP_001236355.2|</Hit_id>
+  <Hit_def>kunitz-type trypsin inhibitor precursor [Glycine max] &gt;ref|XP_028234606.1| trypsin inhibitor A-like [Glycine soja] &gt;gb|KHN13525.1| Trypsin inhibitor A [Glycine soja] &gt;gb|KRH54936.1| hypothetical protein GLYMA_06G219900 [Glycine max]</Hit_def>
+  <Hit_accession>NP_001236355</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>2.4054e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVS--FSDGAGIDVVATGNENPEDPLSIVKSTRNIM--YATSISSEDKTPPQPRNILENMRLKI--NFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKG-SNTPRTYKLLFCPV-GSPCKNIGISTDPEGKKRLVVS-YQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTDGNPVENGGTYFVLPTIILNGGGIEYATFGNETC--PVTVAQSRDQFCKGFPITISS----PARIRHISEGLSLNIGFTFASPCSPASEWTIVKDQPEGLAVKLTG-FKNTVPGVFTLKRVPADEIIGYNILFCPLDNNPCGYVAVHFDQFRNRRLVVSEVQEDGLWVMFQK</Hsp_hseq>
+      <Hsp_midline>V D +GN + N G Y ++     +G GI+    GNE    P+++ +S       +  +ISS    P + R+I E + L I   FA+       W++V  QP+G  +KL G + N V G FT+++  ++    Y +LFCP+  +PC  + +  D    +RLVVS  Q D L V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|ACU15694.1|</Hit_id>
+  <Hit_def>unknown [Glycine max]</Hit_def>
+  <Hit_accession>ACU15694</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>2.56073e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>VYDAEGNKLVNRGKYTIVS--FSDGAGIDVVATGNENPEDPLSIVKSTRNIM--YATSISSEDKTPPQPRNILENMRLKI--NFATDPHKGDVWSVVDFQPDGQQLKLAGRYPNQVKGAFTIQKG-SNTPRTYKLLFCPV-GSPCKNIGISTDPEGKKRLVVS-YQSDPLVVKFHR</Hsp_qseq>
+      <Hsp_hseq>VVDTDGNPVENGGTYFVLPTIILNGGGIEYATFGNETC--PVTVAQSRDQFCKGFPITISS----PARIRHISEGLSLNIGFTFASPCSPASEWTIVKDQPEGLAVKLTG-FKNTVPGVFTLKRVPADEIIGYNILFCPLDNNPCGYVAVHFDQFRNRRLVVSEVQEDGLWVMFQK</Hsp_hseq>
+      <Hsp_midline>V D +GN + N G Y ++     +G GI+    GNE    P+++ +S       +  +ISS    P + R+I E + L I   FA+       W++V  QP+G  +KL G + N V G FT+++  ++    Y +LFCP+  +PC  + +  D    +RLVVS  Q D L V F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
