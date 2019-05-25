@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_71735</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1k68a_c</BlastOutput_query-def>
+  <BlastOutput_query-len>140</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_71735</Iteration_query-ID>
+  <Iteration_query-def>d1k68a_c</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1K68|A</Hit_id>
+  <Hit_def>Chain A, Phytochrome Response Regulator Rcpa [Tolypothrix sp. PCC 7601] &gt;pdb|1K68|B Chain B, Phytochrome Response Regulator Rcpa [Tolypothrix sp. PCC 7601]</Hit_def>
+  <Hit_accession>1K68_A</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>1.38419e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>AHKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>AHKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLXLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_hseq>
+      <Hsp_midline>AHKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILL LNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_045869951.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Nostocales] &gt;gb|AAL76160.1| response regulator [Tolypothrix sp. PCC 7601] &gt;dbj|BAY35295.1| two-component system, regulatory protein [Nostoc carneum NIES-2107] &gt;dbj|BAY92874.1| two-component system, regulatory protein [Fremyella diplosiphon NIES-3275] &gt;dbj|BAZ02449.1| two-component system, regulatory protein [Tolypothrix tenuis PCC 7101] &gt;dbj|BAZ73630.1| two-component system, regulatory protein [Aulosira laxa NIES-50]</Hit_def>
+  <Hit_accession>WP_045869951</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>7.44378e-95</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKKIFLVEDNKADIRLIQEALKNSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWLSTATLPS</Hsp_hseq>
+      <Hsp_midline>HKKIFLVEDNKADIRLIQEAL NSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIEEFWLSTATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_086688989.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc sp. T09] &gt;gb|OUL29024.1| response regulator [Nostoc sp. T09]</Hit_def>
+  <Hit_accession>WP_086688989</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>1.6866e-91</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSTVPHRVVTVRDGMDAMAYLRQEGEYADASRPDLILLDLNLPKKDGREVLAEIKADPTLKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWLSTATLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NSTVPH VVTVRDGM+AMAYLRQEGEYA+ASRPDLILLDLNLPKKDGREVLAEIK+DPTLKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIEEFWLSTATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_096591684.1|</Hit_id>
+  <Hit_def>response regulator [Calothrix sp. NIES-2098] &gt;dbj|BAY11803.1| response regulator receiver protein [Calothrix sp. NIES-2098]</Hit_def>
+  <Hit_accession>WP_096591684</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>8.28e-91</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSTVPHQVVTVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPTLKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWLSTATLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NSTVPH+VVTVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DPTLKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIEEFWLSTATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_096646799.1|</Hit_id>
+  <Hit_def>response regulator [Calothrix brevissima] &gt;dbj|BAY65757.1| response regulator receiver protein [Calothrix brevissima NIES-22]</Hit_def>
+  <Hit_accession>WP_096646799</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>2.73826e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSTVPHQVVTVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPTLKRIPVVVLTTSHNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWLSTATLPT</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NSTVPH+VVTVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DPTLKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIEEFWLSTATLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|EKF02971.1|</Hit_id>
+  <Hit_def>response regulator [Tolypothrix sp. PCC 7601]</Hit_def>
+  <Hit_accession>EKF02971</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.929</Hsp_bit-score>
+      <Hsp_score>681</Hsp_score>
+      <Hsp_evalue>4.24233e-90</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>LVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>MVEDNKADIRLIQEALKNSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWLSTATLPS</Hsp_hseq>
+      <Hsp_midline>+VEDNKADIRLIQEAL NSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIEEFWLSTATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_086757219.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Nostoc] &gt;gb|OUL27837.1| response regulator [Nostoc sp. RF31Y] [Nostoc sp. RF31YmG] &gt;gb|OUL34826.1| response regulator [Nostoc sp. 106C]</Hit_def>
+  <Hit_accession>WP_086757219</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.929</Hsp_bit-score>
+      <Hsp_score>681</Hsp_score>
+      <Hsp_evalue>6.66004e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKKSTVPHQVVTVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPTLKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWLSTATLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL  STVPH+VVTVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DPTLKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIEEFWLSTATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>dbj|BAZ33265.1|</Hit_id>
+  <Hit_def>two-component system, regulatory protein [Cylindrospermum sp. NIES-4074]</Hit_def>
+  <Hit_accession>BAZ33265</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>3.1916e-88</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSLPHEVVTARDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKADPKLKRIPVVVLTTSKNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWLTTATLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS++PHEVVT RDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIEEFWL+TATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_096606044.1|</Hit_id>
+  <Hit_def>response regulator [Calothrix sp. NIES-2100] &gt;dbj|BAY26633.1| response regulator receiver protein [Calothrix sp. NIES-2100]</Hit_def>
+  <Hit_accession>WP_096606044</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>5.2488e-88</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKKSTVPHQVVIVRDGMDAMAYLRQEGEYADSPRPDLILLDLNLPKKDGREVLAEIKSDPKLKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWLSTATLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL  STVPH+VV VRDGM+AMAYLRQEGEYA++ RPDLILLDLNLPKKDGREVLAEIKSDP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIEEFWLSTATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_073629909.1|</Hit_id>
+  <Hit_def>response regulator [Scytonema sp. HK-05] &gt;gb|OKH59238.1| response regulator [Scytonema sp. HK-05] &gt;dbj|BAY45369.1| two-component system, regulatory protein [Scytonema sp. HK-05]</Hit_def>
+  <Hit_accession>WP_073629909</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>6.12029e-88</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPHEVVTVRDGMDAMAYLRQEGEYAEAPRPDLILLDLNLPKKDGREVLAEIKADPNLKRIPVVVLTTSHNEDDIFHSYDLHVNCYITKSRNLSQLFKIVKGIEEFWLETATLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VPHEVVTVRDGM+AMAYLRQEGEYA A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLF+IVKGIEEFWL TATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_026082870.1|</Hit_id>
+  <Hit_def>response regulator [Mastigocladopsis repens]</Hit_def>
+  <Hit_accession>WP_026082870</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>7.62209e-88</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPHQVVTVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKADPNLKRIPVVVLTTSHNEDDIFHSYDLHVNCYITKSRNLSQLFKIVKGIEEFWLETATLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VPH+VVTVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLF+IVKGIEEFWL TATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_069348646.1|</Hit_id>
+  <Hit_def>response regulator [Scytonema millei] &gt;gb|ODN59001.1| response regulator [Scytonema millei VB511283]</Hit_def>
+  <Hit_accession>WP_069348646</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>2.43876e-87</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPHQIVTVRDGMDAMAYLRQEGEYAQAPRPDLILLDLNLPKKDGREVLAEIKADPNLKRIPVVVLTTSHNEDDIFHSYDLHVNCYITKSRNLSQLFKIVKGIEEFWLETATLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VPH++VTVRDGM+AMAYLRQEGEYA A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLF+IVKGIEEFWL TATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_041040765.1|</Hit_id>
+  <Hit_def>response regulator [Tolypothrix campylonemoides] &gt;gb|KIJ73775.1| response regulator [Tolypothrix campylonemoides VB511288]</Hit_def>
+  <Hit_accession>WP_041040765</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>1.02655e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>YKTIFLVEDNKADIRLIQEALKNSSVPHQVVTVRDGMDAMAYLRQEGEYAEAPRPDLILLDLNLPKKDGREVLAEIKADPNLKRIPVVVLTTSHNEDDIFHSYDLHVNCYITKSRNLSQLFKIVKGIEEFWLETATLPS</Hsp_hseq>
+      <Hsp_midline>+K IFLVEDNKADIRLIQEAL NS+VPH+VVTVRDGM+AMAYLRQEGEYA A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLF+IVKGIEEFWL TATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_096566306.1|</Hit_id>
+  <Hit_def>response regulator [Scytonema sp. NIES-4073] &gt;dbj|BAZ25164.1| response regulator receiver protein [Scytonema sp. NIES-4073]</Hit_def>
+  <Hit_accession>WP_096566306</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>1.87693e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>YKTIFLVEDNKADIRLIQEALKNSSVPHQIVTVRDGMDAMAYLRQEGEYAQAPRPDLILLDLNLPKKDGREVLAEIKADPNLKRIPVVVLTTSHNEDDIFHSYDLHVNCYITKSRNLSQLFKIVKGIEEFWLETATLPS</Hsp_hseq>
+      <Hsp_midline>+K IFLVEDNKADIRLIQEAL NS+VPH++VTVRDGM+AMAYLRQEGEYA A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLF+IVKGIEEFWL TATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_096537481.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc linckia] &gt;gb|RCJ18545.1| response regulator [Nostoc sp. ATCC 43529] &gt;dbj|BAY76962.1| response regulator receiver protein [Nostoc linckia NIES-25]</Hit_def>
+  <Hit_accession>WP_096537481</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>2.46927e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPHEVVTVRDGIDAMAYLRQEGEYANAPRPDLILLDLNLPKKDGREVLAEIKADPVLKRIPVVVLTTSKNEDDIYHSYDLHVNCYITKSRNLNQLFQIVKSIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VPHEVVTVRDG++AMAYLRQEGEYANA RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDI+HSYDLHVNCYITKS NL+QLFQIVK IE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_009454237.1|</Hit_id>
+  <Hit_def>response regulator [Fischerella thermalis] &gt;gb|EHC19581.1| response regulator receiver protein [Fischerella thermalis] &gt;gb|PLZ09082.1| response regulator [Fischerella thermalis WC114] &gt;gb|PLZ09467.1| response regulator [Fischerella thermalis WC1110] &gt;gb|PLZ15045.1| response regulator [Fischerella thermalis WC119] &gt;gb|PLZ18683.1| response regulator [Fischerella thermalis WC157] &gt;gb|PLZ26198.1| response regulator [Fischerella thermalis WC341] &gt;gb|PLZ42462.1| response regulator [Fischerella thermalis WC538] &gt;gb|PLZ46518.1| response regulator [Fischerella thermalis WC527] &gt;gb|PLZ51256.1| response regulator [Fischerella thermalis WC441] &gt;gb|PLZ59126.1| response regulator [Fischerella thermalis WC344] &gt;gb|PLZ71610.1| response regulator [Fischerella thermalis WC249] &gt;gb|PLZ73244.1| response regulator [Fischerella thermalis WC245] &gt;gb|PLZ80114.1| response regulator [Fischerella thermalis WC217] &gt;gb|PMB06643.1| response regulator [Fischerella thermalis CCMEE 5328] &gt;gb|PMB12838.1| response regulator [Fischerella thermalis CCMEE 5282] &gt;gb|PMB31581.1| response regulator [Fischerella thermalis CCMEE 5208] &gt;gb|PMB33257.1| response regulator [Fischerella thermalis BR2B] &gt;gb|RDH51644.1| response regulator [Fischerella thermalis 111/344/542]</Hit_def>
+  <Hit_accession>WP_009454237</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>2.58005e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSMIPHQVITVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPKLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS +PH+V+TVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_071191315.1|</Hit_id>
+  <Hit_def>response regulator [Trichormus sp. NMC-1]</Hit_def>
+  <Hit_accession>WP_071191315</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>2.84781e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>AHKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>THKIIFLVEDNKADIRLIQEALKTSTLPHQVVTVRDGIDAMAYLRQEGEYADAPRPDLILLDLNLPRKDGREVLAEIKSDPKLKRIPVVVLTTSKNEDDIYHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWFSTATLPS</Hsp_hseq>
+      <Hsp_midline> HK IFLVEDNKADIRLIQEAL  ST+PH+VVTVRDG++AMAYLRQEGEYA+A RPDLILLDLNLP+KDGREVLAEIKSDP LKRIPVVVL+TS NEDDI+HSYDLHVNCYITKS NLSQLFQIVKGIEEFW STATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_006196890.1|</Hit_id>
+  <Hit_def>response regulator [Nodularia spumigena] &gt;gb|AHJ30235.1| Two-component system response regulator [Nodularia spumigena CCY9414] &gt;gb|EAW44957.1| two-component system, regulatory protein [Nodularia spumigena CCY9414]</Hit_def>
+  <Hit_accession>WP_006196890</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>4.41676e-86</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>KKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>KTIFLVEDNKADVRLIQEALKNSSIPHQVVTVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLSEIKADPALKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>K IFLVEDNKAD+RLIQEAL NS++PH+VVTVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVL+EIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_063873789.1|</Hit_id>
+  <Hit_def>response regulator [Nodularia spumigena] &gt;gb|KZL48602.1| response regulator [Nodularia spumigena CENA596]</Hit_def>
+  <Hit_accession>WP_063873789</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>4.71729e-86</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>KKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>KTIFLVEDNKADVRLIQEALKNSSIPHQVVTVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLSEIKADPALKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>K IFLVEDNKAD+RLIQEAL NS++PH+VVTVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVL+EIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_026086174.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Fischerella] &gt;gb|PLZ90129.1| response regulator [Fischerella muscicola CCMEE 5323] &gt;gb|PLZ96821.1| response regulator [Fischerella thermalis CCMEE 5268] &gt;gb|PMB48987.1| response regulator [Fischerella thermalis CCMEE 5205] &gt;gb|PMB49486.1| response regulator [Fischerella thermalis CCMEE 5201] &gt;dbj|BAU06104.1| response regulator receiver protein [Fischerella sp. NIES-3754]</Hit_def>
+  <Hit_accession>WP_026086174</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>4.9833e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HRTIFLVEDNKADIRLIQEALKNSMIPHQVITVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPKLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>H+ IFLVEDNKADIRLIQEAL NS +PH+V+TVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_102182002.1|</Hit_id>
+  <Hit_def>response regulator [Fischerella thermalis] &gt;gb|PMB21775.1| response regulator [Fischerella thermalis CCMEE 5318]</Hit_def>
+  <Hit_accession>WP_102182002</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>5.68452e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HRTIFLVEDNKADIRLIQEALKNSMIPHQVITVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPKLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>H+ IFLVEDNKADIRLIQEAL NS +PH+V+TVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_016953189.1|</Hit_id>
+  <Hit_def>response regulator [Anabaena sp. PCC 7108]</Hit_def>
+  <Hit_accession>WP_016953189</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>6.34369e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>AHKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>THKIIFLVEDNKADIRLIQEALKTSTLPHQVVTVRDGIDAMAYLRQEGEYADAPRPDLILLDLNLPRKDGREVLAEIKSDPKLKRIPVVVLTTSKNEDDIYHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWFATATLPS</Hsp_hseq>
+      <Hsp_midline> HK IFLVEDNKADIRLIQEAL  ST+PH+VVTVRDG++AMAYLRQEGEYA+A RPDLILLDLNLP+KDGREVLAEIKSDP LKRIPVVVL+TS NEDDI+HSYDLHVNCYITKS NLSQLFQIVKGIEEFW +TATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_127052409.1|</Hit_id>
+  <Hit_def>response regulator [Trichormus variabilis] &gt;gb|RUS98814.1| response regulator [Trichormus variabilis SAG 1403-4b]</Hit_def>
+  <Hit_accession>WP_127052409</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>7.47847e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>AHKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>THKIIFLVEDNKADIRLIQEALKTSTLPHQVVTVRDGIDAMAYLRQEGEYADAPRPDLILLDLNLPRKDGREVLAEIKSDPKLKRIPVVVLTTSKNEDDIYHSYDLHVNCYITKSRNLSQLFQIVKGIEEFWFATATLPS</Hsp_hseq>
+      <Hsp_midline> HK IFLVEDNKADIRLIQEAL  ST+PH+VVTVRDG++AMAYLRQEGEYA+A RPDLILLDLNLP+KDGREVLAEIKSDP LKRIPVVVL+TS NEDDI+HSYDLHVNCYITKS NLSQLFQIVKGIEEFW +TATLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_102175944.1|</Hit_id>
+  <Hit_def>response regulator [Fischerella thermalis] &gt;gb|PMB08798.1| response regulator [Fischerella thermalis CCMEE 5273]</Hit_def>
+  <Hit_accession>WP_102175944</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>8.62491e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSMIPHQVITVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPKLKRIPVVVLTTSHNDEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS +PH+V+TVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS N++DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_100900409.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc flagelliforme]</Hit_def>
+  <Hit_accession>WP_100900409</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>9.41613e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPYQVVTVRDGIDAMAYLRQEGEYADASRPDLILLDLNLPKKDGREVLAEIKADPVLKRIPVVVLTTSKNEDDIFHSYDLHVNCYITKSRNLNQLFQIVKSIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VP++VVTVRDG++AMAYLRQEGEYA+ASRPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NL+QLFQIVK IE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|KIF28435.1|</Hit_id>
+  <Hit_def>response regulator [Hassallia byssoidea VB512170]</Hit_def>
+  <Hit_accession>KIF28435</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.13468e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIKEALKNSLVPHEVVTARDGMDAMAYLRQEGEYANATRPDLILLDLNLPKKDGREVLAEIKSDPKLKRIPVVVLTTSRNEDDIFYSYDWHVNCYITKSRNINELFQIVKGIEEFWLSTATLP</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLI+EAL NS VPHEVVT RDGM+AMAYLRQEGEYANA+RPDLILLDLNLPKKDGREVLAEIKSDP LKRIPVVVL+TS NEDDIF+SYD HVNCYITKS N+++LFQIVKGIEEFWLSTATLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_131118048.1|</Hit_id>
+  <Hit_def>response regulator [Westiellopsis prolifica] &gt;gb|TBR61457.1| response regulator [Westiellopsis prolifica IICB1]</Hit_def>
+  <Hit_accession>WP_131118048</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>1.1472e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HRTIFLVEDNKADIRLIQEALKHSMIPHQIITVRDGMDAMAYLRQEGEYANAPRPDLILLDLNLPKKDGREVLAEIKTDPRLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>H+ IFLVEDNKADIRLIQEAL +S +PH+++TVRDGM+AMAYLRQEGEYANA RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_099071763.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc linckia] &gt;gb|PHJ66960.1| response regulator [Nostoc linckia z1] &gt;gb|PHJ67689.1| response regulator [Nostoc linckia z3] &gt;gb|PHJ77221.1| response regulator [Nostoc linckia z2] &gt;gb|PHJ79807.1| response regulator [Nostoc linckia z4] &gt;gb|PHJ87400.1| response regulator [Nostoc linckia z6] &gt;gb|PHJ89901.1| response regulator [Nostoc linckia z7] &gt;gb|PHK03345.1| response regulator [Nostoc linckia z8] &gt;gb|PHK16037.1| response regulator [Nostoc linckia z14] &gt;gb|PHK20329.1| response regulator [Nostoc linckia z13] &gt;gb|PHK30500.1| response regulator [Nostoc linckia z18] &gt;gb|PHK39402.1| response regulator [Nostoc linckia z15] &gt;gb|PHK43425.1| response regulator [Nostoc linckia z16]</Hit_def>
+  <Hit_accession>WP_099071763</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>1.28022e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPHEVVTVRDGIDAMAYLRQEGEYANAPRPDLILLDLNLPKKDGREVLAEIKTDPVLKRIPVVVLTTSKNEDDIYHSYDLHVNCYITKSRNLNQLFQIVKSIEDFWLCTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VPHEVVTVRDG++AMAYLRQEGEYANA RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDI+HSYDLHVNCYITKS NL+QLFQIVK IE+FWL T TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_038084109.1|</Hit_id>
+  <Hit_def>response regulator [Tolypothrix bouteillei] &gt;gb|KIE08869.1| response regulator [Tolypothrix bouteillei VB521301]</Hit_def>
+  <Hit_accession>WP_038084109</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>1.68423e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>YKTIFLVEDNKADVRLIQEALKNSTVPHQVITARDGMDAMAYLRQEGEYADAPRPDLILLDLNLPRKDGREVLAEIKADPQLKRIPVVVLTTSHNEDDIFHSYDLHVNCYITKSRNLSQLFKIVKGIEEFWLATVTLPS</Hsp_hseq>
+      <Hsp_midline>+K IFLVEDNKAD+RLIQEAL NSTVPH+V+T RDGM+AMAYLRQEGEYA+A RPDLILLDLNLP+KDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLF+IVKGIEEFWL+T TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_016878700.1|</Hit_id>
+  <Hit_def>response regulator [Chlorogloeopsis fritschii] &gt;gb|RUR73147.1| response regulator [Chlorogloeopsis fritschii PCC 6912]</Hit_def>
+  <Hit_accession>WP_016878700</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>2.02956e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSLIPHQVITVRDGMDAMAYLRQEGEFADAPRPDLILLDLNLPKKDGREVLAEIKNDPKLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS +PH+V+TVRDGM+AMAYLRQEGE+A+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_087545086.1|</Hit_id>
+  <Hit_def>response regulator [Nostocales cyanobacterium HT-58-2] &gt;gb|ARV62500.1| response regulator [Nostocales cyanobacterium HT-58-2]</Hit_def>
+  <Hit_accession>WP_087545086</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>2.39261e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKDSSLPHRVVTVRDGMDAMAYLRQEGEYAEAPRPDLILLDLNLPKKDGREVLAEIKADPKLKRIPVVVLTTSHNEDDIFHSYDLHVNCYITKSRNLSQLFKIVKGIEEFWLETATLP</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL +S++PH VVTVRDGM+AMAYLRQEGEYA A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLF+IVKGIEEFWL TATLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_073555743.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Fischerella] &gt;gb|OKH13848.1| response regulator [Fischerella major NIES-592] &gt;gb|PMB42447.1| response regulator [Fischerella thermalis CCMEE 5330]</Hit_def>
+  <Hit_accession>WP_073555743</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>2.75938e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HRTIFLVEDNKADIRLIQEALKNSMIPHQVITVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPKLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLNQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>H+ IFLVEDNKADIRLIQEAL NS +PH+V+TVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NL+QLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_026719914.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Hapalosiphonaceae] &gt;gb|KOP24895.1| response regulator [Hapalosiphon sp. MRB220]</Hit_def>
+  <Hit_accession>WP_026719914</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>3.87718e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKHSMIPHQIITVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKADPKLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL +S +PH+++TVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_010997309.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Nostocaceae] &gt;gb|RUR89492.1| response regulator [Nostoc sp. PCC 7120] &gt;dbj|BAB74857.1| two-component system, regulatory protein [Nostoc sp. PCC 7120] &gt;dbj|BAY68782.1| two-component system, regulatory protein [Trichormus variabilis NIES-23] &gt;tpg|HBW33574.1| response regulator [Nostoc sp. UBA8866]</Hit_def>
+  <Hit_accession>WP_010997309</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>4.18666e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>HRTIFLVEDNKADIRLIQEAFKNSQLPHEVVTVRDGMDAMAYLRQEGEYTHAPRPDLILLDLNLPRKDGREVLAEIKADPALKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLTQLFQIVKGIEEFWLSTVTLP</Hsp_hseq>
+      <Hsp_midline>H+ IFLVEDNKADIRLIQEA  NS +PHEVVTVRDGM+AMAYLRQEGEY +A RPDLILLDLNLP+KDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NL+QLFQIVKGIEEFWLST TLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_109012141.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc commune] &gt;dbj|BBD66626.1| response regulator receiver protein [Nostoc commune HK-02] &gt;dbj|GBG22393.1| response regulator receiver protein [Nostoc commune NIES-4072]</Hit_def>
+  <Hit_accession>WP_109012141</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>4.72366e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPYQVVTVRDGIDAMAYLRQEGEYADAARPDLILLDLNLPKKDGREVLAEIKADPLLKRIPVVVLTTSKNEDDIFHSYDLHVNCYITKSRNLNQLFQIVKSIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VP++VVTVRDG++AMAYLRQEGEYA+A+RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NL+QLFQIVK IE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_015139392.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc sp. PCC 7524] &gt;gb|AFY48957.1| CheY-like receiver domain-containing protein [Nostoc sp. PCC 7524]</Hit_def>
+  <Hit_accession>WP_015139392</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>4.88172e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEAFKNSLVPHQVVTVRDGMDAMAYLRQEGEYTDAPRPDLILLDLNLPKKDGREVLAEIKADPLLKRIPVVVLTTSRNEDDIFHSYELHVNCYITKSRNLSQLFQIVKGIEEFWLTTVTLP</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEA  NS VPH+VVTVRDGM+AMAYLRQEGEY +A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSY+LHVNCYITKS NLSQLFQIVKGIEEFWL+T TLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_026735740.1|</Hit_id>
+  <Hit_def>response regulator [Fischerella sp. PCC 9605]</Hit_def>
+  <Hit_accession>WP_026735740</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>4.99001e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSLIPHQVITVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPKLKRIPVVVLTTSHNDEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLP</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS +PH+V+TVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS N++DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_096551300.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc sp. NIES-4103] &gt;dbj|BAZ47594.1| response regulator receiver protein [Nostoc sp. NIES-4103]</Hit_def>
+  <Hit_accession>WP_096551300</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.10537e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSVVPHQVVTVRDGVDAMAFLRQEGEYADAPRPDLILLDLNLPRKDGREVLAEIKADPILKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSIVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS VPH+VVTVRDG++AMA+LRQEGEYA+A RPDLILLDLNLP+KDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLS  TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_067767839.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Nostoc] &gt;dbj|BAT53039.1| two-component system, regulatory protein [Nostoc sp. NIES-3756] &gt;dbj|BAY39238.1| two-component system, regulatory protein [Nostoc sp. NIES-2111]</Hit_def>
+  <Hit_accession>WP_067767839</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.35218e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>HRTIFLVEDNKADIRLIQEAFKNSQVPHEVVTVRDGMDAMAYLRQEGDYTHAPRPDLILLDLNLPRKDGREVLAEIKADPVLKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLTQLFQIVKGIEEFWLSTVTLP</Hsp_hseq>
+      <Hsp_midline>H+ IFLVEDNKADIRLIQEA  NS VPHEVVTVRDGM+AMAYLRQEG+Y +A RPDLILLDLNLP+KDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NL+QLFQIVKGIEEFWLST TLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_062291435.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc piscinale] &gt;gb|ALF53053.1| response regulator [Nostoc piscinale CENA21]</Hit_def>
+  <Hit_accession>WP_062291435</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>6.71036e-85</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>KKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>KTIFLVEDNKADVRLIQEALKNSSVPHEVVTVRDGVDAMAFLRQEGEYADAPRPDLILLDLNLPRKDGREVLAEIKNDPLLKRIPVVVLTTSKNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>K IFLVEDNKAD+RLIQEAL NS+VPHEVVTVRDG++AMA+LRQEGEYA+A RPDLILLDLNLP+KDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_089128000.1|</Hit_id>
+  <Hit_def>response regulator [Tolypothrix sp. NIES-4075] &gt;dbj|GAX42189.1| two-component system, regulatory protein [Tolypothrix sp. NIES-4075]</Hit_def>
+  <Hit_accession>WP_089128000</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>6.78438e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIKEALKNSLVPHEVVTARDGMDAMAYLRQEGEYANATRPDLILLDLNLPKKDGREVLAEIKTDPKLKRIPVVVLTTSRNEDDILYSYDWHVNCYITKSRNISELFQIVKGIEEFWLSTATLP</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLI+EAL NS VPHEVVT RDGM+AMAYLRQEGEYANA+RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDI +SYD HVNCYITKS N+S+LFQIVKGIEEFWLSTATLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>dbj|GCL38059.1|</Hit_id>
+  <Hit_def>two-component system, regulatory protein [Sphaerospermopsis reniformis]</Hit_def>
+  <Hit_accession>GCL38059</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>8.92533e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKIIFLVEDNKADIRLIQEALKTSSLPHEVVTVRDGIDAMAYLRQEGEYADAIRPDLILLDLNLPRKDGREVLAEIKSDPKLKRIPVVVLTTSKNEDDIYHSYDLHVNCYITKSRNLAQLFQIVKGIEEFWFATATLPT</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL  S++PHEVVTVRDG++AMAYLRQEGEYA+A RPDLILLDLNLP+KDGREVLAEIKSDP LKRIPVVVL+TS NEDDI+HSYDLHVNCYITKS NL+QLFQIVKGIEEFW +TATLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_026082136.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Hapalosiphonaceae] &gt;gb|RAM49153.1| response regulator [Hapalosiphonaceae cyanobacterium JJU2] &gt;gb|TFI56214.1| response regulator [Mastigocladus laminosus UU774]</Hit_def>
+  <Hit_accession>WP_026082136</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>9.02379e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HRTIFLVEDNKADIRLIQEALKHSMIPHQIIIVRDGMDAMAYLRQEGEYANAPRPDLILLDLNLPKKDGREVLAEIKTDPRLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>H+ IFLVEDNKADIRLIQEAL +S +PH+++ VRDGM+AMAYLRQEGEYANA RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|TAF10480.1|</Hit_id>
+  <Hit_def>response regulator [Nostocales cyanobacterium]</Hit_def>
+  <Hit_accession>TAF10480</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>9.74408e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>AHKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>THKIIFLVEDNKADVRLIQEALKTSSLPHQVVTVRDGIDAMAYLRQEGEYANAPRPDLILLDLNLPRKDGREVLAEIKSDPKLKRIPVVVLTTSKNEDDIFQSYDLHVNCYITKSRNLAQLFQIVKGIEEFWFSTATLP</Hsp_hseq>
+      <Hsp_midline> HK IFLVEDNKAD+RLIQEAL  S++PH+VVTVRDG++AMAYLRQEGEYANA RPDLILLDLNLP+KDGREVLAEIKSDP LKRIPVVVL+TS NEDDIF SYDLHVNCYITKS NL+QLFQIVKGIEEFW STATLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_011320548.1|</Hit_id>
+  <Hit_def>response regulator [Trichormus variabilis] &gt;gb|ABA23458.1| Response regulator receiver domain protein (CheY) [Trichormus variabilis ATCC 29413] &gt;gb|OBQ09838.1| response regulator [Anabaena sp. 39858]</Hit_def>
+  <Hit_accession>WP_011320548</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>1.11151e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLP</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEAFKNSQLPHEVVTVRDGMDAMAYLRREGEYTHAPRPDLILLDLNLPRKDGREVLAEIKADPVLKRIPVVVLTTSRNEDDIFHSYDLHVNCYITKSRNLTQLFQIVKGIEEFWLSTVTLP</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEA  NS +PHEVVTVRDGM+AMAYLR+EGEY +A RPDLILLDLNLP+KDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NL+QLFQIVKGIEEFWLST TLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_026086990.1|</Hit_id>
+  <Hit_def>response regulator [Fischerella muscicola]</Hit_def>
+  <Hit_accession>WP_026086990</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>1.11151e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKHSMIPHQVITVRDGMDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPKLKRIPVVVLTTSHNEEDIFHSYDLHVNCYITKSRNLTQLFQIVKGIEDFWLSTVTLPA</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL +S +PH+V+TVRDGM+AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NE+DIFHSYDLHVNCYITKS NL+QLFQIVKGIE+FWLST TLP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_073639894.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc calcicola] &gt;gb|OKH41151.1| response regulator [Nostoc calcicola FACHB-389]</Hit_def>
+  <Hit_accession>WP_073639894</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>1.21348e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPHEVVIVRDGIDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKTDPVLKRIPVVVLTTSKNEDDIFHSYDLHVNCYITKSRNLNQLFQIVKSIEDFWLCTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VPHEVV VRDG++AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NL+QLFQIVK IE+FWL T TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_012406853.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc punctiforme] &gt;gb|ACC78824.1| response regulator receiver protein [Nostoc punctiforme PCC 73102]</Hit_def>
+  <Hit_accession>WP_012406853</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>1.2404e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPYQVVTVRDGIDAMAYLRQEGEYADAPRPDLILLDLNLPKKDGREVLAEIKADPLLKRIPVVVLTTSKNEDDIFHSYDLHVNCYITKSRNLNQLFQIVKSIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VP++VVTVRDG++AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NL+QLFQIVK IE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_096577851.1|</Hit_id>
+  <Hit_def>MULTISPECIES: response regulator [Nostocales]</Hit_def>
+  <Hit_accession>WP_096577851</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>1.46227e-84</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>KKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>KTIFLVEDNKADVRLIQEALKNSSVPHQVVTVRDGVDAMAFLRQEGEYADAPRPDLILLDLNLPRKDGREVLAEIKNDPLLKRIPVVVLTTSKNEDDIFHSYDLHVNCYITKSRNLSQLFQIVKGIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>K IFLVEDNKAD+RLIQEAL NS+VPH+VVTVRDG++AMA+LRQEGEYA+A RPDLILLDLNLP+KDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NLSQLFQIVKGIE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_114080291.1|</Hit_id>
+  <Hit_def>response regulator [Nostoc sp. ATCC 53789] &gt;gb|RCJ35977.1| response regulator [Nostoc sp. ATCC 53789]</Hit_def>
+  <Hit_accession>WP_114080291</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>1.52787e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>HKKIFLVEDNKADIRLIQEALANSTVPHEVVTVRDGMEAMAYLRQEGEYANASRPDLILLDLNLPKKDGREVLAEIKSDPTLKRIPVVVLSTSINEDDIFHSYDLHVNCYITKSANLSQLFQIVKGIEEFWLSTATLPS</Hsp_qseq>
+      <Hsp_hseq>HKTIFLVEDNKADIRLIQEALKNSSVPYQVVTVRDGIDAMAYLRQEGEYADALRPDLILLDLNLPKKDGREVLAEIKADPLLKRIPVVVLTTSKNEDDIFHSYDLHVNCYITKSRNLNQLFQIVKSIEDFWLSTVTLPS</Hsp_hseq>
+      <Hsp_midline>HK IFLVEDNKADIRLIQEAL NS+VP++VVTVRDG++AMAYLRQEGEYA+A RPDLILLDLNLPKKDGREVLAEIK+DP LKRIPVVVL+TS NEDDIFHSYDLHVNCYITKS NL+QLFQIVK IE+FWLST TLPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
