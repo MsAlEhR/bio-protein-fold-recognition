@@ -1,0 +1,2277 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_238281</BlastOutput_query-ID>
+  <BlastOutput_query-def>d2naca2c</BlastOutput_query-def>
+  <BlastOutput_query-len>186</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_238281</Iteration_query-ID>
+  <Iteration_query-def>d2naca2c</Iteration_query-def>
+  <Iteration_query-len>186</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|2GUG|A</Hit_id>
+  <Hit_def>Chain A, Formate Dehydrogenase [Pseudomonas sp. 101] &gt;pdb|2GUG|B Chain B, Formate Dehydrogenase [Pseudomonas sp. 101] &gt;pdb|2GUG|C Chain C, Formate Dehydrogenase [Pseudomonas sp. 101] &gt;pdb|2GUG|D Chain D, Formate Dehydrogenase [Pseudomonas sp. 101]</Hit_def>
+  <Hit_accession>2GUG_A</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>3.14829e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>4.4887e-14</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTTLTAQARYAAGTREILEXFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + TTLTAQARYAAGTREILE FFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P33160.3|</Hit_id>
+  <Hit_def>RecName: Full=Formate dehydrogenase; Short=FDH; AltName: Full=NAD-dependent formate dehydrogenase [Pseudomonas sp. 101] &gt;pdb|2GO1|A Chain A, Nad-dependent Formate Dehydrogenase [Pseudomonas sp. 101]</Hit_def>
+  <Hit_accession>P33160</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>3.54917e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.44225e-15</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + TTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|2NAC|A</Hit_id>
+  <Hit_def>Chain A, Nad-dependent Formate Dehydrogenase [Pseudomonas sp. 101] &gt;pdb|2NAC|B Chain B, Nad-dependent Formate Dehydrogenase [Pseudomonas sp. 101] &gt;pdb|2NAD|A Chain A, Nad-dependent Formate Dehydrogenase [Pseudomonas sp. 101] &gt;pdb|2NAD|B Chain B, Nad-dependent Formate Dehydrogenase [Pseudomonas sp. 101]</Hit_def>
+  <Hit_accession>2NAC_A</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>4.09685e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.45087e-15</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>332</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + TTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|ALF04779.1|</Hit_id>
+  <Hit_def>formate dehydrogenase, partial [synthetic construct] &gt;dbj|BAB69476.1| formate dehydrogenase [Mycolicibacterium vaccae]</Hit_def>
+  <Hit_accession>ALF04779</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>1.06258e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQILPTPKAIDFTPGQLLGSVSGELGLREYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQ LPTPKAIDFTPGQLLGSVSGELGLR+YLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.48566e-15</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + TTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAB36206.1|</Hit_id>
+  <Hit_def>NAD(+)-dependent formate dehydrogenase, McFDH {EC 1.2.1.2} [Mycolicibacterium vaccae]</Hit_def>
+  <Hit_accession>AAB36206</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>1.1119e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQILPTPKAIDFTPGQLLGSVSGELGLREYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQ LPTPKAIDFTPGQLLGSVSGELGLR+YLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.5224e-15</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>332</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + TTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|BAC92737.1|</Hit_id>
+  <Hit_def>formate dehydrogenase [Thiobacillus sp. KNK65MA]</Hit_def>
+  <Hit_accession>BAC92737</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>2.42106e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLEANGHTFVVTSDKDGPDSVFEKELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRGITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLE+NGHT VVTSDKDGPDSVFE+ELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDR +TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>8.11099e-15</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|3WR5|A</Hit_id>
+  <Hit_def>Chain A, Formate Dehydrogenase [Thiobacillus sp. KNK65MA] &gt;pdb|3WR5|B Chain B, Formate Dehydrogenase [Thiobacillus sp. KNK65MA] &gt;pdb|3WR5|C Chain C, Formate Dehydrogenase [Thiobacillus sp. KNK65MA] &gt;pdb|3WR5|D Chain D, Formate Dehydrogenase [Thiobacillus sp. KNK65MA]</Hit_def>
+  <Hit_accession>3WR5_A</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>2.76162e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLEANGHTFVVTSDKDGPDSVFEKELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRGITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLE+NGHT VVTSDKDGPDSVFE+ELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDR +TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>8.4634e-15</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_126278006.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Ancylobacter aquaticus] &gt;gb|RTM00625.1| NAD-dependent formate dehydrogenase [Ancylobacter aquaticus]</Hit_def>
+  <Hit_accession>WP_126278006</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>5.6615e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPIDGYPTTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRNYLESNGHTLVVTSDKDGPNSVFEKELVDADIVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDP+DGYP TYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLR YLESNGHTLVVTSDKDGP+SVFE+ELVDAD+VISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRN+TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.24439e-13</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRAIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGR IRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_013168047.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Starkeya novella] &gt;gb|ADH90546.1| D-isomer specific 2-hydroxyacid dehydrogenase NAD-binding protein [Starkeya novella DSM 506]</Hit_def>
+  <Hit_accession>WP_013168047</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>6.31289e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGALLGSVSGELGLRKYLEANGHTFVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRGITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPG LLGSVSGELGLRKYLE+NGHT VVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDR +TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>7.87479e-15</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_018387990.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Ancylobacter sp. FA202]</Hit_def>
+  <Hit_accession>WP_018387990</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>2.33216e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPIDGYPTTYARDDLPKIDHYPGGQTLPTPKAIDFTPGHLLGSVSGELGLRSYLESNGHTLVVTSDKDGPNSVFEKELVDADIVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDP+DGYP TYARDDLPKIDHYPGGQTLPTPKAIDFTPG LLGSVSGELGLR YLESNGHTLVVTSDKDGP+SVFE+ELVDAD+VISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRN+TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.09561e-13</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRAIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGR IRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|PZQ84185.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Starkeya novella]</Hit_def>
+  <Hit_accession>PZQ84185</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>6.70617e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPTTYARDDLPKIDHYPGGQTLPTPKAIDFVPGTMLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFEKELVDADIVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQAAIDRNITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYP TYARDDLPKIDHYPGGQTLPTPKAIDF PG +LGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFE+ELVDAD+VISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQ+AIDRN+TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>7.25912e-14</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HMSGTSLTAQTRYAAGTREILECFFEGRPIRDEYLIVQGGNLA</Hsp_hseq>
+      <Hsp_midline>+ + T+LTAQ RYAAGTREILECFFEGRPIRDEYLIVQGG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_091443603.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Ancylobacter rudongensis] &gt;emb|SCW94487.1| formate dehydrogenase [Ancylobacter rudongensis]</Hit_def>
+  <Hit_accession>WP_091443603</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>8.33778e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPIDGYPTTYARDDLPKIDHYPGGQTLPTPKAVDFTPGHLLGSVSGALGLRKYLESNGHTLVVTSDKDGPNSVFEKELVDADIVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDP+DGYP TYARDDLPKIDHYPGGQTLPTPKA+DFTPG LLGSVSG LGLRKYLESNGHTLVVTSDKDGP+SVFE+ELVDAD+VISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRN+TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.20836e-13</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRAIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGR IRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>dbj|BAC65346.1|</Hit_id>
+  <Hit_def>formate dehydrogenase [Ancylobacter aquaticus]</Hit_def>
+  <Hit_accession>BAC65346</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>7.04395e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPTTYARDNLPKIDHYPGGQTLPTPKAIDFTPGTMLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFEKELVDADIVISQPFWPAYLTPERFAKAKNLKLALTAGIGSDHVDLQSAIDRGVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYP TYARD+LPKIDHYPGGQTLPTPKAIDFTPG +LGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFE+ELVDAD+VISQPFWPAYLTPER AKAKNLKLALTAGIGSDHVDLQSAIDR VTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>7.47582e-14</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HMSGTSLTAQTRYAAGTREILECFFEGRPIRDEYLIVQGGNLA</Hsp_hseq>
+      <Hsp_midline>+ + T+LTAQ RYAAGTREILECFFEGRPIRDEYLIVQGG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_131837331.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Ancylobacter aquaticus] &gt;gb|TCK16699.1| formate dehydrogenase [Ancylobacter aquaticus]</Hit_def>
+  <Hit_accession>WP_131837331</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>2.38413e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPINGYPATYARDDLPKIENYPGGQTLPTPKAVDFTPGQLLGSVSGELGLRNYLESNGHTLVVTSDKDGPNSVFEKELVDADIVISQPFWPAYLTPERISKAKNLKLALTAGIGSDHVDLQSAIDRNITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDP++GYP TYARDDLPKI++YPGGQTLPTPKA+DFTPGQLLGSVSGELGLR YLESNGHTLVVTSDKDGP+SVFE+ELVDAD+VISQPFWPAYLTPERI+KAKNLKLALTAGIGSDHVDLQSAIDRN+TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.1064e-13</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRAIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGR IRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_012591449.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Methylocella silvestris] &gt;gb|ACK51380.1| D-isomer specific 2-hydroxyacid dehydrogenase NAD-binding [Methylocella silvestris BL2]</Hit_def>
+  <Hit_accession>WP_012591449</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>4.58119e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPITGYPKTYARDDLPKITHYPGGQSLPTPKAIDFTPGVLLGSVSGELGLRKYLEANGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERFAKAKNLKMALTAGIGSDHVDLQSAIDRKITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+ GYPKTYARDDLPKI HYPGGQ+LPTPKAIDFTPG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPER AKAKNLK+ALTAGIGSDHVDLQSAIDR +TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>2.08623e-14</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTTLTAQARYAAGTREILECFFEGRPIRDEYLIVEGGHLA</Hsp_hseq>
+      <Hsp_midline>+ + TTLTAQARYAAGTREILECFFEGRPIRDEYLIV+GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|ACI22655.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Ancylobacter aquaticus]</Hit_def>
+  <Hit_accession>ACI22655</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>3.32117e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPINGYPATYARDDLPKIENYPGGQTLPTPKPVDFTPGQLLGSVSGELGLRNYLESNGHTLVVTSDKDGPNSVFEKELVDADIVISQPFWPAYLTPERISKAKNLKLALTAGIGSDHVDLQSAIDRNITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDP++GYP TYARDDLPKI++YPGGQTLPTPK +DFTPGQLLGSVSGELGLR YLESNGHTLVVTSDKDGP+SVFE+ELVDAD+VISQPFWPAYLTPERI+KAKNLKLALTAGIGSDHVDLQSAIDRN+TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.2815e-13</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRAIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGR IRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_029558741.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Xanthobacter sp. 91]</Hit_def>
+  <Hit_accession>WP_029558741</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>3.32117e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIGGLPKTYARDDLPKIDHYPGGQTLPTPKAIDFIPGTMLGSVSGELGLRKYLEANGHTLVVTADKDGPDSVFERELVDADIVISQPFWPAYLTPERFAKAKNLKLALTAGIGSDHVDLQSAIDRGVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+ G PKTYARDDLPKIDHYPGGQTLPTPKAIDF PG +LGSVSGELGLRKYLE+NGHTLVVT+DKDGPDSVFERELVDAD+VISQPFWPAYLTPER AKAKNLKLALTAGIGSDHVDLQSAIDR VTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>5.79321e-14</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HMSGTSLTAQARYAAGTREILECFFEGRPIRDEYLIVEGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+LTAQARYAAGTREILECFFEGRPIRDEYLIV+GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_102843598.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Methylocella silvestris] &gt;gb|PNG26172.1| formate dehydrogenase [Methylocella silvestris]</Hit_def>
+  <Hit_accession>WP_102843598</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>2.02235e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPITGYPKTYARDDLPTITHYPGGQSMPTPKAIDFVPGVLLGSVSGELGLRKYLEANGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERFAKAKNLKMALTAGIGSDHVDLQSAIDRKITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+ GYPKTYARDDLP I HYPGGQ++PTPKAIDF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPER AKAKNLK+ALTAGIGSDHVDLQSAIDR +TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>2.06583e-14</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTTLTAQARYAAGTREILECFFEGRPIRDEYLIVEGGHLA</Hsp_hseq>
+      <Hsp_midline>+ + TTLTAQARYAAGTREILECFFEGRPIRDEYLIV+GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_034512248.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Agrobacterium rhizogenes]</Hit_def>
+  <Hit_accession>WP_034512248</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>8.16234e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPIDGYPTSYARDDLPKIDHYPGGQTLPTPRAVDFKPGTLLGSVSGELGLRKYLEANGHTFVVTSDKDGPDSVFEKELVDADVVISQPFWPAYLTAERIAKAKNLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDP+DGYP +YARDDLPKIDHYPGGQTLPTP+A+DF PG LLGSVSGELGLRKYLE+NGHT VVTSDKDGPDSVFE+ELVDADVVISQPFWPAYLT ERIAKAKNLKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>4.14889e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILENFFEGRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILE FFEGRPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_077467430.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium sp. P44RR-XXIV]</Hit_def>
+  <Hit_accession>WP_077467430</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>8.28476e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPIDGYPKSYARDDLPKIEHYPGGQTLPTPKATDFKPGTLLGSVSGELGLRKYLEENGHTFVVTSDKDGPDSVLEREIVDADVVISQPFWPAYLTAERIAKAKNLKLALTAGIGSDHVDLQAAIDRGVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDP+DGYPK+YARDDLPKI+HYPGGQTLPTPKA DF PG LLGSVSGELGLRKYLE NGHT VVTSDKDGPDSV ERE+VDADVVISQPFWPAYLT ERIAKAKNLKLALTAGIGSDHVDLQ+AIDR VTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.18505e-12</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEGRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFEGRPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_068399672.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium sp. AC27/96] &gt;gb|OCI93917.1| formate dehydrogenase [Rhizobium sp. AC27/96]</Hit_def>
+  <Hit_accession>WP_068399672</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>1.62632e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPIDGYPKSYARDDLPKIEHYPGGQTLPTPKATDFKPGTLLGSVSGELGLRKYLEENGHTFVVTSDKDGPDSVLEREIVDADVVISQPFWPAYLTAERIAKAKNLRLALTAGIGSDHVDLQAAIDRGVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDP+DGYPK+YARDDLPKI+HYPGGQTLPTPKA DF PG LLGSVSGELGLRKYLE NGHT VVTSDKDGPDSV ERE+VDADVVISQPFWPAYLT ERIAKAKNL+LALTAGIGSDHVDLQ+AIDR VTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.28117e-12</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEGRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFEGRPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_062943774.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|KZA98534.1| formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>WP_062943774</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>5.80682e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDDLPRIDHYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVISDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARDDLP+IDHYPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVV SDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.40141e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE RPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_029354581.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Bosea sp. 117]</Hit_def>
+  <Hit_accession>WP_029354581</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>1.04198e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPVDGYPKTYARDDLPKIDHYPSGQTLPTPKAIDFTPGELLGSVSGELGLRKYLESNGHTFVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKKLKLALTAGIGSDHVDLQSAIDRNITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDPVDGYPKTYARDDLPKIDHYP GQTLPTPKAIDFTPG+LLGSVSGELGLRKYLESNGHT VVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAK LKLALTAGIGSDHVDLQSAIDRN+TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.12254e-14</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_024278782.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Xanthobacter sp. 126]</Hit_def>
+  <Hit_accession>WP_024278782</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>1.10021e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIGGLPKTYARDDLPKIDQYPGGQTLPTPKAIDFIPGTMLGSVSGELGLRKYLEANGHMLVVTADKDGSDSVFEKELVDADIVISQPFWPAYLTPERFAKAKNLKLALTAGIGSDHVDLQSAIDRGVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+ G PKTYARDDLPKID YPGGQTLPTPKAIDF PG +LGSVSGELGLRKYLE+NGH LVVT+DKDG DSVFE+ELVDAD+VISQPFWPAYLTPER AKAKNLKLALTAGIGSDHVDLQSAIDR VTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>6.64593e-14</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HMSGTSLTAQARYAAGTREILECFFEGRPIRDEYLIVEGGNLA</Hsp_hseq>
+      <Hsp_midline>+ + T+LTAQARYAAGTREILECFFEGRPIRDEYLIV+GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_130696997.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TAU76807.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TAV33235.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TAV38142.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TAW65172.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TAX82159.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TAZ57266.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>WP_130696997</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.22993e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDDLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARDDLP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>5.70986e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQQPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE +PIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_064248942.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|API51279.1| formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|OAP91941.1| formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>WP_064248942</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.49591e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDDLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARDDLP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.38788e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE RPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_129420236.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|RXT24161.1| formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>WP_129420236</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.59679e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDDLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARDDLP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.52926e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE RPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_020050458.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>WP_020050458</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.78026e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDDLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARDDLP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.41507e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE RPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_018493107.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>WP_018493107</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>4.63591e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDNLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARD+LP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>4.42207e-10</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILESFFEQRPIRDEYLIIDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILE FFE RPIRDEYLI+ GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_027668786.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>WP_027668786</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>4.6866e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDNLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARD+LP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.99283e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQQPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE +PIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|ANP86131.1|</Hit_id>
+  <Hit_def>formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>ANP86131</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>4.9485e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDNLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARD+LP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.40141e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE RPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_094085680.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|ASR05940.1| formate dehydrogenase [Rhizobium leguminosarum bv. viciae]</Hit_def>
+  <Hit_accession>WP_094085680</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>5.16852e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDNLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARD+LP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.41507e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE RPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_130775493.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TBA85861.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TBC30015.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum]</Hit_def>
+  <Hit_accession>WP_130775493</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>5.51702e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDNLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARD+LP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>2.08562e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQRPIRDEYLIIDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE RPIRDEYLI+ GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_131619697.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium leguminosarum] &gt;gb|TBY78949.1| NAD-dependent formate dehydrogenase [Rhizobium leguminosarum bv. viciae]</Hit_def>
+  <Hit_accession>WP_131619697</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>5.63833e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKVLCVLYDDPIDGYPKSYARDNLPRIDQYPGGQTLPTPKAVDFQPGTLLGSVSGELGLRKYLEANGHTLVVTSDKDGPNSAFERELVDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AKVLCVLYDDP+DGYPK+YARD+LP+ID YPGGQTLPTPKA+DF PG LLGSVSGELGLRKYLE+NGHTLVVTSDKDGP+S FERELVDADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.4854e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFFEQRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECFFE RPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|RVE87473.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase, partial [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>RVE87473</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>4.21746e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLT</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPVDGYPTAYARDGLPTLERYPGGQTLPTPKAIDFEPGALLGSVSGELGLRKFLESQGHTLVVTSDKDGPDSVFERELVDAEIVISQPFWPAYLTAERIVKAARLKLAITAGIGSDHVDLQAAIDRGITVAEVTYCNSISVS</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDPVDGYP  YARD LP ++ YPGGQTLPTPKAIDF PG LLGSVSGELGLRK+LES GHTLVVTSDKDGPDSVFERELVDA++VISQPFWPAYLT ERI KA  LKLA+TAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|RVI15502.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase, partial [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>RVI15502</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>9.08902e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLT</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPVDGYPTAYARDGLPTLERYPGGQTLPTPKAIDFEPGALLGSVSGELGLRKFLEGQGHTLVVTSDKDGPDSVFERELVDAEIVISQPFWPAYLTAERIVKAARLKLAITAGIGSDHVDLQAAIDRGITVAEVTYCNSISVS</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDPVDGYP  YARD LP ++ YPGGQTLPTPKAIDF PG LLGSVSGELGLRK+LE  GHTLVVTSDKDGPDSVFERELVDA++VISQPFWPAYLT ERI KA  LKLA+TAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_084429995.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Kibdelosporangium aridum] &gt;emb|SMD18192.1| formate dehydrogenase [Kibdelosporangium aridum]</Hit_def>
+  <Hit_accession>WP_084429995</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>1.5167e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPVDGYPATYARDDLPKIERYPDGQTLPTPKGVDFTPGHLLGSVSGELGLRSFLESQGHTLVVTSDKDGPGSVFERELVDADVVISQPFWPAYLTPERIAKARNLKLAVTAGIGSDHVDLKAAIDAGITVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDPVDGYP TYARDDLPKI+ YP GQTLPTPK +DFTPG LLGSVSGELGLR +LES GHTLVVTSDKDGP SVFERELVDADVVISQPFWPAYLTPERIAKA+NLKLA+TAGIGSDHVDL++AID  +TVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>4.04172e-09</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGSSLSAQARYAAGTREILESWFGGTPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + ++L+AQARYAAGTREILE +F G PIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_113173862.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobiales bacterium]</Hit_def>
+  <Hit_accession>WP_113173862</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>2.11316e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKIVCVLYDDPVDGYPKSYARDGLPKMEHYPGGQTLPSPKAIDFQPGMLLGSVSGELGLRKYLESLGHTLVVTSDKDGPDSAFEKELPDAEIVISQPFWPAYLTAERIAKASNLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AK++CVLYDDPVDGYPK+YARD LPK++HYPGGQTLP+PKAIDF PG LLGSVSGELGLRKYLES GHTLVVTSDKDGPDS FE+EL DA++VISQPFWPAYLT ERIAKA NLKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.28498e-12</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HVSGTSLSAQARYAAGTREILECWFEGRPIREEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILEC+FEGRPIR+EYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_106665415.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Phyllobacterium sophorae] &gt;gb|PSH62809.1| formate dehydrogenase [Phyllobacterium sophorae]</Hit_def>
+  <Hit_accession>WP_106665415</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>2.74317e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKIVCVLYDDPVDGYPKSYARDGLPKMEHYPGGQTLPSPKAIDFQPGMLLGSVSGELGLRKYLESLGHTLVVTSDKDGPDSAFEKELPDAEIVISQPFWPAYLTAERIAKASNLKLALTAGIGSDHVDLQAAIDRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AK++CVLYDDPVDGYPK+YARD LPK++HYPGGQTLP+PKAIDF PG LLGSVSGELGLRKYLES GHTLVVTSDKDGPDS FE+EL DA++VISQPFWPAYLT ERIAKA NLKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.34954e-12</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HVSGTSLSAQARYAAGTREILECWFEGRPIREEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILEC+FEGRPIR+EYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_015061263.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Sinorhizobium meliloti] &gt;ref|YP_006962642.1| NAD-dependent formate dehydrogenase [Sinorhizobium meliloti] &gt;gb|AFJ91320.1| NAD-dependent formate dehydrogenase [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>WP_015061263</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>7.14948e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLT</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPVDGYPTAYARDGLPTLERYPGGQTLPTPKAIDFEPGALLGSVSGELGLRKFLESQGHTLVVTSDKDGPDSVFERELVDAEIVISQPFWPAYITAERIVKAARLKLAITAGIGSDHVDLQAAIDRGITVAEVTYCNSISVS</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDPVDGYP  YARD LP ++ YPGGQTLPTPKAIDF PG LLGSVSGELGLRK+LES GHTLVVTSDKDGPDSVFERELVDA++VISQPFWPAY+T ERI KA  LKLA+TAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_058505755.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Legionella nautarum] &gt;gb|KTD33138.1| NAD+-dependent formate dehydrogenase [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505755</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>8.82181e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKILCVLYDDPIDGYPQTYARDDLPKIEHYPDGQTVPTPKAIDFQPGTMLGSVSGELGLRKFLESQGHEFIVTSDKDGPNSVFERELVDADVVISQPFWPAYLTAERIAKAKNLKLAITAGIGSDHVDLQAAMNRNITVAEVTFSNSISV</Hsp_hseq>
+      <Hsp_midline>AK+LCVLYDDP+DGYP+TYARDDLPKI+HYP GQT+PTPKAIDF PG +LGSVSGELGLRK+LES GH  +VTSDKDGP+SVFERELVDADVVISQPFWPAYLT ERIAKAKNLKLA+TAGIGSDHVDLQ+A++RN+TVAEVT+ NS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>3.09304e-09</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECWFDKRPIRDVYLIVDQGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILEC+F+ RPIRD YLIV  G LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|OZA91271.1|</Hit_id>
+  <Hit_def>formate dehydrogenase, partial [Azorhizobium sp. 39-67-5]</Hit_def>
+  <Hit_accession>OZA91271</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.774</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>1.11732e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKIVCVLYDDPVDGYPKTYARDDLPRIDHYPGGQTLPSPKAVDFQPGTMLGSVSGELGLRTYLESLGHTLVVTSSKDGPDSVLERELHDAEVVISQPFWPAYLTKERIAKAPKLKLALTAGIGSDHVDLQAAIDAKITVAEVTYCNSISVAEH</Hsp_hseq>
+      <Hsp_midline>AK++CVLYDDPVDGYPKTYARDDLP+IDHYPGGQTLP+PKA+DF PG +LGSVSGELGLR YLES GHTLVVTS KDGPDSV EREL DA+VVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AID  +TVAEVTYCNS ++   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_127644210.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase, partial [Sinorhizobium meliloti] &gt;gb|RVG86560.1| NAD-dependent formate dehydrogenase, partial [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>WP_127644210</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>1.14913e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLT</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPVDGYPTAYARDGLPTLERYPGGQTLPTPKAIDFEPGALLGSVSGELGLRKFLEGQGHTLVVTSDKDGPDSVFERELVDAEIVISQPFWPAYLTAERIVKAARLKLAITAGIGSDHVDLQAAIDRGITVAEVTYCNSISVS</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDPVDGYP  YARD LP ++ YPGGQTLPTPKAIDF PG LLGSVSGELGLRK+LE  GHTLVVTSDKDGPDSVFERELVDA++VISQPFWPAYLT ERI KA  LKLA+TAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_026618971.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Ensifer sp. WSM1721]</Hit_def>
+  <Hit_accession>WP_026618971</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.7038e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLT</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPVDGYPTTYARDGLPKLERYPGGQTLPTPKAIDFQPGVLLGSVSGELGLRKFLEGQGHTLVVTSDKDGPDSVFERELVDADIAISQPFWPAYLTAERIAKAAKLKLAITAGIGSDHVDLQAAIDRGITVAEVTYCNSISVS</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDPVDGYP TYARD LPK++ YPGGQTLPTPKAIDF PG LLGSVSGELGLRK+LE  GHTLVVTSDKDGPDSVFERELVDAD+ ISQPFWPAYLT ERIAKA  LKLA+TAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.38626e-10</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGSSLSAQARYAAGTREILECWFEGRPIREEYLIVADGKLA</Hsp_hseq>
+      <Hsp_midline>+ + ++L+AQARYAAGTREILEC+FEGRPIR+EYLIV  G LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_127091564.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Aquabacter sp. Sn-9-2]</Hit_def>
+  <Hit_accession>WP_127091564</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.95053e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTL</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPIDGMPKSYARDDLPRIDHYPGGQTLPTPKGIDFAPGALLGSVSGELGLRKYLESNGHTLVVTSSKDGPDSVLERELHDADVVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAMEKGVTVAEVTYCNSISV</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDP+DG PK+YARDDLP+IDHYPGGQTLPTPK IDF PG LLGSVSGELGLRKYLESNGHTLVVTS KDGPDSV EREL DADVVISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+A+++ VTVAEVTYCNS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>8.40217e-12</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECFLEGRPIRDEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILECF EGRPIRDEYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>emb|CCV09463.1|</Hit_id>
+  <Hit_def>Formate dehydrogenase (fragment) [Mesorhizobium metallidurans STM 2683]</Hit_def>
+  <Hit_accession>CCV09463</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>3.8548e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLT</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPVDGYPTKYARDGLPKLDRYPGGQTLPTPKAVNFEPGVLLGSVSGELGLRKFLESAGHSLVVTSDKDGPDSIFERELVDAEIVISQPFWPAYLTEERIAKASRLKLAITAGIGSDHVDLQAAMDRGITVAEVTYCNSISVS</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDPVDGYP  YARD LPK+D YPGGQTLPTPKA++F PG LLGSVSGELGLRK+LES GH+LVVTSDKDGPDS+FERELVDA++VISQPFWPAYLT ERIAKA  LKLA+TAGIGSDHVDLQ+A+DR +TVAEVTYCNS +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_053252713.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Ensifer adhaerens] &gt;gb|KOF13482.1| formate dehydrogenase [Ensifer adhaerens]</Hit_def>
+  <Hit_accession>WP_053252713</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>5.45153e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLT</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPVDGYPTSYARDGLPKLEHYPGGQTLPTPKAIDFQPGMLLGSVSGELGLRPFLESLGHSLVVTSDKDGPDSVFERELVDAEIVISQPFWPAYLTAERIAKASKLKLAITAGIGSDHVDLQAAIDRGITVAEVTYCNSISVS</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDPVDGYP +YARD LPK++HYPGGQTLPTPKAIDF PG LLGSVSGELGLR +LES GH+LVVTSDKDGPDSVFERELVDA++VISQPFWPAYLT ERIAKA  LKLA+TAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>4.0199e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGSSLSAQARYAAGTREILECWFEGRPIREDYLIVAGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + ++L+AQARYAAGTREILEC+FEGRPIR++YLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_106713972.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Phyllobacterium brassicacearum] &gt;gb|PSH62028.1| formate dehydrogenase [Phyllobacterium brassicacearum] &gt;gb|TDQ16688.1| formate dehydrogenase [Phyllobacterium brassicacearum]</Hit_def>
+  <Hit_accession>WP_106713972</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>6.07744e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKIICVLYDDPVDGYPKSYARDGLPNIDHYPGGQTLPSPKAIDFQPGTLLGSVSGELGLRKYLESLGHTVVVTSDKDGPDSVFEKELPDAEIVISQPFWPAYLTAERIAKAPKLKLALTAGIGSDHVDLQAAINRGITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AK++CVLYDDPVDGYPK+YARD LP IDHYPGGQTLP+PKAIDF PG LLGSVSGELGLRKYLES GHT+VVTSDKDGPDSVFE+EL DA++VISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AI+R +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>6.12154e-12</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQARYAAGTREILECWFEGRPIREEYMIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQARYAAGTREILEC+FEGRPIR+EY+IV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_074066915.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobium gallicum] &gt;gb|APO66705.1| formate dehydrogenase protein [Rhizobium gallicum]</Hit_def>
+  <Hit_accession>WP_074066915</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>6.99977e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLT</Hsp_qseq>
+      <Hsp_hseq>AKVVCVLYDDPVDGYPSAYARDGLPKLEHYPGGQTLPTPKAIDFQPGALLGSVSGELGLRRFLESQGHNLVVTSDKDGPGSVFERELADAEIVISQPFWPAYLTAERIAKAANLKLAITAGIGSDHVDLQAAMDRGITVAEVTYCNSISVS</Hsp_hseq>
+      <Hsp_midline>AKV+CVLYDDPVDGYP  YARD LPK++HYPGGQTLPTPKAIDF PG LLGSVSGELGLR++LES GH LVVTSDKDGP SVFEREL DA++VISQPFWPAYLT ERIAKA NLKLA+TAGIGSDHVDLQ+A+DR +TVAEVTYCNS +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>3.24848e-11</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGSSLSAQARYAAGTREILECWFEGKPIREEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + ++L+AQARYAAGTREILEC+FEG+PIR+EYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_112531749.1|</Hit_id>
+  <Hit_def>NAD-dependent formate dehydrogenase [Rhizobiales bacterium]</Hit_def>
+  <Hit_accession>WP_112531749</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>8.98766e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>AKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSTTLTAQ</Hsp_qseq>
+      <Hsp_hseq>AKIICVLYDDPVDGYPKTYARAGLPEIDHYPGGQTLPSPKAIDFQPGTLLGSVSGELGLRQYLESLGHTLVVTADKDGPDSVFEQELHDAEIVISQPFWPAYLTAERIAKASKLKLALTAGIGSDHVDLQAAIDRRITVAEVTYCNSISVSEH</Hsp_hseq>
+      <Hsp_midline>AK++CVLYDDPVDGYPKTYAR  LP+IDHYPGGQTLP+PKAIDF PG LLGSVSGELGLR+YLES GHTLVVT+DKDGPDSVFE+EL DA++VISQPFWPAYLT ERIAKA  LKLALTAGIGSDHVDLQ+AIDR +TVAEVTYCNS +++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.54165e-10</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>YCNSTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALA</Hsp_qseq>
+      <Hsp_hseq>HISGTSLSAQTRYAAGTREILECWFEGRSIREEYLIVDGGKLA</Hsp_hseq>
+      <Hsp_midline>+ + T+L+AQ RYAAGTREILEC+FEGR IR+EYLIV GG LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,2391 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_143843</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1w25a1c</BlastOutput_query-def>
+  <BlastOutput_query-len>139</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_143843</Iteration_query-ID>
+  <Iteration_query-def>d1w25a1c</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1W25|A</Hit_id>
+  <Hit_def>Chain A, STALKED-CELL DIFFERENTIATION CONTROLLING PROTEIN [Caulobacter vibrioides CB15] &gt;pdb|1W25|B Chain B, STALKED-CELL DIFFERENTIATION CONTROLLING PROTEIN [Caulobacter vibrioides CB15] &gt;pdb|2V0N|A Chain A, RESPONSE REGULATOR PLED [Caulobacter vibrioides CB15] &gt;pdb|2V0N|B Chain B, RESPONSE REGULATOR PLED [Caulobacter vibrioides CB15]</Hit_def>
+  <Hit_accession>1W25_A</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>3.83468e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.48074e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAAAKNFDGLRFTAALRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILSRPIDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+++++      DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L++PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|2WB4|A</Hit_id>
+  <Hit_def>Chain A, Diguanylate Cyclase [Caulobacter vibrioides CB15] &gt;pdb|2WB4|B Chain B, Diguanylate Cyclase [Caulobacter vibrioides CB15]</Hit_def>
+  <Hit_accession>2WB4_A</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>4.27426e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.04472e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAAAKNFDGLRFTAALRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILSRPIDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+++++      DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L++PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|ATC32383.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>ATC32383</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>4.50785e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.83285e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAAAKSFDGLRFTATLRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILSRPIDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+++++      DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L++PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_010920320.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter vibrioides] &gt;ref|NP_421265.1| response regulator PleD [Caulobacter vibrioides CB15] &gt;ref|YP_002517919.1| GGDEF/response regulator protein PleD [Caulobacter vibrioides NA1000] &gt;sp|B8GZM2.1| RecName: Full=Response regulator PleD; AltName: Full=Stalked cell differentiation-controlling protein; Includes: RecName: Full=Diguanylate cyclase; Short=DGC; AltName: Full=Diguanylate kinase [Caulobacter vibrioides NA1000] &gt;sp|Q9A5I5.1| RecName: Full=Response regulator PleD; AltName: Full=Stalked cell differentiation-controlling protein; Includes: RecName: Full=Diguanylate cyclase; Short=DGC; AltName: Full=Diguanylate kinase [Caulobacter vibrioides CB15] &gt;gb|AAK24433.1| stalked-cell differentiation controlling protein [Caulobacter vibrioides CB15] &gt;gb|ACL96011.1| GGDEF/response regulator protein PleD [Caulobacter vibrioides NA1000] &gt;gb|ATC25449.1| PleD family two-component system response regulator [Caulobacter vibrioides] &gt;gb|ATC29315.1| PleD family two-component system response regulator [Caulobacter vibrioides] &gt;gb|AZH13544.1| PleD family two-component system response regulator [Caulobacter vibrioides] &gt;gb|PLR14410.1| PleD family two-component system response regulator [Caulobacter vibrioides] &gt;gb|QBQ57273.1| PleD family two-component system response regulator [synthetic Caulobacter sp. &apos;ethensis&apos;]</Hit_def>
+  <Hit_accession>WP_010920320</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>5.07957e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.3576e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAAAKNFDGLRFTAALRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILSRPIDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+++++      DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L++PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|OYX03201.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>OYX03201</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>5.19106e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>3.64718e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAAAKGFDGLRFTAALRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILSRPIDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L++PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_062097984.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PleD family two-component system response regulator [Caulobacter] &gt;gb|AZS20672.1| PleD family two-component system response regulator [Caulobacter sp. FWC26]</Hit_def>
+  <Hit_accession>WP_062097984</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>1.01571e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTALDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPATRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEVSTA+DGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDP TRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.16423e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRIAAELGVEHRPVVES--DPEKAKISAGGPVDLVIVNAVAKGFDGLRFTASLRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILSRPIDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+++++ +  G DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L++PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_047412831.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. OV484]</Hit_def>
+  <Hit_accession>WP_047412831</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>1.94774e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKEDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLK+DPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>5.1665e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAQRLAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAVAKSFDGLRFTASLRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILSRPIDPQELAARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + L A+L  E+  V  +   P    ++A    D+++++ +    DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L++PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_056045650.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PleD family two-component system response regulator [Caulobacter] &gt;gb|KQV56705.1| response regulator PleD [Caulobacter sp. Root342] &gt;gb|KQV72342.1| response regulator PleD [Caulobacter sp. Root343]</Hit_def>
+  <Hit_accession>WP_056045650</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>2.26729e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKEDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLK+DPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.1754e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRLAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAVAKSFDGLRFTASLRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILPRPIDPQELAARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + L A+L  E+  V  +   P    ++A    D+++++ +    DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L +PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_099576701.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. FWC2] &gt;gb|PIB91543.1| PleD family two-component system response regulator [Caulobacter sp. FWC2]</Hit_def>
+  <Hit_accession>WP_099576701</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>2.31121e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVSSAMDGPTALAMASRDLPDIILLDVMMPGMDGFTVCRKLKEDPATRHIPVVLITALDGRGDRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEVS+AMDGPTALAMA+RDLPDIILLDVMMPGMDGFTVCRKLK+DP TRHIPVVLITALDGRGDRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.3073e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAARIAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAAAKSFDGLRFTAALRSEERSRQLPVLAMVDPDDRNRMVKALEIGVNDILPRPVDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E     + A+L  E+  V  +   P    ++A    D+++++      DG      L+ +  +R +PV+ +   D R   ++ LE G +D L +P+D   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AAA87378.1|</Hit_id>
+  <Hit_def>pleD [Caulobacter vibrioides CB15]</Hit_def>
+  <Hit_accession>AAA87378</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>7.2192e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARICPTIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAAR  P IILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.1198e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAAAKNFDGLRFTAALRSEERTRQLPVLAMVDPDDRGRMVKALEIGVNDILSRPIDPQELSARVKTQIQRKRCTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+++++      DG      L+ +  TR +PV+ +   D RG  ++ LE G +D L++PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_004620047.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter vibrioides] &gt;gb|ENZ81658.1| response regulator receiver modulated diguanylate cyclase [Caulobacter vibrioides OR37]</Hit_def>
+  <Hit_accession>WP_004620047</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>4.39955e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLVAEYYEVSTAMDGPTALSMAARDLPDIILLDVMMPGMDGFTVCQKLKEDPATRHIPVVLITALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL AEYYEVSTAMDGPTAL+MAARDLPDIILLDVMMPGMDGFTVC+KLK+DP TRHIPVVLITALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>2.91957e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIIDDNERQAQRVAAELGVEHRPVVES--DPEKAKISAGGPVDLVIINAAARGFDGLRLTAALRSEERTRHLPILAMVDPDDRARMVKALEIGVNDILPRPIDPQELAARARTQIRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L++DD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG  +   L+ +  TRH+P++ +   D R   ++ LE G +D L +PID   L AR R+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_125159339.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. 602-1] &gt;gb|RRN62250.1| PleD family two-component system response regulator [Caulobacter sp. 602-1]</Hit_def>
+  <Hit_accession>WP_125159339</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.618</Hsp_bit-score>
+      <Hsp_score>675</Hsp_score>
+      <Hsp_evalue>9.19534e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>TARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALTMAARDLPDIILLDVMMPGMDGFTVCRKLKEDLATRHIPVVLITALDGRADRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKMVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>+ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTAL MAARDLPDIILLDVMMPGMDGFTVCRKLK+D  TRHIPVVLITALDGR DRIQGLESGASDFLTKPIDDVMLFARVRSLTRFK+VIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>8.3472e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAARIAAELGVEHRPVIES--DPEKAKISAGGPVDLVIVNAAARSFDGLRFTAALRSEDRSRQLPVLAMVDPDDRNRMVKALEIGVNDILPRPVDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E     + A+L  E+  V  +   P    ++A    D+++++      DG      L+ +  +R +PV+ +   D R   ++ LE G +D L +P+D   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|OYW28824.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. 12-67-6] &gt;gb|OYX69038.1| PleD family two-component system response regulator [Caulobacter sp. 32-67-35] &gt;gb|OYX92931.1| PleD family two-component system response regulator [Caulobacter sp. 35-67-4]</Hit_def>
+  <Hit_accession>OYW28824</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>6.29836e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSTASDGPTALAMAANDLPDIILLDVMMPGMDGFTVCKRLKDDPITRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRLKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VSTA DGPTALAMAA DLPDIILLDVMMPGMDGFTVC++LKDDP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTR KLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>4.64502e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAQRIAAELSIEHRPVVES--DPEKARISAGGPVDLVIINGAAKGFDGLRFAASLRSNERTRHLPVLAMVDPDERQRMVKALEIGVNDILPRPIDPQELAARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + + A+L+ E+  V  +   P    ++A    D+++++    G DG      L+ +  TRH+PV+ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_007673019.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. AP07] &gt;gb|EJL26485.1| diguanylate cyclase (GGDEF) domain-containing protein [Caulobacter sp. AP07]</Hit_def>
+  <Hit_accession>WP_007673019</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.61</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>9.50682e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSTANDGPTALAMAADELPDVILLDVMMPGMDGFTVCKKLKEDPVTRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VSTA DGPTALAMAA +LPD+ILLDVMMPGMDGFTVC+KLK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.64573e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAQRVAAELAVEHRPVIES--DPAKAQISAGGPVDLIIINAAAKGFDGLRFAASLRSDERTRHLPILAMVDPDERPRLVKALEIGINDILPRPIDPQELSARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+I+++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_062147005.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter henricii] &gt;gb|ALL13715.1| response regulator PleD [Caulobacter henricii]</Hit_def>
+  <Hit_accession>WP_062147005</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>1.08268e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSTASDGPTALAMAASDLPDIILLDVMMPGMDGFTVCKKLKEDPVTRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRLKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VSTA DGPTALAMAA DLPDIILLDVMMPGMDGFTVC+KLK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTR KLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.44238e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRILIIDDNERQAQRIAAELSIEHRPVVES--DPDKARISAGGPVDLVIINGAAKRFDGLRFAASLRSTERTRHLPVLAMVDPDDRQRMVKALEIGVNDILPRPIDPQELAARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline> RIL++DD E   + + A+L+ E+  V  +   P    ++A    D+++++      DG      L+    TRH+PV+ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_035081563.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter henricii]</Hit_def>
+  <Hit_accession>WP_035081563</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>1.9018e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSVAYDGPTALALAANELPDVILLDVMMPGMDGFTVCRKLKEDPATRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA+AA +LPD+ILLDVMMPGMDGFTVCRKLK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.79816e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAQRVAAELAVEHRPVIES--DPVKAQISAGGPVDLVIINAAAKGFDGLRFAASLRSDERTRHLPILAMVDPDERPRIVKALEIGINDILPRPIDPQELAARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_056724985.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. Root655] &gt;gb|KRA57772.1| response regulator PleD [Caulobacter sp. Root655]</Hit_def>
+  <Hit_accession>WP_056724985</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.20203e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSTAHDGPTALSMAADELPDVILLDVMMPGMDGFTVCKKLKEDPVTRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VSTA DGPTAL+MAA +LPD+ILLDVMMPGMDGFTVC+KLK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.42651e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAQRVAAELAVEHRPVVES--DPVKAQISAGGPVDLIIINAAAKGFDGLRFAASLRSDERTRHLPILAMVDPDERPRLVKALEIGINDILPRPIDPQELSARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + + A+L  E+  V  +   P    ++A    D+I+++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_012285553.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. K31] &gt;gb|ABZ70627.1| response regulator receiver modulated diguanylate cyclase [Caulobacter sp. K31]</Hit_def>
+  <Hit_accession>WP_012285553</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>3.09656e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSVAYDGPTALAMAADELPDVILLDVMMPGMDGFTVCRKLKEDPTTRHIPVVLVTALDGRADRIAGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALAMAA +LPD+ILLDVMMPGMDGFTVCRKLK+DPTTRHIPVVL+TALDGR DRI GLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.39565e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLVVDDNERQAQRVAAELAVEHRPVVES--DPVKAQISAGGPVDLVIINAAAKGFDGLRFAASLRSDERTRHLPILAMVDTDDRPRLVKALEIGINDILPRPIDPQELSARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline> R+LVVDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|PZR35831.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter segnis]</Hit_def>
+  <Hit_accession>PZR35831</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>4.47543e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLAAEYYEVSTAIDGQTALSMAQRDLPDIILLDVMMPGIDGFTVCRKLKEDPATRHIPVVMITALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL AEYYEVSTA+DG TAL+MA RDLPDIILLDVMMPG+DGFTVCRKLK+DP TRHIPVV+ITALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.16423e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAERLAGELAGDHRPVVET--DPETAKVSASGPVDLVIVNAAAKGFDGLRFTAALRSDERTRHLPVLALVDPDDRARMVKALEIGVNDILTRPVDSQELAARAKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E     L  +L  ++  V      P    ++A    D+++++    G DG      L+ D  TRH+PV+ +   D R   ++ LE G +D LT+P+D   L AR ++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_029916213.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. UNC358MFTsu5.1]</Hit_def>
+  <Hit_accession>WP_029916213</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>5.38033e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYQVSVAYDGPTALALAASELPDVILLDVMMPGMDGFTVCKKLKEDPATRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVLDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYY+VS A DGPTALA+AA +LPD+ILLDVMMPGMDGFTVC+KLK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLV+DELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>7.10566e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLVVDDNERQAQRVAAELAVEHRPVVES--DPIKAQISAGGPVDLVIINAAAKGFDGLRFAAGLRSDERTRHLPILAMVDPDERPRIVKALEIGINDVLPRPIDPQELSARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline> R+LVVDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_056441528.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PleD family two-component system response regulator [Caulobacter] &gt;gb|KQY30885.1| response regulator PleD [Caulobacter sp. Root487D2Y] &gt;gb|KQY95177.1| response regulator PleD [Caulobacter sp. Root1455]</Hit_def>
+  <Hit_accession>WP_056441528</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>5.80415e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSVAHDGPTALTLAASELPDVILLDVMMPGMDGFTVCKKLKEDPTTRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTAL +AA +LPD+ILLDVMMPGMDGFTVC+KLK+DPTTRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.86659e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLVVDDNERQAQRVAAELAVEHRPVVES--DPVKAQISAGGPVDLVIINAAAKGFDGLRFAASLRSDERTRHLPILAMVDPDERQRLVKALEIGINDILPRPIDPQELSARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline> R+LVVDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_108504243.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PleD family two-component system response regulator [Caulobacter] &gt;gb|PTS90259.1| PleD family two-component system response regulator [Caulobacter sp. HMWF009] &gt;gb|PTT06482.1| PleD family two-component system response regulator [Caulobacter sp. HMWF025]</Hit_def>
+  <Hit_accession>WP_108504243</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>1.11169e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSCAYDGPTALAMAAQDSPDIILLDVMMPGMDGFTVCRKLKDDPVTRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRLKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALAMAA+D PDIILLDVMMPGMDGFTVCRKLKDDP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTR KLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>4.41861e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAQRLATELSVAHRPVVES--DPDKARISAAGPVDLVIINAAARGFDGLRFAAAMRSDERSRHLPILAMVDPDERSRMVKALEIGVNDILPRPIDPQELLARVKTQIQRKRYTDYLRS</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + L  +L+  +  V  +   P    ++A    D+++++    G DG      ++ D  +RH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_099445305.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. BP25] &gt;gb|PHY17428.1| PleD family two-component system response regulator [Caulobacter sp. BP25]</Hit_def>
+  <Hit_accession>WP_099445305</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>1.69601e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLAAEYYEVSTAMDGQTALAMAQRDPPDIILLDVMMPGIDGFTVCRKLKEDPATRHIPVVMITALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL AEYYEVSTAMDG TALAMA RD PDIILLDVMMPG+DGFTVCRKLK+DP TRHIPVV+ITALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>7.67795e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAERLAGELAADHRPVVET--DPETARVSASGPVDLVIVNAAAKGFDGLRFTAALRSDERTRHLPVLALVDPDDRARMVKALEIGVNDILTRPVDPQELAARAKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E     L  +L A++  V      P    ++A    D+++++    G DG      L+ D  TRH+PV+ +   D R   ++ LE G +D LT+P+D   L AR ++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_035044024.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter henricii]</Hit_def>
+  <Hit_accession>WP_035044024</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>3.46619e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSIAHDGPTALAMAANDLPDIILLDVMMPGMDGFTVCKRLKADPITRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRLKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALAMAA DLPDIILLDVMMPGMDGFTVC++LK DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTR KLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.59496e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAQRIAAELSVEHRPVVES--DPEKARISAGGPVDLVIINAAAKGFDGLRFAASLRSDERTRHLPVLAMVDPDERARMVKALEIGVNDILPRPIDPQELSARVKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + + A+L+ E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+PV+ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_099447067.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. B11] &gt;gb|PHY12969.1| PleD family two-component system response regulator [Caulobacter sp. B11]</Hit_def>
+  <Hit_accession>WP_099447067</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>4.07755e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSCAYDGPTALAMAADQLPDIILLDIMMPGMDGFTVCRRLKEDPITRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALAMAA  LPDIILLD+MMPGMDGFTVCR+LK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.96205e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLP-DIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDNERQAQRVATELAVEHRPI---IETDTAKAQITASGPVDLVIINTVAKAFDGLRFAAALRSDERTRHLPVLAMVDPDDRPRIVKALEIGINDVLPRPIDPQELSARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + +  +L  E+  +   ++  TA A      P D+++++ +    DG      L+ D  TRH+PV+ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_099536047.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. X] &gt;gb|PIC00751.1| PleD family two-component system response regulator [Caulobacter sp. X]</Hit_def>
+  <Hit_accession>WP_099536047</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>8.60784e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLAAEYYEVSTAMDGQTALDMARRDPPDIILLDVMMPGLDGFTVCRKLKEDPATRHIPVVMITALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL AEYYEVSTAMDG TAL MA RD PDIILLDVMMPG+DGFTVCRKLK+DP TRHIPVV+ITALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>8.2963e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAERLAGELAADHRPVVET--DPETARVSASGPVDLVIVNAAAKGFDGLRFTAALRSDERTRHLPVLALVDPDDRARMVKALEIGVNDILTRPVDPQELSARAKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E     L  +L A++  V      P    ++A    D+++++    G DG      L+ D  TRH+PV+ +   D R   ++ LE G +D LT+P+D   L AR ++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_066681939.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. CCH9-E1]</Hit_def>
+  <Hit_accession>WP_066681939</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>8.79629e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLAAEYYEVSTAMDGQTALDMARRDPPDIILLDVMMPGLDGFTVCRKLKEDPATRHIPVVMITALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL AEYYEVSTAMDG TAL MA RD PDIILLDVMMPG+DGFTVCRKLK+DP TRHIPVV+ITALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>8.21637e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAERLAGELAADHRPVVET--DPETARVSASGPVDLVIVNAAAKGFDGLRFTAALRSDERTRHLPVLALVDPDDRARMVKALEIGVNDILTRPVDPQELSARAKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E     L  +L A++  V      P    ++A    D+++++    G DG      L+ D  TRH+PV+ +   D R   ++ LE G +D LT+P+D   L AR ++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_013079895.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter segnis] &gt;gb|ADG11244.1| response regulator receiver modulated diguanylate cyclase [Caulobacter segnis ATCC 21756] &gt;gb|AVQ02921.1| PleD family two-component system response regulator [Caulobacter segnis]</Hit_def>
+  <Hit_accession>WP_013079895</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>8.89205e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLAAEYYEVSTAMDGQTAINMAQRDPPDIILLDVMMPGIDGFTVCRKLKEDPATRHIPVVMITALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL AEYYEVSTAMDG TA+ MA RD PDIILLDVMMPG+DGFTVCRKLK+DP TRHIPVV+ITALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>8.05879e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAERLAGELAADHRPVVET--DPETARVSASGPVDLVIVNAAAKGFDGLRFTAALRSDERTRHLPVLALVDPDDRARMVKALEIGVNDILTRPVDPQELSARAKTQIQRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E     L  +L A++  V      P    ++A    D+++++    G DG      L+ D  TRH+PV+ +   D R   ++ LE G +D LT+P+D   L AR ++  + K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_056761616.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. Root1472] &gt;gb|KQZ19021.1| response regulator PleD [Caulobacter sp. Root1472]</Hit_def>
+  <Hit_accession>WP_056761616</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>1.12838e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSVAYDGPTALALAADELPDVILLDVMMPGMDGFTVCRRLKEDPATRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA+AA +LPD+ILLDVMMPGMDGFTVCR+LK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>5.063e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAQRVAAELAVEHRPVIES--DPAKAQISAGGPVDLVIINAAAKGFDGLRFAAALRSDERTRHLPILAMVDPDERPRIVKALEIGINDILPRPIDPQELAARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KRA69860.1|</Hit_id>
+  <Hit_def>response regulator PleD [Caulobacter sp. Root656]</Hit_def>
+  <Hit_accession>KRA69860</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>1.24388e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSVAYDGPTALALAADELPDVILLDVMMPGMDGFTVCRRLKEDPATRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA+AA +LPD+ILLDVMMPGMDGFTVCR+LK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.16202e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAQRVAAELAVEHRPVIES--DPAKAQISAGGPVDLVIINAAAKGFDGLRFAAALRSDERTRHLPILAMVDPDERPRIVKALEIGINDILPRPIDPQELAARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_132087698.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. BK020] &gt;gb|TCS16794.1| response regulator receiver modulated diguanylate cyclase [Caulobacter sp. BK020]</Hit_def>
+  <Hit_accession>WP_132087698</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>1.28495e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSVAYDGPTALAVAADELPDVILLDVMMPGMDGFTVCRKLKEDPATRHIPVVLVTALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA+AA +LPD+ILLDVMMPGMDGFTVCRKLK+DP TRHIPVVL+TALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.3142e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAQRVAAELAVEHRPVIES--DPAKAQISAGGPVDLVIINAAAKGFDGLRFAAGLRSDERTRHLPILAMVDPDERPRIVKALEIGINDILPRPIDPQELAARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_028040270.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. URHA0033]</Hit_def>
+  <Hit_accession>WP_028040270</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>2.63969e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSVAYDGPTALALAADELPDVILLDVMMPGMDGFTVCRKLKEDLATRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA+AA +LPD+ILLDVMMPGMDGFTVCRKLK+D  TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.53561e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLVVDDNERQAQRVAAELAVEHRPVIES--DPVKAQISAGGPVDLVIINAAAKGFDGLRFAASLRSDERTRHLPILAMVDPDERPRLVKALEIGINDILPRPIDPQELAARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline>  R+LVVDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_101711399.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter flavus] &gt;gb|AYV48994.1| PleD family two-component system response regulator [Caulobacter flavus] &gt;gb|PLR20562.1| PleD family two-component system response regulator [Caulobacter flavus]</Hit_def>
+  <Hit_accession>WP_101711399</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>5.74089e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSYAYDGPTALAKAAEELPDIILLDVMMPGMDGFTVCRKLKEDAATRHIPVVLVTALDGRGDRIQGLEAGAADFLTKPIDDVMLFARVRSLTRLKMVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA AA +LPDIILLDVMMPGMDGFTVCRKLK+D  TRHIPVVL+TALDGRGDRIQGLE+GA+DFLTKPIDDVMLFARVRSLTR K+VIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.69457e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLP-DIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVAAELAVEHRPV---IETDLAKAEISASGPVDLVIVNAAARGFDGLRFSATLRSSERTRHLPILAVVDPDDRPRMVKALDIGVNDVLPRPIDPQELAARVRTQVRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V   ++   A A  +   P D+++++    G DG      L+    TRH+P++ +   D R   ++ L+ G +D L +PID   L ARVR+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_089927226.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. UNC279MFTsu5.1] &gt;emb|SFJ58140.1| two-component system, cell cycle response regulator [Caulobacter sp. UNC279MFTsu5.1]</Hit_def>
+  <Hit_accession>WP_089927226</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>3.13885e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSVAYDGPTALALAAAELPDVILLDVMMPGMDGFTVCRKLKEDPATRHIPVVLVTALDGRADRIQGLEAGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA+AA +LPD+ILLDVMMPGMDGFTVCRKLK+DP TRHIPVVL+TALDGR DRIQGLE+GASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.01706e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRVLVVDDNERQAQRVAAELAVEHRPVIES--DPAKAQISAGGPVDLVIINAAAKGFDGLRFAASLRSDERTRHLPILAMVDPDERQRLVKALEIGINDILPRPIDPQELAARVKTQIQRKRYTDYLRQ</Hsp_hseq>
+      <Hsp_midline> R+LVVDD E   + + A+L  E+  V  +   P    ++A    D+++++    G DG      L+ D  TRH+P++ +   D R   ++ LE G +D L +PID   L ARV++  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_116567554.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter radicis] &gt;gb|PVM82525.1| PleD family two-component system response regulator [Caulobacter radicis]</Hit_def>
+  <Hit_accession>WP_116567554</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>3.81371e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSYAYDGPTALAKAAEELPDIILLDVMMPGMDGFTVCRKLKEDAATRHIPVVLVTALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSLTRLKMVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA AA +LPDIILLDVMMPGMDGFTVCRKLK+D  TRHIPVVL+TALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRSLTR K+VIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.21852e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLP-DIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVASELAVEHRPV---IETDLAKAEISAGGPVDLVIVNAAARGFDGLRFAATLRSSERTRHLPVLAVVDPDDRPRMVKALDIGVNDVLPRPIDPQELAARVRTQVRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + ++L  E+  V   ++   A A  +   P D+++++    G DG      L+    TRH+PV+ +   D R   ++ L+ G +D L +PID   L ARVR+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_058348496.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter vibrioides] &gt;gb|KSB89497.1| diguanylate cyclase response regulator [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>WP_058348496</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>4.20372e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSYAYDGPTALAKAAEELPDIILLDVMMPGMDGFTVCRKLKEDAATRHIPVVLVTALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSLTRLKMVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA AA +LPDIILLDVMMPGMDGFTVCRKLK+D  TRHIPVVL+TALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRSLTR K+VIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.99409e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLP-DIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVASELAVEHRPV---IETDLAKAEISAGGPVDLVIVNAAARGFDGLRFAATLRSSERTRHLPILAVVDPDDRPRMVKALDIGVNDVLPRPIDPQELAARVRTQVRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + ++L  E+  V   ++   A A  +   P D+++++    G DG      L+    TRH+P++ +   D R   ++ L+ G +D L +PID   L ARVR+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_116488672.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter radicis] &gt;gb|PVM91133.1| PleD family two-component system response regulator [Caulobacter radicis]</Hit_def>
+  <Hit_accession>WP_116488672</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>4.43738e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSYAYDGPTALAKAAEELPDIILLDVMMPGMDGFTVCRKLKEDAATRHIPVVLVTALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSLTRLKMVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA AA +LPDIILLDVMMPGMDGFTVCRKLK+D  TRHIPVVL+TALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRSLTR K+VIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.99409e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLP-DIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVASELAVEHRPV---IETDLAKAEISAGGPVDLVIVNAAARGFDGLRFAATLRSSERTRHLPILAVVDPDDRPRMVKALDIGVNDVLPRPIDPQELAARVRTQVRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + ++L  E+  V   ++   A A  +   P D+++++    G DG      L+    TRH+P++ +   D R   ++ L+ G +D L +PID   L ARVR+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_109100255.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter sp. 774] &gt;gb|PVM91298.1| PleD family two-component system response regulator [Caulobacter sp. 774]</Hit_def>
+  <Hit_accession>WP_109100255</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>4.99816e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSYAYDGPTALAKAAEELPDIILLDVMMPGMDGFTVCRKLKEDAATRHIPVVLVTALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSLTRLKMVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA AA +LPDIILLDVMMPGMDGFTVCRKLK+D  TRHIPVVL+TALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRSLTR K+VIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.99409e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLP-DIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVASELAVEHRPV---IETDLAKAEISAGGPVDLVIVNAAARGFDGLRFAATLRSSERTRHLPILAVVDPDDRPRMVKALDIGVNDVLPRPIDPQELAARVRTQVRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + ++L  E+  V   ++   A A  +   P D+++++    G DG      L+    TRH+P++ +   D R   ++ L+ G +D L +PID   L ARVR+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_101716511.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacter zeae] &gt;gb|PLR28392.1| PleD family two-component system response regulator [Caulobacter zeae]</Hit_def>
+  <Hit_accession>WP_101716511</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>5.05252e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSYAYDGPTALAKAAEELPDIILLDVMMPGMDGFTVCRKLKEDAATRHIPVVLVTALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSLTRLKMVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTALA AA +LPDIILLDVMMPGMDGFTVCRKLK+D  TRHIPVVL+TALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRSLTR K+VIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.03298e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLP-DIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVASELAVEHRPV---IETDLAKAEISAGGPVDLVIVNAAARGFDGLRFAATLRSSERTRHLPILAVVDPDDRPRMVKALDIGVNDVLPRPIDPQELAARVRTQVRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + ++L  E+  V   ++   A A  +   P D+++++    G DG      L+    TRH+P++ +   D R   ++ L+ G +D L +PID   L ARVR+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|RYG03636.1|</Hit_id>
+  <Hit_def>response regulator, partial [Caulobacteraceae bacterium]</Hit_def>
+  <Hit_accession>RYG03636</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>6.94525e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYDVLTAHDGPTALAIAASEKPDIVLLDVMMPGMDGFQVCRRLKDDPETRHVPVVLVTALDGRGDRIAGLEAGADEFLTKPIDDVMLFARVRSLTRLKMVIDELRDREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYY+V TA DGPTALA+AA + PDI+LLDVMMPGMDGF VCR+LKDDP TRH+PVVL+TALDGRGDRI GLE+GA +FLTKPIDDVMLFARVRSLTR K+VIDELR REASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.16982e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELR</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDHERQAQRVASELAIEHRPVIEA--DPEVALMTAKGLVDLIIVNATARSFDGLRFAAQLRSDEATRHLPILAIVDFDERPRLVKALEIGVNDILAKPIDPQELAARARTQIRRKRYTDYLR</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + ++L  E+  V  A   P    M A+ L D+I+++      DG     +L+ D  TRH+P++ I   D R   ++ LE G +D L KPID   L AR R+  R K   D LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_110119959.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PleD family two-component system response regulator [Caulobacter] &gt;gb|PXA86636.1| PleD family two-component system response regulator [Caulobacter sp. D4A] &gt;gb|PXA88504.1| PleD family two-component system response regulator [Caulobacter sp. D5]</Hit_def>
+  <Hit_accession>WP_110119959</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>2.6441e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYQVSCAYDGPTALVKAAEELPDIILLDVMMPGMDGFTVCRRLKEDPATRHIPVVLVTALDGRADRIQGLEAGAADFLTKPIDDVMLFARVRSSTRLKMVIDELRQREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYY+VS A DGPTAL  AA +LPDIILLDVMMPGMDGFTVCR+LK+DP TRHIPVVL+TALDGR DRIQGLE+GA+DFLTKPIDDVMLFARVRS TR K+VIDELRQREASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>6.77343e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRVLIVDDNERQAQRVAAELAVEHRPVVET--DPAKAEVSASGPVDLVIVNAAARGFDGLRFAATLRSSERTRHLPILAVVDPDDRPRMVKALDLGVNDVLPRPIDPQELAARARTQVRLKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  R+L+VDD E   + + A+L  E+  V      P    ++A    D+++++    G DG      L+    TRH+P++ +   D R   ++ L+ G +D L +PID   L AR R+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|RYF94978.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Caulobacteraceae bacterium]</Hit_def>
+  <Hit_accession>RYF94978</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>4.34854e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVLTACDGPTALAIAASEKPDIVLLDVMMPGMDGFQVCRRLKDDPETRHIPVVLVTALDGRSDRIEGLEAGADEFLTKPIDDVMLFARVRSLTRLKLVIDELRQREESGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEV TA DGPTALA+AA + PDI+LLDVMMPGMDGF VCR+LKDDP TRHIPVVL+TALDGR DRI+GLE+GA +FLTKPIDDVMLFARVRSLTR KLVIDELRQRE SGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>5.84244e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRILIVDDNERQSQRIATELAVEHRPVVES-DYDKAL-MTARGPVDIIIVNAAAKAFDGLRFCAALRSDEASRNVPVLVIVDPDDRPRLVKALEIGVNDILTRPIDPQELAARARTQIKRKRYTDFLRQ</Hsp_hseq>
+      <Hsp_midline>  RIL+VDD E   + +  +L  E+  V  + D   AL M AR   DII+++      DG   C  L+ D  +R++PV++I   D R   ++ LE G +D LT+PID   L AR R+  + K   D LRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|OYW91607.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator, partial [Caulobacterales bacterium 32-67-6]</Hit_def>
+  <Hit_accession>OYW91607</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>5.82728e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYEVLTAYDGPTALAMAAAEQPDIVLLDVMMPGMDGFQVCRRLKDDPETRHVPVVLVTALDGRADRIAGLEAGADEFLTKPIDDVMLFARVRSLTRLKTVIDELRVREASGRRIG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYYEV TA DGPTALAMAA + PDI+LLDVMMPGMDGF VCR+LKDDP TRH+PVVL+TALDGR DRI GLE+GA +FLTKPIDDVMLFARVRSLTR K VIDELR REASGRR+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>8.0107e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRS</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDHERQAQRVAAELSIEHRPVIESE--PEKALLTARGPVDLVIVNVTARSFDGLRFSAQLRSDEATRHLPILAIVDFDERPRLMKALDIGVNDLLSKPIDPQELSARART</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + + A+L+ E+  V  +   P    + AR   D+++++V     DG     +L+ D  TRH+P++ I   D R   ++ L+ G +D L+KPID   L AR R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_111458828.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Phenylobacterium hankyongense] &gt;gb|RAK61538.1| PleD family two-component system response regulator [Phenylobacterium hankyongense]</Hit_def>
+  <Hit_accession>WP_111458828</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>1.25488e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLSAEYYEVLVAYDGPTALAMAAADKPDIVLLDVMMPGMDGFSVCRRLKDDPETRHVPVVLVTALDGRADRVAGLEAGADDFLTKPIDDVMLFARVRSLTRLKAVIDELREREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKL+AEYYEV  A DGPTALAMAA D PDI+LLDVMMPGMDGF+VCR+LKDDP TRH+PVVL+TALDGR DR+ GLE+GA DFLTKPIDDVMLFARVRSLTR K VIDELR+REASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.29439e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRILIVDDNQRQAERVCAELSIEHRPIVETE--PEKALMAARGPVDLIIFNAAAKGFDGLRFAAQIRSDEATRSLPLLAIVDFDERTRLVKALEIGVNDILARPIDPGELSARAKTQIRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline> RIL+VDD +     + A+L+ E+  +      P    MAAR   D+I+ +    G DG     +++ D  TR +P++ I   D R   ++ LE G +D L +PID   L AR ++  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_111516317.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Phenylobacterium deserti] &gt;gb|RAK51007.1| PleD family two-component system response regulator [Phenylobacterium deserti]</Hit_def>
+  <Hit_accession>WP_111516317</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>1.71707e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDVEANVRLLEAKLTAEYYEVLTAPDGPTALAVAAAEKPDIVLLDVMMPGMDGFSVCRRLKDDPATRHVPVVLVTALDGRADRVAGLEAGADDFLTKPIDDVMLFARVRSLTRLKAVIDELRQREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDD+EANVRLLEAKLTAEYYEV TA DGPTALA+AA + PDI+LLDVMMPGMDGF+VCR+LKDDP TRH+PVVL+TALDGR DR+ GLE+GA DFLTKPIDDVMLFARVRSLTR K VIDELRQREASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.57785e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRILIVDDYERQGQRLCAELSIEHRPVLES--DPHKALLSARGPVDLVIVNAAAKAFDGLRFAAQLRSDQVTRNLPILALVDFDERPRLIKALEIGVNDLLSRPVDPGELSARAKTQIRRKRYTDYLRN</Hsp_hseq>
+      <Hsp_midline>  RIL+VDD E   + L A+L+ E+  V  +   P    ++AR   D+++++      DG     +L+ D  TR++P++ +   D R   I+ LE G +D L++P+D   L AR ++  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_056734819.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Phenylobacterium sp. Root700] &gt;gb|KRB44720.1| response regulator PleD [Phenylobacterium sp. Root700]</Hit_def>
+  <Hit_accession>WP_056734819</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>1.85208e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVLTASDGPTALAIAAKEKPDIVLLDVMMPGMDGFQVCRRLKDDPETRHVPVVLVTALDGRADRIAGLEAGADEFLTKPIDDVMLFARVRSLTRLKMVIDELRDREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEV TA DGPTALA+AA++ PDI+LLDVMMPGMDGF VCR+LKDDP TRH+PVVL+TALDGR DRI GLE+GA +FLTKPIDDVMLFARVRSLTR K+VIDELR REASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>3.96055e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELR</Hsp_qseq>
+      <Hsp_hseq>GRVLIVDDHERQAQRVAAELAIEHRPVIEA--DPDKALMTAKGPVDLIIVNATSRSFDGLRLAAQMRSDEATRHLPILAIVDFDERARLVKALEIGVNDILSKPIDPQELAARARTQIRRKRYTDYLR</Hsp_hseq>
+      <Hsp_midline> R+L+VDD E   + + A+L  E+  V  A   P    M A+   D+I+++      DG  +  +++ D  TRH+P++ I   D R   ++ LE G +D L+KPID   L AR R+  R K   D LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|PZQ63727.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Phenylobacterium zucineum]</Hit_def>
+  <Hit_accession>PZQ63727</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>4.64282e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIESNVRLLEAKLSAEYYEVLTASDGPTALAMAAAEHPDIILLDVMMPGMDGFQVCRRLKDDPETRHIPVVLVTALDGRADRVAGLEAGADDFLTKPIDDVMLFARVRSLTRLKAVIDELRDREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIE+NVRLLEAKL+AEYYEV TA DGPTALAMAA + PDIILLDVMMPGMDGF VCR+LKDDP TRHIPVVL+TALDGR DR+ GLE+GA DFLTKPIDDVMLFARVRSLTR K VIDELR REASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.85458e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>RILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>RILIVDDNPRQAERVSTELSVEHRPVVETE--PYKAVLTARGPVDLVIVNANAKAFDGLRFAAQLRSDEATRNIPILSVVDIDERPKAVKALEIGVNDILARPIDPGELAARVRTQIRRKRYTDYLRS</Hsp_hseq>
+      <Hsp_midline>RIL+VDD       +  +L+ E+  V      P    + AR   D+++++      DG     +L+ D  TR+IP++ +  +D R   ++ LE G +D L +PID   L ARVR+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_056018207.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PleD family two-component system response regulator [Phenylobacterium] &gt;gb|KQW71360.1| response regulator PleD [Phenylobacterium sp. Root1277] &gt;gb|KQW94281.1| response regulator PleD [Phenylobacterium sp. Root1290] &gt;gb|KRC43974.1| response regulator PleD [Phenylobacterium sp. Root77]</Hit_def>
+  <Hit_accession>WP_056018207</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>4.90069e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYDVLTASDGPTALAIAAKEKPDIVLLDVMMPGMDGFQVCRRLKDDPETRHVPVVLVTALDGRADRIAGLESGADEFLTKPIDDVMLFARVRSLTRLKMVIDELRDREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYY+V TA DGPTALA+AA++ PDI+LLDVMMPGMDGF VCR+LKDDP TRH+PVVL+TALDGR DRI GLESGA +FLTKPIDDVMLFARVRSLTR K+VIDELR REASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>4.90484e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELR</Hsp_qseq>
+      <Hsp_hseq>GGRILIVDDHERQAQRVATELAIEHRPVIEA--DPEKALMTAKGPVDLIIVNATARAFDGLRFAAQLRSDEATRHLPILAIVDFDERSRLVKALEIGVNDILSKPIDPQELAARARTQIRRKRYTDYLR</Hsp_hseq>
+      <Hsp_midline>  RIL+VDD E   + +  +L  E+  V  A   P    M A+   D+I+++      DG     +L+ D  TRH+P++ I   D R   ++ LE G +D L+KPID   L AR R+  R K   D LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_012521868.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Phenylobacterium zucineum] &gt;gb|ACG77724.1| stalked-cell differentiation controlling protein [Phenylobacterium zucineum HLK1]</Hit_def>
+  <Hit_accession>WP_012521868</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>5.7015e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIEANVRLLEAKLTAEYYEVLTASDGPTALAMAAAERPDIVLLDVMMPGMDGFSVCRRLKDDPETRHVPVVLVTALDGRADRVAGLEAGADDFLTKPIDDVMLLARVRSLTRLKAVIDELREREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIEANVRLLEAKLTAEYYEV TA DGPTALAMAA + PDI+LLDVMMPGMDGF+VCR+LKDDP TRH+PVVL+TALDGR DR+ GLE+GA DFLTKPIDDVML ARVRSLTR K VIDELR+REASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>7.77901e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GGRILIIDDNVRQAQRVCTELAIEHRPV-IETDYDKAL-LSARGPVDLAIVNAGAKAFDGLRFCAQLRSDEATRGLPILAVVDFDERQRVVKALEIGVNDILARPIDPGELAARAKTQIRRKRYTEYLRN</Hsp_hseq>
+      <Hsp_midline>  RIL++DD     + +  +L  E+  V    D   AL ++AR   D+ +++      DG   C +L+ D  TR +P++ +   D R   ++ LE G +D L +PID   L AR ++  R K   + LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|TAL30039.1|</Hit_id>
+  <Hit_def>PleD family two-component system response regulator [Phenylobacterium sp.]</Hit_def>
+  <Hit_accession>TAL30039</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>7.23234e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQREASGRRMG</Hsp_qseq>
+      <Hsp_hseq>SARILVVDDIESNVRLLEAKLTAEYYEVLTANDGPTALAVAASELPDIVLLDVMMPGMDGFDVCRRLKDDPLTRHVPVVLVTALDGRADRVAGLEAGADDFLTKPIDDVMLFARVRSLTRLKAVIDELRDREASGRRMG</Hsp_hseq>
+      <Hsp_midline>SARILVVDDIE+NVRLLEAKLTAEYYEV TA DGPTALA+AA +LPDI+LLDVMMPGMDGF VCR+LKDDP TRH+PVVL+TALDGR DR+ GLE+GA DFLTKPIDDVMLFARVRSLTR K VIDELR REASGRRMG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.3805e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ARILVVDDIEANVRLLEAKLTAEYYEVSTAMDGPTALAMAARDLPDIILLDVMMPGMDGFTVCRKLKDDPTTRHIPVVLITALDGRGDRIQGLESGASDFLTKPIDDVMLFARVRSLTRFKLVIDELRQ</Hsp_qseq>
+      <Hsp_hseq>GRILIVDDNLRQAERVAAELSIEHRPVVESEAYKAVLT--ARGPVDLVICNLNAKSFDGLRFAAQLRSDEATRSLPILGVADLDERQKAVKALEIGINDILARPIDPGELAARVRTQIRRKRYTDYLRS</Hsp_hseq>
+      <Hsp_midline> RIL+VDD       + A+L+ E+  V  +      L   AR   D+++ ++     DG     +L+ D  TR +P++ +  LD R   ++ LE G +D L +PID   L ARVR+  R K   D LR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216046246</Statistics_db-num>
+      <Statistics_db-len>550339452</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

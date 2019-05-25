@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_142709</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1qvwa_c</BlastOutput_query-def>
+  <BlastOutput_query-len>236</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_142709</Iteration_query-ID>
+  <Iteration_query-def>d1qvwa_c</Iteration_query-def>
+  <Iteration_query-len>236</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1QVW|A</Hit_id>
+  <Hit_def>Chain A, Ydr533c Protein [Saccharomyces cerevisiae] &gt;pdb|1QVW|B Chain B, Ydr533c Protein [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1QVW_A</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.633</Hsp_bit-score>
+      <Hsp_score>1228</Hsp_score>
+      <Hsp_evalue>3.68344e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVXHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAV HGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_010822.1|</Hit_id>
+  <Hit_def>glutathione-independent methylglyoxalase [Saccharomyces cerevisiae S288C] &gt;sp|Q04432.1| RecName: Full=Glutathione-independent glyoxalase HSP31; AltName: Full=Glyoxalase 3 homolog 1; AltName: Full=Heat shock protein 31 [Saccharomyces cerevisiae S288C] &gt;gb|AAB64972.1| Ydr533cp [Saccharomyces cerevisiae] &gt;gb|AJU59723.1| Hsp31p [Saccharomyces cerevisiae YJM195] &gt;gb|AJU63902.1| Hsp31p [Saccharomyces cerevisiae YJM326] &gt;gb|AJU64586.1| Hsp31p [Saccharomyces cerevisiae YJM428] &gt;gb|AJU67414.1| Hsp31p [Saccharomyces cerevisiae YJM456] &gt;gb|AJU68130.1| Hsp31p [Saccharomyces cerevisiae YJM470] &gt;gb|AJU70922.1| Hsp31p [Saccharomyces cerevisiae YJM627] &gt;gb|AJU72343.1| Hsp31p [Saccharomyces cerevisiae YJM682] &gt;gb|AJU73052.1| Hsp31p [Saccharomyces cerevisiae YJM683] &gt;gb|AJU81436.1| Hsp31p [Saccharomyces cerevisiae YJM1083] &gt;gb|AJU82722.1| Hsp31p [Saccharomyces cerevisiae YJM1133] &gt;gb|AJU84145.1| Hsp31p [Saccharomyces cerevisiae YJM1199] &gt;gb|AJU84860.1| Hsp31p [Saccharomyces cerevisiae YJM1202] &gt;gb|AJU85557.1| Hsp31p [Saccharomyces cerevisiae YJM1208] &gt;gb|AJU87599.1| Hsp31p [Saccharomyces cerevisiae YJM1248] &gt;gb|AJU89684.1| Hsp31p [Saccharomyces cerevisiae YJM1273] &gt;gb|AJU90398.1| Hsp31p [Saccharomyces cerevisiae YJM1304] &gt;gb|AJU91833.1| Hsp31p [Saccharomyces cerevisiae YJM1311] &gt;gb|AJU94669.1| Hsp31p [Saccharomyces cerevisiae YJM1338] &gt;gb|AJU96081.1| Hsp31p [Saccharomyces cerevisiae YJM1342] &gt;gb|AJU99603.1| Hsp31p [Saccharomyces cerevisiae YJM1385] &gt;gb|AJV00298.1| Hsp31p [Saccharomyces cerevisiae YJM1386] &gt;gb|AJV01725.1| Hsp31p [Saccharomyces cerevisiae YJM1388] &gt;gb|AJV02421.1| Hsp31p [Saccharomyces cerevisiae YJM1389] &gt;gb|AJV03808.1| Hsp31p [Saccharomyces cerevisiae YJM1400] &gt;gb|AJV04516.1| Hsp31p [Saccharomyces cerevisiae YJM1401] &gt;gb|AJV05231.1| Hsp31p [Saccharomyces cerevisiae YJM1402] &gt;gb|AJV07353.1| Hsp31p [Saccharomyces cerevisiae YJM1418] &gt;gb|AJV08039.1| Hsp31p [Saccharomyces cerevisiae YJM1419] &gt;gb|AJV08725.1| Hsp31p [Saccharomyces cerevisiae YJM1433] &gt;gb|AJV09437.1| Hsp31p [Saccharomyces cerevisiae YJM1434] &gt;gb|AJV10140.1| Hsp31p [Saccharomyces cerevisiae YJM1439] &gt;gb|AJV10842.1| Hsp31p [Saccharomyces cerevisiae YJM1443] &gt;gb|AJV12171.1| Hsp31p [Saccharomyces cerevisiae YJM1447] &gt;gb|AJV13532.1| Hsp31p [Saccharomyces cerevisiae YJM1460] &gt;gb|AJV16321.1| Hsp31p [Saccharomyces cerevisiae YJM1479] &gt;gb|AJV18453.1| Hsp31p [Saccharomyces cerevisiae YJM1549] &gt;gb|AJV19165.1| Hsp31p [Saccharomyces cerevisiae YJM1573] &gt;gb|AJV20581.1| Hsp31p [Saccharomyces cerevisiae YJM1592] &gt;gb|AJV21298.1| Hsp31p [Saccharomyces cerevisiae YJM1615] &gt;gb|EIW11743.1| Hsp31p [Saccharomyces cerevisiae CEN.PK113-7D] &gt;gb|ONH79022.1| Glutathione-independent glyoxalase HSP31 [Saccharomyces cerevisiae] &gt;dbj|GAA22742.1| K7_Hsp31p [Saccharomyces cerevisiae Kyokai no. 7] &gt;dbj|GAX66913.1| glutathione-independent methylglyoxalase [Saccharomyces cerevisiae] &gt;tpg|DAA12364.1| TPA: glutathione-independent methylglyoxalase [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>NP_010822</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>1.43799e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYSDGAKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTDKKTGRPLIEGKSITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFYSDG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLTDKKTGRPLIEGKSITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AAS56663.1|</Hit_id>
+  <Hit_def>YDR533C [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>AAS56663</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.855</Hsp_bit-score>
+      <Hsp_score>1213</Hsp_score>
+      <Hsp_evalue>6.90451e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYSDGAKTGVFVVETLHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTDKKTGRPLIEGKSITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFYSDG KTGVFVVE LHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLTDKKTGRPLIEGKSITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AJU98190.1|</Hit_id>
+  <Hit_def>Hsp31p [Saccharomyces cerevisiae YJM1381]</Hit_def>
+  <Hit_accession>AJU98190</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>9.70158e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYSDGAKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTDKKTGRPLIEGKSITGFTDVGETILGVDSILKAKDLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFYSDG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLTDKKTGRPLIEGKSITGFTDVGETI+GVDSILKAK+LATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AJU58325.1|</Hit_id>
+  <Hit_def>Hsp31p [Saccharomyces cerevisiae YJM189] &gt;gb|AJU61788.1| Hsp31p [Saccharomyces cerevisiae YJM270] &gt;gb|AJU63186.1| Hsp31p [Saccharomyces cerevisiae YJM320] &gt;gb|AJU65301.1| Hsp31p [Saccharomyces cerevisiae YJM450] &gt;gb|AJU66019.1| Hsp31p [Saccharomyces cerevisiae YJM451] &gt;gb|AJU66701.1| Hsp31p [Saccharomyces cerevisiae YJM453] &gt;gb|AJU68829.1| Hsp31p [Saccharomyces cerevisiae YJM541] &gt;gb|AJU69521.1| Hsp31p [Saccharomyces cerevisiae YJM554] &gt;gb|AJU70236.1| Hsp31p [Saccharomyces cerevisiae YJM555] &gt;gb|AJU71629.1| Hsp31p [Saccharomyces cerevisiae YJM681] &gt;gb|AJU73766.1| Hsp31p [Saccharomyces cerevisiae YJM689] &gt;gb|AJU74478.1| Hsp31p [Saccharomyces cerevisiae YJM693] &gt;gb|AJU82141.1| Hsp31p [Saccharomyces cerevisiae YJM1129] &gt;gb|AJU83433.1| Hsp31p [Saccharomyces cerevisiae YJM1190] &gt;gb|AJU86257.1| Hsp31p [Saccharomyces cerevisiae YJM1242] &gt;gb|AJU88291.1| Hsp31p [Saccharomyces cerevisiae YJM1250] &gt;gb|AJU91114.1| Hsp31p [Saccharomyces cerevisiae YJM1307] &gt;gb|AJU92543.1| Hsp31p [Saccharomyces cerevisiae YJM1326] &gt;gb|AJU93265.1| Hsp31p [Saccharomyces cerevisiae YJM1332] &gt;gb|AJU93970.1| Hsp31p [Saccharomyces cerevisiae YJM1336] &gt;gb|AJU95372.1| Hsp31p [Saccharomyces cerevisiae YJM1341] &gt;gb|AJU96774.1| Hsp31p [Saccharomyces cerevisiae YJM1355] &gt;gb|AJU97479.1| Hsp31p [Saccharomyces cerevisiae YJM1356] &gt;gb|AJU98889.1| Hsp31p [Saccharomyces cerevisiae YJM1383] &gt;gb|AJV01013.1| Hsp31p [Saccharomyces cerevisiae YJM1387] &gt;gb|AJV03104.1| Hsp31p [Saccharomyces cerevisiae YJM1399] &gt;gb|AJV05934.1| Hsp31p [Saccharomyces cerevisiae YJM1415] &gt;gb|AJV06639.1| Hsp31p [Saccharomyces cerevisiae YJM1417] &gt;gb|AJV11495.1| Hsp31p [Saccharomyces cerevisiae YJM1444] &gt;gb|AJV12821.1| Hsp31p [Saccharomyces cerevisiae YJM1450] &gt;gb|AJV14196.1| Hsp31p [Saccharomyces cerevisiae YJM1463] &gt;gb|AJV14897.1| Hsp31p [Saccharomyces cerevisiae YJM1477] &gt;gb|AJV15617.1| Hsp31p [Saccharomyces cerevisiae YJM1478] &gt;gb|AJV17025.1| Hsp31p [Saccharomyces cerevisiae YJM1526] &gt;gb|AJV17739.1| Hsp31p [Saccharomyces cerevisiae YJM1527] &gt;gb|AJV19870.1| Hsp31p [Saccharomyces cerevisiae YJM1574] &gt;gb|EDN60850.1| heat-shock protein [Saccharomyces cerevisiae YJM789] &gt;gb|EDV07817.1| protein SNO4 [Saccharomyces cerevisiae RM11-1a] &gt;gb|EDZ72747.1| YDR533Cp-like protein [Saccharomyces cerevisiae AWRI1631] &gt;gb|EGA79323.1| Hsp31p [Saccharomyces cerevisiae Vin13] &gt;gb|EGA83274.1| Hsp31p [Saccharomyces cerevisiae Lalvin QA23] &gt;gb|EGA87335.1| Hsp31p [Saccharomyces cerevisiae VL3] &gt;gb|EWG86848.1| Hsp31p [Saccharomyces cerevisiae R008] &gt;gb|EWG92153.1| Hsp31p [Saccharomyces cerevisiae P301] &gt;gb|EWG96544.1| Hsp31p [Saccharomyces cerevisiae R103] &gt;gb|EWH19195.1| Hsp31p [Saccharomyces cerevisiae P283] &gt;gb|KOH51961.1| HSP31p Methylglyoxalase that converts methylglyoxal to D-lactate [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|KQC44483.1| Methylglyoxalase that converts methylglyoxal to D-lactate [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|KZV12778.1| HSP31 [Saccharomyces cerevisiae] &gt;gb|PJP11385.1| glutathione-independent methylglyoxalase [Saccharomyces cerevisiae] &gt;gb|PTN18722.1| glutathione-independent methylglyoxalase [Saccharomyces cerevisiae] &gt;gb|PTN41117.1| glutathione-independent methylglyoxalase [Saccharomyces cerevisiae] &gt;emb|CAY79032.1| Hsp31p [Saccharomyces cerevisiae EC1118]</Hit_def>
+  <Hit_accession>AJU58325</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>1.3483e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYGDGAKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTDKKTGRPLIEGKSITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFY DG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLTDKKTGRPLIEGKSITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4QYX|A</Hit_id>
+  <Hit_def>Chain A, Probable Chaperone Protein Hsp31 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>4QYX_A</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>5.34691e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYSDGAKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTDKKTGRPLIEGKSITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIVALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFYSDG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLTDKKTGRPLIEGKSITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSI ALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|PTN20081.1|</Hit_id>
+  <Hit_def>glutathione-independent methylglyoxalase [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>PTN20081</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>5.86499e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYGDGAKTGVFVVEALHPFSTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTDKKTGRPLIEGKSITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFY DG KTGVFVVEALHPF+TFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLTDKKTGRPLIEGKSITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AJU59015.1|</Hit_id>
+  <Hit_def>Hsp31p [Saccharomyces cerevisiae YJM193] &gt;gb|AJU62482.1| Hsp31p [Saccharomyces cerevisiae YJM271]</Hit_def>
+  <Hit_accession>AJU59015</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.159</Hsp_bit-score>
+      <Hsp_score>1206</Hsp_score>
+      <Hsp_evalue>7.1455e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYGDGAKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLTKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTDKKTGRPLIEGKSITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFY DG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSL KDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLTDKKTGRPLIEGKSITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AHY75477.1|</Hit_id>
+  <Hit_def>Hsp31p [Saccharomyces cerevisiae YJM993] &gt;gb|AJU75181.1| Hsp31p [Saccharomyces cerevisiae YJM969] &gt;gb|AJU75889.1| Hsp31p [Saccharomyces cerevisiae YJM972] &gt;gb|AJU76596.1| Hsp31p [Saccharomyces cerevisiae YJM975] &gt;gb|AJU77308.1| Hsp31p [Saccharomyces cerevisiae YJM978] &gt;gb|AJU78018.1| Hsp31p [Saccharomyces cerevisiae YJM981] &gt;gb|AJU78730.1| Hsp31p [Saccharomyces cerevisiae YJM984] &gt;gb|AJU79442.1| Hsp31p [Saccharomyces cerevisiae YJM987] &gt;gb|AJU80044.1| Hsp31p [Saccharomyces cerevisiae YJM990] &gt;gb|AJU80752.1| Hsp31p [Saccharomyces cerevisiae YJM996] &gt;gb|AJU86911.1| Hsp31p [Saccharomyces cerevisiae YJM1244]</Hit_def>
+  <Hit_accession>AHY75477</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.159</Hsp_bit-score>
+      <Hsp_score>1206</Hsp_score>
+      <Hsp_evalue>8.15097e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYGDGAKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTDKKTGRPLIEAKSITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFY DG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLTDKKTGRPLIE KSITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|1QVV|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The S. Cerevisiae Ydr533c Protein [Saccharomyces cerevisiae] &gt;pdb|1QVV|B Chain B, Crystal Structure Of The S. Cerevisiae Ydr533c Protein [Saccharomyces cerevisiae] &gt;pdb|1QVV|C Chain C, Crystal Structure Of The S. Cerevisiae Ydr533c Protein [Saccharomyces cerevisiae] &gt;pdb|1QVV|D Chain D, Crystal Structure Of The S. Cerevisiae Ydr533c Protein [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1QVV_A</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.774</Hsp_bit-score>
+      <Hsp_score>1205</Hsp_score>
+      <Hsp_evalue>9.4005e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYSDGAKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVXHGPAIFDGLTDKKTGRPLIEGKSITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFYSDG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAV HGPA+FDGLTDKKTGRPLIEGKSITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1QVZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The S. Cerevisiae Ydr533c Protein [Saccharomyces cerevisiae] &gt;pdb|1QVZ|B Chain B, Crystal Structure Of The S. Cerevisiae Ydr533c Protein [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1QVZ_A</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>1.83812e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYSDGXKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFXASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVXHGPAXFDGLTDKKTGRPLIEGKSITGFTDVGETIXGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFYSDG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAV HGPA FDGLTDKKTGRPLIEGKSITGFTDVGETI GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AJP38200.1|</Hit_id>
+  <Hit_def>Hsp31p [Saccharomyces cerevisiae YJM1078] &gt;gb|AJU61077.1| Hsp31p [Saccharomyces cerevisiae YJM248] &gt;gb|AJU88972.1| Hsp31p [Saccharomyces cerevisiae YJM1252]</Hit_def>
+  <Hit_accession>AJP38200</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.595</Hsp_bit-score>
+      <Hsp_score>1163</Hsp_score>
+      <Hsp_evalue>3.09632e-160</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>KKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>KKVLLALTSYNDVFYSDGAKTGVFVIEALHPFNSFKKEGFEVDFVSETGKFGWDEHSLVKDFLNGQDKVDFENKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAIFDGLTNKETGRPLVEGKSITGFTDVGETILGVDSILKAKNLATVEDIAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSINALEN</Hsp_hseq>
+      <Hsp_midline>KKVLLALTSYNDVFYSDG KTGVFV+EALHPFN+F+KEGFEVDFVSETGKFGWDEHSL KDFLNGQD+ DF+NKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPA+FDGLT+K+TGRPL+EGKSITGFTDVGETI+GVDSILKAKNLATVED+AKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSI+AL+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|EHN02913.1|</Hit_id>
+  <Hit_def>Hsp31p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii VIN7]</Hit_def>
+  <Hit_accession>EHN02913</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>3.07137e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>SPKKVLLALTSYNDVFYSDGSKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDRVDFENKSSDFNMALAKVKTPKEVNSDEYKIFFASAGHGTLFDYPKAKDLQDIASEVYANGGVIAAVCHGPAIFDGLTDKKTGKPLIEGKSITGFTDIGETILGVDNILKAKDLATVEDIAKKYGAKYLAPIGPWDDYSITDGKLVTGVNPASAHSTAVRSINALKN</Hsp_hseq>
+      <Hsp_midline>+PKKVLLALTSYNDVFYSDG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQD  DF+NK SDFN  LAK+KTPKEVN+D+Y+IF ASAGHGTLFDYPKAKDLQDIASE+YANGGV+AAVCHGPA+FDGLTDKKTG+PLIEGKSITGFTD+GETI+GVD+ILKAK+LATVED+AKKYGAKYLAP+GPWDDYSITDG+LVTGVNPASAHSTAVRSI+ALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|EJT44262.1|</Hit_id>
+  <Hit_def>HSP31-like protein [Saccharomyces kudriavzevii IFO 1802]</Hit_def>
+  <Hit_accession>EJT44262</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>4.87272e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALK</Hsp_qseq>
+      <Hsp_hseq>SPKKVLLALTSYNDVFYSDGSKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLARDFLNGQDRVDFENKSSDFNMALAKVKTPKEVNSDEYKIFFASAGHGTLFDYPKAKDLQDIASEVYANGGVIAAVCHGPAIFDGLTDKKTGKPLIEGKSITGFTDIGETILGVDNILKAKDLATVEDIAKKYGAKYLAPIGPWDDYSITDGKLVTGVNPASAHSTAVRSINALK</Hsp_hseq>
+      <Hsp_midline>+PKKVLLALTSYNDVFYSDG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLA+DFLNGQD  DF+NK SDFN  LAK+KTPKEVN+D+Y+IF ASAGHGTLFDYPKAKDLQDIASE+YANGGV+AAVCHGPA+FDGLTDKKTG+PLIEGKSITGFTD+GETI+GVD+ILKAK+LATVED+AKKYGAKYLAP+GPWDDYSITDG+LVTGVNPASAHSTAVRSI+ALK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_018219199.1|</Hit_id>
+  <Hit_def>hypothetical protein DI49_4808 [Saccharomyces eubayanus] &gt;gb|KOG96480.1| hypothetical protein DI49_4808 [Saccharomyces eubayanus]</Hit_def>
+  <Hit_accession>XP_018219199</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.417</Hsp_bit-score>
+      <Hsp_score>1121</Hsp_score>
+      <Hsp_evalue>7.48505e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>SPKKVLLALTSYNDVFYSDGSKTGVFAVEALHPFNTFKKEGFEVDFVSETGKFGWDEHSLAKEALDGQDKIDFENKSSDFNKALAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASDIYANGGVVAAVCHGPAIFDGLTNKSTGKPLIEGKSITGFTDVGETVLGLDSILKAKGLATVEDIAKKYGAKYLAPVGPWDDYSITDGKLVTGVNPASAHSTAVRSIKALEN</Hsp_hseq>
+      <Hsp_midline>+PKKVLLALTSYNDVFYSDG KTGVF VEALHPFNTF+KEGFEVDFVSETGKFGWDEHSLAK+ L+GQD+ DF+NK SDFNK LAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIAS+IYANGGVVAAVCHGPA+FDGLT+K TG+PLIEGKSITGFTDVGET++G+DSILKAK LATVED+AKKYGAKYLAPVGPWDDYSITDG+LVTGVNPASAHSTAVRSI AL+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_018221135.1|</Hit_id>
+  <Hit_def>hypothetical protein DI49_2822 [Saccharomyces eubayanus] &gt;gb|KOG98417.1| hypothetical protein DI49_2822 [Saccharomyces eubayanus]</Hit_def>
+  <Hit_accession>XP_018221135</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>4.79027e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>SPKKVLLALTSYNEVFYSDGSKTGVFAVEALHPFNTFKKGGFEVDFVSETGKFGWDEHSLAKEALDGQDKIDFENKSSNFNKALAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASDIYANGGVVAAVCQGPSIFDGLTNKSTGKPLIEGKSITGFTDVGGTILGLDSILKTKGLTTVEDIAKKYGAKYLAPVGPWDDYSITDGKLVTGVNPASAYSTAVRSIKALEN</Hsp_hseq>
+      <Hsp_midline>+PKKVLLALTSYN+VFYSDG KTGVF VEALHPFNTF+K GFEVDFVSETGKFGWDEHSLAK+ L+GQD+ DF+NK S+FNK LAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIAS+IYANGGVVAAVC GP++FDGLT+K TG+PLIEGKSITGFTDVG TI+G+DSILK K L TVED+AKKYGAKYLAPVGPWDDYSITDG+LVTGVNPASA+STAVRSI AL+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|EEU08562.1|</Hit_id>
+  <Hit_def>Hsp31p [Saccharomyces cerevisiae JAY291]</Hit_def>
+  <Hit_accession>EEU08562</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.453</Hsp_bit-score>
+      <Hsp_score>1051</Hsp_score>
+      <Hsp_evalue>1.39899e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>APKKVLLALTSYNDVFYGDGAKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFFASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAV-----------------------SITGFTDVGETILGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_hseq>
+      <Hsp_midline>APKKVLLALTSYNDVFY DG KTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIF ASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAV                       SITGFTDVGETI+GVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|KTB11771.1|</Hit_id>
+  <Hit_def>Glutathione-independent glyoxalase HSP31 [[Candida] glabrata] &gt;gb|KTB16303.1| Glutathione-independent glyoxalase HSP31 [[Candida] glabrata] &gt;emb|SCV16875.1| probable Probable chaperone protein HSP31 [[Candida] glabrata] &gt;emb|SLM16673.1| probable Probable chaperone protein HSP31 [[Candida] glabrata]</Hit_def>
+  <Hit_accession>KTB11771</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.163</Hsp_bit-score>
+      <Hsp_score>949</Hsp_score>
+      <Hsp_evalue>1.24251e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>AAKKVLLALTSYNGDFYEDGAKTGVFVVEAMHPFNLFTEKGFEVDFVSETGKYGWDEHSLSPDFLSGKDKEDFDNENSSFHKALKNVKAAKDVKASDYDIFFASAGHGTLFDYPKAKELQGLAEDIYANGGVVAAVCHGPAIFDGLKDKKTGKPLIEGKAITGFTDIGEVVLNVDKIMKDKGLLSVEDIAKKYGAKYLAPIGPWDDFSITDGKLVTGVNPASAHSTAQRAIDAL</Hsp_hseq>
+      <Hsp_midline>A KKVLLALTSYN  FY DG KTGVFVVEA+HPFN F ++GFEVDFVSETGK+GWDEHSL+ DFL+G+D+ DF N++S F+K L  +K  K+V A DY IF ASAGHGTLFDYPKAK+LQ +A +IYANGGVVAAVCHGPA+FDGL DKKTG+PLIEGK+ITGFTD+GE ++ VD I+K K L +VED+AKKYGAKYLAP+GPWDD+SITDG+LVTGVNPASAHSTA R+IDAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_445193.1|</Hit_id>
+  <Hit_def>uncharacterized protein CAGL0C00275g [[Candida] glabrata] &gt;gb|KTA95485.1| Glutathione-independent glyoxalase HSP31 [[Candida] glabrata] &gt;gb|KTA98929.1| Glutathione-independent glyoxalase HSP31 [[Candida] glabrata] &gt;gb|KTB14158.1| Glutathione-independent glyoxalase HSP31 [[Candida] glabrata] &gt;gb|OXB44847.1| hypothetical protein B1J91_C00275g [[Candida] glabrata] &gt;gb|OXB50143.1| hypothetical protein B1J92_C00275g [[Candida] glabrata] &gt;emb|CAG58097.1| unnamed protein product [[Candida] glabrata]</Hit_def>
+  <Hit_accession>XP_445193</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>2.42446e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>AAKKVLLALTSYNGDFYEDGAKTGVFVVEAMHPFNLFTEKGFEVDFVSETGKYGWDEHSLIPDFLSGKDKEDFDNENSSFHKALKNVKAAKDVKASDYDIFFASAGHGTLFDYPKAKELQGLAEDIYANGGVVAAVCHGPAIFDGLKDKKTGKPLIEGKAITGFTDIGEVVLNVDKIMKDKGLLSVEDIAKKYGAKYLAPIGPWDDFSITDGKLVTGVNPASAHSTAQRAIDAL</Hsp_hseq>
+      <Hsp_midline>A KKVLLALTSYN  FY DG KTGVFVVEA+HPFN F ++GFEVDFVSETGK+GWDEHSL  DFL+G+D+ DF N++S F+K L  +K  K+V A DY IF ASAGHGTLFDYPKAK+LQ +A +IYANGGVVAAVCHGPA+FDGL DKKTG+PLIEGK+ITGFTD+GE ++ VD I+K K L +VED+AKKYGAKYLAP+GPWDD+SITDG+LVTGVNPASAHSTA R+IDAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KTA98785.1|</Hit_id>
+  <Hit_def>Glutathione-independent glyoxalase HSP31 [[Candida] glabrata] &gt;gb|KTB13774.1| Glutathione-independent glyoxalase HSP31 [[Candida] glabrata]</Hit_def>
+  <Hit_accession>KTA98785</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>3.79441e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>AAKKVLLALTSYNGDFYEDGAKTGVFVVEAMHPFNLFTEKGFEVDFVSETGKYGWDEHSLIPDFLSGKGKEDFDNENSSFHKALKNVKAAKDVKASDYDIFFASAGHGTLFDYPKAKELQGLAEDIYANGGVVAAVCHGPAIFDGLKDKKTGKPLIEGKAITGFTDIGEVVLNVDKIMKDKGLLSVEDIAKKYGAKYLAPIGPWDDFSITDGKLVTGVNPASAHSTAQRAIDAL</Hsp_hseq>
+      <Hsp_midline>A KKVLLALTSYN  FY DG KTGVFVVEA+HPFN F ++GFEVDFVSETGK+GWDEHSL  DFL+G+ + DF N++S F+K L  +K  K+V A DY IF ASAGHGTLFDYPKAK+LQ +A +IYANGGVVAAVCHGPA+FDGL DKKTG+PLIEGK+ITGFTD+GE ++ VD I+K K L +VED+AKKYGAKYLAP+GPWDD+SITDG+LVTGVNPASAHSTA R+IDAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_001645323.1|</Hit_id>
+  <Hit_def>hypothetical protein Kpol_1058p1 [Vanderwaltozyma polyspora DSM 70294] &gt;gb|EDO17465.1| hypothetical protein Kpol_1058p1 [Vanderwaltozyma polyspora DSM 70294]</Hit_def>
+  <Hit_accession>XP_001645323</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.77</Hsp_bit-score>
+      <Hsp_score>935</Hsp_score>
+      <Hsp_evalue>1.80284e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>AQKKVLLALTSFNGVFYADGTKTGVFVVEAMHPFNAFKSKGFEVDFVSETGTYGWDDHSLAPDFLTGQDKLDFDDKGSDFNKGLKNVKKASDVNPDDYCIFFASAGHGTLFDYPKAKSLQSLASEIYDKNGVVAAVCHGPAIFDGLIEKKSGKPLIEGKVITGFTDIGEVILQVDGIMKEKSLLSVEDIAKKYNAKYVPPIGPWDDYSVTDGRLITGVNPASAHSTAVRAMDAAKQ</Hsp_hseq>
+      <Hsp_midline>A KKVLLALTS+N VFY+DG KTGVFVVEA+HPFN F+ +GFEVDFVSETG +GWD+HSLA DFL GQD+ DF +K SDFNK L  +K   +VN DDY IF ASAGHGTLFDYPKAK LQ +ASEIY   GVVAAVCHGPA+FDGL +KK+G+PLIEGK ITGFTD+GE I+ VD I+K K+L +VED+AKKY AKY+ P+GPWDDYS+TDGRL+TGVNPASAHSTAVR++DA K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_003956180.1|</Hit_id>
+  <Hit_def>hypothetical protein KAFR_0C00500 [Kazachstania africana CBS 2517] &gt;emb|CCF57045.1| hypothetical protein KAFR_0C00500 [Kazachstania africana CBS 2517]</Hit_def>
+  <Hit_accession>XP_003956180</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.459</Hsp_bit-score>
+      <Hsp_score>929</Hsp_score>
+      <Hsp_evalue>1.15135e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDA</Hsp_qseq>
+      <Hsp_hseq>ANKRVLIALTSYHGPFYADGNKTGVFLVEALHPFNTYKARGYEVDFVSETGSFGWDAHSLTEDFLNGQDRKDYENKDSEFNKALANLKKPSEVNAADYSIFFASAGHGTLFDYPTAKGLQSIAADIYEQGGVLSAVCHGPAIFDGLNDKKTGKNVLTGKVITGFTDVGEAIMGVDTIMKEKNLLSVEDIAKKYNVKYLAPIGPWDDFSITDGRIVTGVNPASASSVATRSMDA</Hsp_hseq>
+      <Hsp_midline>A K+VL+ALTSY+  FY+DG KTGVF+VEALHPFNT++  G+EVDFVSETG FGWD HSL +DFLNGQD  D++NKDS+FNK LA +K P EVNA DY IF ASAGHGTLFDYP AK LQ IA++IY  GGV++AVCHGPA+FDGL DKKTG+ ++ GK ITGFTDVGE IMGVD+I+K KNL +VED+AKKY  KYLAP+GPWDD+SITDGR+VTGVNPASA S A RS+DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_003959637.1|</Hit_id>
+  <Hit_def>hypothetical protein KAFR_0K01480 [Kazachstania africana CBS 2517] &gt;emb|CCF60502.1| hypothetical protein KAFR_0K01480 [Kazachstania africana CBS 2517]</Hit_def>
+  <Hit_accession>XP_003959637</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.918</Hsp_bit-score>
+      <Hsp_score>925</Hsp_score>
+      <Hsp_evalue>5.05356e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDA</Hsp_qseq>
+      <Hsp_hseq>ANKRVLIALTSYHGPLYADGSKTGVFLVEALHPFNTYKARGYEVDFVSETGSFGWDAHSLTEDFLNGQDRKDYENKDSEFNKALANVKKPSEVNAADYSIFFASAGHGTLFDYPTAKGLQSIAADIYEQGGVLSAVCHGPAIFDGLNDKKTGKNVLTGKVITGFTDVGEAIMGVDTVMKEKNLLSVEDIAKKYNVKYLAPIGPWDDFSITDGRIVTGVNPASASSVATRSMDA</Hsp_hseq>
+      <Hsp_midline>A K+VL+ALTSY+   Y+DG KTGVF+VEALHPFNT++  G+EVDFVSETG FGWD HSL +DFLNGQD  D++NKDS+FNK LA +K P EVNA DY IF ASAGHGTLFDYP AK LQ IA++IY  GGV++AVCHGPA+FDGL DKKTG+ ++ GK ITGFTDVGE IMGVD+++K KNL +VED+AKKY  KYLAP+GPWDD+SITDGR+VTGVNPASA S A RS+DA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>emb|CDO93431.1|</Hit_id>
+  <Hit_def>unnamed protein product [Kluyveromyces dobzhanskii CBS 2104]</Hit_def>
+  <Hit_accession>CDO93431</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.147</Hsp_bit-score>
+      <Hsp_score>923</Hsp_score>
+      <Hsp_evalue>1.05047e-123</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALK</Hsp_qseq>
+      <Hsp_hseq>KVLIALTSYNDKFYSDGSKTGVFVVEALHPFNYYKSEGYEVDFVSENGKFGFDEHSLIPDFLSGQDKVDFEDKNSAFNKALAKTKSASEVDSSEYQIFFASAGHGTLFDYPKAKGLQKIASQIYAKNGVVAAVCHGPAIFDGLVDSATGKPLIEGKVITGFTDVGEEILGVASIMKDAKVASVEDVAKKYNAKYIAPIGPWDDFSIADGRLVTGVNPASATSTAKRTVQVLK</Hsp_hseq>
+      <Hsp_midline>KVL+ALTSYND FYSDG KTGVFVVEALHPFN ++ EG+EVDFVSE GKFG+DEHSL  DFL+GQD+ DF++K+S FNK LAK K+  EV++ +YQIF ASAGHGTLFDYPKAK LQ IAS+IYA  GVVAAVCHGPA+FDGL D  TG+PLIEGK ITGFTDVGE I+GV SI+K   +A+VEDVAKKY AKY+AP+GPWDD+SI DGRLVTGVNPASA STA R++  LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>dbj|BAP73726.1|</Hit_id>
+  <Hit_def>probable chaperone protein HSP31 [Kluyveromyces marxianus]</Hit_def>
+  <Hit_accession>BAP73726</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>4.22365e-123</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALK</Hsp_qseq>
+      <Hsp_hseq>KVLIALTSYNEQFYADGAKTGVFVIEALHPFNFYKEQGCEVDFVSENGKFGWDEHSMIPDFLSGKDKEDFEDKNSAFNQALSKTKSAAEVNASDYQVFFASAGHGTLFDYPKAAGLQKIASEIYAQNGVVAAVCHGPAIFDGMVDKATNKPLIEGKSITGFTDVGEVVLGVDTLMKEKKLSSIEDIAKKYNAKYLAPIGPWDDFSVADGRIVTGVNPASATSTAKRSLQVLE</Hsp_hseq>
+      <Hsp_midline>KVL+ALTSYN+ FY+DG KTGVFV+EALHPFN ++++G EVDFVSE GKFGWDEHS+  DFL+G+D+ DF++K+S FN+ L+K K+  EVNA DYQ+F ASAGHGTLFDYPKA  LQ IASEIYA  GVVAAVCHGPA+FDG+ DK T +PLIEGKSITGFTDVGE ++GVD+++K K L+++ED+AKKY AKYLAP+GPWDD+S+ DGR+VTGVNPASA STA RS+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_022678077.1|</Hit_id>
+  <Hit_def>probable chaperone protein HSP31 [Kluyveromyces marxianus DMKU3-1042] &gt;dbj|BAO42330.1| probable chaperone protein HSP31 [Kluyveromyces marxianus DMKU3-1042]</Hit_def>
+  <Hit_accession>XP_022678077</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.451</Hsp_bit-score>
+      <Hsp_score>916</Hsp_score>
+      <Hsp_evalue>1.04862e-122</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALK</Hsp_qseq>
+      <Hsp_hseq>KVLIALTSYNEQFYADGAKTGVFVIEALHPFNFYKEQGCEVDFVSENGKFGWDEHSMIPDFLSGKDKEDFEDKNSAFNQALSKTKSAAEVNASDYQVFFASAGHGTLFDYPKAAGLQKIASEIYAQNGVVAAVCHGPAIFDGMVDKATNKPLIEGKAITGFTDVGEVVLGVDTLMKEKKLSSIEDIAKKYNAKYLAPIGPWDDFSVADGRIVTGVNPASATSTAKRSLQVLE</Hsp_hseq>
+      <Hsp_midline>KVL+ALTSYN+ FY+DG KTGVFV+EALHPFN ++++G EVDFVSE GKFGWDEHS+  DFL+G+D+ DF++K+S FN+ L+K K+  EVNA DYQ+F ASAGHGTLFDYPKA  LQ IASEIYA  GVVAAVCHGPA+FDG+ DK T +PLIEGK+ITGFTDVGE ++GVD+++K K L+++ED+AKKY AKYLAP+GPWDD+S+ DGR+VTGVNPASA STA RS+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_453103.1|</Hit_id>
+  <Hit_def>uncharacterized protein KLLA0_D00704g [Kluyveromyces lactis] &gt;emb|CAH00199.1| KLLA0D00704p [Kluyveromyces lactis]</Hit_def>
+  <Hit_accession>XP_453103</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>2.14795e-119</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>KVLIALTCYNDTFYADGTKTGVFVVEALHPFNYYKEQGYDVDFVSETGKYGFDEHSLSADFLSGKDKEQFEDKNSAFNQALAKTKVAADVNPSTYKIFFASAGHGTLFDYPTAKNLQKIASDIYANNGVVAAVCHGPAIFDGLTDKDTGKPLIQGKVITGFTDIGEEILGVADILKQKKLDTVEDIAKKYHAKYMAPIGPWDDFSIADGRLVTGVNPASASSTAKRTVQVLNS</Hsp_hseq>
+      <Hsp_midline>KVL+ALT YND FY+DG KTGVFVVEALHPFN ++++G++VDFVSETGK+G+DEHSL+ DFL+G+D+  F++K+S FN+ LAK K   +VN   Y+IF ASAGHGTLFDYP AK+LQ IAS+IYAN GVVAAVCHGPA+FDGLTDK TG+PLI+GK ITGFTD+GE I+GV  ILK K L TVED+AKKY AKY+AP+GPWDD+SI DGRLVTGVNPASA STA R++  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_003959161.1|</Hit_id>
+  <Hit_def>hypothetical protein KAFR_0I02470 [Kazachstania africana CBS 2517] &gt;emb|CCF60026.1| hypothetical protein KAFR_0I02470 [Kazachstania africana CBS 2517]</Hit_def>
+  <Hit_accession>XP_003959161</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.977</Hsp_bit-score>
+      <Hsp_score>894</Hsp_score>
+      <Hsp_evalue>3.43251e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALK</Hsp_qseq>
+      <Hsp_hseq>ANKRALIALTSYHGPLYADGSKTGVFFVEALHPFKNYRARGYEVDFVSETGTFGWDDHSLTEDFLNGQDKKDYETKDSDLYKALAKVKKPSEINAADYSIFFASAGHGTLFDYPTAKGLQSLAADIYDKGGIVAAVCHGPAIFDGLNDKKTGKNILNGKAITGFTDIGETMLGVDTIMKEMNLLSVEDIAKKYNVKFLSPIGPWDDYSITDDRIITGVNPASAGSTATRSMDALE</Hsp_hseq>
+      <Hsp_midline>A K+ L+ALTSY+   Y+DG KTGVF VEALHPF  +R  G+EVDFVSETG FGWD+HSL +DFLNGQD+ D++ KDSD  K LAK+K P E+NA DY IF ASAGHGTLFDYP AK LQ +A++IY  GG+VAAVCHGPA+FDGL DKKTG+ ++ GK+ITGFTD+GET++GVD+I+K  NL +VED+AKKY  K+L+P+GPWDDYSITD R++TGVNPASA STA RS+DAL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>emb|SCU77206.1|</Hit_id>
+  <Hit_def>LAFA_0A00144g1_1 [Lachancea sp. CBS 6924] &gt;emb|SCU99537.1| LAFA_0G24674g1_1 [Lachancea sp. CBS 6924]</Hit_def>
+  <Hit_accession>SCU77206</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>9.73752e-118</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKKALIAVTSYNGVFYADGSKTGVFVVEALHPFQTYKSKGFEVEFVSETGTFGWDEHSLAPDFLNGDDKKAFDDKNSDFNKHLQNIKKASEVNGDDYSIFFASAGHGTLFDYPTASGLQHLAAKIYQNGGVVAAVCHGPAIFENLIDLDTEKNIIDGKAITGFTDIGEVQLSVDNLIKEKKLNTIEDTARLSGAKYLAPIGPWDDFSITDGRVVTGVNPASAHSTAIRSINAL</Hsp_hseq>
+      <Hsp_midline>PKK L+A+TSYN VFY+DG KTGVFVVEALHPF T++ +GFEV+FVSETG FGWDEHSLA DFLNG D+  F +K+SDFNK L  IK   EVN DDY IF ASAGHGTLFDYP A  LQ +A++IY NGGVVAAVCHGPA+F+ L D  T + +I+GK+ITGFTD+GE  + VD+++K K L T+ED A+  GAKYLAP+GPWDD+SITDGR+VTGVNPASAHSTA+RSI+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>emb|SCV02302.1|</Hit_id>
+  <Hit_def>LAMI_0G17700g1_1 [Lachancea mirantina]</Hit_def>
+  <Hit_accession>SCV02302</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>3.1916e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>APKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALK</Hsp_qseq>
+      <Hsp_hseq>AAKKALIAISSYNDVFYSDGAKTGVFVVEAMHPYDAFTEKGIEVDFVSESGTFGYDEHSLASDFLNGKDLKAYEDKSSGFCKGINSVKKPNEVNAEDYSIFFASAGHATLFDYPTAKGLQDLASKIYQNGGVVAAVCHGPAIFENLKDLDTGKYLIEGKVITGFTNIGEVMLKVDDIMRQKSLKSVEDIAKLRGAKYLAPIGPWDDYSITDGRLVTGVNPASAHSTAVRAMEAVK</Hsp_hseq>
+      <Hsp_midline>A KK L+A++SYNDVFYSDG KTGVFVVEA+HP++ F ++G EVDFVSE+G FG+DEHSLA DFLNG+D   +++K S F K +  +K P EVNA+DY IF ASAGH TLFDYP AK LQD+AS+IY NGGVVAAVCHGPA+F+ L D  TG+ LIEGK ITGFT++GE ++ VD I++ K+L +VED+AK  GAKYLAP+GPWDDYSITDGRLVTGVNPASAHSTAVR+++A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_453102.1|</Hit_id>
+  <Hit_def>uncharacterized protein KLLA0_D00682g [Kluyveromyces lactis] &gt;emb|CAH00198.1| KLLA0D00682p [Kluyveromyces lactis]</Hit_def>
+  <Hit_accession>XP_453102</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.813</Hsp_bit-score>
+      <Hsp_score>878</Hsp_score>
+      <Hsp_evalue>7.0553e-117</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>RVLIALTSYNEAFFTDGAKTGVFAVEALHPFNYYKEQGYDVDFVSETGKYGFDEHSLSADFLSGKDKEQFEDKNSAFNQALAKTKVAADVNPSTYKIFFASAGHGTLFDYPTAKNLQKIASDIYANNGVVAAVCHGPAIFDGLTDKDTGKPLIQGKVITGFTDIGEEILGVADILKQKKLDTVEDIAKKYHAKYMAPIGPWDDFSIADGRLVTGVNPASASSTAKRTDQVLNS</Hsp_hseq>
+      <Hsp_midline>+VL+ALTSYN+ F++DG KTGVF VEALHPFN ++++G++VDFVSETGK+G+DEHSL+ DFL+G+D+  F++K+S FN+ LAK K   +VN   Y+IF ASAGHGTLFDYP AK+LQ IAS+IYAN GVVAAVCHGPA+FDGLTDK TG+PLI+GK ITGFTD+GE I+GV  ILK K L TVED+AKKY AKY+AP+GPWDD+SI DGRLVTGVNPASA STA R+   L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_460053.1|</Hit_id>
+  <Hit_def>DEHA2E17270p [Debaryomyces hansenii CBS767] &gt;emb|CAG88311.1| DEHA2E17270p [Debaryomyces hansenii CBS767]</Hit_def>
+  <Hit_accession>XP_460053</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>4.57839e-116</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>KKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>KKILLAVTSYNEVFYQDGAKTGLFLVEALHPFEVFKDNGYEVDFVSETGSFGFDEHSLAPDFLNGKDLEVYKDSKSDFNQHLKNLKKASEVNADDYGVFFASAGHATLFDYPKAKGLQSLAQAIWAKGGVVAAVCHGGAIFDGLIDQATGKPLIEGKSITGFTDLGEIMLKVDGIMKENNLLSVEDVAKKFGAKYLAPIGPWDDYTVADGKLITGVNPASAASTAKRSLIAVKH</Hsp_hseq>
+      <Hsp_midline>KK+LLA+TSYN+VFY DG KTG+F+VEALHPF  F+  G+EVDFVSETG FG+DEHSLA DFLNG+D   +K+  SDFN+ L  +K   EVNADDY +F ASAGH TLFDYPKAK LQ +A  I+A GGVVAAVCHG A+FDGL D+ TG+PLIEGKSITGFTD+GE ++ VD I+K  NL +VEDVAKK+GAKYLAP+GPWDDY++ DG+L+TGVNPASA STA RS+ A+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_022630714.1|</Hit_id>
+  <Hit_def>uncharacterized protein LALA0_S12e00386g [Lachancea lanzarotensis] &gt;emb|CEP64508.1| LALA0S12e00386g1_1 [Lachancea lanzarotensis]</Hit_def>
+  <Hit_accession>XP_022630714</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>4.75411e-116</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PSKVLVALTSYNGVFYEDGSKTGAFVVEVLHPFQAYKSKGFEVQFVSETGTFGWDEHSLAPDFLDGDDKKVFDDKSSDFNKHLQTIKKPSEVNADDYSIFFASAGHGTLFDYPTASGLQHLAAKIYKNGGVVAAVCHGPAIFENLMDLDTKKNIIDGKSITGFTDIGEVQLSVDKLIKEKKLNTVEQTAKSAGAKFLAPIGPWDDYSITDGRIVTGVNPASAHSTAIRSMNAL</Hsp_hseq>
+      <Hsp_midline>P KVL+ALTSYN VFY DG KTG FVVE LHPF  ++ +GFEV FVSETG FGWDEHSLA DFL+G D+  F +K SDFNK L  IK P EVNADDY IF ASAGHGTLFDYP A  LQ +A++IY NGGVVAAVCHGPA+F+ L D  T + +I+GKSITGFTD+GE  + VD ++K K L TVE  AK  GAK+LAP+GPWDDYSITDGR+VTGVNPASAHSTA+RS++AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_015464551.1|</Hit_id>
+  <Hit_def>hypothetical protein AC631_05791 [Debaryomyces fabryi] &gt;gb|KRZ98448.1| hypothetical protein AC631_05791 [Debaryomyces fabryi]</Hit_def>
+  <Hit_accession>XP_015464551</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>5.07701e-116</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>KKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALKN</Hsp_qseq>
+      <Hsp_hseq>KKVLLAITSYNETFYKDGKKTGLFLVEALHPFKVFKENGYEVDFVSETGTYGFDDHSLGPDFLNGQDLEVFKDPKSDFNVHLENIKKASEVNADDYEIFFASAGHGTLFDYPKAKGLQSLGEKIWSNGGVLAAVCHGGAIFDGMTDQKTGKPLLHGKTITGFTDIGEILLNVDGIMKEKGLESIEELAKKYGAKYLAPLGPWDDYSVADGKLITGVNPASAVSTAKRSVLAVKN</Hsp_hseq>
+      <Hsp_midline>KKVLLA+TSYN+ FY DG KTG+F+VEALHPF  F++ G+EVDFVSETG +G+D+HSL  DFLNGQD   FK+  SDFN  L  IK   EVNADDY+IF ASAGHGTLFDYPKAK LQ +  +I++NGGV+AAVCHG A+FDG+TD+KTG+PL+ GK+ITGFTD+GE ++ VD I+K K L ++E++AKKYGAKYLAP+GPWDDYS+ DG+L+TGVNPASA STA RS+ A+KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|AJT99147.1|</Hit_id>
+  <Hit_def>Hsp33p [Saccharomyces cerevisiae YJM1381]</Hit_def>
+  <Hit_accession>AJT99147</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.806</Hsp_bit-score>
+      <Hsp_score>865</Hsp_score>
+      <Hsp_evalue>8.18147e-115</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGSFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|AJT94237.1|</Hit_id>
+  <Hit_def>Hsp33p [Saccharomyces cerevisiae YJM1307]</Hit_def>
+  <Hit_accession>AJT94237</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>9.12838e-115</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGTKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVVAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGVVAA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|AJU08454.1|</Hit_id>
+  <Hit_def>Hsp33p [Saccharomyces cerevisiae YJM1444]</Hit_def>
+  <Hit_accession>AJU08454</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>9.74834e-115</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFKKHGFEVDFVSETGDFGWDEHYLPNSFIGGEDKMNFETKNSAFNKALARIKTANEVNACDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSHSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF+K GFEVDFVSETG FGWDEH L   F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S+HST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|AJU03057.1|</Hit_id>
+  <Hit_def>Hsp33p [Saccharomyces cerevisiae YJM1400] &gt;gb|AJU11851.1| Hsp33p [Saccharomyces cerevisiae YJM1479]</Hit_def>
+  <Hit_accession>AJU03057</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.035</Hsp_bit-score>
+      <Hsp_score>863</Hsp_score>
+      <Hsp_evalue>1.24041e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEVALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|AJT72285.1|</Hit_id>
+  <Hit_def>Hsp33p [Saccharomyces cerevisiae YJM195]</Hit_def>
+  <Hit_accession>AJT72285</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.035</Hsp_bit-score>
+      <Hsp_score>863</Hsp_score>
+      <Hsp_evalue>1.28184e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKTITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|NP_015043.1|</Hit_id>
+  <Hit_def>glutathione-independent methylglyoxalase family protein [Saccharomyces cerevisiae S288C] &gt;sp|Q08992.1| RecName: Full=Probable glutathione-independent glyoxalase HSP32; AltName: Full=Glyoxalase 3 homolog 2; AltName: Full=Heat shock protein 32 [Saccharomyces cerevisiae S288C] &gt;gb|AHY76777.1| Sno4p [Saccharomyces cerevisiae YJM993] &gt;gb|AHY77653.1| Hsp33p [Saccharomyces cerevisiae YJM993] &gt;gb|AHY77909.1| Hsp32p [Saccharomyces cerevisiae YJM993] &gt;gb|AJP41016.1| Sno4p [Saccharomyces cerevisiae YJM1078] &gt;gb|AJP41877.1| Hsp32p [Saccharomyces cerevisiae YJM1078] &gt;gb|AJS63932.1| Sno4p [Saccharomyces cerevisiae YJM248] &gt;gb|AJS67424.1| Sno4p [Saccharomyces cerevisiae YJM453] &gt;gb|AJS74430.1| Sno4p [Saccharomyces cerevisiae YJM981] &gt;gb|AJS74854.1| Sno4p [Saccharomyces cerevisiae YJM984] &gt;gb|AJS75734.1| Sno4p [Saccharomyces cerevisiae YJM990] &gt;gb|AJT71793.1| Hsp33p [Saccharomyces cerevisiae YJM193] &gt;gb|AJT77176.1| Hsp33p [Saccharomyces cerevisiae YJM453] &gt;gb|AJT77669.1| Hsp33p [Saccharomyces cerevisiae YJM456] &gt;gb|AJT81591.1| Hsp33p [Saccharomyces cerevisiae YJM683] &gt;gb|AJT83062.1| Hsp33p [Saccharomyces cerevisiae YJM969] &gt;gb|AJT84043.1| Hsp33p [Saccharomyces cerevisiae YJM975] &gt;gb|AJT85029.1| Hsp33p [Saccharomyces cerevisiae YJM981] &gt;gb|AJT85518.1| Hsp33p [Saccharomyces cerevisiae YJM984] &gt;gb|AJT86507.1| Hsp33p [Saccharomyces cerevisiae YJM990] &gt;gb|AJT87969.1| Hsp33p [Saccharomyces cerevisiae YJM1129] &gt;gb|AJT89443.1| Hsp33p [Saccharomyces cerevisiae YJM1199] &gt;gb|AJT91396.1| Hsp33p [Saccharomyces cerevisiae YJM1244] &gt;gb|AJT91884.1| Hsp33p [Saccharomyces cerevisiae YJM1248] &gt;gb|AJT94725.1| Hsp33p [Saccharomyces cerevisiae YJM1311] &gt;gb|AJT97676.1| Hsp33p [Saccharomyces cerevisiae YJM1342] &gt;gb|AJT98659.1| Hsp33p [Saccharomyces cerevisiae YJM1356] &gt;gb|AJU00619.1| Hsp33p [Saccharomyces cerevisiae YJM1386] &gt;gb|AJU03551.1| Hsp33p [Saccharomyces cerevisiae YJM1401] &gt;gb|AJU04536.1| Hsp33p [Saccharomyces cerevisiae YJM1415] &gt;gb|AJU05027.1| Hsp33p [Saccharomyces cerevisiae YJM1417] &gt;gb|AJU07470.1| Hsp33p [Saccharomyces cerevisiae YJM1439] &gt;gb|AJU07960.1| Hsp33p [Saccharomyces cerevisiae YJM1443] &gt;gb|AJU08925.1| Hsp33p [Saccharomyces cerevisiae YJM1447] &gt;gb|AJU12347.1| Hsp33p [Saccharomyces cerevisiae YJM1526] &gt;gb|AJU13813.1| Hsp33p [Saccharomyces cerevisiae YJM1573] &gt;gb|AJU14305.1| Hsp33p [Saccharomyces cerevisiae YJM1574] &gt;gb|AJU32296.1| Hsp32p [Saccharomyces cerevisiae YJM972] &gt;gb|AJU32992.1| Hsp32p [Saccharomyces cerevisiae YJM978] &gt;gb|AJU33426.1| Hsp32p [Saccharomyces cerevisiae YJM981] &gt;gb|AJU34805.1| Hsp32p [Saccharomyces cerevisiae YJM996] &gt;gb|AJV95977.1| Hsp32p [Saccharomyces cerevisiae YJM193] &gt;gb|AJV97272.1| Hsp32p [Saccharomyces cerevisiae YJM248] &gt;gb|AJW04654.1| Hsp32p [Saccharomyces cerevisiae YJM1401] &gt;gb|AJW08151.1| Hsp32p [Saccharomyces cerevisiae YJM1439] &gt;gb|AJW11471.1| Hsp32p [Saccharomyces cerevisiae YJM1190] &gt;gb|AJW14095.1| Hsp32p [Saccharomyces cerevisiae YJM1248] &gt;gb|AJW19304.1| Hsp32p [Saccharomyces cerevisiae YJM1342] &gt;gb|AJW20596.1| Hsp32p [Saccharomyces cerevisiae YJM453] &gt;gb|AJW27275.1| Hsp32p [Saccharomyces cerevisiae YJM984] &gt;gb|AJW27970.1| Hsp32p [Saccharomyces cerevisiae YJM990] &gt;gb|EDV10947.1| protein SNO4 [Saccharomyces cerevisiae RM11-1a] &gt;gb|EDZ69034.1| YPL280Wp-like protein [Saccharomyces cerevisiae AWRI1631] &gt;gb|EGA72443.1| Hsp33p [Saccharomyces cerevisiae AWRI796] &gt;gb|EGA80220.1| Hsp33p [Saccharomyces cerevisiae Lalvin QA23] &gt;gb|KOH47543.1| HSP32p Possible chaperone and cysteine protease [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|KOH47613.1| HSP32p Possible chaperone and cysteine protease [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|KQC40367.1| putative chaperone and cysteine protease [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|KQC40795.1| putative chaperone and cysteine protease [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|ONH74986.1| putative glutathione-independent glyoxalase HSP32 [Saccharomyces cerevisiae] &gt;dbj|GAA25776.1| K7_Sno4p [Saccharomyces cerevisiae Kyokai no. 7] &gt;emb|CAA98017.1| unnamed protein product [Saccharomyces cerevisiae] &gt;emb|CAY86668.1| Hsp33p [Saccharomyces cerevisiae EC1118] &gt;tpg|DAA11158.1| TPA: glutathione-independent methylglyoxalase family protein [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>NP_015043</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.035</Hsp_bit-score>
+      <Hsp_score>863</Hsp_score>
+      <Hsp_evalue>1.41462e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|NP_015036.3|</Hit_id>
+  <Hit_def>glutathione-independent methylglyoxalase family protein [Saccharomyces cerevisiae S288C] &gt;sp|Q08914.1| RecName: Full=Probable glutathione-independent glyoxalase HSP33; AltName: Full=Glyoxalase 3 homolog 3; AltName: Full=Heat shock protein 33 [Saccharomyces cerevisiae S288C] &gt;gb|AJS80968.1| Sno4p [Saccharomyces cerevisiae YJM1250] &gt;gb|AJS82281.1| Sno4p [Saccharomyces cerevisiae YJM1304] &gt;gb|AJT75205.1| Hsp33p [Saccharomyces cerevisiae YJM326] &gt;gb|AJT87476.1| Hsp33p [Saccharomyces cerevisiae YJM1083] &gt;gb|AJT97178.1| Hsp33p [Saccharomyces cerevisiae YJM1341] &gt;gb|AJW14526.1| Hsp32p [Saccharomyces cerevisiae YJM1250] &gt;gb|AJW15817.1| Hsp32p [Saccharomyces cerevisiae YJM1304] &gt;gb|EGA80238.1| Hsp33p [Saccharomyces cerevisiae Lalvin QA23] &gt;gb|EWG88307.1| Hsp32p [Saccharomyces cerevisiae P301] &gt;gb|PJP06698.1| glutathione-independent methylglyoxalase family protein [Saccharomyces cerevisiae] &gt;emb|CAA99723.1| unnamed protein product [Saccharomyces cerevisiae] &gt;tpg|DAA11150.1| TPA: glutathione-independent methylglyoxalase family protein [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>NP_015036</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>2.75908e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKVFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY++F ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|AJU02567.1|</Hit_id>
+  <Hit_def>Hsp33p [Saccharomyces cerevisiae YJM1399]</Hit_def>
+  <Hit_accession>AJU02567</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>2.75908e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKVYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS++YANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|3KKL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Functionally Unknown Hsp33 From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3KKL|B Chain B, Crystal Structure Of Functionally Unknown Hsp33 From Saccharomyces Cerevisiae [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>3KKL_A</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>3.19015e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKVFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY++F ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|AJT72759.1|</Hit_id>
+  <Hit_def>Hsp33p [Saccharomyces cerevisiae YJM244] &gt;gb|AJT88949.1| Hsp33p [Saccharomyces cerevisiae YJM1190] &gt;gb|AJT90913.1| Hsp33p [Saccharomyces cerevisiae YJM1242] &gt;gb|AJU10869.1| Hsp33p [Saccharomyces cerevisiae YJM1477] &gt;gb|AJU12821.1| Hsp33p [Saccharomyces cerevisiae YJM1527] &gt;gb|EDN60870.1| heat-shock protein [Saccharomyces cerevisiae YJM789]</Hit_def>
+  <Hit_accession>AJT72759</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>4.27568e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVSNKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE V+ K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|AJT96684.1|</Hit_id>
+  <Hit_def>Hsp33p [Saccharomyces cerevisiae YJM1338]</Hit_def>
+  <Hit_accession>AJT96684</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>4.46714e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKKALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALAGIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PKK L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>dbj|GAX67607.1|</Hit_id>
+  <Hit_def>glutathione-independent methylglyoxalase family protein [Saccharomyces cerevisiae] &gt;dbj|GAX68593.1| glutathione-independent methylglyoxalase family protein [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>GAX67607</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>5.20732e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNEALARIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FN+ LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|AJS70054.1|</Hit_id>
+  <Hit_def>Sno4p [Saccharomyces cerevisiae YJM627] &gt;gb|AJT80118.1| Hsp33p [Saccharomyces cerevisiae YJM627] &gt;gb|AJT96194.1| Hsp33p [Saccharomyces cerevisiae YJM1336] &gt;gb|AJW17560.1| Hsp32p [Saccharomyces cerevisiae YJM1332] &gt;gb|AJW23224.1| Hsp32p [Saccharomyces cerevisiae YJM627] &gt;gb|KOH48466.1| SNO4p Possible chaperone and cysteine protease [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|KQC42073.1| putative chaperone and cysteine protease [Saccharomyces sp. &apos;boulardii&apos;]</Hit_def>
+  <Hit_accession>AJS70054</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>7.8948e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALAGIKTANEVNASDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|AJW05090.1|</Hit_id>
+  <Hit_def>Hsp32p [Saccharomyces cerevisiae YJM1402]</Hit_def>
+  <Hit_accession>AJW05090</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>9.00352e-114</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFEKHGFEVDFVSETGGFGWDEHYLPKSFIGGEDKMNFETKNSAFNKALARIKTANEVNASDYKIFFASAGHGALFDYPTAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF K GFEVDFVSETG FGWDEH L K F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYP AK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|AJV99887.1|</Hit_id>
+  <Hit_def>Hsp32p [Saccharomyces cerevisiae YJM450] &gt;gb|AJW09884.2| Hsp32p [Saccharomyces cerevisiae YJM1450]</Hit_def>
+  <Hit_accession>AJV99887</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.724</Hsp_bit-score>
+      <Hsp_score>857</Hsp_score>
+      <Hsp_evalue>1.01561e-113</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>PKKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDAL</Hsp_qseq>
+      <Hsp_hseq>PKRALISLTSYHGPFYKDGAKTGVFVVEILRSFDTFKKHGFEVDFVSETGDFGWDEHYLPNSFIGGEDKMNFETKNSAFNKALARIKTANEVNACDYKIFFASAGHGALFDYPKAKNLQDIASKIYANGGVIAAICHGPLLFDGLIDIKTTRPLIEGKAITGFPLEGEIALGVDDILRSRKLTTVERVANKNGAKYLAPIHPWDDYSITDGKLVTGVNANSSYSTTIRAINAL</Hsp_hseq>
+      <Hsp_midline>PK+ L++LTSY+  FY DG KTGVFVVE L  F+TF+K GFEVDFVSETG FGWDEH L   F+ G+D+ +F+ K+S FNK LA+IKT  EVNA DY+IF ASAGHG LFDYPKAK+LQDIAS+IYANGGV+AA+CHGP +FDGL D KT RPLIEGK+ITGF   GE  +GVD IL+++ L TVE VA K GAKYLAP+ PWDDYSITDG+LVTGVN  S++ST +R+I+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_015468907.1|</Hit_id>
+  <Hit_def>hypothetical protein AC631_01402 [Debaryomyces fabryi] &gt;gb|KSA02805.1| hypothetical protein AC631_01402 [Debaryomyces fabryi]</Hit_def>
+  <Hit_accession>XP_015468907</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>1.0236e-113</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>KKVLLALTSYNDVFYSDGMKTGVFVVEALHPFNTFRKEGFEVDFVSETGKFGWDEHSLAKDFLNGQDETDFKNKDSDFNKTLAKIKTPKEVNADDYQIFMASAGHGTLFDYPKAKDLQDIASEIYANGGVVAAVCHGPAMFDGLTDKKTGRPLIEGKSITGFTDVGETIMGVDSILKAKNLATVEDVAKKYGAKYLAPVGPWDDYSITDGRLVTGVNPASAHSTAVRSIDALK</Hsp_qseq>
+      <Hsp_hseq>KKILLAVSSYNEVFYQDGAKTGLFLVEALHPFEVFKDNGYEVDFVSETGSFGFDEHSLTPHFLDGKDLEVYKDSKSDFNQHLKNMKKASEVNADDYGVFFASAGHATLFDYPNAKGLQSLAQAIWVNGGVVAAVCHGGAIFDGLIDPATGRPLIEGKSITGFTDIGEIILKVDGLMKENNLLSIEDLAKKYGAKYLAPIGPWDDYTVADGKLITGVNPASASSTAKRSLIALK</Hsp_hseq>
+      <Hsp_midline>KK+LLA++SYN+VFY DG KTG+F+VEALHPF  F+  G+EVDFVSETG FG+DEHSL   FL+G+D   +K+  SDFN+ L  +K   EVNADDY +F ASAGH TLFDYP AK LQ +A  I+ NGGVVAAVCHG A+FDGL D  TGRPLIEGKSITGFTD+GE I+ VD ++K  NL ++ED+AKKYGAKYLAP+GPWDDY++ DG+L+TGVNPASA STA RS+ ALK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216046246</Statistics_db-num>
+      <Statistics_db-len>550339452</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
