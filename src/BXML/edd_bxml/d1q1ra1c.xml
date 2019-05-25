@@ -1,0 +1,2353 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_26635</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1q1ra1c</BlastOutput_query-def>
+  <BlastOutput_query-len>185</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_26635</Iteration_query-ID>
+  <Iteration_query-def>d1q1ra1c</Iteration_query-def>
+  <Iteration_query-len>185</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P16640.1|</Hit_id>
+  <Hit_def>RecName: Full=Putidaredoxin reductase CamA; Short=Pdr; AltName: Full=Putidaredoxin--NAD+ reductase [Pseudomonas putida] &gt;gb|AAA25758.1| putidaredoxin reductase [Pseudomonas putida] &gt;gb|AYN44698.1| putidaredoxin reductase, partial [synthetic construct] &gt;dbj|BAA00413.1| NADH-putidaredoxin reductase [Pseudomonas putida] &gt;dbj|BAN13287.1| NADH-putidaredoxin reductase [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P16640</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>1.93156e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>8.69655e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGN--IRLVGDATVIPHHL--PPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTA--INRDRQQV---ILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>ADNRLVVIGGGYIGLEVA----ATAIKANMHVTLLDTAARVLERVTAPPVSAFY-------EHLHREA-------GVDIRTGTQVCGFEMSTDQQKVTAVLCEDGTRLPADLVIAGIG---LIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_hseq>
+      <Hsp_midline>A++ +V++G G  G+EVA    A+  + N  + L+  A  +   +  PP+S  Y       E L+           + +  GTQV    ++ D+Q+V   +  DG  L  D ++   G   LIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|3LB8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Covalent Putidaredoxin Reductase- Putidaredoxin Complex [Pseudomonas putida] &gt;pdb|3LB8|B Chain B, Crystal Structure Of The Covalent Putidaredoxin Reductase- Putidaredoxin Complex [Pseudomonas putida]</Hit_def>
+  <Hit_accession>3LB8_A</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>3.21373e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.10595e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGN--IRLVGDATVIPHHL--PPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTA--INRDRQQV---ILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>ADNRLVVIGGGYIGLEVA----ATAIKANMHVTLLDTAARVLERVTAPPVSAFY-------EHLHREA-------GVDIRTGTQVCGFEMSTDQQKVTAVLCEDGTRLPADLVIAGIG---LIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_hseq>
+      <Hsp_midline>A++ +V++G G  G+EVA    A+  + N  + L+  A  +   +  PP+S  Y       E L+           + +  GTQV    ++ D+Q+V   +  DG  L  D ++   G   LIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1Q1R|A</Hit_id>
+  <Hit_def>Chain A, Putidaredoxin Reductase [Pseudomonas putida] &gt;pdb|1Q1R|B Chain B, Putidaredoxin Reductase [Pseudomonas putida] &gt;pdb|1Q1W|A Chain A, Putidaredoxin Reductase [Pseudomonas putida] &gt;pdb|1Q1W|B Chain B, Putidaredoxin Reductase [Pseudomonas putida]</Hit_def>
+  <Hit_accession>1Q1R_A</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>3.8146e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>1.11284e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGN--IRLVGDATVIPHHL--PPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTA--INRDRQQV---ILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>ADNRLVVIGGGYIGLEVA----ATAIKANMHVTLLDTAARVLERVTAPPVSAFY-------EHLHREA-------GVDIRTGTQVCGFEMSTDQQKVTAVLCEDGTRLPADLVIAGIG---LIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_hseq>
+      <Hsp_midline>A++ +V++G G  G+EVA    A+  + N  + L+  A  +   +  PP+S  Y       E L+           + +  GTQV    ++ D+Q+V   +  DG  L  D ++   G   LIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_083246076.1|</Hit_id>
+  <Hit_def>oxidoreductase [Pseudomonas sp. TCU-HL1] &gt;gb|AOE86720.1| putidaredoxin reductase [Pseudomonas sp. TCU-HL1]</Hit_def>
+  <Hit_accession>WP_083246076</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.24463e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP-LIP</Hsp_qseq>
+      <Hsp_hseq>NANKNLVIVGAGHAGVEVAFSLRANGWEGNIWLVGDAAVIPHHLPPLSKAYLAGKSTPESLYLRTPDAYAAQNIQLLSGTQVTAINRNRRQVSLSDGQVLDYERLVLATGGRPRLLP</Hsp_hseq>
+      <Hsp_midline>NAN N+VIVG G AGVEVAF LRA+GWEGNI LVGDA VIPHHLPPLSKAYLAGK+T ESLYLRTPDAYAAQNIQLL GTQVTAINR+R+QV LSDG+ LDY+RLVLATGGRP L+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>9.63542e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>DNVVIVGTGLAGVEVAFGLRASGWEGNIRLV----GDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>NRLVVIGGGYVGLEVA----ATAIKANVQVTLLDTTDRVLARVTAPPVSAFY-------ERLH-RDAGVDIRTGMQVCG-FEMSADQQKVTAVLCEDGTRLAADLIVAGIG---LIPNCELASAAGLLVDNGIVVNEQMQTSDPVIMAIGDCARFHSQIYGRWVRIESVPNALEQARKVAAIVCGK</Hsp_hseq>
+      <Hsp_midline>+ +V++G G  G+EVA    A+  + N+++      D  +     PP+S  Y       E L+ R         +Q+ G  +++A  +    V+  DG  L  D +V   G   LIPNCELASAAGL VDNGIV+NE MQTSDP+IMA+GDCARFHSQ+Y RWVRIESVPNALEQARK+AAI+CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EZQ18688.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas bauzanensis]</Hit_def>
+  <Hit_accession>EZQ18688</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>7.95036e-48</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGG--RPLIPNC</Hsp_qseq>
+      <Hsp_hseq>NEKIIIIGTGQAGVEVAFGLRANGWQGEITLVGDSTAPPHHLPPLSKAYLAGKTTAESLYLRTPEAYQAQNIQLLLGNRVEEIDRQNTQIVLTDGKTLSYDRLILATGGRARPMPAEC</Hsp_hseq>
+      <Hsp_midline>N+ ++I+GTG AGVEVAFGLRA+GW+G I LVGD+T  PHHLPPLSKAYLAGK TAESLYLRTP+AY AQNIQLL G +V  I+R   Q++L+DG+ L YDRL+LATGG  RP+   C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>9.19895e-37</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>DNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQL---LGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>NHMVVIGGGYIGLEVAASAIENGMKVTLLTIADRVLNRVTAPPVSAFY-------ERLH-----RHAGVDIRVNTSVAGFDVSEDQRCIRSVVCSEGDRLEADLVVAGIG---LLPNCELADRAGLQVEDGVVINEQMETSDPAILALGDCARFYSNIYKRWIRVESVPNAVEQARKIAALLCGK</Hsp_hseq>
+      <Hsp_midline>+++V++G G  G+EVA     +G +  +  + D  +     PP+S  Y       E L+      +A  +I++   + G  V+   R  + V+ S+G  L+ D +V   G   L+PNCELA  AGLQV++G+VINE M+TSDP I+A+GDCARF+S +Y RW+R+ESVPNA+EQARKIAA+LCGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_105643208.1|</Hit_id>
+  <Hit_def>oxidoreductase [Pseudomonas sp. MYb185] &gt;gb|PRB84548.1| pyridine nucleotide-disulfide oxidoreductase [Pseudomonas sp. MYb185]</Hit_def>
+  <Hit_accession>WP_105643208</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.39651e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>KAHEKVVIIGTGQAGVEVAFGLRANGWQGEITLIGESADIPHHLPPLSKAYLAGAATAESLYLRTPEAYQAQNIHLLSGIRVDAINREAAQVQLADGQTLNYDRLVLATGGRP</Hsp_hseq>
+      <Hsp_midline> A++ VVI+GTG AGVEVAFGLRA+GW+G I L+G++  IPHHLPPLSKAYLAG ATAESLYLRTP+AY AQNI LL G +V AINR+  QV L+DG+ L+YDRLVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>1.69011e-41</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>DNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQL---LGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>NRMVVIGSGYIGLEVAASAIKKGMQVTLLTIAD-RVLDRVTAPL----------VSSFYERLHRA-AGVDIQVNTQIAGFEMSADKQHVRAVVCTDGRRFDTDLVVAGIG---LVPNCELASAAGLQVDDGIIVNELMQTSDPAIMALGDCARFRSSIYNRWVRIESVPNALEQARKIAAILCGK</Hsp_hseq>
+      <Hsp_midline>+ +V++G+G  G+EVA      G +  +  + D  V+     PL            S Y R   A A  +IQ+   + G +++A  +  + V+ +DGR  D D +V   G   L+PNCELASAAGLQVD+GI++NE MQTSDP IMA+GDCARF S +Y+RWVRIESVPNALEQARKIAAILCGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_092440389.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Collimonas sp. OK607] &gt;emb|SFB38735.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Collimonas sp. OK607]</Hit_def>
+  <Hit_accession>WP_092440389</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>7.14384e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NERLVVVGTGCAGVELAFAARAAGWSGSITLIGDEAVLPYHRPPLSKAYLVGEASADSLLLRTPALFEKSDIELLTSAKATSIDRGRMHLCLSDGRNLPYDRLILATGGRP</Hsp_hseq>
+      <Hsp_midline>N+ +V+VGTG AGVE+AF  RA+GW G+I L+GD  V+P+H PPLSKAYL G+A+A+SL LRTP  +   +I+LL   + T+I+R R  + LSDGR L YDRL+LATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>6.65258e-28</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>GTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>GFELSADRRKVTAVRCASGARMDADLVVAGIG---LIPNCNLAIDAGLQVDDGIVVDSQMCTADEAIMAAGDCTKFHSDLYGRMVRIESVPNALEQARKIAALICGK</Hsp_hseq>
+      <Hsp_midline>G +++A  R    V  + G  +D D +V   G   LIPNC LA  AGLQVD+GIV++  M T+D  IMA GDC +FHS LY R VRIESVPNALEQARKIAA++CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_119787971.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Noviherbaspirillum sp. K1S02-23] &gt;gb|RJG04497.1| pyridine nucleotide-disulfide oxidoreductase [Noviherbaspirillum sp. K1S02-23]</Hit_def>
+  <Hit_accession>WP_119787971</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>7.2834e-35</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>DNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>ERLVVIGTGCGGVELAFAARAAGWNGPITLVGEENALPYHRPPLSKAYLMGEANADALWLRAPALFEKQNIALLTAVKVAAIDRRRMQVSLSDGRNLGYDRLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>+ +V++GTG  GVE+AF  RA+GW G I LVG+   +P+H PPLSKAYL G+A A++L+LR P  +  QNI LL   +V AI+R R QV LSDGR L YDRLVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>6.69176e-29</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>LAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVI---LSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>VAAAAVKSGMRVTVLEAAPRLLARVTALP-----LSNFY-------EDVHRQ-----AGVDIQTSAQVEEFELSADRSKITAVRCAGGARIEADFVVAGIG---LIPNCELAIEAGLQVDDGIVVDAQMQTTDEAIMAVGDCTKFYSDLYKRKVRIESVPNALEQARKIAALICGK</Hsp_hseq>
+      <Hsp_midline>+A   V  G+R +  E   RL+   T +P     LS  Y       E ++ +     A  +IQ     +   ++ DR ++     + G  ++ D +V   G   LIPNCELA  AGLQVD+GIV++  MQT+D  IMAVGDC +F+S LY R VRIESVPNALEQARKIAA++CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_093557445.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Massilia namucuonensis] &gt;emb|SFV02578.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Massilia namucuonensis]</Hit_def>
+  <Hit_accession>WP_093557445</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>3.59788e-29</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>LVVIGGGYVGLEVAAAARKAGMQVTLLEVAPRLLARVTAPRLSQFYLDTHRRA-GVNVRV-DAHVDE-------LELTADRRRVAAVHCAGGPPIAADLVVAGVG---LVPNTELASAAGLAVDNGIVVDHELRTADPHIAAIGDCGNHHSALYDRRVRIESVPNALEQARKLAALLCGK</Hsp_hseq>
+      <Hsp_midline>+V++G G  G+EVA   R +G +  +  V    +     P LS+ YL     A  + +R  DA+  +        ++TA  R    V  + G  +  D +V   G   L+PN ELASAAGL VDNGIV++  ++T+DP I A+GDC   HS LYDR VRIESVPNALEQARK+AA+LCGK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.14362e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NHTLLIVGAGCGGTELAFAARAAGWSGPVTIVGAEAAAPYHRPPLSKAYLSGETSEASLQIKAPAVYDKFNIGLITGTAAAAIDRPNRRLLLDDGRALPYDRLALATGGRP</Hsp_hseq>
+      <Hsp_midline>N  ++IVG G  G E+AF  RA+GW G + +VG     P+H PPLSKAYL+G+ +  SL ++ P  Y   NI L+ GT   AI+R  ++++L DGRAL YDRL LATGGRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MAG81383.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Sutterellaceae bacterium] &gt;gb|MBT83862.1| pyridine nucleotide-disulfide oxidoreductase [Sutterellaceae bacterium]</Hit_def>
+  <Hit_accession>MAG81383</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>3.67685e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NGCVLIVGTGCGGVETAFAMRANGWQGPIVLIGEEKEIPYHRPPLSKAYLAGDVSPESLYLKSPALFEKQGIVLRLGVKALSINREDRLLALSSGESIKYDYVVLATGGQP</Hsp_hseq>
+      <Hsp_midline>N  V+IVGTG  GVE AF +RA+GW+G I L+G+   IP+H PPLSKAYLAG  + ESLYL++P  +  Q I L  G +  +INR+ + + LS G ++ YD +VLATGG+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.97291e-24</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>IVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHL--PPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQ-QVILS----DGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLY-DRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>IIGGGYIGLEVAATARKFGCE--VTLIEAANRVLERVTAPVVSEFY--------------QNRHSSEGVNLLLGTTVRRFIRDGSGQIVRSIECDNGMSVDVDAIVVGIG---LIPSIELAAESGLDCGNGILVNEELRTSDPRIFAIGDCVNFPSSVYGGRRVRIESVPNALEHARKVSAVICSK</Hsp_hseq>
+      <Hsp_midline>I+G G  G+EVA   R  G E  + L+  A  +   +  P +S+ Y               + ++++ + LL GT V    RD   Q++ S    +G ++D D +V+  G   LIP+ ELA+ +GL   NGI++NE ++TSDP I A+GDC  F S +Y  R VRIESVPNALE ARK++A++C K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_082833354.1|</Hit_id>
+  <Hit_def>MULTISPECIES: pyridine nucleotide-disulfide oxidoreductase [Rhodococcus] &gt;gb|PBC35305.1| pyridine nucleotide-disulfide oxidoreductase [Rhodococcus sp. ACS1]</Hit_def>
+  <Hit_accession>WP_082833354</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.03275e-28</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>SNQRLLVIGNGCGGTEVAFAARSAGWDGPITLLGDEDFQPYHRPPLSKAYLKGEVSAASLHLRGAVAYEQSDVTLRTGHRAVEIDRKRRRVAMSDGTEIDYDRLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>+N  ++++G G  G EVAF  R++GW+G I L+GD    P+H PPLSKAYL G+ +A SL+LR   AY   ++ L  G +   I+R R++V +SDG  +DYDRLVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>5.65268e-27</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>TVVIVGAGYVGLEVAAAAVRAGMNVIAIEAASRVLARVTA-----QPISDYYAAVHREAGVNILTNCAVEELETTPGEGG-HIRAVR-------CSDGRRLAADLVIVGIG---LIPNSELADTAGLEVEDGVIVDDELRTTDPSIMAVGDCVRQYSHLYERYVRIESVPNALEQARKAAAILCNR</Hsp_hseq>
+      <Hsp_midline> VVIVG G  G+EVA      G+     E   R++   T       P+S  Y A    A    L        +     GG  + A+         SDGR L  D +++  G   LIPN ELA  AGL+V++G+++++ ++T+DP IMAVGDC R +S LY+R+VRIESVPNALEQARK AAILC +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_053136152.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas sp. MIACH]</Hit_def>
+  <Hit_accession>WP_053136152</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>7.19186e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPL---IPNCELASAAG</Hsp_qseq>
+      <Hsp_hseq>NTHRTAVIVGAGHAAGELVTSLRDNGWSGRIILIGDEPHLPYHRPPLSKAYLSGAATAESLLIKSPATYIKANVEIINNTRVLCIDRQRKSVELANGEWIGYDKLVLTTGGRPRPLSVPKTSLAEQSG</Hsp_hseq>
+      <Hsp_midline>N +   VIVG G A  E+   LR +GW G I L+GD   +P+H PPLSKAYL+G ATAESL +++P  Y   N++++  T+V  I+R R+ V L++G  + YD+LVL TGGRP    +P   LA  +G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>1.47225e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVA-----FGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQ-----QVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>LVIVGGGYVGLEVAAVAVKVGLKVTVLEAFPRVLARVTA-----PELS-AFYERKHREVGVEIRT-------------GVQVSDVEMDRSGDAVSAVLCADGTRVPADLVVVGIG---LIPNTELAQEAGLAVDNGILVDEHAQTSDPDIYAAGDCTNHPNASLGRRLRLESVPNALEQARTAAAAICGK</Hsp_hseq>
+      <Hsp_midline>+VIVG G  G+EVA      GL+ +  E   R++   T      P LS A+   K     + +RT             G QV+ +  DR       V+ +DG  +  D +V+  G   LIPN ELA  AGL VDNGI+++EH QTSDP I A GDC    +    R +R+ESVPNALEQAR  AA +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_109436760.1|</Hit_id>
+  <Hit_def>NAD(P)/FAD-dependent oxidoreductase [Aquimarina sp. AU119]</Hit_def>
+  <Hit_accession>WP_109436760</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>8.4816e-28</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>VIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCE</Hsp_qseq>
+      <Hsp_hseq>VVIGASHGGVNFAFSLRKAGWEGNIILFDKDPVLPYHRPPLSKGYLANKDAIEKNFLKSVESYEKENIVLKLGVTVTSINRSENSVILKDGSVQVYDKLILATGARPIIPSIK</Hsp_hseq>
+      <Hsp_midline>V++G    GV  AF LR +GWEGNI L     V+P+H PPLSK YLA K   E  +L++ ++Y  +NI L  G  VT+INR    VIL DG    YD+L+LATG RP+IP+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>7.80796e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDR--QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>SVVVIGGGYIGLEVAASLQKMG--------ASVTVLERE-----KRILA-RVTAPEMSTFFKELHAKNGVDVQTDKNVISFNAKAGVNTVICSDSSSFEADIVIVGVG---IHVNLELAKNAGLEIENGIRVDATAQTNDKDIYAIGDCTFHHNPHYDRFIRLESVQNAVDQAKVAAAVICGK</Hsp_hseq>
+      <Hsp_midline>+VV++G G  G+EVA  L+  G           TV+        K  LA + TA  +     + +A   + +     V + N       VI SD  + + D +++  G   +  N ELA  AGL+++NGI ++   QT+D  I A+GDC   H+  YDR++R+ESV NA++QA+  AA++CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_109328133.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Rhodococcus sp. S2-17] &gt;gb|AWK71659.1| pyridine nucleotide-disulfide oxidoreductase [Rhodococcus sp. S2-17]</Hit_def>
+  <Hit_accession>WP_109328133</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.05113e-27</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVA-----FGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>SVVIIGAGYIGLEVAAAAVRIGMTVTVLEAASRVLARVTA-----QPISEYYEAVHREAGVNILTN---CVLEGLETRGDGRIEAVR-------CSDGTRLAADVVVVGIG---LIPNSELAAAAGLEVDNGIVVDDDLRTADSHIMAVGDCVRQYSHLYDRFVRVESVPNALEQARNAAAVLCDK</Hsp_hseq>
+      <Hsp_midline>+VVI+G G  G+EVA      G+  +  E   R++   T       P+S+ Y A    A    L        + ++  G  ++ A+         SDG  L  D +V+  G   LIPN ELA+AAGL+VDNGIV+++ ++T+D  IMAVGDC R +S LYDR+VR+ESVPNALEQAR  AA+LC K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>3.68751e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>SNRHLLVIGNGCGGTEAAFAARTSGWEGPITLLGDERFQPYHRPPLSKTYLEGEVTAESLHLRGDVAYERSAITLHAGHRAQAIDRKHRKVAMSDGTEIGYDELILATGGRP</Hsp_hseq>
+      <Hsp_midline>+N +++++G G  G E AF  R SGWEG I L+GD    P+H PPLSK YL G+ TAESL+LR   AY    I L  G +  AI+R  ++V +SDG  + YD L+LATGGRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_133591159.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Azoarcus indigens] &gt;gb|TDN50790.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Azoarcus indigens]</Hit_def>
+  <Hit_accession>WP_133591159</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.16589e-27</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGR----PLIPNCELASAAGLQ-VDNGIVINEHMQTSDPLIM</Hsp_qseq>
+      <Hsp_hseq>IVIVGAGQSGLQVAESLRSEGWEGGILLLGEEAVPPYHRPPLSKAYLAGKAEEAQLFIRSPEALAKKRIDFRPGSRVAALDIARQTLTLADGSQLDYEGLALATGARNRALPL-PGAELDGVFGLRTLDDTRRIAEALAATEAVVV</Hsp_hseq>
+      <Hsp_midline>+VIVG G +G++VA  LR+ GWEG I L+G+  V P+H PPLSKAYLAGKA    L++R+P+A A + I    G++V A++  RQ + L+DG  LDY+ L LATG R    PL P  EL    GL+ +D+   I E +  ++ +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>7.50537e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQ---VILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWV-RIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>ATEAVVVIGGGFIGLEFAAVAAAQGKRVTVLEAAERLM--ARAVP---PALSDFYLA--------------LHRAHGVRVELGVSVAAVLGEQGRAHGVRCADGREFEAGLVVAGIG---VLPNDELAAAAGIACDRGILVDACSRTSAPNVVASGDCT--VTRLEDGSLRRLESVQAAVEQGKSAAAALLGR</Hsp_hseq>
+      <Hsp_midline>A + VV++G G  G+E A      G R +  E   RL+  A  +P   P LS  YLA               + A  +++  G  V A+  ++ +   V  +DGR  +   +V   G   ++PN ELA+AAG+  D GI+++   +TS P ++A GDC    ++L D  + R+ESV  A+EQ +  AA L G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_038232562.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Zobellia uliginosa]</Hit_def>
+  <Hit_accession>WP_038232562</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.21656e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIP</Hsp_qseq>
+      <Hsp_hseq>NSDQSCVVIGASHAGVNFAFVLRREGWQGSITLIDIDPILPYHRPPLSKAYLTSEDGIEKNLLKSEESYKKENIELKLGVWVDAIDRENKKVVLADGTTLDYDKLVIATGARPIMP</Hsp_hseq>
+      <Hsp_midline>N++ + V++G   AGV  AF LR  GW+G+I L+    ++P+H PPLSKAYL  +   E   L++ ++Y  +NI+L  G  V AI+R+ ++V+L+DG  LDYD+LV+ATG RP++P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.90909e-17</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAI--NRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>VVVIGGGYIGLETAASLK--------KLGASVTVLER------ESRILARVTAPEMSVFFQKLHADNDVAVLTEKNVISIENNQNKNTVVCSDGTRYEADMIVVGVG---IHVNKELAEKAGLMIENGIQVNEMAQTSDPSIYAIGDCTFHHNIHYNRHIRLESVQNAVDQAKIAAAAIAGK</Hsp_hseq>
+      <Hsp_midline>VV++G G  G+E A  L+        +L    TV+        ++ +  + TA  + +     +A  ++ +L    V +I  N+++  V+ SDG   + D +V+  G   +  N ELA  AGL ++NGI +NE  QTSDP I A+GDC   H+  Y+R +R+ESV NA++QA+  AA + GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_119968830.1|</Hit_id>
+  <Hit_def>oxidoreductase [Shewanella pacifica]</Hit_def>
+  <Hit_accession>WP_119968830</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>2.96329e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAE-----------SLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIP</Hsp_qseq>
+      <Hsp_hseq>NDTCVIIGASHGGVNLAFSLRKHGWQGNIILIDSDPNLPYHRPPLSKAFLLNHNVTECASHEIHLDPSSIQLKSPDSYRKQNITLKLGLTVTKINRNSKQVTLSNGSKQAYDKLVLATGARPFIP</Hsp_hseq>
+      <Hsp_midline>ND  VI+G    GV +AF LR  GW+GNI L+     +P+H PPLSKA+L      E           S+ L++PD+Y  QNI L  G  VT INR+ +QV LS+G    YD+LVLATG RP IP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>8.56705e-10</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDR-----QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQV------------------------DNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAIL</Hsp_qseq>
+      <Hsp_hseq>VVIIGGGYVGLETASSLKKLGATVTV-LEREPRILARVTAPLMSEFFTQ--------LHQENQVEVLTDKLVQQISTSNLNNDKNMPLAHKITCADGSSYIADVIVIGVG---ITVNTELAKACGIKLASDMPNEQANHNEANGRDKPKSTPKSGIWVNSSLQTSDENIFAIGDCTYHHNPHYDRMIRLESVQNAVEQAKVAAKVI</Hsp_hseq>
+      <Hsp_midline>VVI+G G  G+E A  L+  G    + L  +  ++     PL   +           L   +       +L+     + +N D+      ++  +DG +   D +V+  G   +  N ELA A G+++                         +GI +N  +QTSD  I A+GDC   H+  YDR +R+ESV NA+EQA+  A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ARD21764.1|</Hit_id>
+  <Hit_def>hypothetical protein SJ2017_1440 [Shewanella japonica]</Hit_def>
+  <Hit_accession>ARD21764</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>3.13397e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAE-----------SLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIP</Hsp_qseq>
+      <Hsp_hseq>NDTCVIIGASHGGVNLAFSLRKHGWQGNIILIDSDPNLPYHRPPLSKAFLLNHNVTECASHEIHLDPSSIQLKSPDSYRKQNITLKLGLTVTKINRNSKQVTLSNGSKQAYDKLVLATGARPFIP</Hsp_hseq>
+      <Hsp_midline>ND  VI+G    GV +AF LR  GW+GNI L+     +P+H PPLSKA+L      E           S+ L++PD+Y  QNI L  G  VT INR+ +QV LS+G    YD+LVLATG RP IP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.55977e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDR-----QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDN------------------------GIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAIL</Hsp_qseq>
+      <Hsp_hseq>VVIIGGGYVGLETASSLKKLGATVTV-LEREPRILARVTAPLMSEFFTQ--------LHQENQVEVLTDKLVQQISTSNLNNDKNMPLAHKITCADGSSYIADVIVIGVG---ITVNTELAKACGIKLASDTPNEQANHNEANGRDKPKSTPKPGIWVNSSLQTSDENIFAIGDCTYHHNPHYDRMIRLESVQNAVEQAKVAAKVI</Hsp_hseq>
+      <Hsp_midline>VVI+G G  G+E A  L+  G    + L  +  ++     PL   +           L   +       +L+     + +N D+      ++  +DG +   D +V+  G   +  N ELA A G+++ +                        GI +N  +QTSD  I A+GDC   H+  YDR +R+ESV NA+EQA+  A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_080917427.1|</Hit_id>
+  <Hit_def>hypothetical protein [Shewanella japonica]</Hit_def>
+  <Hit_accession>WP_080917427</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>3.14897e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAE-----------SLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIP</Hsp_qseq>
+      <Hsp_hseq>NDTCVIIGASHGGVNLAFSLRKHGWQGNIILIDSDPNLPYHRPPLSKAFLLNHNVTECASHEIHLDPSSIQLKSPDSYRKQNITLKLGLTVTKINRNSKQVTLSNGSKQAYDKLVLATGARPFIP</Hsp_hseq>
+      <Hsp_midline>ND  VI+G    GV +AF LR  GW+GNI L+     +P+H PPLSKA+L      E           S+ L++PD+Y  QNI L  G  VT INR+ +QV LS+G    YD+LVLATG RP IP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.64128e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDR-----QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDN------------------------GIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAIL</Hsp_qseq>
+      <Hsp_hseq>VVIIGGGYVGLETASSLKKLGATVTV-LEREPRILARVTAPLMSEFFTQ--------LHQENQVEVLTDKLVQQISTSNLNNDKNMPLAHKITCADGSSYIADVIVIGVG---ITVNTELAKACGIKLASDTPNEQANHNEANGRDKPKSTPKPGIWVNSSLQTSDENIFAIGDCTYHHNPHYDRMIRLESVQNAVEQAKVAAKVI</Hsp_hseq>
+      <Hsp_midline>VVI+G G  G+E A  L+  G    + L  +  ++     PL   +           L   +       +L+     + +N D+      ++  +DG +   D +V+  G   +  N ELA A G+++ +                        GI +N  +QTSD  I A+GDC   H+  YDR +R+ESV NA+EQA+  A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|PKO39312.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Betaproteobacteria bacterium HGW-Betaproteobacteria-6] &gt;gb|PKO62713.1| pyridine nucleotide-disulfide oxidoreductase [Betaproteobacteria bacterium HGW-Betaproteobacteria-18] &gt;gb|PKO91435.1| pyridine nucleotide-disulfide oxidoreductase [Betaproteobacteria bacterium HGW-Betaproteobacteria-10]</Hit_def>
+  <Hit_accession>PKO39312</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>4.26925e-27</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP-LIPNCELASAAGLQ-VDNGIVINEHMQTSD</Hsp_qseq>
+      <Hsp_hseq>IVIVGAGQAGLQVAESLRSEGWEGDIILLGDEPHAPYHRPPLSKAYLLGEATAEQLTMRGPEALARKNISLRTGICVDHIDRSGRELHFSHGSSLPYHRLVLATGARARTLPGADLAGVFGLRGFDDCRQIGAALETAE</Hsp_hseq>
+      <Hsp_midline>+VIVG G AG++VA  LR+ GWEG+I L+GD    P+H PPLSKAYL G+ATAE L +R P+A A +NI L  G  V  I+R  +++  S G +L Y RLVLATG R   +P  +LA   GL+  D+   I   ++T++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.17152e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>DNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAY--LAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWV-RIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>ENVTVIGGGFIGLEFAAVARKKGKTVTVLEAGERLMARAVSPFISEWYAQLHARHGVDIVLRAELSAFAGEN------GRIATVNR-------KNGPKLKSDLVVLGVG---VIANDQLAAAAGLPVDRGVIVDACGRTTDPAIFAAGDCT--ATCLADGSLRRLESVQNAVEQGKAVAAAILGK</Hsp_hseq>
+      <Hsp_midline>+NV ++G G  G+E A   R  G    +   G+  +     P +S+ Y  L  +   + +      A+A +N       ++  +NR        +G  L  D +VL  G   +I N +LA+AAGL VD G++++   +T+DP I A GDC    + L D  + R+ESV NA+EQ + +AA + GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_064301337.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas putida] &gt;gb|OAI94764.1| pyridine nucleotide-disulfide oxidoreductase [Pseudomonas putida]</Hit_def>
+  <Hit_accession>WP_064301337</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>5.8166e-27</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>VIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPL---IPNCELASAAG</Hsp_qseq>
+      <Hsp_hseq>IIVGAGHAAGELATSLRDQGWQGRIVLIGEELHLPYHRPPLSKAYLCGAVTAQSLLIKPRATYDKANVEIISGVRVTRIDRDASLVHLADGRTAHYDRLILATGGRPRPLPIPRIEQAEASG</Hsp_hseq>
+      <Hsp_midline>+IVG G A  E+A  LR  GW+G I L+G+   +P+H PPLSKAYL G  TA+SL ++    Y   N++++ G +VT I+RD   V L+DGR   YDRL+LATGGRP    IP  E A A+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.68207e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQL-LGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>RLVIVGGGYIGLEVAAVAVERGLKVTVLEALPRVLARVTA-----PELSAFYEARHRQA-GVVIRTDTQ--VRDVQLDPSGDAVCA-------VLCADGSSVAADLVVVGIG---LLPNVELAVEAGLEVENGILVDAFGQTSDPRIHAAGDCTNHPNPLLGRRLRLESVPNALEQARCVAATLCGK</Hsp_hseq>
+      <Hsp_midline> +VIVG G  G+EVA      GL+ +  E   R++   T      P LS  Y A    A  + +RT      +++QL   G  V A       V+ +DG ++  D +V+  G   L+PN ELA  AGL+V+NGI+++   QTSDP I A GDC    + L  R +R+ESVPNALEQAR +AA LCGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_043311352.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas sp. ML96]</Hit_def>
+  <Hit_accession>WP_043311352</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>7.29314e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP---LIPNC</Hsp_qseq>
+      <Hsp_hseq>ASSTAIIIGAGHAGGELAIALRNEGWEGRILLLGEETHLPYHRPPLSKAYLAGSVEKSSLSIRPQMAYDKANVEFFGGVRVTRIDRANKLLELADGKQLAYDKLAIATGGRPRPLAVPNA</Hsp_hseq>
+      <Hsp_midline>A+   +I+G G AG E+A  LR  GWEG I L+G+ T +P+H PPLSKAYLAG     SL +R   AY   N++  GG +VT I+R  + + L+DG+ L YD+L +ATGGRP    +PN </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>8.13204e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQV---ILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>AGKRLAIVGGGYIGLEVAAAAIAQGLQVTV-----LETLPRVLQRVTAAEL-------SAYYERKHREAGVDIRT--GVQVADLEVSGEAVSAVLCADGSRLETDLVVVGIG---LIANTELAAEAGLQVDNGILVDECARTSDPDIFAAGDCTNHPNALLGRRLRLESVPNALEQSRAAAANMAGK</Hsp_hseq>
+      <Hsp_midline>A   + IVG G  G+EVA    A G +  +        +P  L  ++ A L       S Y       A  +I+   G QV  +    + V   + +DG  L+ D +V+  G   LI N ELA+ AGLQVDNGI+++E  +TSDP I A GDC    + L  R +R+ESVPNALEQ+R  AA + GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_014338806.1|</Hit_id>
+  <Hit_def>MULTISPECIES: pyridine nucleotide-disulfide oxidoreductase [Pseudomonas] &gt;gb|AEV63384.1| EthA [Pseudomonas fluorescens F113] &gt;gb|AUO47238.1| NADH:flavorubredoxin reductase NorW [Pseudomonas fluorescens] &gt;gb|KHK66624.1| pyridine nucleotide-disulfide oxidoreductase [Pseudomonas frederiksbergensis] &gt;gb|PMU92516.1| NADH:flavorubredoxin reductase NorW [Pseudomonas sp. GW704-F3] &gt;gb|PMU95701.1| NADH:flavorubredoxin reductase NorW [Pseudomonas sp. GW704-F5] &gt;gb|PMV06915.1| NADH:flavorubredoxin reductase NorW [Pseudomonas sp. MPBD4-3] &gt;gb|PMV33976.1| NADH:flavorubredoxin reductase NorW [Pseudomonas sp. GW704-F2] &gt;gb|RTY63183.1| pyridine nucleotide-disulfide oxidoreductase [Pseudomonas veronii]</Hit_def>
+  <Hit_accession>WP_014338806</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>8.3114e-27</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGG--RPL-IPNCELASAAGLQ</Hsp_qseq>
+      <Hsp_hseq>SVVIVGAGQAGFQVAASLRQEGYDGRITLIGDEPGLPYQRPPLSKAYLLGKIQATNLLFRPADFYATQRIELL-HDQVSAIDRQNQRVILASGAAVSYDHLVLATGAHNRPLPVPGAELAQVFGIK</Hsp_hseq>
+      <Hsp_midline>+VVIVG G AG +VA  LR  G++G I L+GD   +P+  PPLSKAYL GK  A +L  R  D YA Q I+LL   QV+AI+R  Q+VIL+ G A+ YD LVLATG   RPL +P  ELA   G++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.31976e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYD-RWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>KAARNVVVIGAGFIGLEFAAVAAALGASVHVLELGER--------PMARAV---SREMSAVFRQAHEAWGVHFDFRQGLSRIDGDNGKVCAVQTGDGRVLPADLVVFGIG---VIPNAQLATEAGLDIENGIKVDASLLTSDPRISAVGDVASFPCQQNDEQHTRLESVQNAVDQARAVVARLMGK</Hsp_hseq>
+      <Hsp_midline> A  NVV++G G  G+E A    A G   ++  +G+         P+++A         +++ +  +A+        G +++   N     V   DGR L  D +V   G   +IPN +LA+ AGL ++NGI ++  + TSDP I AVGD A F  Q  D +  R+ESV NA++QAR + A L GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_029922333.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Nevskia soli]</Hit_def>
+  <Hit_accession>WP_029922333</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>9.839e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLI---PNCELASAAGLQ</Hsp_qseq>
+      <Hsp_hseq>ATQTIVIVGAGQAGGETASELRKQGFTGRIVLVGEETHVPYRRPPLSKAYLSGTATEESLYILPPAGLEKARIEFIGGVRAERIDRATKQLHLSDGRVLDYDKLVLATGGRARVLSLPGAERANVFPLR</Hsp_hseq>
+      <Hsp_midline>A   +VIVG G AG E A  LR  G+ G I LVG+ T +P+  PPLSKAYL+G AT ESLY+  P       I+ +GG +   I+R  +Q+ LSDGR LDYD+LVLATGGR  +   P  E A+   L+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>5.709e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVA-----FGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDR--QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>SAVIIGGGFIGLEVAAVAIKLGMKVTVLEGLPRVLARVTV-----PEVSTFF-------ERIHREA-------GVDLRTGVQITAFEGEPLVTHVLLGDGSRIAAD-FILAGIGQ--VPNVELAQQAGLAVDNGIVVDEYSRTADPDIYAAGDCANHPNEFYGCRLRLESVQNAMEQGRVVAAGLLGK</Hsp_hseq>
+      <Hsp_midline>+ VI+G G  G+EVA      G++ +  EG  R++   TV     P +S  +       E ++           + L  G Q+TA   +     V+L DG  +  D  +LA  G+  +PN ELA  AGL VDNGIV++E+ +T+DP I A GDCA   ++ Y   +R+ESV NA+EQ R +AA L GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_118502381.1|</Hit_id>
+  <Hit_def>NAD(P)/FAD-dependent oxidoreductase [Aquimarina sp. AD10] &gt;gb|AXT60503.1| NAD(P)/FAD-dependent oxidoreductase [Aquimarina sp. AD10] &gt;gb|RKM96989.1| NAD(P)/FAD-dependent oxidoreductase [Aquimarina sp. AD10]</Hit_def>
+  <Hit_accession>WP_118502381</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.33944e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPN</Hsp_qseq>
+      <Hsp_hseq>NKTCVVIGASHAGVNFAFALRKEGWQGKIILFDKDPTLPYHRPPLSKAYLTSKDAIEKNVLKSQESYEKDNIILQLGTEVSSINRLKKTIVLHDGTTQSYDKLVLATGARPIIPS</Hsp_hseq>
+      <Hsp_midline>N   V++G   AGV  AF LR  GW+G I L      +P+H PPLSKAYL  K   E   L++ ++Y   NI L  GT+V++INR ++ ++L DG    YD+LVLATG RP+IP+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.81087e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDR--QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>VVIIGGGYIGLEAAASLKKLGATVTILEREDRILARVTTPEMSTFF--------------EDLHSNNGVIIHTNKNVISIKTSEGLNTIICEDNSTFKSDMIIVGVG---IKVNIELARDSGLDINNGVSVDSTTQTNDENIYAIGDCTFHYNTHYDRFVRLESVQNAVDQAKVAAAAICGK</Hsp_hseq>
+      <Hsp_midline>VVI+G G  G+E A  L+  G    I    D  +     P +S  +               D ++   + +     V +I        +I  D      D +++  G   +  N ELA  +GL ++NG+ ++   QT+D  I A+GDC   ++  YDR+VR+ESV NA++QA+  AA +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_047542198.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas simiae]</Hit_def>
+  <Hit_accession>WP_047542198</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.35118e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPL---IPNCELASAAG</Hsp_qseq>
+      <Hsp_hseq>NLMPTAVVIGAGHAAGELVTRLRDHGWTGGIILIGDEPSLPYHRPPLSKDYLSGLCTAASLLIKSPEAYAKAGIQVITGTRVLRIDRQAKLAHLSDGRTIGYDKLALTTGGRPRPLSVPNTERAAQAG</Hsp_hseq>
+      <Hsp_midline>N     V++G G A  E+   LR  GW G I L+GD   +P+H PPLSK YL+G  TA SL +++P+AYA   IQ++ GT+V  I+R  +   LSDGR + YD+L L TGGRP    +PN E A+ AG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.2069e-20</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVA-----FGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQL-LGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>LVIVGGGYIGLEVAAVAIKLGLQVTVLEAFPRVLARVTA-----PELS-AFYERKHREAGVDIRT--GVVVSDLEMDPSGDAVSA-------VLCADGTRIPADVVVVGIG---LIPNTELAEAAGLAVDNGILVNEYAQTGDPDIYAAGDCTNHPNDRLGRRLRLESVPNALEQARTAAAAICGQ</Hsp_hseq>
+      <Hsp_midline>+VIVG G  G+EVA      GL+ +  E   R++   T      P LS A+   K     + +RT       ++++   G  V+A       V+ +DG  +  D +V+  G   LIPN ELA AAGL VDNGI++NE+ QT DP I A GDC    +    R +R+ESVPNALEQAR  AA +CG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_066319487.1|</Hit_id>
+  <Hit_def>NAD(P)/FAD-dependent oxidoreductase [Aquimarina aggregata] &gt;gb|KZS38435.1| pyridine nucleotide-disulfide oxidoreductase [Aquimarina aggregata]</Hit_def>
+  <Hit_accession>WP_066319487</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.35326e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPN</Hsp_qseq>
+      <Hsp_hseq>NKTCVVIGASHAGVNFAFALRKEGWQGKIILFDKDPTLPYHRPPLSKAYLTSKDAIEKNVLKSQESYEKDNIILQLGTEVSSINRLKKTIVLHDGTTQSYDKLVLATGARPIIPS</Hsp_hseq>
+      <Hsp_midline>N   V++G   AGV  AF LR  GW+G I L      +P+H PPLSKAYL  K   E   L++ ++Y   NI L  GT+V++INR ++ ++L DG    YD+LVLATG RP+IP+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>1.33103e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDR--QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>VVIIGGGYIGLEAAASLKKLGATVTILEREDRILARVTTPEMSTFF--------------EDLHSNNGVEIHTNKNVISIKTSEGLNTIICEDNSTFKSDMIIVGVG---IKVNIELARDAGLDINNGVSVDSTTQTNDENIYAIGDCTFHYNTHYDRFVRLESVQNAVDQAKVAAAAICGK</Hsp_hseq>
+      <Hsp_midline>VVI+G G  G+E A  L+  G    I    D  +     P +S  +               D ++   +++     V +I        +I  D      D +++  G   +  N ELA  AGL ++NG+ ++   QT+D  I A+GDC   ++  YDR+VR+ESV NA++QA+  AA +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_092412333.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas sp. NFACC07-1] &gt;emb|SEI51562.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC07-1]</Hit_def>
+  <Hit_accession>WP_092412333</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.51282e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPL---IPNCELASAAG</Hsp_qseq>
+      <Hsp_hseq>NLMPTAVVIGAGHAAGELVTSLRDHGWTGEIILIGDEQSLPYHRPPLSKAYLSGLSTAASLLIKSAEAYEKAGIQVITGTRVLRIDRQAKLVHLSDGRIIGYDKLALTTGGRPRPLSVPNAERAEQAG</Hsp_hseq>
+      <Hsp_midline>N     V++G G A  E+   LR  GW G I L+GD   +P+H PPLSKAYL+G +TA SL +++ +AY    IQ++ GT+V  I+R  + V LSDGR + YD+L L TGGRP    +PN E A  AG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.07312e-21</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVA-----FGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQ-----QVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>LVIVGGGYIGLEVAAVAIKLGLQVTVLEAFPRVLARVTA-----PELS-AFYERKHSEAGVDIRT-------------GVVVSGLEMDSSGDAVSAVLCADGSRIPADVVVVGIG---LIPNTELAQAAGLAVDNGVLVNEYAQTSDPDIYAAGDCTNHPNDRLGRRLRLESVPNALEQARTAAAAICGQ</Hsp_hseq>
+      <Hsp_midline>+VIVG G  G+EVA      GL+ +  E   R++   T      P LS A+   K +   + +RT             G  V+ +  D        V+ +DG  +  D +V+  G   LIPN ELA AAGL VDNG+++NE+ QTSDP I A GDC    +    R +R+ESVPNALEQAR  AA +CG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_005978350.1|</Hit_id>
+  <Hit_def>PREDICTED: uncharacterized protein LOC102321308 [Pantholops hodgsonii]</Hit_def>
+  <Hit_accession>XP_005978350</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>3.81288e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>431</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPL---IPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAIL</Hsp_qseq>
+      <Hsp_hseq>SEQRVVIVGAGHAGGSAAAFLRQYGFAGPIVLIGEEPIPPYQRPPLSKAWLKGEADADSLALKPLEFYAEHGMDLRLNAVAVSINRGEQVVTLADGQTVPYDVLILATGARARKLPIPGAGLAGDA--------------RTADPHIFAIGDVAHRPLPLYDRMFRLESVPNALEQAKQAAAAI</Hsp_hseq>
+      <Hsp_midline>+   VVIVG G AG   A  LR  G+ G I L+G+  + P+  PPLSKA+L G+A A+SL L+  + YA   + L       +INR  Q V L+DG+ + YD L+LATG R     IP   LA  A              +T+DP I A+GD A     LYDR  R+ESVPNALEQA++ AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_043765541.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Algiphilus aromaticivorans]</Hit_def>
+  <Hit_accession>WP_043765541</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>5.19392e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGG--RPL-IPNCELAS</Hsp_qseq>
+      <Hsp_hseq>SASEHYVILGAGQAGAEVAASLRKKGFEGRITLVGEEPQPPYRRPPLSKAFLAGEAEEASLFVLKPEQMEKQRIDFIGGARATAIDRDASTVTLDDGRELRYDKLALTLGGRARPLPIPGADLAN</Hsp_hseq>
+      <Hsp_midline>+A+++ VI+G G AG EVA  LR  G+EG I LVG+    P+  PPLSKA+LAG+A   SL++  P+    Q I  +GG + TAI+RD   V L DGR L YD+L L  GG  RPL IP  +LA+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>2.48469e-17</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDR---QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>RLCIVGGGFIGLEVAAVARKLGLQVTVVETMERVLARVTAPVVSRFF-------ERIHREA-------GVDVRTGVAVEAFEGDDGAVQRVRLGDGSTLDTDLVIVGIG---LIPHSDLAEAAGLECDNGIVVNEYARTTDPDIVAAGDCANHPNRFAGGRTRLESVQNAMEQARVAAASMLGE</Hsp_hseq>
+      <Hsp_midline> + IVG G  G+EVA   R  G +  +    +  +     P +S+ +       E ++           + +  G  V A   D    Q+V L DG  LD D +++  G   LIP+ +LA AAGL+ DNGIV+NE+ +T+DP I+A GDCA   ++      R+ESV NA+EQAR  AA + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_068830602.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas sp. BMS12]</Hit_def>
+  <Hit_accession>WP_068830602</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>5.28487e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>EASSTAIIIGAGHAGGELAIALRNEGWAGRILLLGEEAHLPYHRPPLSKAYLAGSVEKSSLSIRPQAAYDKANVEFLAGVRVTRIDRANQRLELADGQQLAYDRLAIATGGRP</Hsp_hseq>
+      <Hsp_midline> A+   +I+G G AG E+A  LR  GW G I L+G+   +P+H PPLSKAYLAG     SL +R   AY   N++ L G +VT I+R  Q++ L+DG+ L YDRL +ATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>5.09247e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQL----LGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>SAGKRLTIVGGGYIGLEVAASAIAQGLQVTV-LEALPRVLQRVTAAELSAYYERKHREAGVDLRT-------NVQVADLEVTGETVTA-------VLCADGSRLETELVVVGIG---LIANTELAAEAGLEVDNGILVDEHARTSDPHIFAAGDCTNHPNGLLGRRLRLESVPNALEQSRVAAANMAGK</Hsp_hseq>
+      <Hsp_midline>+A   + IVG G  G+EVA    A G +  + L     V+         AY   K     + LRT       N+Q+    + G  VTA       V+ +DG  L+ + +V+  G   LI N ELA+ AGL+VDNGI+++EH +TSDP I A GDC    + L  R +R+ESVPNALEQ+R  AA + GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_107749102.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Dietzia psychralcaliphila] &gt;gb|AWH95851.1| pyridine nucleotide-disulfide oxidoreductase [Dietzia psychralcaliphila] &gt;gb|PTM85667.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Dietzia psychralcaliphila]</Hit_def>
+  <Hit_accession>WP_107749102</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>5.77277e-26</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>NVVIIGAGYIGLEAAASLRTLGGTSVTVLESAQRVLQRVTAPEVSAFYARVHSEEGVELRTDVTVAA----IEGDDRVRGVR-------LADGELLDADLVIVGIG---VVPNTELAEAAGLAVDNGIAIDGSGLTSDPDIVAAGDCASFYSPRYERHVRLESVPNAGEHAKVAAATMCGK</Hsp_hseq>
+      <Hsp_midline>NVVI+G G  G+E A  LR  G      L     V+     P   A+ A   + E + LRT    AA    + G  +V  +        L+DG  LD D +++  G   ++PN ELA AAGL VDNGI I+    TSDP I+A GDCA F+S  Y+R VR+ESVPNA E A+  AA +CGK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>4.9476e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>SDRAIVIGASHAGAQLCASLRQEGWVGEILLIGDEPTLPYHRPPLSKTYLSGTSSLDDLLIRPPDYYEKQGITLRHA-RVTALDRQARSITLSDGEEIGYATLALCLGARP</Hsp_hseq>
+      <Hsp_midline>+D  +++G   AG ++   LR  GW G I L+GD   +P+H PPLSK YL+G ++ + L +R PD Y  Q I L    +VTA++R  + + LSDG  + Y  L L  G RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_061905097.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas alcaligenes] &gt;gb|AMR67955.1| pyridine nucleotide-disulfide oxidoreductase [Pseudomonas alcaligenes]</Hit_def>
+  <Hit_accession>WP_061905097</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>6.23486e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPL---IPNCELAS</Hsp_qseq>
+      <Hsp_hseq>ASSTAIIIGAGHAGGELTIALRNEGWEGRILLLGEEAHLPYHRPPLSKAYLAGSVEKSSLSIRPQMAYDKANVDFIGGVRVSRIDRANQRLELADGSQLAYDRLAIATGGRPRPLSVPNAAVAE</Hsp_hseq>
+      <Hsp_midline>A+   +I+G G AG E+   LR  GWEG I L+G+   +P+H PPLSKAYLAG     SL +R   AY   N+  +GG +V+ I+R  Q++ L+DG  L YDRL +ATGGRP    +PN  +A </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.23911e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>LAIVGGGYIGLEVAASAIAQGLQVTV-LEALPRVLQRVTAAELSAYYERKHREAGVDIRT--GVQVADLEVTGDT-VTA-------VLCADGSRLAADLVVVGIG---LLANTELAAEAGLQVDNGILVDEHAQTSDPHIYAAGDCTNHPNALLGRRLRLESVPNALEQSRVAAANMAGK</Hsp_hseq>
+      <Hsp_midline>+ IVG G  G+EVA    A G +  + L     V+         AY   K     + +RT       ++++ G T VTA       V+ +DG  L  D +V+  G   L+ N ELA+ AGLQVDNGI+++EH QTSDP I A GDC    + L  R +R+ESVPNALEQ+R  AA + GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_076427764.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas alcaligenes] &gt;emb|SIQ72435.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas alcaligenes]</Hit_def>
+  <Hit_accession>WP_076427764</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>6.29911e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPL---IPNCELAS</Hsp_qseq>
+      <Hsp_hseq>ASSTAIIIGAGHAGGELAVALRNEGWEGRILLLGEEAHLPYHRPPLSKAYLAGSVEKSSLAIRPLAAYERANVEFMAGVRVVRIDRANQRLELADGAQLSYDRLAIATGGRPRPLSVPNAAVAE</Hsp_hseq>
+      <Hsp_midline>A+   +I+G G AG E+A  LR  GWEG I L+G+   +P+H PPLSKAYLAG     SL +R   AY   N++ + G +V  I+R  Q++ L+DG  L YDRL +ATGGRP    +PN  +A </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.5759e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>LAIVGGGYIGLEAAASAVAQGLQVTV-LEALPRVLQRVTAAELSAYYERKHREAGVDIRTGVQVADLEVE---GDAVTA-------VLYADGSRLAADLVVVGIG---LIANTELAAEAGLQVDNGILVDEHAQTSDPHIYAAGDCTNHPNALLGRRLRLESVPNALEQSRVAAANMAGK</Hsp_hseq>
+      <Hsp_midline>+ IVG G  G+E A    A G +  + L     V+         AY   K     + +RT    A   ++   G  VTA       V+ +DG  L  D +V+  G   LI N ELA+ AGLQVDNGI+++EH QTSDP I A GDC    + L  R +R+ESVPNALEQ+R  AA + GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_116509089.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Streptomyces sp. AcE210] &gt;gb|RFC71911.1| pyridine nucleotide-disulfide oxidoreductase [Streptomyces sp. AcE210]</Hit_def>
+  <Hit_accession>WP_116509089</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>6.60195e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQ</Hsp_qseq>
+      <Hsp_hseq>ATDSVVVVGAGQAGLETAAALRGRGYEGRITLVGDEPSGPCDRPPLSKGYLAGTVPAADIALRPPSFYAAQDIELLSGDRVASVDRERRTVLLESGLRLPYGALVLATGCRPRTLPVPGASLTGVLTLRGLADAEDLR</Hsp_hseq>
+      <Hsp_midline>A D+VV+VG G AG+E A  LR  G+EG I LVGD    P   PPLSK YLAG   A  + LR P  YAAQ+I+LL G +V +++R+R+ V+L  G  L Y  LVLATG RP       AS  G+    G+   E ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>4.55348e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAY---LAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRD---RQQVI-LSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>SVVVVGAGFIGLEVAATARGLGH--------DVTVVEAQPRALARALTPQMSAQVVAE---------HRAQGVRMLLGREVSALYGDAEGRVQVMELADGERMAADLVVVGVG---VLPNTRLALTADLVVGDGIVVDERLRTEDPDIYAVGDCARFPSPHAGRYLRLESVQNATDQARCVAAAICGE</Hsp_hseq>
+      <Hsp_midline>+VV+VG G  G+EVA   R  G         D TV+      L++A    ++ +  AE         + AQ +++L G +V+A+  D   R QV+ L+DG  +  D +V+  G   ++PN  LA  A L V +GIV++E ++T DP I AVGDCARF S    R++R+ESV NA +QAR +AA +CG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|AAA25761.1|</Hit_id>
+  <Hit_def>cytochrome P-450-camA (gtg start codon), partial [Pseudomonas putida] &gt;prf||1311329A putidaredoxin reductase [Pseudomonas putida]</Hit_def>
+  <Hit_accession>AAA25761</Hit_accession>
+  <Hit_len>51</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>6.74377e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKA</Hsp_qseq>
+      <Hsp_hseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKA</Hsp_hseq>
+      <Hsp_midline>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_029894353.1|</Hit_id>
+  <Hit_def>MULTISPECIES: pyridine nucleotide-disulfide oxidoreductase [Nocardia]</Hit_def>
+  <Hit_accession>WP_029894353</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>7.13118e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>SSRRALIVGTGHAGVQLAASLRQEGWTGEIVLIGEESTLPYHRPPLSKAYLAGKSTLDGLAIRSAEFYAKQGIRLLAAT-VEAIDRSAGHLLLSTGDALPYDKLALCTGARP</Hsp_hseq>
+      <Hsp_midline>++   +IVGTG AGV++A  LR  GW G I L+G+ + +P+H PPLSKAYLAGK+T + L +R+ + YA Q I+LL  T V AI+R    ++LS G AL YD+L L TG RP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.18772e-23</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>VIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQ--QVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>VIVGGGYIGLETAASLRALGLEVTV-LEATERVLERVTAPQVSAFFARIHRESGVHIRT-------------GALVEALSGDSRVREVVLASGEAIPADLVIVGIG---VEPNTELAAAAGLAVDNGVVIDDQTRTSDPDIVAAGDCASHTMARYGRRIRLESVPSAGEQAKVAAATVCGK</Hsp_hseq>
+      <Hsp_midline>VIVG G  G+E A  LRA G E  + L     V+     P   A+ A       +++RT             G  V A++ D +  +V+L+ G A+  D +++  G   + PN ELA+AAGL VDNG+VI++  +TSDP I+A GDCA      Y R +R+ESVP+A EQA+  AA +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|OJV60537.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Hydrogenophaga sp. 70-12]</Hit_def>
+  <Hit_accession>OJV60537</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>7.44515e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNC</Hsp_qseq>
+      <Hsp_hseq>TSHKHLVIVGAGHAGSELAVSARQNGWPGRITLLGEESVLPYQRPPLSKAWLAGQVDADGLLLRPRSAYDTARIELMTGARLQAIDRANRRLVLADGSALAYDKLALCTGGRPRLLSC</Hsp_hseq>
+      <Hsp_midline> ++ ++VIVG G AG E+A   R +GW G I L+G+ +V+P+  PPLSKA+LAG+  A+ L LR   AY    I+L+ G ++ AI+R  ++++L+DG AL YD+L L TGGRP + +C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>6.25942e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQV---ILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>RVLIIGGGYVGLEVAASARGLG----------AEVTLLELQPRVLARVAGPEVS-AFYERV---HRAAGVDLRTGTELASVEVEDDRVRAAVCRDGARLPVDLVVAGLG---MLPNVEAARAAGLADEGGIAVDELSRTRDPDVLAAGDCTLQFSRLYGRELRIESVPNALEQARAAGSWLGGK</Hsp_hseq>
+      <Hsp_midline> V+I+G G  G+EVA   R  G          A V    L P   A +AG   + + Y R    + A  + L  GT++ ++  +  +V   +  DG  L  D +V   G   ++PN E A AAGL  + GI ++E  +T DP ++A GDC    S+LY R +RIESVPNALEQAR   + L GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_063321851.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas fluorescens] &gt;gb|AMZ71291.1| pyridine nucleotide-disulfide oxidoreductase [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>WP_063321851</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>8.06504e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NETAVIVGAGHAGAELVATLRQNGYPGRIILIGDEPELPYRRPPLSKTYLSGEASRESLLIRSAAAYDKLQVACWTGVQVCAIDRERRTVTLSDGRTQAYDKLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>N+  VIVG G AG E+   LR +G+ G I L+GD   +P+  PPLSK YL+G+A+ ESL +R+  AY    +    G QV AI+R+R+ V LSDGR   YD+LVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.15973e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>AGKRLLVIGGGYIGLEAASVGIKNGLQVTVLEAAPRVLARVAA------PEISAFYEGVHRRRGVDVRT-----ETSVQVFQGAERV------ESVQLSDGSELPVDLIIVGIG---ILPNDQLARDAGLEIDNGIVVDSYAQTLDPDILAVGDCARHVNGFLGCLIRIESVPSAQEQARTAAHTICGK</Hsp_hseq>
+      <Hsp_midline>A   ++++G G  G+E A      GL+ +  E   R++           P   A+  G      + +RT       ++Q+  G +        + V LSDG  L  D +++  G   ++PN +LA  AGL++DNGIV++ + QT DP I+AVGDCAR  +      +RIESVP+A EQAR  A  +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_106556888.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Variovorax sp. WS11] &gt;gb|PSL83569.1| pyridine nucleotide-disulfide oxidoreductase [Variovorax sp. WS11]</Hit_def>
+  <Hit_accession>WP_106556888</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>8.2906e-26</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>LVVIGAGHAGTELAVQAREAGWPGPIRLIGDETALPYHRPPLSKAYLAGTATLDSLHLKARATLEKAGVELLQGRRVQALDRAARRVAFEDGSSIDYARLALATGGRP</Hsp_hseq>
+      <Hsp_midline>+V++G G AG E+A   R +GW G IRL+GD T +P+H PPLSKAYLAG AT +SL+L+         ++LL G +V A++R  ++V   DG ++DY RL LATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>3.02172e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRD--RQQVI---LSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCG</Hsp_qseq>
+      <Hsp_hseq>RVAIVGGGYIGLEVAAVAIKAGLNVTVLEAAERVLARVTA-----PRVSSFY--------------EQVHREAGVDLRIGVQVDGFELDAARRRVIGVHCADGERLACDLVIVGIG---IVPNTELAAAAGLAVDDGIRIDACARTSDPHIVAAGDCTRFDSALYGRSVRLESVPSALEQARSAAAALLG</Hsp_hseq>
+      <Hsp_midline> V IVG G  G+EVA      GL  +  E   R++   T      P +S  Y                 +    + L  G QV     D  R++VI    +DG  L  D +++  G   ++PN ELA+AAGL VD+GI I+   +TSDP I+A GDC RF S LY R VR+ESVP+ALEQAR  AA L G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_092344523.1|</Hit_id>
+  <Hit_def>MULTISPECIES: pyridine nucleotide-disulfide oxidoreductase [Pseudomonas] &gt;emb|SCW31422.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC05-1] &gt;emb|SEI49523.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC07-1] &gt;emb|SFL07012.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC46-3]</Hit_def>
+  <Hit_accession>WP_092344523</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>8.40316e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NETAVIVGAGHAGAELVATLRQNGYPGRIILIGDEPELPYRRPPLSKTYLSGEASRESLLIRSAAAYDKLQVACWTGVQVCAIDRERRTVTLSDGRTQAYDKLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>N+  VIVG G AG E+   LR +G+ G I L+GD   +P+  PPLSK YL+G+A+ ESL +R+  AY    +    G QV AI+R+R+ V LSDGR   YD+LVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.14825e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>AGKRLLVIGGGYIGLEAASVGIKNGLQVTVLEAAPRVLARVAA------PEISAFYEGVHRRRGVDVRT-----ETSVQVFQGAERV------ESVQLSDGSELPVDLIIVGIG---ILPNDQLARDAGLEIDNGIVVDSYAQTLDPDILAVGDCARHVNGFLGCLIRIESVPSAQEQARTAAHTICGK</Hsp_hseq>
+      <Hsp_midline>A   ++++G G  G+E A      GL+ +  E   R++           P   A+  G      + +RT       ++Q+  G +        + V LSDG  L  D +++  G   ++PN +LA  AGL++DNGIV++ + QT DP I+AVGDCAR  +      +RIESVP+A EQAR  A  +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_092225422.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas sp. NFACC08-1] &gt;emb|SDY54590.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC08-1]</Hit_def>
+  <Hit_accession>WP_092225422</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>8.48988e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NETAVIVGAGHAGAELVATLRQNGYPGRIILIGDEPELPYRRPPLSKTYLSGEASRESLLIRSAAAYDKLQVACWTGVQVCAIDRERRTVTLSDGRTQAYDKLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>N+  VIVG G AG E+   LR +G+ G I L+GD   +P+  PPLSK YL+G+A+ ESL +R+  AY    +    G QV AI+R+R+ V LSDGR   YD+LVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.17134e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>AGKRLLVIGGGYIGLEAASVGIKNGLQVTVLEAAPRVLARVAA------PEISAFYEGVHRRRGVDVRT-----ETSVQVFQGAERV------ESVQLSDGSELPVDLIIVGIG---ILPNDQLARDAGLEIDNGIVVDSYAQTLDPDILAVGDCARHVNGFLGCLIRIESVPSAQEQARTAAHTICGK</Hsp_hseq>
+      <Hsp_midline>A   ++++G G  G+E A      GL+ +  E   R++           P   A+  G      + +RT       ++Q+  G +        + V LSDG  L  D +++  G   ++PN +LA  AGL++DNGIV++ + QT DP I+AVGDCAR  +      +RIESVP+A EQAR  A  +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|RZL82821.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Rhodococcus sp.]</Hit_def>
+  <Hit_accession>RZL82821</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>8.88943e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>SDRHLLVIGNGCGGTEAAFAARTSGWEGPITLLGDERFQPYHRPPLSKAYLKGEVAAESLHLRGAVAYEKNRITVHAGHHAREIDRKHRKVAMSDGTEIGYDELVLATGGRP</Hsp_hseq>
+      <Hsp_midline>++ +++++G G  G E AF  R SGWEG I L+GD    P+H PPLSKAYL G+  AESL+LR   AY    I +  G     I+R  ++V +SDG  + YD LVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>6.15043e-22</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQ---LLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>TVVIVGAGYIGLEVASAAVKAGM----------TVIV--LEAASRVLARVTAQPISEYYESVHREAGVNIVTDCLVEGLETTREGGRIEAVRCSDGTRLAADLVIVGIG---LIPNSELAEAAGLEVDDGIVVDDDLRTTDPHIMAVGDCVRQYSHLYDRYVRVESVPNALEQARNAAAALCDK</Hsp_hseq>
+      <Hsp_midline> VVIVG G  G+EVA     +G           TVI   L   S+      A   S Y  +    A  NI    L+ G + T      + V  SDG  L  D +++  G   LIPN ELA AAGL+VD+GIV+++ ++T+DP IMAVGDC R +S LYDR+VR+ESVPNALEQAR  AA LC K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_087276939.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Comamonas serinivorans] &gt;gb|ARU03743.1| pyridine nucleotide-disulfide oxidoreductase [Comamonas serinivorans]</Hit_def>
+  <Hit_accession>WP_087276939</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>9.51066e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>QDTLLVVGAGHAGAELALAARQAGWAGPIRLLGDEAELPYHRPPLSKAYLHGEASRESLLLRAQAAYEAARVQFEPGARVQALDTARRCVTLADGRELAYAELALCTGGRP</Hsp_hseq>
+      <Hsp_midline> D +++VG G AG E+A   R +GW G IRL+GD   +P+H PPLSKAYL G+A+ ESL LR   AY A  +Q   G +V A++  R+ V L+DGR L Y  L L TGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.90263e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQ----------QVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>RAGVRLVIVGGGYVGLELAASASKLGAQVTV-----LEAMPHVL---------ARVTSERVAHFYEAVHREAGVAVLTGFGVARVERAPDGGDVRTAAITAIVGADGRAVPADVVVVGIG---MLPNVELAQAAGLAVDGGIVVDEAGRSSAPHVWAAGDCTAQHSALYGRTLRLESVPNALEQARTVAAALAGK</Hsp_hseq>
+      <Hsp_midline> A   +VIVG G  G+E+A      G +  +        +PH L          + T+E +       +    + +L G  V  + R              ++ +DGRA+  D +V+  G   ++PN ELA AAGL VD GIV++E  ++S P + A GDC   HS LY R +R+ESVPNALEQAR +AA L GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_116960175.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Hydrogenophaga sp. LA-38] &gt;gb|RFP77326.1| pyridine nucleotide-disulfide oxidoreductase [Hydrogenophaga sp. LA-38]</Hit_def>
+  <Hit_accession>WP_116960175</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>1.07638e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>NANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNC</Hsp_qseq>
+      <Hsp_hseq>TSHKHLVIVGAGHAGSELAVSARQNGWAGRITLLGEESVLPYQRPPLSKAWLAGQVDADGLLLRPRSAYDAARVELMTGARMQAIDRASRRLVLADGSALAYDKLALCTGGRPRPLSC</Hsp_hseq>
+      <Hsp_midline> ++ ++VIVG G AG E+A   R +GW G I L+G+ +V+P+  PPLSKA+LAG+  A+ L LR   AY A  ++L+ G ++ AI+R  ++++L+DG AL YD+L L TGGRP   +C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>4.28849e-17</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAIN--RDR-QQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>RVLIIGGGYVGLEVAASARGLG----------AEVTLLELQPRVLARVAGPDVS-AFYERV---HRAAGVDLRTGTELASVEVEDDRVRAVVCRDGARLPVDLVVAGLG---MLANVEAARAAGLAQEGGIAVDEFSRTRDPDVLAAGDCTLQFSSLYGRELRIESVPNALEQARAAGSWLGGK</Hsp_hseq>
+      <Hsp_midline> V+I+G G  G+EVA   R  G          A V    L P   A +AG   + + Y R    + A  + L  GT++ ++    DR + V+  DG  L  D +V   G   ++ N E A AAGL  + GI ++E  +T DP ++A GDC    S LY R +RIESVPNALEQAR   + L GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_021702636.1|</Hit_id>
+  <Hit_def>ferredoxin reductase [Pseudomonas alcaligenes] &gt;dbj|GAD64555.1| putative ferredoxin reductase [Pseudomonas alcaligenes NBRC 14159] &gt;emb|SUD18391.1| aromatic hydrocarbons catabolism-related reductase [Pseudomonas alcaligenes]</Hit_def>
+  <Hit_accession>WP_021702636</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.38659e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPL---IPNCELAS</Hsp_qseq>
+      <Hsp_hseq>ASSTAIIIGAGHAGGELAIALRNEGWEGRILLLGEEAHLPYHRPPLSKAYLAGSVEKSSLSIRPQMAYDKANVEFIGSVRVSRIDRANQRLELADGSQLAYDKLAIATGGRPRPLSVPNAAVAE</Hsp_hseq>
+      <Hsp_midline>A+   +I+G G AG E+A  LR  GWEG I L+G+   +P+H PPLSKAYLAG     SL +R   AY   N++ +G  +V+ I+R  Q++ L+DG  L YD+L +ATGGRP    +PN  +A </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.1298e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>LAIVGGGYIGLEVAASAIAQGLQVTV-LEALPRVLQRVTAAELSAYYERKHREAGVDIRT--GVQVADLEVTGDT-VTA-------VLCADGSRLAADLVVVGIG---LLANTELAAEAGLQVDNGILVDEHAQTSDPHIYAAGDCTNHPNALLGRRLRLESVPNALEQSRVAAANMAGK</Hsp_hseq>
+      <Hsp_midline>+ IVG G  G+EVA    A G +  + L     V+         AY   K     + +RT       ++++ G T VTA       V+ +DG  L  D +V+  G   L+ N ELA+ AGLQVDNGI+++EH QTSDP I A GDC    + L  R +R+ESVPNALEQ+R  AA + GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|OGA58417.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Burkholderiales bacterium RIFCSPHIGHO2_01_FULL_64_960]</Hit_def>
+  <Hit_accession>OGA58417</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.39232e-25</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>VVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCE</Hsp_qseq>
+      <Hsp_hseq>LLIVGAGHAGSELAVAARQGGWTGRIVLLGDERVVPYQRPPLSKAYLLGKSDVEALALRPATAYQAARVELLQGARLTAIDRAARTVTLADGATLHYDKLALCTGGRPRPFVCE</Hsp_hseq>
+      <Hsp_midline>++IVG G AG E+A   R  GW G I L+GD  V+P+  PPLSKAYL GK+  E+L LR   AY A  ++LL G ++TAI+R  + V L+DG  L YD+L L TGGRP    CE</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>4.25516e-14</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>IQLLGGTQVTAINRDRQQVI---LSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>VEILTGAGVERVTCEDGRIVAVHCSNGQRVPADLVVAGIG---MLPNIEAAVAAGLAGEGGIPVDELARTADPDIVAAGDNTLQHHALYNRELRLESVPNALEQARAAASWLCGK</Hsp_hseq>
+      <Hsp_midline>+++L G  V  +  +  +++    S+G+ +  D +V   G   ++PN E A AAGL  + GI ++E  +T+DP I+A GD    H  LY+R +R+ESVPNALEQAR  A+ LCGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_093224102.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas vancouverensis] &gt;gb|TDB64773.1| pyridine nucleotide-disulfide oxidoreductase [Pseudomonas vancouverensis] &gt;emb|SDV10142.1| Reductase C-terminal [Pseudomonas vancouverensis]</Hit_def>
+  <Hit_accession>WP_093224102</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.60413e-25</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGG--RPL-IPNCELASAAGLQV</Hsp_qseq>
+      <Hsp_hseq>SVVIVGAGQAGFQVATSLRQEGYEGRITLIGDEPGLPYQRPPLSKAYLLGKIQDTNLLFRPADFYTAQRIDLL-HDQVTAIDRQNRRVVLASGDAINYDHLVLATGAHNRPLPVPGAELPQVFGIKT</Hsp_hseq>
+      <Hsp_midline>+VVIVG G AG +VA  LR  G+EG I L+GD   +P+  PPLSKAYL GK    +L  R  D Y AQ I LL   QVTAI+R  ++V+L+ G A++YD LVLATG   RPL +P  EL    G++ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>9.74834e-14</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAE--SLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHS-QLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>NVVVIGAGFIGLE--FAAVAAALGANV-----------HVLELAERPMARAVSREMSELFRQAHEQWGVHFDFREGLSRIDGDNGKVCAVQTADGRALPADLVVFGIG---VIPNAQLATEAGLAIENGIKVDANLLTSDPRISALGDVANFPCLQNDEKHTRLESVQNAVDQARAVAARLMGK</Hsp_hseq>
+      <Hsp_midline>NVV++G G  G+E  F   A+    N+           H+  L++  +A   + E   L+ +  + +        G +++   N     V  +DGRAL  D +V   G   +IPN +LA+ AGL ++NGI ++ ++ TSDP I A+GD A F   Q  ++  R+ESV NA++QAR +AA L GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_072339411.1|</Hit_id>
+  <Hit_def>MULTISPECIES: pyridine nucleotide-disulfide oxidoreductase [Pseudomonas] &gt;emb|SDB10369.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC17-2] &gt;emb|SEI91964.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC23-1] &gt;emb|SFW18884.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC16-2]</Hit_def>
+  <Hit_accession>WP_072339411</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.77741e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NETAVIVGAGHAGAELVATLRQNGYPGRIILIGDEPELPYRRPPLSKTYLSGEASRESLLIRSAAAYDKLQVACWTGVQVCAIDRERRIVTLSDGRTQAYDKLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>N+  VIVG G AG E+   LR +G+ G I L+GD   +P+  PPLSK YL+G+A+ ESL +R+  AY    +    G QV AI+R+R+ V LSDGR   YD+LVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.19489e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>AGKRLLVIGGGYIGLEAASVGIKNGLQVTVLEAAPRVLARVAA------PEISAFYEGVHRRRGVDVRT-----ETSVQVFQGAERV------ESVQLSDGSELPVDLIIVGIG---ILPNDQLARDAGLEIDNGIVVDSYAQTLDPDILAVGDCARHVNGFLGCLIRIESVPSAQEQARTAAHTICGK</Hsp_hseq>
+      <Hsp_midline>A   ++++G G  G+E A      GL+ +  E   R++           P   A+  G      + +RT       ++Q+  G +        + V LSDG  L  D +++  G   ++PN +LA  AGL++DNGIV++ + QT DP I+AVGDCAR  +      +RIESVP+A EQAR  A  +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_092455018.1|</Hit_id>
+  <Hit_def>pyridine nucleotide-disulfide oxidoreductase [Pseudomonas sp. NFACC45] &gt;emb|SFG90955.1| 3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase subunit [Pseudomonas sp. NFACC45]</Hit_def>
+  <Hit_accession>WP_092455018</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.89023e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>NDNVVIVGTGLAGVEVAFGLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRP</Hsp_qseq>
+      <Hsp_hseq>NETAVIVGAGHAGAELVATLRQNGYPGRIILIGDEPELPYRRPPLSKTYLSGEASRESLLIRSAAAYDKLQVACWTGVQVCAIDRERRIVTLSDGRTQAYDKLVLATGGRP</Hsp_hseq>
+      <Hsp_midline>N+  VIVG G AG E+   LR +G+ G I L+GD   +P+  PPLSK YL+G+A+ ESL +R+  AY    +    G QV AI+R+R+ V LSDGR   YD+LVLATGGRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.56326e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>ANDNVVIVGTGLAGVEVAF-----GLRASGWEGNIRLVGDATVIPHHLPPLSKAYLAGKATAESLYLRTPDAYAAQNIQLLGGTQVTAINRDRQQVILSDGRALDYDRLVLATGGRPLIPNCELASAAGLQVDNGIVINEHMQTSDPLIMAVGDCARFHSQLYDRWVRIESVPNALEQARKIAAILCGK</Hsp_qseq>
+      <Hsp_hseq>AGKRLLVIGGGYIGLEAASVGIKNGLQVTVLEAAPRVLARVAA------PEISAFYEGVHRRRGVDVRT-----ETSVQVFQGAERV------ESVQLSDGSELPVDLVIVGIG---ILPNDQLARDAGLEIDNGIVVDSYAQTLDPDILAVGDCARHVNGFLGCLIRIESVPSAQEQARTAAHTICGK</Hsp_hseq>
+      <Hsp_midline>A   ++++G G  G+E A      GL+ +  E   R++           P   A+  G      + +RT       ++Q+  G +        + V LSDG  L  D +++  G   ++PN +LA  AGL++DNGIV++ + QT DP I+AVGDCAR  +      +RIESVP+A EQAR  A  +CGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
