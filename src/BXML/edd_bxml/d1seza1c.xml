@@ -1,0 +1,2296 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_60459</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1seza1c</BlastOutput_query-def>
+  <BlastOutput_query-len>373</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_60459</Iteration_query-ID>
+  <Iteration_query-def>d1seza1c</Iteration_query-def>
+  <Iteration_query-len>373</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_001312887.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial [Nicotiana tabacum] &gt;ref|XP_009792271.1| PREDICTED: protoporphyrinogen oxidase, mitochondrial [Nicotiana sylvestris] &gt;ref|XP_009792272.1| PREDICTED: protoporphyrinogen oxidase, mitochondrial [Nicotiana sylvestris] &gt;sp|O24164.1| RecName: Full=Protoporphyrinogen oxidase, mitochondrial; AltName: Full=PX-2; AltName: Full=Protoporphyrinogen IX oxidase isozyme II; Short=PPO II; Short=PPX II [Nicotiana tabacum] &gt;gb|AAD02291.1| protoporphyrinogen oxidase PX-2 [Nicotiana tabacum] &gt;dbj|BAA34712.1| mitochondrial protoporphyrinogen oxidase [Nicotiana tabacum] &gt;emb|CAA73866.1| protoporphyrinogen oxidase [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>NP_001312887</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>653.67</Hsp_bit-score>
+      <Hsp_score>1685</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>4.9107e-26</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLYWSKAFPLYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_016496870.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016496870</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.744</Hsp_bit-score>
+      <Hsp_score>1680</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGMCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAG CGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>5.10632e-26</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLYWSKAFPLYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1SEZ|A</Hit_id>
+  <Hit_def>Chain A, Protoporphyrinogen Oxidase, Mitochondrial [Nicotiana tabacum] &gt;pdb|1SEZ|B Chain B, Protoporphyrinogen Oxidase, Mitochondrial [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>1SEZ_A</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>637.491</Hsp_bit-score>
+      <Hsp_score>1643</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTXTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQXLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSXHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGXQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIXTAPLCDVKSXKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANT TESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQ LLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLS HHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGG QTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVI TAPLCDVKS KIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>4.2306e-25</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLYWSKAFPLYGHNYDSVLDAIDKXEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDK EKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_009604234.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial [Nicotiana tomentosiformis]</Hit_def>
+  <Hit_accession>XP_009604234</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>637.491</Hsp_bit-score>
+      <Hsp_score>1643</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGRAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQLLLEPLLWKNKNLSKVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVIVGAIRSKLSPKKEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDTICKDLREDELRLNSRVLELSCSCNEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKGMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEG+AGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQ+LLEP+LWKNK LS+VSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVI+GAIRSKLSPK EKKQGPPKTSANKKRQRGSFSFLGGMQTLTD ICKDLREDELRLNSRVLELSCSC EDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVK MKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.51272e-24</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLYWSKAFPLYGHNYDSVLHAIDKMEKNLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLESVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVL AIDKMEKNLPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLESVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_016434987.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial-like isoform X1 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016434987</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.41</Hsp_bit-score>
+      <Hsp_score>1635</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGRAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQLLLEPLLWKNKNLSKVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPNSLSMHHSFPELWNLEKRFGSVIVGAIRSKLSPKKEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDTICKDLREDELRLNSRVLELSCSCNEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKGMKIAKRGNPFLLNFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEG+AGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQ+LLEP+LWKNK LS+VSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDP+SLSMHHSFPELWNLEKRFGSVI+GAIRSKLSPK EKKQGPPKTSANKKRQRGSFSFLGGMQTLTD ICKDLREDELRLNSRVLELSCSC EDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVK MKIAKRGNPFLLNF+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.54235e-24</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLYWSKAFPLYGHNYDSVLHAIDKMEKNLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLESVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVL AIDKMEKNLPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLESVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_019254867.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial [Nicotiana attenuata] &gt;gb|OIS98179.1| protoporphyrinogen oxidase, mitochondrial [Nicotiana attenuata]</Hit_def>
+  <Hit_accession>XP_019254867</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGRAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGSPVLLPSNPIDLFKSNFLSTGSKLQLLLEPLLWKNKNLSKVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVIVGAIRSKLSPKKEKKQGPPKTSANKKRQGGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCNEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKGMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEG+AGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNG+PVLLPSNPIDL KSNFLSTGSKLQ+LLEP+LWKNK LS+VSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVI+GAIRSKLSPK EKKQGPPKTSANKKRQ GSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSC EDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVK MKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.72883e-24</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLYWSKAFPLYGHNYDSVLHAIDKMEKNLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLESVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVL AIDKMEKNLPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLESVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|CAA12401.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, partial [Solanum tuberosum]</Hit_def>
+  <Hit_accession>CAA12401</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.92</Hsp_bit-score>
+      <Hsp_score>1587</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGRAGGKLRSLSQDGLIWDEGANTMTESEGDVTFLLDSLGLREKQQFPLSQNKRYIARNGTPTLIPSNPIDLIKSNFLSTGSKLQMLFEPLLWKNNKLTKVSDEHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHLSFPELWNLEKRFGSVIVGAIRSKLSPIKEKKQGPPKTSVNKKRQRGSFSFLGGMQTLTDAICKDLKEDELRLNSRVLELSCSCSGDSAIDSWSIFSASPHKRQAEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEG+AGGKLRS+SQDGLIWDEGANTMTESEGDVTFL+DSLGLREKQQFPLSQNKRYIARNGTP L+PSNPIDLIKSNFLSTGSKLQML EP+LWKN KL++VSD HESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMH SFPELWNLEKRFGSVI+GAIRSKLSP  EKKQGPPKTS NKKRQRGSFSFLGGMQTLTDAICKDL+EDELRLNSRVLELSCSC+ DSAIDSWSI SASPHKRQ+EEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_016570686.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial isoform X2 [Capsicum annuum]</Hit_def>
+  <Hit_accession>XP_016570686</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.068</Hsp_bit-score>
+      <Hsp_score>1577</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>SKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAKGKAGGKLQSVSQNGLVWDEGANTMTESEGDVTFLLDSLGLRDKQQFPLSQNKRYIARNGTPVLIPSNPIDLIKSNFLSTGSKLKMLLEPFLWKNNKLAKVSDKHESVGGFFERHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVIVGAIRSKLSPKKEKKQGPPKSSVNKKRQRGSFSFLGGMQTLTDAICKDLKEDELRLNSRVLELSCSCSGDSAMDSWSIFSASPHKRQAEEESFDAVIMTAPLCDIKSMKISKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>+KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEA+GKAGGKL+SVSQ+GL+WDEGANTMTESEGDVTFL+DSLGLR+KQQFPLSQNKRYIARNGTPVL+PSNPIDLIKSNFLSTGSKL+MLLEP LWKN KL++VSD HESV GFF+RHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVI+GAIRSKLSPK EKKQGPPK+S NKKRQRGSFSFLGGMQTLTDAICKDL+EDELRLNSRVLELSCSC+ DSA+DSWSI SASPHKRQ+EEESFDAVIMTAPLCD+KSMKI+KRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>6.62571e-25</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>411</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHVYWSKAFPLYGHNYDSVLDAIDKMEKNLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLESMT</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDKMEKNLPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLES++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_016570684.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial isoform X1 [Capsicum annuum] &gt;gb|PHT61246.1| Protoporphyrinogen oxidase, chloroplastic/mitochondrial [Capsicum annuum]</Hit_def>
+  <Hit_accession>XP_016570684</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>611.683</Hsp_bit-score>
+      <Hsp_score>1576</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>SKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAKGKAGGKLQSVSQNGLVWDEGANTMTESEGDVTFLLDSLGLRDKQQFPLSQNKRYIARNGTPVLIPSNPIDLIKSNFLSTGSKLKMLLEPFLWKNNKLAKVSDKHESVGGFFERHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVIVGAIRSKLSPKKEKKQGPPKSSVNKKRQRGSFSFLGGMQTLTDAICKDLKEDELRLNSRVLELSCSCSGDSAMDSWSIFSASPHKRQAEEESFDAVIMTAPLCDIKSMKISKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>+KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEA+GKAGGKL+SVSQ+GL+WDEGANTMTESEGDVTFL+DSLGLR+KQQFPLSQNKRYIARNGTPVL+PSNPIDLIKSNFLSTGSKL+MLLEP LWKN KL++VSD HESV GFF+RHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVI+GAIRSKLSPK EKKQGPPK+S NKKRQRGSFSFLGGMQTLTDAICKDL+EDELRLNSRVLELSCSC+ DSA+DSWSI SASPHKRQ+EEESFDAVIMTAPLCD+KSMKI+KRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>7.73585e-25</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>502</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHVYWSKAFPLYGHNYDSVLDAIDKMEKNLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLESMT</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDKMEKNLPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLES++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_006356026.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial [Solanum tuberosum]</Hit_def>
+  <Hit_accession>XP_006356026</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.757</Hsp_bit-score>
+      <Hsp_score>1571</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVIGAGVSGLAAAYKLKIHGLDVTVFEAEGRAGGKLRSLSQDGLIWDEGANTMTESEGDVTFLLDSLGLREKQQFPLSQNKRYIARNGTPTLIPSNPIDLIKSNFLSTGSKLQMLFEPLLWKNKKLTKVADEHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHLSFPELWNLEKRFGSVIVGAIRSKLSPIKEKKQGPPKTSVNKKRQRGSFSFLGGMQTLTDAICNDLKEDELRLNSRVLELSCSCSGDSATDSWSIFSASPHKRQAEEESFDAVIMTAPLCDVKGMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>KRVAVIGAGVSGLAAAYKLKIHGL+VTVFEAEG+AGGKLRS+SQDGLIWDEGANTMTESEGDVTFL+DSLGLREKQQFPLSQNKRYIARNGTP L+PSNPIDLIKSNFLSTGSKLQML EP+LWKNKKL++V+D HESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMH SFPELWNLEKRFGSVI+GAIRSKLSP  EKKQGPPKTS NKKRQRGSFSFLGGMQTLTDAIC DL+EDELRLNSRVLELSCSC+ DSA DSWSI SASPHKRQ+EEESFDAVIMTAPLCDVK MKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>2.74202e-25</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>419</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHVCWSKAFPLYGHNYDSVLDAIDKMEKNLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLEAVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDKMEKNLPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLE+VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_001335305.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase-like protein [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>NP_001335305</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>608.216</Hsp_bit-score>
+      <Hsp_score>1567</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVIGAGVSGLAAAYKLKVHGLNVTVFEAEGRAGGKLRSLSQDGLIWDEGANTMTESEGDVTFLLDSLGLREKQQFPLSQNKRYIARNGTPTLIPSNPFDLFKSNFLSTGSKLQMLFEPLLWKNKKLTKVSDKHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHLSFPDLWNLEKRFGSVIVGAIQSKLSPIKEKKQGPPRTSINKKRQRGSFSFLGGMQTLTDAICKNLKEDELRLNSRVLELSCSCSGDSAIDSWSIFSASPHKRQAEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>KRVAVIGAGVSGLAAAYKLK+HGLNVTVFEAEG+AGGKLRS+SQDGLIWDEGANTMTESEGDVTFL+DSLGLREKQQFPLSQNKRYIARNGTP L+PSNP DL KSNFLSTGSKLQML EP+LWKNKKL++VSD HESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMH SFP+LWNLEKRFGSVI+GAI+SKLSP  EKKQGPP+TS NKKRQRGSFSFLGGMQTLTDAICK+L+EDELRLNSRVLELSCSC+ DSAIDSWSI SASPHKRQ+EEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.97403e-24</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLCWSKAFPLYGHNYDSVLDAIDKMEKSLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLEAVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDKMEK+LPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLE+VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_015070810.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X1 [Solanum pennellii]</Hit_def>
+  <Hit_accession>XP_015070810</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>608.216</Hsp_bit-score>
+      <Hsp_score>1567</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>QRVAVIGAGVSGLAAAYKLKVHGLNVTVFEAEGRAGGKLRSLSQDGLIWDEGANTMTESEGDVTFLLDSLGLREKQQFPLSQNKRYIARNGTPTLIPSNPFDLIKSNFLSTGSKLQMLFEPLLWKNKKLTKVSDKHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHLSFPDLWNLEIRFGSVIVGAIRSKLSPIKEKKQGPPRTSVNKKRQRGSFSFLGGMQTLTDAICKNLKEDELRLNSRVLELSCSCSGDSAIDSWSIFSASPHKRQAEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>+RVAVIGAGVSGLAAAYKLK+HGLNVTVFEAEG+AGGKLRS+SQDGLIWDEGANTMTESEGDVTFL+DSLGLREKQQFPLSQNKRYIARNGTP L+PSNP DLIKSNFLSTGSKLQML EP+LWKNKKL++VSD HESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMH SFP+LWNLE RFGSVI+GAIRSKLSP  EKKQGPP+TS NKKRQRGSFSFLGGMQTLTDAICK+L+EDELRLNSRVLELSCSC+ DSAIDSWSI SASPHKRQ+EEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>2.01269e-24</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLCWSKAFPLYGHNYDSVLDAIDKMEKSLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLEAVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDKMEK+LPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLE+VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_027771572.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X2 [Solanum pennellii]</Hit_def>
+  <Hit_accession>XP_027771572</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>600.512</Hsp_bit-score>
+      <Hsp_score>1547</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>VIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>LIGAGVSGLAAAYKLKVHGLNVTVFEAEGRAGGKLRSLSQDGLIWDEGANTMTESEGDVTFLLDSLGLREKQQFPLSQNKRYIARNGTPTLIPSNPFDLIKSNFLSTGSKLQMLFEPLLWKNKKLTKVSDKHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHLSFPDLWNLEIRFGSVIVGAIRSKLSPIKEKKQGPPRTSVNKKRQRGSFSFLGGMQTLTDAICKNLKEDELRLNSRVLELSCSCSGDSAIDSWSIFSASPHKRQAEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>+IGAGVSGLAAAYKLK+HGLNVTVFEAEG+AGGKLRS+SQDGLIWDEGANTMTESEGDVTFL+DSLGLREKQQFPLSQNKRYIARNGTP L+PSNP DLIKSNFLSTGSKLQML EP+LWKNKKL++VSD HESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMH SFP+LWNLE RFGSVI+GAIRSKLSP  EKKQGPP+TS NKKRQRGSFSFLGGMQTLTDAICK+L+EDELRLNSRVLELSCSC+ DSAIDSWSI SASPHKRQ+EEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>2.06907e-24</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPTYVNHLCWSKAFPLYGHNYDSVLDAIDKMEKSLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLEAVS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +YGHNYDSVLDAIDKMEK+LPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLE+VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_016434988.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial-like isoform X2 [Nicotiana tabacum]</Hit_def>
+  <Hit_accession>XP_016434988</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>505.368</Hsp_bit-score>
+      <Hsp_score>1300</Hsp_score>
+      <Hsp_evalue>1.24543e-175</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>MTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQLLLEPLLWKNKNLSKVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPNSLSMHHSFPELWNLEKRFGSVIVGAIRSKLSPKKEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDTICKDLREDELRLNSRVLELSCSCNEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKGMKIAKRGNPFLLNFLPEV</Hsp_hseq>
+      <Hsp_midline>MTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQ+LLEP+LWKNK LS+VSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDP+SLSMHHSFPELWNLEKRFGSVI+GAIRSKLSPK EKKQGPPKTSANKKRQRGSFSFLGGMQTLTD ICKDLREDELRLNSRVLELSCSC EDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVK MKIAKRGNPFLLNF+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>9.47259e-25</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGHNYDSVLHAIDKMEKNLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLESVS</Hsp_hseq>
+      <Hsp_midline>+YGHNYDSVL AIDKMEKNLPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLESVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_015070812.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X3 [Solanum pennellii] &gt;ref|XP_027771573.1| protoporphyrinogen oxidase, mitochondrial isoform X3 [Solanum pennellii]</Hit_def>
+  <Hit_accession>XP_015070812</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.286</Hsp_bit-score>
+      <Hsp_score>1292</Hsp_score>
+      <Hsp_evalue>1.81725e-174</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>MTESEGDVTFLLDSLGLREKQQFPLSQNKRYIARNGTPTLIPSNPFDLIKSNFLSTGSKLQMLFEPLLWKNKKLTKVSDKHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHLSFPDLWNLEIRFGSVIVGAIRSKLSPIKEKKQGPPRTSVNKKRQRGSFSFLGGMQTLTDAICKNLKEDELRLNSRVLELSCSCSGDSAIDSWSIFSASPHKRQAEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>MTESEGDVTFL+DSLGLREKQQFPLSQNKRYIARNGTP L+PSNP DLIKSNFLSTGSKLQML EP+LWKNKKL++VSD HESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMH SFP+LWNLE RFGSVI+GAIRSKLSP  EKKQGPP+TS NKKRQRGSFSFLGGMQTLTDAICK+L+EDELRLNSRVLELSCSC+ DSAIDSWSI SASPHKRQ+EEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.21385e-24</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGHNYDSVLDAIDKMEKSLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLEAVS</Hsp_hseq>
+      <Hsp_midline>+YGHNYDSVLDAIDKMEK+LPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLE+VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_010317390.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase-like protein isoform X1 [Solanum lycopersicum] &gt;ref|XP_019068287.1| protoporphyrinogen oxidase-like protein isoform X1 [Solanum lycopersicum]</Hit_def>
+  <Hit_accession>XP_010317390</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.13</Hsp_bit-score>
+      <Hsp_score>1289</Hsp_score>
+      <Hsp_evalue>4.80748e-174</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>MTESEGDVTFLLDSLGLREKQQFPLSQNKRYIARNGTPTLIPSNPFDLFKSNFLSTGSKLQMLFEPLLWKNKKLTKVSDKHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHLSFPDLWNLEKRFGSVIVGAIQSKLSPIKEKKQGPPRTSINKKRQRGSFSFLGGMQTLTDAICKNLKEDELRLNSRVLELSCSCSGDSAIDSWSIFSASPHKRQAEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>MTESEGDVTFL+DSLGLREKQQFPLSQNKRYIARNGTP L+PSNP DL KSNFLSTGSKLQML EP+LWKNKKL++VSD HESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMH SFP+LWNLEKRFGSVI+GAI+SKLSP  EKKQGPP+TS NKKRQRGSFSFLGGMQTLTDAICK+L+EDELRLNSRVLELSCSC+ DSAIDSWSI SASPHKRQ+EEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.19014e-24</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGHNYDSVLDAIDKMEKSLPGLFYAGNHKGGLSVGKALSSGCNAADLVISYLEAVS</Hsp_hseq>
+      <Hsp_midline>+YGHNYDSVLDAIDKMEK+LPGLFYAGNH+GGLSVGKALSSGCNAADLVISYLE+VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_028051228.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X3 [Camellia sinensis]</Hit_def>
+  <Hit_accession>XP_028051228</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.59</Hsp_bit-score>
+      <Hsp_score>1285</Hsp_score>
+      <Hsp_evalue>1.06051e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKLHGLNVTIFEAEGRAGGKLRSISQDGLIWDEGANTMTESEMEVGYLLDNLELRGKQQFPISQNKRYIARNGEPVLIPSNPIALIRSNFLSTQSKFQIMLEPFLWKKRNYAKMSDAEESVGGFFQRHFGKEVVDYLIDPFVAGTCAGDPESLSMPHAFPELWNLEKEFGSIIFGAIRSKFSAKRE-KSGALNSSTNKKHQRGSFSFLGGMQTLTDALCKDLGKDELKLQSRVLELSYGCEENSVSECWSVSYAPIHDKQSEEQSFDAVVMTAPLCNVKEMKITNKGSPFLLDFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK+HGLNVT+FEAEG+AGGKLRS+SQDGLIWDEGANTMTESE +V +L+D+L LR KQQFP+SQNKRYIARNG PVL+PSNPI LI+SNFLST SK Q++LEP LWK +  +++SD+ ESV GFFQRHFGKEVVDYLIDPFVAGTC GDP+SLSM H+FPELWNLEK FGS+I GAIRSK S K E K G   +S NKK QRGSFSFLGGMQTLTDA+CKDL +DEL+L SRVLELS  C E+S  + WS+  A  H +QSEE+SFDAV+MTAPLC+VK MKI  +G+PFLL+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>5.70029e-21</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>480</Hsp_hit-from>
+      <Hsp_hit-to>544</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>NPFLLNFIPEVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLES</Hsp_qseq>
+      <Hsp_hseq>NHFFWSKAFPLYGHNYDAVLQAIEKMEVNLPGFFYAGNHRGGLSVGKALSSGCKAADLVISYLES</Hsp_hseq>
+      <Hsp_midline>N F  +    +YGHNYD+VL AI+KME NLPG FYAGNHRGGLSVGKALSSGC AADLVISYLES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_019153506.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial [Ipomoea nil]</Hit_def>
+  <Hit_accession>XP_019153506</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>481.871</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>3.09017e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>SKRVAVVGAGVSGLTAAYKLKLHGFNVTVLEADGRAGGKLRSVCQDGLIWDEGANTMTESETEVRFLLDSLGIREKQQSPLSQNKRYIVRNGTPVLLPSNPIQLVTSSILSTGSKLHLLMEPFLWKNKKLQKESDTHESVGQFFQRHFGKEVVEYLVDPFVAGTAAADPESLSMRHAFPELWDIEKRFGSVIFGAIQSKISAK-KKNQGQVGASKNKAR-RGSFSFIGGMQTLTDALCKELGKDELKLSSRVLELSSSHRENS-LDNWFLSYASPHRKHSAEESFDAVVMTAPLSDVKNMKITKKGTPFLLDFLPEV</Hsp_hseq>
+      <Hsp_midline>+KRVAV+GAGVSGL AAYKLK+HG NVTV EA+G+AGGKLRSV QDGLIWDEGANTMTESE +V FL+DSLG+REKQQ PLSQNKRYI RNGTPVLLPSNPI L+ S+ LSTGSKL +L+EP LWKNKKL + SD+HESV  FFQRHFGKEVV+YL+DPFVAGT   DP+SLSM H+FPELW++EKRFGSVI GAI+SK+S K +K QG    S NK R RGSFSF+GGMQTLTDA+CK+L +DEL+L+SRVLELS S  E+S +D+W +  ASPH++ S EESFDAV+MTAPL DVK+MKI K+G PFLL+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>2.83356e-20</Hsp_evalue>
+      <Hsp_query-from>295</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>429</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CDVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>SDLKQL-LGVEGEPQFVNHVYWSKAFPLYGRNYDSVLEAVENMEKNLPGFFYAGNHKGGLSVGKAISSGCSAADLVISYLESSS</Hsp_hseq>
+      <Hsp_midline> D+K + +   G P  +N +       +YG NYDSVL+A++ MEKNLPG FYAGNH+GGLSVGKA+SSGC+AADLVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|PSR87498.1|</Hit_id>
+  <Hit_def>Protoporphyrinogen oxidase [Actinidia chinensis var. chinensis]</Hit_def>
+  <Hit_accession>PSR87498</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.322</Hsp_bit-score>
+      <Hsp_score>1222</Hsp_score>
+      <Hsp_evalue>8.32131e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKLHGLNVTVFEAEGRAGGKLRSVSQGGITWDEGANTMTESEVEVRYLLDNLGLHGKQQFPISQNKRYIVRNGEPVLIPSNPIALIRSNFLSAQSKLQIMLEPFLWKKSKSAKVSDTEESVGGFFQRHFGEEVVDYLIDPFVAGTSAADPESLSMRHTFPELWNLEKKFGSIISGAIQSKLSAQKGKSGALNSSFTNKKHQRGSFSFLGGMQTLTDALCKELGKDELKLQSKVLELSYSCNENSPSENWSV---SIPNTQSEEQSYDAVIMTAPLCNVKEMKITKMGSPFLLNFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK+HGLNVTVFEAEG+AGGKLRSVSQ G+ WDEGANTMTESE +V +L+D+LGL  KQQFP+SQNKRYI RNG PVL+PSNPI LI+SNFLS  SKLQ++LEP LWK  K ++VSD+ ESV GFFQRHFG+EVVDYLIDPFVAGT   DP+SLSM H+FPELWNLEK+FGS+I GAI+SKLS +  K      +  NKK QRGSFSFLGGMQTLTDA+CK+L +DEL+L S+VLELS SC E+S  ++WS+   S    QSEE+S+DAVIMTAPLC+VK MKI K G+PFLLNF+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>5.16995e-21</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGHNYDAVLQAIEKMEENLPGFFYAGNHRGGLSVGKAISSGCKAADLVISYLENSS</Hsp_hseq>
+      <Hsp_midline>+YGHNYD+VL AI+KME+NLPG FYAGNHRGGLSVGKA+SSGC AADLVISYLE+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_002263321.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial isoform X1 [Vitis vinifera] &gt;emb|CBI40059.3| unnamed protein product, partial [Vitis vinifera]</Hit_def>
+  <Hit_accession>XP_002263321</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.167</Hsp_bit-score>
+      <Hsp_score>1219</Hsp_score>
+      <Hsp_evalue>2.80194e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>GKRVAVVGAGVSGLAAAYKLKLHGVNITLYEAEERAGGKLRSVSQHGLVWDEGANTMTESEIEVGSLLDNLRLREKQQFPISQNKRYIVRNGMPVLLPSNPIALIKSNILSAKSKFQIILEPFLWKKSDLSKVSDDHMKESVGGFFQRHFGKEVVDYLIDPFVAGTSGGDPESLSMHHTFPELWNLEKRFGSIIAGAVLSKLSAKREKRGETKGSSEKKKRQRGSFSFQGGMQTLTDTLCKELGKDKLRLKSKVLSLSYSHGEKSALENWSVAYASNPGKQSKDLSFDAVIMTAPLCNVREMKIMKKGNPFLLDFLPEV</Hsp_hseq>
+      <Hsp_midline> KRVAV+GAGVSGLAAAYKLK+HG+N+T++EAE +AGGKLRSVSQ GL+WDEGANTMTESE +V  L+D+L LREKQQFP+SQNKRYI RNG PVLLPSNPI LIKSN LS  SK Q++LEP LWK   LS+VSD H  ESV GFFQRHFGKEVVDYLIDPFVAGT GGDP+SLSMHH+FPELWNLEKRFGS+I GA+ SKLS K EK+     +S  KKRQRGSFSF GGMQTLTD +CK+L +D+LRL S+VL LS S  E SA+++WS+  AS   +QS++ SFDAVIMTAPLC+V+ MKI K+GNPFLL+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>2.72923e-20</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LFGHNYDSVLEAIDKMEKDLPGFFYAGNHKGGLSVGKAIASGCKAADLVISYLNSSS</Hsp_hseq>
+      <Hsp_midline>++GHNYDSVL+AIDKMEK+LPG FYAGNH+GGLSVGKA++SGC AADLVISYL S S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_017214838.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial isoform X2 [Daucus carota subsp. sativus]</Hit_def>
+  <Hit_accession>XP_017214838</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.003</Hsp_bit-score>
+      <Hsp_score>1203</Hsp_score>
+      <Hsp_evalue>5.13037e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLSQRGLNVTIFEAEERAGGKLKSVSHDGLIWDEGANTMTESEGNVSYLLDNLGLRDKQQFPISQHKRYIAKNGTPVLLPSNPIALIKSNILSTQSKIQLLLEPFLWKKNSNSKMSDKHESVGGFFRRHFGQEVVDHLIDPFVAGLNAGDPESLSMYHAFPDLWNLEKKFGSIIVGAVRSKISFKKGEGQGMNASSKSKRRKRGSFSFLGGMQTLTDALCEEVGKDKVNLQTRVLELSYPCSQESQLSNWSISYALDFDKHLKEQCFDAVIMTAPLCDVKQMKITKRGKPFVLDFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKL   GLNVT+FEAE +AGGKL+SVS DGLIWDEGANTMTESEG+V++L+D+LGLR+KQQFP+SQ+KRYIA+NGTPVLLPSNPI LIKSN LST SK+Q+LLEP LWK    S++SD HESV GFF+RHFG+EVVD+LIDPFVAG   GDP+SLSM+H+FP+LWNLEK+FGS+I+GA+RSK+S K  + QG   +S +K+R+RGSFSFLGGMQTLTDA+C+++ +D++ L +RVLELS  C+++S + +WSI  A    +  +E+ FDAVIMTAPLCDVK MKI KRG PF+L+FIPEV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_017214837.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial isoform X1 [Daucus carota subsp. sativus]</Hit_def>
+  <Hit_accession>XP_017214837</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>9.47469e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLSQRGLNVTIFEAEERAGGKLKSVSHDGLIWDEGANTMTESEGNVSYLLDNLGLRDKQQFPISQHKRYIAKNGTPVLLPSNPIALIKSNILSTQSKIQLLLEPFLWKKNSNSKMSDKHESVGGFFRRHFGQEVVDHLIDPFVAGLNAGDPESLSMYHAFPDLWNLEKKFGSIIVGAVRSKISFKKGEGQGMNASSKSKRRKRGSFSFLGGMQTLTDALCEEVGKDKVNLQTRVLELSYPCSQESQLSNWSISYALDFDKHLKEQCFDAVIMTAPLCDVKQMKITKRGKPFVLDFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKL   GLNVT+FEAE +AGGKL+SVS DGLIWDEGANTMTESEG+V++L+D+LGLR+KQQFP+SQ+KRYIA+NGTPVLLPSNPI LIKSN LST SK+Q+LLEP LWK    S++SD HESV GFF+RHFG+EVVD+LIDPFVAG   GDP+SLSM+H+FP+LWNLEK+FGS+I+GA+RSK+S K  + QG   +S +K+R+RGSFSFLGGMQTLTDA+C+++ +D++ L +RVLELS  C+++S + +WSI  A    +  +E+ FDAVIMTAPLCDVK MKI KRG PF+L+FIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.38186e-19</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLES</Hsp_qseq>
+      <Hsp_hseq>LYGHDYNSVIGAIDKMEKDLPGFFYAGNHRGGLSVGKAISSGCKAADLVISYLDS</Hsp_hseq>
+      <Hsp_midline>+YGH+Y+SV+ AIDKMEK+LPG FYAGNHRGGLSVGKA+SSGC AADLVISYL+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|PSS30151.1|</Hit_id>
+  <Hit_def>Protoporphyrinogen oxidase [Actinidia chinensis var. chinensis]</Hit_def>
+  <Hit_accession>PSS30151</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.848</Hsp_bit-score>
+      <Hsp_score>1200</Hsp_score>
+      <Hsp_evalue>1.7994e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKLHGLNVTVFEAEVRAGGKLRSISQGGLTWDEGANTMTESEMEVRYLLDNLGLHGKQQFPISQNKRYIVRNGEPILIPSNPIALIRSNFLSAYSKLQIMFEPFLWKKSKSAKVSDTEESVGGFFQRHFGDEVVDYLIDPFVAGTNAADPESLSMRHTFPELWNLEKKFGSIVSGAIQSKLSAPKGKSGAANSSATNKKHQRGSFSFLGGMQTLTDALCKELGKDELKLQSKVLELSYSCNENSLSENWSV---SIQNTQSEEQTYDAVIMTAPLCNVKEMNITKMGSPFLLNFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK+HGLNVTVFEAE +AGGKLRS+SQ GL WDEGANTMTESE +V +L+D+LGL  KQQFP+SQNKRYI RNG P+L+PSNPI LI+SNFLS  SKLQ++ EP LWK  K ++VSD+ ESV GFFQRHFG EVVDYLIDPFVAGT   DP+SLSM H+FPELWNLEK+FGS++ GAI+SKLS    K      ++ NKK QRGSFSFLGGMQTLTDA+CK+L +DEL+L S+VLELS SC E+S  ++WS+   S    QSEE+++DAVIMTAPLC+VK M I K G+PFLLNF+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>6.55875e-21</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGHNYDAVLQAIEKMEENLPGFFYAGNHRGGLSVGKAISSGCKAADLVISYLENSS</Hsp_hseq>
+      <Hsp_midline>+YGHNYD+VL AI+KME+NLPG FYAGNHRGGLSVGKA+SSGC AADLVISYLE+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_011098848.2|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X2 [Sesamum indicum]</Hit_def>
+  <Hit_accession>XP_011098848</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>8.46777e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>GKCVAVIGAGVSGLSAAYKLKLHGLNVTVFEAEGRAGGKLRSISHDGLIWDEGANTMTESEAAVRFLLDNLGLRDKQQFPLSQQKRYIAKNGVPVLLPSNPIALIRSNFLSAGSKLQIFLEPFLWKNSDSLKGPDTEESVGAFFQRHFGKEVVDYLIDPFVAGTSGGDPESLSMRHVFPELWSLEKRFGSIISGAIQSKLS---AKKGTTGESSAKKKQNHGSFSFLGGMQSLTNALCNELGKDELKLQSKVLELSCSCSENSPFDNWSVSYELDNKKLSCEKSFDALIVTAPLSDVKQMRITRRGSPFLLDFVPEV</Hsp_hseq>
+      <Hsp_midline> K VAVIGAGVSGL+AAYKLK+HGLNVTVFEAEG+AGGKLRS+S DGLIWDEGANTMTESE  V FL+D+LGLR+KQQFPLSQ KRYIA+NG PVLLPSNPI LI+SNFLS GSKLQ+ LEP LWKN    +  D+ ESV  FFQRHFGKEVVDYLIDPFVAGT GGDP+SLSM H FPELW+LEKRFGS+I GAI+SKLS    KK    ++SA KK+  GSFSFLGGMQ+LT+A+C +L +DEL+L S+VLELSCSC+E+S  D+WS+     +K+ S E+SFDA+I+TAPL DVK M+I +RG+PFLL+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>3.79017e-19</Hsp_evalue>
+      <Hsp_query-from>302</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>460</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>IAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LGAEGQPAFLNHFYWSKAFPLYGRNYDSVISAIDKIEKDLPGFFYAGNHKGGLSVGKAISTGCQAADLVISYLDSCS</Hsp_hseq>
+      <Hsp_midline>+   G P  LN         +YG NYDSV+ AIDK+EK+LPG FYAGNH+GGLSVGKA+S+GC AADLVISYL+S S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|RAL38156.1|</Hit_id>
+  <Hit_def>hypothetical protein DM860_000850 [Cuscuta australis]</Hit_def>
+  <Hit_accession>RAL38156</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>5.33378e-157</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVVGAGVSGLAAAFKLKNSGLNVTVFETDGRAGGKLRSVCQDGLIWDEGANTMTESEPEVQSLLDALGLREKQQFPISQKKRYIVRNGTPVLLPLNPIQMISSNFLSVGSKLQILMEPFLWTNKKLPKESDTNESVGHFFQRHFGNEVVEYLIDPFVAGTTGGDPKSLSMTHAFPELWDLEKRFGSVIFGAIQSKIS-SNKKNQGPIGAS-KIKHQRGSFSFIGGMQTLTDALCKELGEDELKLSSKVLELSSHHKENCQ-GSWLVSYASPHRKHSVKESFDAVVMTAPLSDVKTMNFTQKGAPFLLNFLPEV</Hsp_hseq>
+      <Hsp_midline>KRVAV+GAGVSGLAAA+KLK  GLNVTVFE +G+AGGKLRSV QDGLIWDEGANTMTESE +V  L+D+LGLREKQQFP+SQ KRYI RNGTPVLLP NPI +I SNFLS GSKLQ+L+EP LW NKKL + SD++ESV  FFQRHFG EVV+YLIDPFVAGT GGDP SLSM H+FPELW+LEKRFGSVI GAI+SK+S  N+K QGP   S   K QRGSFSF+GGMQTLTDA+CK+L EDEL+L+S+VLELS    E+    SW +  ASPH++ S +ESFDAV+MTAPL DVK+M   ++G PFLLNF+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>8.06362e-20</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>417</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DLKQL-LGAEGEPMFVNHVFWSKAFPLYDHNYGSVLEAVDRMEKNLPGFFYAGNHKGGLSVGKAISSGCSAADHVISYLESSS</Hsp_hseq>
+      <Hsp_midline>D+K + +   G P  +N +       +Y HNY SVL+A+D+MEKNLPG FYAGNH+GGLSVGKA+SSGC+AAD VISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_028051229.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X4 [Camellia sinensis]</Hit_def>
+  <Hit_accession>XP_028051229</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>9.68119e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKLHGLNVTIFEAEGRAGGKLRSISQDGLIWDEGANTMTESEMEVGYLLDNLELRGKQQFPISQNKRYIARNGEPVL-------------------FQIMLEPFLWKKRNYAKMSDAEESVGGFFQRHFGKEVVDYLIDPFVAGTCAGDPESLSMPHAFPELWNLEKEFGSIIFGAIRSKFSAKRE-KSGALNSSTNKKHQRGSFSFLGGMQTLTDALCKDLGKDELKLQSRVLELSYGCEENSVSECWSVSYAPIHDKQSEEQSFDAVVMTAPLCNVKEMKITNKGSPFLLDFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK+HGLNVT+FEAEG+AGGKLRS+SQDGLIWDEGANTMTESE +V +L+D+L LR KQQFP+SQNKRYIARNG PVL                    Q++LEP LWK +  +++SD+ ESV GFFQRHFGKEVVDYLIDPFVAGTC GDP+SLSM H+FPELWNLEK FGS+I GAIRSK S K E K G   +S NKK QRGSFSFLGGMQTLTDA+CKDL +DEL+L SRVLELS  C E+S  + WS+  A  H +QSEE+SFDAV+MTAPLC+VK MKI  +G+PFLL+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>5.50518e-21</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>461</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>NPFLLNFIPEVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLES</Hsp_qseq>
+      <Hsp_hseq>NHFFWSKAFPLYGHNYDAVLQAIEKMEVNLPGFFYAGNHRGGLSVGKALSSGCKAADLVISYLES</Hsp_hseq>
+      <Hsp_midline>N F  +    +YGHNYD+VL AI+KME NLPG FYAGNHRGGLSVGKALSSGC AADLVISYLES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_024978719.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial [Cynara cardunculus var. scolymus]</Hit_def>
+  <Hit_accession>XP_024978719</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.44</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>2.00169e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>ARRVAVVGAGVSGLAAAYKLKVHGMNVTVFETDGRAGGKLRSISQDGLIWDEGANTMTESEADVSSLLDNLGLRDQQQFPISQHKRYIVRNGKPVLIPSNPIALIRSSFLSPQSKFQILWEPFLWKKNS----SETQESVGGFFQRHFGKEVVEYLIDPVVAGTSGSDPESLSMRHAFPELWDLERRYGSVISGAIQSMLSSKGGKKSPP----GNRKRRRGSFSFFGGMQTLTNALCKEFGQHELNLQSKVLEMSYSCSDNSAIGNWSIFCAPVQNKQLNQQPFDAVIMTAPLGNVKEMKITKRGSPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>A+RVAV+GAGVSGLAAAYKLK+HG+NVTVFE +G+AGGKLRS+SQDGLIWDEGANTMTESE DV+ L+D+LGLR++QQFP+SQ+KRYI RNG PVL+PSNPI LI+S+FLS  SK Q+L EP LWK       S++ ESV GFFQRHFGKEVV+YLIDP VAGT G DP+SLSM H+FPELW+LE+R+GSVI GAI+S LS K  KK  P     N+KR+RGSFSF GGMQTLT+A+CK+  + EL L S+VLE+S SC+++SAI +WSI  A    +Q  ++ FDAVIMTAPL +VK MKI KRG+PFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>3.29933e-17</Hsp_evalue>
+      <Hsp_query-from>295</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CDVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>CDLRQL-LGAEGEPHMLTHYYWSKAFPLYGRDYDSVVEAIEKMEKELPGYFYAGNHKGGISVGKAISSGCKAAESVISYLDSHS</Hsp_hseq>
+      <Hsp_midline>CD++ + +   G P +L          +YG +YDSV++AI+KMEK LPG FYAGNH+GG+SVGKA+SSGC AA+ VISYL+S S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>emb|CAN69962.1|</Hit_id>
+  <Hit_def>hypothetical protein VITISV_008740 [Vitis vinifera]</Hit_def>
+  <Hit_accession>CAN69962</Hit_accession>
+  <Hit_len>809</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>1.33563e-152</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQF------------PLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVVGAGVSGLAAAYKLKLHGVNXTLYEAEERAGGKLRSVSQHGLVWDEGANTMTESEIEVGSLLDNLRLREKQQFFPDKIDYFLILQPISQNKRYIVRNGMPVLLPSNPIALIKSNILSAKSKFQIILEPFLWKKSDLSKVSDDHMKESVGGFFQRHFGKEVVDYLIDPFVAGTSGGDPESLSMHHTFPELWNLEKRFGSIIAGAVLSKLSAKREKRGETKGSSEKKKRQRGSFSFQGGMQTLTDTLCKELGKDKLRLKSKVLSLSYSHGEKSALENWSVAYASNPGKQSKDLSFDAVIMTAPLCNVREMKIMKKGNPFLLDFLPEV</Hsp_hseq>
+      <Hsp_midline>KRVAV+GAGVSGLAAAYKLK+HG+N T++EAE +AGGKLRSVSQ GL+WDEGANTMTESE +V  L+D+L LREKQQF            P+SQNKRYI RNG PVLLPSNPI LIKSN LS  SK Q++LEP LWK   LS+VSD H  ESV GFFQRHFGKEVVDYLIDPFVAGT GGDP+SLSMHH+FPELWNLEKRFGS+I GA+ SKLS K EK+     +S  KKRQRGSFSF GGMQTLTD +CK+L +D+LRL S+VL LS S  E SA+++WS+  AS   +QS++ SFDAVIMTAPLC+V+ MKI K+GNPFLL+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.59537e-19</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>503</Hsp_hit-from>
+      <Hsp_hit-to>559</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LLGHNYDSVLEAIDKMEKDLPGFFYAGNHKGGLSVGKAIASGCKAADLVISYLXSSS</Hsp_hseq>
+      <Hsp_midline>+ GHNYDSVL+AIDKMEK+LPG FYAGNH+GGLSVGKA++SGC AADLVISYL S S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_024924543.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase 2-like isoform X5 [Ziziphus jujuba]</Hit_def>
+  <Hit_accession>XP_024924543</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>4.45296e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSD-SHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKSHGLNVTVFEAGGRTGGKLRSVSHDGLIWDEGANTMTQSEIEVQSLLDDLGLREKQQFPISQNKRYIVRDGSPVLIPTNPLALIKSNILSTKSKFEIILEPFLWKKRSSSDVSDHSQESVGGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSMRYSFPDLWNLEERFGSVIAGAIQSKLSARKE-KSGEKKGSLKKTKHQRGSFSFKGGMQTLTDTLSKEIGVDEIKLNSKVLSLSYCNDGKSARENWSVSFAAKHDNRSQALSVDAVIVTAPLCNVKEMKIAKRGNPFPLNFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK HGLNVTVFEA G+ GGKLRSVS DGLIWDEGANTMT+SE +V  L+D LGLREKQQFP+SQNKRYI R+G+PVL+P+NP+ LIKSN LST SK +++LEP LWK +  S VSD S ESV GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLSM +SFP+LWNLE+RFGSVI GAI+SKLS + E K G  K S  K K QRGSFSF GGMQTLTD + K++  DE++LNS+VL LS      SA ++WS+  A+ H  +S+  S DAVI+TAPLC+VK MKIAKRGNPF LNF+PEV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_024924542.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase 2-like isoform X4 [Ziziphus jujuba]</Hit_def>
+  <Hit_accession>XP_024924542</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>4.99285e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSD-SHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKSHGLNVTVFEAGGRTGGKLRSVSHDGLIWDEGANTMTQSEIEVQSLLDDLGLREKQQFPISQNKRYIVRDGSPVLIPTNPLALIKSNILSTKSKFEIILEPFLWKKRSSSDVSDHSQESVGGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSMRYSFPDLWNLEERFGSVIAGAIQSKLSARKE-KSGEKKGSLKKTKHQRGSFSFKGGMQTLTDTLSKEIGVDEIKLNSKVLSLSYCNDGKSARENWSVSFAAKHDNRSQALSVDAVIVTAPLCNVKEMKIAKRGNPFPLNFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK HGLNVTVFEA G+ GGKLRSVS DGLIWDEGANTMT+SE +V  L+D LGLREKQQFP+SQNKRYI R+G+PVL+P+NP+ LIKSN LST SK +++LEP LWK +  S VSD S ESV GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLSM +SFP+LWNLE+RFGSVI GAI+SKLS + E K G  K S  K K QRGSFSF GGMQTLTD + K++  DE++LNS+VL LS      SA ++WS+  A+ H  +S+  S DAVI+TAPLC+VK MKIAKRGNPF LNF+PEV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_018849245.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial isoform X1 [Juglans regia]</Hit_def>
+  <Hit_accession>XP_018849245</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>2.73074e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVIGAGVSGLAAAYKLKSHGLNVTVFEAEGRAGGKLRSVSQDGLIWDEGANTMTESEMEVRSLLDDLGLREKQQFPISQNKRYIVRNGMAVLIPTNPIALIKSNVLSAQSKFQIILEPFLWK-KSNSKVSDDYREESVGGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSVRYSFPELWNLEKRFGSIIAGLVQSKLSTKKE------DTLEQKKRPRGSFSFLGGMQTLTDTLCKELGKDDLKLNSKVLSLSYSSDGKSALENWSVVCASDSDKHSQALAVDAVIMTAPLCNVKEMKIGKRGKFFPLDILPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAVIGAGVSGLAAAYKLK HGLNVTVFEAEG+AGGKLRSVSQDGLIWDEGANTMTESE +V  L+D LGLREKQQFP+SQNKRYI RNG  VL+P+NPI LIKSN LS  SK Q++LEP LWK K  S+VSD +  ESV GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLS+ +SFPELWNLEKRFGS+I G ++SKLS K E       T   KKR RGSFSFLGGMQTLTD +CK+L +D+L+LNS+VL LS S    SA+++WS++ AS   + S+  + DAVIMTAPLC+VK MKI KRG  F L+ +PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>5.13194e-19</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>436</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGQNYGSVLEAIETMEKNLPGFFYAGNHKGGLSVGKAIASGCKAADLVISYLESSS</Hsp_hseq>
+      <Hsp_midline>+YG NY SVL+AI+ MEKNLPG FYAGNH+GGLSVGKA++SGC AADLVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_023772881.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X1 [Lactuca sativa] &gt;gb|PLY97758.1| hypothetical protein LSAT_4X185401 [Lactuca sativa]</Hit_def>
+  <Hit_accession>XP_023772881</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>4.49267e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKVHGLNVTVFEADGRAGGKLRSISQDGLIWDEGANTMTESEADVSSLLDDLGLRDKQQFPLSQHKRYIVRNGQPVLIPSNPIALIQSSFLSTQSKFQILLEPMLWKK----NTSDPQESVAGFFQRHFGKEVVEYLIDPVVAGTSAADPESLSMRHAFPELWELEKKFGSIISGAVQSMFTSRSGKKS--PPSNSKRRRRRGSFSFLGGMQTLTNALCKEVGEGELNLRSKVLEMSYSCDEGSRVGNWSIYCGP--DEENKQQSFDAVIMTAPLGNVKEMKITKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK+HGLNVTVFEA+G+AGGKLRS+SQDGLIWDEGANTMTESE DV+ L+D LGLR+KQQFPLSQ+KRYI RNG PVL+PSNPI LI+S+FLST SK Q+LLEP+LWK       SD  ESV+GFFQRHFGKEVV+YLIDP VAGT   DP+SLSM H+FPELW LEK+FGS+I GA++S  + ++ KK   P +++ ++R+RGSFSFLGGMQTLT+A+CK++ E EL L S+VLE+S SC E S + +WSI        +++++SFDAVIMTAPL +VK MKI KRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>4.76333e-17</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>433</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGHNYGLVIDAIQKMEKELPGYFYAGNHKGGISVGKAISSGCKAAESVISYLDSYS</Hsp_hseq>
+      <Hsp_midline>+YGHNY  V+DAI KMEK LPG FYAGNH+GG+SVGKA+SSGC AA+ VISYL+S S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_023772888.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X2 [Lactuca sativa]</Hit_def>
+  <Hit_accession>XP_023772888</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>5.34824e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKVHGLNVTVFEADGRAGGKLRSISQDGLIWDEGANTMTESEADVSSLLDDLGLRDKQQFPLSQHKRYIVRNGQPVLIPSNPIALIQSSFLSTQSKFQILLEPMLWKK----NTSDPQESVAGFFQRHFGKEVVEYLIDPVVAGTSAADPESLSMRHAFPELWELEKKFGSIISGAVQSMFTSRSGKKS--PPSNSKRRRRRGSFSFLGGMQTLTNALCKEVGEGELNLRSKVLEMSYSCDEGSRVGNWSIYCGP--DEENKQQSFDAVIMTAPLGNVKEMKITKRGNPFLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK+HGLNVTVFEA+G+AGGKLRS+SQDGLIWDEGANTMTESE DV+ L+D LGLR+KQQFPLSQ+KRYI RNG PVL+PSNPI LI+S+FLST SK Q+LLEP+LWK       SD  ESV+GFFQRHFGKEVV+YLIDP VAGT   DP+SLSM H+FPELW LEK+FGS+I GA++S  + ++ KK   P +++ ++R+RGSFSFLGGMQTLT+A+CK++ E EL L S+VLE+S SC E S + +WSI        +++++SFDAVIMTAPL +VK MKI KRGNPFLLNFIPEV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_024924540.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial-like isoform X1 [Ziziphus jujuba]</Hit_def>
+  <Hit_accession>XP_024924540</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>5.5614e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSD-SHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKSHGLNVTVFEAGGRTGGKLRSVSHDGLIWDEGANTMTQSEIEVQSLLDDLGLREKQQFPISQNKRYIVRDGSPVLIPTNPLALIKSNILSTKSKFEIILEPFLWKKRSSSDVSDHSQESVGGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSMRYSFPDLWNLEERFGSVIAGAIQSKLSARKE-KSGEKKGSLKKTKHQRGSFSFKGGMQTLTDTLSKEIGVDEIKLNSKVLSLSYCNDGKSARENWSVSFAAKHDNRSQALSVDAVIVTAPLCNVKEMKIAKRGNPFPLNFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK HGLNVTVFEA G+ GGKLRSVS DGLIWDEGANTMT+SE +V  L+D LGLREKQQFP+SQNKRYI R+G+PVL+P+NP+ LIKSN LST SK +++LEP LWK +  S VSD S ESV GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLSM +SFP+LWNLE+RFGSVI GAI+SKLS + E K G  K S  K K QRGSFSF GGMQTLTD + K++  DE++LNS+VL LS      SA ++WS+  A+ H  +S+  S DAVI+TAPLC+VK MKIAKRGNPF LNF+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>4.4065e-16</Hsp_evalue>
+      <Hsp_query-from>292</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>413</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>APLCDVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEK---NLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>AVISDLRQL-LGAEGEPKFVNHFYWKKAFPLYGYNYDSVIAAIEKMEKMEKNLPGFFYAGNNRCGLSVGKAIASGCKAAELVISYLESSS</Hsp_hseq>
+      <Hsp_midline>A + D++ + +   G P  +N         +YG+NYDSV+ AI+KMEK   NLPG FYAGN+R GLSVGKA++SGC AA+LVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_024924541.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial-like isoform X3 [Ziziphus jujuba]</Hit_def>
+  <Hit_accession>XP_024924541</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>7.21594e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSD-SHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKSHGLNVTVFEAGGRTGGKLRSVSHDGLIWDEGANTMTQSEIEVQSLLDDLGLREKQQFPISQNKRYIVRDGSPVLIPTNPLALIKSNILSTKSKFEIILEPFLWKKRSSSDVSDHSQESVGGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSMRYSFPDLWNLEERFGSVIAGAIQSKLSARKE-KSGEKKGSLKKTKHQRGSFSFKGGMQTLTDTLSKEIGVDEIKLNSKVLSLSYCNDGKSARENWSVSFAAKHDNRSQALSVDAVIVTAPLCNVKEMKIAKRGNPFPLNFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK HGLNVTVFEA G+ GGKLRSVS DGLIWDEGANTMT+SE +V  L+D LGLREKQQFP+SQNKRYI R+G+PVL+P+NP+ LIKSN LST SK +++LEP LWK +  S VSD S ESV GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLSM +SFP+LWNLE+RFGSVI GAI+SKLS + E K G  K S  K K QRGSFSF GGMQTLTD + K++  DE++LNS+VL LS      SA ++WS+  A+ H  +S+  S DAVI+TAPLC+VK MKIAKRGNPF LNF+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>4.56347e-16</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>442</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEK---NLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGYNYDSVIAAIEKMEKMEKNLPGFFYAGNNRCGLSVGKAIASGCKAAELVISYLESSS</Hsp_hseq>
+      <Hsp_midline>+YG+NYDSV+ AI+KMEK   NLPG FYAGN+R GLSVGKA++SGC AA+LVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|PWA61189.1|</Hit_id>
+  <Hit_def>mitochondrial protoporphyrinogen IX oxidase [Artemisia annua]</Hit_def>
+  <Hit_accession>PWA61189</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>7.42985e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKVHGLDVTVFEADGRTGGKLRSISQDGLIWDEGANTMTESDADVSSLLDDLGLRDKQQFPLSQHKRYIVRNGKPVLIPSNPIALIKSSFLSTQSKFQILLEPFLWKKNK---SPDTPESVGGFFQRHFGKEVVEYLIDPVVAGTSGGDPESLSMRHAFPELWDLEIRFGSVISGAVQSMMS-----RAGKKSSSGNSKRRRGSFSFLGGMQTLTNALCKEVGQNQLNLQSKVLEMSYSC-DGNMVGNWSIYYAPEQNKQLNQQSFDAVIMTAPLGNVKEMKITNRGYPYLLNFIPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK+HGL+VTVFEA+G+ GGKLRS+SQDGLIWDEGANTMTES+ DV+ L+D LGLR+KQQFPLSQ+KRYI RNG PVL+PSNPI LIKS+FLST SK Q+LLEP LWK  K     D+ ESV GFFQRHFGKEVV+YLIDP VAGT GGDP+SLSM H+FPELW+LE RFGSVI GA++S +S     + G   +S N KR+RGSFSFLGGMQTLT+A+CK++ +++L L S+VLE+S SC + + + +WSI  A    +Q  ++SFDAVIMTAPL +VK MKI  RG P+LLNFIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.10899e-16</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLES</Hsp_qseq>
+      <Hsp_hseq>LYGHDYGSVIEAIEKMEKELPGYFYAGNHKGGLSVGKAISSGCKAAESVISYLDS</Hsp_hseq>
+      <Hsp_midline>+YGH+Y SV++AI+KMEK LPG FYAGNH+GGLSVGKA+SSGC AA+ VISYL+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_015867153.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial-like isoform X2 [Ziziphus jujuba]</Hit_def>
+  <Hit_accession>XP_015867153</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>7.62775e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSD-SHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVVGAGVSGLAAAYKLKSHGLNVTVFEAGGRTGGKLRSVSHDGLIWDEGANTMTQSEIEVQSLLDDLGLREKQQFPISQNKRYIVRDGSPVLIPTNPLALIKSNILSTKSKFEIILEPFLWKKRSSSDVSDHSQESVGGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSMRYSFPDLWNLEERFGSVIAGAIQSKLSARKE-KSGEKKGSLKKTKHQRGSFSFKGGMQTLTDTLSKEIGVDEIKLNSKVLSLSYCNDGKSARENWSVSFAAKHDNRSQALSVDAVIVTAPLCNVKEMKIAKRGNPFPLNFLPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAV+GAGVSGLAAAYKLK HGLNVTVFEA G+ GGKLRSVS DGLIWDEGANTMT+SE +V  L+D LGLREKQQFP+SQNKRYI R+G+PVL+P+NP+ LIKSN LST SK +++LEP LWK +  S VSD S ESV GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLSM +SFP+LWNLE+RFGSVI GAI+SKLS + E K G  K S  K K QRGSFSF GGMQTLTD + K++  DE++LNS+VL LS      SA ++WS+  A+ H  +S+  S DAVI+TAPLC+VK MKIAKRGNPF LNF+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>4.48885e-16</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>442</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEK---NLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGYNYDSVIAAIEKMEKMEKNLPGFFYAGNNRCGLSVGKAIASGCKAAELVISYLESSS</Hsp_hseq>
+      <Hsp_midline>+YG+NYDSV+ AI+KMEK   NLPG FYAGN+R GLSVGKA++SGC AA+LVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_028952832.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: protoporphyrinogen oxidase, mitochondrial-like [Malus domestica]</Hit_def>
+  <Hit_accession>XP_028952832</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>8.58027e-151</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVVGAGVSGLAAAYKLKSHGFDVAVFEAEGRAGGKLRSVSRDGLVWDEGANTMTESETEVQTLLDNLGLREKQQFPISQTKRYIVRNGMPVLLPTNPIALITSNFLSAQSKLQIILEPYSWKKKEXSD-DDTQESVGGFFQRHFGPEVVDYLIDPFVAGTSGGDPESLSMRHSFPDLWNMEKRFGSVISGAIKSKLSAKKE-KSGQTKGSVEKGKRQRGSFSFHGGMQTLTDTLCNELGKDEVKLNSKVLSLSYSHDGKSAFENWSVSSAAKDDKHSQSLSVDAVVMTAPLCNVKEMNITKRGTLFPLDFFPEV</Hsp_hseq>
+      <Hsp_midline>KRVAV+GAGVSGLAAAYKLK HG +V VFEAEG+AGGKLRSVS+DGL+WDEGANTMTESE +V  L+D+LGLREKQQFP+SQ KRYI RNG PVLLP+NPI LI SNFLS  SKLQ++LEP  WK K+ S   D+ ESV GFFQRHFG EVVDYLIDPFVAGT GGDP+SLSM HSFP+LWN+EKRFGSVI GAI+SKLS K E K G  K S  K KRQRGSFSF GGMQTLTD +C +L +DE++LNS+VL LS S    SA ++WS+ SA+   + S+  S DAV+MTAPLC+VK M I KRG  F L+F PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.00232e-19</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLES</Hsp_qseq>
+      <Hsp_hseq>LYGRNYDSVIEAIEKMEKNLPGFFYAGNHRGGLSVGKAIASGCKAAELVIAYLES</Hsp_hseq>
+      <Hsp_midline>+YG NYDSV++AI+KMEKNLPG FYAGNHRGGLSVGKA++SGC AA+LVI+YLES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_020416404.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X1 [Prunus persica] &gt;gb|ONI19879.1| hypothetical protein PRUPE_3G303000 [Prunus persica]</Hit_def>
+  <Hit_accession>XP_020416404</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>9.6779e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>VKRVAVVGAGVSGLAAAYKLKSHGFDVTVFEAEGRAGGKLRSVSHDGLIWDEGANTMTESEKEVQTLLDDLGIREKQQFPISQNKRYIVRNGSPVLIPTNPIALIKSNFLSAQSKLQIILEPYLWKDKR---VSDDHTEESVGGFFQRHFGEEVVDYLIDPFVAGTSAGDPESLSMRHSFPDIWNIEKRFGSVISGAIKSKLSA-SKGKSGETKGSVEKGKRQRGSFSFHGGMQTLTDILCNQLEKDELKLNSKVLSLSYRQGGNSASENWSVSRVADDDKHSQSLSVDALIMTAPLCNVKEMKITKRGTRFPLDFIPEV</Hsp_hseq>
+      <Hsp_midline> KRVAV+GAGVSGLAAAYKLK HG +VTVFEAEG+AGGKLRSVS DGLIWDEGANTMTESE +V  L+D LG+REKQQFP+SQNKRYI RNG+PVL+P+NPI LIKSNFLS  SKLQ++LEP LWK+K+   VSD H  ESV GFFQRHFG+EVVDYLIDPFVAGT  GDP+SLSM HSFP++WN+EKRFGSVI GAI+SKLS  ++ K G  K S  K KRQRGSFSF GGMQTLTD +C  L +DEL+LNS+VL LS     +SA ++WS+   +   + S+  S DA+IMTAPLC+VK MKI KRG  F L+FIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>2.11963e-18</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGRDYDSVIEAIENMEKNLPGFFYAGNHRGGLSVGKSIASGCKAAELVISYLESPS</Hsp_hseq>
+      <Hsp_midline>+YG +YDSV++AI+ MEKNLPG FYAGNHRGGLSVGK+++SGC AA+LVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_007217717.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X2 [Prunus persica] &gt;gb|ONI19880.1| hypothetical protein PRUPE_3G303000 [Prunus persica]</Hit_def>
+  <Hit_accession>XP_007217717</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>9.77628e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>VKRVAVVGAGVSGLAAAYKLKSHGFDVTVFEAEGRAGGKLRSVSHDGLIWDEGANTMTESEKEVQTLLDDLGIREKQQFPISQNKRYIVRNGSPVLIPTNPIALIKSNFLSAQSKLQIILEPYLWKDKR---VSDDHTEESVGGFFQRHFGEEVVDYLIDPFVAGTSAGDPESLSMRHSFPDIWNIEKRFGSVISGAIKSKLSA-SKGKSGETKGSVEKGKRQRGSFSFHGGMQTLTDILCNQLEKDELKLNSKVLSLSYRQGGNSASENWSVSRVADDDKHSQSLSVDALIMTAPLCNVKEMKITKRGTRFPLDFIPEV</Hsp_hseq>
+      <Hsp_midline> KRVAV+GAGVSGLAAAYKLK HG +VTVFEAEG+AGGKLRSVS DGLIWDEGANTMTESE +V  L+D LG+REKQQFP+SQNKRYI RNG+PVL+P+NPI LIKSNFLS  SKLQ++LEP LWK+K+   VSD H  ESV GFFQRHFG+EVVDYLIDPFVAGT  GDP+SLSM HSFP++WN+EKRFGSVI GAI+SKLS  ++ K G  K S  K KRQRGSFSF GGMQTLTD +C  L +DEL+LNS+VL LS     +SA ++WS+   +   + S+  S DA+IMTAPLC+VK MKI KRG  F L+FIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>2.29959e-18</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGRDYDSVIEAIENMEKNLPGFFYAGNHRGGLSVGKSIASGCKAAELVISYLESPS</Hsp_hseq>
+      <Hsp_midline>+YG +YDSV++AI+ MEKNLPG FYAGNHRGGLSVGK+++SGC AA+LVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_004303992.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial [Fragaria vesca subsp. vesca]</Hit_def>
+  <Hit_accession>XP_004303992</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.04474e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>VKKVAVVGAGVSGLAAAYKLKSHGFDVTVLEAEGRAGGKLRSVSYNGLIWDEGANTMTEAETEVQTLLDSLGLRDKQQFPISQNKRYVARNGMPVLLPTNPIELIKSNFLSTKSKFQILLEPYLWKKKK---VSDDHTQESVAGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSMPHSFPELWNIEKRYGSVITGTIRSKVSSRKEKR-GDTKGSVEKGKRQRGSFSFQGGMQTLTDTLCKQLGKHELKLNSKVLSLSYSHDGSSTSENWSLSCVANDDKHSQSSSVDAIIMTAPLCSIKEMKITRRGTIFPLDFLPEV</Hsp_hseq>
+      <Hsp_midline> K+VAV+GAGVSGLAAAYKLK HG +VTV EAEG+AGGKLRSVS +GLIWDEGANTMTE+E +V  L+DSLGLR+KQQFP+SQNKRY+ARNG PVLLP+NPI+LIKSNFLST SK Q+LLEP LWK KK   VSD H  ESV+GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLSM HSFPELWN+EKR+GSVI G IRSK+S + EK+ G  K S  K KRQRGSFSF GGMQTLTD +CK L + EL+LNS+VL LS S    S  ++WS+   +   + S+  S DA+IMTAPLC +K MKI +RG  F L+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>2.50835e-22</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGHNYDSVIEAIEKMEKNLPGLFYAGNHRGGLSVGKAIASGCKAADLVISYLESSS</Hsp_hseq>
+      <Hsp_midline>+YGHNYDSV++AI+KMEKNLPGLFYAGNHRGGLSVGKA++SGC AADLVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_009371674.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial [Pyrus x bretschneideri]</Hit_def>
+  <Hit_accession>XP_009371674</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>2.1431e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVVGAGVSGLAAAYKLKSHGFDVAVFEAEGRAGGKLRSVSRDGLIWDEGANTMTESETEVQTLLDNLGLREKQQFPISQTKRYIVRNGSPVLLPTNPIALITSNFLSAQSKLQIILEPYLWKKKGVSD-DNTQESVGGFFQRHFGPEVVDYLIDPFVAGTSGGDPESLSMRHSFPDLWNMEKRFGSVISGAIKSKLSAKKE-KSGQTKGSVEKGKRQRGSFSFHGGMQTLTDTLCNQFGKDELKLNSKVFSLSYSHDGKSAFENWSVSSAAKDDKHSQSLSVDAVVMTAPLCNVKEMNITKRGTLFPLDFFPEV</Hsp_hseq>
+      <Hsp_midline>KRVAV+GAGVSGLAAAYKLK HG +V VFEAEG+AGGKLRSVS+DGLIWDEGANTMTESE +V  L+D+LGLREKQQFP+SQ KRYI RNG+PVLLP+NPI LI SNFLS  SKLQ++LEP LWK K +S   ++ ESV GFFQRHFG EVVDYLIDPFVAGT GGDP+SLSM HSFP+LWN+EKRFGSVI GAI+SKLS K E K G  K S  K KRQRGSFSF GGMQTLTD +C    +DEL+LNS+V  LS S    SA ++WS+ SA+   + S+  S DAV+MTAPLC+VK M I KRG  F L+F PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.31844e-19</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLES</Hsp_qseq>
+      <Hsp_hseq>LYGRNYDSVIEAIEKMEKNLPGFFYAGNHRGGLSVGKAIASGCKAAELVIAYLES</Hsp_hseq>
+      <Hsp_midline>+YG NYDSV++AI+KMEKNLPG FYAGNHRGGLSVGKA++SGC AA+LVI+YLES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_021833286.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X1 [Prunus avium]</Hit_def>
+  <Hit_accession>XP_021833286</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>2.1676e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>VKRVAVVGAGVSGLAAAYKLKSHGFDVTVFEAEGRAGGKLRSVSHDGLIWDEGANTMTESEKEVQTLLDDLGIREKQQFPISQNKRYIVRNGSPVLIPTNPIALIKSNFLSAQSKFQIILEPYLWKDKR---VSDDHTEESVGGFFQRHFGEEVVDYLIDPFVAGTSAGDPESLSMRHSFPDIWNIEKRFGSVISGAIKSKLSA-SKGKSGETKGSVEKGKRQHGSFSFHGGMQTLTDILCNQLEKDELKLNSKVLSLSYRQGGNSALENWSVSRVADDDKHSQSLSVDAVIMTAPLCNVKEMKITKRGTRFPLDFIPEV</Hsp_hseq>
+      <Hsp_midline> KRVAV+GAGVSGLAAAYKLK HG +VTVFEAEG+AGGKLRSVS DGLIWDEGANTMTESE +V  L+D LG+REKQQFP+SQNKRYI RNG+PVL+P+NPI LIKSNFLS  SK Q++LEP LWK+K+   VSD H  ESV GFFQRHFG+EVVDYLIDPFVAGT  GDP+SLSM HSFP++WN+EKRFGSVI GAI+SKLS  ++ K G  K S  K KRQ GSFSF GGMQTLTD +C  L +DEL+LNS+VL LS     +SA+++WS+   +   + S+  S DAVIMTAPLC+VK MKI KRG  F L+FIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>2.41718e-18</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGRDYDSVIEAIENMEKNLPGFFYAGNHRGGLSVGKSIASGCKAAELVISYLESPS</Hsp_hseq>
+      <Hsp_midline>+YG +YDSV++AI+ MEKNLPG FYAGNHRGGLSVGK+++SGC AA+LVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_024181665.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial-like isoform X1 [Rosa chinensis] &gt;ref|XP_024181666.1| protoporphyrinogen oxidase, mitochondrial-like isoform X2 [Rosa chinensis] &gt;gb|PRQ54205.1| putative protoporphyrinogen oxidase [Rosa chinensis]</Hit_def>
+  <Hit_accession>XP_024181665</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>2.55351e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVVGAGVSGLAAAYKLKSHGFDVTVLEAEGRAGGKLRSVSCNGLVWDEGANTMTESEAEVQTLLDNLGLREKQQFPISQNKRYVARNGSPVLLPTNPIELIKSNFLSTKSKFQILLEPYLWKKKR---VSDDHTRETVGGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSMPHSFPELWNIEKRYGSVIAGAIQSKLSSRKEKGRETKGSVEKGKRQRGSFSFQGGMQTLTDTLCKQLGKHELKLNSKVLSLSYSHDGNTTSENWSVSCAANNDKHLQSSSVDAIILTAPLCSIKEMKISRRGTIFPLDFLPEV</Hsp_hseq>
+      <Hsp_midline>KRVAV+GAGVSGLAAAYKLK HG +VTV EAEG+AGGKLRSVS +GL+WDEGANTMTESE +V  L+D+LGLREKQQFP+SQNKRY+ARNG+PVLLP+NPI+LIKSNFLST SK Q+LLEP LWK K+   VSD H  E+V GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLSM HSFPELWN+EKR+GSVI GAI+SKLS + EK +    +    KRQRGSFSF GGMQTLTD +CK L + EL+LNS+VL LS S   ++  ++WS+  A+ + +  +  S DA+I+TAPLC +K MKI++RG  F L+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>9.03354e-21</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>415</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DIRQL-LGAEGEPTFVNHYHWSKAFPLYGHNYDSVIEAIEQMEKNLPGLFYAGNHRGGLSVGKAIASGCKAAELAISYLESSS</Hsp_hseq>
+      <Hsp_midline>D++ + +   G P  +N         +YGHNYDSV++AI++MEKNLPGLFYAGNHRGGLSVGKA++SGC AA+L ISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_021833288.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial isoform X2 [Prunus avium]</Hit_def>
+  <Hit_accession>XP_021833288</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>2.5786e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANK-KRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>VKRVAVVGAGVSGLAAAYKLKSHGFDVTVFEAEGRAGGKLRSVSHDGLIWDEGANTMTESEKEVQTLLDDLGIREKQQFPISQNKRYIVRNGSPVLIPTNPIALIKSNFLSAQSKFQIILEPYLWKDKR---VSDDHTEESVGGFFQRHFGEEVVDYLIDPFVAGTSAGDPESLSMRHSFPDIWNIEKRFGSVISGAIKSKLSA-SKGKSGETKGSVEKGKRQHGSFSFHGGMQTLTDILCNQLEKDELKLNSKVLSLSYRQGGNSALENWSVSRVADDDKHSQSLSVDAVIMTAPLCNVKEMKITKRGTRFPLDFIPEV</Hsp_hseq>
+      <Hsp_midline> KRVAV+GAGVSGLAAAYKLK HG +VTVFEAEG+AGGKLRSVS DGLIWDEGANTMTESE +V  L+D LG+REKQQFP+SQNKRYI RNG+PVL+P+NPI LIKSNFLS  SK Q++LEP LWK+K+   VSD H  ESV GFFQRHFG+EVVDYLIDPFVAGT  GDP+SLSM HSFP++WN+EKRFGSVI GAI+SKLS  ++ K G  K S  K KRQ GSFSF GGMQTLTD +C  L +DEL+LNS+VL LS     +SA+++WS+   +   + S+  S DAVIMTAPLC+VK MKI KRG  F L+FIPEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>2.54973e-18</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>LYGRDYDSVIEAIENMEKNLPGFFYAGNHRGGLSVGKSIASGCKAAELVISYLESPS</Hsp_hseq>
+      <Hsp_midline>+YG +YDSV++AI+ MEKNLPG FYAGNHRGGLSVGK+++SGC AA+LVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_023880158.1|</Hit_id>
+  <Hit_def>protoporphyrinogen oxidase, mitochondrial [Quercus suber]</Hit_def>
+  <Hit_accession>XP_023880158</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>3.46651e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>AKRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSD--SHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>AKRVAVIGAGVSGLAAAYKLKSHGLNVAVFEAEGRAGGKLRSVSHDGLIWDEGANTMTESEPEVRSLLDDLGLREKQQFPISQNKRYIVRNGMPVLIPANPIALIKSNFLSAKSKFQIILEPFLWKKINSSKVSDDYTQESVGGFFERHFGKEVVDYLIDPFVAGTSAGDPESLSIRHSFPDLWNLEQRFGSIIAGLLQSKISAKRVKSGETKGTLEKKKPQRGSFSFHGGMQTLTDMLCKELGKDDVKLNSKVLSLSYSCDGKSALENWSVSYASDHDKHLQGLSVDAVIMTAPLSNVKEMKITKRGTLFPLDILPEV</Hsp_hseq>
+      <Hsp_midline>AKRVAVIGAGVSGLAAAYKLK HGLNV VFEAEG+AGGKLRSVS DGLIWDEGANTMTESE +V  L+D LGLREKQQFP+SQNKRYI RNG PVL+P+NPI LIKSNFLS  SK Q++LEP LWK    S+VSD  + ESV GFF+RHFGKEVVDYLIDPFVAGT  GDP+SLS+ HSFP+LWNLE+RFGS+I G ++SK+S K  K      T   KK QRGSFSF GGMQTLTD +CK+L +D+++LNS+VL LS SC   SA+++WS+  AS H +  +  S DAVIMTAPL +VK MKI KRG  F L+ +PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.10403e-18</Hsp_evalue>
+      <Hsp_query-from>295</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>418</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CDVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>SDIKQL-LGAEGEPTFVNHFYWSKAFPLYGRNYGSVLEAIETIEKNLPGFFYAGNHKGGLAVGKAIASGCKAADLVISYLESSS</Hsp_hseq>
+      <Hsp_midline> D+K + +   G P  +N         +YG NY SVL+AI+ +EKNLPG FYAGNH+GGL+VGKA++SGC AADLVISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|PRQ54201.1|</Hit_id>
+  <Hit_def>putative protoporphyrinogen oxidase [Rosa chinensis]</Hit_def>
+  <Hit_accession>PRQ54201</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>5.41856e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSH--ESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KRVAVVGAGVSGLAAAYKLKSHGFDVTVLEAEGRAGGKLRSVSCNGLVWDEGANTMTESEAEVQTLLDNLGLREKQQFPISQNKRYVARNGSPVLLPTNPIELIKSNFLSTKSKFQILLEPYLWKKKR---VSDDHTRETVGGFFQRHFGKEVVDYLIDPFVAGTSAGDPESLSMPHSFPELWNIEKRYGSVIAGAIQSKLSSRKEKGRETKGSVEKGKRQRGSFSFQGGMQTLTDTLCKQLGKHELKLNSKVLSLSYSHDGNTTSENWSVSCAANNDKHLQSSSVDAIILTAPLCSIKEMKISRRGTIFPLDFLPEV</Hsp_hseq>
+      <Hsp_midline>KRVAV+GAGVSGLAAAYKLK HG +VTV EAEG+AGGKLRSVS +GL+WDEGANTMTESE +V  L+D+LGLREKQQFP+SQNKRY+ARNG+PVLLP+NPI+LIKSNFLST SK Q+LLEP LWK K+   VSD H  E+V GFFQRHFGKEVVDYLIDPFVAGT  GDP+SLSM HSFPELWN+EKR+GSVI GAI+SKLS + EK +    +    KRQRGSFSF GGMQTLTD +CK L + EL+LNS+VL LS S   ++  ++WS+  A+ + +  +  S DA+I+TAPLC +K MKI++RG  F L+F+PEV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>9.39679e-21</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>419</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>DVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>DIRQL-LGAEGEPTFVNHYHWSKAFPLYGHNYDSVIEAIEQMEKNLPGLFYAGNHRGGLSVGKAIASGCKAAELAISYLESSS</Hsp_hseq>
+      <Hsp_midline>D++ + +   G P  +N         +YGHNYDSV++AI++MEKNLPGLFYAGNHRGGLSVGKA++SGC AA+L ISYLES S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_012850568.1|</Hit_id>
+  <Hit_def>PREDICTED: protoporphyrinogen oxidase, mitochondrial [Erythranthe guttata] &gt;gb|EYU44867.1| hypothetical protein MIMGU_mgv1a004269mg [Erythranthe guttata]</Hit_def>
+  <Hit_accession>XP_012850568</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>6.57785e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQR--GSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KSVAVIGAGVSGLSAAYKLKLHGLNVTVFEADARSGGKLRSISHDGLIWDEGANTMTESEAAVGFLLDNLGLRDKQQFPLSQQKRYIAKNGEPIQLPSNPAALIKSNLLSAGSKLQIFLEPFLWKNNSTSKRPDAEESVGAFFQRHFGKEVVDYLIDPFVAGTSGGDPESLSMRHVFPELWDLEKRFGSIISGAIQSKLSARKE-TTGRMKDSLVKKKKHSSGSFSFLGGMQTLTDALSNELGKDELKLQSKVLELSSSCSENSPLDNWSISYELDDKNHSCQKSFDALILTAPLSGVKQMKITRQGLPFLLDFIPEI</Hsp_hseq>
+      <Hsp_midline>K VAVIGAGVSGL+AAYKLK+HGLNVTVFEA+ ++GGKLRS+S DGLIWDEGANTMTESE  V FL+D+LGLR+KQQFPLSQ KRYIA+NG P+ LPSNP  LIKSN LS GSKLQ+ LEP LWKN   S+  D+ ESV  FFQRHFGKEVVDYLIDPFVAGT GGDP+SLSM H FPELW+LEKRFGS+I GAI+SKLS + E   G  K S  KK++   GSFSFLGGMQTLTDA+  +L +DEL+L S+VLELS SC+E+S +D+WSI      K  S ++SFDA+I+TAPL  VK MKI ++G PFLL+FIPE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.46851e-19</Hsp_evalue>
+      <Hsp_query-from>295</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>447</Hsp_hit-from>
+      <Hsp_hit-to>529</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CDVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>CDLRQL-LGAEGEPASLNHFHWSKAFPLYGRKYGSVIEAIDKMEKDLPGLFYAGNHKGGLSVGKAISSGCEAADLVISYLDTCS</Hsp_hseq>
+      <Hsp_midline>CD++ + +   G P  LN         +YG  Y SV++AIDKMEK+LPGLFYAGNH+GGLSVGKA+SSGC AADLVISYL++ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|EYU44868.1|</Hit_id>
+  <Hit_def>hypothetical protein MIMGU_mgv1a004269mg [Erythranthe guttata]</Hit_def>
+  <Hit_accession>EYU44868</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>6.81022e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>317</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQR--GSFSFLGGMQTLTDAICKDLREDELRLNSRVLELSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEV</Hsp_qseq>
+      <Hsp_hseq>KSVAVIGAGVSGLSAAYKLKLHGLNVTVFEADARSGGKLRSISHDGLIWDEGANTMTESEAAVGFLLDNLGLRDKQQFPLSQQKRYIAKNGEPIQLPSNPAALIKSNLLSAGSKLQIFLEPFLWKNNSTSKRPDAEESVGAFFQRHFGKEVVDYLIDPFVAGTSGGDPESLSMRHVFPELWDLEKRFGSIISGAIQSKLSARKE-TTGRMKDSLVKKKKHSSGSFSFLGGMQTLTDALSNELGKDELKLQSKVLELSSSCSENSPLDNWSISYELDDKNHSCQKSFDALILTAPLSGVKQMKITRQGLPFLLDFIPEI</Hsp_hseq>
+      <Hsp_midline>K VAVIGAGVSGL+AAYKLK+HGLNVTVFEA+ ++GGKLRS+S DGLIWDEGANTMTESE  V FL+D+LGLR+KQQFPLSQ KRYIA+NG P+ LPSNP  LIKSN LS GSKLQ+ LEP LWKN   S+  D+ ESV  FFQRHFGKEVVDYLIDPFVAGT GGDP+SLSM H FPELW+LEKRFGS+I GAI+SKLS + E   G  K S  KK++   GSFSFLGGMQTLTDA+  +L +DEL+L S+VLELS SC+E+S +D+WSI      K  S ++SFDA+I+TAPL  VK MKI ++G PFLL+FIPE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.58403e-19</Hsp_evalue>
+      <Hsp_query-from>295</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>519</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CDVKSMKIAKRGNPFLLNFIP-----EVYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLESVS</Hsp_qseq>
+      <Hsp_hseq>CDLRQL-LGAEGEPASLNHFHWSKAFPLYGRKYGSVIEAIDKMEKDLPGLFYAGNHKGGLSVGKAISSGCEAADLVISYLDTCS</Hsp_hseq>
+      <Hsp_midline>CD++ + +   G P  LN         +YG  Y SV++AIDKMEK+LPGLFYAGNH+GGLSVGKA+SSGC AADLVISYL++ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>emb|CDP16674.1|</Hit_id>
+  <Hit_def>unnamed protein product [Coffea canephora]</Hit_def>
+  <Hit_accession>CDP16674</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.58</Hsp_bit-score>
+      <Hsp_score>1137</Hsp_score>
+      <Hsp_evalue>6.88356e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>KRVAVIGAGVSGLAAAYKLKIHGLNVTVFEAEGKAGGKLRSVSQDGLIWDEGANTMTESEGDVTFLIDSLGLREKQQFPLSQNKRYIARNGTPVLLPSNPIDLIKSNFLSTGSKLQMLLEPILWKNKKLSQVSDSHESVSGFFQRHFGKEVVDYLIDPFVAGTCGGDPDSLSMHHSFPELWNLEKRFGSVILGAIRSKLSPKNEKKQGPPKTSANKKRQRGSFSFLGGMQTLTDAICKDLREDELRLNSRVLE-LSCSCTEDSAIDSWSIISASPHKRQSEEESFDAVIMTAPLCDVKSMKIAKRGNPFLLNFIPEVYGHNYDSVLDAIDKMEKNLP</Hsp_qseq>
+      <Hsp_hseq>KRVAVVGAGVSGLAAAYKLKLRGLNVTVFEADERAGGKLKSVSRDGLIWDEGANTMTESDAEVGFLLDNLGLRDKQQYPISQTKRYIARNATPILIPSNPLALIGSSFLSAQSKLQILFEPFLWK-KNPSKFSEEQESVGGFFERHFGKEVVDYLIDPFVAGTSGGDPDSLSMRYSFPDLWSLEKRFGSVIYGAIQSKLSAKRENKGGTRSSPANKRRQRESFSFLGGMQTLTNALCKELGEKDLKLRHEVLELSCSSRSKSSLLDSWSVSYASQHKKMSEEKSFDAVIVTAPLNNLKDMKITKGGKPFLLDFIPEVTYLPVSVVISTFNKKNVRRP</Hsp_hseq>
+      <Hsp_midline>KRVAV+GAGVSGLAAAYKLK+ GLNVTVFEA+ +AGGKL+SVS+DGLIWDEGANTMTES+ +V FL+D+LGLR+KQQ+P+SQ KRYIARN TP+L+PSNP+ LI S+FLS  SKLQ+L EP LWK K  S+ S+  ESV GFF+RHFGKEVVDYLIDPFVAGT GGDPDSLSM +SFP+LW+LEKRFGSVI GAI+SKLS K E K G   + ANK+RQR SFSFLGGMQTLT+A+CK+L E +L+L   VLE    S ++ S +DSWS+  AS HK+ SEE+SFDAVI+TAPL ++K MKI K G PFLL+FIPEV       V+   +K     P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.95164e-16</Hsp_evalue>
+      <Hsp_query-from>317</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>499</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>VYGHNYDSVLDAIDKMEKNLPGLFYAGNHRGGLSVGKALSSGCNAADLVISYLES</Hsp_qseq>
+      <Hsp_hseq>LYGRNYKTVIEAIDKLEKDLPGFFYAGNHKEGLAVGRAISSGCKAADLVISYLNS</Hsp_hseq>
+      <Hsp_midline>+YG NY +V++AIDK+EK+LPG FYAGNH+ GL+VG+A+SSGC AADLVISYL S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
