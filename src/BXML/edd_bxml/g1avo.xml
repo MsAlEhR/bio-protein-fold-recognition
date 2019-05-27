@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_129385</BlastOutput_query-ID>
+  <BlastOutput_query-def>g1avo</BlastOutput_query-def>
+  <BlastOutput_query-len>200</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_129385</Iteration_query-ID>
+  <Iteration_query-def>g1avo</Iteration_query-def>
+  <Iteration_query-len>200</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>emb|VCX41556.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Gulo gulo]</Hit_def>
+  <Hit_accession>VCX41556</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>2.42767e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSIHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTS+HTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_005338790.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Ictidomys tridecemlineatus] &gt;ref|XP_026261813.1| proteasome activator complex subunit 1 [Urocitellus parryii]</Hit_def>
+  <Hit_accession>XP_005338790</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>2.94027e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKDKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_006254.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform 1 [Homo sapiens] &gt;ref|XP_009247243.1| proteasome activator complex subunit 1 isoform X2 [Pongo abelii] &gt;sp|Q06323.1| RecName: Full=Proteasome activator complex subunit 1; AltName: Full=11S regulator complex subunit alpha; Short=REG-alpha; AltName: Full=Activator of multicatalytic protease subunit 1; AltName: Full=Interferon gamma up-regulated I-5111 protein; Short=IGUP I-5111; AltName: Full=Proteasome activator 28 subunit alpha; Short=PA28a; Short=PA28alpha [Homo sapiens] &gt;gb|AAA16521.1| interferon-gamma [Homo sapiens] &gt;gb|AAA53230.1| interferon-gamma [Homo sapiens] &gt;gb|AAF02217.1| proteasome activator PA28 alpha [Homo sapiens] &gt;gb|AAH00352.1| Proteasome (prosome, macropain) activator subunit 1 (PA28 alpha) [Homo sapiens] &gt;gb|AAH07503.1| Proteasome (prosome, macropain) activator subunit 1 (PA28 alpha) [Homo sapiens] &gt;gb|AAV38144.1| proteasome (prosome, macropain) activator subunit 1 (PA28 alpha) [Homo sapiens] &gt;gb|AAX41456.1| proteasome activator subunit 1 [synthetic construct] &gt;gb|AAX41457.1| proteasome activator subunit 1 [synthetic construct] &gt;gb|ABM82764.1| proteasome (prosome, macropain) activator subunit 1 (PA28 alpha) [synthetic construct] &gt;gb|ABM85950.1| proteasome (prosome, macropain) activator subunit 1 (PA28 alpha), partial [synthetic construct] &gt;gb|ACV87212.1| epididymis secretory sperm binding protein Li 129m [Homo sapiens] &gt;gb|AIC49519.1| PSME1, partial [synthetic construct] &gt;gb|EAW66105.1| proteasome (prosome, macropain) activator subunit 1 (PA28 alpha), isoform CRA_a [Homo sapiens] &gt;gb|PNI96726.1| PSME1 isoform 1 [Pan troglodytes] &gt;gb|PNJ35619.1| PSME1 isoform 1 [Pongo abelii] &gt;dbj|BAG35144.1| unnamed protein product [Homo sapiens] &gt;dbj|BAJ20269.1| proteasome (prosome, macropain) activator subunit 1, partial [synthetic construct] &gt;emb|CAG33061.1| PSME1 [Homo sapiens] &gt;emb|SJX31256.1| unnamed protein product, partial [Human ORFeome Gateway entry vector]</Hit_def>
+  <Hit_accession>NP_006254</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>3.39071e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAV38142.1|</Hit_id>
+  <Hit_def>proteasome (prosome, macropain) activator subunit 1 (PA28 alpha), partial [synthetic construct] &gt;gb|AAV38143.1| proteasome (prosome, macropain) activator subunit 1 (PA28 alpha), partial [synthetic construct] &gt;gb|AAX43085.1| proteasome activator subunit 1, partial [synthetic construct] &gt;gb|AAX43086.1| proteasome activator subunit 1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAV38142</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>4.42296e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|ADO22548.1|</Hit_id>
+  <Hit_def>epididymis secretory sperm binding protein, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>ADO22548</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>4.68665e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_004755317.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Mustela putorius furo]</Hit_def>
+  <Hit_accession>XP_004755317</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>7.88772e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPSLNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEP+LNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|NP_001248219.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Macaca mulatta] &gt;ref|XP_003901672.1| proteasome activator complex subunit 1 [Papio anubis] &gt;ref|XP_007984481.1| PREDICTED: proteasome activator complex subunit 1 [Chlorocebus sabaeus] &gt;ref|XP_011732993.1| proteasome activator complex subunit 1 [Macaca nemestrina] &gt;ref|XP_011786171.1| PREDICTED: proteasome activator complex subunit 1 isoform X2 [Colobus angolensis palliatus] &gt;ref|XP_011946608.1| PREDICTED: proteasome activator complex subunit 1 [Cercocebus atys] &gt;ref|XP_025247663.1| proteasome activator complex subunit 1 isoform X1 [Theropithecus gelada] &gt;ref|XP_028706301.1| proteasome activator complex subunit 1 isoform X1 [Macaca mulatta]</Hit_def>
+  <Hit_accession>NP_001248219</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>8.61085e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKILVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKI+VLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_010362084.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 isoform X2 [Rhinopithecus roxellana] &gt;ref|XP_017745709.1| PREDICTED: proteasome activator complex subunit 1 isoform X2 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_010362084</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>8.61085e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKGEKKKGEDEDKGPPCGPVNCNEKILVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKI+VLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|NP_001271536.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Macaca fascicularis] &gt;sp|P58238.1| RecName: Full=Proteasome activator complex subunit 1; AltName: Full=11S regulator complex subunit alpha; Short=REG-alpha; AltName: Full=Activator of multicatalytic protease subunit 1; AltName: Full=Proteasome activator 28 subunit alpha; Short=PA28a; Short=PA28alpha [Macaca fascicularis] &gt;dbj|BAB46905.1| hypothetical protein [Macaca fascicularis]</Hit_def>
+  <Hit_accession>NP_001271536</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>8.61085e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKGERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKILVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKI+VLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_002921125.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Ailuropoda melanoleuca] &gt;ref|XP_026342356.1| proteasome activator complex subunit 1 [Ursus arctos horribilis]</Hit_def>
+  <Hit_accession>XP_002921125</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>9.29777e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTTLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AAX37054.1|</Hit_id>
+  <Hit_def>proteasome activator subunit 1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAX37054</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>9.52874e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHSQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFH+QISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>emb|CAG46459.1|</Hit_id>
+  <Hit_def>PSME1, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>CAG46459</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>9.82172e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHSQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFH+QISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_014932833.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Acinonyx jubatus] &gt;ref|XP_025774346.1| proteasome activator complex subunit 1 isoform X1 [Puma concolor]</Hit_def>
+  <Hit_accession>XP_014932833</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>9.93e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKNGKKKEEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_008707006.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Ursus maritimus]</Hit_def>
+  <Hit_accession>XP_008707006</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>1.02705e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTTLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_025299161.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Canis lupus dingo] &gt;ref|XP_537380.1| proteasome activator complex subunit 1 [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>XP_025299161</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>1.12029e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEEKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_003987550.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Felis catus] &gt;ref|XP_007098086.1| PREDICTED: proteasome activator complex subunit 1 [Panthera tigris altaica] &gt;ref|XP_019284914.1| PREDICTED: proteasome activator complex subunit 1 [Panthera pardus] &gt;emb|VFV17636.1| proteasome activator complex [Lynx pardinus]</Hit_def>
+  <Hit_accession>XP_003987550</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>1.12029e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDGKKKEEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_509864.4|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X2 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_509864</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>1.42424e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_012611455.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012611455</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>1.69932e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVAKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAV KAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_015347759.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Marmota marmota marmota]</Hit_def>
+  <Hit_accession>XP_015347759</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>1.69932e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEVNLSNLKAPLDIPVPDPVKDKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNE NLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_015976101.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>XP_015976101</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>1.77551e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVILLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIV+LLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_027775845.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X1 [Marmota flaviventris]</Hit_def>
+  <Hit_accession>XP_027775845</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>1.79508e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEVNLSNLKAPLDIPVPDPVKDKEKEERKKQLEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNE NLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_023083083.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X2 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023083083</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>1.95965e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKNEKKKGEDEDKGPPCGPVNCNEKILVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKI+VLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_012323041.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X2 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_012323041</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>1.98125e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVHPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRV PEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_012502739.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012502739</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>2.07008e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNTYAVLYDVILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRN YAVLYD+ILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_003924340.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 isoform X2 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_003924340</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>2.25986e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVHPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRV PEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_022376761.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X2 [Enhydra lutris kenyoni]</Hit_def>
+  <Hit_accession>XP_022376761</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>3.24502e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCIKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLC KTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_003260715.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 isoform X2 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_003260715</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>4.50888e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDTFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVLLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELD FLKEPALNEANLSNLKAPLDI V                                       NCNEKIV+LLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|OWK09427.1|</Hit_id>
+  <Hit_def>PSME1 [Cervus elaphus hippelaphus]</Hit_def>
+  <Hit_accession>OWK09427</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>4.59054e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV-------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVLPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPKEDKDEKKKGEDEDKGPPCGPVSCNEKIVVLLQRVKPEIKDVIEKLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRV PEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                         +CNEKIVVLLQR+KPEIKDVIE+LNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_016061267.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 isoform X2 [Miniopterus natalensis]</Hit_def>
+  <Hit_accession>XP_016061267</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>5.30112e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV--------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKDPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKEDEDKGPPCGPVNCNEKIVILLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLK+PALNEANLSNLKAPLDI V                                      NCNEKIV+LLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_004402111.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 isoform X1 [Odobenus rosmarus divergens] &gt;ref|XP_006738716.1| PREDICTED: proteasome activator complex subunit 1 isoform X1 [Leptonychotes weddellii] &gt;ref|XP_006738717.1| PREDICTED: proteasome activator complex subunit 1 isoform X2 [Leptonychotes weddellii] &gt;ref|XP_012418430.1| PREDICTED: proteasome activator complex subunit 1 isoform X1 [Odobenus rosmarus divergens] &gt;ref|XP_021550958.1| proteasome activator complex subunit 1 [Neomonachus schauinslandi] &gt;ref|XP_025726070.1| proteasome activator complex subunit 1 [Callorhinus ursinus] &gt;ref|XP_027428068.1| proteasome activator complex subunit 1 [Zalophus californianus] &gt;ref|XP_027970664.1| proteasome activator complex subunit 1 [Eumetopias jubatus]</Hit_def>
+  <Hit_accession>XP_004402111</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>5.31488e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEADLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTTLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEA+LSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_025863366.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Vulpes vulpes]</Hit_def>
+  <Hit_accession>XP_025863366</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>5.73885e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLNNLKAPLDIPVPDPVKEKEKEERKKQQEKEEKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANL+NLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_008838053.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Nannospalax galili]</Hit_def>
+  <Hit_accession>XP_008838053</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>5.73885e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCSKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKVVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTNLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLC+KTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEK+VVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|TKC38199.1|</Hit_id>
+  <Hit_def>hypothetical protein EI555_015795, partial [Monodon monoceros]</Hit_def>
+  <Hit_accession>TKC38199</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>6.18669e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV-------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVLPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEKLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTTLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYWDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRV PEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                         NCNEKIVVLLQRLKPEIKDVIE+LNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEY DIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_003801997.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Otolemur garnettii]</Hit_def>
+  <Hit_accession>XP_003801997</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>6.9147e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISDLDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVAKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKIS+LDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAV KAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|Q64L94.1|</Hit_id>
+  <Hit_def>RecName: Full=Proteasome activator complex subunit 1; AltName: Full=Proteasome activator 28 subunit alpha; Short=PA28a; Short=PA28alpha [Sus scrofa] &gt;gb|AAQ83574.1| proteasome activator 28 alpha subunit [Sus scrofa]</Hit_def>
+  <Hit_accession>Q64L94</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>7.14592e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVAKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAV KAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_006913619.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Pteropus alecto]</Hit_def>
+  <Hit_accession>XP_006913619</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>7.38487e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEASLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVILLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEA+LSNLKAPLDI V                                       NCNEKIV+LLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_008570561.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008570561</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>7.8012e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDTFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELD FLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_017400159.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 isoform X2 [Cebus capucinus imitator]</Hit_def>
+  <Hit_accession>XP_017400159</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>1.27769e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVRPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKSPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIRDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRV+PEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLK+PLDI V                                       NCNEKIVVLLQRLKPEI+DVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_014724093.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 isoform X1 [Equus asinus]</Hit_def>
+  <Hit_accession>XP_014724093</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>1.53947e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCSKTENLLGSYFPKKISELDAFLKEPVLNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGDDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTTLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLC+KTENLLGSYFPKKISELDAFLKEP LNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_004390563.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X3 [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_004390563</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>1.79487e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTTLQTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMIMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+L TKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLM+MEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_008537755.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Equus przewalskii] &gt;ref|XP_023478718.1| proteasome activator complex subunit 1 [Equus caballus]</Hit_def>
+  <Hit_accession>XP_008537755</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>1.83467e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCSKTENLLGSYFPKKISELDAFLKEPVLNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGDDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLC+KTENLLGSYFPKKISELDAFLKEP LNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_004647513.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Octodon degus]</Hit_def>
+  <Hit_accession>XP_004647513</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>1.98102e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIA---------------------------------------VNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRIQPEAQAKVDVFREDLCTKAENLLGSYFPKKISELDAFLKEPALNEANLNNLKAPLDIPIPDPVKEKEKEERKKQQEKEDKGEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LR+QPEAQAKVDVFREDLCTK ENLLGSYFPKKISELDAFLKEPALNEANL+NLKAPLDI                                        VNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_004421252.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Ceratotherium simum simum]</Hit_def>
+  <Hit_accession>XP_004421252</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>3.10536e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCSKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKNEKKKGDDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQISKYFSERGDAVAKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLC+KTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQISKYFSERGDAV KAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_028362563.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X2 [Phyllostomus discolor]</Hit_def>
+  <Hit_accession>XP_028362563</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>4.49668e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV--------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>IRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKDDEDKGPPCGPVNCNEKIVILLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHSQISKYFSERGDAVAKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>+RVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                      NCNEKIV+LLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFH+QISKYFSERGDAV KAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_010636021.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Fukomys damarensis] &gt;gb|KFO27487.1| Proteasome activator complex subunit 1 [Fukomys damarensis]</Hit_def>
+  <Hit_accession>XP_010636021</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>4.71032e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIA---------------------------------------VNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKAENLLGSYFPKKISELDAFLKEPALNEANLNNLKAPLDIPIPDPAKEKEKEERKKQQEKENKDEKKKGEDEDKGPPCGPVNCNEKIVALLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTK ENLLGSYFPKKISELDAFLKEPALNEANL+NLKAPLDI                                        VNCNEKIV LLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_008067930.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X2 [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008067930</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>5.31406e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTEDLLGSYFPKKISELDAFLKEPALNEADLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEHLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTE+LLGSYFPKKISELDAFLKEPALNEA+LSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIE LNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_006760918.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Myotis davidii]</Hit_def>
+  <Hit_accession>XP_006760918</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>9.55716e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV-------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPVPDPVNDHHAPSILSLQKEDKDEKKKDDEDKGPPCGPVNCNEKILTLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTALHTKLEGFHTQIAKYFSERGDAVAKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI V                                     NCNEKI+ LLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMT+LHTKLEGFHTQI+KYFSERGDAV KAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_003474492.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 [Cavia porcellus]</Hit_def>
+  <Hit_accession>XP_003474492</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.09568e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIA---------------------------------------VNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKAENLLGSYFPKKISELDAFLKEPALNEINLNNLKAPLDIPIPDPAKEKEKEERKKQQEKEDKSEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTK ENLLGSYFPKKISELDAFLKEPALNE NL+NLKAPLDI                                        VNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_027246373.1|</Hit_id>
+  <Hit_def>proteasome activator complex subunit 1 isoform X2 [Cricetulus griseus] &gt;gb|RLQ56123.1| PSME1 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_027246373</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.19612e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIA---------------------------------------VNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVHPEAQAKVDVFREDLCSKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIPIPDPVKEKEKEERKKQQEKEEKDEKKKGEDEDKGPPCGPVNCNEKIVALLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYQDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRV PEAQAKVDVFREDLC+KTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDI                                        VNCNEKIV LLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEY+DIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_006217331.1|</Hit_id>
+  <Hit_def>PREDICTED: proteasome activator complex subunit 1 [Vicugna pacos] &gt;ref|XP_010953055.1| PREDICTED: proteasome activator complex subunit 1 [Camelus bactrianus] &gt;ref|XP_010994066.1| PREDICTED: proteasome activator complex subunit 1 [Camelus dromedarius]</Hit_def>
+  <Hit_accession>XP_006217331</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.34943e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LRVQPEAQAKVDVFREDLCTKTENLLGSYFPKKISELDAFLKEPALNEANLSNLKAPLDIAV---------------------------------------NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVTKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_qseq>
+      <Hsp_hseq>LRVQPEAQAKVDVFREDLCTKTENLLGNYFPKKISELDAFLKEPALNEFNLSNLKAPLDIPVPDPVKEKEKEERKKQQEKEDKDEKKKGEDEDKGPPCGPVNCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAVAKAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_hseq>
+      <Hsp_midline>LRVQPEAQAKVDVFREDLCTKTENLLG+YFPKKISELDAFLKEPALNE NLSNLKAPLDI V                                       NCNEKIVVLLQRLKPEIKDVIEQLNLVTTWLQLQIPRIEDGNNFGVAVQEKVFELMTSLHTKLEGFHTQISKYFSERGDAV KAAKQPHVGDYRQLVHELDEAEYRDIRLMVMEIRNAYAVLYDIILKNFEKLKKPRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

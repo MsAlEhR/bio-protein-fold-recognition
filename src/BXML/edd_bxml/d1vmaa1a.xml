@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_200749</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1vmaa1a</BlastOutput_query-def>
+  <BlastOutput_query-len>81</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_200749</Iteration_query-ID>
+  <Iteration_query-def>d1vmaa1a</Iteration_query-def>
+  <Iteration_query-len>81</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1VMA|A</Hit_id>
+  <Hit_def>Chain A, Cell Division Protein Ftsy [Thermotoga maritima] &gt;pdb|1VMA|B Chain B, Cell Division Protein Ftsy [Thermotoga maritima]</Hit_def>
+  <Hit_accession>1VMA_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>4.30335e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_012895940.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga naphthophila] &gt;gb|ADA66454.1| signal recognition particle-docking protein FtsY [Thermotoga naphthophila RKU-10]</Hit_def>
+  <Hit_accession>WP_012895940</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>4.68737e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_004081293.1|</Hit_id>
+  <Hit_def>MULTISPECIES: signal recognition particle-docking protein FtsY [Thermotoga] &gt;ref|NP_228380.1| cell division protein FtsY [Thermotoga maritima MSB8] &gt;gb|AAD35655.1| cell division protein FtsY [Thermotoga maritima MSB8] &gt;gb|ACB08722.1| signal recognition particle-docking protein FtsY [Thermotoga sp. RQ2] &gt;gb|AGL49493.1| Signal recognition particle receptor protein FtsY (alpha subunit) [Thermotoga maritima MSB8] &gt;gb|AHD17673.1| cell division protein FtsY [Thermotoga maritima MSB8] &gt;gb|AKE26492.1| cell division protein FtsY [Thermotoga maritima] &gt;gb|AKE28357.1| cell division protein FtsY [Thermotoga maritima MSB8] &gt;gb|AKE30230.1| cell division protein FtsY [Thermotoga maritima] &gt;tpg|HBF69370.1| signal recognition particle-docking protein FtsY [Thermotoga sp.]</Hit_def>
+  <Hit_accession>WP_004081293</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>4.68737e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_008192344.1|</Hit_id>
+  <Hit_def>MULTISPECIES: signal recognition particle-docking protein FtsY [Thermotoga] &gt;gb|AIY85913.1| signal recognition particle-docking protein FtsY [Thermotoga sp. 2812B] &gt;gb|EJX26802.1| signal recognition particle-docking protein FtsY [Thermotoga sp. EMP]</Hit_def>
+  <Hit_accession>WP_008192344</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>5.94767e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_011943012.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga petrophila] &gt;gb|ABQ46377.1| signal recognition particle-docking protein FtsY [Thermotoga petrophila RKU-1] &gt;gb|KUK23063.1| Signal recognition particle receptor FtsY [Thermotoga naphthophila] &gt;gb|KUK33082.1| Signal recognition particle receptor FtsY [Thermotoga sp. 47_83]</Hit_def>
+  <Hit_accession>WP_011943012</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.83297e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLKEKDGDALESLKEIILEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL+EKDGDALESLKEIILEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_038033718.1|</Hit_id>
+  <Hit_def>MULTISPECIES: signal recognition particle-docking protein FtsY [Thermotoga] &gt;gb|AIY87723.1| signal recognition particle-docking protein FtsY [Thermotoga sp. Cell2] &gt;gb|KHC92166.1| signal recognition particle-docking protein FtsY [Thermotoga sp. TBGT1765] &gt;gb|KHC93624.1| signal recognition particle-docking protein FtsY [Thermotoga sp. TBGT1766] &gt;gb|KHC96333.1| signal recognition particle-docking protein FtsY [Thermotoga sp. Xyl54]</Hit_def>
+  <Hit_accession>WP_038033718</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>2.15598e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLKEKDGDALESLKEIILEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL+EKDGDALESLKEIILEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_038054589.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga sp. Mc24] &gt;gb|KHC90415.1| signal recognition particle-docking protein FtsY [Thermotoga sp. Mc24]</Hit_def>
+  <Hit_accession>WP_038054589</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>1.51119e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGRKLDDETREELEELLIQADVGVETTEYILERLEEKNGDALESLKEILLEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTKETFFGRVVKLLKG+KLDDETREELEELLIQADVGVETTEYILERLEEK+GDALESLKEI+LEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_101513005.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga sp. SG1] &gt;gb|PLV56700.1| signal recognition particle-docking protein FtsY [Thermotoga sp. SG1]</Hit_def>
+  <Hit_accession>WP_101513005</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>2.89849e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKDAFFGKVVNLLKGKKLDDETREKLEELLIQADVGIETTEYILERIEEKDGDALEALRETLLEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTK+ FFG+VV LLKGKKLDDETRE+LEELLIQADVG+ETTEYILER+EEKDGDALE+L+E +LEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_041843883.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga sp. RQ7] &gt;gb|AJG40234.1| cell division protein FtsY [Thermotoga sp. RQ7]</Hit_def>
+  <Hit_accession>WP_041843883</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>4.70925e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKDAFFGKVVSLLKGKKLDDETREKLEELLIQADVGIETTEYILERLEEKDGNALEALRETLLEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTK+ FFG+VV LLKGKKLDDETRE+LEELLIQADVG+ETTEYILERLEEKDG+ALE+L+E +LEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_012644981.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga neapolitana] &gt;gb|ACM22271.1| Signal recognition particle-docking protein FtsY [Thermotoga neapolitana DSM 4359] &gt;gb|KFZ22576.1| signal recognition particle-docking protein FtsY [Thermotoga neapolitana LA10] &gt;tpg|HBF11745.1| signal recognition particle-docking protein FtsY [Thermotoga neapolitana]</Hit_def>
+  <Hit_accession>WP_012644981</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>5.35988e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKDAFFGKVVSLLKGKKLDDETREKLEELLIQADVGIETTEYILERLEEKDGNALEALRETLLEILNF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTK+ FFG+VV LLKGKKLDDETRE+LEELLIQADVG+ETTEYILERLEEKDG+ALE+L+E +LEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_101510786.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga sp. KOL6] &gt;gb|PLV59285.1| signal recognition particle-docking protein FtsY [Thermotoga sp. KOL6]</Hit_def>
+  <Hit_accession>WP_101510786</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>4.52772e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDFLKKGLQKTKDTFFGRVIDLLKGKKLDDETREELEELLIQADVGVETTEYILKRLEEKDGEALEALKETLLEILDF</Hsp_hseq>
+      <Hsp_midline>MGLFDFLKKGLQKTK+TFFGRV+ LLKGKKLDDETREELEELLIQADVGVETTEYIL+RLEEKDG+ALE+LKE +LEIL+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_004102891.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermosipho africanus] &gt;gb|ACJ76314.1| signal recognition particle-docking protein FtsY [Thermosipho africanus TCF52B] &gt;gb|EKF49193.1| signal recognition particle-docking protein FtsY [Thermosipho africanus H17ap60334] &gt;gb|RDI91038.1| signal recognition particle-docking protein FtsY [Thermosipho africanus Ob7]</Hit_def>
+  <Hit_accession>WP_004102891</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.55228e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGFFEKFKQGLKKTRESFFGKMKSILSGKKLDDETKEEIEELLILSDVGFEATEYILNRIEELKGEDAYESLKKVLLEILNF</Hsp_hseq>
+      <Hsp_midline>MG F+  K+GL+KT+E+FFG++  +L GKKLDDET+EE+EELLI +DVG E TEYIL R+EE  G DA ESLK+++LEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_126993547.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermosipho globiformans]</Hit_def>
+  <Hit_accession>WP_126993547</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.65425e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGFFEKFKQGLKKTRESFFGKMKSILSGKKLDDETKEEIEELLILSDVGFEATEYILNRIEELKGEDAYESLKKVLLEILNF</Hsp_hseq>
+      <Hsp_midline>MG F+  K+GL+KT+E+FFG++  +L GKKLDDET+EE+EELLI +DVG E TEYIL R+EE  G DA ESLK+++LEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>tpg|HCF38518.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermosipho africanus]</Hit_def>
+  <Hit_accession>HCF38518</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>4.89871e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGFFEKFKQGLKKTRESFFGKMKSILSEKKLDDETKEEIEELLILSDVGFEATEYILNRIEELKGEDAYESLKKVLLEILNF</Hsp_hseq>
+      <Hsp_midline>MG F+  K+GL+KT+E+FFG++  +L  KKLDDET+EE+EELLI +DVG E TEYIL R+EE  G DA ESLK+++LEILNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_064012106.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Fervidobacterium pennivorans] &gt;gb|ANE41811.1| cell division protein FtsY [Fervidobacterium pennivorans]</Hit_def>
+  <Hit_accession>WP_064012106</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.56661e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEE-KDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGFFDKLKEGLKKSREAFFNKIGQILKTKRFDRETRDEIEELLILADVGVEATEYILERLEEMKPEDAFEALKEILIEILS</Hsp_hseq>
+      <Hsp_midline>MG FD LK+GL+K++E FF ++ ++LK K+ D ETR+E+EELLI ADVGVE TEYILERLEE K  DA E+LKEI++EIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_072757470.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Fervidobacterium gondwanense] &gt;emb|SHN50507.1| signal recognition particle-docking protein FtsY [Fervidobacterium gondwanense DSM 13020]</Hit_def>
+  <Hit_accession>WP_072757470</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>2.8939e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEE-KDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGFFDKLKEGLKKSRDTFFNKIGQILKIKKFDKETREEIEELLILADVGVEATEYILERLEEMKPEDAFRALKEILVEILS</Hsp_hseq>
+      <Hsp_midline>MG FD LK+GL+K+++TFF ++ ++LK KK D ETREE+EELLI ADVGVE TEYILERLEE K  DA  +LKEI++EIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_033191591.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Fervidobacterium islandicum] &gt;gb|AMW33582.1| signal recognition particle-docking protein FtsY [Fervidobacterium islandicum]</Hit_def>
+  <Hit_accession>WP_033191591</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.50259e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEE-KDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGFFDKLKEGLKKSRDAFFNKIGQILKTKKFDKETRDEIEELLISADVGVEATEYILDRLEEMKPEDAFGALKEILIEILS</Hsp_hseq>
+      <Hsp_midline>MG FD LK+GL+K+++ FF ++ ++LK KK D ETR+E+EELLI ADVGVE TEYIL+RLEE K  DA  +LKEI++EIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_090223214.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Fervidobacterium changbaicum] &gt;gb|QAV33640.1| signal recognition particle-docking protein FtsY [Fervidobacterium changbaicum] &gt;emb|SDH76921.1| signal recognition particle-docking protein FtsY [Fervidobacterium changbaicum]</Hit_def>
+  <Hit_accession>WP_090223214</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.51846e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEE-KDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGFFDKLKEGLKKSRDAFFNKIGQILKTKKFDKETRDEIEELLISADVGVEATEYILDRLEEMKPEDAFGALKEILIEILS</Hsp_hseq>
+      <Hsp_midline>MG FD LK+GL+K+++ FF ++ ++LK KK D ETR+E+EELLI ADVGVE TEYIL+RLEE K  DA  +LKEI++EIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_073071453.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermosipho atlanticus] &gt;emb|SHH21410.1| signal recognition particle-docking protein FtsY [Thermosipho atlanticus DSM 15807]</Hit_def>
+  <Hit_accession>WP_073071453</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.67258e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKD-GDALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGLFGKFKEGLKKTRETFFGKIKKILKGRKLDNETKEEIEELLILSDVGFEATEYILEKLETLDEDDAYEALKKVLKEIL</Hsp_hseq>
+      <Hsp_midline>MGLF   K+GL+KT+ETFFG++ K+LKG+KLD+ET+EE+EELLI +DVG E TEYILE+LE  D  DA E+LK+++ EIL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_014452515.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Fervidobacterium pennivorans] &gt;gb|AFG36088.1| signal recognition particle-docking protein FtsY [Fervidobacterium pennivorans DSM 9078]</Hit_def>
+  <Hit_accession>WP_014452515</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>3.33711e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEE-KDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGFFDKLKEGLKKSREAFFNKIGQILKTRRFDRETRDEIEELLILADVGVEATEYILERLEEMKPEDAFGALKEILIEILS</Hsp_hseq>
+      <Hsp_midline>MG FD LK+GL+K++E FF ++ ++LK ++ D ETR+E+EELLI ADVGVE TEYILERLEE K  DA  +LKEI++EIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_011994892.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Fervidobacterium nodosum] &gt;gb|ABS61601.1| signal recognition particle-docking protein FtsY [Fervidobacterium nodosum Rt17-B1] &gt;gb|PHJ14221.1| cell division protein FtsY [Fervidobacterium sp. SC_NGM5_G05]</Hit_def>
+  <Hit_accession>WP_011994892</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.9084e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEE-KDGDALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGFFDKLRDGLKKSRESFFNKIGQILKFKKFDKETREEIEELLILADVGVEATEYIIEKLEEMKPEDAFSALKEILVDIL</Hsp_hseq>
+      <Hsp_midline>MG FD L+ GL+K++E+FF ++ ++LK KK D ETREE+EELLI ADVGVE TEYI+E+LEE K  DA  +LKEI+++IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_069293875.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Fervidobacterium thailandense] &gt;gb|ODN29738.1| signal recognition particle-docking protein FtsY [Fervidobacterium thailandense]</Hit_def>
+  <Hit_accession>WP_069293875</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>2.402e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEE-KDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGFFEKLKEGLRKSRETFFNQITKILRSRRLDEDTKAEIEELLISADVGVEATEYIIKRLEEAKPEDTFGTLKEILIEILS</Hsp_hseq>
+      <Hsp_midline>MG F+ LK+GL+K++ETFF ++ K+L+ ++LD++T+ E+EELLI ADVGVE TEYI++RLEE K  D   +LKEI++EIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>tpg|HCI29652.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Fervidobacterium sp.]</Hit_def>
+  <Hit_accession>HCI29652</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>4.47301e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MLFFNKLKDGLKKSRDTFFAKIGHILKTKRFDHETRDEIEELLISADVGVEATEYILNRLEEVNSEDAFETLKQILVEILS</Hsp_hseq>
+      <Hsp_midline>M  F+ LK GL+K+++TFF ++  +LK K+ D ETR+E+EELLI ADVGVE TEYIL RLEE +  DA E+LK+I++EIL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_075666506.1|</Hit_id>
+  <Hit_def>MULTISPECIES: signal recognition particle-docking protein FtsY [Thermosipho] &gt;gb|ANQ54407.1| cell division protein FtsY [Thermosipho sp. 1070] &gt;gb|APT72851.1| cell division protein FtsY [Thermosipho sp. 1063]</Hit_def>
+  <Hit_accession>WP_075666506</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>5.11931e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGFFEKFKKGLQKTRETFFGKIKSILKGKKLDEETKEEIEELLILSDVGYEATEYILERIEKADGDDAYEALKKVLIDIL</Hsp_hseq>
+      <Hsp_midline>MG F+  KKGLQKT+ETFFG++  +LKGKKLD+ET+EE+EELLI +DVG E TEYILER+E+ DG DA E+LK+++++IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_077198686.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermosipho affectus] &gt;gb|ONN26841.1| cell division protein FtsY [Thermosipho affectus]</Hit_def>
+  <Hit_accession>WP_077198686</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>5.11931e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGFFEKFKKGLQKTRETFFGKIKSILKGKKLDEETKEEIEELLILSDVGYEATEYILERIEKADGDDAYEALKKVLIDIL</Hsp_hseq>
+      <Hsp_midline>MG F+  KKGLQKT+ETFFG++  +LKGKKLD+ET+EE+EELLI +DVG E TEYILER+E+ DG DA E+LK+++++IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|RKX52858.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga sp.] &gt;gb|RKX55633.1| signal recognition particle-docking protein FtsY [Thermotoga sp.]</Hit_def>
+  <Hit_accession>RKX52858</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.70271e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGLFDSFKKGLRKTKERFFARVTGLLRGKKLDEDLKEELEELLIEADVGVDATMFLLEKLEEKNGDALESLKETLIELLAF</Hsp_hseq>
+      <Hsp_midline>MGLFD  KKGL+KTKE FF RV  LL+GKKLD++ +EELEELLI+ADVGV+ T ++LE+LEEK+GDALESLKE ++E+L F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_077288013.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermosipho sp. 1074] &gt;gb|OOC42286.1| cell division protein FtsY [Thermosipho sp. 1074]</Hit_def>
+  <Hit_accession>WP_077288013</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.98022e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKD-GDALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGFFEKFRKGLQKTRETFFGKIKNILKGKKLNEETKEEIEELLILSDVGYEATEYILERIEEADEDDAYEALKKVLIDIL</Hsp_hseq>
+      <Hsp_midline>MG F+  +KGLQKT+ETFFG++  +LKGKKL++ET+EE+EELLI +DVG E TEYILER+EE D  DA E+LK+++++IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_012057759.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermosipho melanesiensis] &gt;gb|ABR31400.1| signal recognition particle-docking protein FtsY [Thermosipho melanesiensis BI429] &gt;gb|APT74459.1| cell division protein FtsY [Thermosipho melanesiensis] &gt;gb|OOC36419.1| cell division protein FtsY [Thermosipho melanesiensis] &gt;gb|OOC37237.1| cell division protein FtsY [Thermosipho melanesiensis] &gt;gb|OOC37989.1| cell division protein FtsY [Thermosipho melanesiensis] &gt;gb|OOC41217.1| cell division protein FtsY [Thermosipho melanesiensis] &gt;gb|OOC43212.1| cell division protein FtsY [Thermosipho melanesiensis]</Hit_def>
+  <Hit_accession>WP_012057759</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>2.13002e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGFFEKFKKGLQKTRETFFGKIKEVLSGKKLDEEVKEEIEELLILSDVGVEATEYIIKKIEESSGEDAYETLKKVLVEMLS</Hsp_hseq>
+      <Hsp_midline>MG F+  KKGLQKT+ETFFG++ ++L GKKLD+E +EE+EELLI +DVGVE TEYI++++EE  G DA E+LK++++E+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_077289923.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermosipho sp. 1223] &gt;gb|OOC46113.1| cell division protein FtsY [Thermosipho sp. 1223]</Hit_def>
+  <Hit_accession>WP_077289923</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>3.66067e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKD-GDALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGFFEKFKKGLQKTRETFFGKIKNILKGKKLNEETKEEIEELLILSDVGYEATEYILEKIEEADEDDAYEALKKVLIDIL</Hsp_hseq>
+      <Hsp_midline>MG F+  KKGLQKT+ETFFG++  +LKGKKL++ET+EE+EELLI +DVG E TEYILE++EE D  DA E+LK+++++IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|PMP70772.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Mesoaciditoga sp.] &gt;gb|PMP80846.1| signal recognition particle-docking protein FtsY [Mesoaciditoga sp.]</Hit_def>
+  <Hit_accession>PMP70772</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>6.68236e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL-EEKDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGIFDIFKKGLEKTKNGFLGKALSILKGGNLDKEKIEEIMELLLLSDVGVSTSDYIVERVKESKEKDAIDALKKVLLELLG</Hsp_hseq>
+      <Hsp_midline>MG+FD  KKGL+KTK  F G+ + +LKG  LD E  EE+ ELL+ +DVGV T++YI+ER+ E K+ DA+++LK+++LE+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_026974763.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Alicyclobacillus contaminans]</Hit_def>
+  <Hit_accession>WP_026974763</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.50185e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL</Hsp_qseq>
+      <Hsp_hseq>MGLFDKFRKGLEKSREAVFGRLGRLFQGRKLDESLYEEMEEVLISADVGVETSLWLVERV</Hsp_hseq>
+      <Hsp_midline>MGLFD  +KGL+K++E  FGR+ +L +G+KLD+   EE+EE+LI ADVGVET+ +++ER+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_068345362.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Kosmotoga arenicorallina] &gt;gb|OAA31771.1| cell division protein FtsY [Kosmotoga arenicorallina S304]</Hit_def>
+  <Hit_accession>WP_068345362</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>4.97071e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG---DALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGIFSRVKQGLRKTRESIFKRVKKLLNFEKLDDDTLEEIEELLITSDMGVETAGEVIEQLKEKVSNYENPTEALRDILTDLL</Hsp_hseq>
+      <Hsp_midline>MG+F  +K+GL+KT+E+ F RV KLL  +KLDD+T EE+EELLI +D+GVET   ++E+L+EK     +  E+L++I+ ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_067931464.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Alicyclobacillus kakegawensis]</Hit_def>
+  <Hit_accession>WP_067931464</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.50341e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL-----EEKDGDALE---SLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGLFDKFRRGLGKSREAVFGRIGELLSGRRLDDSLYDEMEELLIAADVGVDTSLWLVDRVRNLARRQRVSDAQELPRLLEEAMLEAL</Hsp_hseq>
+      <Hsp_midline>MGLFD  ++GL K++E  FGR+ +LL G++LDD   +E+EELLI ADVGV+T+ ++++R+      ++  DA E    L+E +LE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_067921958.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Alicyclobacillus shizuokensis]</Hit_def>
+  <Hit_accession>WP_067921958</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.53437e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL-----EEKDGDALE---SLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGLFDKFRRGLGKSREAVFGRIGELLSGRRLDDSLYDEMEELLIAADVGVDTSLWLVDRVRDLARRQRVSDAQELPRLLEEAMLEAL</Hsp_hseq>
+      <Hsp_midline>MGLFD  ++GL K++E  FGR+ +LL G++LDD   +E+EELLI ADVGV+T+ ++++R+      ++  DA E    L+E +LE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_129409869.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Marinitoga lauensis]</Hit_def>
+  <Hit_accession>WP_129409869</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>2.03141e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL-----EEKDGDALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGFFNKIAKGLKKTRDKFFGNIKTLFSGRNLDDDVLEELEEIMILSDVGVEATQDILKKLKERYKKEKNEDPLLLLRDIMVEHL</Hsp_hseq>
+      <Hsp_midline>MG F+ + KGL+KT++ FFG +  L  G+ LDD+  EELEE++I +DVGVE T+ IL++L     +EK+ D L  L++I++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|RKX36077.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotogae bacterium]</Hit_def>
+  <Hit_accession>RKX36077</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>3.04637e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>LFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>VFKRIRDGLSKARKKFFSGLSEFLRGKKIDEHILEKLEETLITADVGFETTEYIVNRIKEKKSEDAFSALEEVLIEMLS</Hsp_hseq>
+      <Hsp_midline>+F  ++ GL K ++ FF  + + L+GKK+D+   E+LEE LI ADVG ETTEYI+ R++EK   DA  +L+E+++E+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|RKX38740.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotogae bacterium]</Hit_def>
+  <Hit_accession>RKX38740</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>3.20601e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>LFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>VFKRIRDGLSKARKKFFSGLSEFLRGKKIDEHILEKLEETLITADVGFETTEYIVNRIKEKKSEDAFSALEEVLIEMLS</Hsp_hseq>
+      <Hsp_midline>+F  ++ GL K ++ FF  + + L+GKK+D+   E+LEE LI ADVG ETTEYI+ R++EK   DA  +L+E+++E+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|RKX40391.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotogae bacterium]</Hit_def>
+  <Hit_accession>RKX40391</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>3.69882e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>LFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDG-DALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>VFKRIRDGLSKARKKFFSGLSELLRGKKIDEHILEKLEETLITADVGFETTEYIVNKIKEKKSEDAFSALEEVLIEMLS</Hsp_hseq>
+      <Hsp_midline>+F  ++ GL K ++ FF  + +LL+GKK+D+   E+LEE LI ADVG ETTEYI+ +++EK   DA  +L+E+++E+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_021846301.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Bacteroides togonis] &gt;emb|CCX61100.1| signal recognition particle-docking protein FtsY [Bacteroides sp. CAG:598]</Hit_def>
+  <Hit_accession>WP_021846301</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>7.42085e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MGLFDF--------LKKGLQKTKETFFGRVVKLLKGK-KLDDETREELEELLIQADVGVETTEYILERLEEK</Hsp_qseq>
+      <Hsp_hseq>MGFFSFFSKEKKETLDKGLSKTKESFFGKIARVIAGKTKVDDEVLDNLEEILITSDVGVETTLKIIERIEKR</Hsp_hseq>
+      <Hsp_midline>MG F F        L KGL KTKE+FFG++ +++ GK K+DDE  + LEE+LI +DVGVETT  I+ER+E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_036223819.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Mesoaciditoga lauensis]</Hit_def>
+  <Hit_accession>WP_036223819</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.7348e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEEKDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGIFNFFKKGLKKTKEGFFGKAISILKGG-IDAEKLEEIEELLLLADIGPETSSYIVENLRKQKGEPIEVLRNTLLDLLG</Hsp_hseq>
+      <Hsp_midline>MG+F+F KKGL+KTKE FFG+ + +LKG  +D E  EE+EELL+ AD+G ET+ YI+E L ++ G+ +E L+  +L++L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|RMG75311.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Nitrospirae bacterium]</Hit_def>
+  <Hit_accession>RMG75311</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.85742e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL</Hsp_qseq>
+      <Hsp_hseq>MGLFDRLKKGLTKTRSNFVGRIEQVFKGKRIDDNTIDDFEEILITSDIGIEATMQIIDDL</Hsp_hseq>
+      <Hsp_midline>MGLFD LKKGL KT+  F GR+ ++ KGK++DD T ++ EE+LI +D+G+E T  I++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_065077454.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Clostridium ragsdalei] &gt;gb|OBR94756.1| signal recognition particle receptor FtsY [Clostridium ragsdalei P11]</Hit_def>
+  <Hit_accession>WP_065077454</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.07113e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>GLFDFLKKGLQKTKETFFGRVVKLLKGK-KLDDETREELEELLIQADVGVETTEYILERLEEKDGDA--------LESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>GFFDKLKSGLEKTKNNLTGKISDMLTSAVSIDDDLYEELEEILITADIGVETTTYIIDKLKEKIKDQKIKEPSLINQCLKEVIIDIL</Hsp_hseq>
+      <Hsp_midline>G FD LK GL+KTK    G++  +L     +DD+  EELEE+LI AD+GVETT YI+++L+EK  D          + LKE+I++IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|MBS10035.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>MBS10035</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.45126e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GLFDFLKKGLQKTKETFFGRVVKLLKGK-KLDDETREELEELLIQADVGVETTEYILERLEEKDGDA-LESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>GLLDKFKEGLTKTRDGVFNRIRDVVRGKPRLDEDTLEEIEEILIQADVGVDPTLRIIDRLRERYADADVENVESAVFELL</Hsp_hseq>
+      <Hsp_midline>GL D  K+GL KT++  F R+  +++GK +LD++T EE+EE+LIQADVGV+ T  I++RL E+  DA +E+++  + E+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|RNC67503.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Desulfuromonadales bacterium]</Hit_def>
+  <Hit_accession>RNC67503</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.26146e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GLFDFLKKGLQKTKETFFGRVVKLLKGKK-LDDETREELEELLIQADVGVETT-------EYILERLEEKDGDALE-SLKEIIL</Hsp_qseq>
+      <Hsp_hseq>GLFERLRQGLSKTRDSLVGRIDRLVLGKKEIDTDTLEELEEILISADIGVQTTVELIRTLEQRLSRNELKDGDALKAALKEEIL</Hsp_hseq>
+      <Hsp_midline>GLF+ L++GL KT+++  GR+ +L+ GKK +D +T EELEE+LI AD+GV+TT       E  L R E KDGDAL+ +LKE IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_028843511.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Pseudothermotoga elfii]</Hit_def>
+  <Hit_accession>WP_028843511</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>4.96589e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL-EEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGFFERLKTGLSRARKALFEGLSQILKGSKISDEILEELEERLLMADVGYPTTEYIIEQLKQSKTNDALETLKEIMIDLLSF</Hsp_hseq>
+      <Hsp_midline>MG F+ LK GL + ++  F  + ++LKG K+ DE  EELEE L+ ADVG  TTEYI+E+L + K  DALE+LKEI++++L+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_012002296.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Pseudothermotoga lettingae] &gt;gb|ABV32815.1| signal recognition particle-docking protein FtsY [Pseudothermotoga lettingae TMO] &gt;gb|KUK20424.1| Signal recognition particle receptor FtsY [Pseudothermotoga lettingae] &gt;tpg|HBJ80981.1| signal recognition particle-docking protein FtsY [Pseudothermotoga sp.] &gt;tpg|HBT25287.1| signal recognition particle-docking protein FtsY [Pseudothermotoga sp.]</Hit_def>
+  <Hit_accession>WP_012002296</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.2246e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERL-EEKDGDALESLKEIILEILNF</Hsp_qseq>
+      <Hsp_hseq>MGFFERLKTGLSRARKALFEGLSQILKGSKISDEILEELEERLLMADVGYPTTEYIIEQLKQSKTNDALETLKEIMIDLLSF</Hsp_hseq>
+      <Hsp_midline>MG F+ LK GL + ++  F  + ++LKG K+ DE  EELEE L+ ADVG  TTEYI+E+L + K  DALE+LKEI++++L+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>tpg|HCZ05996.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotogae bacterium]</Hit_def>
+  <Hit_accession>HCZ05996</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.38323e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETT----EYILERLEEKDGDALESLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>MGLMDLLKKGLKKTREGFFERIASALKGSKLDEATLEEVEELLILADVGAETAHEIVEMIKERYREAQDDPLEIAKKVLTEIL</Hsp_hseq>
+      <Hsp_midline>MGL D LKKGL+KT+E FF R+   LKG KLD+ T EE+EELLI ADVG ET     E I ER  E   D LE  K+++ EIL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_041081135.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Thermotoga profunda]</Hit_def>
+  <Hit_accession>WP_041081135</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>8.24985e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MGLFDFLKKGLQKTKETFFGRVVKLLKGKKLDDETREELEELLIQADVGVETTEYILERLEE-KDGDALESLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>MGFFEKLKAGLSKARKTFFEGLSQLLKGKRISNEILEELEERLIAADVGYETTHYILEKLKQIQTDDAYNALKEILIELLS</Hsp_hseq>
+      <Hsp_midline>MG F+ LK GL K ++TFF  + +LLKGK++ +E  EELEE LI ADVG ETT YILE+L++ +  DA  +LKEI++E+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>tpg|HBC97698.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Clostridium sp.]</Hit_def>
+  <Hit_accession>HBC97698</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.50474e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>GLFDFLKKGLQKTKETFFGRVVKLLKGK-KLDDETREELEELLIQADVGVETTEYILERL-------EEKDGDALE-SLKEIILEIL</Hsp_qseq>
+      <Hsp_hseq>GFFDKLKNGLEKTKSNLTGKITDMLSGAVTIDDDLYDKLEEILITADIGVETTMYIIDRLKEKIKEEKIKDPNLLNGCLKEIIMDIL</Hsp_hseq>
+      <Hsp_midline>G FD LK GL+KTK    G++  +L G   +DD+  ++LEE+LI AD+GVETT YI++RL       + KD + L   LKEII++IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_011737127.1|</Hit_id>
+  <Hit_def>signal recognition particle-docking protein FtsY [Pelobacter propionicus] &gt;gb|ABL00910.1| signal recognition particle-docking protein FtsY [Pelobacter propionicus DSM 2379]</Hit_def>
+  <Hit_accession>WP_011737127</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.98258e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>GLFDFLKKGLQKTKETFFGRVVKLLKGKK-LDDETREELEELLIQADVGVETTEYILERLEE-------KDGDALE-SLKEIILEILN</Hsp_qseq>
+      <Hsp_hseq>GFFERLKQGLQKTKEGLVGRIDALVLGKKEIDADTLEELEEILITSDVGVKTTVELIRTLEQRLGRNELKDGQALKNALKEEILLRLN</Hsp_hseq>
+      <Hsp_midline>G F+ LK+GLQKTKE   GR+  L+ GKK +D +T EELEE+LI +DVGV+TT  ++  LE+       KDG AL+ +LKE IL  LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

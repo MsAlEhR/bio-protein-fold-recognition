@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_72099</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1t6ua_a</BlastOutput_query-def>
+  <BlastOutput_query-len>117</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_72099</Iteration_query-ID>
+  <Iteration_query-def>d1t6ua_a</Iteration_query-def>
+  <Iteration_query-len>117</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1T6Q|A</Hit_id>
+  <Hit_def>Chain A, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6Q|B Chain B, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6Q|C Chain C, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|A Chain A, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|B Chain B, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|C Chain C, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|D Chain D, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|E Chain E, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|F Chain F, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|G Chain G, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|H Chain H, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|I Chain I, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|J Chain J, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|K Chain K, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6U|L Chain L, Superoxide Dismutase [ni] [Streptomyces coelicolor]</Hit_def>
+  <Hit_accession>1T6Q_A</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>3.96136e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_003973716.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;ref|NP_629400.1| superoxide dismutase [Streptomyces coelicolor A3(2)] &gt;sp|P80735.2| RecName: Full=Superoxide dismutase [Ni]; AltName: Full=NiSOD; AltName: Full=Nickel-containing superoxide dismutase; Flags: Precursor [Streptomyces coelicolor A3(2)] &gt;gb|AAC38082.1| superoxide dismutase [Streptomyces coelicolor] &gt;gb|AAF25537.1| Ni-containing superoxide dismutase [Streptomyces coelicolor A3(2)] &gt;gb|AIJ13412.1| Superoxide dismutase [Ni] [Streptomyces lividans TK24] &gt;gb|AIV34276.1| superoxide dismutase [Streptomyces sp. CCM_MD2014] &gt;gb|AXL90897.1| superoxide dismutase [Ni] [Streptomyces sp. CB09001] &gt;gb|AZM75625.1| superoxide dismutase, Ni [Streptomyces sp. KPB2] &gt;gb|EFD66787.1| superoxide dismutase, Ni [Streptomyces lividans TK24] &gt;gb|EHN75863.1| superoxide dismutase [Streptomyces coelicoflavus ZG0656] &gt;gb|EOY50253.1| Nickel-dependent superoxide dismutase [Streptomyces lividans 1326] &gt;gb|KKD12715.1| superoxide dismutase [Streptomyces sp. WM6391] &gt;gb|KOU06751.1| superoxide dismutase [Streptomyces sp. NRRL F-4711] &gt;gb|KOX39387.1| superoxide dismutase [Streptomyces sp. NRRL F-4707] &gt;gb|KOX52882.1| superoxide dismutase [Streptomyces sp. NRRL F-7442] &gt;gb|KPC89034.1| superoxide dismutase [Streptomyces sp. NRRL WC-3753] &gt;gb|OKI87884.1| superoxide dismutase [Streptomyces sp. CB02414] &gt;gb|OMI87683.1| superoxide dismutase, Ni [Streptomyces sp. M1013] &gt;gb|OWA10025.1| superoxide dismutase [Ni] [Streptomyces sp. CS113] &gt;gb|OWA17147.1| superoxide dismutase [Ni] [Streptomyces sp. CS159] &gt;gb|PSK54664.1| Superoxide dismutase [Streptomyces sp. 111WW2] &gt;gb|REH23502.1| nickel superoxide dismutase [Streptomyces sp. 2221.1] &gt;gb|RIA59315.1| nickel superoxide dismutase [Streptomyces sp. 19] &gt;gb|TDT38280.1| nickel superoxide dismutase [Streptomyces sp. BK208] &gt;gb|TDY75911.1| nickel superoxide dismutase [Streptomyces coelicolor] &gt;gb|TDZ09470.1| nickel superoxide dismutase [Streptomyces coelicolor] &gt;gb|THA91817.1| superoxide dismutase, Ni [Streptomyces sp. LRa12] &gt;emb|CAC05965.1| superoxide dismutase [Streptomyces coelicolor A3(2)] &gt;emb|SDT74545.1| nickel superoxide dismutase [Streptomyces sp. 2114.2]</Hit_def>
+  <Hit_accession>WP_003973716</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>8.76138e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_053136948.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces ambofaciens] &gt;gb|AKZ58087.1| Ni superoxide dismutase [Streptomyces ambofaciens ATCC 23877] &gt;gb|ANB08500.1| superoxide dismutase [Streptomyces ambofaciens]</Hit_def>
+  <Hit_accession>WP_053136948</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.047</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>4.80246e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|3G4X|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|3G4X|B Chain B, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|3G4X|C Chain C, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|3G4Z|A Chain A, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|3G4Z|B Chain B, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|3G4Z|C Chain C, Superoxide dismutase [Ni] [Streptomyces coelicolor]</Hit_def>
+  <Hit_accession>3G4X_A</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>5.22808e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVFDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGV+DPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_019326937.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|KYK15693.1| superoxide dismutase [Streptomyces sp. CC71] &gt;gb|PPS85268.1| Superoxide dismutase [Streptomyces sp. MH60] &gt;gb|PVD11799.1| superoxide dismutase, Ni [Streptomyces sp. CS207] &gt;gb|QCB24550.1| superoxide dismutase, Ni [Streptomyces sp. SS52] &gt;gb|QCR49486.1| superoxide dismutase, Ni [Streptomyces sp. SGAir0924] &gt;gb|RIH62418.1| superoxide dismutase, Ni [Streptomyces sp. SHP22-7] &gt;gb|ROO96145.1| nickel superoxide dismutase [Streptomyces sp. E5N91 SAI-083] &gt;gb|RSS05735.1| superoxide dismutase, Ni [Streptomyces sp. WAC04189] &gt;gb|RSS14515.1| superoxide dismutase, Ni [Streptomyces sp. WAC08401] &gt;gb|RSS24478.1| superoxide dismutase, Ni [Streptomyces sp. WAC05458] &gt;gb|RSS27688.1| superoxide dismutase, Ni [Streptomyces sp. WAC08452] &gt;gb|RSS69624.1| superoxide dismutase, Ni [Streptomyces sp. WAC06273] &gt;gb|RSS77290.1| superoxide dismutase, Ni [Streptomyces sp. WAC06128] &gt;gb|RSS89190.1| superoxide dismutase, Ni [Streptomyces sp. WAC02707]</Hit_def>
+  <Hit_accession>WP_019326937</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>7.05193e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASKDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK SKDPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4NCQ|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|4NCQ|B Chain B, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|4NCQ|C Chain C, Superoxide dismutase [Ni] [Streptomyces coelicolor]</Hit_def>
+  <Hit_accession>4NCQ_A</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>1.12746e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>CDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>CDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>CDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_031039738.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|AOW89035.1| superoxide dismutase, Ni [Streptomyces olivaceus]</Hit_def>
+  <Hit_accession>WP_031039738</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>1.42361e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSKDPATGQKALDYIARIDEIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGSKDPATGQKALDYIA+ID+IFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|3G50|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|3G50|B Chain B, Superoxide dismutase [Ni] [Streptomyces coelicolor] &gt;pdb|3G50|C Chain C, Superoxide dismutase [Ni] [Streptomyces coelicolor]</Hit_def>
+  <Hit_accession>3G50_A</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>2.03972e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCALPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HC LPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_003992892.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|AXE88557.1| Superoxide dismutase [Ni] precursor [Streptomyces sp. Go-475] &gt;gb|EFL34792.1| superoxide dismutase, Ni [Streptomyces viridochromogenes DSM 40736] &gt;gb|EFL39182.1| superoxide dismutase, Ni [Streptomyces griseoflavus Tu4000] &gt;gb|EPD55259.1| superoxide dismutase [Ni] [Streptomyces sp. HGB0020] &gt;emb|SDJ79534.1| nickel superoxide dismutase [Streptomyces indicus]</Hit_def>
+  <Hit_accession>WP_003992892</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>3.03604e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_064729779.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|ANJ09449.1| superoxide dismutase, Ni [Streptomyces parvulus] &gt;gb|OSC63290.1| superoxide dismutase, Ni [Streptomyces sp. 4F] &gt;gb|PAK27055.1| superoxide dismutase, Ni [Streptomyces sp. alain-838] &gt;gb|PAN01432.1| superoxide dismutase, Ni [Streptomyces sp. Alain-F2R5] &gt;gb|RDD88447.1| superoxide dismutase, Ni [Streptomyces parvulus]</Hit_def>
+  <Hit_accession>WP_064729779</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>3.20732e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_086701670.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|PWE90207.1| superoxide dismutase, Ni [Streptomyces sp. SMS_SU21] &gt;gb|RMI92206.1| superoxide dismutase, Ni [Streptomyces sp. ZS0098]</Hit_def>
+  <Hit_accession>WP_086701670</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>3.20732e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_048455678.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|AXI88714.1| superoxide dismutase, Ni [Streptomyces sp. ETH9427]</Hit_def>
+  <Hit_accession>WP_048455678</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>4.60732e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAISAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_121547489.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces fungicidicus] &gt;gb|AYL38173.1| superoxide dismutase, Ni [Streptomyces fungicidicus]</Hit_def>
+  <Hit_accession>WP_121547489</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>4.81411e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATIIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RAT+IKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_111002861.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. NTH33] &gt;gb|PZH14747.1| superoxide dismutase, Ni [Streptomyces sp. NTH33]</Hit_def>
+  <Hit_accession>WP_111002861</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>5.31395e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAIQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKA+QEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_055417908.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces pactum] &gt;gb|AQS67595.1| superoxide dismutase, Ni [Streptomyces pactum]</Hit_def>
+  <Hit_accession>WP_055417908</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>5.43189e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQVDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQ+DKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_043380034.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces luteus] &gt;gb|KFG73755.1| superoxide dismutase [Streptomyces luteus]</Hit_def>
+  <Hit_accession>WP_043380034</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>5.99587e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDRIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQID+IFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_128128749.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. BSE7F] &gt;gb|PWE11330.1| superoxide dismutase, Ni [Streptomyces sp. BSE7F]</Hit_def>
+  <Hit_accession>WP_128128749</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>6.42233e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|1T6I|A</Hit_id>
+  <Hit_def>Chain A, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6I|B Chain B, Superoxide Dismutase [ni] [Streptomyces coelicolor] &gt;pdb|1T6I|C Chain C, Superoxide Dismutase [ni] [Streptomyces coelicolor]</Hit_def>
+  <Hit_accession>1T6I_A</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>9.07805e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKXAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAXSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEK AGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA SAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_006142336.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|EGG45184.1| superoxide dismutase [Streptomyces griseoaurantiacus M045] &gt;emb|SDE86484.1| nickel superoxide dismutase [Streptomyces jietaisiensis]</Hit_def>
+  <Hit_accession>WP_006142336</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>1.01545e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATIIKEQRAELAKHHVSVLWSDYFKAPHFEKYPELHQLVNDTLKALSAAKASKDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRAT+IKEQRAELAKHHVSVLWSDYFK PHFEKYPELHQLVNDTLKA+SAAK SKDPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_100568120.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. CB01373] &gt;gb|PJM95955.1| superoxide dismutase, Ni [Streptomyces sp. CB01373]</Hit_def>
+  <Hit_accession>WP_100568120</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>1.79693e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAANDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_069765939.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. LUP47B]</Hit_def>
+  <Hit_accession>WP_069765939</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>1.83681e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAANDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_030928916.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|ANS67880.1| superoxide dismutase [Streptomyces lincolnensis] &gt;gb|AXG53915.1| superoxide dismutase [Streptomyces lincolnensis] &gt;gb|KOU67575.1| superoxide dismutase [Streptomyces sp. MMG1533] &gt;gb|KUO04285.1| superoxide dismutase [Streptomyces caeruleatus]</Hit_def>
+  <Hit_accession>WP_030928916</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>1.87758e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDALKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVND LKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_010040396.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|KDN75013.1| superoxide dismutase [Streptomyces olindensis] &gt;gb|PAZ17702.1| superoxide dismutase, Ni [Streptomyces sp. SA15] &gt;gb|PZT68578.1| superoxide dismutase, Ni [Streptomyces sp. SW4] &gt;emb|SOR79150.1| Superoxide dismutase [Ni] precursor [Streptomyces chartreusis NRRL 3882]</Hit_def>
+  <Hit_accession>WP_010040396</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.00539e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAIQEKMAGNDDPHFQARATTIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKA+QEKMAGNDDPHFQ RAT IKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_006136256.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Actinobacteria] &gt;gb|ALV52152.1| superoxide dismutase [Streptomyces sp. 4F] &gt;gb|EMF22607.1| superoxide dismutase, Ni [Streptomyces gancidicus BKS 13-15] &gt;gb|KEG40059.1| superoxide dismutase [Streptomyces griseorubens] &gt;gb|PNV36662.1| superoxide dismutase, Ni [Streptomyces sp. DH-12] &gt;emb|SCD36657.1| nickel superoxide dismutase [Streptomyces sp. di188] &gt;emb|SCD51733.1| nickel superoxide dismutase [Streptomyces sp. di50b]</Hit_def>
+  <Hit_accession>WP_006136256</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.23803e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_077796552.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. JHA26]</Hit_def>
+  <Hit_accession>WP_077796552</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.31295e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_020942188.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|AGS71761.1| superoxide dismutase, Ni [Streptomyces collinus Tu 365] &gt;gb|TDT09750.1| nickel superoxide dismutase [Streptomyces sp. BK141]</Hit_def>
+  <Hit_accession>WP_020942188</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.31295e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_115905969.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. 75] &gt;gb|REE30305.1| nickel superoxide dismutase [Streptomyces sp. 75]</Hit_def>
+  <Hit_accession>WP_115905969</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.33848e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAIQEKIAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKA+QEK+AGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_004983535.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|ALV33619.1| superoxide dismutase [Streptomyces sp. CdTB01] &gt;gb|AZP20362.1| superoxide dismutase, Ni [Streptomyces sp. GGCR-6] &gt;gb|EFE67179.1| superoxide dismutase [Streptomyces viridosporus ATCC 14672] &gt;gb|KOT38857.1| superoxide dismutase [Streptomyces caelestis] &gt;gb|KOV21326.1| superoxide dismutase [Streptomyces sp. XY152] &gt;gb|KPI21206.1| superoxide dismutase, Ni [Actinobacteria bacterium OK006] &gt;gb|KUN46372.1| superoxide dismutase [Streptomyces olivochromogenes] &gt;gb|KUN56214.1| superoxide dismutase [Streptomyces avermitilis] &gt;gb|OKJ86906.1| superoxide dismutase [Streptomyces sp. CB01883] &gt;gb|OKK11685.1| superoxide dismutase [Streptomyces sp. CB02400] &gt;gb|OLZ67100.1| superoxide dismutase, Ni [Streptomyces sp. IMTB 2501] &gt;gb|OMP17523.1| superoxide dismutase, Ni [Streptomyces sp. WAC00263] &gt;gb|OOV33061.1| superoxide dismutase, Ni [Streptomyces avermitilis] &gt;gb|OSP43852.1| superoxide dismutase, Ni [Streptomyces sp. 13-12-16] &gt;gb|OXS31361.1| superoxide dismutase, Ni [Streptomyces sp. XY006] &gt;gb|PBC61210.1| superoxide dismutase, Ni [Streptomyces sp. Tue6028] &gt;gb|PBC96269.1| nickel superoxide dismutase [Streptomyces sp. Ag82_O1-15] &gt;gb|PIG19321.1| nickel superoxide dismutase [Streptomyces sp. 94] &gt;gb|PIG37803.1| nickel superoxide dismutase [Streptomyces sp. 93] &gt;gb|PKW09982.1| nickel superoxide dismutase [Streptomyces sp. 5112.2] &gt;gb|PKW43483.1| nickel superoxide dismutase [Streptomyces sp. OK885] &gt;gb|PTM87587.1| nickel superoxide dismutase [Streptomyces sp. VMFN-G11Ma] &gt;gb|PVX90626.1| nickel superoxide dismutase [Streptomyces sp. 3212.2] &gt;gb|RKQ80684.1| nickel superoxide dismutase [Streptomyces sp. 42] &gt;gb|RLJ45393.1| nickel superoxide dismutase [Streptomyces sp. 74] &gt;gb|ROP51063.1| nickel superoxide dismutase [Streptomyces sp. PanSC9] &gt;gb|TCR84289.1| nickel superoxide dismutase [Streptomyces sp. BK042] &gt;gb|TCS52061.1| nickel superoxide dismutase [Streptomyces sp. BK335] &gt;gb|THC49851.1| superoxide dismutase, Ni [Streptomyces sp. Akac8] &gt;dbj|BAC70699.1| putative superoxide dismutase [Streptomyces avermitilis MA-4680 = NBRC 14893] &gt;dbj|BBJ50834.1| superoxide dismutase [Ni] [Streptomyces avermitilis] &gt;dbj|GAX51268.1| superoxide dismutase [Ni] [Streptomyces olivochromogenes] &gt;dbj|GDY62861.1| superoxide dismutase [Ni] [Streptomyces avermitilis] &gt;dbj|GDY77017.1| superoxide dismutase [Ni] [Streptomyces avermitilis] &gt;dbj|GDY85929.1| superoxide dismutase [Ni] [Streptomyces avermitilis] &gt;emb|SDD64607.1| nickel superoxide dismutase [Streptomyces prasinopilosus] &gt;emb|SEC19026.1| nickel superoxide dismutase [Streptomyces sp. 1222.5] &gt;emb|SED74141.1| nickel superoxide dismutase [Streptomyces sp. 2231.1] &gt;emb|SFF49074.1| nickel superoxide dismutase [Streptomyces mirabilis] &gt;emb|SNX63986.1| nickel superoxide dismutase [Streptomyces sp. TLI_55] &gt;emb|SOE30399.1| nickel superoxide dismutase [Streptomyces sp. OK228] &gt;emb|SOE66225.1| nickel superoxide dismutase [Streptomyces sp. OV198]</Hit_def>
+  <Hit_accession>WP_004983535</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.5531e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_097220330.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. Ag82_G6-1] &gt;emb|SOD47879.1| nickel superoxide dismutase [Streptomyces sp. Ag82_G6-1]</Hit_def>
+  <Hit_accession>WP_097220330</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.5531e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAANDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDALKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVND LKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_031140564.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|AMW12812.1| superoxide dismutase [Streptomyces qaidamensis] &gt;gb|KJK36825.1| superoxide dismutase [Streptomyces variegatus] &gt;gb|KOV97987.1| superoxide dismutase [Streptomyces sp. NRRL B-1140] &gt;gb|PIM70217.1| superoxide dismutase, Ni [Streptomyces sp. JV178] &gt;gb|PNG18709.1| superoxide dismutase, Ni [Streptomyces sp. 13K301] &gt;gb|PPS68685.1| superoxide dismutase, Ni [Streptomyces sp. 46] &gt;gb|PTH88408.1| superoxide dismutase, Ni [Streptomyces sp. A244]</Hit_def>
+  <Hit_accession>WP_031140564</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.5531e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAANDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_030219831.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. NRRL WC-3626]</Hit_def>
+  <Hit_accession>WP_030219831</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>3.87439e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQVDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQ+DKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_109539088.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|AZM60077.1| superoxide dismutase, Ni [Streptomyces sp. WAC 01438] &gt;gb|PWJ08740.1| superoxide dismutase, Ni [Streptomyces sp. NWU49] &gt;gb|RSM99838.1| superoxide dismutase, Ni [Streptomyces sp. WAC 01420]</Hit_def>
+  <Hit_accession>WP_109539088</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>4.09295e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAIQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKA+QEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_109378085.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. NWU339] &gt;gb|PWI10830.1| superoxide dismutase, Ni [Streptomyces sp. NWU339]</Hit_def>
+  <Hit_accession>WP_109378085</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>4.87869e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMADNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_030421021.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces]</Hit_def>
+  <Hit_accession>WP_030421021</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>5.62692e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQMRATDIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RAT IKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_093829365.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. SolWspMP-5a-2] &gt;emb|SCD94741.1| nickel superoxide dismutase [Streptomyces sp. SolWspMP-5a-2]</Hit_def>
+  <Hit_accession>WP_093829365</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>6.48989e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAANDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNETLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVN+TLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_037937753.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces toyocaensis] &gt;gb|KES04543.1| superoxide dismutase [Streptomyces toyocaensis]</Hit_def>
+  <Hit_accession>WP_037937753</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>7.24276e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHYQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPH+Q RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_037620897.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces aureus]</Hit_def>
+  <Hit_accession>WP_037620897</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>9.22084e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQDKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQ+KMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_086799322.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces scabiei]</Hit_def>
+  <Hit_accession>WP_086799322</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>9.5295e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAANDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKVLDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQK LDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_053662116.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|KOV62185.1| superoxide dismutase [Streptomyces sp. MMG1121] &gt;gb|PKT70536.1| superoxide dismutase, Ni [Streptomyces populi]</Hit_def>
+  <Hit_accession>WP_053662116</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>1.04041e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQDKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQ+KMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_086684361.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces pseudogriseolus]</Hit_def>
+  <Hit_accession>WP_086684361</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>1.13589e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATAIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RAT IKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_059416585.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;dbj|GCB46005.1| nickel-dependent superoxide dismutase [Streptomyces sp. NL15-2K]</Hit_def>
+  <Hit_accession>WP_059416585</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>1.25382e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAIQEKMAGNDDPHFQARATTIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDALKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKA+QEKMAGNDDPHFQ RAT IKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVND LKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_020136639.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|AIS00480.1| Superoxide dismutase [Ni] [Streptomyces glaucescens] &gt;gb|AWW37644.1| superoxide dismutase, Ni [Streptomyces sp. ZFG47] &gt;gb|AYC38644.1| Superoxide dismutase [Ni] [Streptomyces griseorubiginosus] &gt;gb|KOV71474.1| superoxide dismutase [Streptomyces sp. AS58] &gt;gb|KUM70775.1| superoxide dismutase [Streptomyces curacoi] &gt;gb|KUM77898.1| superoxide dismutase [Streptomyces griseorubiginosus] &gt;gb|KUN10047.1| superoxide dismutase [Streptomyces canus] &gt;gb|KUN71940.1| superoxide dismutase [Streptomyces griseorubiginosus] &gt;gb|KUN73679.1| superoxide dismutase [Streptomyces canus] &gt;gb|OAA95889.1| superoxide dismutase [Streptomyces sp. FXJ1.172] &gt;gb|OKJ85219.1| superoxide dismutase [Streptomyces sp. TSRI0107] &gt;gb|OSZ60876.1| superoxide dismutase, Ni [Streptomyces pharetrae CZA14] &gt;gb|ROQ13360.1| nickel superoxide dismutase [Streptomyces griseorubiginosus] &gt;gb|RRR77846.1| superoxide dismutase, Ni [Streptomyces sp. RP5T] &gt;gb|RZB14915.1| superoxide dismutase, Ni [Streptomyces sp. F001] &gt;gb|TCR15336.1| nickel superoxide dismutase [Streptomyces sp. BK205] &gt;gb|TCR29012.1| nickel superoxide dismutase [Streptomyces sp. BK329] &gt;gb|TCR51919.1| nickel superoxide dismutase [Streptomyces sp. BK308]</Hit_def>
+  <Hit_accession>WP_020136639</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>1.44611e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAANDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_007491258.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|EGX61445.1| putative nickel-containing superoxide dismutase precursor [Streptomyces zinciresistens K42] &gt;gb|KMS73708.1| superoxide dismutase [Streptomyces viridochromogenes] &gt;gb|KOG22463.1| superoxide dismutase [Streptomyces viridochromogenes] &gt;gb|KOG27557.1| superoxide dismutase [Streptomyces viridochromogenes] &gt;gb|PIG75870.1| nickel superoxide dismutase [Streptomyces sp. 70] &gt;gb|ROP93867.1| nickel superoxide dismutase [Streptomyces ossamyceticus] &gt;gb|RPF36171.1| nickel superoxide dismutase [Streptomyces sp. TLI_185] &gt;gb|RSO02791.1| superoxide dismutase, Ni [Streptomyces sp. WAC 05379] &gt;emb|SEC38432.1| nickel superoxide dismutase [Streptomyces sp. KS_5] &gt;emb|SED16551.1| nickel superoxide dismutase [Streptomyces sp. PAN_FS17] &gt;emb|SPF05893.1| Superoxide dismutase [Ni] precursor [Streptomyces sp. MA5143a]</Hit_def>
+  <Hit_accession>WP_007491258</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>1.49452e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAANDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDALKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMA NDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVND LKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_030899529.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. NRRL F-5126]</Hit_def>
+  <Hit_accession>WP_030899529</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>1.49452e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDAHYQMRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSADPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDD H+Q RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_040248442.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces albus] &gt;gb|AJE82403.1| superoxide dismutase, Ni [Streptomyces albus] &gt;gb|AOU76717.1| superoxide dismutase, Ni [Streptomyces albus]</Hit_def>
+  <Hit_accession>WP_040248442</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.72373e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNETLKALSTAKGSTDPATGQKALDYIAQIDKIFWETKKG</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVN+TLKA+S AKGS DPATGQKALDYIAQIDKIFWETKK </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_030379399.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces]</Hit_def>
+  <Hit_accession>WP_030379399</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.74275e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHYQTRATIIKEQRAELAKHHVSVLWSDYFKAPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPH+QTRAT+IKEQRAELAKHHVSVLWSDYFK PHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_125492788.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces sp. WAC 04229] &gt;gb|RSN52708.1| superoxide dismutase, Ni [Streptomyces sp. WAC 04229]</Hit_def>
+  <Hit_accession>WP_125492788</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.76198e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEADSVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIARIDEIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEA+SVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIA+ID+IFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_037673746.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces afghaniensis]</Hit_def>
+  <Hit_accession>WP_037673746</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.76198e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAIQEKMASNDDPHFQARATTIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKGSTDPATGQKALDYIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKA+QEKMA NDDPHFQ RAT IKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAKGS DPATGQKALDYIAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_033320076.1|</Hit_id>
+  <Hit_def>superoxide dismutase, Ni [Streptomyces yerevanensis]</Hit_def>
+  <Hit_accession>WP_033320076</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.80109e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAIQEKMAGNDDPHFQARATTIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLINDTLKSISAAKGSTDPATGQKALDYIAQVDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKA+QEKMAGNDDPHFQ RAT IKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQL+NDTLK++SAAKGS DPATGQKALDYIAQ+DKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_055688839.1|</Hit_id>
+  <Hit_def>MULTISPECIES: superoxide dismutase, Ni [Streptomyces] &gt;gb|OBQ50954.1| superoxide dismutase [Streptomyces sp. H-KF8]</Hit_def>
+  <Hit_accession>WP_055688839</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.86138e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQTRATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKAMSAAKGSKDPATGQKALDYIAQIDKIFWETKKA</Hsp_qseq>
+      <Hsp_hseq>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQARATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKALSAAKASTDPATGQKALDHIAQIDKIFWETKKA</Hsp_hseq>
+      <Hsp_midline>HCDLPCGVYDPAQARIEAESVKAVQEKMAGNDDPHFQ RATVIKEQRAELAKHHVSVLWSDYFKPPHFEKYPELHQLVNDTLKA+SAAK S DPATGQKALD+IAQIDKIFWETKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
