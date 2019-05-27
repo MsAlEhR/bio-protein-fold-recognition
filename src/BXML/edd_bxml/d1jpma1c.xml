@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_230363</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1jpma1c</BlastOutput_query-def>
+  <BlastOutput_query-len>234</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_230363</Iteration_query-ID>
+  <Iteration_query-def>d1jpma1c</Iteration_query-def>
+  <Iteration_query-len>234</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_015715753.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillus] &gt;gb|ADV96309.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis BSn5] &gt;gb|OAZ71678.1| Muconate cycloisomerase [Bacillus subtilis] &gt;gb|TDO88601.1| muconate cycloisomerase [Bacillus sp. AtDRG31] &gt;emb|SEN29604.1| muconate cycloisomerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_015715753</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.559</Hsp_bit-score>
+      <Hsp_score>1233</Hsp_score>
+      <Hsp_evalue>5.75446e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_003244980.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillales] &gt;ref|NP_389181.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis str. 168] &gt;sp|O34508.1| RecName: Full=L-Ala-D/L-Glu epimerase; Short=AE epimerase; Short=AEE [Bacillus subtilis subsp. subtilis str. 168] &gt;gb|AFQ57225.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis QB928] &gt;gb|AGG60661.1| L-Ala-D/L-Glu epimerase YkfB [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gb|AHA77301.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis PY79] &gt;gb|AIC39701.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gb|AIC43933.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gb|AIC97843.1| mandelate racemase [Bacillus subtilis subsp. subtilis str. OH 131.1] &gt;gb|AIY92595.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis subsp. subtilis str. 168] &gt;gb|AIY96907.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis] &gt;gb|AJE93975.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AKC46849.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis KCTC 1028] &gt;gb|AMB23722.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AMS46846.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|ANJ30305.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|ANX08849.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|ANY31972.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|ANY34829.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|ANY37576.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AOA10604.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AOA53929.1| Muconate cycloisomerase [Bacillus subtilis] &gt;gb|AOT47571.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AOT51777.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AQR81265.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis str. 168] &gt;gb|AQR85479.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis str. 168] &gt;gb|AQZ90193.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|AWM20533.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|AYE63905.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|AYK62576.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|EME06895.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis MB73/2] &gt;gb|KFH33336.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|KFH34232.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|KIX82539.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis] &gt;gb|KNB78502.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis] &gt;gb|KOO00005.1| L-alanine-DL-glutamate epimerase [Bacillus murimartini] &gt;gb|KZD76626.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis] &gt;gb|OAE04872.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|PAM79002.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAR96451.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QCK10452.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|RFP83387.1| dipeptide epimerase [Bacillus subtilis KCTC 1028] &gt;gb|RXM11903.1| dipeptide epimerase [Bacillus subtilis] &gt;pdb|1JPM|A Chain A, L-ala-d/l-glu Epimerase [Bacillus subtilis] &gt;pdb|1JPM|B Chain B, L-ala-d/l-glu Epimerase [Bacillus subtilis] &gt;pdb|1JPM|C Chain C, L-ala-d/l-glu Epimerase [Bacillus subtilis] &gt;pdb|1JPM|D Chain D, L-ala-d/l-glu Epimerase [Bacillus subtilis] &gt;pdb|1TKK|A Chain A, Similar To Chloromuconate Cycloisomerase [Bacillus subtilis] &gt;pdb|1TKK|B Chain B, Similar To Chloromuconate Cycloisomerase [Bacillus subtilis] &gt;pdb|1TKK|C Chain C, Similar To Chloromuconate Cycloisomerase [Bacillus subtilis] &gt;pdb|1TKK|D Chain D, Similar To Chloromuconate Cycloisomerase [Bacillus subtilis] &gt;pdb|1TKK|E Chain E, Similar To Chloromuconate Cycloisomerase [Bacillus subtilis] &gt;pdb|1TKK|F Chain F, Similar To Chloromuconate Cycloisomerase [Bacillus subtilis] &gt;pdb|1TKK|G Chain G, Similar To Chloromuconate Cycloisomerase [Bacillus subtilis] &gt;pdb|1TKK|H Chain H, Similar To Chloromuconate Cycloisomerase [Bacillus subtilis] &gt;dbj|BAM50234.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis BEST7613] &gt;dbj|BAM57502.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis BEST7003] &gt;emb|CAA05578.1| YkfB [Bacillus subtilis] [Bacillus subtilis subsp. subtilis str. 168] &gt;emb|CAB13155.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis str. 168] &gt;emb|CEI56450.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis] &gt;emb|CEJ76873.1| L-Ala-D/L-Glu epimerase [Bacillus sp. BS34A] &gt;emb|SPT92380.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_003244980</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.559</Hsp_bit-score>
+      <Hsp_score>1233</Hsp_score>
+      <Hsp_evalue>6.14543e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_113712987.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|RAP06295.1| hypothetical protein HS3_02986 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_113712987</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.248</Hsp_bit-score>
+      <Hsp_score>1227</Hsp_score>
+      <Hsp_evalue>4.71538e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGLQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQG QTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_003232604.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillus] &gt;gb|AII35307.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis TO-A] &gt;gb|AKN13414.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis] &gt;gb|EHA29902.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gb|EXF52774.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis QH-1] &gt;gb|RFB07022.1| dipeptide epimerase [Bacillus sp. MT]</Hit_def>
+  <Hit_accession>WP_003232604</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.863</Hsp_bit-score>
+      <Hsp_score>1226</Hsp_score>
+      <Hsp_evalue>6.20099e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGVTYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGG+TYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_029946644.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillus] &gt;gb|PKJ60453.1| dipeptide epimerase [Bacillus sp. SN32]</Hit_def>
+  <Hit_accession>WP_029946644</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.863</Hsp_bit-score>
+      <Hsp_score>1226</Hsp_score>
+      <Hsp_evalue>7.47039e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGIIGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGIIGAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_095843656.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|ASZ61050.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|PLV37937.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|QAR61321.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_095843656</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>1.45735e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_122894615.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|RNA74649.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_122894615</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>1.48964e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_088467636.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|ASC84288.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|AXV61053.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_088467636</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>1.68041e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYRGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITY GSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_101172473.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|PKF92383.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAW41312.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_101172473</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>2.23417e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_131227356.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|QBJ81877.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_131227356</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>2.25877e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSTVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGVTYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGS VKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGG+TYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_134155253.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|TDY57525.1| muconate cycloisomerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_134155253</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.937</Hsp_bit-score>
+      <Hsp_score>1221</Hsp_score>
+      <Hsp_evalue>3.69801e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_100506128.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|PJM64909.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_100506128</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.937</Hsp_bit-score>
+      <Hsp_score>1221</Hsp_score>
+      <Hsp_evalue>3.77992e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_120028016.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|RJS52291.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_120028016</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.937</Hsp_bit-score>
+      <Hsp_score>1221</Hsp_score>
+      <Hsp_evalue>4.12614e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_086343745.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|RPK10072.1| hypothetical protein EH5_02910 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_086343745</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.552</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>4.81007e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYRGSTISMPGKPGLGIIGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITY GSTISMPGKPGLGIIGAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_038428839.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AIX07061.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis] &gt;gb|PRS92478.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|PRS95603.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_038428839</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.552</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>5.30847e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTVSMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGST+SMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_063335109.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_063335109</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.552</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>5.36695e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_042974315.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|KIN56816.1| hypothetical protein B4146_1414 [Bacillus subtilis] &gt;gb|KZD92682.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_042974315</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.552</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>6.25653e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGIIGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGIIGAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_043857355.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|KIU12266.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_043857355</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.167</Hsp_bit-score>
+      <Hsp_score>1219</Hsp_score>
+      <Hsp_evalue>8.50249e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGMECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACG+ECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_087960869.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|OTQ88094.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_087960869</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.781</Hsp_bit-score>
+      <Hsp_score>1218</Hsp_score>
+      <Hsp_evalue>9.38349e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_014479582.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AMK71936.1| dipeptide epimerase [Bacillus subtilis subsp. natto] &gt;gb|AOR97768.1| Muconate cycloisomerase [Bacillus subtilis] &gt;gb|AOS67526.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|API41637.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|API95308.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|ARI87965.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|ARW31097.1| Muconate cycloisomerase [Bacillus subtilis subsp. subtilis] &gt;gb|ASB69390.1| Muconate cycloisomerase [Bacillus subtilis subsp. subtilis] &gt;gb|ASU99193.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|ASV04175.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|AVL06339.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|AYK70260.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AYK73953.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AYK79696.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AYK81344.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AYK86130.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AYK92524.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AYL00917.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|POD86911.1| Muconate cycloisomerase [Bacillus subtilis subsp. subtilis] &gt;gb|QAR78994.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAV99844.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|RAM54639.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis] &gt;dbj|BAI84898.1| hypothetical protein BSNT_07783 [Bacillus subtilis subsp. natto BEST195] &gt;dbj|GAK80800.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis Miyagi-4]</Hit_def>
+  <Hit_accession>WP_014479582</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>1.03911e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_070548861.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AOY06913.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|AXC52582.1| dipeptide epimerase [Bacillus subtilis subsp. spizizenii]</Hit_def>
+  <Hit_accession>WP_070548861</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.781</Hsp_bit-score>
+      <Hsp_score>1218</Hsp_score>
+      <Hsp_evalue>1.09388e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_121591721.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AYK67295.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_121591721</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>1.21136e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_080529234.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|ARB36701.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_080529234</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>1.36183e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDVGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMED GLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_026113619.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AYK56629.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|KIL30612.1| hypothetical protein B4067_1386 [Bacillus subtilis subsp. subtilis] &gt;gb|KIN59760.1| hypothetical protein B4145_1335 [Bacillus subtilis] &gt;gb|QAW08012.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_026113619</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>1.50812e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_085186179.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillus] &gt;gb|PSM02106.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|PTN30646.1| dipeptide epimerase [Bacillus sp. Rc4] &gt;gb|PWI61412.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|RMD56801.1| dipeptide epimerase [Bacillus subtilis] &gt;emb|SMF14939.1| muconate cycloisomerase [Bacillus sp. CC120222-01] &gt;emb|SNY65090.1| muconate cycloisomerase [Bacillus sp. GL120224-02] &gt;emb|SPY12320.1| mandelate racemase/muconate lactonizing protein [Paenibacillus polymyxa]</Hit_def>
+  <Hit_accession>WP_085186179</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>1.91252e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_129092419.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|QAV83821.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|TAH82639.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|TAH87776.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_129092419</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>2.25407e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYRGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITY GSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_015252251.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillus] &gt;gb|AGA22060.1| Hypothetical protein YkfB [Bacillus subtilis subsp. subtilis str. BSP1] &gt;gb|AMR47552.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|AOL97111.1| Muconate cycloisomerase [Bacillus subtilis] &gt;gb|ARV98318.1| Muconate cycloisomerase [Bacillus subtilis subsp. subtilis] &gt;gb|ARW02395.1| Muconate cycloisomerase [Bacillus subtilis subsp. subtilis] &gt;gb|ASB56801.1| Muconate cycloisomerase [Bacillus subtilis subsp. subtilis] &gt;gb|KKB93098.1| L-alanine-DL-glutamate epimerase [Bacillus sp. CMAA 1185] &gt;gb|KMN93024.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis] &gt;gb|QAV87939.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAW11969.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAW53611.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|RDB51328.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_015252251</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>2.304e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYRGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITY GSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_124059772.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|RPK17603.1| hypothetical protein EH2_02913 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_124059772</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>2.4072e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYRGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITY GSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_029727038.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillus] &gt;gb|AOL27840.1| dipeptide epimerase [Bacillus sp. FJAT-14266] &gt;gb|AOL29244.1| dipeptide epimerase [Bacillus gibsonii] &gt;gb|KOS72365.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis] &gt;gb|QAS07517.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_029727038</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>2.48763e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTVSMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGST+SMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_019712467.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|KFC31803.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis] &gt;gb|QAV95857.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_019712467</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>2.68589e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTVSMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGST+SMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_029317687.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_029317687</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>2.86835e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTVSMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGST+SMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_088325710.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|ASB92871.1| Muconate cycloisomerase [Bacillus subtilis subsp. subtilis] &gt;gb|QAW16208.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAW20304.1| dipeptide epimerase [Bacillus subtilis] &gt;emb|CJR50471.1| L-Ala-D/L-Glu epimerase [Streptococcus pneumoniae] &gt;emb|COM91273.1| L-Ala-D/L-Glu epimerase [Streptococcus pneumoniae]</Hit_def>
+  <Hit_accession>WP_088325710</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>2.89995e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTVSMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGST+SMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_047182506.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AKI91750.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_047182506</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>3.06322e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_041351221.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|KIN32109.1| hypothetical protein B4069_1338 [Bacillus subtilis] &gt;gb|KIN47624.1| hypothetical protein B4072_1330 [Bacillus subtilis] &gt;gb|QAW32675.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_041351221</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>3.27132e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTVSMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGST+SMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_033884969.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|KDE22164.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_033884969</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>3.34378e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYRGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITY GSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_128737783.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|QAT45507.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_128737783</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>3.61027e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESIFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYRGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADES+FTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITY GSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_046380964.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillus] &gt;gb|AKE23171.1| L-Ala-D/L-Glu epimerase [Bacillus sp. LM 4-2] &gt;gb|QAR92350.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAT35936.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_046380964</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>4.90624e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESIFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYRGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADES+FTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITY GSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_064671298.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|OAY88435.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_064671298</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>9.06075e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAIAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINA+AEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_128422192.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AXP47992.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_128422192</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>1.16569e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_125121318.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|RRN57878.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_125121318</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>1.20464e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_128747081.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|RXF79954.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_128747081</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>1.3589e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_120363338.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AYF10808.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_120363338</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>1.4043e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_077670662.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|OOE21558.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|PAE59393.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_077670662</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>1.56687e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_038829053.1|</Hit_id>
+  <Hit_def>MULTISPECIES: dipeptide epimerase [Bacillus] &gt;gb|AJO57929.1| L-alanine-DL-glutamate epimerase [Bacillus sp. YP1] &gt;gb|ASB99086.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|AXF32649.1| dipeptide epimerase [Bacillus sp. DM2] &gt;gb|KIO56183.1| hypothetical protein B4143_1474 [Bacillus subtilis] &gt;gb|KMY42266.1| L-alanine-DL-glutamate epimerase [Bacillus sp. FJAT-27445] &gt;gb|PAC86786.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|PAE68250.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|POX34026.1| dipeptide epimerase [Bacillus sp. Ru63] &gt;gb|PWT18580.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAR83041.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAS03464.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAS11666.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAS20074.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAT57210.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|QAT74303.1| dipeptide epimerase [Bacillus sp. WR11] &gt;gb|QAW45354.1| dipeptide epimerase [Bacillus subtilis] &gt;emb|CUB16993.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis] &gt;emb|CUB49992.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis] &gt;emb|CUB53755.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis] &gt;emb|SIQ49978.1| muconate cycloisomerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_038829053</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>1.90838e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_129134261.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|QAW03806.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_129134261</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>1.9294e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESIFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYRGSTISMPGKPGLGITGATL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADES+FTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITY GSTISMPGKPGLGI GA L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_041333839.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|KIN36332.1| hypothetical protein B4068_1332 [Bacillus subtilis] &gt;gb|KIN42514.1| hypothetical protein B4071_1304 [Bacillus subtilis] &gt;gb|KIN57302.1| hypothetical protein B4073_1305 [Bacillus subtilis] &gt;gb|ODV48381.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|OJH64319.1| dipeptide epimerase [Bacillus subtilis] &gt;gb|OTQ82644.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_041333839</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>1.95065e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAITAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYRGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEA+TAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITY GSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_123373454.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|ROT28739.1| dipeptide epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_123373454</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>3.37323e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDITRIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAETCGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDI RIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAE CGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_133953366.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|TDU15099.1| muconate cycloisomerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_133953366</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>6.02812e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDSPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFD+PLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_032725545.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|RPK00691.1| hypothetical protein EH11_02875 [Bacillus subtilis] &gt;gb|RUS06770.1| hypothetical protein EFW59_02884 [Bacillus subtilis] &gt;emb|CCU57848.1| L-alanine-DL-glutamate epimerase [Bacillus subtilis E1]</Hit_def>
+  <Hit_accession>WP_032725545</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.159</Hsp_bit-score>
+      <Hsp_score>1206</Hsp_score>
+      <Hsp_evalue>7.92707e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDNIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGTAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKD+IATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI G AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_015383460.1|</Hit_id>
+  <Hit_def>dipeptide epimerase [Bacillus subtilis] &gt;gb|AGE63148.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis XF-1] &gt;gb|AGI28586.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis subsp. subtilis str. BAB-1] &gt;gb|AKD34698.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis HJ5] &gt;gb|ALS82533.1| dipeptide epimerase [Bacillus subtilis subsp. subtilis] &gt;gb|ASK23348.1| L-Ala-D/L-Glu epimerase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_015383460</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.774</Hsp_bit-score>
+      <Hsp_score>1205</Hsp_score>
+      <Hsp_evalue>9.44558e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>YRDTLETDYTVSVNSPEEMAADAENYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWRPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFNGGITYSGSTISMPGKPGLGIIGAAL</Hsp_qseq>
+      <Hsp_hseq>YRDTLETDYTVSVNSPEEMAADAEIYLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGWTPKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVFKGGITYSGSTISMPGKPGLGITGAAL</Hsp_hseq>
+      <Hsp_midline>YRDTLETDYTVSVNSPEEMAADAE YLKQGFQTLKIKVGKDDIATDIARIQEIRKRVGSAVKLRLDANQGW PKEAVTAIRKMEDAGLGIELVEQPVHKDDLAGLKKVTDATDTPIMADESVFTPRQAFEVLQTRSADLINIKLMKAGGISGAEKINAMAEACGVECMVGSMIETKLGITAAAHFAASKRNITRFDFDAPLMLKTDVF GGITYSGSTISMPGKPGLGI GAAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
