@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_18391</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1mqva_a</BlastOutput_query-def>
+  <BlastOutput_query-len>123</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_18391</Iteration_query-ID>
+  <Iteration_query-def>d1mqva_a</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1MQV|A</Hit_id>
+  <Hit_def>Chain A, Cytochrome C&apos; [Rhodopseudomonas palustris] &gt;pdb|1MQV|B Chain B, Cytochrome C&apos; [Rhodopseudomonas palustris]</Hit_def>
+  <Hit_accession>1MQV_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>3.36753e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>ATDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>ATDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_hseq>
+      <Hsp_midline>ATDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011157867.1|</Hit_id>
+  <Hit_def>cytochrome c [Rhodopseudomonas palustris] &gt;sp|P00149.2| RecName: Full=Cytochrome c&apos;; Flags: Precursor [Rhodopseudomonas palustris CGA009] &gt;gb|AAM16161.1| cytochrome c&apos; precursor [Rhodopseudomonas palustris] &gt;gb|ACF01070.1| cytochrome c prime [Rhodopseudomonas palustris TIE-1] &gt;gb|OPF90415.1| cytochrome c&apos; [Rhodopseudomonas palustris] &gt;gb|PPQ41470.1| cytochrome c&apos; [Rhodopseudomonas palustris] &gt;gb|RIA03613.1| cytochrome c [Rhodopseudomonas palustris] &gt;gb|RJF61900.1| cytochrome c [Rhodopseudomonas palustris] &gt;emb|CAE27755.1| cytochrome c556 [Rhodopseudomonas palustris CGA009]</Hit_def>
+  <Hit_accession>WP_011157867</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>2.08305e-77</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKFDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIWEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_hseq>
+      <Hsp_midline>TDVIAQRKAILKQMGEATKPIAAMLKGEAK+DQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKI+EDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1A7V|A</Hit_id>
+  <Hit_def>Chain A, Cytochrome C&apos; From Rhodopseudomonas Palustris [Rhodopseudomonas palustris] &gt;pdb|1A7V|B Chain B, Cytochrome C&apos; From Rhodopseudomonas Palustris [Rhodopseudomonas palustris]</Hit_def>
+  <Hit_accession>1A7V_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>2.46657e-77</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKFDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIWEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_hseq>
+      <Hsp_midline>TDVIAQRKAILKQMGEATKPIAAMLKGEAK+DQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKI+EDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_107344224.1|</Hit_id>
+  <Hit_def>cytochrome c [Rhodopseudomonas palustris] &gt;gb|AVT76357.1| cytochrome c&apos; [Rhodopseudomonas palustris]</Hit_def>
+  <Hit_accession>WP_107344224</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>1.51733e-76</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>TDAIAQRKAILKQMGEATKPIAAMLKGEAKFDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIWEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_hseq>
+      <Hsp_midline>TD IAQRKAILKQMGEATKPIAAMLKGEAK+DQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKI+EDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_110786111.1|</Hit_id>
+  <Hit_def>cytochrome c [Rhodopseudomonas palustris] &gt;gb|PZA11712.1| cytochrome c [Rhodopseudomonas palustris]</Hit_def>
+  <Hit_accession>WP_110786111</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>6.77919e-63</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>TDVIAQRKAILKQMGEATKPIAAMMKGEATFDQAVVQKSLGAIAADAKKLPALFPADSKTGGDTAALPKIWDDKAKFDDLFAKLAAAATAAQGTIKDQASLKANMGSVFGTCKSCHDDFRAK</Hsp_hseq>
+      <Hsp_midline>TDVIAQRKAILKQMGEATKPIAAM+KGEA +DQAVVQKSL AIA D+KKLPALFPADSKTGGDTAALPKI++DKAKFDDLFAKLAAAATAAQGTIKD+ASLKAN+G V G CKSCHDDFRAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_013502148.1|</Hit_id>
+  <Hit_def>cytochrome c [Rhodopseudomonas palustris] &gt;gb|ADU44020.1| cytochrome c class II [Rhodopseudomonas palustris DX-1]</Hit_def>
+  <Hit_accession>WP_013502148</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>6.92946e-63</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>TDVIAQRKAMLKQMGDSTKPIAAMMKGEAKFDQAVVQKSLASIADDAKKLPALFPADSKTGGDTAALPKIWDDKAKFDDLFAKLAAAATAAQGSVKDEASLKASMGSVFGTCKSCHDDFRAK</Hsp_hseq>
+      <Hsp_midline>TDVIAQRKA+LKQMG++TKPIAAM+KGEAK+DQAVVQKSLA+IADD+KKLPALFPADSKTGGDTAALPKI++DKAKFDDLFAKLAAAATAAQG++KDEASLKA++G V G CKSCHDDFRAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_114358457.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c [Rhodopseudomonas] &gt;gb|RED33292.1| cytochrome c556 [Rhodopseudomonas pentothenatexigens] &gt;gb|REF94041.1| cytochrome c556 [Rhodopseudomonas thermotolerans] &gt;emb|SSW91368.1| cytochrome c556 [Rhodopseudomonas pentothenatexigens]</Hit_def>
+  <Hit_accession>WP_114358457</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>2.36536e-62</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>TDVIAQRKAMLKQMGDSTKPIAAMMKGEAKFDQAVVQKSLASIADDAKKLPALFPANSKTGGDTAALPKIWDDKAKFDDLFAKLAAAATAAQGSIKDEASLKASMGSVFGTCKSCHDDFRAK</Hsp_hseq>
+      <Hsp_midline>TDVIAQRKA+LKQMG++TKPIAAM+KGEAK+DQAVVQKSLA+IADD+KKLPALFPA+SKTGGDTAALPKI++DKAKFDDLFAKLAAAATAAQG+IKDEASLKA++G V G CKSCHDDFRAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_011664500.1|</Hit_id>
+  <Hit_def>cytochrome c [Rhodopseudomonas palustris] &gt;gb|ABJ07023.1| cytochrome c, class II [Rhodopseudomonas palustris BisA53]</Hit_def>
+  <Hit_accession>WP_011664500</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>9.65227e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>NDPIAQRKDILKGIGDATKPIAAMLKGEAAYDNAVVQKSLTTITDGSKKLPDLFPANSKTGGDTAALPKIWDEKAKFDDLFVKMAVAAAAAQGSIKDEASLKANIRPVLGTCKSCHDDYRAK</Hsp_hseq>
+      <Hsp_midline> D IAQRK ILK +G+ATKPIAAMLKGEA +D AVVQKSL  I D SKKLP LFPA+SKTGGDTAALPKI+++KAKFDDLF K+A AA AAQG+IKDEASLKANI  VLG CKSCHDD+RAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_012383128.1|</Hit_id>
+  <Hit_def>cytochrome c [Beijerinckia indica] &gt;gb|ACB93770.1| cytochrome c prime [Beijerinckia indica subsp. indica ATCC 9039]</Hit_def>
+  <Hit_accession>WP_012383128</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>7.95226e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>ATDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>ANDPIAQRKDILKEIGEVTKPVVGMLKGEVPFDRAKVDAALTAYADGIPKLPSLFPDDSKTGGKTEAKARIWDEKPKFEALFKKFGEDVKTTQGTITDVASLKANFPKVLGDCKSCHDDYREK</Hsp_hseq>
+      <Hsp_midline>A D IAQRK ILK++GE TKP+  MLKGE  +D+A V  +L A AD   KLP+LFP DSKTGG T A  +I+++K KF+ LF K        QGTI D ASLKAN   VLG+CKSCHDD+R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_034994153.1|</Hit_id>
+  <Hit_def>cytochrome c [Beijerinckia mobilis]</Hit_def>
+  <Hit_accession>WP_034994153</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>5.63747e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>ATDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQG-TIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>ANDPIAERKEILKGIGEATKPVVGMMRGEVPFDRAKVNAALTSYANAVPKLPALFPDDSKTGGKTEALPRIWDEKAKFEALFTKLGEDVKIAQAEAITDVASLKAAFPKVLKDCKACHDDYREK</Hsp_hseq>
+      <Hsp_midline>A D IA+RK ILK +GEATKP+  M++GE  +D+A V  +L + A+   KLPALFP DSKTGG T ALP+I+++KAKF+ LF KL      AQ   I D ASLKA    VL +CK+CHDD+R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|PZQ81567.1|</Hit_id>
+  <Hit_def>cytochrome C prime [Starkeya novella]</Hit_def>
+  <Hit_accession>PZQ81567</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>8.28771e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>TDVVKQRETLMKEFGNVTKPVGGMLRGSVPFDLAAVKAALDTYAKNAKVLPSLFPAGSGEGTD--ALPSVWERKAEFDGLFAKLASDATAAKGAITDEASFKANFPGVIRTCGTCHDSFRKK</Hsp_hseq>
+      <Hsp_midline>TDV+ QR+ ++K+ G  TKP+  ML+G   +D A V+ +L   A ++K LP+LFPA S  G D  ALP ++E KA+FD LFAKLA+ ATAA+G I DEAS KAN  GV+  C +CHD FR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_106336703.1|</Hit_id>
+  <Hit_def>cytochrome c [Alsobacter sp. SH9] &gt;gb|PSC05188.1| cytochrome C prime [Alsobacter sp. SH9]</Hit_def>
+  <Hit_accession>WP_106336703</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>5.72516e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDVIAQRREIMKGVGAATKDPGGMLKGETPFDLAKVQKALATYQDAAQKMPTLYPENSKTGGETTAAPKIWEDMAGFKDHFAKFAADAQKASAAIKDEATFKANFPAVLKNCGGCHETYRVK</Hsp_hseq>
+      <Hsp_midline>+DVIAQR+ I+K +G ATK    MLKGE  +D A VQK+LA   D ++K+P L+P +SKTGG+T A PKI+ED A F D FAK AA A  A   IKDEA+ KAN   VL NC  CH+ +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_091436467.1|</Hit_id>
+  <Hit_def>cytochrome c [Ancylobacter rudongensis] &gt;emb|SCW38525.1| Cytochrome c556 [Ancylobacter rudongensis]</Hit_def>
+  <Hit_accession>WP_091436467</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>5.68813e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>DVIKERQALLKQFGDATKPIGGMLRGSVPFDLAQVQAALDLYVKDAKVLPTLFPAGSGTG-DTEALPAIWTNKADFDARFAKLGTDAAAARAAITDEASFKANFPGVVRNCGGCHDNYRQK</Hsp_hseq>
+      <Hsp_midline>DVI +R+A+LKQ G+ATKPI  ML+G   +D A VQ +L     D+K LP LFPA S TG DT ALP I+ +KA FD  FAKL   A AA+  I DEAS KAN  GV+ NC  CHD++R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_134499103.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga pakistanensis]</Hit_def>
+  <Hit_accession>WP_134499103</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>7.39063e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDVVEQRQNLMKQMGSQTRPIGGMLRGQEPFDLAKVQAGLKVFAENSQKAAPLFPENTKDAPKTEALPSIWQNKAKFESIMTKLNQDATTALASIKDEATLKAEMPKVLQNCGACHNDFRKK</Hsp_hseq>
+      <Hsp_midline>+DV+ QR+ ++KQMG  T+PI  ML+G+  +D A VQ  L   A++S+K   LFP ++K    T ALP I+++KAKF+ +  KL   AT A  +IKDEA+LKA +  VL NC +CH+DFR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_018391381.1|</Hit_id>
+  <Hit_def>cytochrome c [Ancylobacter sp. FA202]</Hit_def>
+  <Hit_accession>WP_018391381</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>1.14336e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>DVIKERQALLKQFGDATKPIGGMLRGSVPFDLAQVQAALDLYVKDAKVLPTLFPAGSGTG-DTEALPAIWTNKADFDARFAKLGSDAAAARAAITDEASFKANFPGVVRNCGGCHDTYRQK</Hsp_hseq>
+      <Hsp_midline>DVI +R+A+LKQ G+ATKPI  ML+G   +D A VQ +L     D+K LP LFPA S TG DT ALP I+ +KA FD  FAKL + A AA+  I DEAS KAN  GV+ NC  CHD +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_091134220.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga guangxiensis] &gt;emb|SCY73502.1| Cytochrome c556 [Microvirga guangxiensis]</Hit_def>
+  <Hit_accession>WP_091134220</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.39163e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDVVEQRQDLMKQMGAQTRPIGGMLRGQEPFDLAKVQAGLKVFADNSAKAAGLFPESSKGVGDTEALPSIWENKAKFEGIMTKFNQDAKTAMASIKDEATFKAEMPKVMQNCGACHNDFRKK</Hsp_hseq>
+      <Hsp_midline>+DV+ QR+ ++KQMG  T+PI  ML+G+  +D A VQ  L   AD+S K   LFP  SK  GDT ALP I+E+KAKF+ +  K    A  A  +IKDEA+ KA +  V+ NC +CH+DFR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_047191980.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga vignae] &gt;gb|KLK90371.1| hypothetical protein AA309_26265 [Microvirga vignae]</Hit_def>
+  <Hit_accession>WP_047191980</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.50208e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDVVEQRQDLMKQMGAQTRPIGGMLRGQEPFDLAKVQAGLKVFADNSQKAATLFPENTKGVGDTEALPSIWENKPKFDTAMSKFNQDAKTALASIKDEASFKAEMPKVMQNCGACHNDFRKK</Hsp_hseq>
+      <Hsp_midline>+DV+ QR+ ++KQMG  T+PI  ML+G+  +D A VQ  L   AD+S+K   LFP ++K  GDT ALP I+E+K KFD   +K    A  A  +IKDEAS KA +  V+ NC +CH+DFR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_116529431.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga sp. KLBC 81] &gt;gb|PVE23693.1| cytochrome C prime [Microvirga sp. KLBC 81]</Hit_def>
+  <Hit_accession>WP_116529431</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>2.24078e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>NDVVEQRQDLMKQMGAQTRPIGGMLRGQEPFDLAKVQAGLKVFADNSQKAATLFPENTKGVGDTEALPSVWENKAKFDAAMTKFNQDAKTALASIKDEASFKAEMPKVMQNCGACHNDFRKK</Hsp_hseq>
+      <Hsp_midline> DV+ QR+ ++KQMG  T+PI  ML+G+  +D A VQ  L   AD+S+K   LFP ++K  GDT ALP ++E+KAKFD    K    A  A  +IKDEAS KA +  V+ NC +CH+DFR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_131835763.1|</Hit_id>
+  <Hit_def>cytochrome c [Ancylobacter aquaticus] &gt;gb|TCK28635.1| cytochrome c556 [Ancylobacter aquaticus]</Hit_def>
+  <Hit_accession>WP_131835763</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>2.44421e-32</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>QRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>ERQTLLKQFGDATKPVGGMLRGSVPFDLAQVQAALDLYVKDAKVLPTLFPAGSGSGSDTDALPAIWTNTADFDARFAKLGTDAASARAAITDEASFKANFPGVIRNCGGCHDNYRQK</Hsp_hseq>
+      <Hsp_midline>+R+ +LKQ G+ATKP+  ML+G   +D A VQ +L     D+K LP LFPA S +G DT ALP I+ + A FD  FAKL   A +A+  I DEAS KAN  GV+ NC  CHD++R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_114946600.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga sp. CCBAU 65841]</Hit_def>
+  <Hit_accession>WP_114946600</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>3.35499e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDVVEQRQGLMKQMGAQTRPIGAMMRGQEPFDLAKVQASLKVLAENPVKFVALFPENSKDAPKTEALPAVWENKAKFESLGAKASQDAQTAMASIKDEASFKTEMPKVLQNCGTCHNEFRKK</Hsp_hseq>
+      <Hsp_midline>+DV+ QR+ ++KQMG  T+PI AM++G+  +D A VQ SL  +A++  K  ALFP +SK    T ALP ++E+KAKF+ L AK +  A  A  +IKDEAS K  +  VL NC +CH++FR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_009764252.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga lotononidis] &gt;gb|EIM28202.1| cytochrome c556 [Microvirga lotononidis]</Hit_def>
+  <Hit_accession>WP_009764252</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>1.1259e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDVVAQRQGLMKEMGAQTRPIGAMMRGQEPFDLAKVQASLKVLADNPVKFVALFPENSKDAPKTEALPAVWANKAKFDSYGTKMSQDAQTAMASIKDEASFKTEMPKVLQNCGTCHNEFRKK</Hsp_hseq>
+      <Hsp_midline>+DV+AQR+ ++K+MG  T+PI AM++G+  +D A VQ SL  +AD+  K  ALFP +SK    T ALP ++ +KAKFD    K++  A  A  +IKDEAS K  +  VL NC +CH++FR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_126278229.1|</Hit_id>
+  <Hit_def>cytochrome c [Ancylobacter aquaticus] &gt;gb|RTM00039.1| cytochrome c [Ancylobacter aquaticus]</Hit_def>
+  <Hit_accession>WP_126278229</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.34476e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>DVIKERQALLKQFGDATKPIGGMLRGSVPFDLAQVQAALDLYVKDAKVLPTLFPAGSGTG-DTEALPAIWTNKADFDARFAKLGTDAAAARAAITDEASFKASFPGVVRNCGGCHDTYRQK</Hsp_hseq>
+      <Hsp_midline>DVI +R+A+LKQ G+ATKPI  ML+G   +D A VQ +L     D+K LP LFPA S TG DT ALP I+ +KA FD  FAKL   A AA+  I DEAS KA+  GV+ NC  CHD +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_027315648.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga flocculans]</Hit_def>
+  <Hit_accession>WP_027315648</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>2.2875e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SNVVEQRQGLMKEMGAQTRPLGGMLRGQEPFDLAKAQASLKILAANAQKAAPLFPESSKSADKTEALPTIWENKAKFDSIMTKLGTDAQTALASIKDEASLKAELPKVLQNCGACHNDFRKK</Hsp_hseq>
+      <Hsp_midline>++V+ QR+ ++K+MG  T+P+  ML+G+  +D A  Q SL  +A +++K   LFP  SK+   T ALP I+E+KAKFD +  KL   A  A  +IKDEASLKA +  VL NC +CH+DFR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_036350697.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga sp. BSC39] &gt;gb|KFG68968.1| hypothetical protein JH26_12285 [Microvirga sp. BSC39]</Hit_def>
+  <Hit_accession>WP_036350697</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>3.53832e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SNVVEQRQALMKEMGAQTRPIGAMMRGQEPFDLAKAQAGLKVFSENSAKFVTLFPESSKNAEKTEALPTIWENKAKFESLGAKLSQDAQTAMANIKDEASFKTEMPKVLQNCGACHNEFRKK</Hsp_hseq>
+      <Hsp_midline>++V+ QR+A++K+MG  T+PI AM++G+  +D A  Q  L   +++S K   LFP  SK    T ALP I+E+KAKF+ L AKL+  A  A   IKDEAS K  +  VL NC +CH++FR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_114769059.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga subterranea] &gt;gb|RDI60851.1| cytochrome c556 [Microvirga subterranea]</Hit_def>
+  <Hit_accession>WP_114769059</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.03005e-30</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SNVVEQRQNLMKEMAAQTRPIGGMLRGQEAFDLAKVQSGLKVFAENPKKAASLFPESSKDAPKTEALPTIWENKAKFDSIMTKLSQDAQTAMASIKDEATFKAEMPKVLQNCGGCHNDFRKK</Hsp_hseq>
+      <Hsp_midline>++V+ QR+ ++K+M   T+PI  ML+G+  +D A VQ  L   A++ KK  +LFP  SK    T ALP I+E+KAKFD +  KL+  A  A  +IKDEA+ KA +  VL NC  CH+DFR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|OQW72757.1|</Hit_id>
+  <Hit_def>hypothetical protein BVN32_14710 [Proteobacteria bacterium ST_bin14]</Hit_def>
+  <Hit_accession>OQW72757</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>6.99766e-30</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>IAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>IAERKDILKGFGAAARDPGAMLKGEAAFDLAKVQNFLKVLQDGSPKLKALFPADSKSGGETKALPAIWDNQADFFARFDKLAVDAKAAEVAIKDEASFKTELPKVLGNCGGCHRPYRGQ</Hsp_hseq>
+      <Hsp_midline>IA+RK ILK  G A +   AMLKGEA +D A VQ  L  + D S KL ALFPADSK+GG+T ALP I++++A F   F KLA  A AA+  IKDEAS K  +  VLGNC  CH  +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|PZU91460.1|</Hit_id>
+  <Hit_def>cytochrome C [Chelatococcus sp.]</Hit_def>
+  <Hit_accession>PZU91460</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>8.68763e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>DPIAARKAILRSFGAASRDPGQMLRGDAAFDLAKVQASLKVFAEGAAKLPALFPESSKTG-DTKAAPAIWTEKDKFDALAAKLASDAATAAGSIKDEASFKATMPEVLGTCSACHRSYRLR</Hsp_hseq>
+      <Hsp_midline>D IA RKAIL+  G A++    ML+G+A +D A VQ SL   A+ + KLPALFP  SKTG DT A P I+ +K KFD L AKLA+ A  A G+IKDEAS KA +  VLG C +CH  +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_090707394.1|</Hit_id>
+  <Hit_def>cytochrome c [Beijerinckia sp. 28-YEA-48] &gt;emb|SED24617.1| Cytochrome c556 [Beijerinckia sp. 28-YEA-48]</Hit_def>
+  <Hit_accession>WP_090707394</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>3.72481e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDPIAQRKALMKGIGDAGRAPAAMLKGEA-FALEPVQAALKAMQNAGKQGPTLFPDTSKTGGETAALPKIWETQNDFNAKFAKLEKDATEAMTTIKDEASFKAIYPALLRDCGACHSDYRAR</Hsp_hseq>
+      <Hsp_midline>+D IAQRKA++K +G+A +  AAMLKGEA +    VQ +L A+ +  K+ P LFP  SKTGG+TAALPKI+E +  F+  FAKL   AT A  TIKDEAS KA    +L +C +CH D+RA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_036270442.1|</Hit_id>
+  <Hit_def>cytochrome c [Methylobacterium sp. WSM2598]</Hit_def>
+  <Hit_accession>WP_036270442</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>7.75592e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>DAIDARKKILKSFGDVTKPVAGILKGEAPFDIAPVKTALATYAEGARKLPDLFPEDSKSGRDTEALPAIWSHKDDVAARFTKLAADSTSALGSITDQASFAATMPKVVAQCGACHKEYRLK</Hsp_hseq>
+      <Hsp_midline>D I  RK ILK  G+ TKP+A +LKGEA +D A V+ +LA  A+ ++KLP LFP DSK+G DT ALP I+  K      F KLAA +T+A G+I D+AS  A +  V+  C +CH ++R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_013166908.1|</Hit_id>
+  <Hit_def>cytochrome c [Starkeya novella] &gt;gb|ADH89404.1| cytochrome c prime [Starkeya novella DSM 506]</Hit_def>
+  <Hit_accession>WP_013166908</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.01652e-28</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDVVKERQTLLKEFGTATRPVGGMLRGGTPFDLATVQTALDTYIKNAKLLPTLFPEGSGPGPDTEALATIWQNKADFDARFAKLGADAAAARAAITDEASFKANFPAVVRNCGACHDTYRLK</Hsp_hseq>
+      <Hsp_midline>+DV+ +R+ +LK+ G AT+P+  ML+G   +D A VQ +L     ++K LP LFP  S  G DT AL  I+++KA FD  FAKL A A AA+  I DEAS KAN   V+ NC +CHD +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_113888352.1|</Hit_id>
+  <Hit_def>cytochrome c [Roseiarcus fermentans]</Hit_def>
+  <Hit_accession>WP_113888352</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.18713e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>EAIKERRALMKDNGEATKPVIAMLKG-APFDLATVQKALATYENAAAKMPGLFPSDSQ-AGDTHALAAVWTDTADFDARFKKLGADSAAASGAIVDAATFKANIMGVLKNCQGCHETYRAK</Hsp_hseq>
+      <Hsp_midline>+ I +R+A++K  GEATKP+ AMLKG A +D A VQK+LA   + + K+P LFP+DS+  GDT AL  ++ D A FD  F KL A + AA G I D A+ KANI GVL NC+ CH+ +RAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|RBP16367.1|</Hit_id>
+  <Hit_def>cytochrome c556 [Roseiarcus fermentans]</Hit_def>
+  <Hit_accession>RBP16367</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.20236e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>EAIKERRALMKDNGEATKPVIAMLKG-APFDLATVQKALATYENAAAKMPGLFPSDSQ-AGDTHALAAVWTDTADFDARFKKLGADSAAASGAIVDAATFKANIMGVLKNCQGCHETYRAK</Hsp_hseq>
+      <Hsp_midline>+ I +R+A++K  GEATKP+ AMLKG A +D A VQK+LA   + + K+P LFP+DS+  GDT AL  ++ D A FD  F KL A + AA G I D A+ KANI GVL NC+ CH+ +RAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_020086714.1|</Hit_id>
+  <Hit_def>cytochrome c [Hyphomicrobium zavarzinii]</Hit_def>
+  <Hit_accession>WP_020086714</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.25357e-28</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFR</Hsp_qseq>
+      <Hsp_hseq>TTIIKERKEHFKKMGDTAKPANAMFKGEADFDLAAVQAALKVMQEKAAILPTLFPDDAKTGGETEALPVIWEKKADFEARFKKLGESAKAAEAAIMDEITFADTWKSVMGNCSGCHKEFR</Hsp_hseq>
+      <Hsp_midline>T +I +RK   K+MG+  KP  AM KGEA +D A VQ +L  + + +  LP LFP D+KTGG+T ALP I+E KA F+  F KL  +A AA+  I DE +       V+GNC  CH +FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_116458937.1|</Hit_id>
+  <Hit_def>cytochrome c [Bradyrhizobiaceae bacterium] &gt;gb|PWB60147.1| cytochrome C [Bradyrhizobiaceae bacterium]</Hit_def>
+  <Hit_accession>WP_116458937</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.28693e-28</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDPIAQRKEIMKGVGAQTKTGAAMAKGEAPFDQAKATQIFTTYEDAAAKMPNLFPANSKSGGETTAAAKIWEDMDGFKKGFTEFGADAKAAKGNVKDLDSFKANFGNVTKNCGGCHETYRVK</Hsp_hseq>
+      <Hsp_midline>+D IAQRK I+K +G  TK  AAM KGEA +DQA   +      D + K+P LFPA+SK+GG+T A  KI+ED   F   F +  A A AA+G +KD  S KAN G V  NC  CH+ +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_137043873.1|</Hit_id>
+  <Hit_def>cytochrome c [Pseudolabrys sp. FHR47]</Hit_def>
+  <Hit_accession>WP_137043873</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>2.45557e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>DPIAARKALMKESGQATAAVVKMTKGETPFDLATAQKSMKTYQDVASKMPALFPDNSKTGGETTAAPAIWENMNDFKARFVKFEADAKAAEASIKDLDSLKAAVANVTRNCGGCHETYRVK</Hsp_hseq>
+      <Hsp_midline>D IA RKA++K+ G+AT  +  M KGE  +D A  QKS+    D + K+PALFP +SKTGG+T A P I+E+   F   F K  A A AA+ +IKD  SLKA +  V  NC  CH+ +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_114185815.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga aerophila]</Hit_def>
+  <Hit_accession>WP_114185815</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>7.58246e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>NVIEQRQDLMKQFGSATRTTSGMLRGEAPFDLAKVQGALRTYSN-AKELPHLFPENSKSG-KTAALPAVWENKAEFDALAVKMNSDVQAALASIKDEATFKAEAPKILQNCGACHNKFRQK</Hsp_hseq>
+      <Hsp_midline>+VI QR+ ++KQ G AT+  + ML+GEA +D A VQ +L   ++ +K+LP LFP +SK+G  TAALP ++E+KA+FD L  K+ +   AA  +IKDEA+ KA    +L NC +CH+ FR K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|THD43911.1|</Hit_id>
+  <Hit_def>cytochrome c [Bradyrhizobium sp.]</Hit_def>
+  <Hit_accession>THD43911</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.51759e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFED--KAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>DAIKERRDLMKANGEASKPLVPMLKGSAPFDLATVQKALKTYENAAAKMPDLFPPDSKT-GDTHALPAIWEDDNKADLDARFKKLGDDAAAALVSVKDDASFKATMPAFFNNCGGCHEKYRAK</Hsp_hseq>
+      <Hsp_midline>D I +R+ ++K  GEA+KP+  MLKG A +D A VQK+L    + + K+P LFP DSKT GDT ALP I+ED  KA  D  F KL   A AA  ++KD+AS KA +     NC  CH+ +RAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_092646930.1|</Hit_id>
+  <Hit_def>cytochrome c [Rhizobiales bacterium GAS113] &gt;emb|SDR64265.1| Cytochrome c556 [Rhizobiales bacterium GAS113]</Hit_def>
+  <Hit_accession>WP_092646930</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.72683e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>ATDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>AADVIAQRRALMHDDGVAAKKLFDMAKGNAPFDLAIAQASLKTLANGAEKTPLLFPDDSKTGGGTAALPAIWENKADFNARFAKFSKDVAEAIATTQDEASFKAVAPRVFENCGGCHELYKAK</Hsp_hseq>
+      <Hsp_midline>A DVIAQR+A++   G A K +  M KG A +D A+ Q SL  +A+ ++K P LFP DSKTGG TAALP I+E+KA F+  FAK +     A  T +DEAS KA    V  NC  CH+ ++AK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_092915315.1|</Hit_id>
+  <Hit_def>cytochrome c [Rhizobiales bacterium GAS191] &gt;emb|SEE76092.1| Cytochrome c556 [Rhizobiales bacterium GAS191]</Hit_def>
+  <Hit_accession>WP_092915315</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.82345e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>ATDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>AADVIAQRRALMHDDGVAAKKLFDMAKGNAPFDLAIAQASLKTLANGAEKTPLLFPDDSKTGGGTAALPAIWENKADFNARFAKFSKDVAEAIATTQDEASFKAVAPRVFENCGGCHELYKAK</Hsp_hseq>
+      <Hsp_midline>A DVIAQR+A++   G A K +  M KG A +D A+ Q SL  +A+ ++K P LFP DSKTGG TAALP I+E+KA F+  FAK +     A  T +DEAS KA    V  NC  CH+ ++AK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|OJY02672.1|</Hit_id>
+  <Hit_def>hypothetical protein BGP04_04910 [Rhizobiales bacterium 62-17]</Hit_def>
+  <Hit_accession>OJY02672</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>1.42859e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDPIAQRKAIMKAMGDAGRAPAAMLKGE-PFALAPVQAALQAMQAAGKQGPALFPDTSKTG-DTAALPKIWETRNDFNAKFAKLEKDATEAMSTIKDEASFKAVYPALLRDCGACHSDYRAR</Hsp_hseq>
+      <Hsp_midline>+D IAQRKAI+K MG+A +  AAMLKGE  +  A VQ +L A+    K+ PALFP  SKTG DTAALPKI+E +  F+  FAKL   AT A  TIKDEAS KA    +L +C +CH D+RA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_046868280.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga massiliensis]</Hit_def>
+  <Hit_accession>WP_046868280</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>2.05379e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFR</Hsp_qseq>
+      <Hsp_hseq>NVIEQRQSLMKDLSAKARPVTAALRGQAPFDLGQVQTALRTYSEHAKVLPTMFPENSKSG-KTDALPTVWENKSDFEARFAKLAADAQTALATVKDEESFKAEFPKVMKNCGGCHEKFR</Hsp_hseq>
+      <Hsp_midline>+VI QR++++K +    +P+ A L+G+A +D   VQ +L   ++ +K LP +FP +SK+G  T ALP ++E+K+ F+  FAKLAA A  A  T+KDE S KA    V+ NC  CH+ FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_137102233.1|</Hit_id>
+  <Hit_def>cytochrome c [Phreatobacter sp. NMCR1094] &gt;gb|QCK88907.1| cytochrome c [Phreatobacter sp. NMCR1094]</Hit_def>
+  <Hit_accession>WP_137102233</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.04631e-26</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>IAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFR</Hsp_qseq>
+      <Hsp_hseq>IAQRQTLLKEFGAVSREPGQMLRREAAFDLAKVKTALETYSRHAKVLPILFPAGSFTG-ETAALPKIDESRADFVATFGRLDQAATAALASITDEATFRANMGNVLRVCGQCHDTYR</Hsp_hseq>
+      <Hsp_midline>IAQR+ +LK+ G  ++    ML+ EA +D A V+ +L   +  +K LP LFPA S TG +TAALPKI E +A F   F +L  AATAA  +I DEA+ +AN+G VL  C  CHD +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_029348980.1|</Hit_id>
+  <Hit_def>cytochrome c [Bosea sp. 117]</Hit_def>
+  <Hit_accession>WP_029348980</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.06197e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SDVIKTRQGLLKEFGRVTKPIGGMLKGE-PFDLATVQTALDTYVKNAKELPNLFPEGSGTG-DTGALPAIWAAGSDFKARFAKFETDAVAARAAITDEASFKATMPGLIRQCGGCHDSYRKK</Hsp_hseq>
+      <Hsp_midline>+DVI  R+ +LK+ G  TKPI  MLKGE  +D A VQ +L     ++K+LP LFP  S TG DT ALP I+   + F   FAK    A AA+  I DEAS KA + G++  C  CHD +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_023787214.1|</Hit_id>
+  <Hit_def>cytochrome c [Hyphomicrobium nitrativorans] &gt;gb|AHB48531.1| cytochrome C [Hyphomicrobium nitrativorans NL23]</Hit_def>
+  <Hit_accession>WP_023787214</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>4.47764e-26</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>IAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFR</Hsp_qseq>
+      <Hsp_hseq>IKERKAHFDEMGDAVKPVGAMFKGEQAFELAAVQSALTVIREKTAVLPDLFPEDSKEGEETRALPAIWNDKEDFNNRFKKLADAAQAAEPAITDEASFKTAWKDLVGNCSGCHKNYR</Hsp_hseq>
+      <Hsp_midline>I +RKA   +MG+A KP+ AM KGE  ++ A VQ +L  I + +  LP LFP DSK G +T ALP I+ DK  F++ F KLA AA AA+  I DEAS K     ++GNC  CH ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_099511266.1|</Hit_id>
+  <Hit_def>cytochrome c [Microvirga ossetica]</Hit_def>
+  <Hit_accession>WP_099511266</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>8.51136e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFR</Hsp_qseq>
+      <Hsp_hseq>SNKVEQRQALMKEMGAQSRTLGGMLRGQAPFDAAQVQAGLKVFAENAQKAGPLFTEDTKGAEKTAALPALWDSKAQFDSILAKFGQDAQAAMASIKDEATMKAELPKVLQNCGTCHQTFR</Hsp_hseq>
+      <Hsp_midline>++ + QR+A++K+MG  ++ +  ML+G+A +D A VQ  L   A++++K   LF  D+K    TAALP +++ KA+FD + AK    A AA  +IKDEA++KA +  VL NC +CH  FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|PPD15443.1|</Hit_id>
+  <Hit_def>cytochrome C prime [Methylobacterium sp.]</Hit_def>
+  <Hit_accession>PPD15443</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>8.68124e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SNPISERKDLFKAFGASLRAVGPMMRNEAAFDGAKVQEALKIIGEGAPKVAKLFPAGSGTG-DTKALPAIWTDNAKFQGLFTKLEADAKAAAAVIKDEATLKAEMPKVLANCGTCHDAFRAK</Hsp_hseq>
+      <Hsp_midline>++ I++RK + K  G + + +  M++ EA +D A VQ++L  I + + K+  LFPA S TG DT ALP I+ D AKF  LF KL A A AA   IKDEA+LKA +  VL NC +CHD FRAK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ANY80261.1|</Hit_id>
+  <Hit_def>hypothetical protein BB934_20185 [Microvirga ossetica]</Hit_def>
+  <Hit_accession>ANY80261</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>8.82785e-26</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFR</Hsp_qseq>
+      <Hsp_hseq>SNKVEQRQALMKEMGAQSRTLGGMLRGQAPFDAAQVQAGLKVFAENAQKAGPLFTEDTKGAEKTAALPALWDSKAQFDSILAKFGQDAQAAMASIKDEATMKAELPKVLQNCGTCHQTFR</Hsp_hseq>
+      <Hsp_midline>++ + QR+A++K+MG  ++ +  ML+G+A +D A VQ  L   A++++K   LF  D+K    TAALP +++ KA+FD + AK    A AA  +IKDEA++KA +  VL NC +CH  FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_115517148.1|</Hit_id>
+  <Hit_def>cytochrome c [Pseudolabrys sp. GY_H] &gt;gb|RDV05121.1| cytochrome c [Pseudolabrys sp. GY_H]</Hit_def>
+  <Hit_accession>WP_115517148</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>1.05236e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>DPIAARKALMKESGQATAVVVKMTKGETPFDLAAAQKSLKTYQDIAAKMPALFPESSKSGGETTAAPAIWEKMDDFKARFVKFGEDAKAAEASVKDLDSLKAAVANVTRNCGGCHEAYRVK</Hsp_hseq>
+      <Hsp_midline>D IA RKA++K+ G+AT  +  M KGE  +D A  QKSL    D + K+PALFP  SK+GG+T A P I+E    F   F K    A AA+ ++KD  SLKA +  V  NC  CH+ +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_056712169.1|</Hit_id>
+  <Hit_def>cytochrome c [Bosea sp. Leaf344] &gt;gb|KQU51931.1| hypothetical protein ASG72_10610 [Bosea sp. Leaf344]</Hit_def>
+  <Hit_accession>WP_056712169</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>3.69173e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TDVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLGNCKSCHDDFRAK</Hsp_qseq>
+      <Hsp_hseq>SNAISERRDAMKAVGAATRDGAAIAKGEAAFDAAKVQSIFKVYADVAKKMPTLYPENSKTGGETTAAPKIWEDQAGFKAAFVKFETESAAAATASTDLASFRTAFGGVTKNCGSCHELYRIK</Hsp_hseq>
+      <Hsp_midline>++ I++R+  +K +G AT+  AA+ KGEA +D A VQ      AD +KK+P L+P +SKTGG+T A PKI+ED+A F   F K    + AA     D AS +   GGV  NC SCH+ +R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|PPC81664.1|</Hit_id>
+  <Hit_def>cytochrome c prime [Hyphomicrobium sp.]</Hit_def>
+  <Hit_accession>PPC81664</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>4.1622e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>DVIAQRKAILKQMGEATKPIAAMLKGEAKWDQAVVQKSLAAIADDSKKLPALFPADSKTGGDTAALPKIFEDKAKFDDLFAKLAAAATAAQGTIKDEASLKANIGGVLG-NCKSCHDDFR</Hsp_qseq>
+      <Hsp_hseq>DVIKARKEILKGFGAAAKDPGAMLKGEAKFDIAKVQAALKTFQAGAAKLPDLFPADSKTGGETEALPVIWEKKQDVVDRFKKLASESKAAEAKITDEIAFQEVWPKLLGDNCSGCHKIYR</Hsp_hseq>
+      <Hsp_midline>DVI  RK ILK  G A K   AMLKGEAK+D A VQ +L      + KLP LFPADSKTGG+T ALP I+E K    D F KLA+ + AA+  I DE + +     +LG NC  CH  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
