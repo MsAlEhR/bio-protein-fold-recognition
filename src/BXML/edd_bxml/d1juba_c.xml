@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_229881</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1juba_c</BlastOutput_query-def>
+  <BlastOutput_query-len>311</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_229881</Iteration_query-ID>
+  <Iteration_query-def>d1juba_c</Iteration_query-def>
+  <Iteration_query-len>311</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1JUB|A</Hit_id>
+  <Hit_def>Chain A, Dihydroorotate Dehydrogenase A [Lactococcus lactis] &gt;pdb|1JUB|B Chain B, Dihydroorotate Dehydrogenase A [Lactococcus lactis] &gt;pdb|1OVD|A Chain A, DIHYDROOROTATE DEHYDROGENASE A [Lactococcus lactis] &gt;pdb|1OVD|B Chain B, DIHYDROOROTATE DEHYDROGENASE A [Lactococcus lactis]</Hit_def>
+  <Hit_accession>1JUB_A</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.565</Hsp_bit-score>
+      <Hsp_score>1638</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011834894.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;sp|A2RJT9.1| RecName: Full=Dihydroorotate dehydrogenase A (fumarate); Short=DHOD A; Short=DHODase A; Short=DHOdehase A [Lactococcus lactis subsp. cremoris MG1363] &gt;sp|Q53ZE5.1| RecName: Full=Dihydroorotate dehydrogenase A (fumarate); Short=DHOD A; Short=DHODase A; Short=DHOdehase A [Lactococcus lactis subsp. cremoris] &gt;gb|AAQ01776.1| dihydroorotate dehydrogenase 1a [Lactococcus lactis subsp. cremoris] &gt;gb|ADJ59961.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris NZ9000] &gt;gb|KKW73446.1| dihydroorotate dehydrogenase family protein [Lactococcus lactis subsp. cremoris] &gt;pdb|1DOR|A Chain A, Dihydroorotate Dehydrogenase A From Lactococcus Lactis [Lactococcus lactis] &gt;pdb|1DOR|B Chain B, Dihydroorotate Dehydrogenase A From Lactococcus Lactis [Lactococcus lactis] &gt;pdb|1JUE|A Chain A, Dihydroorotate Dehydrogenase A [Lactococcus lactis] &gt;pdb|1JUE|B Chain B, Dihydroorotate Dehydrogenase A [Lactococcus lactis] &gt;pdb|2BSL|A Chain A, DIHYDROOROTATE DEHYDROGENASE A [Lactococcus lactis] &gt;pdb|2BSL|B Chain B, DIHYDROOROTATE DEHYDROGENASE A [Lactococcus lactis] &gt;pdb|2BX7|A Chain A, DIHYDROOROTATE DEHYDROGENASE [Lactococcus lactis] &gt;pdb|2BX7|B Chain B, DIHYDROOROTATE DEHYDROGENASE [Lactococcus lactis] &gt;pdb|2DOR|A Chain A, Dihydroorotate Dehydrogenase A From Lactococcus Lactis Complexed With Orotate [Lactococcus lactis] &gt;pdb|2DOR|B Chain B, Dihydroorotate Dehydrogenase A From Lactococcus Lactis Complexed With Orotate [Lactococcus lactis] &gt;emb|CAA52279.1| dihydroorotate dehydrogenase A [Lactococcus lactis subsp. cremoris MG1363] &gt;emb|CAL97544.1| dihydroorotate dehydrogenase A [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>WP_011834894</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.024</Hsp_bit-score>
+      <Hsp_score>1634</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_042747920.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KEY63085.1| Dihydroorotate dehydrogenase 2 [Lactococcus lactis subsp. cremoris GE214]</Hit_def>
+  <Hit_accession>WP_042747920</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.869</Hsp_bit-score>
+      <Hsp_score>1631</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQSGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQ+GAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_046124715.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KKW73327.1| dihydroorotate dehydrogenase family protein [Lactococcus lactis subsp. cremoris] &gt;gb|KZK10797.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris] &gt;gb|OEU39870.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. cremoris IBB477] &gt;gb|RDG22556.1| dihydroorotate oxidase [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>WP_046124715</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTVLHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGT LHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1JQV|A</Hit_id>
+  <Hit_def>Chain A, Dihydroorotate Dehydrogenase A [Lactococcus lactis] &gt;pdb|1JQV|B Chain B, Dihydroorotate Dehydrogenase A [Lactococcus lactis]</Hit_def>
+  <Hit_accession>1JQV_A</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPEDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKP+DGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_096815755.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|PCS20675.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. tructae]</Hit_def>
+  <Hit_accession>WP_096815755</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.098</Hsp_bit-score>
+      <Hsp_score>1629</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKEGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPK+GFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1JRB|A</Hit_id>
+  <Hit_def>Chain A, dihydroorotate dehydrogenase A [Lactococcus lactis] &gt;pdb|1JRB|B Chain B, dihydroorotate dehydrogenase A [Lactococcus lactis]</Hit_def>
+  <Hit_accession>1JRB_A</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.713</Hsp_bit-score>
+      <Hsp_score>1628</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLARYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPL RYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1JRC|A</Hit_id>
+  <Hit_def>Chain A, Dihydroorotate Dehydrogenase A [Lactococcus lactis] &gt;pdb|1JRC|B Chain B, Dihydroorotate Dehydrogenase A [Lactococcus lactis]</Hit_def>
+  <Hit_accession>1JRC_A</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.328</Hsp_bit-score>
+      <Hsp_score>1627</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSIASMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSI SMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|1JQX|A</Hit_id>
+  <Hit_def>Chain A, Dihydroorotate Dehydrogenase A [Lactococcus lactis] &gt;pdb|1JQX|B Chain B, Dihydroorotate Dehydrogenase A [Lactococcus lactis]</Hit_def>
+  <Hit_accession>1JQX_A</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.328</Hsp_bit-score>
+      <Hsp_score>1627</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPAYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLP YVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_011676580.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|ABJ73141.1| dihydroorotate oxidase B, catalytic subunit [Lactococcus lactis subsp. cremoris SK11] &gt;gb|ARE23752.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. cremoris] &gt;gb|ARE28149.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. cremoris] &gt;gb|EUN34977.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris HP] &gt;gb|KZK13281.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris] &gt;gb|KZK45565.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris] &gt;gb|KZK50235.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris] &gt;gb|KZK52730.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris] &gt;gb|PCS16257.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris] &gt;gb|TDG58835.1| hypothetical protein C5L16_002450 [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>WP_011676580</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.558</Hsp_bit-score>
+      <Hsp_score>1625</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESYFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQES FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_021037526.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AGV73464.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris KW2]</Hit_def>
+  <Hit_accession>WP_021037526</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.172</Hsp_bit-score>
+      <Hsp_score>1624</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNRFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILN+FPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_043735217.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KGH33864.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>WP_043735217</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.172</Hsp_bit-score>
+      <Hsp_score>1624</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATLLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFYGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGAT+LQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADF+GKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_015082621.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AFW91986.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris UC509.9] &gt;gb|ARD91705.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris] &gt;gb|ARE06330.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris] &gt;gb|ARE18580.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris] &gt;gb|ARE26346.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris] &gt;gb|AXN65714.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris] &gt;gb|EQC53618.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. cremoris TIFN5] &gt;gb|EQC83727.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. cremoris TIFN7] &gt;gb|EQC86570.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. cremoris TIFN1] &gt;gb|EQC94526.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. cremoris TIFN3] &gt;gb|OAJ96802.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|PFG92564.1| dihydroorotate oxidase [Lactococcus lactis subsp. cremoris] &gt;gb|TEA97774.1| dihydroorotate oxidase [Lactococcus lactis subsp. cremoris] &gt;dbj|BBC75913.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>WP_015082621</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>629.017</Hsp_bit-score>
+      <Hsp_score>1621</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSVAENIAMLKKIQESYFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMS AENIAMLKKIQES FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_063282411.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_063282411</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>628.246</Hsp_bit-score>
+      <Hsp_score>1619</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_101961885.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_101961885</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>626.706</Hsp_bit-score>
+      <Hsp_score>1615</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSVAENIAMLKKIQESYFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAERVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMS AENIAMLKKIQES FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAE VVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_023188730.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|ARE13801.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|ARE16216.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|ARE21165.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU00507.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU05105.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU18490.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|PCS15671.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis] &gt;gb|PFG87196.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|TDG87496.1| hypothetical protein C5L15_000352 [Lactococcus lactis subsp. lactis] &gt;dbj|GAM80851.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis] &gt;emb|CDI45782.1| Dihydroorotate dehydrogenase, catalytic subunit [Lactococcus lactis subsp. lactis Dephy 1] &gt;emb|SCW45108.1| dihydroorotate oxidase B, catalytic subunit [Lactococcus lactis] &gt;tpg|HAF57220.1| dihydroorotate dehydrogenase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_023188730</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>616.69</Hsp_bit-score>
+      <Hsp_score>1589</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_085623285.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|OSP88379.1| dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_085623285</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.92</Hsp_bit-score>
+      <Hsp_score>1587</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEMAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_038601491.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AIS04093.1| Dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|PPA67562.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|RHJ29278.1| dihydroorotate dehydrogenase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_038601491</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.15</Hsp_bit-score>
+      <Hsp_score>1585</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFAFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVF FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_017864745.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AGY44443.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis KLDS 4.0325] &gt;gb|ATY88044.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis] &gt;gb|ATZ01599.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis] &gt;gb|KHE76419.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis 1AA59] &gt;gb|KST94269.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KST98033.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU00422.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU09868.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU21056.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU28611.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|OAZ15725.1| dihydroorotate dehydrogenase [Lactococcus lactis RTB018] &gt;gb|OJH46936.1| dihydroorotate oxidase [Lactococcus lactis subsp. lactis bv. diacetylactis] &gt;gb|PAK89620.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|PAL02893.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|PFG80191.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|RJK90720.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis] &gt;gb|RQE34473.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|RQE35322.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|RQE39568.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|RQE41357.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|RQE60302.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|RQG83376.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|RXS53248.1| dihydroorotate oxidase [Lactococcus lactis] &gt;emb|CDG04882.1| Dihydroorotate dehydrogenase A (fumarate) [Lactococcus lactis subsp. lactis A12] &gt;emb|SBW30838.1| Dihydroorotate dehydrogenase A (fumarate) [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_017864745</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.15</Hsp_bit-score>
+      <Hsp_score>1585</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_015426714.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|THA53376.1| dihydroorotate oxidase [Lactococcus lactis] &gt;dbj|BAL51471.1| dihydroorotate dehydrogenase A [Lactococcus lactis subsp. lactis IO-1]</Hit_def>
+  <Hit_accession>WP_015426714</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>615.15</Hsp_bit-score>
+      <Hsp_score>1585</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKVQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE  QE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_003130679.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;ref|NP_267708.1| dihydroorotate dehydrogenase 1A [Lactococcus lactis subsp. lactis Il1403] &gt;sp|Q9CFC9.1| RecName: Full=Dihydroorotate dehydrogenase A (fumarate); Short=DHOD A; Short=DHODase A; Short=DHOdehase A [Lactococcus lactis subsp. lactis Il1403] &gt;gb|AAK05650.1| dihydroorotate dehydrogenase A [Lactococcus lactis subsp. lactis Il1403] &gt;gb|ADZ64089.1| dihydroorotate oxidase [Lactococcus lactis subsp. lactis CV56] &gt;gb|ARD94020.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|ARD96522.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|ARD99211.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|ARE01592.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|ARE03943.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|ARE08757.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|ARE11240.1| dihydroorotate oxidase B catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|AYV51031.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AYV53273.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|EHE93636.1| Dihydroorotate oxidase (fumarate) [Lactococcus lactis subsp. lactis CNCM I-1631] &gt;gb|EQC90828.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis bv. diacetylactis str. TIFN4] &gt;gb|EQC92800.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis bv. diacetylactis str. TIFN2] &gt;gb|ESK80139.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis bv. diacetylactis str. LD61] &gt;gb|KST42473.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis bv. diacetylactis] &gt;gb|KSU23436.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU31266.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU33139.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KZK12608.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis bv. diacetylactis] &gt;gb|ONK33236.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis] &gt;gb|PFG92123.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis] &gt;gb|RKO32365.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis bv. diacetylactis] &gt;gb|RKO37785.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis bv. diacetylactis] &gt;gb|RQE15141.1| dihydroorotate dehydrogenase [Lactococcus lactis] &gt;gb|TKD76693.1| dihydroorotate oxidase [Lactococcus lactis] &gt;emb|SPS12177.1| Dihydroorotate dehydrogenase A (fumarate) [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_003130679</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.764</Hsp_bit-score>
+      <Hsp_score>1584</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIKIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEI+IIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_095587032.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|PLW59034.1| Dihydroorotate dehydrogenase A (fumarate) [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_095587032</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.379</Hsp_bit-score>
+      <Hsp_score>1583</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEMAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFAFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVF FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_103054897.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AUS69902.1| dihydroorotate oxidase [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_103054897</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.379</Hsp_bit-score>
+      <Hsp_score>1583</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKNIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLK IQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_124137270.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE00891.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE03574.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE06041.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE09587.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE11024.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE18703.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE19194.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE26437.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE31550.1| dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_124137270</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.994</Hsp_bit-score>
+      <Hsp_score>1582</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGTAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEG AIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_058208295.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KST94261.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_058208295</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.609</Hsp_bit-score>
+      <Hsp_score>1581</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPPALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKP ALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_098393476.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|PFG88883.1| dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_098393476</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.609</Hsp_bit-score>
+      <Hsp_score>1581</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFAFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELKEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVF FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKEL+EIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_058205775.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KSU10722.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_058205775</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.609</Hsp_bit-score>
+      <Hsp_score>1581</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFSFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGVYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVF+FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGG YIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_047206471.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KLK96215.1| dihydroorotate dehydrogenase family protein [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_047206471</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.609</Hsp_bit-score>
+      <Hsp_score>1581</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSTAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMS AENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_124156127.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE21820.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE24429.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|RQE28480.1| dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_124156127</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.609</Hsp_bit-score>
+      <Hsp_score>1581</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPDIKIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKP+I+IIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_057719948.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KRO23767.1| dihydroorotate dehydrogenase a [Lactococcus lactis subsp. lactis] &gt;gb|RWR45025.1| dihydroorotate oxidase [Lactococcus lactis] &gt;tpg|HAI26363.1| dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_057719948</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.609</Hsp_bit-score>
+      <Hsp_score>1581</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKVQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELKEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE  QE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKEL+EIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_095345579.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|PAK66792.1| dihydroorotate oxidase [Lactococcus lactis] &gt;gb|PEN19155.1| dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_095345579</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.224</Hsp_bit-score>
+      <Hsp_score>1580</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPFTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFP TYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_012898158.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|ADA65293.1| Dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis KF147] &gt;gb|AII13044.1| Dihydroorotate dehydrogenase A (fumarate) [Lactococcus lactis subsp. lactis NCDO 2118]</Hit_def>
+  <Hit_accession>WP_012898158</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.224</Hsp_bit-score>
+      <Hsp_score>1580</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKNIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLK IQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_033901048.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KGF75883.1| Dihydroorotate dehydrogenase, catalytic subunit [Lactococcus lactis] &gt;gb|KST80181.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KSU03150.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|QBC36688.1| dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_033901048</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.224</Hsp_bit-score>
+      <Hsp_score>1580</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFAFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVF FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_039115655.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AJA57331.1| dihydroorotate dehydrogenase [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_039115655</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.838</Hsp_bit-score>
+      <Hsp_score>1579</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDLEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGTAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEG AIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_058204298.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KST84092.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_058204298</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.838</Hsp_bit-score>
+      <Hsp_score>1579</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKPQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE  QE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_058217262.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KST85702.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_058217262</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.068</Hsp_bit-score>
+      <Hsp_score>1577</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTVDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT  DLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_060416174.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KWT50792.1| dihydroorotate dehydrogenase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_060416174</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.068</Hsp_bit-score>
+      <Hsp_score>1577</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAVLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGTAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIA+LKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEG AIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_058210942.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|KST91422.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_058210942</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.068</Hsp_bit-score>
+      <Hsp_score>1577</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVGLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYV LELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_029344091.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_029344091</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>611.683</Hsp_bit-score>
+      <Hsp_score>1576</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKITFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEMAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFAFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML  TFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVF FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_109991084.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AWN66137.1| dihydroorotate oxidase [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_109991084</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.527</Hsp_bit-score>
+      <Hsp_score>1573</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEATIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFAFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE  IFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVF FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_058209276.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|AAQ01775.1| dihydroorotate dehydrogenase 1a [Lactococcus lactis subsp. hordniae] &gt;gb|KSU13106.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|PCS09738.1| dihydroorotate dehydrogenase 1a [Lactococcus lactis subsp. hordniae]</Hit_def>
+  <Hit_accession>WP_058209276</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.527</Hsp_bit-score>
+      <Hsp_score>1573</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKTQLAYDFEATEKLLKEVFAFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+ QLAYDFEATEKLLKEVF FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_098383964.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus lactis] &gt;gb|PFG83882.1| dihydroorotate oxidase [Lactococcus lactis]</Hit_def>
+  <Hit_accession>WP_098383964</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.372</Hsp_bit-score>
+      <Hsp_score>1570</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>MLNTTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MLKTTFANAEFANPFMNASGVHCMTTDDLEELKASQAGAFITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEARIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAERVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>ML TTFANA+FANPFMNASGVHCMT +DLEELKASQAGA+ITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE  IFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAE VVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|AEU40135.1|</Hit_id>
+  <Hit_def>Dihydroorotate dehydrogenase, catalytic subunit [Lactococcus lactis subsp. cremoris A76] &gt;gb|KZK33726.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris] &gt;gb|KZK50472.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>AEU40135</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>583.948</Hsp_bit-score>
+      <Hsp_score>1504</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|KZK04794.1|</Hit_id>
+  <Hit_def>Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>KZK04794</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>582.408</Hsp_bit-score>
+      <Hsp_score>1500</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|KZK42136.1|</Hit_id>
+  <Hit_def>Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>KZK42136</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>580.867</Hsp_bit-score>
+      <Hsp_score>1496</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESYFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQES FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|KZK41978.1|</Hit_id>
+  <Hit_def>Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>KZK41978</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.556</Hsp_bit-score>
+      <Hsp_score>1490</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSVAENIAMLKKIQESYFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMS AENIAMLKKIQES FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|KST79119.1|</Hit_id>
+  <Hit_def>Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis] &gt;gb|KST82003.1| Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>KST79119</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>571.237</Hsp_bit-score>
+      <Hsp_score>1471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|ARR86859.1|</Hit_id>
+  <Hit_def>Dihydroorotate dehydrogenase, catalytic subunit [Lactococcus lactis subsp. lactis bv. diacetylactis]</Hit_def>
+  <Hit_accession>ARR86859</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>569.311</Hsp_bit-score>
+      <Hsp_score>1466</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIKIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEI+IIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|KSU21129.1|</Hit_id>
+  <Hit_def>Dihydroorotate dehydrogenase catalytic subunit [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>KSU21129</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>567.77</Hsp_bit-score>
+      <Hsp_score>1462</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>MTTEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKEKAQEAPIFFSIAGMSAAENIAMLKKIQESNFSGITELNLSCPNVPGKPQLAYDFEATEKLLKEVFAFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDSEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPTIFDRIIKELEEIMDKKGYQSIADFHGKLKSL</Hsp_hseq>
+      <Hsp_midline>MT EDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKE AQE PIFFSIAGMSAAENIAMLKKIQES+FSGITELNLSCPNVPG+PQLAYDFEATEKLLKEVF FFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFID EAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGP IFDRIIKELEEIM++KGYQSIADFHGKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_003136678.1|</Hit_id>
+  <Hit_def>dihydroorotate oxidase [Lactococcus garvieae] &gt;gb|EKF50615.1| Dihydroorotate dehydrogenase, catalytic subunit [Lactococcus garvieae DCC43]</Hit_def>
+  <Hit_accession>WP_003136678</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>TTFANAKFANPFMNASGVHCMTIEDLEELKASQAGAYITKSSTLEKREGNPLPRYVDLELGSINSMGLPNLGFDYYLDYVLKNQKENAQEGPIFFSIAGMSAAENIAMLKKIQESDFSGITELNLSCPNVPGEPQLAYDFEATEKLLKEVFTFFTKPLGVKLPPYFDLVHFDIMAEILNQFPLTYVNSVNSIGNGLFIDPEAESVVIKPKDGFGGIGGAYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFDRIIKELEEIMNQKGYQSIADFHGKLKSL</Hsp_qseq>
+      <Hsp_hseq>TTFANAKFSNPFMNASGVHCMTIEDLKDLEKSDAGAYITKSSTLEKREGNPSPRYVDLELGSINSMGLPNLGFHYYLDYVLEVQE--TQDSPIFFSIAGMSKEENIEMLKAIQESRFSGITELNLSCPNVPGKPQLAYDFQATEELLEKVFTLFDKPLGVKLPPYFDLVHFDQMAEILNKFPLTYVNSVNSIGNALFIDAEEESVVIKPKEGFGGIGGQYIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIFTRISNELQEIMDKKGYKSIDEFRGKLKSL</Hsp_hseq>
+      <Hsp_midline>TTFANAKF+NPFMNASGVHCMTIEDL++L+ S AGAYITKSSTLEKREGNP PRYVDLELGSINSMGLPNLGF YYLDYVL+ Q+   Q+ PIFFSIAGMS  ENI MLK IQES FSGITELNLSCPNVPG+PQLAYDF+ATE+LL++VFT F KPLGVKLPPYFDLVHFD MAEILN+FPLTYVNSVNSIGN LFID E ESVVIKPK+GFGGIGG YIKPTALANVRAFYTRLKPEIQIIGTGGIETGQDAFEHLLCGATMLQIGTALHKEGPAIF RI  EL+EIM++KGY+SI +F GKLKSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

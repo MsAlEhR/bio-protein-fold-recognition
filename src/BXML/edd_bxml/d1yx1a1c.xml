@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_30155</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1yx1a1c</BlastOutput_query-def>
+  <BlastOutput_query-len>250</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_30155</Iteration_query-ID>
+  <Iteration_query-def>d1yx1a1c</Iteration_query-def>
+  <Iteration_query-len>250</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AAT50882.1|</Hit_id>
+  <Hit_def>PA2260, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAT50882</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.278</Hsp_bit-score>
+      <Hsp_score>1279</Hsp_score>
+      <Hsp_evalue>2.1778e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_003113739.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TIM barrel protein [Pseudomonas] &gt;ref|NP_250950.1| hypothetical protein PA2260 [Pseudomonas aeruginosa PAO1] &gt;gb|AAG05648.1| hypothetical protein PA2260 [Pseudomonas aeruginosa PAO1] &gt;gb|AAK37647.1| KguE [Pseudomonas aeruginosa PAO1] &gt;gb|AEO75263.1| putative epimerase [Pseudomonas aeruginosa M18] &gt;gb|AFM65076.1| putative epimerase [Pseudomonas aeruginosa DK2] &gt;gb|AGO39955.1| AP endonuclease [Pseudomonas aeruginosa RP73] &gt;gb|AGV58261.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa PAO581] &gt;gb|AGV64799.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa c7447m] &gt;gb|AGY68548.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa PAO1-VE2] &gt;gb|AGY71955.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa PAO1-VE13] &gt;gb|AHC65690.1| AP endonuclease [Pseudomonas aeruginosa LES431] &gt;gb|AHC77179.1| Epimerase KguE [Pseudomonas aeruginosa SCV20265] &gt;gb|AHK83918.1| AP endonuclease [Pseudomonas aeruginosa LESlike5] &gt;gb|AHK89820.1| AP endonuclease [Pseudomonas aeruginosa LESlike7] &gt;gb|AHK95802.1| AP endonuclease [Pseudomonas aeruginosa LES400] &gt;gb|AHL01762.1| AP endonuclease [Pseudomonas aeruginosa LESB65] &gt;gb|AHL07711.1| AP endonuclease [Pseudomonas aeruginosa LESlike1] &gt;gb|AHL13639.1| AP endonuclease [Pseudomonas aeruginosa LESlike4] &gt;gb|AHW71206.1| hypothetical protein PA96_2720 [Pseudomonas aeruginosa PA96] &gt;gb|AID73472.1| putative epimerase [Pseudomonas aeruginosa PAO1H2O] &gt;gb|AKE69922.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AKO86824.1| AP endonuclease [Pseudomonas aeruginosa DSM 50071 = NBRC 12689] &gt;gb|AKQ15801.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALP60297.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALU50254.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALV78396.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|ALY39142.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALY40113.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALY47810.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALY55414.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALY61263.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALY83533.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALY92941.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALY94046.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALZ04584.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALZ09469.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALZ13511.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALZ19181.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALZ25669.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALZ32186.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALZ39269.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ALZ91454.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AMA37462.1| AP endonuclease [Pseudomonas aeruginosa DHS01] &gt;gb|AMU01167.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|AMX91361.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ANI10595.1| AP endonuclease [Pseudomonas aeruginosa SJTD-1] &gt;gb|ANP62757.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ANT76537.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AOP58193.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AOT40823.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AOX27098.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AOX33458.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AOX40015.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|APB57528.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|APC73021.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|APJ41565.1| putative epimerase [Pseudomonas aeruginosa] &gt;gb|APJ47184.1| putative epimerase [Pseudomonas aeruginosa] &gt;gb|APJ52752.1| putative epimerase [Pseudomonas aeruginosa] &gt;gb|ARG51064.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ARI01785.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa PAK] &gt;gb|ARN35478.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ARN41255.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ARN49746.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ARN50854.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ARU33176.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ASD11198.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ASD17921.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ASJ85294.1| putative epimerase [Pseudomonas aeruginosa] &gt;gb|ATH03387.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AUA83583.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AUA89668.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AVJ90261.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AVK23600.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AVZ19801.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AWE69433.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AWE77698.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AWE82629.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AWF00202.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AWR42271.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AWT29173.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AWZ89699.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AXA00748.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AXC24009.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AXL77156.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AXL83506.1| Xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AXN24547.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AXO28946.1| Xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|AXR11362.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AXR29008.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AXS88158.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AYL32384.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AYW41028.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AYW72971.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AYY42171.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AYZ79144.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AYZ84952.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AZM86198.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AZN86544.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AZN92315.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|AZP66322.1| Epimerase KguE [Pseudomonas aeruginosa] &gt;gb|EAZ58141.1| hypothetical protein PA2G_01363 [Pseudomonas aeruginosa 2192] &gt;gb|EHS35669.1| putative epimerase [Pseudomonas aeruginosa MPAO1/P2] &gt;gb|EHS36719.1| putative epimerase [Pseudomonas aeruginosa MPAO1/P1] &gt;gb|EIE44229.1| putative epimerase [Pseudomonas aeruginosa PADK2_CF510] &gt;gb|EJY61020.1| hypothetical protein PACIG1_3217 [Pseudomonas aeruginosa CIG1] &gt;gb|EJZ76983.1| putative epimerase [Pseudomonas aeruginosa PAO579] &gt;gb|EKA32789.1| hypothetical protein PABE171_3179 [Pseudomonas aeruginosa ATCC 14886] &gt;gb|EKA52190.1| hypothetical protein PABE173_3276 [Pseudomonas aeruginosa ATCC 25324] &gt;gb|EME90510.1| epimerase [Pseudomonas aeruginosa PA21_ST175] &gt;gb|EMZ59223.1| hypothetical protein HMPREF1223_07048 [Pseudomonas aeruginosa str. Stone 130] &gt;gb|EMZ59308.1| hypothetical protein HMPREF1224_05473 [Pseudomonas sp. P179] &gt;gb|ENH94052.1| epimerase [Pseudomonas aeruginosa PA45] &gt;gb|EOQ79446.1| epimerase [Pseudomonas aeruginosa VRFPA02] &gt;gb|EOT15184.1| hypothetical protein PAK_03052 [Pseudomonas aeruginosa PAK] &gt;gb|EOT16133.1| hypothetical protein L346_02177 [Pseudomonas aeruginosa MSH-10] &gt;gb|EQM89541.1| AP endonuclease [Pseudomonas aeruginosa WC55] &gt;gb|ERU30758.1| hypothetical protein Q093_06137 [Pseudomonas aeruginosa CF614] &gt;gb|ERU37535.1| hypothetical protein Q091_05754 [Pseudomonas aeruginosa C52] &gt;gb|ERU41501.1| hypothetical protein Q092_01970 [Pseudomonas aeruginosa CF77] &gt;gb|ERU49170.1| hypothetical protein Q090_05873 [Pseudomonas aeruginosa C51] &gt;gb|ERU59563.1| hypothetical protein Q089_02766 [Pseudomonas aeruginosa C48] &gt;gb|ERU67254.1| hypothetical protein Q088_02310 [Pseudomonas aeruginosa C41] &gt;gb|ERU67501.1| hypothetical protein Q087_02315 [Pseudomonas aeruginosa C40] &gt;gb|ERU81036.1| hypothetical protein Q086_03189 [Pseudomonas aeruginosa C23] &gt;gb|ERU82940.1| hypothetical protein Q085_03186 [Pseudomonas aeruginosa C20] &gt;gb|ERU83385.1| hypothetical protein Q084_05596 [Pseudomonas aeruginosa M9A.1] &gt;gb|ERU93151.1| hypothetical protein Q080_04787 [Pseudomonas aeruginosa M8A.1] &gt;gb|ERU97014.1| hypothetical protein Q081_02027 [Pseudomonas aeruginosa M8A.2] &gt;gb|ERV14765.1| hypothetical protein Q073_02183 [Pseudomonas aeruginosa BL19] &gt;gb|ERV43364.1| hypothetical protein Q064_02867 [Pseudomonas aeruginosa BL10] &gt;gb|ERV51413.1| hypothetical protein Q065_03165 [Pseudomonas aeruginosa BL11] &gt;gb|ERV90445.1| hypothetical protein Q041_02284 [Pseudomonas aeruginosa BWHPSA028] &gt;gb|ERW05450.1| hypothetical protein Q037_02828 [Pseudomonas aeruginosa BWHPSA024] &gt;gb|ERW07791.1| hypothetical protein Q038_01691 [Pseudomonas aeruginosa BWHPSA025] &gt;gb|ERW21314.1| hypothetical protein Q034_02101 [Pseudomonas aeruginosa BWHPSA021] &gt;gb|ERW25554.1| hypothetical protein Q036_00387 [Pseudomonas aeruginosa BWHPSA023] &gt;gb|ERW26316.1| hypothetical protein Q035_01829 [Pseudomonas aeruginosa BWHPSA022] &gt;gb|ERW32331.1| hypothetical protein Q032_03067 [Pseudomonas aeruginosa BWHPSA019] &gt;gb|ERW41496.1| hypothetical protein Q030_05655 [Pseudomonas aeruginosa BWHPSA017] &gt;gb|ERW55110.1| hypothetical protein Q027_01653 [Pseudomonas aeruginosa BWHPSA014] &gt;gb|ERW55228.1| hypothetical protein Q031_00445 [Pseudomonas aeruginosa BWHPSA018] &gt;gb|ERW65019.1| hypothetical protein Q026_03095 [Pseudomonas aeruginosa BWHPSA013] &gt;gb|ERW66744.1| hypothetical protein Q025_02835 [Pseudomonas aeruginosa BWHPSA012] &gt;gb|ERW75815.1| hypothetical protein Q024_02023 [Pseudomonas aeruginosa BWHPSA011] &gt;gb|ERW85806.1| hypothetical protein Q018_03136 [Pseudomonas aeruginosa BWHPSA005] &gt;gb|ERW93657.1| hypothetical protein Q017_02096 [Pseudomonas aeruginosa BWHPSA004] &gt;gb|ERX03394.1| hypothetical protein Q016_02261 [Pseudomonas aeruginosa BWHPSA003] &gt;gb|ERX05570.1| hypothetical protein Q015_02359 [Pseudomonas aeruginosa BWHPSA002] &gt;gb|ERX11135.1| hypothetical protein Q014_02832 [Pseudomonas aeruginosa BWHPSA001] &gt;gb|ERX13256.1| hypothetical protein Q012_06271 [Pseudomonas aeruginosa S35004] &gt;gb|ERX56774.1| hypothetical protein Q002_02134 [Pseudomonas aeruginosa CF18] &gt;gb|ERX57448.1| hypothetical protein Q005_02141 [Pseudomonas aeruginosa X24509] &gt;gb|ERX60309.1| hypothetical protein Q006_01659 [Pseudomonas aeruginosa UDL] &gt;gb|ERX69028.1| hypothetical protein P999_02224 [Pseudomonas aeruginosa MSH3] &gt;gb|ERX80763.1| hypothetical protein P997_00246 [Pseudomonas aeruginosa 62] &gt;gb|ERX89247.1| hypothetical protein Q083_01654 [Pseudomonas aeruginosa M8A.4] &gt;gb|ERX93704.1| hypothetical protein Q078_06354 [Pseudomonas aeruginosa BL24] &gt;gb|ERY05120.1| hypothetical protein Q077_03139 [Pseudomonas aeruginosa BL23] &gt;gb|ERY34333.1| hypothetical protein Q066_03920 [Pseudomonas aeruginosa BL12] &gt;gb|ERY40645.1| hypothetical protein Q060_06311 [Pseudomonas aeruginosa BL06] &gt;gb|ERY50012.1| hypothetical protein Q059_02166 [Pseudomonas aeruginosa BL05] &gt;gb|ERY63212.1| hypothetical protein Q056_00024 [Pseudomonas aeruginosa BL02] &gt;gb|ERY79352.1| hypothetical protein Q029_01648 [Pseudomonas aeruginosa BWHPSA016] &gt;gb|ERY85146.1| hypothetical protein Q028_00381 [Pseudomonas aeruginosa BWHPSA015] &gt;gb|ERY93347.1| hypothetical protein Q023_01704 [Pseudomonas aeruginosa BWHPSA010] &gt;gb|ERY98884.1| hypothetical protein Q022_02765 [Pseudomonas aeruginosa BWHPSA009] &gt;gb|ERY99350.1| hypothetical protein Q021_00158 [Pseudomonas aeruginosa BWHPSA008] &gt;gb|ERZ10791.1| hypothetical protein Q020_00223 [Pseudomonas aeruginosa BWHPSA007] &gt;gb|ERZ40551.1| hypothetical protein Q001_02299 [Pseudomonas aeruginosa CF127] &gt;gb|ERZ40834.1| hypothetical protein Q000_02178 [Pseudomonas aeruginosa MSH10] &gt;gb|ERZ48965.1| hypothetical protein Q082_00141 [Pseudomonas aeruginosa M8A.3] &gt;gb|ESZ82772.1| AP endonuclease [Pseudomonas aeruginosa DHS29] &gt;gb|ETD92871.1| AP endonuclease [Pseudomonas aeruginosa VRFPA06] &gt;gb|ETU86895.1| hypothetical protein Q054_01743 [Pseudomonas aeruginosa Z61] &gt;gb|ETU88606.1| hypothetical protein Q053_02770 [Pseudomonas aeruginosa BWHPSA048] &gt;gb|ETV04823.1| hypothetical protein Q052_01754 [Pseudomonas aeruginosa BWHPSA047] &gt;gb|ETV07449.1| hypothetical protein Q051_00447 [Pseudomonas aeruginosa BWHPSA046] &gt;gb|ETV17457.1| hypothetical protein Q050_00673 [Pseudomonas aeruginosa BWHPSA045] &gt;gb|ETV37823.1| hypothetical protein Q046_01900 [Pseudomonas aeruginosa BWHPSA041] &gt;gb|ETV41826.1| hypothetical protein Q045_02774 [Pseudomonas aeruginosa BWHPSA040] &gt;gb|ETV48029.1| hypothetical protein Q044_02994 [Pseudomonas aeruginosa BWHPSA039] &gt;gb|EWH27692.1| AP endonuclease [Pseudomonas aeruginosa SG17M] &gt;gb|EZN43549.1| hypothetical protein AJ76_04855 [Pseudomonas aeruginosa BWH036] &gt;gb|EZN44710.1| hypothetical protein AJ73_05379 [Pseudomonas aeruginosa BWH033] &gt;gb|EZN45388.1| hypothetical protein AJ75_05349 [Pseudomonas aeruginosa BWH035] &gt;gb|EZN58933.1| hypothetical protein AJ72_05849 [Pseudomonas aeruginosa BWH032] &gt;gb|EZN65112.1| hypothetical protein AJ71_05151 [Pseudomonas aeruginosa BWH031] &gt;gb|EZN82874.1| hypothetical protein AJ68_06212 [Pseudomonas aeruginosa 3581] &gt;gb|EZN87207.1| hypothetical protein AJ67_04582 [Pseudomonas aeruginosa 3580] &gt;gb|EZN99922.1| hypothetical protein AJ64_05101 [Pseudomonas aeruginosa 3577] &gt;gb|EZO16633.1| hypothetical protein AJ63_05084 [Pseudomonas aeruginosa 3576] &gt;gb|EZO18718.1| hypothetical protein AJ62_05314 [Pseudomonas aeruginosa 3575] &gt;gb|EZO30445.1| hypothetical protein V563_04466 [Pseudomonas aeruginosa PAO1-GFP] &gt;gb|EZO31229.1| hypothetical protein AJ61_04095 [Pseudomonas aeruginosa 3574] &gt;gb|EZO40914.1| hypothetical protein AJ60_04206 [Pseudomonas aeruginosa 3573] &gt;gb|EZO59632.1| hypothetical protein V558_06030 [Pseudomonas aeruginosa BWH057] &gt;gb|EZO68536.1| hypothetical protein V560_02164 [Pseudomonas aeruginosa BWH059] &gt;gb|EZO72219.1| hypothetical protein V557_06062 [Pseudomonas aeruginosa BWH056] &gt;gb|EZO81980.1| hypothetical protein V556_02035 [Pseudomonas aeruginosa BWH055] &gt;gb|EZP02047.1| hypothetical protein V553_02177 [Pseudomonas aeruginosa BWH052] &gt;gb|EZP16358.1| hypothetical protein V552_02039 [Pseudomonas aeruginosa BWH051] &gt;gb|KAJ20741.1| AP endonuclease [Pseudomonas aeruginosa IGB83] &gt;gb|KAJ27724.1| AP endonuclease [Pseudomonas aeruginosa M10] &gt;gb|KDR48930.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KEA16621.1| AP endonuclease [Pseudomonas aeruginosa C2159M] &gt;gb|KEA24870.1| AP endonuclease [Pseudomonas aeruginosa C2773C] &gt;gb|KEA30045.1| AP endonuclease [Pseudomonas aeruginosa C0324C] &gt;gb|KEF91148.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KEI28594.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KFB18850.1| AP endonuclease [Pseudomonas aeruginosa PGPR2] &gt;gb|KFL06955.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|KGD88997.1| AP endonuclease [Pseudomonas sp. YS-1p] &gt;gb|KJC14868.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KKJ45963.1| AP endonuclease [Pseudomonas aeruginosa MRSN 321] &gt;gb|KLI79079.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KMM98378.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KPE30973.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KPE41698.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQC53975.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQC62254.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQC69112.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQC75603.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQJ55958.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQJ60190.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQJ72416.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQJ73557.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQK63147.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KQK63281.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KRU61570.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KRU66089.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KRU74922.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KRU95693.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KRV13204.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KRV33663.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSB95605.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC02564.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC04491.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC13908.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC17663.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC21932.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC31231.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC35270.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC44084.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC59034.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC60374.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC67949.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC76567.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSC88938.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSD04027.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSD04091.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSD06118.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSD42537.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSD53091.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSD62314.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSD91406.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSD99648.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSE24438.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSE36195.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSE42638.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSE53231.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSE58584.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSE69131.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSE95818.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF00422.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF00560.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF16261.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF22507.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF38336.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF53275.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF57411.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF69725.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF71845.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSF85828.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG11080.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG11749.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG21072.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG27522.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG35317.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG45084.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG69119.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG69569.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG79633.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSG91139.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH02230.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH26113.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH38825.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH52762.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH62683.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH74930.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH93316.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH97391.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI06641.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI12123.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI28969.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI42702.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI53048.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI54000.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI56496.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI72048.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI83481.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI89912.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI90128.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ03056.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ10690.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ44967.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ52019.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ68404.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ68693.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ72200.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ83775.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ84430.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSJ95023.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK01691.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK31664.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK47457.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK48438.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK62927.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK66475.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK67409.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK82232.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK88857.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSK98089.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSL28785.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSL34010.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSL55784.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSL86596.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSM18826.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSM25341.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSM29612.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSM53203.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSM74183.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN04335.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN19865.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN28683.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN34992.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN47304.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN49057.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN61689.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN76803.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN88316.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSN99056.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO04391.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO18795.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO36715.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO48298.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO54120.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO75793.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO82162.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO86475.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSO94640.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSP06729.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSP16738.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSP27811.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSP42812.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSP55742.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSP72584.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSP81670.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ04708.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ17299.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ28845.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ29990.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ33310.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ49201.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ56134.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ66345.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ92434.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSQ98092.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSR01764.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSR08642.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSR26161.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSR39044.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSR44169.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSR59975.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSR61459.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSR76703.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS01335.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS12797.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS20707.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS35647.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS47533.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS54446.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS66010.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS68584.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS70923.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS84116.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS86628.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSS98416.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KST03310.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KST10552.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KST15864.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KTF50623.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KUG32781.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KUI78556.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KUI86407.1| AP endonuclease [Pseudomonas aeruginosa 0C2E] &gt;gb|KWR99403.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KWX30515.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KWX36868.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KWZ69525.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXC50156.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXC60465.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXC64432.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXC73355.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXC77752.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD21865.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD24479.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD33057.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD34659.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD38587.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD47034.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD50530.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD50771.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD70416.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD73863.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD75070.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXD90077.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE05483.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE15892.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE22139.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE22402.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE31063.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE36453.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE40058.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE48375.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE50622.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE55780.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE65695.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE72162.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE73807.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE77918.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE85491.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE85757.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE90591.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXE98861.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXF00333.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXF03417.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXF18949.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXF19232.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXF30636.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXF30882.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXF42488.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXF47055.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KXG13923.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|KYO85953.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|KYO97838.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|KZE31552.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFB78069.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFB78775.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFB92728.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFB98852.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFC06926.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFC11293.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFC22780.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFC30804.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFJ95652.1| AP endonuclease [Pseudomonas sp. HMSC067F09] &gt;gb|OFK15964.1| AP endonuclease [Pseudomonas sp. HMSC066B03] &gt;gb|OFL10833.1| AP endonuclease [Pseudomonas sp. HMSC066B11] &gt;gb|OFL10866.1| AP endonuclease [Pseudomonas sp. HMSC067D05] &gt;gb|OFM59394.1| AP endonuclease [Pseudomonas sp. HMSC058A10] &gt;gb|OFM81514.1| AP endonuclease [Pseudomonas sp. HMSC058C05] &gt;gb|OFO80334.1| AP endonuclease [Pseudomonas sp. HMSC065H01] &gt;gb|OFP44541.1| AP endonuclease [Pseudomonas sp. HMSC073F05] &gt;gb|OFQ27499.1| AP endonuclease [Pseudomonas sp. HMSC069G05] &gt;gb|OFR16600.1| AP endonuclease [Pseudomonas sp. HMSC065H02] &gt;gb|OFS63756.1| AP endonuclease [Pseudomonas sp. HMSC075A08] &gt;gb|OFT00465.1| AP endonuclease [Pseudomonas sp. HMSC16B01] &gt;gb|OFU90137.1| AP endonuclease [Pseudomonas sp. HMSC11A05] &gt;gb|OGX68039.1| putative xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|OGX74817.1| putative xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|OHO95483.1| AP endonuclease [Pseudomonas sp. HMSC058B07] &gt;gb|OHP19542.1| AP endonuclease [Pseudomonas sp. HMSC059F05] &gt;gb|OHP28067.1| AP endonuclease [Pseudomonas sp. HMSC060F12] &gt;gb|OHP36194.1| AP endonuclease [Pseudomonas sp. HMSC060G01] &gt;gb|OHP47454.1| AP endonuclease [Pseudomonas sp. HMSC061A10] &gt;gb|OHP51839.1| AP endonuclease [Pseudomonas sp. HMSC060G02] &gt;gb|OHQ55385.1| AP endonuclease [Pseudomonas sp. HMSC070B12] &gt;gb|OHQ68854.1| AP endonuclease [Pseudomonas sp. HMSC071F02] &gt;gb|OKN72501.1| hypothetical protein AM433_002787 [Pseudomonas aeruginosa] &gt;gb|OKN80027.1| hypothetical protein AM443_002520 [Pseudomonas aeruginosa] &gt;gb|OKN90964.1| hypothetical protein AM473_003133 [Pseudomonas aeruginosa] &gt;gb|OKO08218.1| hypothetical protein AM482_004331 [Pseudomonas aeruginosa] &gt;gb|OKO15056.1| hypothetical protein AM487_002294 [Pseudomonas aeruginosa] &gt;gb|OKO34458.1| hypothetical protein AM469_002360 [Pseudomonas aeruginosa] &gt;gb|OKQ84813.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OKQ89414.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OKR01261.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OKR62529.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OKR63276.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OKR65336.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OKS13703.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OKS36593.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONM65873.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONM70410.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONM71152.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONM87582.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONM91690.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONM92512.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONN01145.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONN07457.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ONN21551.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OOD02887.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OOH02468.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OOH05689.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OOH05951.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OOH20649.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OOH25720.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OOH39907.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OOH53817.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OPA58614.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ORE25990.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|ORL60945.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTF24246.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH05799.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH42977.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH49312.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH61595.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH69532.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH78849.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH82297.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH89289.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTH94990.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI02977.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI09935.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI15326.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI18777.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI27771.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI32240.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI36839.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI47008.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI57005.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI61162.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI66432.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI85313.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI89084.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTI96319.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ04090.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ08668.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ17793.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ20087.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ26938.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ37424.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ47257.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ50975.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ60530.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ70682.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ76498.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OTJ86900.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OUJ97582.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OUL49320.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OUM36371.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OVY87983.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OVZ01768.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OVZ13506.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OVZ20668.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OVZ28376.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OVZ29868.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWB34238.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI02338.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI14017.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI26765.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI34811.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI41707.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI54137.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI54480.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI57644.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI86199.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI91054.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWI94312.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWJ05727.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWJ07960.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWJ17150.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWJ39237.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWJ43439.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWJ45855.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OWO89429.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXR58159.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXR71819.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXR80716.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXR87637.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXR89048.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXT55702.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXT70817.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXT77249.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXT83645.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXT85320.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXT89825.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXU08575.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXZ03653.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXZ12815.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OXZ42268.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OYP25412.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OZO38607.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PAM86207.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PAT17366.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PAT47003.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PAT57533.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PAZ19742.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBL05693.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBL08115.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBL10325.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBL22275.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBL31172.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBL84745.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBM67740.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBM71338.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBM81771.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBM85905.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBM97151.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBN01396.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBN09692.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBN15504.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBN24523.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBN24919.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBN27579.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBU99090.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV05861.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV25382.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV30129.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV35951.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV73706.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV79541.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV88043.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV92350.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBV97450.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW05071.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW10646.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW15820.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW22397.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW28672.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW34536.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW40499.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW49294.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW53445.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW66993.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW72585.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW80026.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW92986.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBW95990.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX13761.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX21322.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX27195.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX33964.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX39975.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX45568.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX53791.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX64628.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX70096.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX76546.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX81942.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBX88554.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY08642.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY15304.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY20121.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY25602.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY38250.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY51436.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY55898.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY61697.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY80623.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY88665.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBY93995.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ01198.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ08932.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ12412.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ25115.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ32868.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ50399.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ56728.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ62895.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ69284.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ75379.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ80757.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ89599.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PBZ95060.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA01258.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA05408.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA11131.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA17115.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA23091.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA28560.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA36334.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA42183.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA46165.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA52097.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA59095.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA75092.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA85494.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA90541.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCA96175.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB03745.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB15319.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB22473.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB30241.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB32682.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB40671.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB59153.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB64630.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB69589.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB92268.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB95257.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCC03353.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCC07619.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCC84606.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCC96723.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCM95545.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCN01964.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCN11081.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PHP77037.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PJF51643.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PKG13397.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PKG17530.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PNL11066.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PNN38954.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|POO62459.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PPA96732.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PPA98534.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PPB09778.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PPB26622.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PPB27470.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PPB42728.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PPX66961.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PPX77057.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PQL97949.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PQM09066.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PRW05471.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|PRW09337.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|PRW30323.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|PTV64732.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTV81915.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTV88429.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ11909.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ14141.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ33717.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ35868.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ54586.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ58540.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ75067.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ80353.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PTZ83457.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PUA07589.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PUA11042.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PUV68457.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PWH88563.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PWU34314.1| AP endonuclease [Pseudomonas sp. RW410] &gt;gb|PXB74258.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PXB92227.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PXZ56718.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PXZ60248.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PXZ66667.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PXZ82476.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PXZ82905.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PYA01877.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PYA09341.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PYB32171.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|QAS73362.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|QBC05801.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|QBF60640.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|QBL29711.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|QBY94189.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|QCJ30762.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|QCP77138.1| TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RAL80056.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|RAP64262.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RCA26403.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RCG84591.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|RCG91214.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|RCI30146.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RCI41903.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RCI68206.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RCL94583.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCM09675.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCM16625.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCM32220.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCM33693.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCM41948.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCM91522.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCN00592.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCN01534.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCN05089.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RFF91564.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG03615.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG26567.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG30347.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG31762.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG39471.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG44308.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG67589.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG71651.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG76670.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG91695.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFG99384.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH00852.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH18364.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH47290.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH50215.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH65373.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH70570.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH77507.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH87527.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFH91978.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI01824.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI10320.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI12543.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI19610.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI28501.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI47039.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI77336.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI79022.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI92777.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ09048.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ13705.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ31708.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ41689.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ53102.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ58589.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ89714.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ90866.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFJ92889.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK06679.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK22579.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK30882.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK41109.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK47549.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK61294.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK61890.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK73335.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFK74898.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFL12013.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFL12247.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFL49353.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFL64410.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFL80984.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFL94516.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFL95681.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFM09987.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RIY73399.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RIY73748.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RIY89292.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RIY92894.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RIY99083.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RIZ48292.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RKF99017.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RKG08960.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RKG16055.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR33925.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR47674.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR60626.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR60750.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR68573.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR72422.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR78340.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR84714.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLR92829.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLS04818.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RLS05273.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMJ29662.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMJ34820.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMJ49459.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMJ51759.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMJ68765.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMJ87647.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMJ90344.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMJ99062.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK05506.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK08091.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK22111.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK34750.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK42961.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK47857.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK61317.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK65517.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK74550.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK92870.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RMK95113.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RML03979.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RML08125.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RNF61125.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPL25713.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPL26145.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPL46649.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPL57761.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPL64640.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPL77273.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPL82764.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM00230.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM01006.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM12984.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM14211.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM29604.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM35308.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM53976.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM62680.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM67444.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM85520.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM93282.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN09756.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN11949.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN27648.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN28759.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN40920.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN45448.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN47059.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN47446.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN66693.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN66856.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN80145.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN81466.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN88931.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPN99300.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO02643.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO20144.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO22532.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO33307.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO36130.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO43851.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO48941.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO81082.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPO83201.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP00750.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP18039.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP26877.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP33251.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP50233.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP50916.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP57226.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP60223.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPP91156.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ00195.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ08780.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ09686.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ26182.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ34139.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ44969.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ45754.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ47188.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ60809.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ62996.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ68863.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ76380.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ92228.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPQ96433.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR01231.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR10441.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR12364.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR24158.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR28558.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR43647.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR47424.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR55589.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPR66300.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPS00054.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPS18008.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPS33027.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPS41089.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPS62331.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT30311.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT45684.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT49942.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT63469.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT64214.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT71839.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT79571.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT87831.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT98097.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU05046.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU06898.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU18092.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU18877.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU24735.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU76781.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU86656.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU98477.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPV15028.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPV23460.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPV46198.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPV52211.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPV69824.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPV75146.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPV87762.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW22793.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW42688.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW55383.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW76890.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW78182.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW85643.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW94241.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW97596.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPW99493.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX13610.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX25599.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX32176.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX38451.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX50583.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX70317.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX74277.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX91017.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY01700.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY02827.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY14882.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY21521.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY25683.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY32884.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY48442.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY52111.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY63136.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY71531.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY83121.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY84945.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY89268.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ04001.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ07720.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ08311.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ24124.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ31581.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ40029.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ45821.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ60998.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ65091.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ75833.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ77207.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPZ97028.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA01023.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA12040.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA12313.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA18726.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA20747.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA34268.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA34609.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA46109.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA52069.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA63204.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA67296.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA70262.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA74892.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA85246.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA92662.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA92734.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQA95174.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB03457.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB12892.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB16497.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB29643.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB30189.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB45904.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB46071.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB46173.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB63286.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB65283.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB80605.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQB98196.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC01964.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC02425.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC14883.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC16321.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC18705.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC32465.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC37494.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC41005.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC50426.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC51121.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC70930.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC71610.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC83773.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC88187.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQC96672.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQD16821.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQD22513.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQD51974.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQD53530.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQE42681.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQE56438.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQE64792.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQE69694.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQE78145.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQE84942.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF11310.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF29630.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF30176.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF31735.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF47427.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF49710.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF71538.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF84046.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQF84822.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG14252.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG20972.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG24127.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG48430.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG48718.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG50335.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG52757.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG66403.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG68735.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG72020.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQH17615.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQH29676.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQH30432.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQH44614.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQH52102.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQH60881.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQH74454.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI06901.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI13134.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI24603.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI25351.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI33666.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI48370.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI57819.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI58829.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI64108.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI80853.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQI92485.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQJ24168.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQJ28694.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQJ32697.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQJ39650.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQJ40893.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRH82063.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRH90988.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI05132.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI08679.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI18573.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI18617.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI36395.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI36496.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI42683.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI49638.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI63207.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI75653.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI87974.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRJ06604.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRJ13669.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRJ36658.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRJ49866.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRJ57203.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRW71004.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX01936.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX10275.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX19417.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX31457.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX35886.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX46787.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX49760.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX59345.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX61778.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX67855.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX74554.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX82165.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX90893.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRX99316.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRY07204.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RSD03131.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RSD38041.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RSD48594.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RSD49378.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RSK95106.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTA91694.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTB13356.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTB21277.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTB40298.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTB48225.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTB50572.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTB82225.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTB87997.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTC00178.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTC25686.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTC53386.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTR42372.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTR66413.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTR73776.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTR89965.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTS05166.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTS11976.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTS15187.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTS42080.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTS60060.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTS82362.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTS84507.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTS89175.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT07374.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT23346.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT34562.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT39519.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT46510.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT62488.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT68025.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT82106.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT88040.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT92358.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTT93845.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU03493.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU11265.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU28784.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU43288.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU43485.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU57610.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU73127.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU76971.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU84821.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU89446.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU90447.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV05543.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV06671.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV10684.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV23281.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV27034.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV33174.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV44572.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV62848.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV73619.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV82245.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV94444.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV97556.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTV99305.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW11883.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW14297.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW20695.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW27791.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW35689.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW65285.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW68937.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW72194.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTW85729.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTX06176.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTX16390.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTX24401.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTX29708.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTX34142.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTX47474.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTX53506.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUA41064.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUA41621.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUA42952.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUA75914.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUA77502.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUA91649.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB05471.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB05731.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB26311.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB42997.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB44771.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB45332.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB59078.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB74493.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB75490.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB76695.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB89876.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB92763.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB97296.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC01441.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC04153.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC28526.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC40827.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC50445.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC57627.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC67744.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC75591.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC85001.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUC96019.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD08566.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD17769.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD45389.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD47720.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD76602.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD78439.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD79579.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD98222.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE20574.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE31901.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE32730.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE52062.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE59859.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE67408.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE80163.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE84142.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE84892.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE99473.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF17904.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF19913.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF26824.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF32691.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF42843.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF57372.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF57420.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF63955.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF74803.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF78071.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF86607.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF91879.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUF94008.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUG40685.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUG50487.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUG60278.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUG66531.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUG67487.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUG81922.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUG89219.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH05983.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH10251.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH22079.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH32816.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH35171.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH44099.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH50606.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH73450.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH80067.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUH82493.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI13222.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI31590.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI40560.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI54410.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI56810.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI60494.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI65934.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI74900.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI77648.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI94403.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ12529.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ19850.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ28068.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ32051.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ44239.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ49449.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ72340.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ75616.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ79426.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ91703.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUJ99214.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUK45246.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RWX82549.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RWY04290.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RWY18319.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RWY35524.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RWY51534.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RWY55353.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RWY89651.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RYI83933.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RYI91428.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RYM08926.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RYM13395.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RZN96613.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEB82845.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEB83419.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEB87303.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEB97065.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC01453.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC18065.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC18822.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC31818.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC42719.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC57935.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC59626.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC62245.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC65935.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC80589.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC81569.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC85450.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEC94436.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED07838.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED08473.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED09318.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED21553.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED23712.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED38348.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED39918.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED44060.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED59006.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED59070.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED63572.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED69609.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED75242.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED82161.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED86742.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED95522.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TED98414.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE10579.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE19526.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE19678.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE24772.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE32779.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE35746.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE50587.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE53420.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE63222.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE64744.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE73865.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE73943.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE97665.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF02607.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF07671.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF15579.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF20054.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF24483.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF26253.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF42603.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF50733.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF56744.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF65618.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF67813.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF80276.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF84589.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF88120.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEF95130.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG04182.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG07250.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG17025.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG19091.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG28164.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG32201.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG32483.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG43771.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG63421.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG65571.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG79875.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG83041.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG83554.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEG85716.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH15219.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH36671.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH54602.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH62781.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH75600.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH81935.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH83441.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH87606.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH90203.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH92995.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI03710.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI05846.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI08757.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI21471.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI24597.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI39446.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI43457.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI43678.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI62777.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI64184.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI69350.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI77256.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI92089.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEI95778.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ02061.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ03563.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ06141.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ09946.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ27792.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ28994.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ32616.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ34601.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ49434.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ49984.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ61443.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ69320.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ73162.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ84423.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ94887.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEJ97474.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK05135.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK08914.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK17138.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK21760.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK29039.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK35981.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK41012.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK49168.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK50655.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK58362.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK67977.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK73059.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK76960.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK84899.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK92398.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEK98782.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL03273.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL15539.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL30355.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL34270.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL43793.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL51769.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL53891.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL67551.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL70936.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL75165.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL77648.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL90117.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEL92255.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM06436.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM06841.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM08301.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM12689.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM24410.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM24720.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM37726.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM39354.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM40456.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM56169.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM60708.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM61915.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM73747.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM75770.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEM81217.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN07315.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN46574.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN62839.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN69433.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN73286.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN77464.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN90226.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN93429.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEN99286.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO06149.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO07805.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO14307.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO24446.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO46424.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO50095.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO59522.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO64368.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO66638.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO74981.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO83736.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEO84451.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP03144.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP04183.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP08600.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP20994.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP25630.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP34159.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP37981.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP42715.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP50230.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP58572.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP72365.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP72708.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEP75442.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ06954.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ26905.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ37378.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ38674.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ44483.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ62280.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ64357.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ82928.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEQ91837.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TER09372.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TER27126.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TER29239.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TER39757.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TER52188.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TER64492.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TER79303.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TER88794.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TES00727.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TES05176.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEX32364.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEX37721.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEX53625.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEX57448.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEX63719.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEX69412.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TGB18340.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TGB21062.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TGN47674.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TGN55339.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TGO95760.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|THB07541.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|THB14508.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|THB41722.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TKW46100.1| TIM barrel protein [Pseudomonas aeruginosa] &gt;dbj|BAR67935.1| epimerase KguE [Pseudomonas aeruginosa] &gt;dbj|GAA17840.1| putative putative epimerase [Pseudomonas aeruginosa NCMG1179] &gt;dbj|GAJ53687.1| epimerase KguE [Pseudomonas aeruginosa RB] &gt;emb|CAW27771.1| putative putative epimerase [Pseudomonas aeruginosa LESB58] &gt;emb|CDH71588.1| hypothetical protein P38_3347 [Pseudomonas aeruginosa MH38] &gt;emb|CDI90525.1| putative epimerase [Pseudomonas aeruginosa PA38182] &gt;emb|CDM45950.1| hypothetical protein PaWS136_2964 [Pseudomonas aeruginosa WS136] &gt;emb|CDO81477.1| putative putative epimerase [Pseudomonas aeruginosa] &gt;emb|CEI75612.1| Uncharacterized protein PAE221_01192 [Pseudomonas aeruginosa] &gt;emb|CFU82162.1| hypothetical protein PARN21_3087 [Pseudomonas aeruginosa] &gt;emb|CKH48306.1| epimerase [Pseudomonas aeruginosa] &gt;emb|CRN43137.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRN45019.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRN48131.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRN63148.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRN63160.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRN68891.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRN72632.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRN73422.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRN90618.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO06366.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO22873.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO52350.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO54213.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO66715.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO69762.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO74980.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO77638.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO78278.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO81501.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO81901.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO87483.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO90706.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO95034.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRO97138.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP02443.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP06823.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP08905.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP10356.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP17751.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP19807.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP28915.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP30357.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP31726.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP42355.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP50915.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP51892.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP52438.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP58746.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP60108.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP68881.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP73427.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP73638.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP80177.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP80438.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRP94490.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ09527.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ11525.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ32850.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ34243.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ38399.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ63697.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ74104.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ77425.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ84186.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ86609.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ88523.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRQ93864.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR04737.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR07436.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR11026.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR13537.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR34868.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR57221.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR57681.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR61777.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR80875.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR80911.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR82703.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR85953.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR86085.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR86921.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR92276.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR92830.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR96424.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRR97883.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRS60461.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRW68067.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRW91189.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRW91465.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRW96319.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRW99432.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRX01453.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRX05585.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRX06401.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRX08151.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRX33318.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|CRZ30317.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa DK1] &gt;emb|CTQ37633.1| hypothetical protein PAO1OR2729 [Pseudomonas aeruginosa] &gt;emb|SCY68490.1| Xylose isomerase-like TIM barrel [Acinetobacter baumannii] &gt;emb|SIP53020.1| KguE [Pseudomonas aeruginosa] &gt;emb|SKA40407.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa DSM 50071 = NBRC 12689] &gt;emb|SMZ50935.1| Epimerase KguE [Pseudomonas aeruginosa C-NN2] &gt;emb|SOV29638.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|SPY46745.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SPY52985.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SPY89524.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SPZ06585.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SPZ15979.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SQC69986.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SQC81283.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SQC89724.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SST12005.1| Xylose isomerase-like TIM barrel [Acinetobacter baumannii] &gt;emb|SSU38032.1| Xylose isomerase-like TIM barrel [Acinetobacter baumannii] &gt;emb|SSV53035.1| Xylose isomerase-like TIM barrel [Acinetobacter baumannii] &gt;emb|SUC56683.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SUC57269.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SUC89529.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SUC98252.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SUD17291.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SUD64135.1| epimerase [Pseudomonas aeruginosa] &gt;emb|SZD42022.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;emb|VCW33245.1| hypothetical protein BANRA_00197 [Pseudomonas aeruginosa] &gt;emb|VCX93110.1| hypothetical protein BANRA_04050 [Pseudomonas aeruginosa] &gt;emb|VCZ01336.1| hypothetical protein BANRA_04890 [Pseudomonas aeruginosa] &gt;emb|VDK96803.1| hypothetical protein BANRA_03552 [Pseudomonas aeruginosa] &gt;emb|VDL03281.1| hypothetical protein BANRA_05662 [Pseudomonas aeruginosa] &gt;emb|VDL07750.1| hypothetical protein BANRA_02763 [Pseudomonas aeruginosa] &gt;emb|VDL12063.1| hypothetical protein BANRA_00269 [Pseudomonas aeruginosa] &gt;emb|VDL40551.1| hypothetical protein BANRA_02764 [Pseudomonas aeruginosa] &gt;emb|VDL44303.1| hypothetical protein BANRA_02764 [Pseudomonas aeruginosa] &gt;emb|VDL47714.1| hypothetical protein BANRA_02762 [Pseudomonas aeruginosa] &gt;emb|VEE76214.1| epimerase [Pseudomonas aeruginosa] &gt;emb|VEE87592.1| epimerase [Pseudomonas aeruginosa] &gt;emb|VEG04219.1| epimerase [Pseudomonas aeruginosa] &gt;emb|VFT07590.1| epimerase [Pseudomonas aeruginosa] &gt;emb|VFT09233.1| epimerase [Pseudomonas aeruginosa] &gt;emb|VFT63411.1| epimerase [Pseudomonas aeruginosa] &gt;emb|VTP99256.1| epimerase [Pseudomonas aeruginosa] &gt;emb|VTQ02940.1| epimerase [Pseudomonas aeruginosa] &gt;emb|VTQ08859.1| epimerase [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_003113739</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.278</Hsp_bit-score>
+      <Hsp_score>1279</Hsp_score>
+      <Hsp_evalue>2.67256e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_078457202.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|OPA44496.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RRI47766.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_078457202</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.893</Hsp_bit-score>
+      <Hsp_score>1278</Hsp_score>
+      <Hsp_evalue>3.40205e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARIGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALAR+GQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_024929048.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|AYN82517.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSE86237.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSH12097.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KSI29738.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFI65897.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPM45188.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQD37148.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI99402.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_024929048</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.893</Hsp_bit-score>
+      <Hsp_score>1278</Hsp_score>
+      <Hsp_evalue>3.40205e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>IHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>+HPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_134286852.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|TEG96862.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH00038.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH16899.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134286852</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.123</Hsp_bit-score>
+      <Hsp_score>1276</Hsp_score>
+      <Hsp_evalue>6.08473e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQSSFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQ+SFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_096262754.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|PBV44081.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|PCB09211.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RFL61482.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_096262754</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.123</Hsp_bit-score>
+      <Hsp_score>1276</Hsp_score>
+      <Hsp_evalue>6.42779e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>FHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline> HPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_058177719.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|KSI73653.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058177719</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>8.18226e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIATLARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIA LARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_033968432.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TIM barrel protein [Pseudomonas] &gt;gb|AWQ86757.1| xylose isomerase-like TIM barrel family protein [Pseudomonas aeruginosa] &gt;gb|KSS17447.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFR55443.1| AP endonuclease [Pseudomonas sp. HMSC066A08] &gt;gb|ORE58491.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|QBL17533.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RCM83292.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RPP74774.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPU62209.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPX36509.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY36684.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPY47790.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU33802.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUB22946.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUD99026.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE48639.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUE83219.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033968432</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>8.27251e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGH</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_134284826.1|</Hit_id>
+  <Hit_def>AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEE57614.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134284826</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>8.83532e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLVRHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRL RHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_126559077.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RTW80519.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126559077</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>8.83532e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAVDEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQA DEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_074252662.1|</Hit_id>
+  <Hit_def>TIM barrel protein, partial [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_074252662</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.352</Hsp_bit-score>
+      <Hsp_score>1274</Hsp_score>
+      <Hsp_evalue>9.12684e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLG</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLG</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_088406894.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|ASC97719.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_088406894</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>9.13092e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECLFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLEC+FSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_074222028.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RTX29782.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_074222028</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>9.64573e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLGMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLL MAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_134495092.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134495092</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>9.64573e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGGQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAG QRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_124128630.1|</Hit_id>
+  <Hit_def>AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPV52512.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124128630</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>9.75213e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLXRHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRL RHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_124124955.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RPR78561.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124124955</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>9.75213e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLXALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDL ALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_132440112.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132440112</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>1.0302e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLXQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRL QHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_126866158.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RUD19828.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126866158</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>1.0302e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGXQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHG QLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_019681709.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TIM barrel protein [Pseudomonas] &gt;gb|AHH51044.1| AP endonuclease [Pseudomonas aeruginosa YL84] &gt;gb|ERZ26089.1| hypothetical protein Q004_02102 [Pseudomonas aeruginosa CF5] &gt;gb|KPE48875.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|OFM05808.1| AP endonuclease [Pseudomonas sp. HMSC064G05] &gt;gb|QBM99464.1| putative epimerase [Pseudomonas aeruginosa] &gt;gb|QBN05424.1| putative epimerase [Pseudomonas aeruginosa] &gt;gb|RCL92842.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RCM21955.1| Xylose isomerase-like TIM barrel [Pseudomonas aeruginosa] &gt;gb|RMK09819.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT15464.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RPT77740.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG01872.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RQG33712.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEB62351.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEB70744.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_019681709</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>1.11242e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLNLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQL+LAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_124187721.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RQB28259.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124187721</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>1.11242e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDNLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGD+LLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_124102278.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RPP16928.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124102278</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.352</Hsp_bit-score>
+      <Hsp_score>1274</Hsp_score>
+      <Hsp_evalue>1.22785e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAXEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARA EYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_124121417.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RPQ80764.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124121417</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.352</Hsp_bit-score>
+      <Hsp_score>1274</Hsp_score>
+      <Hsp_evalue>1.25509e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALARRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAAL RRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_043089390.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_043089390</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.352</Hsp_bit-score>
+      <Hsp_score>1274</Hsp_score>
+      <Hsp_evalue>1.49589e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDSQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWRED QLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_049304743.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_049304743</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.65112e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQHLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQ LLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_042929973.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|ETU82707.1| hypothetical protein Q094_05474 [Pseudomonas aeruginosa PS42]</Hit_def>
+  <Hit_accession>WP_042929973</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.65112e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSHGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRS GQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_125033330.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RRI25227.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_125033330</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.65112e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRHAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLR AEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_034014629.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034014629</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.65112e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLEHFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLE FFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_126868460.1|</Hit_id>
+  <Hit_def>AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RUI83964.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126868460</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.65112e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLAHHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLA HGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_134260612.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|TEP55700.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134260612</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.65112e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFHLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFF LAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_061188783.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|KWX41680.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_061188783</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.66933e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRHVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGR+VGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_132690074.1|</Hit_id>
+  <Hit_def>AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132690074</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.68774e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYXHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGY HCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_134612709.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134612709</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.72518e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRDEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRR EACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_124208000.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RQF51356.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124208000</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.7829e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLERHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRL RHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_023110040.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|ERY65930.1| hypothetical protein Q055_02802 [Pseudomonas aeruginosa BL01]</Hit_def>
+  <Hit_accession>WP_023110040</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.7829e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLEMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDL MTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_134536071.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134536071</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.82244e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRSAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLR AEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_134311059.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|TEH28445.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH35365.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|TEH48572.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134311059</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.82244e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRSLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGR LARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_023104345.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|ERV73630.1| hypothetical protein Q061_01373 [Pseudomonas aeruginosa BL07]</Hit_def>
+  <Hit_accession>WP_023104345</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.86287e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNSELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLN ELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_116850232.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RFG89003.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_116850232</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.86287e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLRLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLL LSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_034081728.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RUA61861.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034081728</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.86287e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQSDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQ DLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_096078491.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|PBL24066.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_096078491</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.9679e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAEXQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAE QQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_096075129.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|PBM58747.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_096075129</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>1.9679e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIXNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVI NRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|PXB88996.1|</Hit_id>
+  <Hit_def>AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>PXB88996</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>2.10178e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVYISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPV ISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_003144139.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|EKA54152.1| hypothetical protein PAE2_2609 [Pseudomonas aeruginosa E2] &gt;gb|ERX76824.1| hypothetical protein P998_02098 [Pseudomonas aeruginosa E2] &gt;gb|RPP00109.1| AP endonuclease [Pseudomonas aeruginosa E2]</Hit_def>
+  <Hit_accession>WP_003144139</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>2.12497e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTAQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQT QGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_124137855.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RPY09424.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124137855</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>2.19606e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQXDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQ DDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_058018285.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|KRU92043.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|KRU98284.1| AP endonuclease [Pseudomonas aeruginosa] &gt;gb|RTU08706.1| AP endonuclease [Pseudomonas aeruginosa] &gt;emb|SQC95474.1| epimerase [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058018285</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>2.22028e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLTMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGH</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLL MAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_124135663.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RPX58112.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124135663</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>2.24477e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLXVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWL VSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_125885247.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RRW89526.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_125885247</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.582</Hsp_bit-score>
+      <Hsp_score>1272</Hsp_score>
+      <Hsp_evalue>2.37134e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTAALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDT ALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_116800858.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|RFI25834.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_116800858</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.582</Hsp_bit-score>
+      <Hsp_score>1272</Hsp_score>
+      <Hsp_evalue>2.45067e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQDDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQ DDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_049253128.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;emb|CEI20973.1| hypothetical protein PAMH19_5729 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_049253128</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.582</Hsp_bit-score>
+      <Hsp_score>1272</Hsp_score>
+      <Hsp_evalue>2.50503e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGHLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLG LPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_088171270.1|</Hit_id>
+  <Hit_def>TIM barrel protein [Pseudomonas aeruginosa] &gt;gb|OWI73110.1| AP endonuclease [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_088171270</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.582</Hsp_bit-score>
+      <Hsp_score>1272</Hsp_score>
+      <Hsp_evalue>2.95308e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAIQLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_qseq>
+      <Hsp_hseq>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAILLQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_hseq>
+      <Hsp_midline>LHPVSISLSSYGADLVRSRGQASFLPLLAMAGAQRVELREELFAGPPDTEALTAAI LQGLECVFSSPLELWREDGQLNPELEPTLRRAEACGAGWLKVSLGLLPEQPDLAALGRRLARHGLQLLVENDQTPQGGRIEVLERFFRLAERQQLDLAMTFDIGNWRWQEQAADEAALRLGRYVGYVHCKAVIRNRDGKLVAVPPSAADLQYWQRLLQHFPEGVARAIEYPLQGDDLLSLSRRHIAALARLGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
