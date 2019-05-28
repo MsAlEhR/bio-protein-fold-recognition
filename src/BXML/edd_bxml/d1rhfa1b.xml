@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_19899</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1rhfa1b</BlastOutput_query-def>
+  <BlastOutput_query-len>91</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_19899</Iteration_query-ID>
+  <Iteration_query-def>d1rhfa1b</Iteration_query-def>
+  <Iteration_query-len>91</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_012363024.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3-like [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_012363024</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>1.91286e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1RHF|A</Hit_id>
+  <Hit_def>Chain A, Tyrosine-protein Kinase Receptor Tyro3 [Homo sapiens] &gt;pdb|1RHF|B Chain B, Tyrosine-protein Kinase Receptor Tyro3 [Homo sapiens]</Hit_def>
+  <Hit_accession>1RHF_A</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>7.80597e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGXEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEG EEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_008054598.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008054598</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>1.40702e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPEIQWVKDGAVVQNVDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEP+IQWVKDGAVVQN+DQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|PNJ16127.1|</Hit_id>
+  <Hit_def>TYRO3 isoform 5 [Pongo abelii]</Hit_def>
+  <Hit_accession>PNJ16127</Hit_accession>
+  <Hit_len>616</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>1.57088e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_016878032.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform X1 [Homo sapiens]</Hit_def>
+  <Hit_accession>XP_016878032</Hit_accession>
+  <Hit_len>771</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.39066e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_017816023.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform X2 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_017816023</Hit_accession>
+  <Hit_len>716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>1.61701e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>dbj|BAD92668.1|</Hit_id>
+  <Hit_def>TYRO3 protein tyrosine kinase variant, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAD92668</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.79451e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AAH49368.1|</Hit_id>
+  <Hit_def>TYRO3 protein tyrosine kinase [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH49368</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>2.96158e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AIC62042.1|</Hit_id>
+  <Hit_def>TYRO3, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AIC62042</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.02135e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_024087879.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform X1 [Pongo abelii] &gt;gb|PNJ16125.1| TYRO3 isoform 2 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_024087879</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.14455e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_006284.2|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform 1 precursor [Homo sapiens] &gt;sp|Q06418.1| RecName: Full=Tyrosine-protein kinase receptor TYRO3; AltName: Full=Tyrosine-protein kinase BYK; AltName: Full=Tyrosine-protein kinase DTK; AltName: Full=Tyrosine-protein kinase RSE; AltName: Full=Tyrosine-protein kinase SKY; AltName: Full=Tyrosine-protein kinase TIF; Flags: Precursor [Homo sapiens] &gt;gb|AAA19236.1| Rse [Homo sapiens] &gt;gb|AAH51756.1| TYRO3 protein tyrosine kinase [Homo sapiens] &gt;gb|AIC63197.1| TYRO3, partial [synthetic construct] &gt;gb|EAW92506.1| TYRO3 protein tyrosine kinase, isoform CRA_a [Homo sapiens] &gt;dbj|BAA04467.1| Sky [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_006284</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.17612e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|EAW92507.1|</Hit_id>
+  <Hit_def>TYRO3 protein tyrosine kinase, isoform CRA_b [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW92507</Hit_accession>
+  <Hit_len>905</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.30777e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_016783467.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 [Pan troglodytes] &gt;gb|PNI94455.1| TYRO3 isoform 2 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_016783467</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.37234e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_003826665.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 [Pan paniscus]</Hit_def>
+  <Hit_accession>XP_003826665</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.37234e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>dbj|BAG10804.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 precursor, partial [synthetic construct]</Hit_def>
+  <Hit_accession>BAG10804</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.50983e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>dbj|BAA21781.1|</Hit_id>
+  <Hit_def>protein-tyrosine kinase [Homo sapiens]</Hit_def>
+  <Hit_accession>BAA21781</Hit_accession>
+  <Hit_len>884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.54524e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|EAW92508.1|</Hit_id>
+  <Hit_def>TYRO3 protein tyrosine kinase, isoform CRA_c [Homo sapiens]</Hit_def>
+  <Hit_accession>EAW92508</Hit_accession>
+  <Hit_len>881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.59755e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAC50070.1|</Hit_id>
+  <Hit_def>receptor tyrosine kinase [Homo sapiens]</Hit_def>
+  <Hit_accession>AAC50070</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.61612e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|NP_001317193.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001317193</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>3.72739e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_018866775.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_018866775</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>3.76508e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|PNJ16124.1|</Hit_id>
+  <Hit_def>TYRO3 isoform 1 [Pongo abelii]</Hit_def>
+  <Hit_accession>PNJ16124</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>3.80316e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|PNI94454.1|</Hit_id>
+  <Hit_def>TYRO3 isoform 1 [Pan troglodytes]</Hit_def>
+  <Hit_accession>PNI94454</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>4.03985e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_011890242.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X5 [Cercocebus atys] &gt;ref|XP_024651714.1| tyrosine-protein kinase receptor TYRO3 isoform X2 [Macaca nemestrina] &gt;ref|XP_028706598.1| tyrosine-protein kinase receptor TYRO3 isoform X2 [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_011890242</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>9.98868e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_011844659.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Mandrillus leucophaeus]</Hit_def>
+  <Hit_accession>XP_011844659</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.01714e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_010367356.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X1 [Rhinopithecus roxellana]</Hit_def>
+  <Hit_accession>XP_010367356</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.04228e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_011890241.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X4 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011890241</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>1.05636e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_003900860.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform X1 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_003900860</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.06329e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_005559306.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Macaca fascicularis] &gt;ref|XP_011756979.1| tyrosine-protein kinase receptor TYRO3 isoform X1 [Macaca nemestrina] &gt;ref|XP_011890240.1| PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X3 [Cercocebus atys] &gt;ref|XP_014997475.1| tyrosine-protein kinase receptor TYRO3 isoform X1 [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_005559306</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.07396e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_017750939.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: tyrosine-protein kinase receptor TYRO3 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017750939</Hit_accession>
+  <Hit_len>866</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.08288e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_011890238.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X2 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011890238</Hit_accession>
+  <Hit_len>841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>1.08861e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_008015158.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_008015158</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.1066e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|EHH27236.1|</Hit_id>
+  <Hit_def>Tyrosine-protein kinase receptor TYRO3 [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH27236</Hit_accession>
+  <Hit_len>868</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.13937e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_025246444.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform X1 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025246444</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.15167e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_011812063.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011812063</Hit_accession>
+  <Hit_len>859</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>1.18679e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_011890237.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X1 [Cercocebus atys] &gt;gb|EHH62999.1| Tyrosine-protein kinase receptor TYRO3 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>XP_011890237</Hit_accession>
+  <Hit_len>868</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.19788e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_025246445.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform X2 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025246445</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>1.22132e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_010367357.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X2 [Rhinopithecus roxellana]</Hit_def>
+  <Hit_accession>XP_010367357</Hit_accession>
+  <Hit_len>871</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>1.30543e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_012317869.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_012317869</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>1.97389e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQHLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQ+LDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_017386503.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Cebus capucinus imitator]</Hit_def>
+  <Hit_accession>XP_017386503</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>2.07484e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQHLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQ+LDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_010344592.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_010344592</Hit_accession>
+  <Hit_len>1001</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>2.24672e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQHLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQ+LDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_002753563.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_002753563</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>2.26971e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQHLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQ+LDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_023054160.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform X1 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023054160</Hit_accession>
+  <Hit_len>890</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>1.50774e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDEGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVED GETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_023054159.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 isoform X2 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023054159</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.67874e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSAERSDAGRYWCQVEDEGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKS ERSDAGRYWCQVED GETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_012621940.1|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012621940</Hit_accession>
+  <Hit_len>893</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>2.94499e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPEIQWVKDGAVVQNVDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETETSQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEP+IQWVKDGAVVQN+DQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETE SQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_008585765.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X2 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008585765</Hit_accession>
+  <Hit_len>788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.00728e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPEIQWVKDGAVVQSVDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETETSQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEP+IQWVKDGAVVQ++DQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETE SQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_027631617.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: tyrosine-protein kinase receptor TYRO3 [Tupaia chinensis]</Hit_def>
+  <Hit_accession>XP_027631617</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.63894e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPEIQWVKDGAVVQSVDQLYIPVSEHHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEP+IQWVKDGAVVQ++DQLYIPVSE HWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ELW48135.1|</Hit_id>
+  <Hit_def>Tyrosine-protein kinase receptor TYRO3 [Tupaia chinensis]</Hit_def>
+  <Hit_accession>ELW48135</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.11272e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPEIQWVKDGAVVQSVDQLYIPVSEHHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEP+IQWVKDGAVVQ++DQLYIPVSE HWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_008585761.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 isoform X1 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008585761</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>2.13836e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPEIQWVKDGAVVQSVDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETETSQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEP+IQWVKDGAVVQ++DQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETE SQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_012504836.1|</Hit_id>
+  <Hit_def>PREDICTED: tyrosine-protein kinase receptor TYRO3 [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012504836</Hit_accession>
+  <Hit_len>896</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.26214e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPEIQWVKDGAVVQSVDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETETSQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEP+IQWVKDGAVVQ++DQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETE SQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_003791876.2|</Hit_id>
+  <Hit_def>tyrosine-protein kinase receptor TYRO3 [Otolemur garnettii]</Hit_def>
+  <Hit_accession>XP_003791876</Hit_accession>
+  <Hit_len>847</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>2.2941e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GAPVKLTVSQGQPVKLNCSVEGMEEPDIQWVKDGAVVQNLDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETEISQPVWLTVEG</Hsp_qseq>
+      <Hsp_hseq>GAPVKLTVSQGQPVKLNCSVEGMEEPEIQWVKDGAVVQSVDQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETETSQPVWLTVEG</Hsp_hseq>
+      <Hsp_midline>GAPVKLTVSQGQPVKLNCSVEGMEEP+IQWVKDGAVVQ++DQLYIPVSEQHWIGFLSLKSVERSDAGRYWCQVEDGGETE SQPVWLTVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
