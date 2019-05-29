@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_221773</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1ixca1a</BlastOutput_query-def>
+  <BlastOutput_query-len>89</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_221773</Iteration_query-ID>
+  <Iteration_query-def>d1ixca1a</Iteration_query-def>
+  <Iteration_query-len>89</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|5XXP|A</Hit_id>
+  <Hit_def>Chain A, LysR-type regulatory protein [Cupriavidus necator] &gt;pdb|5XXP|B Chain B, LysR-type regulatory protein [Cupriavidus necator]</Hit_def>
+  <Hit_accession>5XXP_A</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>1.23356e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAAR</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAAR</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AYE88700.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator [Diaphorobacter sp.]</Hit_def>
+  <Hit_accession>AYE88700</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.6994e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_011255153.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Proteobacteria] &gt;ref|YP_006961884.1| MocpR2 [Delftia acidovorans] &gt;ref|YP_195856.1| LysR family regulatory protein [Achromobacter xylosoxidans A8] &gt;gb|ADM86743.1| LysR-type regulator [Delftia acidovorans] &gt;gb|ADP19851.1| HTH-type transcriptional regulator TcbR [Achromobacter xylosoxidans A8] &gt;gb|AEA41962.1| MocpR2 [Delftia acidovorans] &gt;gb|AEV57162.1| LysR-type regulatory protein [uncultured bacterium] &gt;gb|AQV99548.1| LysR-type regulatory protein [Cupriavidus necator] &gt;gb|KWT70695.1| Aromatic hydrocarbon utilization transcriptional regulator CatR (LysR family) [Comamonas testosteroni] &gt;pdb|1IZ1|A Chain A, Crystal Structure Of Cbnr, A Lysr Family Transcriptional Regulator [Cupriavidus necator] &gt;pdb|1IZ1|B Chain B, Crystal Structure Of Cbnr, A Lysr Family Transcriptional Regulator [Cupriavidus necator] &gt;pdb|1IZ1|P Chain P, Crystal Structure Of Cbnr, A Lysr Family Transcriptional Regulator [Cupriavidus necator] &gt;pdb|1IZ1|Q Chain Q, Crystal Structure Of Cbnr, A Lysr Family Transcriptional Regulator [Cupriavidus necator] &gt;dbj|BAA74529.1| LysR-type regulatory protein [Cupriavidus necator] &gt;emb|CAD56205.1| Lys-R type regulatory protein [Achromobacter xylosoxidans A8]</Hit_def>
+  <Hit_accession>WP_011255153</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.73672e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>emb|CAB89820.1|</Hit_id>
+  <Hit_def>LysR-type regulatory protein [Pseudomonas chlororaphis]</Hit_def>
+  <Hit_accession>CAB89820</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.75569e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_012250644.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Proteobacteria] &gt;sp|P27102.1| RecName: Full=HTH-type transcriptional regulator TcbR; AltName: Full=TcbCDEF operon positive regulator [Pseudomonas sp. P51] &gt;gb|AAA25993.1| transcriptional activator [Pseudomonas sp.] &gt;gb|AAD13624.1| regulatory protein [Pseudomonas sp.] &gt;gb|EQB15509.1| LysR family transcriptional regulator [Sphingobium lactosutens DS20] &gt;emb|CAP44090.1| transcriptional regulator catR [Bordetella petrii]</Hit_def>
+  <Hit_accession>WP_012250644</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.81385e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AGM34767.1|</Hit_id>
+  <Hit_def>FldR1 [Paraburkholderia fungorum]</Hit_def>
+  <Hit_accession>AGM34767</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.85368e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AAL86582.1|</Hit_id>
+  <Hit_def>LysR-type transcriptional regulator [Delftia acidovorans] &gt;gb|AAM76777.1| LysR-type transcriptional regulator [Delftia acidovorans]</Hit_def>
+  <Hit_accession>AAL86582</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.95715e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|ABP88940.1|</Hit_id>
+  <Hit_def>LysR-type regulatory protein [Pseudomonas nitroreducens]</Hit_def>
+  <Hit_accession>ABP88940</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.95715e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|ABP88941.1|</Hit_id>
+  <Hit_def>LysR-type regulatory protein, partial [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>ABP88941</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>1.45127e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>EFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>EFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>EFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|ADI48080.1|</Hit_id>
+  <Hit_def>transcriptional regulator TcbR [Bordetella sp. IITR-02]</Hit_def>
+  <Hit_accession>ADI48080</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>2.32805e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQAQEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQA EADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1IXC|A</Hit_id>
+  <Hit_def>Chain A, Lysr-type Regulatory Protein [Cupriavidus necator] &gt;pdb|1IXC|B Chain B, Lysr-type Regulatory Protein [Cupriavidus necator]</Hit_def>
+  <Hit_accession>1IXC_A</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>1.99379e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>EFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>EFRQLKYFIAVAEAGNXAAAAKRLHVSQPPITRQXQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_hseq>
+      <Hsp_midline>EFRQLKYFIAVAEAGN AAAAKRLHVSQPPITRQ QALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|ABQ23433.1|</Hit_id>
+  <Hit_def>LysR-type regulatory protein [Alcaligenes sp. NyZ215]</Hit_def>
+  <Hit_accession>ABQ23433</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>7.73158e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARG</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFIAVAEEGNIGAAARRLHISQPPITRQIQALEQDLGVVLLERTHRGVELTAAGTTFLEDARRLLHVTEISRVRSRAASRG</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YFIAVAE GN+ AAA+RLH+SQPPITRQ+QALE DLGVVLLER+HRG+ELTAAG  FLEDARR+L +   S  RSRAA+RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_081256096.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Pandoraea pnomenusa] &gt;gb|ABS81345.1| LysR-type transcriptional regulator [Pandoraea pnomenusa]</Hit_def>
+  <Hit_accession>WP_081256096</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.05669e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFIAVAEEGNIGAAARRLHISQPPITRQIQALEQDLGVVLFERTHRGVELTAAGTTFLEDARRLLHVSEISRVRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YFIAVAE GN+ AAA+RLH+SQPPITRQ+QALE DLGVVL ER+HRG+ELTAAG  FLEDARR+L ++  S  RSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|AAC69473.1|</Hit_id>
+  <Hit_def>Lys-R type regulatory protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>AAC69473</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.15179e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFIAVAEEGNIGAAARRLHISQPPITRQIQALEQDLGVVLFERTHRGVELTAAGTTFLEDARRLLHVTEISRVRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YFIAVAE GN+ AAA+RLH+SQPPITRQ+QALE DLGVVL ER+HRG+ELTAAG  FLEDARR+L +   S  RSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_021224465.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Sphingobium lactosutens] &gt;gb|EQB18300.1| LysR family transcriptional regulator [Sphingobium lactosutens DS20] &gt;gb|EQB18343.1| LysR family transcriptional regulator [Sphingobium lactosutens DS20]</Hit_def>
+  <Hit_accession>WP_021224465</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.17688e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFIAVAEEGNIGAAARRLHISQPPITRQIQALEQDLGVVLFERTHRGVELTAAGTTFLEDARRLLHVTEISRVRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YFIAVAE GN+ AAA+RLH+SQPPITRQ+QALE DLGVVL ER+HRG+ELTAAG  FLEDARR+L +   S  RSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q05840.1|</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator ClcR; AltName: Full=ClcABD operon transcriptional activator [Pseudomonas putida] &gt;gb|AAA25771.1| chlorocatechol operon activator [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q05840</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.17688e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFIAVAEEGNIGAAARRLHISQPPITRQIQALEQDLGVVLFERTHRGVELTAAGTTFLEDARRLLHVTEISRVRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YFIAVAE GN+ AAA+RLH+SQPPITRQ+QALE DLGVVL ER+HRG+ELTAAG  FLEDARR+L +   S  RSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_012248462.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Proteobacteria] &gt;emb|CAA06967.1| ClcR [Ralstonia sp. JS705] &gt;emb|CAE92862.1| LysR family transcriptional regulator [Pseudomonas putida] &gt;emb|CAP41872.1| transcriptional regulator clcR [Bordetella petrii] &gt;emb|CDF84617.1| HTH-type transcriptional regulator ClcR [Pseudomonas knackmussii B13] &gt;emb|CDF84962.1| HTH-type transcriptional regulator ClcR [Pseudomonas knackmussii B13] &gt;emb|SKC05514.1| transcriptional regulator, LysR family [Sphingopyxis flava] &gt;emb|SKC06856.1| transcriptional regulator, LysR family [Sphingopyxis flava]</Hit_def>
+  <Hit_accession>WP_012248462</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>1.22869e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFIAVAEEGNIGAAARRLHISQPPITRQIQALEQDLGVVLFERTHRGVELTAAGTTFLEDARRLLHVTEISRVRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YFIAVAE GN+ AAA+RLH+SQPPITRQ+QALE DLGVVL ER+HRG+ELTAAG  FLEDARR+L +   S  RSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_011489352.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Proteobacteria] &gt;gb|ABE31815.1| transcriptional regulator, LysR family [Paraburkholderia xenovorans LB400] &gt;gb|AIP32311.1| HTH-type transcriptional regulator tfdS [Paraburkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>WP_011489352</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>1.26905e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFIAVAEEGNIGAAARRLHISQPPITRQIQALEQDLGVVLFERTHRGVELTAAGTTFLEDARRLLHVTEISRVRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YFIAVAE GN+ AAA+RLH+SQPPITRQ+QALE DLGVVL ER+HRG+ELTAAG  FLEDARR+L +   S  RSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_090839264.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator, partial [Paraburkholderia hospita] &gt;emb|SEI28606.1| transcriptional regulator, LysR family, partial [Paraburkholderia hospita]</Hit_def>
+  <Hit_accession>WP_090839264</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.4281e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAAAEEGNVGAAARRLHISQPPVTRQIHALEQHLGVLLFERSARGVQLTPAGAAFLEDARRMLELGRTSVDRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+A AE GN+ AAA+RLH+SQPP+TRQ+ ALE  LGV+L ERS RG++LT AG AFLEDARR+LEL   S DRSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_011178398.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Burkholderiaceae] &gt;ref|YP_006963021.1| LysR-type transcriptional regulator [Ralstonia pickettii] &gt;sp|Q46M54.1| RecName: Full=HTH-type transcriptional regulator TfdS [Cupriavidus pinatubonensis JMP134] &gt;gb|AAB47014.2| TfdR [Cupriavidus pinatubonensis JMP134] &gt;gb|AAR31051.1| LysR-type transcriptional regulator [Cupriavidus pinatubonensis JMP134] &gt;gb|AAZ65776.1| regulatory protein, LysR:LysR, substrate-binding [Cupriavidus pinatubonensis JMP134] &gt;gb|AFK33091.1| LysR-type transcriptional regulator [Ralstonia pickettii] &gt;gb|AFR43901.1| HTH-type transcriptional regulator [uncultured bacterium] &gt;gb|AQH05914.1| LysR family transcriptional regulator [Burkholderia sp. KK1] &gt;gb|AUT76833.1| transcriptional regulator [Paraburkholderia hospita] &gt;gb|QBY56517.1| LysR family transcriptional regulator [Cupriavidus oxalaticus] &gt;emb|SDP46855.1| transcriptional regulator, LysR family [Paraburkholderia sediminicola] &gt;emb|SHL27718.1| transcriptional regulator, LysR family [Paraburkholderia terricola]</Hit_def>
+  <Hit_accession>WP_011178398</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>2.77938e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAAAEEGNVGAAARRLHISQPPVTRQIHALEQHLGVLLFERSARGVQLTPAGAAFLEDARRMLELGRTSVDRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+A AE GN+ AAA+RLH+SQPP+TRQ+ ALE  LGV+L ERS RG++LT AG AFLEDARR+LEL   S DRSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_011178395.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Cupriavidus pinatubonensis] &gt;sp|Q46M57.1| RecName: Full=HTH-type transcriptional regulator TdfR [Cupriavidus pinatubonensis JMP134] &gt;gb|AAA65063.1| regulatory protein [Cupriavidus pinatubonensis JMP134] &gt;gb|AAR31048.1| LysR-type transcriptional regulator [Cupriavidus pinatubonensis JMP134] &gt;gb|AAZ65773.1| regulatory protein, LysR:LysR, substrate-binding [Cupriavidus pinatubonensis JMP134]</Hit_def>
+  <Hit_accession>WP_011178395</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>2.96436e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAAAEEGNVGAAARRLHISQPPVTRQIHALEQHLGVLLFERSARGVQLTPAGAAFLEDARRMLELGRTSVDRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+A AE GN+ AAA+RLH+SQPP+TRQ+ ALE  LGV+L ERS RG++LT AG AFLEDARR+LEL   S DRSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|AAK81677.1|</Hit_id>
+  <Hit_def>LysR-type transcription factor [Burkholderia cepacia]</Hit_def>
+  <Hit_accession>AAK81677</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>3.57099e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAAAEEGNVGAAARRLHISQPPVTRQIQALEQHLGVLLFERGPRGVRLTPAGAAFLEDARRMLELGRTSVDRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+A AE GN+ AAA+RLH+SQPP+TRQ+QALE  LGV+L ER  RG+ LT AG AFLEDARR+LEL   S DRSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_011171699.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Burkholderiales] &gt;ref|NP_990900.1| TfdR [Achromobacter denitrificans] &gt;gb|AAS49441.1| TfdR [Achromobacter denitrificans] &gt;gb|AEV57109.1| LysR family transcriptional regulator [uncultured bacterium] &gt;gb|AEV57145.1| LysR-type transcriptional regulator [uncultured bacterium] &gt;dbj|BAA88068.1| LysR-type regulatory protein [Variovorax paradoxus]</Hit_def>
+  <Hit_accession>WP_011171699</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>3.68772e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAAAEEGNVGAAARRLHISQPPVTRQIQALEQHLGVLLFERGPRGVRLTPAGAAFLEDARRMLELGRTSVDRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+A AE GN+ AAA+RLH+SQPP+TRQ+QALE  LGV+L ER  RG+ LT AG AFLEDARR+LEL   S DRSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_023842713.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Burkholderia] &gt;ref|YP_008864532.1| LysR-type transcriptional regulator [Burkholderia sp. M701] &gt;gb|AQH05940.1| LysR family transcriptional regulator [Burkholderia sp. KK1] &gt;dbj|BAO19171.1| LysR-type transcriptional regulator [Burkholderia sp. M701]</Hit_def>
+  <Hit_accession>WP_023842713</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>4.91024e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAAAEEGNIGAAAKRLHISQPPVTRQIHALEQHLGVLLFERGARGVQLTPAGAAFLEDARRMLELGRTSVDRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+A AE GN+ AAAKRLH+SQPP+TRQ+ ALE  LGV+L ER  RG++LT AG AFLEDARR+LEL   S DRSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_015061683.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Burkholderiales] &gt;ref|YP_006963116.1| LysR-type transcriptional regulator [Variovorax sp. DB1] &gt;gb|AFK33053.1| LysR-type transcriptional regulator [Variovorax sp. DB1] &gt;gb|QBY56530.1| LysR family transcriptional regulator [Cupriavidus oxalaticus]</Hit_def>
+  <Hit_accession>WP_015061683</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>6.9978e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAAAEEGNVGAAARRLHISQPPVTRQIHALEQHLGVSLFERSARGVQLTPAGAAFLEDARRMLELGRTSVDRSRAASRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+A AE GN+ AAA+RLH+SQPP+TRQ+ ALE  LGV L ERS RG++LT AG AFLEDARR+LEL   S DRSRAA+RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_063497844.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Burkholderia sp. OLGA172] &gt;gb|AHK61083.1| LysR [Paraburkholderia phytofirmans OLGA172] &gt;gb|ANB74550.1| transcriptional regulator [Burkholderia sp. OLGA172]</Hit_def>
+  <Hit_accession>WP_063497844</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.42581e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEIRQLKYFVAVAEAGGFGTAAQRLHVSQPPLTRQIQALERDIGAKLFERSARGVELTAAGKVFLDDARQLLALVQRSSRRSQAAARGE</Hsp_hseq>
+      <Hsp_midline>ME RQLKYF+AVAEAG    AA+RLHVSQPP+TRQ+QALE D+G  L ERS RG+ELTAAG  FL+DAR++L L  RS  RS+AAARG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_011178387.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Burkholderiaceae] &gt;sp|P42427.1| RecName: Full=HTH-type transcriptional regulator TfdT [Cupriavidus pinatubonensis JMP134] &gt;gb|AAC44724.1| LysR-type transcriptional regulator [Cupriavidus pinatubonensis JMP134] &gt;gb|AAR31040.1| transcriptional regulatory protein [Cupriavidus pinatubonensis JMP134] &gt;gb|AAZ65765.1| regulatory protein, LysR [Cupriavidus pinatubonensis JMP134] &gt;emb|SDP37607.1| LysR substrate binding domain-containing protein [Paraburkholderia sediminicola] &gt;emb|SHL16954.1| LysR substrate binding domain-containing protein [Paraburkholderia terricola]</Hit_def>
+  <Hit_accession>WP_011178387</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>2.28918e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEIRQLKYFVAVAEAGGFGTAAQRMHISQPPLTRQIQALERDIGAKLFERTARGVELTAAGKVFLDDARQLLALVQRSSRRSQAAARGE</Hsp_hseq>
+      <Hsp_midline>ME RQLKYF+AVAEAG    AA+R+H+SQPP+TRQ+QALE D+G  L ER+ RG+ELTAAG  FL+DAR++L L  RS  RS+AAARG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_061164342.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Caballeronia temeraria] &gt;emb|SAK92019.1| LysR family transcriptional regulator [Caballeronia temeraria]</Hit_def>
+  <Hit_accession>WP_061164342</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>3.31047e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEMRQLRYFVAVAEAGGFGTAAERMHISQPPLTRQIQALERDIGAKLFERSARGVELTAAGRVFLEDARQLLTLAQRSSRRSQAAARGE</Hsp_hseq>
+      <Hsp_midline>ME RQL+YF+AVAEAG    AA+R+H+SQPP+TRQ+QALE D+G  L ERS RG+ELTAAG  FLEDAR++L LA RS  RS+AAARG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>emb|SEI28566.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional regulator, LysR family, partial [Paraburkholderia hospita]</Hit_def>
+  <Hit_accession>SEI28566</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>4.04693e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEIRQLKYFVAVAEAGGFGTAAQRMHISQPPLTRQIQALERDIGAKLFERTARGVELTAAGKVFLDDARQLLALVQRSSRRSQAAARGE</Hsp_hseq>
+      <Hsp_midline>ME RQLKYF+AVAEAG    AA+R+H+SQPP+TRQ+QALE D+G  L ER+ RG+ELTAAG  FL+DAR++L L  RS  RS+AAARG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>dbj|BAB56008.1|</Hit_id>
+  <Hit_def>TfdT [Burkholderia sp. NK8]</Hit_def>
+  <Hit_accession>BAB56008</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>5.89768e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEMRQLRYFVAVAEAGGFGTAAERMHISQPPLTRQIQALERDIGAKLFERSARGVDLTAAGRVFLEDARQLLTLAQRSSQRSQAAARGE</Hsp_hseq>
+      <Hsp_midline>ME RQL+YF+AVAEAG    AA+R+H+SQPP+TRQ+QALE D+G  L ERS RG++LTAAG  FLEDAR++L LA RS  RS+AAARG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_077162116.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Burkholderiaceae] &gt;gb|AQH05912.1| transcriptional regulator [Burkholderia sp. KK1] &gt;gb|AUT76836.1| LysR family transcriptional regulator [Paraburkholderia hospita]</Hit_def>
+  <Hit_accession>WP_077162116</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>8.35622e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEIRQLKYFVAVAEAGGFGTAAQRMHISQPPLTRQIQALERDIGAKLFERTARGVELTAAGKVFLDDARQLLALVQRSSRRSQAAARGE</Hsp_hseq>
+      <Hsp_midline>ME RQLKYF+AVAEAG    AA+R+H+SQPP+TRQ+QALE D+G  L ER+ RG+ELTAAG  FL+DAR++L L  RS  RS+AAARG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_135707778.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Cupriavidus oxalaticus] &gt;gb|QBY56509.1| LysR family transcriptional regulator [Cupriavidus oxalaticus]</Hit_def>
+  <Hit_accession>WP_135707778</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>9.09372e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEIRQLKYFVAVAEAGGFGTAAQRMHISQPPLTRQIQALERDIGAKLFERTARGVELTAAGKVFLDDARQLLALVQRSSRRSQAAARGE</Hsp_hseq>
+      <Hsp_midline>ME RQLKYF+AVAEAG    AA+R+H+SQPP+TRQ+QALE D+G  L ER+ RG+ELTAAG  FL+DAR++L L  RS  RS+AAARG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_031358750.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Caballeronia sordidicola]</Hit_def>
+  <Hit_accession>WP_031358750</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>1.06777e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFNQLRYFVAVAEARGFGAASQRLHISQPPLTRQIQALERDLGVKLFERSARGVELTAAGTVFLDDARQLLALRARSSRRSQAAARGE</Hsp_hseq>
+      <Hsp_midline>MEF QL+YF+AVAEA    AA++RLH+SQPP+TRQ+QALE DLGV L ERS RG+ELTAAG  FL+DAR++L L  RS  RS+AAARG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_119166129.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Rhodospirillaceae bacterium HHTR118]</Hit_def>
+  <Hit_accession>WP_119166129</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.27637e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAVAEEGNIGRAADKLHISQPPVSRQIQALETELGVQLLVRTPKGVEMTEAGRLFFEDARRVLAQVERAAERSRAADRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE GN+  AA +LH+SQPP++RQ+QALE +LGV LL R+ +G+E+T AG  F EDARR+L    R+ +RSRAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_084394772.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Henriciella pelagia]</Hit_def>
+  <Hit_accession>WP_084394772</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>3.34473e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MELRQLKYFVAVAEEGNFGAAARRLNISQPPITRQIQKLEDELGVLLLRRTTKGAELTTSGEVFLEDARQTLAQVARGMERSRAAQRGE</Hsp_hseq>
+      <Hsp_midline>ME RQLKYF+AVAE GN  AAA+RL++SQPPITRQ+Q LE +LGV+LL R+ +G ELT +G  FLEDAR+ L    R  +RSRAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_029994311.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Sphingomonas sp. YL-JM2C]</Hit_def>
+  <Hit_accession>WP_029994311</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>5.60948e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFLAVAEEANLTAASRRLHVSQPPITRQIRQLEEELGVILFLRSSKGVTLTPAGASFLAEARRLVALSQNAIDRCRAADRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE  N+ AA++RLHVSQPPITRQ++ LE +LGV+L  RS +G+ LT AG +FL +ARR++ L+  + DR RAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|EQB18421.1|</Hit_id>
+  <Hit_def>hypothetical protein RLDS_02380, partial [Sphingobium lactosutens DS20]</Hit_def>
+  <Hit_accession>EQB18421</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.02908e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MELRQLRYFIAVAEEGSFGGAAQRVHVTQPPVTRQIHALEQELKVTLFVRTPRGAILTEAGRVFLEEAREIIERSRRAGERSRAADRGE</Hsp_hseq>
+      <Hsp_midline>ME RQL+YFIAVAE G+   AA+R+HV+QPP+TRQ+ ALE +L V L  R+ RG  LT AG  FLE+AR I+E + R+G+RSRAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_062793244.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator, partial [Sphingobium herbicidovorans]</Hit_def>
+  <Hit_accession>WP_062793244</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.28773e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAVAEEGNLTAAARKLHVSQPPITRQIKQLEDELGVELLVRSSKGVQVTEAGKLFLVEAKRLLDISHTAIEKSRAAQAGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE GN+ AAA++LHVSQPPITRQ++ LE +LGV LL RS +G+++T AG  FL +A+R+L+++  + ++SRAA  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_037468435.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator, partial [Sphingobium herbicidovorans]</Hit_def>
+  <Hit_accession>WP_037468435</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.42947e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAVAEEGNLTAAARKLHVSQPPITRQIKQLEDELGVELLVRSSKGVQVTEAGKLFLVEAKRLLDISHTAIEKSRAAQAGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE GN+ AAA++LHVSQPPITRQ++ LE +LGV LL RS +G+++T AG  FL +A+R+L+++  + ++SRAA  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>emb|SLN71219.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TfdS [Roseivivax jejudonensis]</Hit_def>
+  <Hit_accession>SLN71219</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>3.27344e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAVAEEGNIGRAALRLNVSQPPISRQIQALEHELGATLLYRTPKGVELTEAGRVFFEDAQKVLAHSKTAMDRTRAAHRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE GN+  AA RL+VSQPPI+RQ+QALE +LG  LL R+ +G+ELT AG  F EDA+++L  +  + DR+RAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_085793378.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Roseivivax jejudonensis]</Hit_def>
+  <Hit_accession>WP_085793378</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>3.46439e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAVAEEGNIGRAALRLNVSQPPISRQIQALEHELGATLLYRTPKGVELTEAGRVFFEDAQKVLAHSKTAMDRTRAAHRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE GN+  AA RL+VSQPPI+RQ+QALE +LG  LL R+ +G+ELT AG  F EDA+++L  +  + DR+RAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_003039792.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Sphingopyxis sp. MC1] &gt;gb|ENY82839.1| LysR family transcriptional regulator [Sphingopyxis sp. MC1]</Hit_def>
+  <Hit_accession>WP_003039792</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>3.76549e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFLAVAEEANLTAASRRLHVSQPPITRQIRQLEQELGVTLFLRSSKGVTLTSAGASFLAEARRLVTLSQNAIERCRAADRGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE  N+ AA++RLHVSQPPITRQ++ LE +LGV L  RS +G+ LT+AG +FL +ARR++ L+  + +R RAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|TDJ63454.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Proteobacteria bacterium] &gt;gb|TDJ68189.1| LysR family transcriptional regulator [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>TDJ63454</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>5.9644e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARG</Hsp_qseq>
+      <Hsp_hseq>MELRQLRYFVAAAEAGNIGAAARKLHISQPPITRQIQKLEAEIGCPLLLRTPKGVDLTAAGKTFLDEARRILAQTDRAVARSRLAHDG</Hsp_hseq>
+      <Hsp_midline>ME RQL+YF+A AEAGN+ AAA++LH+SQPPITRQ+Q LEA++G  LL R+ +G++LTAAG  FL++ARRIL    R+  RSR A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_081570488.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Sphingobium herbicidovorans]</Hit_def>
+  <Hit_accession>WP_081570488</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>7.719e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAVAEEGNLTAAARKLHVSQPPITRQIKQLEDELGVELLVRSSKGVQVTEAGKLFLVEAKRLLDISHTAIEKSRAAQAGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE GN+ AAA++LHVSQPPITRQ++ LE +LGV LL RS +G+++T AG  FL +A+R+L+++  + ++SRAA  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_020997468.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Sphingomonas sp. ERG5] &gt;ref|YP_008494432.1| LysR family transcriptional regulator TfdR [Sphingomonas sp. ERG5] &gt;gb|AGU69343.1| LysR family transcriptional regulator TfdR [Sphingomonas sp. ERG5]</Hit_def>
+  <Hit_accession>WP_020997468</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>8.95864e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAVAEEGNLTAAARKLHVSQPPITRQIKQLEDELGVELLVRSSKGVQVTEAGKLFLVEAKRLLDISHTAIEKSRAAQAGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE GN+ AAA++LHVSQPPITRQ++ LE +LGV LL RS +G+++T AG  FL +A+R+L+++  + ++SRAA  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_077145339.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Sphingomonadaceae] &gt;gb|AAT99366.1| TfdR [Sphingomonas sp. TFD44]</Hit_def>
+  <Hit_accession>WP_077145339</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>9.34805e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MEFRQLRYFVAVAEEGNLTAAARKLHVSQPPITRQIKQLEDELGVELLVRSSKGVQVTEAGKLFLVEAKRLLDISHTAIEKSRAAQAGE</Hsp_hseq>
+      <Hsp_midline>MEFRQL+YF+AVAE GN+ AAA++LHVSQPPITRQ++ LE +LGV LL RS +G+++T AG  FL +A+R+L+++  + ++SRAA  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_107395965.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Sphingomonas fennica] &gt;gb|PTD16811.1| LysR family transcriptional regulator [Sphingomonas fennica]</Hit_def>
+  <Hit_accession>WP_107395965</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.04505e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MELRQLRYFIAVAEEGSFGGAALRVHVTQPPVTRQIHALEQELGVTLFVRTPRGAVLTEAGRVFLEEAREIVDRAHRAGERSRAADRGE</Hsp_hseq>
+      <Hsp_midline>ME RQL+YFIAVAE G+   AA R+HV+QPP+TRQ+ ALE +LGV L  R+ RG  LT AG  FLE+AR I++ A R+G+RSRAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|AMK20616.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Sphingobium sp. MI1205] &gt;gb|EPR16808.1| hypothetical protein M527_19380 [Sphingobium chinhatense IP26] &gt;emb|SKC00783.1| transcriptional regulator, LysR family [Sphingopyxis flava]</Hit_def>
+  <Hit_accession>AMK20616</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.25398e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MELRQLRYFIAVAEEGSFGGAAQRVHVTQPPVTRQIHALEQELKVTLFVRTPRGAILTEAGRVFLEEAREIIERSRRAGERSRAADRGE</Hsp_hseq>
+      <Hsp_midline>ME RQL+YFIAVAE G+   AA+R+HV+QPP+TRQ+ ALE +L V L  R+ RG  LT AG  FLE+AR I+E + R+G+RSRAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_079640148.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LysR family transcriptional regulator [Sphingomonadaceae]</Hit_def>
+  <Hit_accession>WP_079640148</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.33404e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>MELRQLRYFIAVAEEGSFGGAAQRVHVTQPPVTRQIHALEQELKVTLFVRTPRGAILTEAGRVFLEEAREIIERSRRAGERSRAADRGE</Hsp_hseq>
+      <Hsp_midline>ME RQL+YFIAVAE G+   AA+R+HV+QPP+TRQ+ ALE +L V L  R+ RG  LT AG  FLE+AR I+E + R+G+RSRAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_125326242.1|</Hit_id>
+  <Hit_def>LysR family transcriptional regulator [Tabrizicola sp. K13M18] &gt;gb|AZL60047.1| LysR family transcriptional regulator [Tabrizicola sp. K13M18]</Hit_def>
+  <Hit_accession>WP_125326242</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.56003e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MEFRQLKYFIAVAEAGNMAAAAKRLHVSQPPITRQMQALEADLGVVLLERSHRGIELTAAGHAFLEDARRILELAGRSGDRSRAAARGD</Hsp_qseq>
+      <Hsp_hseq>LEFRQLKYFIAVAEEGNIGRAAQRLNISQPPISRQIQALEHELGAALFIRTPKGVDLTEAGRVFYADAQKVLSQAKNAVDRTRAAERGE</Hsp_hseq>
+      <Hsp_midline>+EFRQLKYFIAVAE GN+  AA+RL++SQPPI+RQ+QALE +LG  L  R+ +G++LT AG  F  DA+++L  A  + DR+RAA RG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

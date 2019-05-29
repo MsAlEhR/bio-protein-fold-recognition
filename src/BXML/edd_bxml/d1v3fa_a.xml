@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_209379</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1v3fa_a</BlastOutput_query-def>
+  <BlastOutput_query-len>120</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_209379</Iteration_query-ID>
+  <Iteration_query-def>d1v3fa_a</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1V3F|A</Hit_id>
+  <Hit_def>Chain A, Pleckstrin 2 [Mus musculus]</Hit_def>
+  <Hit_accession>1V3F_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>2.18031e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GSSGSSGLHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKESGPSSG</Hsp_qseq>
+      <Hsp_hseq>GSSGSSGLHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKESGPSSG</Hsp_hseq>
+      <Hsp_midline>GSSGSSGLHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKESGPSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_006515997.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X1 [Mus musculus]</Hit_def>
+  <Hit_accession>XP_006515997</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>8.31697e-70</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_038766.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Mus musculus] &gt;sp|Q9WV52.1| RecName: Full=Pleckstrin-2 [Mus musculus] &gt;gb|AAD42973.1| pleckstrin 2 [Mus musculus] &gt;gb|AAD46924.1| pleckstrin 2 [Mus musculus] &gt;gb|AAH28902.1| Pleckstrin 2 [Mus musculus] &gt;gb|ABK42439.1| pleckstrin 2, PLEK2 [synthetic construct] &gt;gb|EDL02630.1| pleckstrin 2 [Mus musculus]</Hit_def>
+  <Hit_accession>NP_038766</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>7.40633e-69</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_021035154.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X2 [Mus caroli]</Hit_def>
+  <Hit_accession>XP_021035154</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.00448e-67</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDTSSGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHDTS+GIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVS KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_021035153.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X1 [Mus caroli]</Hit_def>
+  <Hit_accession>XP_021035153</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.37555e-67</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDTSSGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHDTS+GIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVS KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_021058126.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Mus pahari]</Hit_def>
+  <Hit_accession>XP_021058126</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>1.80458e-67</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDTSSGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHDTS+GIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVS KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_017449633.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>XP_017449633</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>2.67275e-67</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDTSSGLRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMDAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHDTS+G+RPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSM AIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_001107652.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Rattus norvegicus] &gt;gb|EDM03710.1| pleckstrin 2 (predicted), isoform CRA_b [Rattus norvegicus]</Hit_def>
+  <Hit_accession>NP_001107652</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.05923e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDTSSGLRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMDAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHDTS+G+RPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSM AIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_028645983.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028645983</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>5.16765e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDTSNGIRPSPNMEQGSTYKKTFLGSSLVDWLISSSFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVNPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHDTS GIRPSPNMEQGSTYKKTFLGSSLVDWLISS+FAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKV+ KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_005343311.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Microtus ochrogaster]</Hit_def>
+  <Hit_accession>XP_005343311</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>7.63816e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKLHDSSSGIRPCPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEGVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDK+HD+S+GIRP PNMEQGSTYKKTFLGSSLVDWLISSNFAASRLE VTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_006734707.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Leptonychotes weddellii]</Hit_def>
+  <Hit_accession>XP_006734707</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>8.63681e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|EFB27441.1|</Hit_id>
+  <Hit_def>hypothetical protein PANDA_014586, partial [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>EFB27441</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>9.025e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NF+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_025300028.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Canis lupus dingo]</Hit_def>
+  <Hit_accession>XP_025300028</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>1.23135e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NF+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_015847507.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X2 [Peromyscus maniculatus bairdii]</Hit_def>
+  <Hit_accession>XP_015847507</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>2.4996e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPCPNMEQGSTYKKTFLGSSLVDWLISSSFAASRLEGVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKRKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRP PNMEQGSTYKKTFLGSSLVDWLISS+FAASRLE VTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYK+KVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_026345445.1|</Hit_id>
+  <Hit_def>pleckstrin-2-like [Ursus arctos horribilis]</Hit_def>
+  <Hit_accession>XP_026345445</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>3.41511e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NF+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_026345491.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Ursus arctos horribilis]</Hit_def>
+  <Hit_accession>XP_026345491</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>3.45237e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NF+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_006973182.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X1 [Peromyscus maniculatus bairdii] &gt;ref|XP_028731879.1| pleckstrin-2 isoform X2 [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_006973182</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>4.15176e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPCPNMEQGSTYKKTFLGSSLVDWLISSSFAASRLEGVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKRKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRP PNMEQGSTYKKTFLGSSLVDWLISS+FAASRLE VTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYK+KVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_012912717.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X2 [Mustela putorius furo]</Hit_def>
+  <Hit_accession>XP_012912717</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>5.46676e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_005072800.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Mesocricetus auratus]</Hit_def>
+  <Hit_accession>XP_005072800</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>6.00419e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDRMHDGSSGIRPCPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEGVTLASMLMEENFLRPVGVRSMGAIRSGDLVEQFLDDSTALYTFAESYKKKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVD+MHD S+GIRP PNMEQGSTYKKTFLGSSLVDWLISSNFAASRLE VTLASMLMEENFLRPVGVRSMGAIRSGDL EQFLDDSTALYTFAESYKKKVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_011724706.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X2 [Macaca nemestrina] &gt;ref|XP_015309816.1| PREDICTED: pleckstrin-2 isoform X2 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>XP_011724706</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>6.7112e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFVASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_028731878.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X1 [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_028731878</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>9.29166e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPCPNMEQGSTYKKTFLGSSLVDWLISSSFAASRLEGVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKRKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRP PNMEQGSTYKKTFLGSSLVDWLISS+FAASRLE VTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYK+KVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|EGV91869.1|</Hit_id>
+  <Hit_def>Pleckstrin-2, partial [Cricetulus griseus]</Hit_def>
+  <Hit_accession>EGV91869</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>9.37025e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPCPNMEQGSTYKKTFLGSSLVDWLISSSFAASRLEGVTLASMLMEENFLRPVGVRSMGAIRAGDLVEQFLDDSTALYTFAESYKKKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRP PNMEQGSTYKKTFLGSSLVDWLISS+FAASRLE VTLASMLMEENFLRPVGVRSMGAIR+GDL EQFLDDSTALYTFAESYKKKVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_004739034.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X1 [Mustela putorius furo]</Hit_def>
+  <Hit_accession>XP_004739034</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>9.99826e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_021535189.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Neomonachus schauinslandi]</Hit_def>
+  <Hit_accession>XP_021535189</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>1.01073e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_022278162.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>XP_022278162</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>1.16607e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NF+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_012869447.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Dipodomys ordii]</Hit_def>
+  <Hit_accession>XP_012869447</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.17653e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFLGSSLVDWLISNSFAASRLEAVTLASVLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTFLGSSLVDWLIS++FAASRLEAVTLAS+LMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_019661353.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>XP_019661353</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>1.17955e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NF+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_003498318.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Cricetulus griseus] &gt;ref|XP_027274152.1| pleckstrin-2 [Cricetulus griseus] &gt;gb|ERE72910.1| pleckstrin-2 [Cricetulus griseus] &gt;gb|RLQ65888.1| PLEK2 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_003498318</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>1.70138e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPCPNMEQGSTYKKTFLGSSLVDWLISSSFAASRLEGVTLASMLMEENFLRPVGVRSMGAIRAGDLVEQFLDDSTALYTFAESYKKKVSSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRP PNMEQGSTYKKTFLGSSLVDWLISS+FAASRLE VTLASMLMEENFLRPVGVRSMGAIR+GDL EQFLDDSTALYTFAESYKKKVSSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_011909250.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X2 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011909250</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>1.85491e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFVASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>emb|VFV30736.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform 1 [Lynx pardinus]</Hit_def>
+  <Hit_accession>VFV30736</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>2.26911e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|MBW03421.1|</Hit_id>
+  <Hit_def>Pleckstrin-2 [Eschrichtius robustus]</Hit_def>
+  <Hit_accession>MBW03421</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>2.27715e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFAASRLEAVTLASMLMEENFLRPVGTRSTGAIRSGDLAEQFLDDSMALYTFAESSKRKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NFAASRLEAVTLASMLMEENFLRPVG RS GAIRSGDLAEQFLDDS ALYTFAES K+K+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_008701445.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Ursus maritimus]</Hit_def>
+  <Hit_accession>XP_008701445</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>2.42505e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NF+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_007940494.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Orycteropus afer afer]</Hit_def>
+  <Hit_accession>XP_007940494</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.70132e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSGSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFAASRLEAVTLASMLMEENFLRPVGVRSIGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+ +GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++FAASRLEAVTLASMLMEENFLRPVGVRS+GAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_019307045.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Panthera pardus] &gt;ref|XP_025774349.1| pleckstrin-2 [Puma concolor] &gt;ref|XP_026921776.1| pleckstrin-2 [Acinonyx jubatus]</Hit_def>
+  <Hit_accession>XP_019307045</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.80239e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_003987795.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Felis catus]</Hit_def>
+  <Hit_accession>XP_003987795</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.86385e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_015398787.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Panthera tigris altaica]</Hit_def>
+  <Hit_accession>XP_015398787</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>3.18343e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLKPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFL+PVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_012579801.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Condylura cristata]</Hit_def>
+  <Hit_accession>XP_012579801</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>3.71551e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRPSPNMEQGSTYKKTFIGSSLVDWLISNNFSASRLEAVTLASMLMEENFLRPVGSRSLGAIRSGDLAEQFLDDSTALYTFAESYKKKTTSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIRPSPNMEQGSTYKKTF+GSSLVDWLIS+NF+ASRLEAVTLASMLMEENFLRPVG RS+GAIRSGDLAEQFLDDSTALYTFAESYKKK +SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_018864933.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X2 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_018864933</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>4.75646e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFTASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_022361187.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X2 [Enhydra lutris kenyoni]</Hit_def>
+  <Hit_accession>XP_022361187</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>6.46062e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHHIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LH IVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_004055371.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 isoform X1 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004055371</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>6.67431e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFTASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_017734074.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Rhinopithecus bieti] &gt;ref|XP_023038024.1| pleckstrin-2 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_017734074</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>7.27933e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFVASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_022361186.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X1 [Enhydra lutris kenyoni]</Hit_def>
+  <Hit_accession>XP_022361186</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>7.32999e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHHIVDKMHDSSSGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LH IVDKMHD+S+GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_001106525.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Macaca mulatta] &gt;ref|XP_003901992.1| pleckstrin-2 [Papio anubis] &gt;ref|XP_005561613.1| PREDICTED: pleckstrin-2 isoform X1 [Macaca fascicularis] &gt;ref|XP_007985250.1| PREDICTED: pleckstrin-2 [Chlorocebus sabaeus] &gt;ref|XP_011724705.1| pleckstrin-2 isoform X1 [Macaca nemestrina] &gt;ref|XP_011849623.1| PREDICTED: pleckstrin-2 [Mandrillus leucophaeus] &gt;ref|XP_011909249.1| PREDICTED: pleckstrin-2 isoform X1 [Cercocebus atys] &gt;ref|XP_025248234.1| pleckstrin-2 [Theropithecus gelada] &gt;gb|EHH27976.1| hypothetical protein EGK_18304 [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_001106525</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>7.85354e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFVASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_027426943.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X4 [Zalophus californianus]</Hit_def>
+  <Hit_accession>XP_027426943</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>8.49034e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHCIVDKMHDSSGGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISSKE</Hsp_hseq>
+      <Hsp_midline>LH IVDKMHD+S GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_004397637.1|</Hit_id>
+  <Hit_def>PREDICTED: pleckstrin-2 [Odobenus rosmarus divergens]</Hit_def>
+  <Hit_accession>XP_004397637</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>8.75328e-64</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSGGIRPSPNMEQGSTYKKTFIGSSLVDWLISNSFSANRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKRKISSKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+S GIRPSPNMEQGSTYKKTF+GSSLVDWLIS++F+A+RLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYK+K+SSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_016782449.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X3 [Pan troglodytes] &gt;ref|XP_024781309.1| pleckstrin-2 isoform X2 [Pan paniscus]</Hit_def>
+  <Hit_accession>XP_016782449</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.12244e-63</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSNTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFTASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD++TGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_024204373.1|</Hit_id>
+  <Hit_def>pleckstrin-2 isoform X2 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_024204373</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.14989e-63</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSNTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFTASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD++TGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_021506840.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Meriones unguiculatus]</Hit_def>
+  <Hit_accession>XP_021506840</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.67011e-63</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRPCPNMEQGSTYKKTFPGSSLVDWLISSSFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIRP PNMEQGSTYKKTF GSSLVDWLISS+FAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVS KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_002824905.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Pongo abelii] &gt;gb|PNJ70841.1| PLEK2 isoform 1 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002824905</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.73347e-63</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSSTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFTASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKINPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD+STGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK++ KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|NP_057529.1|</Hit_id>
+  <Hit_def>pleckstrin-2 [Homo sapiens] &gt;sp|Q9NYT0.1| RecName: Full=Pleckstrin-2 [Homo sapiens] &gt;gb|AAF34791.1| pleckstrin 2 [Homo sapiens] &gt;gb|AAH01226.1| Pleckstrin 2 [Homo sapiens] &gt;gb|ABM82164.1| pleckstrin 2 [synthetic construct] &gt;gb|ABM85349.1| pleckstrin 2, partial [synthetic construct] &gt;gb|EAW80935.1| pleckstrin 2 [Homo sapiens] &gt;dbj|BAI46478.1| pleckstrin 2, partial [synthetic construct]</Hit_def>
+  <Hit_accession>NP_057529</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.77148e-63</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LHRIVDKMHDTSTGIRPSPNMEQGSTYKKTFLGSSLVDWLISSNFAASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKVSSKE</Hsp_qseq>
+      <Hsp_hseq>LHRIVDKMHDSNTGIRSSPNMEQGSTYKKTFLGSSLVDWLISNSFTASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKKISPKE</Hsp_hseq>
+      <Hsp_midline>LHRIVDKMHD++TGIR SPNMEQGSTYKKTFLGSSLVDWLIS++F ASRLEAVTLASMLMEENFLRPVGVRSMGAIRSGDLAEQFLDDSTALYTFAESYKKK+S KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
