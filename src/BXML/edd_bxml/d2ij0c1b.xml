@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_98839</BlastOutput_query-ID>
+  <BlastOutput_query-def>d2ij0c1b</BlastOutput_query-def>
+  <BlastOutput_query-len>118</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_98839</Iteration_query-ID>
+  <Iteration_query-def>d2ij0c1b</Iteration_query-def>
+  <Iteration_query-len>118</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|2IJ0|C</Hit_id>
+  <Hit_def>Chain C, Structural Basis Of T Cell Specificity And Activation By The Bacterial Superantigen Toxic Shock Syndrome Toxin-1 [Homo sapiens] &gt;pdb|2IJ0|E Chain E, Structural Basis Of T Cell Specificity And Activation By The Bacterial Superantigen Toxic Shock Syndrome Toxin-1 [Homo sapiens]</Hit_def>
+  <Hit_accession>2IJ0_C</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.40804e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|3MFG|B</Hit_id>
+  <Hit_def>Chain B, V_segment Translation Product [Homo sapiens]</Hit_def>
+  <Hit_accession>3MFG_B</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>1.14324e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVIVKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSGFYICSALAGSGSSTDTQYFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VIVKSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDSGFY+CSALAGSGSSTDTQYFGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1KTK|E</Hit_id>
+  <Hit_def>Chain E, Complex Of Streptococcal Pyrogenic Enterotoxin C (Spec) With A Human T Cell Receptor Beta Chain (Vbeta2.1) [Homo sapiens] &gt;pdb|1KTK|F Chain F, Complex Of Streptococcal Pyrogenic Enterotoxin C (Spec) With A Human T Cell Receptor Beta Chain (Vbeta2.1) [Homo sapiens]</Hit_def>
+  <Hit_accession>1KTK_E</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>1.04958e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVIAKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSAEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSALAGSGSSTDTQYFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS +G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSALAGSGSSTDTQYFGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>dbj|BAS04054.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain V-D-J-region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAS04054</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>1.64576e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARPLAGRWGDTQYFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +G   DTQYFGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>dbj|BAF94890.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94890</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>5.13125e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSA---SGPNTDTQYFGPGTRLAVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   SG +TDTQYFGPGT+L VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|BAF94909.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94909</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>4.2402e-60</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSA---SSDSTDTQYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   S  STDTQYFGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pir|C24747|</Hit_id>
+  <Hit_def>T-cell receptor beta chain precursor V region (MT1-1) - human [Homo sapiens] &gt;gb|AAA61025.1| T-cell receptor V-D-J region V-beta-MT1-1, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>C24747</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>5.42439e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSA-LAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGCKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAKLVG----TDTQYFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA L G    TDTQYFGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>dbj|BAF94835.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94835</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>1.17145e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARGTRGTSYNEQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA    G+S + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|BAF94857.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94857</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>1.94653e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSA---RDSTTDTQYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA     S+TDTQYFGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>dbj|BAS03722.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain V-D-J-region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAS03722</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>5.28042e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSASRREGSYNE-QFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA    GS  + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|ABO26881.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>ABO26881</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>6.84592e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAR--NGQNYNEQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +G + + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AAA61004.1|</Hit_id>
+  <Hit_def>T-cell receptor beta-chain (V2-D-J-C) precursor, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA61004</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>9.39262e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARESTSDPKNEQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +    + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>dbj|BAS04340.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain V-D-J-region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAS04340</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>3.72431e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSA-LAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARVAGEGGE---QYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA +AG G     QYFGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|AAQ97598.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain TRBV20-1, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAQ97598</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>6.14026e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARGTSGLNTGELFFGEGSRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   SG +T   +FG G++LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>dbj|BAF94873.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94873</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>6.61505e-58</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSATE-PGQGADEQYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA    G   D QYFGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pir|A25777|</Hit_id>
+  <Hit_def>T-cell receptor beta-2 chain precursor V region (MOLT-4) - human [Homo sapiens]</Hit_def>
+  <Hit_accession>A25777</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>7.32322e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>VVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>VVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARESTSDPKNEQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>VVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +    + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|ABO26961.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>ABO26961</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>7.8856e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAISNLGAGANVLTFGAGSRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA++  G+  +   FG G++LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>dbj|BAF94882.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94882</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>9.72161e-58</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAKRG---SKETQYFGPGTRLLV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA  G   S +TQYFGPGT+L V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|AAA61003.1|</Hit_id>
+  <Hit_def>T-cell receptor beta-chain (V2-D-J-C) precursor, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA61003</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>1.20347e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSASRGRFSYNE-QFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA  G  S  + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>dbj|BAS03921.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain V-D-J-region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAS03921</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>2.55421e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALA----GSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARSPGDPTSGSNYE-QYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA +     SGS+ + QYFGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1YMM|E</Hit_id>
+  <Hit_def>Chain E, T-cell Receptor Beta Chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1YMM_E</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>2.85832e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVISKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARDLTSGANNEQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +  + + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>dbj|BAF94651.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94651</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>3.46255e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMRMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARTSGKNPTYEQYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLM MATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA     + T  QYFGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>dbj|BAS03900.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain V-D-J-region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAS03900</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>4.80744e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARVREFE----QFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA          Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>dbj|BAF94911.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94911</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>6.53701e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARE-TGQGSHEQYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +G  +  QYFGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|ABO26964.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>ABO26964</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>9.50485e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARDPDRANTGELFFGEGSRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA     ++T   +FG G++LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|ABO27014.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>ABO27014</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>1.34065e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARQGDGE----LFFGEGSRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA  G G      +FG G++LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>dbj|BAF94947.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94947</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>1.68977e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAG--SGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARVPGLAGGTYNEQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA     +G + + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>dbj|BAS04015.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain V-D-J-region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAS04015</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>3.37924e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSA---LAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAREILPGG-----EQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   L G       Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|AAC69957.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain variable region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAC69957</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>3.39138e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>VVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>VVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSDSSG----LVTQYFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>VVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CS  +G      TQYFGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|ADD84719.1|</Hit_id>
+  <Hit_def>Betula verrucosa antigen 1 specific T cell receptor beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>ADD84719</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>5.98579e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSALT-SGSSHE-QYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSAL  SGSS + QYFGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|AAA61026.1|</Hit_id>
+  <Hit_def>T-cell receptor beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA61026</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.45251e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>VVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>VVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARESTSDPKNEQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>VVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +    + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>dbj|BAF94824.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94824</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.87132e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPTRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKGKFLINHASLTLSTLTVTSAHPEDSSFYICSA------TTETQYFGPGTRLLV</Hsp_hseq>
+      <Hsp_midline>AVVSQHP+ VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV K KFLINHAS TLSTLTVTSAHPEDS FY+CSA      +T+TQYFGPGT+L V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|ABO26896.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>ABO26896</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>3.11347e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLIIHASLTLSTLTVTSAHPEDSSFNICSAR--NGQNYNEQFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLI HAS TLSTLTVTSAHPEDS F +CSA   +G + + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|2WBJ|D</Hit_id>
+  <Hit_def>Chain D, Ob Tcr [Homo sapiens] &gt;pdb|2WBJ|H Chain H, Ob Tcr [Homo sapiens]</Hit_def>
+  <Hit_accession>2WBJ_D</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>4.54699e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVISKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARDLTSGANNEQFFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +  + + Q+FGPGT+LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|4OZI|F</Hit_id>
+  <Hit_def>Chain F, T-cell Receptor, S2, Beta Chain [Homo sapiens] &gt;pdb|4OZI|H Chain H, T-cell Receptor, S2, Beta Chain [Homo sapiens]</Hit_def>
+  <Hit_accession>4OZI_F</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>4.61611e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>VVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>VVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAGVG---GQETQYFGPGTRLLVL</Hsp_hseq>
+      <Hsp_midline>VVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA  G     +TQYFGPGT+L VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|4DZB|B</Hit_id>
+  <Hit_def>Chain B, Vbeta2 (mait T Cell Receptor) [Homo sapiens]</Hit_def>
+  <Hit_accession>4DZB_B</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>5.58297e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVISKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSART-SGDFGE-QFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   SG   + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|4PJ8|D</Hit_id>
+  <Hit_def>Chain D, Tcr-beta [Homo sapiens]</Hit_def>
+  <Hit_accession>4PJ8_D</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>5.81384e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVISKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSART-SGDFGE-QFFGPGTRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   SG   + Q+FGPGT+LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|AAA57393.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain, partial [Pan troglodytes]</Hit_def>
+  <Hit_accession>AAA57393</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>7.68697e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRCLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARGGAN---EKLFFGSGTQLSVL</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECR LD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA  G+    +  +FG GTQL+VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|ABO27013.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>ABO27013</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>9.13937e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAEGGYYGYT----FGSGTRLTVV</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA  G    T    FG GT+LTV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>dbj|BAF94623.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94623</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>1.08845e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPG</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAREWRGQ--ETQYFGPG</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA    G   +TQYFGPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|AAC08956.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>AAC08956</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>1.33311e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSA----SPTGETQYFGPGTRLLVL</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA      + +TQYFGPGT+L VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|AAB31887.1|</Hit_id>
+  <Hit_def>T-cell receptor beta chain, TCR beta {TLC RM70} [human, Peptide, 124 aa] [Homo sapiens]</Hit_def>
+  <Hit_accession>AAB31887</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>1.62506e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICS--ASMQANTGELFFGEGSRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CS  A   ++T   +FG G++LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>dbj|BAF94833.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94833</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>1.73655e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSASVAT-SEGPKMFFGEGSRLTVL</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   + S     +FG G++LTVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>dbj|BAF94863.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94863</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>4.13697e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALA--GSGSSTDTQ-YFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSFMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYTCSASASRGQGVSTNEKLFFGSGTQLSV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+S MLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY CSA A  G G ST+ + +FG GTQL+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>dbj|BAN84647.1|</Hit_id>
+  <Hit_def>T-cell receptor beta chain, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAN84647</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>5.75013e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARDQTG---NTIYFGEGSWLTVV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA   +G   +T YFG G+ LTV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>dbj|BAS03860.1|</Hit_id>
+  <Hit_def>T cell receptor beta chain V-D-J-region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAS03860</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>6.96593e-54</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>HPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALA-GSGSSTDTQYFGPGTQLTV</Hsp_qseq>
+      <Hsp_hseq>HPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARDLRKGTGYDEQYFGPGTSLTV</Hsp_hseq>
+      <Hsp_midline>HPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA     G+  D QYFGPGT LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|4WNQ|B</Hit_id>
+  <Hit_def>Chain B, Tcr Variable Beta 2 (trbv20) Chain And Tcr Constant Beta Chain [Homo sapiens] &gt;pdb|4WNQ|D Chain D, Tcr Variable Beta 2 (trbv20) Chain And Tcr Constant Beta Chain [Homo sapiens] &gt;pdb|4WO4|D Chain D, Tcr Variable Beta 2 (trvb20) Chain And Tcr Constant Beta [Homo sapiens]</Hit_def>
+  <Hit_accession>4WNQ_B</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>7.66065e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSRVISKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAPGGVGA-----FFGQGTRLTVV</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA  G G+     +FG GT+LTV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|3O4L|E</Hit_id>
+  <Hit_def>Chain E, T-cell Receptor, Beta Chain [Homo sapiens]</Hit_def>
+  <Hit_accession>3O4L_E</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>8.92332e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GAVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARDGTGNGYT---FGSGTRLTVV</Hsp_hseq>
+      <Hsp_midline>GAVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA  G+G+      FG GT+LTV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|AAA60689.1|</Hit_id>
+  <Hit_def>T-cell receptor V-region, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA60689</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>1.59785e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQLTVL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSRVICKSGTSVKIECRSLDFQATTMFWYRQFPKKSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSASWVDGEA----FFGQGTRLTVV</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPK+SLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSA    G +    +FG GT+LTV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>dbj|BAF94866.1|</Hit_id>
+  <Hit_def>T cell receptor beta variable 20, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAF94866</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>1.04976e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>AVVSQHPSMVIVKSGTSVKIECRSLDTNIHTMFWYRQFPKQSLMLMATSHQGFNAIYEQGVVKDKFLINHASPTLSTLTVTSAHPEDSGFYVCSALAGSGSSTDTQYFGPGTQL</Hsp_qseq>
+      <Hsp_hseq>AVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSAL--DRAKTGELFFGEGSRL</Hsp_hseq>
+      <Hsp_midline>AVVSQHPS VI KSGTSVKIECRSLD    TMFWYRQFPKQSLMLMATS++G  A YEQGV KDKFLINHAS TLSTLTVTSAHPEDS FY+CSAL    + T   +FG G++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216046246</Statistics_db-num>
+      <Statistics_db-len>550339452</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
