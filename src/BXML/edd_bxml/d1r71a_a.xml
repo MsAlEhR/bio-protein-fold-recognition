@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_187749</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1r71a_a</BlastOutput_query-def>
+  <BlastOutput_query-len>114</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_187749</Iteration_query-ID>
+  <Iteration_query-def>d1r71a_a</Iteration_query-def>
+  <Iteration_query-len>114</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1R71|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional Repressor Protein Korb [Escherichia coli] &gt;pdb|1R71|B Chain B, Transcriptional Repressor Protein Korb [Escherichia coli] &gt;pdb|1R71|C Chain C, Transcriptional Repressor Protein Korb [Escherichia coli] &gt;pdb|1R71|D Chain D, Transcriptional Repressor Protein Korb [Escherichia coli]</Hit_def>
+  <Hit_accession>1R71_A</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>3.58208e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011205828.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ParB/RepB/Spo0J family partition protein [Proteobacteria] &gt;ref|YP_758731.1| KorB partitioning and repressor protein [Pseudomonas aeruginosa] &gt;sp|P07674.1| RecName: Full=Transcriptional repressor protein KorB [Escherichia coli] &gt;gb|AAK73379.1| KorB [Cloning vector pRK310] &gt;gb|AAS78893.1| KorB [Cloning vector pLAFR] &gt;gb|AAU93749.1| KorB [Integration vector pJK202] &gt;gb|ADU90767.1| KorB partitioning and repressor protein [uncultured bacterium] &gt;gb|ADU90852.1| KorB partitioning and repressor protein [uncultured bacterium] &gt;gb|ADU90934.1| Transcriptional repressor protein korB [uncultured bacterium] &gt;gb|AFR44109.1| transcriptional repressor protein/plasmid partitioning protein [uncultured bacterium] &gt;gb|AFR44350.1| transcriptional repressor protein/plasmid partitioning protein [uncultured bacterium] &gt;gb|AVR63949.1| Transcriptional repressor protein KorB [Escherichia coli] &gt;gb|AVR64115.1| Transcriptional repressor protein KorB [Escherichia coli] &gt;gb|KJX85289.1| Transcriptional repressor protein korB [Agrobacterium tumefaciens] &gt;gb|RIQ76268.1| ParB/RepB/Spo0J family partition protein [Bordetella avium] &gt;dbj|BAI47892.1| KorB [Helper vector pRH210] &gt;dbj|BAI47935.1| KorB [Helper vector pRH220] &gt;dbj|BAJ06622.1| KorB [Cloning vector pKS800] &gt;dbj|BAW98484.1| korB [Plant binary vector pLC41] &gt;emb|CAA29790.1| korB protein (AA 1-358) (plasmid) [[Enterobacter] aerogenes] [Klebsiella aerogenes] &gt;emb|CAA68503.1| korB [Plasmid RK2] &gt;emb|CAG30912.1| ParB equivalent nuclease [uncultured bacterium] &gt;emb|CAK12743.1| KorB partitioning and repressor protein [Pseudomonas aeruginosa] &gt;emb|SQC99111.1| Chromosome (plasmid) partitioning protein ParB, Stage 0 sporulation protein J [Enterobacter cloacae] &gt;tpe|CAJ85737.1| TPA: KorB partitioning and repressor protein [Birmingham IncP-alpha plasmid]</Hit_def>
+  <Hit_accession>WP_011205828</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>1.9675e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_046797626.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Rhizobium sp. LC145] &gt;gb|KKX24206.1| plasmid stablization protein ParB [Rhizobium sp. LC145] &gt;gb|TKT46087.1| ParB/RepB/Spo0J family partition protein [Rhizobiaceae bacterium LC148]</Hit_def>
+  <Hit_accession>WP_046797626</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>6.06458e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_087639198.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Klebsiella pneumoniae] &gt;gb|OUY24189.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_087639198</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>6.91852e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_047340329.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas oryzae]</Hit_def>
+  <Hit_accession>WP_047340329</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>2.14346e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKNKKKGDIAKELGKSPAFITQHVTLLDLPEPVADAFNSGRVRDVTVVNELVTAYKKKPAEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAK KKKGDIAKE+GKSPAFITQHVTLLDLPE +ADAFN+GRVRDVTVVNELVTA+KK+P EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_103057689.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas oryzae] &gt;gb|AZK89860.1| chromosome partitioning protein ParB [Xanthomonas oryzae pv. oryzae] &gt;gb|PNR84153.1| plasmid stablization protein ParB [Xanthomonas oryzae pv. oryzae]</Hit_def>
+  <Hit_accession>WP_103057689</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>2.26303e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKNKKKGDIAKELGKSPAFITQHVTLLDLPEPVADAFNSGRVRDVTVVNELVTAYKKKPAEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAK KKKGDIAKE+GKSPAFITQHVTLLDLPE +ADAFN+GRVRDVTVVNELVTA+KK+P EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AKK65863.1|</Hit_id>
+  <Hit_def>plasmid stablization protein ParB [Xanthomonas oryzae pv. oryzicola]</Hit_def>
+  <Hit_accession>AKK65863</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>2.42665e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKNKKKGDIAKELGKSPAFITQHVTLLDLPEPVADAFNSGRVRDVTVVNELVTAYKKKPAEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAK KKKGDIAKE+GKSPAFITQHVTLLDLPE +ADAFN+GRVRDVTVVNELVTA+KK+P EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_039445281.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas vasicola] &gt;gb|KGR62624.1| plasmid stablization protein ParB [Xanthomonas vasicola]</Hit_def>
+  <Hit_accession>WP_039445281</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>6.56519e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADYIGRELAKGKKKGEIAKELGKSPAFITQHVTLLDLPEPIAAAFNTGRVRDVTVVNELVTAFKKRPTEVQDWLEDETQEITRGSVKLLREFLDE</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIAD+IGRELAKGKKKG+IAKE+GKSPAFITQHVTLLDLPE IA AFNTGRVRDVTVVNELVTAFKKRP EV+ WL+D+TQEITRG+VKLLREFLDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KGP23789.2|</Hit_id>
+  <Hit_def>plasmid stablization protein ParB [Xanthomonas citri pv. fuscans] &gt;gb|KGT57578.2| plasmid stablization protein ParB [Xanthomonas citri pv. fuscans]</Hit_def>
+  <Hit_accession>KGP23789</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>8.37985e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADYIGRELAKGKKKGEIAKELGKSPAFITQHVTLLDLPEPIAAAFNTGRVRDVTVVNELVTAFKKRPTEVQDWLEDETQEITRGSVKLLREFLDE</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIAD+IGRELAKGKKKG+IAKE+GKSPAFITQHVTLLDLPE IA AFNTGRVRDVTVVNELVTAFKKRP EV+ WL+D+TQEITRG+VKLLREFLDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_017160888.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas phaseoli]</Hit_def>
+  <Hit_accession>WP_017160888</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>9.0126e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKNKKKSEIAKEIGKSPAFITQHVTLLDLPEPVADAFNTGRVRDVTVVNELVTAYKKKPSEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAK KKK +IAKEIGKSPAFITQHVTLLDLPE +ADAFNTGRVRDVTVVNELVTA+KK+P EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_042825700.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas citri]</Hit_def>
+  <Hit_accession>WP_042825700</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.00245e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADYIGRELAKGKKKGEIAKELGKSPAFITQHVTLLDLPEPIAAAFNTGRVRDVTVVNELVTAFKKRPTEVQDWLEDETQEITRGSVKLLREFLDE</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIAD+IGRELAKGKKKG+IAKE+GKSPAFITQHVTLLDLPE IA AFNTGRVRDVTVVNELVTAFKKRP EV+ WL+D+TQEITRG+VKLLREFLDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_017169485.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas phaseoli]</Hit_def>
+  <Hit_accession>WP_017169485</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.00461e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKNKKKSEIAKEIGKSPAFITQHVTLLDLPEPVADAFNTGRVRDVTVVNELVTAYKKKPSEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAK KKK +IAKEIGKSPAFITQHVTLLDLPE +ADAFNTGRVRDVTVVNELVTA+KK+P EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_017168793.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas phaseoli]</Hit_def>
+  <Hit_accession>WP_017168793</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>1.10772e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKNKKKSEIAKEIGKSPAFITQHVTLLDLPEPVADAFNTGRVRDVTVVNELVTAYKKKPSEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAK KKK +IAKEIGKSPAFITQHVTLLDLPE +ADAFNTGRVRDVTVVNELVTA+KK+P EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_075305502.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Burkholderia sp. SRS-W-2-2016] &gt;gb|OLL27292.1| chromosome partitioning protein ParB [Burkholderia sp. SRS-W-2-2016]</Hit_def>
+  <Hit_accession>WP_075305502</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>9.50156e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKTEIAKELGKSPAFITQHVTLLDLPDAIAQAFNTGRVRDVTVVNELVTAYKKKPKEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAKGKKK +IAKE+GKSPAFITQHVTLLDLP+ IA AFNTGRVRDVTVVNELVTA+KK+P+EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_017169816.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas phaseoli]</Hit_def>
+  <Hit_accession>WP_017169816</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.24023e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKNKKKSDIAKEIGKSPAFITQHVTLLDLPEPIAEAFNTGRVRDVTVVNELVTAYKKKPKEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAK KKK DIAKEIGKSPAFITQHVTLLDLPE IA+AFNTGRVRDVTVVNELVTA+KK+P+EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_017122965.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ParB/RepB/Spo0J family partition protein [Xanthomonas] &gt;gb|KEZ95097.1| plasmid stablization protein ParB [Xanthomonas vasicola pv. vasculorum NCPPB 895]</Hit_def>
+  <Hit_accession>WP_017122965</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.32366e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKNKKKSDIAKEIGKSPAFITQHVTLLDLPEPIAEAFNTGRVRDVTVVNELVTAYKKKPKEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAK KKK DIAKEIGKSPAFITQHVTLLDLPE IA+AFNTGRVRDVTVVNELVTA+KK+P+EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_017171117.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas phaseoli]</Hit_def>
+  <Hit_accession>WP_017171117</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.3381e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKNKKKSDIAKEIGKSPAFITQHVTLLDLPEPIAEAFNTGRVRDVTVVNELVTAYKKKPKEVEAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAK KKK DIAKEIGKSPAFITQHVTLLDLPE IA+AFNTGRVRDVTVVNELVTA+KK+P+EVEAWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_033482538.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas phaseoli]</Hit_def>
+  <Hit_accession>WP_033482538</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>4.46224e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKNKKKSDIAKEIGKSPAFITQHVTLLDLPEPIAEAFNTDRVRDVTVINELVTAYKKKPSEVEAWLDDAEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAK KKK DIAKEIGKSPAFITQHVTLLDLPE IA+AFNT RVRDVTV+NELVTA+KK+P EVEAWLDD  QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_017167687.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas phaseoli]</Hit_def>
+  <Hit_accession>WP_017167687</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>5.10815e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKNKKKSDIAKEIGKSPAFITQHVTLLDLPEPIAEAFNTDRVRDVTVINELVTAYKKKPSEVEAWLDDAEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAK KKK DIAKEIGKSPAFITQHVTLLDLPE IA+AFNT RVRDVTV+NELVTA+KK+P EVEAWLDD  QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_011666368.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Bordetella pertussis] &gt;ref|YP_787924.1| KorB [Bordetella pertussis] &gt;dbj|BAF33443.1| KorB [Bordetella pertussis]</Hit_def>
+  <Hit_accession>WP_011666368</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>2.03885e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPEEVAAWLADDTQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK PEEV AWL DDTQE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>emb|CCD35602.1|</Hit_id>
+  <Hit_def>Chromosome (plasmid) partitioning protein ParB [Candidatus Paraburkholderia kirkii UZHbot1]</Hit_def>
+  <Hit_accession>CCD35602</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>5.08919e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTQREIADFIGRELAKGKKKNDIAKELGKSPAFITQHVTLLDLPEAIAGAFNADRVRDVTVVNELVTAYKKKPQEVDAWLKDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKK DIAKE+GKSPAFITQHVTLLDLPE IA AFN  RVRDVTVVNELVTA+KK+P+EV+AWL D+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>emb|SAL62448.1|</Hit_id>
+  <Hit_def>parB-like partition proteins [Caballeronia humi]</Hit_def>
+  <Hit_accession>SAL62448</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>8.57361e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKSDIAKELGKSPAFVTQHVTLLDLPESIAGAFNADRVRDVTVVNELVTAYKKKPQAVNAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAKGKKK DIAKE+GKSPAF+TQHVTLLDLPE IA AFN  RVRDVTVVNELVTA+KK+P+ V AWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_087670389.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Caballeronia humi]</Hit_def>
+  <Hit_accession>WP_087670389</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>9.81602e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKSDIAKELGKSPAFVTQHVTLLDLPESIAGAFNADRVRDVTVVNELVTAYKKKPQAVNAWLDDEEQEITRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELTPREIADFIGRELAKGKKK DIAKE+GKSPAF+TQHVTLLDLPE IA AFN  RVRDVTVVNELVTA+KK+P+ V AWLDD+ QEITRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_102605944.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ParB/RepB/Spo0J family partition protein [Pseudomonas] &gt;gb|AKI06442.1| KorB [uncultured bacterium] &gt;gb|AKI06595.1| KorB [uncultured bacterium] &gt;gb|PMU17583.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A9] &gt;gb|PMU27087.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A13] &gt;gb|PMU35992.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A8] &gt;gb|PMU38661.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A14] &gt;gb|PMU50714.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A6] &gt;gb|PMU62044.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A3] &gt;gb|PMU71162.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A1] &gt;gb|PMU78047.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A5] &gt;gb|PMV05971.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A11] &gt;gb|PMV07214.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A4] &gt;gb|PMX64249.1| chromosome partitioning protein ParB [Pseudomonas sp. GP01-A15]</Hit_def>
+  <Hit_accession>WP_102605944</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>2.70705e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRAKDVTVINELVTAYKKNPDEVGAWLADDSQELTRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AFR43874.1|</Hit_id>
+  <Hit_def>transcriptional repressor protein/plasmid partitioning protein [uncultured bacterium]</Hit_def>
+  <Hit_accession>AFR43874</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>2.76639e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRAKDVTVINELVTAYKKNPDEVGAWLADDSQELTRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AEV57068.1|</Hit_id>
+  <Hit_def>KorB [uncultured bacterium] &gt;gb|AEV57413.1| KorB [uncultured bacterium] &gt;gb|OZA23639.1| chromosome partitioning protein ParB [Hydrogenophilales bacterium 17-64-11]</Hit_def>
+  <Hit_accession>AEV57068</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>2.9205e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRAKDVTVINELVTAYKKNPDEVGAWLADDSQELTRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_050570533.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas arboricola]</Hit_def>
+  <Hit_accession>WP_050570533</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>3.68663e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKSEIAKEIGKSPAFVTQHVTLLDLPEPIADAFNTGRAKDVTVINELVTAFKKNPEEVGAWLADDSQELTRGSVKLLREYLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKK +IAKEIGKSPAF+TQHVTLLDLPE IADAFNTGR +DVTV+NELVTAFKK PEEV AWL DD+QE+TRG+VKLLRE+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_058362017.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein, partial [Xanthomonas translucens]</Hit_def>
+  <Hit_accession>WP_058362017</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>1.24606e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADYIGRELAKGKKKSEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRAKDVTVINELVTAFKKNPEEVGAWLADDSQELTRGSVKLLREYLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIAD+IGRELAKGKKK +IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTAFKK PEEV AWL DD+QE+TRG+VKLLRE+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_046833095.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas citri] &gt;gb|KGK66852.1| plasmid stablization protein ParB [Xanthomonas citri pv. fuscans]</Hit_def>
+  <Hit_accession>WP_046833095</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.33937e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVSAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>dbj|BBE29216.1|</Hit_id>
+  <Hit_def>KorB protein [uncultured bacterium]</Hit_def>
+  <Hit_accession>BBE29216</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.39872e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNTGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFNTGR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>emb|CDG15372.1|</Hit_id>
+  <Hit_def>Chromosome (plasmid) partitioning protein ParB [Yersinia pestis 16/95]</Hit_def>
+  <Hit_accession>CDG15372</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.5254e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNTGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFNTGR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_031943993.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [uncultured bacterium pMCBF6] &gt;ref|YP_009063118.1| KorB protein [uncultured bacterium pMCBF6] &gt;gb|AAY97968.1| KorB [Plasmid pMCBF1] &gt;gb|ABO36605.1| KorB protein [uncultured bacterium pMCBF6]</Hit_def>
+  <Hit_accession>WP_031943993</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.62807e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEVFNNGRAKDVTVVNELVTAYKKNPDEVGAWLADDSQELTRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+ FN GR +DVTVVNELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_090414687.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Nitrosomonas halophila] &gt;emb|SDY51934.1| chromosome partitioning protein, ParB family [Nitrosomonas halophila]</Hit_def>
+  <Hit_accession>WP_090414687</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>2.78211e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPESIAEAFNSGRAKDVTVINELVTAHKKNPDEVETWLADDIQEITRGYVKLLREFLND</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA KK P+EVE WL DD QEITRG VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AUH15119.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Dickeya solani]</Hit_def>
+  <Hit_accession>AUH15119</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.87264e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_015061184.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Delftia sp. KV29] &gt;ref|YP_006962518.1| KorB repressor and partitioning protein [Delftia sp. KV29] &gt;gb|AFJ11771.1| KorB repressor and partitioning protein [Delftia sp. KV29]</Hit_def>
+  <Hit_accession>WP_015061184</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>3.26313e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_001274868.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ParB/RepB/Spo0J family partition protein [Gammaproteobacteria] &gt;gb|EHY67097.1| ParB-like partition protein [Salmonella enterica subsp. houtenae str. ATCC BAA-1581] &gt;gb|RQC67753.1| chromosome partitioning protein ParB [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_001274868</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>3.51394e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_011114060.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ParB/RepB/Spo0J family partition protein [Bacteria] &gt;ref|NP_904308.1| KorB [Delftia acidovorans] &gt;ref|YP_006316030.1| KorB [Mycobacteroides abscessus subsp. bolletii F1725] &gt;ref|YP_006963088.1| KorB protein [Variovorax sp. DB1] &gt;ref|YP_007878464.1| KorB [Comamonas sp. 7D-2] &gt;ref|YP_009062656.1| KorB protein [Acidovorax avenae subsp. avenae] &gt;gb|AAR31022.1| transcriptional repressor [Cupriavidus pinatubonensis JMP134] &gt;gb|AAZ65744.1| ParB-like partition protein [Cupriavidus pinatubonensis JMP134] &gt;gb|ABI92146.1| parB-like partition proteins [Burkholderia ambifaria AMMD] &gt;gb|ADV02258.1| parB-like partition protein [Alicycliphilus denitrificans BC] &gt;gb|AEV56685.1| KorB [uncultured bacterium] &gt;gb|AEV56739.1| KorB [uncultured bacterium] &gt;gb|AEV56794.1| KorB [uncultured bacterium] &gt;gb|AEV56946.1| KorB [uncultured bacterium] &gt;gb|AEV57001.1| KorB [uncultured bacterium] &gt;gb|AEV57236.1| KorB [uncultured bacterium] &gt;gb|AEV57294.1| KorB [uncultured bacterium] &gt;gb|AEV57352.1| KorB [uncultured bacterium] &gt;gb|AFJ38153.1| KorB [Mycobacteroides abscessus subsp. bolletii F1725] &gt;gb|AFK33025.1| KorB protein [Variovorax sp. DB1] &gt;gb|AFR44171.1| transcriptional repressor protein/plasmid partitioning protein [uncultured bacterium] &gt;gb|AFR44403.1| transcriptional repressor protein/plasmid partitioning protein [uncultured bacterium] &gt;gb|AFV47220.1| plasmid partitioning protein [uncultured bacterium] &gt;gb|AGH89129.1| KorB:transcriptional repressor protein/plasmid partitioning protein [uncultured bacterium] &gt;gb|AGJ01265.1| Transcriptional repressor protein korB [Mycobacteroides abscessus subsp. bolletii INCQS 00594] &gt;gb|AGJ70696.1| KorB [Comamonas sp. 7D-2] &gt;gb|AJM90442.1| KorB protein [Achromobacter xylosoxidans] &gt;gb|AJS10263.1| KorB [Proteus mirabilis] &gt;gb|AJS10327.1| KorB [Bordetella bronchiseptica] &gt;gb|AJY20325.1| transcriptional repressor protein korB [Burkholderia ambifaria AMMD] &gt;gb|ALZ45612.1| korB protein [uncultured bacterium] &gt;gb|ANC47687.1| chromosome partitioning protein ParB [Pandoraea pnomenusa] &gt;gb|ANC48748.1| transcriptional repressor protein/ plasmid partitioning protein, ParB/ Sulfiredoxin [Variovorax paradoxus] &gt;gb|ANC48811.1| transcriptional repressor protein/ plasmid partitioning protein, ParB/ Sulfiredoxin [Variovorax paradoxus] &gt;gb|APW41043.1| transcriptional regulator [Rhodoferax koreense] &gt;gb|ART90254.1| chromosome (plasmid) partitioning protein ParB [uncultured bacterium] &gt;gb|ART90522.1| chromosome (plasmid) partitioning protein ParB [uncultured bacterium] &gt;gb|AUZ82743.1| transcriptional regulator [Aeromonas sp. ASNIH1] &gt;gb|AVN57693.1| transcriptional regulator [uncultured bacterium] &gt;gb|AWF79041.1| KorB [Pseudomonas aeruginosa] &gt;gb|EPQ20877.1| plasmid stablization protein ParB [Mycobacteroides abscessus subsp. bolletii CRM-0020] &gt;gb|ERI53320.1| plasmid stablization protein ParB [Pseudomonas sp. EGD-AK9] &gt;gb|KJX02722.1| plasmid stablization protein ParB [Enterobacter hormaechei subsp. xiangfangensis] &gt;gb|KQB91134.1| plasmid stablization protein ParB [Xanthomonas phaseoli pv. syngonii] &gt;gb|KWT78805.1| Chromosome (plasmid) partitioning protein ParB [Variovorax sp. WDL1] &gt;gb|OCN12829.1| chromosome partitioning protein ParB [Serratia marcescens subsp. marcescens] &gt;gb|OCN13736.1| chromosome partitioning protein ParB [Serratia marcescens subsp. marcescens] &gt;gb|OCN34657.1| chromosome partitioning protein ParB [Serratia marcescens subsp. marcescens] &gt;gb|OCN35499.1| chromosome partitioning protein ParB [Serratia marcescens subsp. marcescens] &gt;gb|OCO53356.1| chromosome partitioning protein ParB [Serratia marcescens subsp. marcescens] &gt;gb|OCO86121.1| chromosome partitioning protein ParB [Serratia marcescens subsp. marcescens] &gt;gb|OCO87695.1| chromosome partitioning protein ParB [Serratia marcescens subsp. marcescens] &gt;gb|OFU69440.1| chromosome partitioning protein ParB [Achromobacter xylosoxidans] &gt;gb|OQP82160.1| chromosome partitioning protein ParB [Xanthomonas phaseoli pv. syngonii LMG 9055] &gt;gb|OUL99344.1| chromosome partitioning protein ParB [Variovorax sp. JS1663] &gt;gb|PEH70814.1| transcriptional regulator [Burkholderia ambifaria] &gt;gb|PNG50585.1| Transcriptional repressor protein KorB [Variovorax sp. B2] &gt;gb|PNG51454.1| Transcriptional repressor protein KorB [Variovorax sp. B4] &gt;gb|PPV34171.1| transcriptional regulator [Pseudomonas oleovorans] &gt;gb|QBY56571.1| ParB/RepB/Spo0J family partition protein [Cupriavidus oxalaticus] &gt;gb|TEW80188.1| ParB/RepB/Spo0J family partition protein [Serratia marcescens subsp. marcescens] &gt;dbj|BAC82031.1| KorB [Delftia acidovorans] &gt;dbj|BAP34623.1| KorB protein [Acidovorax avenae subsp. avenae] &gt;emb|CAD97524.1| KorB protein [uncultured bacterium] &gt;emb|CAG26046.1| KorB DNA binding protein [uncultured bacterium] &gt;emb|CAI10787.1| KorB protein [uncultured bacterium] &gt;emb|CAJ15561.1| KorB repressor and partitioning protein [uncultured bacterium] &gt;emb|CHG95103.1| ParB partition protein [Salmonella enterica subsp. enterica serovar Typhi] &gt;emb|CUB00661.1| ParB family protein [Thiomonas bhubaneswarensis] &gt;emb|CUK23599.1| Transcriptional repressor protein korB [Achromobacter xylosoxidans] &gt;emb|SCZ48446.1| ParB family protein [Pseudomonas psychrotolerans] &gt;emb|SDM76864.1| ParB family protein [Oryzisolibacter propanilivorax] &gt;emb|SDP33076.1| ParB family protein [Paraburkholderia sediminicola] &gt;emb|SHL11870.1| ParB family protein [Paraburkholderia terricola]</Hit_def>
+  <Hit_accession>WP_011114060</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>3.66961e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_110466956.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xylophilus ampelinus] &gt;gb|PYE73389.1| ParB family protein [Xylophilus ampelinus]</Hit_def>
+  <Hit_accession>WP_110466956</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>3.75001e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_010890108.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Klebsiella aerogenes] &gt;ref|NP_044216.1| KorB [[Enterobacter] aerogenes] [Klebsiella aerogenes] &gt;sp|Q52313.2| RecName: Full=Transcriptional repressor protein KorB [Escherichia coli] &gt;pir|T08475| transcription repressor korB - Enterobacter aerogenes plasmid R751 [Klebsiella aerogenes] &gt;gb|AAC64419.1| KorB (plasmid) [[Enterobacter] aerogenes] [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_010890108</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>3.9588e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_012478180.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ParB/RepB/Spo0J family partition protein [Proteobacteria] &gt;ref|YP_001967651.1| KorB [Comamonas testosteroni CNB-1] &gt;ref|YP_005351594.1| KorB [Comamonas testosteroni] &gt;ref|YP_006961510.1| KorB [Delftia acidovorans] &gt;ref|YP_006961906.1| KorB [Delftia acidovorans] &gt;gb|ABM06187.1| KorB [Comamonas testosteroni CNB-1] &gt;gb|ADP19897.1| transcriptional repressor protein KorB [Achromobacter xylosoxidans A8] &gt;gb|AEA41944.1| KorB [Delftia acidovorans] &gt;gb|AEV57181.1| KorB [uncultured bacterium] &gt;gb|AEV91110.1| KorB [synthetic construct] &gt;gb|AEX00445.1| KorB [Comamonas testosteroni] &gt;gb|AEX00678.1| KorB [Delftia acidovorans] &gt;gb|AKD43477.1| Transcriptional repressor protein KorB [Aminobacter sp. MSH1] &gt;gb|AMR82507.1| chromosome partitioning protein ParB [Cupriavidus nantongensis] &gt;gb|AQV99527.1| chromosome partitioning protein ParB [Cupriavidus necator] &gt;gb|EYS85026.1| plasmid stablization protein ParB [Cupriavidus sp. SK-4] &gt;gb|KDP87017.1| plasmid stablization protein ParB [Cupriavidus sp. SK-3] &gt;gb|KWT70147.1| Chromosome (plasmid) partitioning protein ParB [Comamonas testosteroni] &gt;emb|SEJ87869.1| chromosome partitioning protein, ParB family [Pseudomonas linyingensis]</Hit_def>
+  <Hit_accession>WP_012478180</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>3.97772e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKSEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNTGRAKDVTVINELVTAFKKNPEEVGAWLADDSQELTRGSVKLLREYLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKK +IAKEIGKSPAF+TQHVTLLDLPE IA+AFNTGR +DVTV+NELVTAFKK PEEV AWL DD+QE+TRG+VKLLRE+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_074052983.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xanthomonas vesicatoria] &gt;gb|APO97596.1| chromosome partitioning protein ParB [Xanthomonas vesicatoria]</Hit_def>
+  <Hit_accession>WP_074052983</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>4.00193e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_067513578.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Acidovorax sp. CCH12-A4]</Hit_def>
+  <Hit_accession>WP_067513578</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>4.08961e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_011255195.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Achromobacter xylosoxidans] &gt;ref|YP_195900.1| transcriptional repressor protein KorB [Achromobacter xylosoxidans A8] &gt;emb|CAI47878.1| transcriptional repressor protein KorB [Achromobacter xylosoxidans A8]</Hit_def>
+  <Hit_accession>WP_011255195</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>4.31316e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKSEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNTGRAKDVTVINELVTAFKKNPEEVGAWLADDSQELTRGSVKLLREYLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKK +IAKEIGKSPAF+TQHVTLLDLPE IA+AFNTGR +DVTV+NELVTAFKK PEEV AWL DD+QE+TRG+VKLLRE+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_014386466.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Comamonas testosteroni] &gt;ref|YP_005352136.1| KorB [Comamonas testosteroni] &gt;gb|AEX00603.1| KorB [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_014386466</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>4.36434e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|AFS51502.1|</Hit_id>
+  <Hit_def>KorB partitioning protein [uncultured bacterium]</Hit_def>
+  <Hit_accession>AFS51502</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>4.55383e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNDLTPREIADFVGRELAKGKKKGDIAKEIGKSASFVSQHVTLLDLPDPIAEAFNSGRVKDVTLINELVTAHKKAPEEVTEWLEDDTQEVTRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRN+LTPREIADF+GRELAKGKKKGDIAKEIGKS +F++QHVTLLDLP+ IA+AFN+GRV+DVT++NELVTA KK PEEV  WL+DDTQE+TRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_041025158.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ParB/RepB/Spo0J family partition protein [Proteobacteria] &gt;gb|PNM93327.1| chromosome partitioning protein ParB [Achromobacter xylosoxidans]</Hit_def>
+  <Hit_accession>WP_041025158</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>4.65753e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFVTQHVTLLDLPEPIAEAFNSGRGKDVTVINELVTAYKKNPDEVAAWLADDSQELTRGSVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAF+TQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P+EV AWL DD+QE+TRG+VKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_004086678.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xylella fastidiosa] &gt;ref|YP_007354927.1| parB-like [Xylella fastidiosa subsp. multiplex] &gt;gb|ACB93649.1| parB-like partition protein [Xylella fastidiosa M23] &gt;gb|AGC23511.1| parB-like [Xylella fastidiosa subsp. multiplex] &gt;gb|EAO12318.1| ParB-like partition protein [Xylella fastidiosa Dixon] &gt;gb|RHW36322.1| ParB/RepB/Spo0J family partition protein [Xylella fastidiosa subsp. fastidiosa] &gt;gb|RUA35969.1| ParB/RepB/Spo0J family partition protein [Xylella fastidiosa subsp. fastidiosa] &gt;gb|RUA36018.1| ParB/RepB/Spo0J family partition protein [Xylella fastidiosa subsp. fastidiosa] &gt;gb|RWA30442.1| chromosome partitioning protein ParB [Xylella fastidiosa subsp. fastidiosa] &gt;gb|RWA39741.1| chromosome partitioning protein ParB [Xylella fastidiosa subsp. fastidiosa]</Hit_def>
+  <Hit_accession>WP_004086678</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>5.02705e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>ETDQVIENLQRNELTAREIADFIGRELAKNKKKSDIAKEIGKSPAFITQHITLLDLPEPIADVFNTGRVRDVTMVNELVTAYKKKPSEVGAWLKDEDQEITRGSVKLLREFLEE</Hsp_hseq>
+      <Hsp_midline>E DQVIENLQRNELT REIADFIGRELAK KKK DIAKEIGKSPAFITQH+TLLDLPE IAD FNTGRVRDVT+VNELVTA+KK+P EV AWL D+ QEITRG+VKLLREFL+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>emb|CAJ43285.1|</Hit_id>
+  <Hit_def>KorB partitioning and repressor protein [uncultured bacterium]</Hit_def>
+  <Hit_accession>CAJ43285</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>5.66347e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNDLTPREIADFVGRELAKGKKKGDIAKEIGKSASFVSQHVTLLDLPDPIAEAFNSGRVKDVTLINELVTAHKKAPEEVTEWLEDDTQEVTRGSVKLLREFLDD</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRN+LTPREIADF+GRELAKGKKKGDIAKEIGKS +F++QHVTLLDLP+ IA+AFN+GRV+DVT++NELVTA KK PEEV  WL+DDTQE+TRG+VKLLREFLD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_105730332.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Malikia spinosa] &gt;gb|PRD68121.1| chromosome partitioning protein ParB [Malikia spinosa]</Hit_def>
+  <Hit_accession>WP_105730332</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>7.34514e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>EADQVIENLQRNELTAREIADFIGRELAKGKKKGEIAKEIGKSPAFITQHVTLLDLPEPIAEAFNSGRCKDVTVINELVTAYKKNPGEVAVWLADDSQELTRGTVKLLREFLED</Hsp_hseq>
+      <Hsp_midline>EADQVIENLQRNELT REIADFIGRELAKGKKKG+IAKEIGKSPAFITQHVTLLDLPE IA+AFN+GR +DVTV+NELVTA+KK P EV  WL DD+QE+TRGTVKLLREFL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_046417480.1|</Hit_id>
+  <Hit_def>ParB/RepB/Spo0J family partition protein [Xylella fastidiosa] &gt;gb|ARO69787.1| chromosome partitioning protein ParB [Xylella fastidiosa subsp. pauca] &gt;gb|AVI21861.1| chromosome partitioning protein ParB [Xylella fastidiosa] &gt;gb|AVI23909.1| chromosome partitioning protein ParB [Xylella fastidiosa] &gt;gb|KIA57325.1| plasmid stablization protein ParB [Xylella fastidiosa] &gt;gb|KIA57648.1| plasmid stablization protein ParB [Xylella fastidiosa] &gt;gb|KXB09980.1| chromosome partitioning protein ParB [Xylella fastidiosa]</Hit_def>
+  <Hit_accession>WP_046417480</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>9.52988e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE</Hsp_qseq>
+      <Hsp_hseq>ETDQVIENLQRNELTAREIADFIGRELAKNKKKSDIAKEIGKSPAFITQHITLLDLPEPIADVFNTGRVRDVTVVNELVTAYKKKPSEVGTWLKDEDQEITRGSVKLLREFLEE</Hsp_hseq>
+      <Hsp_midline>E DQVIENLQRNELT REIADFIGRELAK KKK DIAKEIGKSPAFITQH+TLLDLPE IAD FNTGRVRDVTVVNELVTA+KK+P EV  WL D+ QEITRG+VKLLREFL+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

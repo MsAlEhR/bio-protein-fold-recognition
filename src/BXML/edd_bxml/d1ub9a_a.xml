@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_28289</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1ub9a_a</BlastOutput_query-def>
+  <BlastOutput_query-len>100</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_28289</Iteration_query-ID>
+  <Iteration_query-def>d1ub9a_a</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_010885148.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Pyrococcus horikoshii] &gt;pdb|1UB9|A Chain A, Hypothetical Protein Ph1061 [Pyrococcus horikoshii OT3] &gt;dbj|BAA30159.1| 100aa long hypothetical protein [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>WP_010885148</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>2.70884e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLDL</Hsp_qseq>
+      <Hsp_hseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLDL</Hsp_hseq>
+      <Hsp_midline>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011012226.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Pyrococcus furiosus] &gt;gb|AAL81212.1| hypothetical protein PF1088 [Pyrococcus furiosus DSM 3638] &gt;gb|AFN03880.1| hypothetical protein PFC_04665 [Pyrococcus furiosus COM1]</Hit_def>
+  <Hit_accession>WP_011012226</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>1.4837e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLDL</Hsp_qseq>
+      <Hsp_hseq>MEEIKEIMKSHTLGNPVRLGIMIYLFPRRRAPFSHIQKALDLTPGNLDSHIKVLEKHGFVRTYKVIADRPRTMVEITDYGMEETRKFLSHLKTVIDAIHF</Hsp_hseq>
+      <Hsp_midline>MEE+KEIMKSH LGNPVRLGIMI+L PRR+APFS IQK LDLTPGNLDSHI+VLE++G V+TYKVIADRPRT+VEITD+GMEE ++FLS LK VID +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_010868047.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Pyrococcus abyssi] &gt;emb|CAB49838.1| Putative transcriptional regulator [Pyrococcus abyssi GE5] &gt;tpe|CCE70332.1| TPA: transcriptional regulator, ArsR family protein [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>WP_010868047</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>4.33244e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLDL</Hsp_qseq>
+      <Hsp_hseq>MEELKQLMKSHILGNPVRLGIMVFLLSRRKATFSQIQKVLDLTPGNLKSHLNVLEKDKLIKTYKVIADRPRTVVEITDKGIQETRKFLKMLKGIIDSIEF</Hsp_hseq>
+      <Hsp_midline>MEELK++MKSHILGNPVRLGIM+FLL RRKA FSQIQKVLDLTPGNL SH+ VLE++ L+KTYKVIADRPRTVVEITD G++E ++FL  LK +ID ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_013748923.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Pyrococcus sp. NA2] &gt;gb|AEC52373.1| hypothetical protein PNA2_1457 [Pyrococcus sp. NA2]</Hit_def>
+  <Hit_accession>WP_013748923</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>1.89584e-39</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MKSHILGSPVRLGIMIFLLPRRRALFSEIQRVLDLTPGNLDSHLRALQREGFVKVYKVIADRPRTMIEITEKGSRETMKFLRTLKEIIE</Hsp_hseq>
+      <Hsp_midline>MKSHILG+PVRLGIMIFLLPRR+A FS+IQ+VLDLTPGNLDSH+R L+R G VK YKVIADRPRT++EIT+ G  E  +FL +LK +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_014122742.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus sp. AM4] &gt;gb|EEB73422.1| transcription regulator, ArsR family [Thermococcus sp. AM4]</Hit_def>
+  <Hit_accession>WP_014122742</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>3.33514e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MEHLRELTKNHVLGNPVRLGIMLYLLPRGKALFKELLQVLEVTPGNLDSHLRTLEKAGYVKLYKVFADRPRTAVRITEKGAEETGRYLKALKEVLNGL</Hsp_hseq>
+      <Hsp_midline>ME L+E+ K+H+LGNPVRLGIM++LLPR KA F ++ +VL++TPGNLDSH+R LE+ G VK YKV ADRPRT V IT+ G EE  R+L +LK V++GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_050002321.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus eurythermalis] &gt;gb|AIU69340.1| ArsR family transcriptional regulator [Thermococcus eurythermalis]</Hit_def>
+  <Hit_accession>WP_050002321</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>4.93445e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLD</Hsp_qseq>
+      <Hsp_hseq>MEPLRELTKNHVLGNPIRLGIVLYLLPRRKALFKELLEVLEVTPGNLDSHLKALEREGYVELYKVFADRPRTAVRITEKGVEETARYLKALKSVLEGIE</Hsp_hseq>
+      <Hsp_midline>ME L+E+ K+H+LGNP+RLGI+++LLPRRKA F ++ +VL++TPGNLDSH++ LER G V+ YKV ADRPRT V IT+ G+EE  R+L +LK+V++G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_048094796.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Geoglobus ahangari] &gt;gb|AKG91895.1| Winged helix DNA-binding domain [Geoglobus ahangari]</Hit_def>
+  <Hit_accession>WP_048094796</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.53506e-36</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>LRHEILGNPVRLGVMLYLLSRRRAAFSEIQKVLELTPGNLDSHLRVLERAGMVKVGKVIADRPRTVVEITEKGVDETRDYVRRLKEVLEGL</Hsp_hseq>
+      <Hsp_midline>++  ILGNPVRLG+M++LL RR+A FS+IQKVL+LTPGNLDSH+RVLER G+VK  KVIADRPRTVVEIT+ G++E + ++  LK V++GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_012751188.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus gammatolerans] &gt;gb|ACS32529.1| Transcription regulator, ArsR family [Thermococcus gammatolerans EJ3]</Hit_def>
+  <Hit_accession>WP_012751188</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>6.27334e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MESLRELTRNHFLGNPIRLGIMLYLLPRGKVLFKELLGVLEVTPGNLDSHLRTLEKAGYVKLYKVFADRPRTAVRITEKGAEETARYLRALKSVLEGM</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H LGNP+RLGIM++LLPR K  F ++  VL++TPGNLDSH+R LE+ G VK YKV ADRPRT V IT+ G EE  R+L +LK+V++G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_013468191.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus barophilus] &gt;gb|ADT84895.1| predicted transcription regulator [Thermococcus barophilus MP]</Hit_def>
+  <Hit_accession>WP_013468191</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.03864e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MDTIRQLVKNHVLGNPIRLGIMLYLLPRGRVLFKELQKVLDVTPGNLDSHLKTLEKAGYVKLTKVFADRPRTAVEITDKGAEETGKYLRTLKSLLTGV</Hsp_hseq>
+      <Hsp_midline>M+ +++++K+H+LGNP+RLGIM++LLPR +  F ++QKVLD+TPGNLDSH++ LE+ G VK  KV ADRPRT VEITD G EE  ++L +LK+++ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_099209498.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus sp. EXT12c]</Hit_def>
+  <Hit_accession>WP_099209498</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.07679e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MESLRELTKNHVLGNPVRLGIMLYLLPREKALFKELLEVLEITPGNLDSHLRALEKAGYVRLYKVFADRPRTAVRITERGAVETGRYLRTLKEVLNSL</Hsp_hseq>
+      <Hsp_midline>ME L+E+ K+H+LGNPVRLGIM++LLPR KA F ++ +VL++TPGNLDSH+R LE+ G V+ YKV ADRPRT V IT+ G  E  R+L +LK V++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_068576872.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus chitonophagus] &gt;gb|ASJ16572.1| transcriptional regulator [Thermococcus chitonophagus] &gt;emb|CUX77512.1| hypothetical protein CHITON_0733 [Thermococcus chitonophagus]</Hit_def>
+  <Hit_accession>WP_068576872</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.43648e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEELKKLVKNHALGNPVRLGVMVFLIPRRKALFKDLLKVLEVTPGNLDFHLKILEKEGYVKIYKVFADRPRTIVEATDEGVAKTKEFLRTLMVLVS</Hsp_hseq>
+      <Hsp_midline>MEELK+++K+H LGNPVRLG+M+FL+PRRKA F  + KVL++TPGNLD H+++LE+ G VK YKV ADRPRT+VE TD G+ + K FL +L  ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_088855459.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus siculi] &gt;gb|ASJ08220.1| transcriptional regulator [Thermococcus siculi]</Hit_def>
+  <Hit_accession>WP_088855459</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.90397e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MEPLRELTRNHVLGSPIRLAIMLYLLPRERALFRDILGVLDITPGNLDSHLKALERAGYVEVYKVIADRPRTAVKITDMGARETAEYLRALKEVLNGL</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H+LG+P+RL IM++LLPR +A F  I  VLD+TPGNLDSH++ LER G V+ YKVIADRPRT V+ITD G  E   +L +LK V++GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_068322117.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Pyrococcus kukulkanii] &gt;gb|AMM54017.1| ArsR family transcriptional regulator [Pyrococcus kukulkanii]</Hit_def>
+  <Hit_accession>WP_068322117</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>2.43105e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEELKKLVKNHALGNPVRLGVMVFLIPRRKALFKDLLKVLEVTPGNLDFHLKILEKEGYVRIYKVFADRPRTIVEATDEGVAKTREFLRTLMALVS</Hsp_hseq>
+      <Hsp_midline>MEELK+++K+H LGNPVRLG+M+FL+PRRKA F  + KVL++TPGNLD H+++LE+ G V+ YKV ADRPRT+VE TD G+ + + FL +L A++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_056934578.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus barophilus] &gt;gb|ALM76133.1| putative transcription regulator [Thermococcus barophilus]</Hit_def>
+  <Hit_accession>WP_056934578</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>5.20194e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MDTIRQLVKNHVLGNPIRLGIMLYLLPRGRVLFKELQKVLDVTPGNLDSHLKTLEKAGYVKLTKVFADRPRTAVEITEKGAEETGKYLRTLKSLLTGV</Hsp_hseq>
+      <Hsp_midline>M+ +++++K+H+LGNP+RLGIM++LLPR +  F ++QKVLD+TPGNLDSH++ LE+ G VK  KV ADRPRT VEIT+ G EE  ++L +LK+++ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_042682349.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus paralvinellae] &gt;gb|AHF81249.1| Transcriptional regulator, ArsR family [Thermococcus paralvinellae]</Hit_def>
+  <Hit_accession>WP_042682349</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.09125e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>ELRKLVKNHVLGNPIRLGIMLYLLPRGKVLFKELQKVLDVTPGNLDSHLKTLEKAGYVKLTKVFADRPRTAVEITDNGAEETGKYLRMLKELLN</Hsp_hseq>
+      <Hsp_midline>EL++++K+H+LGNP+RLGIM++LLPR K  F ++QKVLD+TPGNLDSH++ LE+ G VK  KV ADRPRT VEITD G EE  ++L  LK +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_055428377.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus thioreducens] &gt;gb|ASJ11433.1| transcriptional regulator [Thermococcus thioreducens] &gt;gb|KQH83452.1| ArsR family transcriptional regulator [Thermococcus thioreducens] &gt;emb|SEW06775.1| transcriptional regulator, ArsR family [Thermococcus thioreducens]</Hit_def>
+  <Hit_accession>WP_055428377</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>3.71149e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MEALRELSRNHTLGNPIRLGVMLYLLPRERVLFKELLEVLEVTPGNLDSHLKALEKAGYIETYKVFADRPRTAVRITEKGAKETARYLRTLRAALEGV</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H LGNP+RLG+M++LLPR +  F ++ +VL++TPGNLDSH++ LE+ G ++TYKV ADRPRT V IT+ G +E  R+L +L+A ++G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_088863281.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus celer] &gt;gb|ASI99347.1| transcriptional regulator [Thermococcus celer Vu 13 = JCM 8558]</Hit_def>
+  <Hit_accession>WP_088863281</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>2.68457e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEALRELARNHVLGNSIRLGIMLYLLPREKILFRDLLEVLEVTPGNLDSHLRALERAGYVEIYKVFADRPRTAVRITDVGAKETVRYLKAMKEALS</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H+LGN +RLGIM++LLPR K  F  + +VL++TPGNLDSH+R LER G V+ YKV ADRPRT V ITD G +E  R+L ++K  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_011250777.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus kodakarensis] &gt;dbj|BAD86015.1| predicted transcription regulator, ArsR family [Thermococcus kodakarensis KOD1]</Hit_def>
+  <Hit_accession>WP_011250777</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>5.75665e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLD</Hsp_qseq>
+      <Hsp_hseq>MEALRELSSNNVLGNPIRLAIMLYLLPRERALFRDLLEVLEVTPGNLDSHLKTLEREGYVEVFKIIADRPRTAVKITDRGAEETGKYLKALKKALEEIE</Hsp_hseq>
+      <Hsp_midline>ME L+E+  +++LGNP+RL IM++LLPR +A F  + +VL++TPGNLDSH++ LER G V+ +K+IADRPRT V+ITD G EE  ++L +LK  ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_088853499.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus pacificus] &gt;gb|ASJ06236.1| transcriptional regulator [Thermococcus pacificus]</Hit_def>
+  <Hit_accession>WP_088853499</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>5.90716e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MEAIRELTKNHTLGNPARLAIMLYLLPRERALFRDILEVLELTPGNLDSHLKALEKAGYIKVYKIIADRPRTAVKVTEKGAMETAKYMRALKEALSAI</Hsp_hseq>
+      <Hsp_midline>ME ++E+ K+H LGNP RL IM++LLPR +A F  I +VL+LTPGNLDSH++ LE+ G +K YK+IADRPRT V++T+ G  E  +++ +LK  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_087035257.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus litoralis]</Hit_def>
+  <Hit_accession>WP_087035257</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>6.32895e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MKQLKELTSNHVLGNPIRLAIMLYLLPRTRVLFKDLLEVLELTPGNLDSHLRVLEKAGYVKIKKVFSDRPRTAVEITQKGAQETGKYLRLLREVLNGI</Hsp_hseq>
+      <Hsp_midline>M++LKE+  +H+LGNP+RL IM++LLPR +  F  + +VL+LTPGNLDSH+RVLE+ G VK  KV +DRPRT VEIT  G +E  ++L  L+ V++G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_014788842.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus cleftensis] &gt;gb|AFL95207.1| transcription regulator, ArsR family 6 [Thermococcus cleftensis]</Hit_def>
+  <Hit_accession>WP_014788842</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>7.43486e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEALRELSRNHVLGNPIRLGIMLYLLPRGRVLFRELLDVLDVTPGNLDSHLKALEKAGYVELYKVFADRPRTAVRITEKGAEETGEYLRALREVLS</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H+LGNP+RLGIM++LLPR +  F ++  VLD+TPGNLDSH++ LE+ G V+ YKV ADRPRT V IT+ G EE   +L +L+ V+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_048148594.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Palaeococcus ferrophilus]</Hit_def>
+  <Hit_accession>WP_048148594</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.42933e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDG</Hsp_qseq>
+      <Hsp_hseq>MESIRALAKNHVLGNPTRLAIMLYLLPRERTLFRDLLSVLEVTPGNLDSHLKALERAGYVKVYKVIADRPRTAVKITEKGAEETAEYMRALKDALSA</Hsp_hseq>
+      <Hsp_midline>ME ++ + K+H+LGNP RL IM++LLPR +  F  +  VL++TPGNLDSH++ LER G VK YKVIADRPRT V+IT+ G EE   ++ +LK  +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_088857344.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus profundus] &gt;gb|ASJ02078.1| transcriptional regulator [Thermococcus profundus]</Hit_def>
+  <Hit_accession>WP_088857344</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.46099e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDG</Hsp_qseq>
+      <Hsp_hseq>MEALKELSSNNVLGNPIRLAIMLYLLPRERALFRDLLEVLEVTPGNLDSHLKTLEKVGYVEVYKVIADRPRTAVRITEKGAEETARYMRALKEALSA</Hsp_hseq>
+      <Hsp_midline>ME LKE+  +++LGNP+RL IM++LLPR +A F  + +VL++TPGNLDSH++ LE+ G V+ YKVIADRPRT V IT+ G EE  R++ +LK  +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_048093272.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Geoglobus acetivorans] &gt;gb|AIY91156.1| hypothetical protein GACE_2134 [Geoglobus acetivorans]</Hit_def>
+  <Hit_accession>WP_048093272</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>1.83829e-31</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>LRHEILGNPVRLGIMLYLLSRGRAAFSEIQRVLELTPGNLDSHLKTLEKAGMIGIKKVIADRPRTVVEITEKGVDETWEYVRKLKDALEGL</Hsp_hseq>
+      <Hsp_midline>++  ILGNPVRLGIM++LL R +A FS+IQ+VL+LTPGNLDSH++ LE+ G++   KVIADRPRTVVEIT+ G++E   ++  LK  ++GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_054840684.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus peptonophilus] &gt;gb|AMQ18760.1| transcriptional regulator [Thermococcus peptonophilus]</Hit_def>
+  <Hit_accession>WP_054840684</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>2.56281e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MEALKELSGNHTLGNPIRLAIMLYLLPRERALFRDLLEVIEVTPGNLDSHLKALEREGYVEVFKVIADRPRTAVRITEKGASETRDYLQKLKSVLKEL</Hsp_hseq>
+      <Hsp_midline>ME LKE+  +H LGNP+RL IM++LLPR +A F  + +V+++TPGNLDSH++ LER G V+ +KVIADRPRT V IT+ G  E + +L  LK+V+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_008082898.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Aciduliprofundum boonei] &gt;gb|EDY36444.1| transcriptional regulator, ArsR family protein [Aciduliprofundum boonei T469]</Hit_def>
+  <Hit_accession>WP_008082898</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>5.18495e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDG</Hsp_qseq>
+      <Hsp_hseq>MNNLREISKTSVLGNPIRFGIMLYLLPRERALFIDIQRILDITPGNLDSHLRKLKQEGYVEIKKVLADRPRTMVKITEKGAIETRNYLEKLKSVVSS</Hsp_hseq>
+      <Hsp_midline>M  L+EI K+ +LGNP+R GIM++LLPR +A F  IQ++LD+TPGNLDSH+R L++ G V+  KV+ADRPRT+V+IT+ G  E + +L  LK+V+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_088885977.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus gorgonarius] &gt;gb|ASJ01646.1| transcriptional regulator [Thermococcus gorgonarius]</Hit_def>
+  <Hit_accession>WP_088885977</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>5.31316e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITD</Hsp_qseq>
+      <Hsp_hseq>MEAIRELTKNHVLGNPTRLAITIYLLPRGRGPFKDLQKVLEITPGNLDSHLKVLEKAGYIKVYKVITDRPRSAVEITD</Hsp_hseq>
+      <Hsp_midline>ME ++E+ K+H+LGNP RL I I+LLPR + PF  +QKVL++TPGNLDSH++VLE+ G +K YKVI DRPR+ VEITD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_014012954.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus sp. 4557] &gt;gb|AEK73272.1| Transcription regulator, ArsR family protein [Thermococcus sp. 4557]</Hit_def>
+  <Hit_accession>WP_014012954</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>6.79312e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEALRELSRNHTLGNPVRLGVMLYLLPRGRVLFRDLLEVLEVTPGNLDSHLKALEKAGYIEIYKVIADRPRTAVRITEKGAEETGEYLRALKEALS</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H LGNPVRLG+M++LLPR +  F  + +VL++TPGNLDSH++ LE+ G ++ YKVIADRPRT V IT+ G EE   +L +LK  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_062371237.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus guaymasensis] &gt;gb|AJC71458.1| ArsR family transcriptional regulator [Thermococcus guaymasensis DSM 11113]</Hit_def>
+  <Hit_accession>WP_062371237</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>8.7389e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEALRELSRNHTLGNPVRLGVMLYLLPRGRVLFRDLLKVLEVTPGNLDSHLKALEKAGYIEIYKVIADRPRTAVRITEKGAKETGEYLRALKEALS</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H LGNPVRLG+M++LLPR +  F  + KVL++TPGNLDSH++ LE+ G ++ YKVIADRPRT V IT+ G +E   +L +LK  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_088867260.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus radiotolerans] &gt;gb|ASJ15219.1| transcriptional regulator [Thermococcus radiotolerans]</Hit_def>
+  <Hit_accession>WP_088867260</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.07602e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEALRELSRNHTLGNPIRLGVMLYLLPRGRVLFRDLLKVLEVTPGNLDSHLKALEKAGYIEIYKVIADRPRTAVRITERGAKETGEYLRALKEALS</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H LGNP+RLG+M++LLPR +  F  + KVL++TPGNLDSH++ LE+ G ++ YKVIADRPRT V IT+ G +E   +L +LK  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_088181353.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus sp. 5-4] &gt;gb|ASA78481.1| transcriptional regulator [Thermococcus sp. 5-4]</Hit_def>
+  <Hit_accession>WP_088181353</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.08786e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEALRELSRNHTLGNPIRLGVMLYLLPRGRVLFRDLLKVLEVTPGNLDSHLKALEKAGYIEIYKVIADRPRTAVRITERGAKETGEYLKALKEALS</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H LGNP+RLG+M++LLPR +  F  + KVL++TPGNLDSH++ LE+ G ++ YKVIADRPRT V IT+ G +E   +L +LK  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|RLF75718.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Thermococci archaeon] &gt;gb|RLF90234.1| transcriptional regulator [Thermococci archaeon]</Hit_def>
+  <Hit_accession>RLF75718</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.18351e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MENLKG-LRNSVLGNPIRLGIMIYLLPRGRALFKELQEALELTPGNLDSHLKTLERAGYVREMKVFADRPRTMVEITEKGAEEIGEYIRRLKEILDFL</Hsp_hseq>
+      <Hsp_midline>ME LK  +++ +LGNP+RLGIMI+LLPR +A F ++Q+ L+LTPGNLDSH++ LER G V+  KV ADRPRT+VEIT+ G EE   ++  LK ++D L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_088865552.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus barossii] &gt;gb|ASJ05555.1| transcriptional regulator [Thermococcus barossii]</Hit_def>
+  <Hit_accession>WP_088865552</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.41486e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLK---AVIDGLD</Hsp_qseq>
+      <Hsp_hseq>MEALRELSRNHTLGNPIRLGIMLYLIPRGKVLFRELLNVLDVTPGNLDSHLKALEKAGYIELYKVFADRPRTAVRITEKGAKETGEYLRALKEALSLISGGD</Hsp_hseq>
+      <Hsp_midline>ME L+E+ ++H LGNP+RLGIM++L+PR K  F ++  VLD+TPGNLDSH++ LE+ G ++ YKV ADRPRT V IT+ G +E   +L +LK   ++I G D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_004066343.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus litoralis] &gt;gb|EHR79695.1| ArsR family transcriptional regulator [Thermococcus litoralis DSM 5473]</Hit_def>
+  <Hit_accession>WP_004066343</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>1.82731e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGL</Hsp_qseq>
+      <Hsp_hseq>MEALRELSSNSVLGNPIRLAIMLYLLPRERALFRDLLEVLEVTPGNLDSHLRVLEKAGYVKLKKVFSDRPRTAVEITQKGAQETGKYLRLLREVLNGI</Hsp_hseq>
+      <Hsp_midline>ME L+E+  + +LGNP+RL IM++LLPR +A F  + +VL++TPGNLDSH+RVLE+ G VK  KV +DRPRT VEIT  G +E  ++L  L+ V++G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_008083801.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Aciduliprofundum boonei] &gt;gb|ADD09160.1| transcriptional regulator, ArsR family [Aciduliprofundum boonei T469] &gt;gb|EDY35954.1| transcriptional regulator, ArsR family protein [Aciduliprofundum boonei T469]</Hit_def>
+  <Hit_accession>WP_008083801</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>2.22489e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDG</Hsp_qseq>
+      <Hsp_hseq>MNNLREIAKTSVLGNPIRFGIMLYLLPRERALFIDIQRILDITPGNLDSHLRKLKQEGYVEIKKVLVDRPRTMVKITEKGAIETRNYLEKLKSVVSS</Hsp_hseq>
+      <Hsp_midline>M  L+EI K+ +LGNP+R GIM++LLPR +A F  IQ++LD+TPGNLDSH+R L++ G V+  KV+ DRPRT+V+IT+ G  E + +L  LK+V+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|OYT58149.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Euryarchaeota archaeon ex4484_178]</Hit_def>
+  <Hit_accession>OYT58149</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>2.37509e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEAYRELAKNHVLGNPIRLGIMLYLLPRSKVLFRDFLKLLDLTPGNLDSHLRTLQKAGYVEIKKVIADRPRTMIVLTEKGAYETRAYMKKLRELVS</Hsp_hseq>
+      <Hsp_midline>ME  +E+ K+H+LGNP+RLGIM++LLPR K  F    K+LDLTPGNLDSH+R L++ G V+  KVIADRPRT++ +T+ G  E + ++  L+ ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_058938517.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus celericrescens] &gt;gb|KUH33802.1| ArsR family transcriptional regulator [Thermococcus celericrescens]</Hit_def>
+  <Hit_accession>WP_058938517</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>3.34929e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MEALRELSRNNTLGNPVRLGVMLYLLPRGRVLFRDLLEVLEVTPGNLDSHLKALEKAGYIEVYKVIADRPRTAVRITEKGAKETGEYLRALKEALS</Hsp_hseq>
+      <Hsp_midline>ME L+E+ +++ LGNPVRLG+M++LLPR +  F  + +VL++TPGNLDSH++ LE+ G ++ YKVIADRPRT V IT+ G +E   +L +LK  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_014405770.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Methanocella conradii] &gt;gb|AFC99932.1| Transcriptional regulator, ArsR family [Methanocella conradii HZ254]</Hit_def>
+  <Hit_accession>WP_014405770</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.00271e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>ELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVI</Hsp_qseq>
+      <Hsp_hseq>ELKKLMENRLLGNPIRLAIMLYLLTRRRVLFKDLQNVLEITPGNLDSHLKSLEEYNYIKRGKILADRPRTAIEITENGVQELVRYMEMLKETL</Hsp_hseq>
+      <Hsp_midline>ELK++M++ +LGNP+RL IM++LL RR+  F  +Q VL++TPGNLDSH++ LE    +K  K++ADRPRT +EIT+ G++E  R++  LK  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_015283086.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Aciduliprofundum sp. MAR08-339] &gt;gb|AGB04462.1| transcriptional regulator [Aciduliprofundum sp. MAR08-339]</Hit_def>
+  <Hit_accession>WP_015283086</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>7.64448e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>LKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDG</Hsp_qseq>
+      <Hsp_hseq>LRDVARKSVVGNPIRLSILIYLLPRRRALFKELLNAIEITPGNLDSHLKTLEKNGLVRIGKVLLDRPRTAVWITDRGVKETREYIKLLREHMEG</Hsp_hseq>
+      <Hsp_midline>L+++ +  ++GNP+RL I+I+LLPRR+A F ++   +++TPGNLDSH++ LE+NGLV+  KV+ DRPRT V ITD G++E + ++  L+  ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|RUM35096.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Archaeoglobus sp.]</Hit_def>
+  <Hit_accession>RUM35096</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.72236e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLD</Hsp_qseq>
+      <Hsp_hseq>VRELARKSILGNPVRLGIMIYLLAHERVFFKNLQNVLEISPGKLDSHLRTLKKEDFITIKKIIADRPRTVIIITEKGAVETKKYLRMLENLISKLS</Hsp_hseq>
+      <Hsp_midline>++E+ +  ILGNPVRLGIMI+LL   +  F  +Q VL+++PG LDSH+R L++   +   K+IADRPRTV+ IT+ G  E K++L  L+ +I  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|OYT56861.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Desulfurococcales archaeon ex4484_217_2]</Hit_def>
+  <Hit_accession>OYT56861</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.49662e-22</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>MKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIA-DRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>MRNHILGAPARLGIMVYLLAKNKAFFTELLNVLKMTPGNLDSHLRKLRKAGYVDIVRVIGYDRPRVVVKITDKGRYETINYLSVLRRILE</Hsp_hseq>
+      <Hsp_midline>M++HILG P RLGIM++LL + KA F+++  VL +TPGNLDSH+R L + G V   +VI  DRPR VV+ITD G  E   +LS L+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_013905095.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Pyrococcus yayanosii] &gt;gb|AEH24038.1| Transcription regulator, ArsR family [Pyrococcus yayanosii CH1]</Hit_def>
+  <Hit_accession>WP_013905095</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>7.15119e-22</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDGLD</Hsp_qseq>
+      <Hsp_hseq>ALMLYLLLREKALFKELLDVLEVTPGNLDSHLKALERAGYVKLYKVFADRPRTAVRITGKGTEETLRYLRVLRSVVERLE</Hsp_hseq>
+      <Hsp_midline> +M++LL R KA F ++  VL++TPGNLDSH++ LER G VK YKV ADRPRT V IT  G EE  R+L  L++V++ L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|KYK32814.1|</Hit_id>
+  <Hit_def>hypothetical protein AYK18_15460 [Theionarchaea archaeon DG-70]</Hit_def>
+  <Hit_accession>KYK32814</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>5.9331e-20</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKV-IADRPRTVVEITDFGMEEAKRFLSSLK</Hsp_qseq>
+      <Hsp_hseq>LSNPVRLGIMILLKRKNKMIFSEIQKVLGLTSGNLNSHLTHLERCGYISVRKVLVSEGPRTIVEITPEGEEELKSYLSRLK</Hsp_hseq>
+      <Hsp_midline>L NPVRLGIMI L  + K  FS+IQKVL LT GNL+SH+  LER G +   KV +++ PRT+VEIT  G EE K +LS LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_088857731.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus profundus] &gt;gb|ASJ02470.1| transcriptional regulator [Thermococcus profundus]</Hit_def>
+  <Hit_accession>WP_088857731</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.86788e-19</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVIDG</Hsp_qseq>
+      <Hsp_hseq>LGNPTRLAIALYLLSRERSTFIEIAKALKMTPGNVEFHLKALEKAGIVRTYYGFGKRPRKFVELTEEGIEELEKALKILREVVGG</Hsp_hseq>
+      <Hsp_midline>LGNP RL I ++LL R ++ F +I K L +TPGN++ H++ LE+ G+V+TY     RPR  VE+T+ G+EE ++ L  L+ V+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_042691065.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus nautili] &gt;gb|AHL22931.1| Transcriptional regulators [Thermococcus nautili]</Hit_def>
+  <Hit_accession>WP_042691065</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.87828e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLK-AVIDG</Hsp_qseq>
+      <Hsp_hseq>IEELAKLSKSP-LGNPTRLAIALYLLSRERATFAGLRKALNLTAGNLEFHLKALEDAGIVRTYYGFGKRPRKFVELTEEGVEELSEVLRVLREAVGDG</Hsp_hseq>
+      <Hsp_midline>+EEL ++ KS  LGNP RL I ++LL R +A F+ ++K L+LT GNL+ H++ LE  G+V+TY     RPR  VE+T+ G+EE    L  L+ AV DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_050002325.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus eurythermalis] &gt;gb|AIU69344.1| ArsR family transcriptional regulator [Thermococcus eurythermalis]</Hit_def>
+  <Hit_accession>WP_050002325</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>5.84678e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAV</Hsp_qseq>
+      <Hsp_hseq>LEELAKLSRSP-LGNPTRLAIALYLLSRERATFAGLRKALKLTAGNLEFHLKALEEAGIVRTYYGFGRRPRKFVEITEDGIEELREVLKILRKV</Hsp_hseq>
+      <Hsp_midline>+EEL ++ +S  LGNP RL I ++LL R +A F+ ++K L LT GNL+ H++ LE  G+V+TY     RPR  VEIT+ G+EE +  L  L+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_012751184.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus gammatolerans] &gt;gb|ACS32525.1| Transcription regulator, ArsR family [Thermococcus gammatolerans EJ3]</Hit_def>
+  <Hit_accession>WP_012751184</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.41558e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAV</Hsp_qseq>
+      <Hsp_hseq>LEELARLSRSP-LGNPTRLAIALYLLSRERATFVSLRKALKLTAGNLEFHLKTLEEAGIVRTYYGFGRRPRKFVEITEEGIEELREVLKILREV</Hsp_hseq>
+      <Hsp_midline>+EEL  + +S  LGNP RL I ++LL R +A F  ++K L LT GNL+ H++ LE  G+V+TY     RPR  VEIT+ G+EE +  L  L+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|RLG12821.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Candidatus Pacearchaeota archaeon]</Hit_def>
+  <Hit_accession>RLG12821</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.30384e-18</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKV-IADRPRTVVEITDFGMEEAKRFLSSLKAVI</Hsp_qseq>
+      <Hsp_hseq>IIHTPVRLAIMIFLLPKEKALFTEVQKVLDLTAGNLSSHIKRLEEHGLIEVQKAFIKAKPTTILYLTEKGVNSIQKYANLMTTVL</Hsp_hseq>
+      <Hsp_midline>I+  PVRL IMIFLLP+ KA F+++QKVLDLT GNL SHI+ LE +GL++  K  I  +P T++ +T+ G+   +++ + +  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|ADM27619.1|</Hit_id>
+  <Hit_def>transcriptional regulator, MarR family [Ignisphaera aggregans DSM 17230]</Hit_def>
+  <Hit_accession>ADM27619</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.36428e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>EELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSL</Hsp_qseq>
+      <Hsp_hseq>EKIIEVLKKRGFKSSVRLAIMIYLLAKRRTYFSDIVEDLDMTPGNLWSHIEKLERDGLVEVRHIIDGRPRVVVIITEKGIEETIELLKML</Hsp_hseq>
+      <Hsp_midline>E++ E++K     + VRL IMI+LL +R+  FS I + LD+TPGNL SHI  LER+GLV+   +I  RPR VV IT+ G+EE    L  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_099209495.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Thermococcus sp. EXT12c]</Hit_def>
+  <Hit_accession>WP_099209495</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>7.76832e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MEELKEIMKSHILGNPVRLGIMIFLLPRRKAPFSQIQKVLDLTPGNLDSHIRVLERNGLVKTYKVIADRPRTVVEITDFGMEEAKRFLSSLKAVID</Hsp_qseq>
+      <Hsp_hseq>LEKLAGLSKSP-LGNPTRLAIALYLLSRERATFSSLREALNLTAGNLEFHLKALEDAGIVRTYYGFGRRPRKFVELTEKGVEELGEALRVLREAVE</Hsp_hseq>
+      <Hsp_midline>+E+L  + KS  LGNP RL I ++LL R +A FS +++ L+LT GNL+ H++ LE  G+V+TY     RPR  VE+T+ G+EE    L  L+  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216046246</Statistics_db-num>
+      <Statistics_db-len>550339452</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

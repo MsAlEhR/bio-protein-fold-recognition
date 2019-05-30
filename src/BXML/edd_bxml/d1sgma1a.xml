@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_36821</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1sgma1a</BlastOutput_query-def>
+  <BlastOutput_query-len>73</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_36821</Iteration_query-ID>
+  <Iteration_query-def>d1sgma1a</Iteration_query-def>
+  <Iteration_query-len>73</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1SGM|A</Hit_id>
+  <Hit_def>Chain A, Putative Hth-type Transcriptional Regulator Yxaf [Bacillus subtilis] &gt;pdb|1SGM|B Chain B, Putative Hth-type Transcriptional Regulator Yxaf [Bacillus subtilis] &gt;dbj|BAA21585.1| yxaF [Bacillus subtilis]</Hit_def>
+  <Hit_accession>1SGM_A</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.16243e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_019712606.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillus] &gt;gb|AOL25327.1| TetR family transcriptional regulator [Bacillus sp. FJAT-14266] &gt;gb|AOL31720.1| TetR family transcriptional regulator [Bacillus gibsonii] &gt;gb|ASB95555.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|ASC82960.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AXV63487.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|KDE25387.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|KOS72969.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAV86391.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|RPK19665.1| hypothetical protein EH2_02308 [Bacillus subtilis] &gt;gb|TAH81242.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|TAH88691.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|TDY59311.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;emb|CJS78110.1| TetR family transcriptional regulator [Streptococcus pneumoniae] &gt;emb|CON92093.1| TetR family transcriptional regulator [Streptococcus pneumoniae] &gt;emb|SME91502.1| transcriptional regulator, TetR family [Bacillus sp. CC120222-01] &gt;emb|SNY58466.1| transcriptional regulator, TetR family [Bacillus sp. GL120224-02]</Hit_def>
+  <Hit_accession>WP_019712606</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.15302e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_014481440.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|AMK74496.1| TetR family transcriptional regulator [Bacillus subtilis subsp. natto] &gt;gb|AOS00408.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;gb|AOS70075.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|API44218.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|API96682.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|ARI86618.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|ARW33886.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|ASV00506.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|ASV02770.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|AVL04986.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AYK59129.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AYK68839.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AYK72553.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AYK78330.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AYK82711.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AYK87482.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AYK91163.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AYK99509.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|QAR81524.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAW02309.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAW06311.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAW18804.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAW22872.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|RAM55578.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;dbj|BAI87698.1| hypothetical protein BSNT_10686 [Bacillus subtilis subsp. natto BEST195] &gt;dbj|GAK78110.1| transcriptional regulator [Bacillus subtilis Miyagi-4]</Hit_def>
+  <Hit_accession>WP_014481440</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.16569e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_003227022.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillales] &gt;ref|NP_391879.2| transcriptional regulator of qdoI [Bacillus subtilis subsp. subtilis str. 168] &gt;sp|P42105.2| RecName: Full=Uncharacterized HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis str. 168] &gt;gb|ADV94819.1| transcriptional regulator [Bacillus subtilis BSn5] &gt;gb|AFQ59852.1| Transcriptional regulator [Bacillus subtilis QB928] &gt;gb|AGA23023.1| HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis str. BSP1] &gt;gb|AGG63413.1| transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gb|AHA79973.1| putative HTH-type transcriptional regulator yxaF [Bacillus subtilis PY79] &gt;gb|AIC42486.1| transcriptional regulator [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gb|AIC46717.1| transcriptional regulator [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gb|AII37684.1| TetR family transcriptional regulator [Bacillus subtilis TO-A] &gt;gb|AIY95316.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis str. 168] &gt;gb|AIY99625.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AJE96693.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AKC49570.1| TetR family transcriptional regulator [Bacillus subtilis KCTC 1028] &gt;gb|AKN11958.1| Transcriptional regulator, TetR family [Bacillus subtilis] &gt;gb|AMB26245.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AMS49571.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|ANJ32764.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|ANX06127.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AOA13324.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AOT50293.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AOT53320.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|AQR84041.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis str. 168] &gt;gb|AQR88256.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis str. 168] &gt;gb|AQZ92875.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AYE66568.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AYF13440.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AYK61244.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|EHA31931.1| hypothetical protein BSSC8_01880 [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gb|EME08105.1| hypothetical protein BS732_1103 [Bacillus subtilis MB73/2] &gt;gb|EXF54587.1| TetR family transcriptional regulator [Bacillus subtilis QH-1] &gt;gb|KFH31956.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|KFH32508.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|KIL32295.1| hypothetical protein B4067_4509 [Bacillus subtilis subsp. subtilis] &gt;gb|KIN26661.1| hypothetical protein B4069_4183 [Bacillus subtilis] &gt;gb|KIN36622.1| hypothetical protein B4068_4020 [Bacillus subtilis] &gt;gb|KIN39046.1| hypothetical protein B4072_4168 [Bacillus subtilis] &gt;gb|KIN40269.1| hypothetical protein B4070_4075 [Bacillus subtilis] &gt;gb|KIN42278.1| hypothetical protein B4071_4055 [Bacillus subtilis] &gt;gb|KIN51554.1| hypothetical protein B4146_4324 [Bacillus subtilis] &gt;gb|KIN54055.1| hypothetical protein B4073_4118 [Bacillus subtilis] &gt;gb|KIN59080.1| hypothetical protein B4145_4321 [Bacillus subtilis] &gt;gb|KIX80842.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;gb|KNB79088.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|KON94228.1| TetR family transcriptional regulator [Bacillus murimartini] &gt;gb|KZD80735.1| Transcriptional regulator TetR family [Bacillus subtilis] &gt;gb|KZD88316.1| Transcriptional regulator TetR family [Bacillus subtilis] &gt;gb|OAD98284.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|OAZ70399.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;gb|ODV48509.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|OJH65060.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|OTQ84902.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|PAM79983.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|PSL97916.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAW10457.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QCK12985.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|RAP07602.1| hypothetical protein HS3_01526 [Bacillus subtilis] &gt;gb|RFB03268.1| TetR family transcriptional regulator [Bacillus sp. MT] &gt;gb|RFP84816.1| TetR family transcriptional regulator [Bacillus subtilis KCTC 1028] &gt;gb|RMD53415.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|TDO87401.1| TetR family transcriptional regulator [Bacillus sp. AtDRG31] &gt;dbj|BAM56086.1| transcriptional regulator [Bacillus subtilis BEST7613] &gt;dbj|BAM60097.1| transcriptional regulator [Bacillus subtilis BEST7003] &gt;emb|CAB16036.2| transcriptional regulator of qdoI [Bacillus subtilis subsp. subtilis str. 168] &gt;emb|CEI59810.1| HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;emb|CEJ79667.1| HTH-type transcriptional regulator YxaF [Bacillus sp. BS34A] &gt;emb|CUB34000.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;emb|SEN66812.1| transcriptional regulator, TetR family [Bacillus subtilis] &gt;emb|SPT94578.1| transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_003227022</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.19144e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_029318568.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Terrabacteria group] &gt;gb|AKE25840.1| hypothetical protein BsLM_4043 [Bacillus sp. LM 4-2] &gt;gb|AMR45212.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|KKB91044.1| TetR family transcriptional regulator [Bacillus sp. CMAA 1185] &gt;gb|QAR94848.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAT38423.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAW14443.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|RBI96042.1| TetR family transcriptional regulator [Micromonospora chalcea] &gt;gb|RDB51935.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>WP_029318568</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.20452e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_032722773.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|KFC30124.1| TetR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_032722773</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.21775e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_087614830.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|ARW00907.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|ARW04973.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|ASB59384.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|ASZ63437.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|PLV37614.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|QAR59955.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAV90543.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAV98319.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAW56119.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_087614830</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.21775e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_088272592.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|ASB72156.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|AYK65925.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|POD85517.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|QAW35325.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_088272592</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>3.96228e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_029726137.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AIX09640.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;gb|AWM22903.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|KMN94503.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|PRS96343.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|PRS97392.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|QAS05944.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAS22564.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAW43871.1| TetR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_029726137</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>4.32411e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_003219073.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|ADM40017.1| transcriptional regulator [Bacillus subtilis subsp. spizizenii str. W23] &gt;gb|AJW85444.1| TetR family transcriptional regulator [Bacillus intestinalis] &gt;gb|EFG93833.1| transcriptional regulator [Bacillus subtilis subsp. spizizenii ATCC 6633] &gt;gb|KFI02310.1| TetR family transcriptional regulator [Bacillus sp. BSC154] &gt;gb|KFK77849.1| hypothetical protein DJ97_743 [Bacillus intestinalis] &gt;gb|QCJ19041.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|TKJ16362.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;emb|SPU09316.1| transcriptional regulator [Bacillus subtilis subsp. spizizenii]</Hit_def>
+  <Hit_accession>WP_003219073</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>4.92975e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_071578937.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus sp. FMQ74] &gt;gb|OIR59951.1| TetR family transcriptional regulator [Bacillus sp. FMQ74]</Hit_def>
+  <Hit_accession>WP_071578937</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>5.14992e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_024572864.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillus] &gt;gb|PKJ59909.1| TetR/AcrR family transcriptional regulator [Bacillus sp. SN32]</Hit_def>
+  <Hit_accession>WP_024572864</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>5.20648e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_087987404.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus intestinalis] &gt;gb|OUL05384.1| TetR family transcriptional regulator [Bacillus intestinalis]</Hit_def>
+  <Hit_accession>WP_087987404</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>5.26367e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_014115793.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillus] &gt;gb|AEP88957.1| transcriptional regulator [Bacillus subtilis subsp. spizizenii TU-B-10] &gt;gb|APH66835.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|KOO41733.1| TetR family transcriptional regulator [Jeotgalibacillus marinus] &gt;gb|KXJ38059.1| TetR family transcriptional regulator [Bacillus intestinalis] &gt;gb|OPG93685.1| TetR family transcriptional regulator [Bacillus intestinalis] &gt;gb|OWV35196.1| TetR family transcriptional regulator [Bacillus intestinalis] &gt;emb|CUB28933.1| putative HTH-type transcriptional regulator YxaF [Bacillus cereus] &gt;emb|CUB38360.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;emb|SCV37843.1| Transcriptional regulator, TetR family [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_014115793</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>5.49875e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_076457360.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;emb|SIP94940.1| transcriptional regulator, TetR family [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_076457360</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>6.00088e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQRMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQ MDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AWX23290.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis]</Hit_def>
+  <Hit_accession>AWX23290</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>6.16863e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_003236428.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillus] &gt;gb|ARV45928.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AWM19081.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. inaquosorum] &gt;gb|ELS63333.1| ArsR family transcriptional regulator [Bacillus subtilis subsp. inaquosorum KCTC 13429] &gt;gb|TDO15541.1| TetR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_003236428</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>6.62078e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_039074952.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillus] &gt;gb|PJZ01755.1| TetR/AcrR family transcriptional regulator [Bacillus vallismortis]</Hit_def>
+  <Hit_accession>WP_039074952</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>6.6935e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_064815496.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|OBA03432.1| TetR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_064815496</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>6.84134e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_060399906.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|AMA54509.1| TetR family transcriptional regulator [Bacillus subtilis subsp. inaquosorum] &gt;gb|PPA35902.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|RFM40531.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. inaquosorum]</Hit_def>
+  <Hit_accession>WP_060399906</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>7.22536e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_122895688.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|RNA68330.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_122895688</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.16837e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_128738503.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAT48001.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_128738503</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.27505e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_015385135.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AGE65608.1| hypothetical protein C663_3914 [Bacillus subtilis XF-1] &gt;gb|AGI31157.1| hypothetical protein I653_19625 [Bacillus subtilis subsp. subtilis str. BAB-1] &gt;gb|AKD37214.1| transcriptional regulator [Bacillus subtilis HJ5] &gt;gb|AKI94142.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|ALS83905.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|ASK26067.1| hypothetical protein BSSX_4203 [Bacillus subtilis] &gt;gb|PJM66228.1| TetR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_015385135</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.30321e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_059335297.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|KUP36638.1| TetR family transcriptional regulator [[Brevibacterium] halotolerans] [Bacillus halotolerans] &gt;gb|PSA98001.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_059335297</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.34662e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_059292158.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|KUP34899.1| TetR family transcriptional regulator [Bacillus halotolerans] &gt;gb|OEC78732.1| TetR family transcriptional regulator [[Brevibacterium] halotolerans] [Bacillus halotolerans] &gt;gb|PHI45505.1| TetR family transcriptional regulator [Bacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_059292158</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.37636e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_059353231.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|KUP31550.1| TetR family transcriptional regulator [Bacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_059353231</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.39148e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_103672040.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PON00548.1| TetR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PRP50885.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PRP55180.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PRP59272.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PRP63937.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_103672040</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.42221e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_101865049.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PLR88672.1| TetR family transcriptional regulator [Bacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_101865049</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.43783e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_095712613.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus sp. 7705b] &gt;gb|PAY14906.1| TetR family transcriptional regulator [Bacillus sp. 7705b]</Hit_def>
+  <Hit_accession>WP_095712613</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.46958e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|AXC54997.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. spizizenii]</Hit_def>
+  <Hit_accession>AXC54997</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.48572e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSRQKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSR+KILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_101859680.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|AZV49465.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PLS09855.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PRS07319.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans] &gt;gb|PRS25224.1| TetR/AcrR family transcriptional regulator [Bacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_101859680</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.51853e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_010332554.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus mojavensis]</Hit_def>
+  <Hit_accession>WP_010332554</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.63919e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVSYTGKIVEHVIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAV+YTGKIVEH+IQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_024123474.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_024123474</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.65719e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHVIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEH+IQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_069323028.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|AOL99888.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_069323028</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>2.06176e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDGS</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMD S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_121641588.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus vallismortis]</Hit_def>
+  <Hit_accession>WP_121641588</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>2.56509e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVSYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAV+YTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_087991831.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_087991831</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.26175e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDE</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAVEAVTYTGKLIEHLIQQSMDE</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELA+EAVTYTGK++EHLIQQSMDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_123374093.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|ROT26701.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_123374093</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>4.10255e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKIVEHLIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGKIVEHLIQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_032725021.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillus] &gt;gb|AOY05558.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|KIU10026.1| transcriptional regulator [Bacillus subtilis] &gt;gb|OAY87083.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|OOE19832.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|OTQ85479.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|PAC87862.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|PAE60603.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|PAE69889.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|PLV31777.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis subsp. subtilis] &gt;gb|POX32818.1| TetR/AcrR family transcriptional regulator [Bacillus sp. Ru63] &gt;gb|PWI60485.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QBJ84437.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|RJS50916.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|RPK03722.1| hypothetical protein EH11_00126 [Bacillus subtilis] &gt;gb|RRN60774.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis subsp. subtilis] &gt;gb|RUS09394.1| hypothetical protein EFW59_00125 [Bacillus subtilis] &gt;gb|RXF82343.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;emb|CCU56936.1| Transcriptional regulator, TetR family [Bacillus subtilis E1] &gt;emb|CUB14878.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;emb|CUB46574.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;emb|CUB55502.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;emb|SPY13528.1| transcriptional regulator yxaF [Paenibacillus polymyxa]</Hit_def>
+  <Hit_accession>WP_032725021</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>4.23919e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKIVEHLIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGKIVEHLIQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_101172316.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|PKF93793.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_101172316</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>4.38038e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKIVEHLIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGKIVEHLIQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_119914539.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|RKQ24654.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_119914539</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>4.38038e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASQLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTAS+L QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_124072569.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|RPK13507.1| hypothetical protein EH5_00131 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_124072569</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>4.72838e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKIVEHLIQKSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGKIVEHLIQ+SMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_128740873.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAT59834.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_128740873</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>5.16006e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_038428089.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|AID00287.1| TetR family transcriptional regulator [Bacillus subtilis subsp. subtilis str. OH 131.1] &gt;gb|AOA56793.1| putative HTH-type transcriptional regulator YxaF [Bacillus subtilis] &gt;gb|ARB39156.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAR99007.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAS10087.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|RXM10493.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_038428089</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>5.5095e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKLIEHLIQQSMDES</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGK++EHLIQQSMDES</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_129550892.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus vallismortis] &gt;gb|QAV10578.1| TetR/AcrR family transcriptional regulator [Bacillus vallismortis]</Hit_def>
+  <Hit_accession>WP_129550892</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>8.52746e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEYLIQQSMDET</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++E+LIQQSMDE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_041850302.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillus] &gt;gb|AJO60363.1| TetR family transcriptional regulator [Bacillus sp. YP1] &gt;gb|ASC01562.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|AXF35281.1| TetR/AcrR family transcriptional regulator [Bacillus sp. DM2] &gt;gb|KIO57316.1| hypothetical protein B4143_3326 [Bacillus subtilis] &gt;gb|KMY41043.1| TetR family transcriptional regulator [Bacillus sp. FJAT-27445] &gt;gb|PTN32302.1| TetR/AcrR family transcriptional regulator [Bacillus sp. Rc4] &gt;gb|PWT20415.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAR85632.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAS14186.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|QAT76966.1| TetR/AcrR family transcriptional regulator [Bacillus sp. WR11] &gt;gb|QAW47901.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_041850302</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>9.51142e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPKGKEELAIEAVTYTGKIVEHLIQKSMDET</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFP GKEELAIEAVTYTGKIVEHLIQ+SMDE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_071581976.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bacillus] &gt;gb|AUZ41164.1| TetR/AcrR family transcriptional regulator [Bacillus sp. MBGLi79] &gt;gb|OIS57136.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|OIS65408.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|OIS66990.1| TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|PAO70497.1| TetR/AcrR family transcriptional regulator [Bacillus sp. X2(2017)] &gt;gb|POO82100.1| TetR/AcrR family transcriptional regulator [Bacillus sp. MBGLi97]</Hit_def>
+  <Hit_accession>WP_071581976</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.01555e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMEEC</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSM+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_069838336.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus sp. F56]</Hit_def>
+  <Hit_accession>WP_069838336</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.0267e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMEEC</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSM+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_069150664.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|AUS12119.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|OEI76379.1| TetR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_069150664</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.03797e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMEEC</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSM+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_134976174.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bacillus subtilis] &gt;gb|PTU26542.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_134976174</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.03797e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMEEC</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSM+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_136653988.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bacillus subtilis] &gt;gb|TII17319.1| TetR/AcrR family transcriptional regulator [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_136653988</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.06089e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GDSREKILHTASRLSQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKIVEHLIQQSMDES</Hsp_qseq>
+      <Hsp_hseq>GDSREKILHTASRLFQLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGKLIEHLIQQSMEEC</Hsp_hseq>
+      <Hsp_midline>GDSREKILHTASRL QLQGYHATGLNQIVKESGAPKGSLYHFFPNGKEELAIEAVTYTGK++EHLIQQSM+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

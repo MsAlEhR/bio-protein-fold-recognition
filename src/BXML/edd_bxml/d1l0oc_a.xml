@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_100213</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1l0oc_a</BlastOutput_query-def>
+  <BlastOutput_query-len>57</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_100213</Iteration_query-ID>
+  <Iteration_query-def>d1l0oc_a</Iteration_query-def>
+  <Iteration_query-len>57</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1L0O|C</Hit_id>
+  <Hit_def>Chain C, Sigma Factor [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>1L0O_C</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>2.13716e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_061580657.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|KYD34405.1| hypothetical protein B4114_1910 [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>WP_061580657</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>2.54085e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_033017150.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Geobacillus] &gt;gb|KMY59807.1| sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|KMY60758.1| sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|KMY61684.1| sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|KOR95128.1| sporulation sigma factor SigF [Geobacillus stearothermophilus ATCC 12980] &gt;gb|KQC46012.1| RNA polymerase sigma-F factor [Geobacillus sp. Sah69] &gt;gb|KYD19522.1| hypothetical protein B4109_1829 [Geobacillus stearothermophilus] &gt;gb|OAO79064.1| RNA polymerase sporulation specific sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|RLP90339.1| RNA polymerase sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|RLQ01208.1| RNA polymerase sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|RLQ09086.1| RNA polymerase sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|RLQ11314.1| RNA polymerase sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|RLQ14275.1| RNA polymerase sporulation sigma factor SigF [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>WP_033017150</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>2.74002e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_011231790.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae] &gt;gb|AGE22906.1| RNA polymerase sigma-F factor [Geobacillus sp. GHH01] &gt;gb|ALA71423.1| sporulation sigma factor SigF [Geobacillus stearothermophilus 10] &gt;gb|AMQ21078.1| RNA polymerase sigma-F factor [Geobacillus sp. JS12] &gt;gb|AOL35056.1| RNA polymerase sigma-F factor [Geobacillus thermoleovorans] &gt;gb|KDE47750.1| sporulation sigma factor SigF [Geobacillus sp. CAMR5420] &gt;gb|KJE27932.1| RNA polymerase sigma-F factor [Geobacillus kaustophilus] &gt;gb|OKO90517.1| RNA polymerase sporulation specific sigma factor SigF [Geobacillus sp. 1017] &gt;gb|OPX04019.1| RNA polymerase sigma-F factor [Geobacillus sp. LEMMY01] &gt;gb|OQP17352.1| RNA polymerase sigma-F factor [Geobacillus zalihae] &gt;gb|OQP25094.1| RNA polymerase sigma-F factor [Geobacillus zalihae] &gt;gb|QCK83437.1| RNA polymerase sporulation sigma factor SigF [Geobacillus kaustophilus NBRC 102445] &gt;gb|RXS89564.1| RNA polymerase sporulation sigma factor SigF [Geobacillus sp. PK12] &gt;dbj|BAD76593.1| DNA-directed RNA polymerase sporulation-specific sigma factor (sigma-F) (stage II sporulation protein AC) [Geobacillus kaustophilus HTA426]</Hit_def>
+  <Hit_accession>WP_011231790</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>9.8809e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_031408502.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Geobacillus vulcani]</Hit_def>
+  <Hit_accession>WP_031408502</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.08871e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_020960425.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Geobacillus genomosp. 3] &gt;gb|AGT32625.1| RNA polymerase sigma70 [Geobacillus genomosp. 3]</Hit_def>
+  <Hit_accession>WP_020960425</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.25241e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|ACX77056.1|</Hit_id>
+  <Hit_def>RNA polymerase, sigma 28 subunit, SigF [Geobacillus sp. Y412MC61] &gt;gb|ADI26222.1| RNA polymerase, sigma 28 subunit, FliA/WhiG subfamily [Geobacillus sp. C56-T3] &gt;gb|ADU94690.1| RNA polymerase, sigma 28 subunit, SigF [Geobacillus sp. Y412MC52] &gt;gb|TCK07824.1| UNVERIFIED_ORG: RNA polymerase sigma (RpoX/SigF) subunit [Anoxybacillus amylolyticus]</Hit_def>
+  <Hit_accession>ACX77056</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.28241e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AAB81194.1|</Hit_id>
+  <Hit_def>sigma factor [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>AAB81194</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.35053e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRSPTITEIADHLGISPEDVVLAQEAVRL</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGR+PT+TEIADHLGISPEDVVLAQEAVRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|EPR28238.1|</Hit_id>
+  <Hit_def>RNA polymerase sigma-F factor [Geobacillus sp. WSUCF1]</Hit_def>
+  <Hit_accession>EPR28238</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.74643e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KPC99375.1|</Hit_id>
+  <Hit_def>RNA polymerase sigma-F factor [Geobacillus sp. BCO2]</Hit_def>
+  <Hit_accession>KPC99375</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>2.40027e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_014196263.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Geobacillus] &gt;gb|AEV19907.1| RNA polymerase sigma-F factor [Geobacillus thermoleovorans CCB_US3_UF5] &gt;gb|ASS98986.1| RNA polymerase sigma-F factor [Geobacillus thermocatenulatus] &gt;gb|AUI37988.1| RNA polymerase sporulation sigma factor SigF [[Bacillus] caldolyticus] &gt;gb|AWO75548.1| RNA polymerase sporulation sigma factor SigF [Geobacillus thermoleovorans] &gt;gb|ESU73235.1| RNA polymerase sigma70 [Geobacillus sp. MAS1] &gt;gb|KLR73591.1| sporulation sigma factor SigF [Geobacillus sp. T6] &gt;gb|OQP12413.1| RNA polymerase sigma-F factor [Geobacillus thermoleovorans] &gt;gb|OXB89738.1| RNA polymerase sporulation sigma factor SigF [Geobacillus thermocatenulatus] &gt;gb|RAN22929.1| sporulation sigma factor SigF [Geobacillus sp. A8] &gt;dbj|GAD12346.1| RNA polymerase sigma-F factor [Geobacillus kaustophilus GBlys]</Hit_def>
+  <Hit_accession>WP_014196263</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>5.4194e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_050367498.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|AKU25649.1| sporulation sigma factor SigF [Geobacillus sp. LC300] &gt;gb|ATA60528.1| RNA polymerase sigma factor [Geobacillus stearothermophilus] &gt;gb|KZE96839.1| RNA polymerase sigma-F factor [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>WP_050367498</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>5.4194e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_062898756.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Geobacillus thermoleovorans] &gt;gb|AMV11448.1| RNA polymerase sigma-F factor [Geobacillus thermoleovorans]</Hit_def>
+  <Hit_accession>WP_062898756</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>5.7811e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_068896280.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Geobacillus thermoleovorans] &gt;gb|ODA15224.1| RNA polymerase sigma-F factor [Geobacillus thermoleovorans]</Hit_def>
+  <Hit_accession>WP_068896280</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>6.30117e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_033009069.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae] &gt;gb|ASS86432.1| RNA polymerase sigma-F factor [Geobacillus lituanicus] &gt;gb|KFL16806.1| sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|KFX34966.1| sporulation sigma factor SigF [Geobacillus stearothermophilus] &gt;gb|KZM54494.1| RNA polymerase sigma-F factor [Geobacillus sp. 15] &gt;gb|PJW14400.1| RNA polymerase sporulation sigma factor SigF [Geobacillus sp. Manikaran-105]</Hit_def>
+  <Hit_accession>WP_033009069</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>6.36938e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AKM19536.1|</Hit_id>
+  <Hit_def>RNA polymerase sigma-F factor [Geobacillus sp. 12AMOR1]</Hit_def>
+  <Hit_accession>AKM19536</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>6.43833e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_096224953.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Geobacillus sp. FJAT-46040]</Hit_def>
+  <Hit_accession>WP_096224953</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>6.50803e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_033845391.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Geobacillus thermoleovorans] &gt;dbj|GAJ58339.1| sporulation sigma factor SigF [Geobacillus thermoleovorans B23]</Hit_def>
+  <Hit_accession>WP_033845391</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>6.6497e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_081209213.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Geobacillus] &gt;gb|OQP06017.1| RNA polymerase sigma-F factor [Geobacillus sp. 46C-IIa] &gt;gb|PJW17457.1| RNA polymerase sporulation sigma factor SigF [Geobacillus sp. WSUCF-018B]</Hit_def>
+  <Hit_accession>WP_081209213</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>7.09346e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>emb|STO12688.1|</Hit_id>
+  <Hit_def>Stage II sporulation protein AC [[Flavobacterium] thermophilum]</Hit_def>
+  <Hit_accession>STO12688</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>7.10428e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_008879717.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Geobacillus] &gt;gb|ARA99264.1| RNA polymerase sigma-F factor [Geobacillus thermodenitrificans] &gt;gb|ARP43343.1| RNA polymerase sigma-F factor [Geobacillus thermodenitrificans] &gt;gb|ATO38563.1| RNA polymerase sigma-F factor [Geobacillus thermodenitrificans] &gt;gb|EDY06404.1| RNA polymerase, sigma 28 subunit, FliA/WhiG family [Geobacillus thermodenitrificans] &gt;gb|KQB92798.1| RNA polymerase sigma-F factor [Geobacillus sp. PA-3] &gt;gb|OQP09635.1| RNA polymerase sigma-F factor [Geobacillus sp. 47C-IIb] &gt;gb|PJW21905.1| RNA polymerase sporulation sigma factor SigF [Geobacillus thermodenitrificans] &gt;gb|PTR47528.1| RNA polymerase sporulation sigma factor SigF [Geobacillus thermodenitrificans]</Hit_def>
+  <Hit_accession>WP_008879717</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.5565e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTITEIADHLGVSPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPT+TEIADHLG+SPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|ABO67588.1|</Hit_id>
+  <Hit_def>RNA polymerase sigma-F factorr [Geobacillus thermodenitrificans NG80-2]</Hit_def>
+  <Hit_accession>ABO67588</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.89144e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTITEIADHLGVSPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPT+TEIADHLG+SPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_063165382.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Geobacillus] &gt;gb|AMX83010.1| RNA polymerase sigma-F factor [Geobacillus subterraneus] &gt;gb|KZS27217.1| RNA polymerase sigma-F factor [Geobacillus subterraneus] &gt;gb|OXB91107.1| RNA polymerase sporulation sigma factor SigF [Geobacillus uzenensis]</Hit_def>
+  <Hit_accession>WP_063165382</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.88501e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADYLGISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIAD+LGISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_033023522.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Geobacillus] &gt;gb|KFX30926.1| RNA polymerase sporulation sigma factor SigF [Geobacillus icigianus] &gt;gb|KYD25096.1| hypothetical protein B4113_1947 [Geobacillus sp. B4113_201601]</Hit_def>
+  <Hit_accession>WP_033023522</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>2.33292e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKARGRAPTVTEIADHLGIAKEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSK RGRAPTVTEIADHLGI+ E+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_097354707.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae] &gt;gb|PDM41162.1| RNA polymerase sporulation sigma factor SigF [Geobacillus yumthangensis] &gt;gb|PUF89693.1| RNA polymerase sporulation sigma factor SigF [Geobacillus sp. LYN3] &gt;gb|RDV23070.1| RNA polymerase sporulation sigma factor SigF [Parageobacillus toebii]</Hit_def>
+  <Hit_accession>WP_097354707</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>4.94616e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKKQGRAPTVTEIADYLEISPEDVVLAQEAIR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSK +GRAPTVTEIAD+L ISPEDVVLAQEA+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_015864378.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae] &gt;gb|ACS24958.1| RNA polymerase, sigma 28 subunit, SigF [Geobacillus sp. WCH70] &gt;gb|KYD31736.1| hypothetical protein B4110_2428 [Parageobacillus toebii] &gt;gb|RMB46828.1| RNA polymerase sigma (RpoX/SigF) subunit [Parageobacillus toebii NBRC 107807]</Hit_def>
+  <Hit_accession>WP_015864378</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>5.21885e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKKQGRAPTVTEIADYLEISPEDVVLAQEAIR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSK +GRAPTVTEIAD+L ISPEDVVLAQEA+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_081188198.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Geobacillus] &gt;gb|OQP02815.1| RNA polymerase sigma-F factor [Geobacillus sp. 44C] &gt;gb|OXB92294.1| RNA polymerase sporulation sigma factor SigF [Geobacillus galactosidasius]</Hit_def>
+  <Hit_accession>WP_081188198</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>5.93621e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKKQGRAPTVTEIADYLEISPEDVVLAQEAIR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSK +GRAPTVTEIAD+L ISPEDVVLAQEA+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_064550023.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Parageobacillus thermoglucosidasius] &gt;gb|OAT74692.1| RNA polymerase sigma-F factor [Parageobacillus thermoglucosidasius]</Hit_def>
+  <Hit_accession>WP_064550023</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.77335e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKARDELSKKYGRAPTVTEIADYLEISPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKA+DELSK  GRAPTVTEIAD+L ISPEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_043905359.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Parageobacillus genomosp. 1] &gt;gb|EZP76019.1| sporulation sigma factor SigF [Parageobacillus genomosp. 1]</Hit_def>
+  <Hit_accession>WP_043905359</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>3.92131e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELAKKHGRAPTVTEIADYLEISPEDVVFAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDEL+K  GRAPTVTEIAD+L ISPEDVV AQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_090949242.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Parageobacillus thermantarcticus] &gt;emb|SFA47997.1| RNA polymerase, sigma subunit, RpoX/SigF [Parageobacillus thermantarcticus]</Hit_def>
+  <Hit_accession>WP_090949242</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.10905e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKARDELSKKHGRAPTVTEIADYLEISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKA+DELSK  GRAPTVTEIAD+L ISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_066325998.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Anoxybacillus amylolyticus] &gt;gb|ANB61139.1| RNA polymerase sigma-F factor [Anoxybacillus amylolyticus]</Hit_def>
+  <Hit_accession>WP_066325998</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.04481e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKETGNKIRKAKDELSKQYGRAPTVTEIADYLQISPEDVVLAQEAAR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE GNKIRKAKDELSK  GRAPTVTEIAD+L ISPEDVVLAQEA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_017435281.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae] &gt;gb|KYD09779.1| hypothetical protein B4119_2627 [Parageobacillus caldoxylosilyticus] &gt;gb|OQP04454.1| RNA polymerase sigma-F factor [Geobacillus sp. 44B] &gt;dbj|GAJ39413.1| RNA polymerase sigma-F factor [Parageobacillus caldoxylosilyticus NBRC 107762]</Hit_def>
+  <Hit_accession>WP_017435281</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>3.3787e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELAKKHGRAPTVTEIAGYLEISPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDEL+K  GRAPTVTEIA +L ISPEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_010328181.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus vallismortis] &gt;gb|QAV08237.1| RNA polymerase sporulation sigma factor SigF [Bacillus vallismortis]</Hit_def>
+  <Hit_accession>WP_010328181</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>3.7728e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRAKDELSKTLGRVPTVQEIADHLEIEPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+AKDELSKT GR PTV EIADHL I PEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_110064296.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus oceanisediminis] &gt;gb|PWW30426.1| RNA polymerase sigma (RpoX/SigF) subunit [Bacillus oceanisediminis]</Hit_def>
+  <Hit_accession>WP_110064296</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>6.54181e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTLGRVPTVTELSEHLEISPEDIILAQEASRI</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKT GR PTVTE+++HL ISPED++LAQEA R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_048008110.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus firmus] &gt;gb|KML46153.1| sporulation sigma factor SigF [Bacillus firmus]</Hit_def>
+  <Hit_accession>WP_048008110</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>7.28049e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVRL</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTLGRIPTVTELSEFLGISPEDIILAQEASRI</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKT GR PTVTE+++ LGISPED++LAQEA R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_013400454.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae] &gt;gb|ADP74056.1| RNA polymerase, sigma 28 subunit, SigF [Geobacillus sp. Y4.1MC1] &gt;gb|AEH47348.1| RNA polymerase, sigma 28 subunit, SigF [Parageobacillus thermoglucosidasius C56-YS93] &gt;gb|ALF11411.1| RNA polymerase sigma-F factor [Parageobacillus thermoglucosidasius] &gt;gb|ANZ31488.1| RNA polymerase sigma-F factor [Parageobacillus thermoglucosidasius] &gt;gb|APM82225.1| RNA polymerase sigma-F factor [Parageobacillus thermoglucosidasius] &gt;gb|KJX69045.1| sporulation sigma factor SigF [Parageobacillus thermoglucosidasius] &gt;gb|OUM92748.1| RNA polymerase sigma-F factor [Parageobacillus thermoglucosidasius] &gt;gb|RDE23946.1| RNA polymerase sporulation sigma factor SigF [Parageobacillus thermoglucosidasius] &gt;gb|RDE25962.1| RNA polymerase sporulation sigma factor SigF [Parageobacillus thermoglucosidasius] &gt;gb|RDE31694.1| RNA polymerase sporulation sigma factor SigF [Parageobacillus thermoglucosidasius] &gt;gb|REK58711.1| RNA polymerase sporulation sigma factor SigF [Geobacillus sp.] &gt;dbj|GAJ43383.1| RNA polymerase sigma-F factor [Parageobacillus thermoglucosidasius NBRC 107763] &gt;dbj|GCD81992.1| RNA polymerase sigma factor [Parageobacillus thermoglucosidasius]</Hit_def>
+  <Hit_accession>WP_013400454</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.02854e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKETGNKIRKARDELSKKHGRAPTVTEIADYLEISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE GNKIRKA+DELSK  GRAPTVTEIAD+L ISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_003249395.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae] &gt;gb|EID44950.1| RNA polymerase sigma-28 subunit sigF [Parageobacillus thermoglucosidasius TNO-09.020] &gt;gb|KYD16605.1| hypothetical protein B4168_1109 [Anoxybacillus flavithermus] &gt;gb|OAO88248.1| RNA polymerase sporulation specific sigma factor SigF [Parageobacillus thermoglucosidasius]</Hit_def>
+  <Hit_accession>WP_003249395</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.13252e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKETGNKIRKARDELSKKHGRAPTVTEIADYLEISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE GNKIRKA+DELSK  GRAPTVTEIAD+L ISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_044747946.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus alveayuensis]</Hit_def>
+  <Hit_accession>WP_044747946</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.25623e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEVGNKIRKAKDELSKKYGRAPTITELADYLNISPEDVILAQEANR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIRKAKDELSK  GRAPT+TE+AD+L ISPEDV+LAQEA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_058014770.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus pumilus] &gt;gb|KRU16323.1| RNA polymerase sigma-F factor [Bacillus pumilus]</Hit_def>
+  <Hit_accession>WP_058014770</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.43557e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRARDELSKSHGRMPTVQEIAEYLGITPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+A+DELSK+ GR PTV EIA++LGI+PEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_046129804.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillus] &gt;gb|ATH92243.1| RNA polymerase sporulation sigma factor SigF [Bacillus glycinifermentans] &gt;gb|KKB74684.1| sporulation sigma factor SigF [Bacillus sp. TH008] &gt;gb|KMM58552.1| sporulation sigma factor SigF [Bacillus glycinifermentans] &gt;gb|KRT94992.1| RNA polymerase sigma-F factor [Bacillus glycinifermentans] &gt;gb|QAT65894.1| RNA polymerase sporulation sigma factor SigF [Bacillus glycinifermentans] &gt;emb|SCA86583.1| RNA polymerase sigma-F factor [Bacillus glycinifermentans]</Hit_def>
+  <Hit_accession>WP_046129804</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.80025e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRAKDELSKTNGRIPTVQEIAEHLGISSEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+AKDELSKT GR PTV EIA+HLGIS E+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_098797198.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillus] &gt;gb|PGT83743.1| RNA polymerase sporulation sigma factor SigF [Bacillus sp. AFS040349]</Hit_def>
+  <Hit_accession>WP_098797198</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.92316e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRARDELSKTLGKVPTVAEIANHLDISPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+A+DELSKT G+ PTV EIA+HL ISPEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|OLP64470.1|</Hit_id>
+  <Hit_def>RNA polymerase sigma-F factor [Bacillus pumilus]</Hit_def>
+  <Hit_accession>OLP64470</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>2.02076e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRAKDELSKAHGRMPTVQEIADYLDITPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+AKDELSK  GR PTV EIAD+L I+PEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_132089754.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus sp. OK085] &gt;gb|TCQ65711.1| RNA polymerase sigma (RpoX/SigF) subunit [Bacillus sp. OK085]</Hit_def>
+  <Hit_accession>WP_132089754</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>2.74176e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKTFGRIPTVNEISEHLQLSPEDVILAQEASR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSKT GR PTV EI++HL +SPEDV+LAQEA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_027407668.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Anoxybacillus tepidamans]</Hit_def>
+  <Hit_accession>WP_027407668</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>2.84158e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKEMGNKIRKAKDELSKRHGRVPTVTEIADYLQLSPEEVVLAQEASR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKEMGNKIRKAKDELSK  GR PTVTEIAD+L +SPE+VVLAQEA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_123917422.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus sp. FJAT-42376] &gt;gb|AZB43410.1| RNA polymerase sporulation sigma factor SigF [Bacillus sp. FJAT-42376]</Hit_def>
+  <Hit_accession>WP_123917422</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>3.15046e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRAKDELSKTLGKVPTVTEIAAHLDISPEEVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+AKDELSKT G+ PTVTEIA HL ISPE+VVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_071168983.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus xiamenensis] &gt;gb|AOZ90166.1| RNA polymerase sigma-F factor [Bacillus xiamenensis]</Hit_def>
+  <Hit_accession>WP_071168983</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>3.19887e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRARDELSKSHGRMPTVQEIADYLDITPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+A+DELSK+ GR PTV EIAD+L I+PEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_099681046.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus pumilus] &gt;gb|PCK21046.1| RNA polymerase sporulation sigma factor SigF [Bacillus pumilus]</Hit_def>
+  <Hit_accession>WP_099681046</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>3.19887e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRARDELSKSHGRMPTVQEIADYLDITPEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+A+DELSK+ GR PTV EIAD+L I+PEDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_102422740.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation sigma factor SigF [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_102422740</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>3.48419e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRAKDELSKTYGRVPTVQEIADHLEIDAEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+AKDELSKT GR PTV EIADHL I  EDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>emb|SPU03252.1|</Hit_id>
+  <Hit_def>RNA polymerase sporulation-specific sigma factor sigma-F [Bacillus subtilis]</Hit_def>
+  <Hit_accession>SPU03252</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>3.48605e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRAKDELSKTLGRVPTVQEIADHLEIEAEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+AKDELSKT GR PTV EIADHL I  EDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_007612336.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillus] &gt;gb|EIF13750.1| RNA polymerase sporulation-specific sigma factor sigma-F [Bacillus sp. 5B6] &gt;gb|OWP60917.1| RNA polymerase sporulation sigma factor SigF [Bacillus velezensis] &gt;gb|RYA21479.1| RNA polymerase sporulation sigma factor SigF [Bacillus velezensis] &gt;emb|SIR47644.1| RNA polymerase, sigma subunit, RpoX/SigF [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_007612336</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>3.5216e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>DGTVKVSRSLKEMGNKIRKAKDELSKTRGRAPTVTEIADHLGISPEDVVLAQEAVR</Hsp_qseq>
+      <Hsp_hseq>DGTVKVSRSLKELGNKIRRAKDELSKTYGRVPTVQEIADHLEIDAEDVVLAQEAVR</Hsp_hseq>
+      <Hsp_midline>DGTVKVSRSLKE+GNKIR+AKDELSKT GR PTV EIADHL I  EDVVLAQEAVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
