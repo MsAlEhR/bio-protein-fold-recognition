@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_184791</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1f6ba_c</BlastOutput_query-def>
+  <BlastOutput_query-len>186</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_184791</Iteration_query-ID>
+  <Iteration_query-def>d1f6ba_c</Iteration_query-def>
+  <Iteration_query-len>186</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|2FMX|A</Hit_id>
+  <Hit_def>Chain A, Gtp-binding Protein Sar1b [Cricetulus griseus] &gt;pdb|2FMX|B Chain B, Gtp-binding Protein Sar1b [Cricetulus griseus]</Hit_def>
+  <Hit_accession>2FMX_A</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>8.56327e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_003498539.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Cricetulus griseus] &gt;ref|XP_005071895.1| GTP-binding protein SAR1b [Mesocricetus auratus] &gt;ref|XP_006991399.1| PREDICTED: GTP-binding protein SAR1b [Peromyscus maniculatus bairdii] &gt;ref|XP_007626894.1| GTP-binding protein SAR1b [Cricetulus griseus] &gt;ref|XP_015865109.1| PREDICTED: GTP-binding protein SAR1b [Peromyscus maniculatus bairdii] &gt;ref|XP_015865110.1| PREDICTED: GTP-binding protein SAR1b [Peromyscus maniculatus bairdii] &gt;ref|XP_027283391.1| GTP-binding protein SAR1b [Cricetulus griseus] &gt;ref|XP_027283392.1| GTP-binding protein SAR1b [Cricetulus griseus] &gt;ref|XP_028713059.1| GTP-binding protein SAR1b isoform X2 [Peromyscus leucopus] &gt;sp|Q9QVY3.1| RecName: Full=GTP-binding protein SAR1b; Short=Sar1 [Cricetulus griseus] &gt;gb|AAB30321.1| Sar1a protein promoting vesicle budding from the endoplasmic reticulum [Chinese hamsters, CHO cell line, Peptide, 198 aa] [Cricetulus griseus] &gt;gb|EGW03031.1| GTP-binding protein SAR1b [Cricetulus griseus] &gt;gb|ERE68933.1| GTP-binding protein SAR1b-like protein [Cricetulus griseus] &gt;pdb|1F6B|A Chain A, Crystal Structure Of Sar1-Gdp Complex [Cricetulus griseus] &gt;pdb|1F6B|B Chain B, Crystal Structure Of Sar1-Gdp Complex [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_003498539</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>8.82546e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_001247957.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Macaca mulatta] &gt;ref|XP_001504442.1| GTP-binding protein SAR1b [Equus caballus] &gt;ref|XP_002744207.1| PREDICTED: GTP-binding protein SAR1b isoform X1 [Callithrix jacchus] &gt;ref|XP_003266440.1| PREDICTED: GTP-binding protein SAR1b [Nomascus leucogenys] &gt;ref|XP_003829319.1| GTP-binding protein SAR1b [Pan paniscus] &gt;ref|XP_003980822.1| GTP-binding protein SAR1b [Felis catus] &gt;ref|XP_004087325.1| PREDICTED: GTP-binding protein SAR1b [Nomascus leucogenys] &gt;ref|XP_004405513.1| PREDICTED: GTP-binding protein SAR1b [Odobenus rosmarus divergens] &gt;ref|XP_004609926.1| PREDICTED: GTP-binding protein SAR1b [Sorex araneus] &gt;ref|XP_004696675.1| PREDICTED: GTP-binding protein SAR1b [Echinops telfairi] &gt;ref|XP_005557857.1| PREDICTED: GTP-binding protein SAR1b [Macaca fascicularis] &gt;ref|XP_005599471.1| GTP-binding protein SAR1b [Equus caballus] &gt;ref|XP_005599472.1| GTP-binding protein SAR1b [Equus caballus] &gt;ref|XP_006179681.1| PREDICTED: GTP-binding protein SAR1b [Camelus ferus] &gt;ref|XP_006923180.1| GTP-binding protein SAR1b [Pteropus alecto] &gt;ref|XP_007087799.1| PREDICTED: GTP-binding protein SAR1b [Panthera tigris altaica] &gt;ref|XP_007941958.1| PREDICTED: GTP-binding protein SAR1b [Orycteropus afer afer] &gt;ref|XP_008508364.1| PREDICTED: GTP-binding protein SAR1b [Equus przewalskii] &gt;ref|XP_008508368.1| PREDICTED: GTP-binding protein SAR1b [Equus przewalskii] &gt;ref|XP_008508377.1| PREDICTED: GTP-binding protein SAR1b [Equus przewalskii] &gt;ref|XP_008508382.1| PREDICTED: GTP-binding protein SAR1b [Equus przewalskii] &gt;ref|XP_010358236.1| PREDICTED: GTP-binding protein SAR1b isoform X1 [Rhinopithecus roxellana] &gt;ref|XP_010969931.1| PREDICTED: GTP-binding protein SAR1b isoform X1 [Camelus bactrianus] &gt;ref|XP_010969932.1| PREDICTED: GTP-binding protein SAR1b isoform X1 [Camelus bactrianus] &gt;ref|XP_010979870.1| PREDICTED: GTP-binding protein SAR1b isoform X1 [Camelus dromedarius] &gt;ref|XP_011280444.1| GTP-binding protein SAR1b [Felis catus] &gt;ref|XP_011360627.1| GTP-binding protein SAR1b [Pteropus vampyrus] &gt;ref|XP_011824598.1| PREDICTED: GTP-binding protein SAR1b isoform X1 [Mandrillus leucophaeus] &gt;ref|XP_011824599.1| PREDICTED: GTP-binding protein SAR1b isoform X1 [Mandrillus leucophaeus] &gt;ref|XP_011945683.1| PREDICTED: GTP-binding protein SAR1b isoform X2 [Cercocebus atys] &gt;ref|XP_011945684.1| PREDICTED: GTP-binding protein SAR1b isoform X2 [Cercocebus atys] &gt;ref|XP_012886466.1| PREDICTED: GTP-binding protein SAR1b [Dipodomys ordii] &gt;ref|XP_012886467.1| PREDICTED: GTP-binding protein SAR1b [Dipodomys ordii] &gt;ref|XP_014943108.1| GTP-binding protein SAR1b [Acinonyx jubatus] &gt;ref|XP_016809348.1| GTP-binding protein SAR1b [Pan troglodytes] &gt;ref|XP_017727441.1| PREDICTED: GTP-binding protein SAR1b isoform X1 [Rhinopithecus bieti] &gt;ref|XP_019277510.1| PREDICTED: GTP-binding protein SAR1b [Panthera pardus] &gt;ref|XP_021068459.1| GTP-binding protein SAR1b [Mus pahari] &gt;ref|XP_025243154.1| GTP-binding protein SAR1b [Theropithecus gelada] &gt;ref|XP_025716672.1| GTP-binding protein SAR1b [Callorhinus ursinus] &gt;ref|XP_025716673.1| GTP-binding protein SAR1b [Callorhinus ursinus] &gt;ref|XP_025779465.1| GTP-binding protein SAR1b [Puma concolor] &gt;ref|XP_027461471.1| GTP-binding protein SAR1b [Zalophus californianus] &gt;ref|XP_027461472.1| GTP-binding protein SAR1b [Zalophus californianus] &gt;ref|XP_027461473.1| GTP-binding protein SAR1b [Zalophus californianus] &gt;ref|XP_027623447.1| GTP-binding protein SAR1b [Tupaia chinensis] &gt;ref|XP_027959446.1| GTP-binding protein SAR1b [Eumetopias jubatus] &gt;ref|XP_027959447.1| GTP-binding protein SAR1b [Eumetopias jubatus] &gt;gb|EHH26795.1| hypothetical protein EGK_16862 [Macaca mulatta] &gt;gb|EHH54529.1| hypothetical protein EGM_15390 [Macaca fascicularis] &gt;gb|PNI49952.1| SAR1B isoform 2 [Pan troglodytes] &gt;gb|PNI49954.1| SAR1B isoform 5 [Pan troglodytes] &gt;emb|VCX15636.1| unnamed protein product [Gulo gulo] &gt;emb|VFV35171.1| gtp-binding protein sar1b [Lynx pardinus]</Hit_def>
+  <Hit_accession>NP_001247957</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>1.47815e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_007172219.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b isoform X1 [Balaenoptera acutorostrata scammoni] &gt;ref|XP_007172220.1| GTP-binding protein SAR1b isoform X1 [Balaenoptera acutorostrata scammoni]</Hit_def>
+  <Hit_accession>XP_007172219</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>1.47815e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETVANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDET+ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_001008689.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Sus scrofa] &gt;ref|XP_004282164.1| PREDICTED: GTP-binding protein SAR1b [Orcinus orca] &gt;ref|XP_007107125.1| GTP-binding protein SAR1b [Physeter catodon] &gt;ref|XP_007461427.1| PREDICTED: GTP-binding protein SAR1b [Lipotes vexillifer] &gt;ref|XP_019779994.1| PREDICTED: GTP-binding protein SAR1b [Tursiops truncatus] &gt;ref|XP_019779995.1| PREDICTED: GTP-binding protein SAR1b [Tursiops truncatus] &gt;ref|XP_022444539.1| GTP-binding protein SAR1b [Delphinapterus leucas] &gt;ref|XP_022444540.1| GTP-binding protein SAR1b [Delphinapterus leucas] &gt;ref|XP_024608060.1| GTP-binding protein SAR1b isoform X1 [Neophocaena asiaeorientalis asiaeorientalis] &gt;ref|XP_024608061.1| GTP-binding protein SAR1b isoform X1 [Neophocaena asiaeorientalis asiaeorientalis] &gt;ref|XP_026953093.1| GTP-binding protein SAR1b [Lagenorhynchus obliquidens] &gt;ref|XP_026953103.1| GTP-binding protein SAR1b [Lagenorhynchus obliquidens] &gt;sp|Q5PYH3.1| RecName: Full=GTP-binding protein SAR1b [Sus scrofa] &gt;gb|AAV68380.1| Sar1b protein [Sus scrofa]</Hit_def>
+  <Hit_accession>NP_001008689</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>2.26763e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETVANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDET+ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_001028675.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Homo sapiens] &gt;ref|NP_057187.1| GTP-binding protein SAR1b [Homo sapiens] &gt;ref|XP_023051707.1| GTP-binding protein SAR1b [Piliocolobus tephrosceles] &gt;sp|Q9Y6B6.1| RecName: Full=GTP-binding protein SAR1b; AltName: Full=GTP-binding protein B; Short=GTBPB [Homo sapiens] &gt;gb|AAD40372.1| GTP-binding protein Sara [Homo sapiens] &gt;gb|AAH02847.1| SAR1 homolog B (S. cerevisiae) [Homo sapiens] &gt;gb|AAH93034.1| SAR1 homolog B (S. cerevisiae) [Homo sapiens] &gt;gb|AAP97161.1| GTP binding protein [Homo sapiens] &gt;gb|ACE86982.1| SAR1 gene homolog B (S. cerevisiae) protein, partial [synthetic construct] &gt;gb|ACE87671.1| SAR1 gene homolog B (S. cerevisiae) protein [synthetic construct] &gt;gb|EAW62249.1| SAR1 gene homolog B (S. cerevisiae), isoform CRA_a [Homo sapiens] &gt;gb|EAW62250.1| SAR1 gene homolog B (S. cerevisiae), isoform CRA_a [Homo sapiens] &gt;dbj|BAI47286.1| SAR1 homolog B, partial [synthetic construct]</Hit_def>
+  <Hit_accession>NP_001028675</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>2.36937e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSISLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGS+SLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|NP_001009622.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Rattus norvegicus] &gt;sp|Q5HZY2.1| RecName: Full=GTP-binding protein SAR1b [Rattus norvegicus] &gt;gb|AAH88842.1| SAR1 homolog B (S. cerevisiae) [Rattus norvegicus] &gt;gb|EDM04332.1| SAR1 gene homolog B (S. cerevisiae), isoform CRA_b [Rattus norvegicus]</Hit_def>
+  <Hit_accession>NP_001009622</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>2.67334e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHLQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AAY23007.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Sus scrofa]</Hit_def>
+  <Hit_accession>AAY23007</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>3.29305e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAVNGIVFLVDCADHERLLESKEELDSLMTDETVANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPA+NGIVFLVDCADHERLLESKEELDSLMTDET+ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_008056192.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b isoform X2 [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008056192</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>3.55596e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILIFGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILI GNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|NP_079811.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Mus musculus] &gt;ref|XP_021033237.1| GTP-binding protein SAR1b [Mus caroli] &gt;sp|Q9CQC9.1| RecName: Full=GTP-binding protein SAR1b [Mus musculus] &gt;gb|AAH82550.1| SAR1 gene homolog B (S. cerevisiae) [Mus musculus] &gt;gb|AAH85178.1| SAR1 gene homolog B (S. cerevisiae) [Mus musculus] &gt;gb|EDL33644.1| SAR1 gene homolog B (S. cerevisiae) [Mus musculus] &gt;dbj|BAB22015.1| unnamed protein product [Mus musculus] &gt;dbj|BAB26755.1| unnamed protein product [Mus musculus] &gt;dbj|BAB28905.1| unnamed protein product [Mus musculus] &gt;dbj|BAE29948.1| unnamed protein product [Mus musculus]</Hit_def>
+  <Hit_accession>NP_079811</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>3.83985e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKSGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKK+GKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_028631823.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028631823</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>5.05186e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETISNVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETI+NVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>dbj|BAD97172.1|</Hit_id>
+  <Hit_def>SAR1a gene homolog 2 variant, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAD97172</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>5.51537e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSLSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGS+SLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_005376215.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Chinchilla lanigera]</Hit_def>
+  <Hit_accession>XP_005376215</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>6.64642e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREIFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLRE+FGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_010638009.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Fukomys damarensis] &gt;gb|KFO26589.1| GTP-binding protein SAR1b [Fukomys damarensis]</Hit_def>
+  <Hit_accession>XP_010638009</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>7.02125e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREVFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLRE+FGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_008826164.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Nannospalax galili]</Hit_def>
+  <Hit_accession>XP_008826164</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>7.02125e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWVAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRW+AQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_002912965.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Ailuropoda melanoleuca] &gt;ref|XP_004475956.1| GTP-binding protein SAR1b [Dasypus novemcinctus] &gt;ref|XP_004745005.1| PREDICTED: GTP-binding protein SAR1b [Mustela putorius furo] &gt;ref|XP_006731081.1| PREDICTED: GTP-binding protein SAR1b [Leptonychotes weddellii] &gt;ref|XP_008012659.1| PREDICTED: GTP-binding protein SAR1b isoform X2 [Chlorocebus sabaeus] &gt;ref|XP_011222813.1| PREDICTED: GTP-binding protein SAR1b [Ailuropoda melanoleuca] &gt;ref|XP_015348259.1| PREDICTED: GTP-binding protein SAR1b [Marmota marmota marmota] &gt;ref|XP_015993154.1| PREDICTED: GTP-binding protein SAR1b [Rousettus aegyptiacus] &gt;ref|XP_015993155.1| PREDICTED: GTP-binding protein SAR1b [Rousettus aegyptiacus] &gt;ref|XP_021557415.1| GTP-binding protein SAR1b [Neomonachus schauinslandi] &gt;ref|XP_021557416.1| GTP-binding protein SAR1b [Neomonachus schauinslandi] &gt;ref|XP_021557417.1| GTP-binding protein SAR1b [Neomonachus schauinslandi] &gt;ref|XP_021557418.1| GTP-binding protein SAR1b [Neomonachus schauinslandi] &gt;ref|XP_022349132.1| GTP-binding protein SAR1b [Enhydra lutris kenyoni] &gt;ref|XP_022349133.1| GTP-binding protein SAR1b [Enhydra lutris kenyoni] &gt;ref|XP_025288911.1| GTP-binding protein SAR1b [Canis lupus dingo] &gt;ref|XP_025850674.1| GTP-binding protein SAR1b [Vulpes vulpes] &gt;ref|XP_026268857.1| GTP-binding protein SAR1b [Urocitellus parryii] &gt;ref|XP_027805461.1| GTP-binding protein SAR1b [Marmota flaviventris] &gt;ref|XP_538630.2| GTP-binding protein SAR1b [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>XP_002912965</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>7.33629e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGNVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKG+VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_006888123.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Elephantulus edwardii]</Hit_def>
+  <Hit_accession>XP_006888123</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>7.33629e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETVANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGNVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDET+ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKG+VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_002815941.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b isoform X1 [Pongo abelii] &gt;gb|PNJ59697.1| SAR1B isoform 2 [Pongo abelii] &gt;gb|PNJ59699.1| SAR1B isoform 5 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002815941</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>7.49907e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTEETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMT+ETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_011714856.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Macaca nemestrina]</Hit_def>
+  <Hit_accession>XP_011714856</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>7.56092e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_017387857.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b isoform X1 [Cebus capucinus imitator]</Hit_def>
+  <Hit_accession>XP_017387857</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>9.9749e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADYERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCAD+ERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_021494563.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Meriones unguiculatus]</Hit_def>
+  <Hit_accession>XP_021494563</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.12545e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAVSEERLREMFGLYGQTTGKGNVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEA+SEERLREMFGLYGQTTGKG+VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|NP_001030392.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Bos taurus] &gt;ref|XP_004008854.1| GTP-binding protein SAR1b [Ovis aries] &gt;ref|XP_005683001.2| PREDICTED: GTP-binding protein SAR1b [Capra hircus] &gt;ref|XP_006042855.1| GTP-binding protein SAR1b [Bubalus bubalis] &gt;ref|XP_010842807.1| PREDICTED: GTP-binding protein SAR1b [Bison bison bison] &gt;ref|XP_019820493.1| PREDICTED: GTP-binding protein SAR1b [Bos indicus] &gt;ref|XP_020763685.1| GTP-binding protein SAR1b [Odocoileus virginianus texanus] &gt;ref|XP_020763687.1| GTP-binding protein SAR1b [Odocoileus virginianus texanus] &gt;ref|XP_027402276.1| GTP-binding protein SAR1b [Bos indicus x Bos taurus] &gt;sp|Q3T0T7.1| RecName: Full=GTP-binding protein SAR1b [Bos taurus] &gt;gb|AAI02267.1| SAR1 homolog B (S. cerevisiae) [Bos taurus] &gt;gb|OWK11767.1| SAR1B [Cervus elaphus hippelaphus] &gt;tpg|DAA27431.1| TPA: GTP-binding protein SAR1b [Bos taurus]</Hit_def>
+  <Hit_accession>NP_001030392</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.12545e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETVANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGNVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDET+ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKG+VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_005335796.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Ictidomys tridecemlineatus]</Hit_def>
+  <Hit_accession>XP_005335796</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.18893e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGGVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKG VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|2FA9|A</Hit_id>
+  <Hit_def>Chain A, Gtp-binding Protein Sar1b [Cricetulus griseus] &gt;pdb|2FA9|B Chain B, Gtp-binding Protein Sar1b [Cricetulus griseus]</Hit_def>
+  <Hit_accession>2FA9_A</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>1.38311e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGGIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGG IQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_004666614.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Jaculus jaculus]</Hit_def>
+  <Hit_accession>XP_004666614</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.48069e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADRERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCAD ERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_008689820.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Ursus maritimus] &gt;ref|XP_008689821.1| PREDICTED: GTP-binding protein SAR1b [Ursus maritimus] &gt;ref|XP_026363795.1| GTP-binding protein SAR1b [Ursus arctos horribilis] &gt;ref|XP_026363796.1| GTP-binding protein SAR1b [Ursus arctos horribilis]</Hit_def>
+  <Hit_accession>XP_008689820</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.58145e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGNVTLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKG+V+LKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|ABM66369.1|</Hit_id>
+  <Hit_def>Sara2 protein [Sus scrofa]</Hit_def>
+  <Hit_accession>ABM66369</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.58145e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETVANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGESFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDET+ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGE FRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_006866142.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Chrysochloris asiatica]</Hit_def>
+  <Hit_accession>XP_006866142</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>1.76486e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILIFGNKIDRPEAISEERLRELFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILI GNKIDRPEAISEERLRE+FGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_020024061.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020024061</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>2.01323e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILIFGNKIDRPEAISEERLREIFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILI GNKIDRPEAISEERLRE+FGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_005865639.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Myotis brandtii] &gt;ref|XP_006086643.1| GTP-binding protein SAR1b [Myotis lucifugus] &gt;ref|XP_006753610.1| PREDICTED: GTP-binding protein SAR1b [Myotis davidii] &gt;ref|XP_008140420.1| GTP-binding protein SAR1b [Eptesicus fuscus]</Hit_def>
+  <Hit_accession>XP_005865639</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>2.01323e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILIFGNKIDRPEAISEERLREMFGLYGQTTGKGNVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILI GNKIDRPEAISEERLREMFGLYGQTTGKG+VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_004836614.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Heterocephalus glaber] &gt;ref|XP_004836615.1| GTP-binding protein SAR1b [Heterocephalus glaber] &gt;ref|XP_021096699.1| GTP-binding protein SAR1b [Heterocephalus glaber] &gt;gb|EHB10677.1| GTP-binding protein SAR1b [Heterocephalus glaber]</Hit_def>
+  <Hit_accession>XP_004836614</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>2.59118e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREVFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYIN</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLRE+FGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_005971956.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Pantholops hodgsonii]</Hit_def>
+  <Hit_accession>XP_005971956</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>3.72182e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHGRLLESKEELDSLMTDETVANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADH RLLESKEELDSLMTDET+ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_004686788.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b isoform X1 [Condylura cristata]</Hit_def>
+  <Hit_accession>XP_004686788</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>3.88881e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLFGQTTGKGNISLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGL+GQTTGKG++SLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_002710260.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b isoform X2 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>XP_002710260</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>4.63513e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGHTTGKGNVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYG TTGKG+VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_023569018.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Octodon degus]</Hit_def>
+  <Hit_accession>XP_023569018</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>4.63513e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEIFMCSVLKRQGYGEGFRWLAQYVE</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLE+FMCSVLKRQGYGEGFRW+AQY++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_003464522.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Cavia porcellus]</Hit_def>
+  <Hit_accession>XP_003464522</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>5.52469e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREVFGLYGQTTGKGSVSLKELNARPLEIFMCSVLKRQGYGEGFRWLAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLRE+FGLYGQTTGKGSVSLKELNARPLE+FMCSVLKRQGYGEGFRW+AQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_017502868.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Manis javanica]</Hit_def>
+  <Hit_accession>XP_017502868</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>5.96575e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADYERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGNVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYVD</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCAD+ERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKG+VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQY+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>dbj|BAE33261.1|</Hit_id>
+  <Hit_def>unnamed protein product [Mus musculus]</Hit_def>
+  <Hit_accession>BAE33261</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>6.23342e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKSGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLGVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKK+GKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPL VFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_020138024.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: GTP-binding protein SAR1b [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_020138024</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>7.34863e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFFGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILIFGNKIDRPEAISEERLREIFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQF GLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILI GNKIDRPEAISEERLRE+FGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_004420246.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Ceratotherium simum simum] &gt;ref|XP_014651486.1| PREDICTED: GTP-binding protein SAR1b [Ceratotherium simum simum] &gt;ref|XP_014651487.1| PREDICTED: GTP-binding protein SAR1b [Ceratotherium simum simum] &gt;ref|XP_014651491.1| PREDICTED: GTP-binding protein SAR1b [Ceratotherium simum simum]</Hit_def>
+  <Hit_accession>XP_004420246</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>7.84871e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPDAISEERLREMFGLYGQTTGKGNVSLKELNARPLEVFMCSVLKRQGYGDGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRP+AISEERLREMFGLYGQTTGKG+VSLKELNARPLEVFMCSVLKRQGYG+GFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_004384769.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b isoform X1 [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_004384769</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>1.67342e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETTANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGNVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYIN</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDET ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKG+VSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_009949543.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Leptosomus discolor] &gt;ref|XP_010152229.1| PREDICTED: GTP-binding protein SAR1b [Eurypyga helias]</Hit_def>
+  <Hit_accession>XP_009949543</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>1.7485e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKSGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHAQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVPLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKK+GKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSV LKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_028384346.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Phyllostomus discolor]</Hit_def>
+  <Hit_accession>XP_028384346</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.252</Hsp_bit-score>
+      <Hsp_score>970</Hsp_score>
+      <Hsp_evalue>2.32575e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILIFGNKIDRPEAISEERLREMFGLYGQTTGKGNVPLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILI GNKIDRPEAISEERLREMFGLYGQTTGKG+V LKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_009320987.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Pygoscelis adeliae]</Hit_def>
+  <Hit_accession>XP_009320987</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.252</Hsp_bit-score>
+      <Hsp_score>970</Hsp_score>
+      <Hsp_evalue>2.6241e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKSGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHAQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSIPLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKK+GKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGS+ LKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_005242814.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Falco peregrinus] &gt;ref|XP_005440715.1| GTP-binding protein SAR1b [Falco cherrug] &gt;ref|XP_009284195.1| PREDICTED: GTP-binding protein SAR1b [Aptenodytes forsteri] &gt;ref|XP_009462598.1| PREDICTED: GTP-binding protein SAR1b [Nipponia nippon] &gt;ref|XP_009486052.1| PREDICTED: GTP-binding protein SAR1b [Pelecanus crispus] &gt;ref|XP_009504525.1| PREDICTED: GTP-binding protein SAR1b [Phalacrocorax carbo] &gt;ref|XP_009645157.1| PREDICTED: GTP-binding protein SAR1b [Egretta garzetta] &gt;ref|XP_009697523.1| PREDICTED: GTP-binding protein SAR1b [Cariama cristata] &gt;ref|XP_009810525.1| PREDICTED: GTP-binding protein SAR1b [Gavia stellata] &gt;ref|XP_009913046.1| PREDICTED: GTP-binding protein SAR1b isoform X2 [Haliaeetus albicilla] &gt;ref|XP_009942370.1| PREDICTED: GTP-binding protein SAR1b [Opisthocomus hoazin] &gt;ref|XP_010075892.1| PREDICTED: GTP-binding protein SAR1b [Pterocles gutturalis] &gt;ref|XP_010164745.1| GTP-binding protein SAR1b [Antrostomus carolinensis] &gt;ref|XP_010206632.1| PREDICTED: GTP-binding protein SAR1b [Colius striatus] &gt;ref|XP_010283812.1| PREDICTED: GTP-binding protein SAR1b [Phaethon lepturus] &gt;ref|XP_010303493.1| PREDICTED: GTP-binding protein SAR1b [Balearica regulorum gibbericeps] &gt;ref|XP_010577159.1| PREDICTED: GTP-binding protein SAR1b isoform X2 [Haliaeetus leucocephalus] &gt;ref|XP_010577160.1| PREDICTED: GTP-binding protein SAR1b isoform X2 [Haliaeetus leucocephalus] &gt;ref|XP_011569499.1| PREDICTED: GTP-binding protein SAR1b [Aquila chrysaetos canadensis] &gt;ref|XP_013031307.1| PREDICTED: GTP-binding protein SAR1b [Anser cygnoides domesticus] &gt;ref|XP_015731280.1| PREDICTED: GTP-binding protein SAR1b [Coturnix japonica] &gt;ref|XP_015731283.1| PREDICTED: GTP-binding protein SAR1b [Coturnix japonica] &gt;ref|XP_015731284.1| PREDICTED: GTP-binding protein SAR1b [Coturnix japonica] &gt;ref|XP_015731285.1| PREDICTED: GTP-binding protein SAR1b [Coturnix japonica] &gt;gb|KFP34340.1| GTP-binding protein SAR1b [Colius striatus] &gt;gb|KFP64564.1| GTP-binding protein SAR1b [Cariama cristata] &gt;gb|KFV10401.1| GTP-binding protein SAR1b [Pterocles gutturalis]</Hit_def>
+  <Hit_accession>XP_005242814</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.252</Hsp_bit-score>
+      <Hsp_score>970</Hsp_score>
+      <Hsp_evalue>2.80267e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKSGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHAQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSIPLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKK+GKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGS+ LKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_014803590.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Calidris pugnax]</Hit_def>
+  <Hit_accession>XP_014803590</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>3.05981e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKSGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHAQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSIPLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKK+GKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGS+ LKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_003404547.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Loxodonta africana]</Hit_def>
+  <Hit_accession>XP_003404547</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>3.05981e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETTANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGNISLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYIN</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDET ANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKG++SLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_016053033.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Miniopterus natalensis]</Hit_def>
+  <Hit_accession>XP_016053033</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>3.76907e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHVQARRVWKNYLPAINGIVFLVDCADHDRLLESKEELDSLMADETIANVPVLILGNKIDRPEAVSEERLREVFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH+QARRVWKNYLPAINGIVFLVDCADH+RLLESKEELDSLM DETIANVP+LILGNKIDRPEA+SEERLRE+FGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_010007505.1|</Hit_id>
+  <Hit_def>PREDICTED: GTP-binding protein SAR1b [Nestor notabilis]</Hit_def>
+  <Hit_accession>XP_010007505</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.481</Hsp_bit-score>
+      <Hsp_score>968</Hsp_score>
+      <Hsp_evalue>4.29949e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHAQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSIPLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYIE</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH QARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGS+ LKELNARPLEVFMCSVLKRQGYGEGFRWMAQYI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_012405156.1|</Hit_id>
+  <Hit_def>GTP-binding protein SAR1b [Sarcophilus harrisii]</Hit_def>
+  <Hit_accession>XP_012405156</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.481</Hsp_bit-score>
+      <Hsp_score>968</Hsp_score>
+      <Hsp_evalue>5.65649e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SSVLQFLGLYKKTGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHIQARRVWKNYLPAINGIVFLVDCADHERLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSLKELNARPLEVFMCSVLKRQGYGEGFRWMAQYID</Hsp_qseq>
+      <Hsp_hseq>SSVLQFLGLYKKSGKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGHAQARRVWKNYLPAINGIVFLVDCADHDRLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVSMKELNARPLEVFMCSVLKRQGYGEGFRWVAQYID</Hsp_hseq>
+      <Hsp_midline>SSVLQFLGLYKK+GKLVFLGLDNAGKTTLLHMLKDDRLGQHVPTLHPTSEELTIAGMTFTTFDLGGH QARRVWKNYLPAINGIVFLVDCADH+RLLESKEELDSLMTDETIANVPILILGNKIDRPEAISEERLREMFGLYGQTTGKGSVS+KELNARPLEVFMCSVLKRQGYGEGFRW+AQYID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

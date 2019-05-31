@@ -1,0 +1,2353 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_49877</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1mkya2c</BlastOutput_query-def>
+  <BlastOutput_query-len>186</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_49877</Iteration_query-ID>
+  <Iteration_query-def>d1mkya2c</Iteration_query-def>
+  <Iteration_query-len>186</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_038052951.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga sp. Mc24] &gt;gb|KHC91304.1| GTP-binding protein Der [Thermotoga sp. Mc24]</Hit_def>
+  <Hit_accession>WP_038052951</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>2.62801e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRIAGLVERRGRASVVVFNKWDLVEHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRVIDAINLAYASYTT</Hsp_hseq>
+      <Hsp_midline>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQR+AGL+ERRGRASVVVFNKWDLV HREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDR+IDA+NLAYASYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>6.81539e-18</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGRPNVGKSTLFNKLVKKKKAIVEDEEGVTRDPVQDTVEWYGKTFKLVDTCGVFDNPQ---DIISQKMKEVTLNMIREADLVLFVVDGKRGITKEDESLADFLRKSTVDTILVANKAE-------NLREFEREVKPELYSLGFGEPIPVSAEHNINLDTLLETI</Hsp_hseq>
+      <Hsp_midline>V IVGRPNVGKSTLFN ++ K++A+V    G TRDPV D V   G+ +  VDT G+    +     + +      ++ I +AD+V+ V+D  +GIT++D+ +A  + +    +++V NK +          EF +  + +LY + +   I  SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_004081721.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribosome biogenesis GTPase Der [Thermotoga] &gt;ref|NP_229245.1| GTP-binding protein EngA [Thermotoga maritima MSB8] &gt;sp|Q9X1F8.1| RecName: Full=GTPase Der; Short=TmDer; AltName: Full=GTP-binding protein EngA [Thermotoga maritima MSB8] &gt;gb|AAD36514.1| conserved hypothetical protein [Thermotoga maritima MSB8] &gt;gb|AGL50376.1| GTP-binding protein EngA [Thermotoga maritima MSB8] &gt;gb|AHD18661.1| GTP-binding protein Der [Thermotoga maritima MSB8] &gt;gb|AIY86925.1| GTP-binding protein Der [Thermotoga sp. 2812B] &gt;gb|AKE27333.1| GTP-binding protein Der [Thermotoga maritima] &gt;gb|AKE29205.1| GTP-binding protein Der [Thermotoga maritima MSB8] &gt;gb|AKE31077.1| GTP-binding protein Der [Thermotoga maritima] &gt;gb|EJX25643.1| GTP-binding protein Der [Thermotoga sp. EMP]</Hit_def>
+  <Hit_accession>WP_004081721</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>3.37797e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRIAGLVERRGRASVVVFNKWDLVEHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRVIDAINLAYASYTT</Hsp_hseq>
+      <Hsp_midline>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQR+AGL+ERRGRASVVVFNKWDLV HREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDR+IDA+NLAYASYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>7.23181e-18</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGRPNVGKSTLFNKLVKKKKAIVEDEEGVTRDPVQDTVEWYGKTFKLVDTCGVFDNPQ---DIISQKMKEVTLNMIREADLVLFVVDGKRGITKEDESLADFLRKSTVDTILVANKAE-------NLREFEREVKPELYSLGFGEPIPVSAEHNINLDTLLETI</Hsp_hseq>
+      <Hsp_midline>V IVGRPNVGKSTLFN ++ K++A+V    G TRDPV D V   G+ +  VDT G+    +     + +      ++ I +AD+V+ V+D  +GIT++D+ +A  + +    +++V NK +          EF +  + +LY + +   I  SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1MKY|A</Hit_id>
+  <Hit_def>Chain A, Probable Gtp-binding Protein Enga [Thermotoga maritima]</Hit_def>
+  <Hit_accession>1MKY_A</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>5.40117e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRXAGLXERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRXIDAXNLAYASYTT</Hsp_hseq>
+      <Hsp_midline>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQR AGL ERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDR IDA NLAYASYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.30814e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGRPNVGKSTLFNKLVKKKKAIVEDEEGVTRDPVQDTVEWYGKTFKLVDTCGVFDNPQ---DIISQKXKEVTLNXIREADLVLFVVDGKRGITKEDESLADFLRKSTVDTILVANKAE-------NLREFEREVKPELYSLGFGEPIPVSAEHNINLDTXLETI</Hsp_hseq>
+      <Hsp_midline>V IVGRPNVGKSTLFN ++ K++A+V    G TRDPV D V   G+ +  VDT G+    +     + +      ++ I +AD+V+ V+D  +GIT++D+ +A  + +    +++V NK +          EF +  + +LY + +   I  SA+   N+D  ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_012896457.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga naphthophila] &gt;gb|ADA67450.1| ribosome-associated GTPase EngA [Thermotoga naphthophila RKU-10]</Hit_def>
+  <Hit_accession>WP_012896457</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.77</Hsp_bit-score>
+      <Hsp_score>935</Hsp_score>
+      <Hsp_evalue>2.09096e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDEEVFIDGKKYVFVDTAGLRRRSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRIAGLVERRGRASVVVFNKWDLVEHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNVDRVIDAINLAYASYTT</Hsp_hseq>
+      <Hsp_midline>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVD+EVFIDG+KYVFVDTAGLRR+SRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQR+AGL+ERRGRASVVVFNKWDLV HREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWN+DR+IDA+NLAYASYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.87096e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNKLVRKKKAIVEDEEGVTRDPVQDIVEWYGKTFKLVDTCGVFDNPQ---DIISQKMKEITLNMIREADLVLFVVDGKRGITKEDESLADFLRKSNVDTILVANKAE-------NLREFEREVKPELYSLGFGEPIPVSAEHNINLDTLLETI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K++A+V    G TRDPV D V   G+ +  VDT G+    +     + +      ++ I +AD+V+ V+D  +GIT++D+ +A  + +    +++V NK +          EF +  + +LY + +   I  SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_012311081.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribosome biogenesis GTPase Der [Thermotoga] &gt;sp|B1LBI4.1| RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Thermotoga sp. RQ2] &gt;gb|ACB09682.1| small GTP-binding protein [Thermotoga sp. RQ2] &gt;gb|AIY88670.1| GTP-binding protein Der [Thermotoga sp. Cell2] &gt;gb|KHC93878.1| GTP-binding protein Der [Thermotoga sp. TBGT1765] &gt;gb|KHC94838.1| GTP-binding protein Der [Thermotoga sp. TBGT1766] &gt;gb|KHC95290.1| GTP-binding protein Der [Thermotoga sp. Xyl54] &gt;tpg|HBF69951.1| ribosome biogenesis GTPase Der [Thermotoga sp.]</Hit_def>
+  <Hit_accession>WP_012311081</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.229</Hsp_bit-score>
+      <Hsp_score>931</Hsp_score>
+      <Hsp_evalue>9.12341e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDEEVFIDGKKYVFVDTAGLRRRSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRIAGLVERRGRASVVVFNKWDLVEHREKRHDEFTKLFREKLYFIDYSPLIFTSADKGWNVDRVIDAINLAYASYTT</Hsp_hseq>
+      <Hsp_midline>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVD+EVFIDG+KYVFVDTAGLRR+SRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQR+AGL+ERRGRASVVVFNKWDLV HREKR+DEFTKLFREKLYFIDYSPLIFTSADKGWN+DR+IDA+NLAYASYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>3.54246e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNKLVRKKKAIVEDEEGVTRDPVQDIVEWYGKTFKLVDTCGVFDNPQ---DIISQKMKEITLNMIREADLVLFVVDGKRGITKEDESLADFLRKSNVDTILVANKAE-------NLREFEREVKPELYSLGFGEPIPVSAEHNINLDTLLETI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K++A+V    G TRDPV D V   G+ +  VDT G+    +     + +      ++ I +AD+V+ V+D  +GIT++D+ +A  + +    +++V NK +          EF +  + +LY + +   I  SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_011943821.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga petrophila] &gt;sp|A5IMD9.1| RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Thermotoga petrophila RKU-1] &gt;gb|ABQ47362.1| small GTP-binding protein [Thermotoga petrophila RKU-1]</Hit_def>
+  <Hit_accession>WP_011943821</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.073</Hsp_bit-score>
+      <Hsp_score>928</Hsp_score>
+      <Hsp_evalue>2.16046e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDEEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRIAGLVERRGRASVVVFNKWDLVEHREKRYDEFTKLFREKFYFVDYSPLIFISADKGWNIDKVIDAINLAYASYTT</Hsp_hseq>
+      <Hsp_midline>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVD+EVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQR+AGL+ERRGRASVVVFNKWDLV HREKRYDEFTKLFREK YF+DYSPLIF SADKGWNID++IDA+NLAYASYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.38812e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNKLVRKKKAIVEDEEGVTRDPVQDTVEWYGKTFKLVDTCGVFDNPQ---DIISQKMKEVTLNMIREADLVLFVVDGKKGITKEDESLADFLRKSNVDTILVANKTE-------NLREFEREVKPELYGLGFGEPIPVSAEHNVNLDVLVETI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K++A+V    G TRDPV D V   G+ +  VDT G+    +     + +      ++ I +AD+V+ V+D  +GIT++D+ +A  + +    +++V NK +          EF +  + +LY + +   I  SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_101513950.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga sp. SG1] &gt;gb|PLV55688.1| ribosome-associated GTPase EngA [Thermotoga sp. SG1]</Hit_def>
+  <Hit_accession>WP_101513950</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.51</Hsp_bit-score>
+      <Hsp_score>885</Hsp_score>
+      <Hsp_evalue>6.60599e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>TKPEITETIKIAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGKKYIFVDTAGLRKKSRIEPKTVERYSTYRVVESIEKADVVIIVLDATQGITRQDQRIAGLVERRGKASVVVFNKWDLVEHREKRYDEFTKLFKEKLYFVDYSPLIFTSADKGWGVEKIIDAINLAYSSYTT</Hsp_hseq>
+      <Hsp_midline>+KPEIT+ IK+AIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDG+KY+FVDTAGLR+KSR+EP+TVE+YS YRVV+SIEKADVV+IVLDATQGITRQDQR+AGL+ERRG+ASVVVFNKWDLV HREKRYDEFTKLF+EKLYF+DYSPLIFTSADKGW ++++IDA+NLAY+SYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.26996e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNKLVKKRKAIVEDEEGVTRDPVQDTVEWYGKTFRLVDTCGVFDNPQ---DIISKKMKEVTLNMIREADLVLFVVDGKNGITKEDESLADFL-RKSEADVI------LVANKTENQQKFEREVKPELYSLGFGDPVPVSAEHSINLDTLMEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K +A+V    G TRDPV D V   G+ +  VDT G+    +     + K      ++ I +AD+V+ V+D   GIT++D+ +A  + R+  A V+      LV ++ +   +F +  + +LY + +   +  SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_015919539.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga neapolitana] &gt;sp|B9K8E0.1| RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Thermotoga neapolitana DSM 4359] &gt;gb|ACM23223.1| GTP-binding protein engA [Thermotoga neapolitana DSM 4359] &gt;gb|KFZ21727.1| GTP-binding protein Der [Thermotoga neapolitana LA10] &gt;tpg|HBF11496.1| ribosome biogenesis GTPase Der [Thermotoga neapolitana]</Hit_def>
+  <Hit_accession>WP_015919539</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>9.57073e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>TKPEITEAIKIAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGKKYIFVDTAGLRRKSRIEPKTVERYSTYRVVESIERADVAVIVLDATQGITRQDQRIAGLVERKGKASVVVFNKWDLVEHREKRYDEFTKLFREKLYFVDYSPLIFTSADKGWGVEKIIDAINLAYSSYTT</Hsp_hseq>
+      <Hsp_midline>+KPEIT+AIK+AIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDG+KY+FVDTAGLRRKSR+EP+TVE+YS YRVV+SIE+ADV VIVLDATQGITRQDQR+AGL+ER+G+ASVVVFNKWDLV HREKRYDEFTKLFREKLYF+DYSPLIFTSADKGW ++++IDA+NLAY+SYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.74162e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNKLVRKRKAIVEDEEGVTRDPVQDTVEWYGKTFRLVDTCGVFDNPQ---DVISKKMKEVTLNMIREADLVLFVVDGKNGITKEDESLADFLRKSGVDVILVANK----TENQRR---FEREIKPELYRLGFGDPIPVSAEHSINLDTLMEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K +A+V    G TRDPV D V   G+ +  VDT G+    +     + K      ++ I +AD+V+ V+D   GIT++D+ +A  + + G   ++V NK       ++R   F +  + +LY + +   I  SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_041844266.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga sp. RQ7] &gt;gb|AJG41138.1| GTP-binding protein Der [Thermotoga sp. RQ7]</Hit_def>
+  <Hit_accession>WP_041844266</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>9.67566e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>TKPEITEAIKIAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGKKYIFVDTAGLRRKSRIEPKTVERYSTYRVVESIERADVAVIVLDATQGITRQDQRIAGLVERKGKASVVVFNKWDLVEHREKRYDEFTKLFREKLYFVDYSPLIFTSADKGWGVEKIIDAINLAYSSYTT</Hsp_hseq>
+      <Hsp_midline>+KPEIT+AIK+AIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDG+KY+FVDTAGLRRKSR+EP+TVE+YS YRVV+SIE+ADV VIVLDATQGITRQDQR+AGL+ER+G+ASVVVFNKWDLV HREKRYDEFTKLFREKLYF+DYSPLIFTSADKGW ++++IDA+NLAY+SYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>5.05034e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNKLVRKRKAIVEDEEGVTRDPVQDTVEWYGKIFRLVDTCGVFDNPQ---DVISKKMKEVTLNMIREADLVLFVVDGKNGITKEDESLADFLRKSGVDVILVANK----TENQRR---FEREIKPELYRLGFGDPIPVSAEHSINLDTLMEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K +A+V    G TRDPV D V   G+ +  VDT G+    +     + K      ++ I +AD+V+ V+D   GIT++D+ +A  + + G   ++V NK       ++R   F +  + +LY + +   I  SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_101510106.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga sp. KOL6] &gt;gb|PLV60176.1| ribosome-associated GTPase EngA [Thermotoga sp. KOL6]</Hit_def>
+  <Hit_accession>WP_101510106</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>1.74338e-115</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>KPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>KPEIADAIKVAIVGRPNVGKSSLFNAILNKERALVSPIPGTTRDPVDDEVLIDGRKYVFVDTAGLRRKSRIEPRTVEKYSTYRVVDSIERADVVIIVLDATQGITRQDQRIAGLAERRGKASVVVFNKWDLVEHREKRYDEFTKLFKEKLYFIDYSPLLFTSANKGWGVDKILDAINTAYSSYTT</Hsp_hseq>
+      <Hsp_midline>KPEI DAIKVAIVGRPNVGKS+LFNAILNKERALVSPIPGTTRDPVDDEV IDGRKYVFVDTAGLRRKSR+EPRTVEKYS YRVVDSIE+ADVV+IVLDATQGITRQDQR+AGL ERRG+ASVVVFNKWDLV HREKRYDEFTKLF+EKLYFIDYSPL+FTSA+KGW +D+++DA+N AY+SYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.60647e-16</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNKLVRKKKAIVEDEEGVTRDPVQDTVEWYGKSFRLVDTCGVFDKPQ---DIISKKMKEVTLNMVREADLVLFVVDGKTGITKEDESLAEFL-RKSQVDVL------LVANKAENIWKFEKEVKPELCSLGFGDPLPVSAEHNVNLDILIETV</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K++A+V    G TRDPV D V   G+ +  VDT G+  K +     + K      ++ + +AD+V+ V+D   GIT++D+ +A  + R+ +  V+      LV ++ +   +F K  + +L  + +   +  SA+   N+D +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|RKX51410.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der, partial [Thermotoga sp.]</Hit_def>
+  <Hit_accession>RKX51410</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>2.48811e-84</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>AIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>AIKVAIIGKPNVGKSSLFNTILGMERTLVTPLPGTTRDAVDEEVEVDGKRYIFIDTAGMRRRSRIEPKTLERYGTYRTVEAIERADVVILVLDAMEGISRQDQRLAGLVERRGKAIVTVFNKWDLVEHRERRKKEYLQLFKEKLYFVDFSPLVFVSALKGWGVEKVMEYIEVSFKSYTT</Hsp_hseq>
+      <Hsp_midline>AIKVAI+G+PNVGKS+LFN IL  ER LV+P+PGTTRD VD+EV +DG++Y+F+DTAG+RR+SR+EP+T+E+Y  YR V++IE+ADVV++VLDA +GI+RQDQR+AGL+ERRG+A V VFNKWDLV HRE+R  E+ +LF+EKLYF+D+SPL+F SA KGW ++++++ + +++ SYTT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>7.08145e-19</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNRLIRKRKAIVEDDPGVTRDSIQDRVEWRGKFFTLVDTCGIFENPE---GIVEKKMKEMTLDMLKEGDLLLFVVDGREGLTSEDHHLADFVRKSGADVILVANK----VEDKKKYENEVK---PELYSLGFGEPIPVSSEHSLNIDTLLEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K +A+V   PG TRD + D V   G+ +  VDT G+          VEK      +D +++ D+++ V+D  +G+T +D  +A  + + G   ++V NK    V  +K+Y+   K    +LY + +   I  S++   NID +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|OQX57346.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga sp. 4484_232]</Hit_def>
+  <Hit_accession>OQX57346</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>1.32085e-76</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>AIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSA</Hsp_qseq>
+      <Hsp_hseq>AIKVAIIGKPNVGKSSLFNAILGMERTLVTPLPGTTRDAVDEEVEVDGKRYIFIDTAGMRRRSRIEPKTLERYGTYRTVEAIERADVVVLVLDAMEGISRQDQRLAGLVERRGKAIVTVFNKWDLVEHRERRKEEYLQLFKEKLYFVDFSPLVFVSA</Hsp_hseq>
+      <Hsp_midline>AIKVAI+G+PNVGKS+LFNAIL  ER LV+P+PGTTRD VD+EV +DG++Y+F+DTAG+RR+SR+EP+T+E+Y  YR V++IE+ADVVV+VLDA +GI+RQDQR+AGL+ERRG+A V VFNKWDLV HRE+R +E+ +LF+EKLYF+D+SPL+F SA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.0284e-18</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNRLIRKRKAIVEDDPGVTRDSIQDRVEWRGKFFTLVDTCGIFENPE---GIVEKKMKEMTLDMLKEGDLLLFVVDGREGLTSEDHHLADFVRKSGADVILVANK----VEDKKKYENEVK---PELYSLGFGEPIPVSSEHSLNIDTLLEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K +A+V   PG TRD + D V   G+ +  VDT G+          VEK      +D +++ D+++ V+D  +G+T +D  +A  + + G   ++V NK    V  +K+Y+   K    +LY + +   I  S++   NID +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_077198768.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermosipho affectus] &gt;gb|ONN26538.1| GTP-binding protein Der [Thermosipho affectus]</Hit_def>
+  <Hit_accession>WP_077198768</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>9.91228e-70</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>IRVALIGRPNAGKSTLFNSILNKERVLVTPIPGTTRDAIDELIEFNGQKYLFIDTAGLRRKSRVEYKSIDMYSNVRAIRSVELADVVVLVIDAIEGITHQDQRIAGIAENRGKATVVVFNKIDLVKNFNFRKTEFIEHFNEKLYFINYSPVVFVSAAKNKGIKKLIDAINEAYTS</Hsp_hseq>
+      <Hsp_midline>I+VA++GRPN GKSTLFN+ILNKER LV+PIPGTTRD +D+ +  +G+KY+F+DTAGLRRKSRVE ++++ YSN R + S+E ADVVV+V+DA +GIT QDQR+AG+ E RG+A+VVVFNK DLV +   R  EF + F EKLYFI+YSP++F SA K   I ++IDA+N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>7.60978e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGRKKSIVDNKEGVTRDAVSDRVSYFGKYFRLIDTCGIFE--RPEDIISSKLKNL-TLDMLKEGDLVLFVLDGKNGLTSEDYHLADFLRKSNSDVLLVVNK------SENGKKVLVNL--SDFYSLGFGEPIFVSAEQGKNIDNLVEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ +++++V    G TRD V D V   G+ +  +DT G+    R E     K  N   +D +++ D+V+ VLD   G+T +D  +A  + +     ++V NK       E        L     Y + +   IF SA++G NID +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_075666598.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribosome biogenesis GTPase Der [Thermosipho] &gt;gb|ANQ54488.1| GTP-binding protein Der [Thermosipho sp. 1070] &gt;gb|APT72930.1| GTP-binding protein Der [Thermosipho sp. 1063] &gt;gb|OOC42372.1| GTP-binding protein Der [Thermosipho sp. 1074]</Hit_def>
+  <Hit_accession>WP_075666598</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>7.94736e-69</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>IRVALIGRPNAGKSTLFNSILNKERVLVTPIPGTTRDAIDELIEFNGQKYLFIDTAGLRRKSRVEYKSIDMYSNVRAIRSVELADVVVLVIDAIEGITHQDQRIAGIAENRGKATVVVFNKIDLVKNFNFRKTEFIEHFNEKLYFINYSPVVFVSAAKNKGIKKLIGAINEAYTS</Hsp_hseq>
+      <Hsp_midline>I+VA++GRPN GKSTLFN+ILNKER LV+PIPGTTRD +D+ +  +G+KY+F+DTAGLRRKSRVE ++++ YSN R + S+E ADVVV+V+DA +GIT QDQR+AG+ E RG+A+VVVFNK DLV +   R  EF + F EKLYFI+YSP++F SA K   I ++I A+N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.16495e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGRKKSIVDNKEGVTRDAVSDRVSYFGKSFRLIDTCGIFE--RPEDIISSKLKNL-TLDMLKEGDLVLFVLDGKNGLTSEDYHLADFLRKSNSDVLLVVNKSE----NEKK----VLVNLSDFYSLGFGEPIFVSAEQGKNIDNLVEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ +++++V    G TRD V D V   G+ +  +DT G+    R E     K  N   +D +++ D+V+ VLD   G+T +D  +A  + +     ++V NK +     EK+      +     Y + +   IF SA++G NID +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_077290008.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermosipho sp. 1223] &gt;gb|OOC45474.1| GTP-binding protein Der [Thermosipho sp. 1223]</Hit_def>
+  <Hit_accession>WP_077290008</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>1.11019e-68</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>IRVALIGRPNAGKSTLFNSILNKERVLVTPIPGTTRDAIDELIEFNGQKYLFIDTAGLRRKSRVEYKSIDMYSNVRAIRSVELADVVVLVIDAIEGITHQDQRIAGIAENRGKATVVVFNKIDLVENFNFRKTEFIEHFNEKLYFINYSPVVFVSAAKNKGIKKLIAAINEAYTS</Hsp_hseq>
+      <Hsp_midline>I+VA++GRPN GKSTLFN+ILNKER LV+PIPGTTRD +D+ +  +G+KY+F+DTAGLRRKSRVE ++++ YSN R + S+E ADVVV+V+DA +GIT QDQR+AG+ E RG+A+VVVFNK DLV +   R  EF + F EKLYFI+YSP++F SA K   I ++I A+N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>2.09566e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGRKKSIVDNKEGVTRDAVSDRVSYFGKYFRLIDTCGIFE--RPEDIISSKLKNL-TLDMLKEGDLVLFVLDGKNGLTSEDYHLADFLRKSNSDVLLVVNKSE----NEKK----VLVNLSDFYSLGFGEPIFVSAEQGKNIDNLVEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ +++++V    G TRD V D V   G+ +  +DT G+    R E     K  N   +D +++ D+V+ VLD   G+T +D  +A  + +     ++V NK +     EK+      +     Y + +   IF SA++G NID +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|RKX52664.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga sp.]</Hit_def>
+  <Hit_accession>RKX52664</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>1.36934e-68</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>AIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>AIKVAIVGRPNVGKSSLFNRILNRERAIVTSIPGTTKDSIDDSTVIGGKKYIFIDTAGMRRKSRVEMKTVESYGILRAVRSIERADVVLLVLDAVDGVRRQDQKIAGLIERRKKASIVLFNKSDLL--REGEADILKREFEERLYFIRYSPLIFTSAKTGYGVEKIIPSVNRVYGSYT</Hsp_hseq>
+      <Hsp_midline>AIKVAIVGRPNVGKS+LFN ILN+ERA+V+ IPGTT+D +DD   I G+KY+F+DTAG+RRKSRVE +TVE Y   R V SIE+ADVV++VLDA  G+ RQDQ++AGL+ERR +AS+V+FNK DL+  RE   D   + F E+LYFI YSPLIFTSA  G+ ++++I ++N  Y SYT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.72075e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMID</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNRIVGYRKSIVDEKPGVTIDTIYDFADLNGGKIMLVDTWGITRI--LKDDEITRKARERTVSHILNGDLILFLVDGKEGITSDDLDIAEMLKKTGTKVLLVANKTE-------NLERFRRYILPDLYSLGFGDPIEISAVHSRGIGELLD</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN I+   +++V   PG T D + D   ++G K + VDT G+ R   ++   + + +  R V  I   D+++ ++D  +GIT  D  +A ++++ G   ++V NK +         + F +     LY + +   I  SA     I  ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_004102778.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermosipho africanus] &gt;gb|EKF49394.1| GTP-binding protein Der [Thermosipho africanus H17ap60334]</Hit_def>
+  <Hit_accession>WP_004102778</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>4.77819e-68</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>KPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>KEESQSIIRVSFIGRPNAGKSTLFNSILNKERVLVTPIPGTTRDSVDELVTINGRKYLFVDTAGLRRKSKVDYKSLDMYSNVRSIKSIENSDVVVILIDATEGITHQDQRIAGIAENRGKATIVAFNKIDLIKNFKYKKEEFIDQFNEKLYFINYSPLIFLSAINKKGIDNLINVIDEAYKS</Hsp_hseq>
+      <Hsp_midline>K E    I+V+ +GRPN GKSTLFN+ILNKER LV+PIPGTTRD VD+ V I+GRKY+FVDTAGLRRKS+V+ ++++ YSN R + SIE +DVVVI++DAT+GIT QDQR+AG+ E RG+A++V FNK DL+ + + + +EF   F EKLYFI+YSPLIF SA     ID +I+ ++ AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>5.80707e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMID</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGYKKSIVDDKEGVTRDAVSGRVSYYSKTFNIVDTGGIFENP--EDDIINK-SKDLTLKMLNEADLILFVIDAKNGITSEDYYLADIIRKSNNDVILVSNKSE----SERRVQNNL----PDIYKLGFGDPIFVSAEQGKNIDTLIE</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++  ++++V    G TRD V   V    + +  VDT G+      E   + K S    +  + +AD+++ V+DA  GIT +D  +A ++ +     ++V NK +     E+R           +Y + +   IF SA++G NID +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_012580451.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermosipho africanus] &gt;sp|B7IE34.1| RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Thermosipho africanus TCF52B] &gt;gb|ACJ76261.1| GTP-binding protein EngA [Thermosipho africanus TCF52B]</Hit_def>
+  <Hit_accession>WP_012580451</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>7.51391e-68</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>KPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>KEESQSIIRVSFIGRPNAGKSTLFNSILNKERVLVTPIPGTTRDSVDELVTINGRKYLFVDTAGLRRKSKVDYKSLDMYSNVRSIKSIENSDVVVILIDAIEGITHQDQRIAGIAENRGKATIVAFNKIDLIKNFKYKKEEFIDQFNEKLYFINYSPLIFLSAINKKGIDNLINAIDEAYKS</Hsp_hseq>
+      <Hsp_midline>K E    I+V+ +GRPN GKSTLFN+ILNKER LV+PIPGTTRD VD+ V I+GRKY+FVDTAGLRRKS+V+ ++++ YSN R + SIE +DVVVI++DA +GIT QDQR+AG+ E RG+A++V FNK DL+ + + + +EF   F EKLYFI+YSPLIF SA     ID +I+A++ AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>6.51971e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMID</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGYKKSIVDDKEGVTRDAVSGRVSYYSKTFNIVDTGGIFENP--EDDIINK-SKDLTLKMLNEADLILFVIDAKNGITSEDYYLADIIRKSNNDVILVSNKSE----SERRVQNNL----PDIYKLGFGDPIFVSAEQGKNIDTLIE</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++  ++++V    G TRD V   V    + +  VDT G+      E   + K S    +  + +AD+++ V+DA  GIT +D  +A ++ +     ++V NK +     E+R           +Y + +   IF SA++G NID +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_126992516.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermosipho globiformans]</Hit_def>
+  <Hit_accession>WP_126992516</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>8.10274e-68</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>KPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>KEESQPIIRVSFIGRPNAGKSTLFNSILNKERVLVTPIPGTTRDSVDELVTINGKKYLFVDTAGLRRKSKVDYKSLDMYSNVRSIKSIENSDVVVILIDATEGITHQDQRIAGIAENRGKATIVAFNKIDLIKNFRYKKEEFIDQFNEKLYFINYSPLIFLSAINKKGIDNLINAIDEAYKS</Hsp_hseq>
+      <Hsp_midline>K E    I+V+ +GRPN GKSTLFN+ILNKER LV+PIPGTTRD VD+ V I+G+KY+FVDTAGLRRKS+V+ ++++ YSN R + SIE +DVVVI++DAT+GIT QDQR+AG+ E RG+A++V FNK DL+ +   + +EF   F EKLYFI+YSPLIF SA     ID +I+A++ AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.77078e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGYKKSIVDDKEGVTRDAVSGRVSYYNKTFNIVDTGGIFENP--EDDIINK-SKDLTLKMLNEADLILFVIDAKNGITSEDYYLADIIRKSNNDVILVSNKSE----SEKRVQNNL----PDIYKLGFGDPIFVSAEQGKNIDTLIEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++  ++++V    G TRD V   V    + +  VDT G+      E   + K S    +  + +AD+++ V+DA  GIT +D  +A ++ +     ++V NK +     EKR           +Y + +   IF SA++G NID +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_014296174.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribosome biogenesis GTPase Der [Marinitoga] &gt;gb|AEX85102.1| ribosome-associated GTPase EngA [Marinitoga piezophila KA3] &gt;gb|APT75606.1| GTP-binding protein Der [Marinitoga sp. 1137]</Hit_def>
+  <Hit_accession>WP_014296174</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>2.93438e-67</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>DIIKVALIGRANAGKSSLFNAITGIERAIVSNVPGTTRDTIDELVEINGQKYLFVDTAGLKRKSKTKYGSVEMYSTVRTIRAIENSDVVVLLIDATEGITQQDKKVIGTAENRGKATVIAFNKWDLVKYHDKRVEEYLKMFEKELYFVNYSPVVFTSTVKHWGIEKLMDAINTAYESYT</Hsp_hseq>
+      <Hsp_midline>D IKVA++GR N GKS+LFNAI   ERA+VS +PGTTRD +D+ V I+G+KY+FVDTAGL+RKS+ +  +VE YS  R + +IE +DVVV+++DAT+GIT+QD+++ G  E RG+A+V+ FNKWDLV + +KR +E+ K+F ++LYF++YSP++FTS  K W I++++DA+N AY SYT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>5.07083e-20</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIIGKPNVGKSTLFNRLIKEKKAIVMDMPGVTRDQIFSEARYDGRAFTLVDTCGIFEEPTNE---LEAIAKEKVMNSLEEADSIIFVIDGRNGLTAEDYYLANTLRK-------IKDKVILVANKVESYEKFELNVLPEIYKLGFGEPIPISAEHNKNLDELIEKL</Hsp_hseq>
+      <Hsp_midline>V I+G+PNVGKSTLFN ++ +++A+V  +PG TRD +  E   DGR +  VDT G+  +   E   +E  +  +V++S+E+AD ++ V+D   G+T +D  +A  + +       + +K  LV ++ + Y++F      ++Y + +   I  SA+   N+D +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_114702447.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermosipho africanus] &gt;gb|RDI91972.1| GTP-binding protein Der [Thermosipho africanus Ob7] &gt;tpg|HCF38991.1| ribosome biogenesis GTPase Der [Thermosipho africanus]</Hit_def>
+  <Hit_accession>WP_114702447</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>3.39688e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>KPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>KEESQPIIRVTFIGRPNAGKSTLFNSILNKERVLVTPIPGTTRDSVDELVTINGRKYLFVDTAGLRRKSKVDYKSLDMYSNVRSIKSIENSDVVVILIDAIEGITHQDQRIAGIAENRGKATIVAFNKIDLIKNFKYKKEEFIEQFNEKLYFINYSPLIFLSAINKQGIDNLINVIDEAYKS</Hsp_hseq>
+      <Hsp_midline>K E    I+V  +GRPN GKSTLFN+ILNKER LV+PIPGTTRD VD+ V I+GRKY+FVDTAGLRRKS+V+ ++++ YSN R + SIE +DVVVI++DA +GIT QDQR+AG+ E RG+A++V FNK DL+ + + + +EF + F EKLYFI+YSPLIF SA     ID +I+ ++ AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>3.51572e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMID</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGYKKSIVDDKEGVTRDAVSGRVSYYSKTFNIVDTGGIFENP--EDDIINK-SKDLTLKMLNEADLILFVIDARNGITSEDYYLAEIIRKSNNDVILVSNKSESVRRVQNNLPDIYKL--------GFGDPIFVSAEQGKNIDTLIE</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++  ++++V    G TRD V   V    + +  VDT G+      E   + K S    +  + +AD+++ V+DA  GIT +D  +A ++ +     ++V NK + V   +    +  KL         +   IF SA++G NID +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|OQY09945.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Marinitoga sp. 4572_148]</Hit_def>
+  <Hit_accession>OQY09945</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>2.07573e-66</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>DIIRVALIGRANAGKSSLFNAITGIERAIVSDVPGTTRDSIDELVEVNGKKYLFVDTAGLKRKSKTKYGSVEMYSTVRTIRAIENSDVVVLLIDATEGITQQDKKVVGTAENRGKSTVIAFNKWDLVKYHDKRIEEYLNLFEKELYFVNYSPVVFTSAAKHWGIEKLMDAIDTAYSSYT</Hsp_hseq>
+      <Hsp_midline>D I+VA++GR N GKS+LFNAI   ERA+VS +PGTTRD +D+ V ++G+KY+FVDTAGL+RKS+ +  +VE YS  R + +IE +DVVV+++DAT+GIT+QD+++ G  E RG+++V+ FNKWDLV + +KR +E+  LF ++LYF++YSP++FTSA K W I++++DA++ AY+SYT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>4.17687e-18</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIIGKPNVGKSTLFNRLIKEKKAIVMDYPGVTRDQIFSEARYDERAFTLVDTCGIFEEPTNE---LEEVAKNKVMESLNESDLILFLVDGRNGLTAEDYYLANVLRK-------LKNKVLLVANKVESYEKFEINVLPELYKLGLGEPIPISAEHNKNLDELIDQI</Hsp_hseq>
+      <Hsp_midline>V I+G+PNVGKSTLFN ++ +++A+V   PG TRD +  E   D R +  VDT G+  +   E   +E+ +  +V++S+ ++D+++ ++D   G+T +D  +A ++ +       + NK  LV ++ + Y++F      +LY +     I  SA+   N+D +ID +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|PHJ12133.1|</Hit_id>
+  <Hit_def>GTP-binding protein Der, partial [Fervidobacterium sp. SC_NGM5_G05]</Hit_def>
+  <Hit_accession>PHJ12133</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>5.32291e-65</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>NIIRVTLVGKPNAGKSSLFNMIVKEERALVTPIAGTTRDIIDEIVQINNKNYLFVDTAGLRKKSRIED-FIERVSTMRTIDSIERSDVVVLVIDATEGITRQDQRIAGLAEKNGKATVIVFNKWDLVKHADKRVKEYLDQVNEKLYFIDYSPVVFTSTVSKVGYKELINAINKSYES</Hsp_hseq>
+      <Hsp_midline>+ I+V +VG+PN GKS+LFN I+ +ERALV+PI GTTRD +D+ V I+ + Y+FVDTAGLR+KSR+E   +E+ S  R +DSIE++DVVV+V+DAT+GITRQDQR+AGL E+ G+A+V+VFNKWDLV H +KR  E+     EKLYFIDYSP++FTS         +I+A+N +Y S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_012057827.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermosipho melanesiensis] &gt;sp|A6LNG7.1| RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Thermosipho melanesiensis BI429] &gt;gb|ABR31468.1| small GTP-binding protein [Thermosipho melanesiensis BI429] &gt;gb|APT74526.1| GTP-binding protein Der [Thermosipho melanesiensis] &gt;gb|OOC36478.1| GTP-binding protein Der [Thermosipho melanesiensis] &gt;gb|OOC37296.1| GTP-binding protein Der [Thermosipho melanesiensis] &gt;gb|OOC38049.1| GTP-binding protein Der [Thermosipho melanesiensis] &gt;gb|OOC41276.1| GTP-binding protein Der [Thermosipho melanesiensis] &gt;gb|OOC43272.1| GTP-binding protein Der [Thermosipho melanesiensis]</Hit_def>
+  <Hit_accession>WP_012057827</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>5.86497e-65</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>IRVALIGRPNAGKSTLFNGILERERALVTPIPGTTRDAIDELVEINGKKYLFIDTAGLRRKSKVEYKSIDMYSNVRSIKSIELSDVVVFVIDSLEGITHQDQKIAGIAENRGKATVVVFNKIDLVKNFKYRKQEFIEHFMERLYFVSYSPVVFVSAQERYGIGKLIKAIKEAYNS</Hsp_hseq>
+      <Hsp_midline>I+VA++GRPN GKSTLFN IL +ERALV+PIPGTTRD +D+ V I+G+KY+F+DTAGLRRKS+VE ++++ YSN R + SIE +DVVV V+D+ +GIT QDQ++AG+ E RG+A+VVVFNK DLV + + R  EF + F E+LYF+ YSP++F SA + + I ++I A+  AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.29746e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMID</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGKKKSIVDNKEGVTRDAVSDRVSYFGKSFKLIDTCGIF--ERPEDIISERLKNL-TLNMLSEGDIIIFVVDGKYGLTSEDYHLADLLRKSNSDVILVVNKSE---NEKKVFVNF-----DDFYSLGFGEPLFISAEQGKNIDRLIE</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ K++++V    G TRD V D V   G+ +  +DT G+    R E    E+  N   ++ + + D+++ V+D   G+T +D  +A L+ +     ++V NK +   + +K +  F     +  Y + +   +F SA++G NIDR+I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_047268008.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Marinitoga sp. 1197] &gt;gb|KLO22409.1| GTP-binding protein Der [Marinitoga sp. 1197]</Hit_def>
+  <Hit_accession>WP_047268008</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>7.80746e-65</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>NIIKVALIGRANAGKSSLFNAITGINRAIVSDVPGTTRDSIDELVEINGQKYLFIDTAGLKRKSKTKYGSVEMYSTVRTIRAIENSDVVVLLIDAVEGITQQDKKVIGTAENRGKATVIAFNKWDLVKYHDKRIEEYLNLFEKELYFVNYSPVIFTSAAKHWGIEKLMDAIDTAYNSYT</Hsp_hseq>
+      <Hsp_midline>+ IKVA++GR N GKS+LFNAI    RA+VS +PGTTRD +D+ V I+G+KY+F+DTAGL+RKS+ +  +VE YS  R + +IE +DVVV+++DA +GIT+QD+++ G  E RG+A+V+ FNKWDLV + +KR +E+  LF ++LYF++YSP+IFTSA K W I++++DA++ AY SYT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.57788e-19</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>VLIIGKPNVGKSTLFNRLIKEKKAIVMDYPGVTRDQIFSEARYDGRAFTLVDTCGIFEEPANE---LEEIAKNKVMESLKESDLILFIVDGKNGLTAEDYYLANVLRK-------VKNKVLLVANKVESYEKFEINVLPELYKLGLGEPIPVSSEHNKNLDELIENIFEKIPQYET</Hsp_hseq>
+      <Hsp_midline>V I+G+PNVGKSTLFN ++ +++A+V   PG TRD +  E   DGR +  VDT G+  +   E   +E+ +  +V++S++++D+++ ++D   G+T +D  +A ++ +       V NK  LV ++ + Y++F      +LY +     I  S++   N+D +I+ +      Y T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_047265024.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Marinitoga sp. 1155] &gt;gb|KLO24894.1| GTP-binding protein Der [Marinitoga sp. 1155]</Hit_def>
+  <Hit_accession>WP_047265024</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>8.15081e-65</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>NIIKVALIGRANAGKSSLFNAITGINRAIVSDVPGTTRDSIDELVEINGQKYLFIDTAGLKRKSKTKYGSVEMYSTVRTIRAIENSDVVVLLIDAVEGITQQDKKVIGAAENRGKATVIAFNKWDLVKYHDKRIEEYLNLFEKELYFVNYSPVIFTSAAKHWGIEKLMDAIDTAYNSYT</Hsp_hseq>
+      <Hsp_midline>+ IKVA++GR N GKS+LFNAI    RA+VS +PGTTRD +D+ V I+G+KY+F+DTAGL+RKS+ +  +VE YS  R + +IE +DVVV+++DA +GIT+QD+++ G  E RG+A+V+ FNKWDLV + +KR +E+  LF ++LYF++YSP+IFTSA K W I++++DA++ AY SYT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.96261e-19</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYTT</Hsp_qseq>
+      <Hsp_hseq>VLIIGKPNVGKSTLFNRLIKEKKAIVMDYPGVTRDQIFSEARYDGRAFTLVDTCGIFEEPTNE---LEEIAKNKVMESLKESDLILFIVDGKNGLTAEDYYLANVLRK-------VKNKVLLVANKVESYEKFEINVLPELYKLGLGEPIPISSEHNKNLDELIENIFEKIPQYET</Hsp_hseq>
+      <Hsp_midline>V I+G+PNVGKSTLFN ++ +++A+V   PG TRD +  E   DGR +  VDT G+  +   E   +E+ +  +V++S++++D+++ ++D   G+T +D  +A ++ +       V NK  LV ++ + Y++F      +LY +     I  S++   N+D +I+ +      Y T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_072865942.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Marinitoga hydrogenitolerans] &gt;emb|SHF23383.1| GTP-binding protein [Marinitoga hydrogenitolerans DSM 16785]</Hit_def>
+  <Hit_accession>WP_072865942</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>8.60129e-65</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>KVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>KVALIGRANAGKSSLFNAITGIDRAIVSDIPGTTRDSIDELVEINGQKYLFIDTAGLKRKSKTNYGSVEMYSTVRTIRAIENSDVVVLLIDAVEGITQQDKKVVGTAENRGKATVIAFNKWDLVKYHDKRIEEYLNLFKKELYFVNYSPVIFTSAAKHWGIEKLMDAIDTAYKSYT</Hsp_hseq>
+      <Hsp_midline>KVA++GR N GKS+LFNAI   +RA+VS IPGTTRD +D+ V I+G+KY+F+DTAGL+RKS+    +VE YS  R + +IE +DVVV+++DA +GIT+QD+++ G  E RG+A+V+ FNKWDLV + +KR +E+  LF+++LYF++YSP+IFTSA K W I++++DA++ AY SYT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.55239e-19</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIIGKPNVGKSTIFNRLIKEKKAIVMDYPGVTRDQIFSEARYDGRAFTLVDTCGIFEEPTNE---LEEVAKNKVMESLNDSDLILFIVDGKNGLTAEDYYLANVLRK-------VKNKVVLVANKVESYEKFEINILPELYKLGLGKPIPISAEHNKNLDELIDKI</Hsp_hseq>
+      <Hsp_midline>V I+G+PNVGKST+FN ++ +++A+V   PG TRD +  E   DGR +  VDT G+  +   E   +E+ +  +V++S+  +D+++ ++D   G+T +D  +A ++ +       V NK  LV ++ + Y++F      +LY +     I  SA+   N+D +ID +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_033192595.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium islandicum] &gt;gb|AMW33798.1| ribosome biogenesis GTPase Der [Fervidobacterium islandicum]</Hit_def>
+  <Hit_accession>WP_033192595</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>3.01349e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>SAPKLENLIRVAIVGRPNAGKSSLFNMIVKEERALVTPIAGTTRDTIDEIVKIGDKNYLFVDTAGLRKKSRIED-FIERVSTFRTIDAIERSDVVVLVIDSTEGITRQDQRIAGLAEKNGKGIVVVFNKWDLIKHADKRVKDFMDQFSEKLYFVDFAPVVFTSAINHVGYKELVRSINTAYDS</Hsp_hseq>
+      <Hsp_midline>S P++ + I+VAIVGRPN GKS+LFN I+ +ERALV+PI GTTRD +D+ V I  + Y+FVDTAGLR+KSR+E   +E+ S +R +D+IE++DVVV+V+D+T+GITRQDQR+AGL E+ G+  VVVFNKWDL+ H +KR  +F   F EKLYF+D++P++FTSA        ++ ++N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.02499e-13</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYR--VVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>IVGKSNVGKSTLFNKLIGKKKSIVADERGTTRDAVVDRVVYFDKTFQLVDTCGI-----FEGKEDEIYEKSREFTLKALQESDLILFVVDGKNGLSSEDHTIADMLRKSGVDVILVANKSE----SEKNY---SKVYPE-LFSLGFGEPFPVSAEQSKNLDELVELI</Hsp_hseq>
+      <Hsp_midline>IVG+ NVGKSTLFN ++ K++++V+   GTTRD V D V    + +  VDT G+      E +  E Y   R   + +++++D+++ V+D   G++ +D  +A ++ + G   ++V NK +     EK Y   +K++ E L+ + +      SA++  N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|ODN31473.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium thailandense]</Hit_def>
+  <Hit_accession>ODN31473</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>3.43994e-64</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>VRVAIVGRPNAGKSSLFNMIVKEERAVVTPIAGTTRDTIDELVTIDGKNYLFVDTAGLRRKSRIED-FLERVSTLRTIEAIERSDVVLLVIDSTEGITRQDQKIAGLAEKRGKGTVVVLNKWDLIKHAERRAQEFIDYVHEKLYFIDYSPIVFTSAVNKVGYKELMRAVNTAYES</Hsp_hseq>
+      <Hsp_midline>++VAIVGRPN GKS+LFN I+ +ERA+V+PI GTTRD +D+ V IDG+ Y+FVDTAGLRRKSR+E   +E+ S  R +++IE++DVV++V+D+T+GITRQDQ++AGL E+RG+ +VVV NKWDL+ H E+R  EF     EKLYFIDYSP++FTSA        ++ A+N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.48404e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKY--SNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMID</Hsp_qseq>
+      <Hsp_hseq>VLIVGRSNVGKSTLFNKLIGKRKSIVADESGTTRDAVVDRVVWYDKEFLLVDTCGI-----FEGREDEIYEKSKEMTINALTEADLVLFVVDGRRGLSSEDFTVADLLRKSEVDVILVANK----VENERIYRDVLP----DLYALGFGEPFPVSAEQSKNLDELIE</Hsp_hseq>
+      <Hsp_midline>V IVGR NVGKSTLFN ++ K +++V+   GTTRD V D V    ++++ VDT G+      E R  E Y  S    ++++ +AD+V+ V+D  +G++ +D  +A L+ +     ++V NK    V  E+ Y +        LY + +      SA++  N+D +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_071608623.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium thailandense]</Hit_def>
+  <Hit_accession>WP_071608623</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>4.35892e-64</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>NIVRVAIVGRPNAGKSSLFNMIVKEERAVVTPIAGTTRDTIDELVTIDGKNYLFVDTAGLRRKSRIED-FLERVSTLRTIEAIERSDVVLLVIDSTEGITRQDQKIAGLAEKRGKGTVVVLNKWDLIKHAERRAQEFIDYVHEKLYFIDYSPIVFTSAVNKVGYKELMRAVNTAYES</Hsp_hseq>
+      <Hsp_midline>+ ++VAIVGRPN GKS+LFN I+ +ERA+V+PI GTTRD +D+ V IDG+ Y+FVDTAGLRRKSR+E   +E+ S  R +++IE++DVV++V+D+T+GITRQDQ++AGL E+RG+ +VVV NKWDL+ H E+R  EF     EKLYFIDYSP++FTSA        ++ A+N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.46153e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKY--SNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMID</Hsp_qseq>
+      <Hsp_hseq>VLIVGRSNVGKSTLFNKLIGKRKSIVADESGTTRDAVVDRVVWYDKEFLLVDTCGI-----FEGREDEIYEKSKEMTINALTEADLVLFVVDGRRGLSSEDFTVADLLRKSEVDVILVANK----VENERIYRDVLP----DLYALGFGEPFPVSAEQSKNLDELIE</Hsp_hseq>
+      <Hsp_midline>V IVGR NVGKSTLFN ++ K +++V+   GTTRD V D V    ++++ VDT G+      E R  E Y  S    ++++ +AD+V+ V+D  +G++ +D  +A L+ +     ++V NK    V  E+ Y +        LY + +      SA++  N+D +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_090222195.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium changbaicum] &gt;gb|QAV33478.1| ribosome biogenesis GTPase Der [Fervidobacterium changbaicum] &gt;emb|SDH14750.1| GTP-binding protein [Fervidobacterium changbaicum]</Hit_def>
+  <Hit_accession>WP_090222195</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>4.80945e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>199</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>SKPEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>SAPKLENLIRVAIVGRPNAGKSSLFNMIVKEERALVTPIAGTTRDTIDEIVKIGDKNYLFVDTAGLRKKSRIED-FIERVSTFRTIDAIERSDVVVLVIDSTEGITRQDQRIAGLAEKNGKGIVVVFNKWDLIKHADKRVKDFMDQFSEKLYFVDFAPVVFTSAINHVGYKELVRSINTAYDS</Hsp_hseq>
+      <Hsp_midline>S P++ + I+VAIVGRPN GKS+LFN I+ +ERALV+PI GTTRD +D+ V I  + Y+FVDTAGLR+KSR+E   +E+ S +R +D+IE++DVVV+V+D+T+GITRQDQR+AGL E+ G+  VVVFNKWDL+ H +KR  +F   F EKLYF+D++P++FTSA        ++ ++N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>4.76952e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYR--VVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGKKKSIVADERGTTRDAVVDRVVYFDKTFQLVDTCGI-----FEGKEDEIYEKSREFTLKALQESDLILFVVDGKNGLSSEDHTIADMLRKSGVDVILVANKSE----SEKNY---SKVYPE-LFSLGFGEPFPVSAEQSKNLDELVELI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ K++++V+   GTTRD V D V    + +  VDT G+      E +  E Y   R   + +++++D+++ V+D   G++ +D  +A ++ + G   ++V NK +     EK Y   +K++ E L+ + +      SA++  N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_073071597.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermosipho atlanticus]</Hit_def>
+  <Hit_accession>WP_073071597</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>8.95552e-64</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>EIIRVALVGRPNAGKSSLFNSILNTERALVTPIPGTTRDSVDELVELNGRKFLFIDTAGLRRKSKVEYKSLDMYSNVRSIRSIEFADVVVIVVDATEGITHQDQRISGIAEKRGKATVVVFNKIDLVKNFRERKGEFLYQFEEKLYFINYSPLVFTSTVEKKGIDVLIRAIEEAYKS</Hsp_hseq>
+      <Hsp_midline>+ I+VA+VGRPN GKS+LFN+ILN ERALV+PIPGTTRD VD+ V ++GRK++F+DTAGLRRKS+VE ++++ YSN R + SIE ADVVVIV+DAT+GIT QDQR++G+ E+RG+A+VVVFNK DLV +  +R  EF   F EKLYFI+YSPL+FTS  +   ID +I A+  AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>3.65326e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNRLIGRKKSIVDNKEGVTRDAVSDRVIYNDKEFQIVDTCGVFENPN---DLFSKKSKENTLNMLKEAELIIFVVDGRNGISSEDHYLADLLRKSSVDVIFVANK----VESEKKFMEVL----PDLYTLGFDEPLKISAEHGKNIDVLIEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ +++++V    G TRD V D V  + +++  VDT G+            K S    ++ +++A++++ V+D   GI+ +D  +A L+ +     + V NK    V  EK++ E        LY + +   +  SA+ G NID +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>emb|SHH22931.1|</Hit_id>
+  <Hit_def>GTP-binding protein [Thermosipho atlanticus DSM 15807]</Hit_def>
+  <Hit_accession>SHH22931</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>1.07222e-63</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>EIIRVALVGRPNAGKSSLFNSILNTERALVTPIPGTTRDSVDELVELNGRKFLFIDTAGLRRKSKVEYKSLDMYSNVRSIRSIEFADVVVIVVDATEGITHQDQRISGIAEKRGKATVVVFNKIDLVKNFRERKGEFLYQFEEKLYFINYSPLVFTSTVEKKGIDVLIRAIEEAYKS</Hsp_hseq>
+      <Hsp_midline>+ I+VA+VGRPN GKS+LFN+ILN ERALV+PIPGTTRD VD+ V ++GRK++F+DTAGLRRKS+VE ++++ YSN R + SIE ADVVVIV+DAT+GIT QDQR++G+ E+RG+A+VVVFNK DLV +  +R  EF   F EKLYFI+YSPL+FTS  +   ID +I A+  AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>3.97191e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTV-EKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNRLIGRKKSIVDNKEGVTRDAVSDRVIYNDKEFQIVDTCGVFE----NPNDLFSKKSKENTLNMLKEAELIIFVVDGRNGISSEDHYLADLLRKSSVDVIFVANK----VESEKKFMEVL----PDLYTLGFDEPLKISAEHGKNIDVLIEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ +++++V    G TRD V D V  + +++  VDT G+       P  +  K S    ++ +++A++++ V+D   GI+ +D  +A L+ +     + V NK    V  EK++ E        LY + +   +  SA+ G NID +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_084634387.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium gondwanense] &gt;emb|SHN62327.1| GTP-binding protein [Fervidobacterium gondwanense DSM 13020]</Hit_def>
+  <Hit_accession>WP_084634387</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>1.85098e-63</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>NLIRVTIAGKPNAGKSSLFNMIINEERALVTPIAGTTRDTIDEIVKIGDKNYLFVDTAGLRKKSKIED-FIERISTLRTIEAIEKSDVVVLVIDSTQGITRQDQRIAGLAEKNGKGLVVVFNKWDLVKHADRRVKDFMDMFKEKLYFVDFAPVIFTSAVNKVGYKELMKAINTAYAS</Hsp_hseq>
+      <Hsp_midline>+ I+V I G+PN GKS+LFN I+N+ERALV+PI GTTRD +D+ V I  + Y+FVDTAGLR+KS++E   +E+ S  R +++IEK+DVVV+V+D+TQGITRQDQR+AGL E+ G+  VVVFNKWDLV H ++R  +F  +F+EKLYF+D++P+IFTSA        ++ A+N AYAS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.55786e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYR--VVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMID</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGKRKSIVADEQGTTRDAVIDRVLWYDKSFQLVDTCGI-----FEGKENEIYERSRDATIKALEESALVLFIVDGKNGLSSEDHTIASILRKSGADVLLVANKTESEKYYQKVYSE--------LFSLGFGEPFPVSAEQSKNLDELIE</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ K +++V+   GTTRD V D V    + +  VDT G+      E +  E Y   R   + ++E++ +V+ ++D   G++ +D  +A ++ + G   ++V NK +   + +K Y E        L+ + +      SA++  N+D +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_064012562.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium pennivorans] &gt;gb|ANE42314.1| GTP-binding protein Der [Fervidobacterium pennivorans] &gt;gb|PHJ13460.1| GTP-binding protein Der [Fervidobacterium sp. SC_NGM5_O18]</Hit_def>
+  <Hit_accession>WP_064012562</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>2.27568e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>PEITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>PKFENLIRVTIVGRPNAGKSSLFNMIVKEERALVTPIAGTTRDTIDEIVKIGDKSYLFVDTAGLRKKSRIED-FIERVSTFRTIDAIERSDVVVLVIDSTEGITRQDQRIAGLAEKNGKGIVVVFNKWDLIKHADKRIKDFMDQFNEKLYFVDFAPVVFTSAINRVGYKELIRAINTAYDS</Hsp_hseq>
+      <Hsp_midline>P+  + I+V IVGRPN GKS+LFN I+ +ERALV+PI GTTRD +D+ V I  + Y+FVDTAGLR+KSR+E   +E+ S +R +D+IE++DVVV+V+D+T+GITRQDQR+AGL E+ G+  VVVFNKWDL+ H +KR  +F   F EKLYF+D++P++FTSA        +I A+N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>2.49434e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGKRKSIVADEQGTTRDAVIDRVVYSDKMFQLVDTCGIFEGK--EDEIYEKSKEF-TLKALQESNLILFVVDGKNGLSSEDYTIADMLRKSGVDVILVANKSE----SEKNY---SKVYPE-LFSLGFGEPFPVSAEQSKNLDELVELI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ K +++V+   GTTRD V D V    + +  VDT G+      E    EK   +  + +++++++++ V+D   G++ +D  +A ++ + G   ++V NK +     EK Y   +K++ E L+ + +      SA++  N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|ABS61081.1|</Hit_id>
+  <Hit_def>small GTP-binding protein [Fervidobacterium nodosum Rt17-B1]</Hit_def>
+  <Hit_accession>ABS61081</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>5.04082e-63</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>NIIRVTLVGKPNAGKSSLFNMIVKEERALVTPIAGTTRDIIDEIVQINNKNYLFVDTAGLRKKSRIED-FIERVSTMRTIDSIERSDVVVLVIDATEGITRQDQRIAGLAEKNGKATVIVFNKWDLVKHADKRVKEYLDQVNEKLYFIDYSPVVFTSTVSKVGYKELINAINKSYES</Hsp_hseq>
+      <Hsp_midline>+ I+V +VG+PN GKS+LFN I+ +ERALV+PI GTTRD +D+ V I+ + Y+FVDTAGLR+KSR+E   +E+ S  R +DSIE++DVVV+V+DAT+GITRQDQR+AGL E+ G+A+V+VFNKWDLV H +KR  E+     EKLYFIDYSP++FTS         +I+A+N +Y S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.57647e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYR--VVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VILVGKSNVGKSTLFNKLVGKRKSIVADENGTTRDAVVDRVVWYDKTFQLVDTCGI-----FEGKNDEIYEKSKEITIKSLSEADLVIFVVDGRKGLSSEDYTIADLIRKSGAEVILAANK----VENEKIYQKNLPDF----FSLGLGEPFPVSAEQSRNLDELIETI</Hsp_hseq>
+      <Hsp_midline>V +VG+ NVGKSTLFN ++ K +++V+   GTTRD V D V    + +  VDT G+      E +  E Y   +   + S+ +AD+V+ V+D  +G++ +D  +A L+ + G   ++  NK    V  EK Y +    F    + +        SA++  N+D +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_041257191.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium nodosum]</Hit_def>
+  <Hit_accession>WP_041257191</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>5.62348e-63</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>NIIRVTLVGKPNAGKSSLFNMIVKEERALVTPIAGTTRDIIDEIVQINNKNYLFVDTAGLRKKSRIED-FIERVSTMRTIDSIERSDVVVLVIDATEGITRQDQRIAGLAEKNGKATVIVFNKWDLVKHADKRVKEYLDQVNEKLYFIDYSPVVFTSTVSKVGYKELINAINKSYES</Hsp_hseq>
+      <Hsp_midline>+ I+V +VG+PN GKS+LFN I+ +ERALV+PI GTTRD +D+ V I+ + Y+FVDTAGLR+KSR+E   +E+ S  R +DSIE++DVVV+V+DAT+GITRQDQR+AGL E+ G+A+V+VFNKWDLV H +KR  E+     EKLYFIDYSP++FTS         +I+A+N +Y S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>1.96895e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYR--VVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VILVGKSNVGKSTLFNKLVGKRKSIVADENGTTRDAVVDRVVWYDKTFQLVDTCGI-----FEGKNDEIYEKSKEITIKSLSEADLVIFVVDGRKGLSSEDYTIADLIRKSGAEVILAANK----VENEKIYQKNLPDF----FSLGLGEPFPVSAEQSRNLDELIETI</Hsp_hseq>
+      <Hsp_midline>V +VG+ NVGKSTLFN ++ K +++V+   GTTRD V D V    + +  VDT G+      E +  E Y   +   + S+ +AD+V+ V+D  +G++ +D  +A L+ + G   ++  NK    V  EK Y +    F    + +        SA++  N+D +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_041263523.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium pennivorans]</Hit_def>
+  <Hit_accession>WP_041263523</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.5073e-62</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>NLIRVTIVGRPNAGKSSLFNMIVKEERALVTPIAGTTRDTIDEIVKIGDKSYLFVDTAGLRKKSRIED-FIERVSTFRTIDAIERSDVVVLVIDSTEGITRQDQRIAGLAEKNGKGIVVVFNKWDLIKHADKRIKDFMDQFNEKLYFVDFAPVVFTSAINRVGYKELIRAINTAYDS</Hsp_hseq>
+      <Hsp_midline>+ I+V IVGRPN GKS+LFN I+ +ERALV+PI GTTRD +D+ V I  + Y+FVDTAGLR+KSR+E   +E+ S +R +D+IE++DVVV+V+D+T+GITRQDQR+AGL E+ G+  VVVFNKWDL+ H +KR  +F   F EKLYF+D++P++FTSA        +I A+N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>6.35388e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGKRKSIVADEQGTTRDAVIDRVVYSDKMFQLVDTCGIFEGK--EDEIYEKSKEF-TLKALQESDLILFVVDGKNGLSSEDYTIADMLRKSGVDVILVANKSE----SEKNY---SKVYPE-LFSLGFGEPFPVSAEQSKNLDELVELI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ K +++V+   GTTRD V D V    + +  VDT G+      E    EK   +  + +++++D+++ V+D   G++ +D  +A ++ + G   ++V NK +     EK Y   +K++ E L+ + +      SA++  N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|RKX40468.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der, partial [Thermotogae bacterium]</Hit_def>
+  <Hit_accession>RKX40468</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>4.41049e-62</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>AIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHR</Hsp_qseq>
+      <Hsp_hseq>AIKVAIIGKPNVGKSSLFNAILGMERTLVTPLPGTTRDAVDEEVEVDGKRYIFIDTAGMRRRSRIEPKTLERYGTYRTVEAIERADVVILVLDAMEGISRQDQRLAGLVERRGKAIVTVFNKWDLVEHR</Hsp_hseq>
+      <Hsp_midline>AIKVAI+G+PNVGKS+LFNAIL  ER LV+P+PGTTRD VD+EV +DG++Y+F+DTAG+RR+SR+EP+T+E+Y  YR V++IE+ADVV++VLDA +GI+RQDQR+AGL+ERRG+A V VFNKWDLV HR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>3.06502e-19</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNRLIRKRKAIVEDDPGVTRDSIQDRVEWRGKFFTLVDTCGIFENPE---GIVEKKMKEMTLDMLKEGDLLLFVVDGREGLTSEDHHLADFVRKSGADVILVANK----VEDKKKYENEVK---PELYSLGFGEPIPVSSEHSLNIDTLLEKI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN ++ K +A+V   PG TRD + D V   G+ +  VDT G+          VEK      +D +++ D+++ V+D  +G+T +D  +A  + + G   ++V NK    V  +K+Y+   K    +LY + +   I  S++   NID +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|AFG35933.1|</Hit_id>
+  <Hit_def>ribosome-associated GTPase EngA [Fervidobacterium pennivorans DSM 9078]</Hit_def>
+  <Hit_accession>AFG35933</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>4.85767e-62</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>DAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>NLIRVTIVGRPNAGKSSLFNMIVKEERALVTPIAGTTRDTIDEIVKIGDKSYLFVDTAGLRKKSRIED-FIERVSTFRTIDAIERSDVVVLVIDSTEGITRQDQRIAGLAEKNGKGIVVVFNKWDLIKHADKRIKDFMDQFNEKLYFVDFAPVVFTSAINRVGYKELIRAINTAYDS</Hsp_hseq>
+      <Hsp_midline>+ I+V IVGRPN GKS+LFN I+ +ERALV+PI GTTRD +D+ V I  + Y+FVDTAGLR+KSR+E   +E+ S +R +D+IE++DVVV+V+D+T+GITRQDQR+AGL E+ G+  VVVFNKWDL+ H +KR  +F   F EKLYF+D++P++FTSA        +I A+N AY S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>7.1017e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKSNVGKSTLFNKLIGKRKSIVADEQGTTRDAVIDRVVYSDKMFQLVDTCGIFEGK--EDEIYEKSKEF-TLKALQESDLILFVVDGKNGLSSEDYTIADMLRKSGVDVILVANKSE----SEKNY---SKVYPE-LFSLGFGEPFPVSAEQSKNLDELVELI</Hsp_hseq>
+      <Hsp_midline>V IVG+ NVGKSTLFN ++ K +++V+   GTTRD V D V    + +  VDT G+      E    EK   +  + +++++D+++ V+D   G++ +D  +A ++ + G   ++V NK +     EK Y   +K++ E L+ + +      SA++  N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|RKX37043.1|</Hit_id>
+  <Hit_def>hypothetical protein DRP20_05225, partial [Thermotogae bacterium]</Hit_def>
+  <Hit_accession>RKX37043</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>1.18942e-61</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>PNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHRE-KRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASY</Hsp_qseq>
+      <Hsp_hseq>PNVGKSSLFNAILGEDRATVTSVPGTTRDPIDEPITIKGKTYLFIDTAGLRRKSKIETKSVEQYSVKRAVNSLQRSDLVILVMDACDGITRQDQRIAGLAIRKGKALVCVFNKWDLIKNTSTERYEE---AFKKKMYFADFCPVIFTSASKKKGIDQLIDAAEVSLESY</Hsp_hseq>
+      <Hsp_midline>PNVGKS+LFNAIL ++RA V+ +PGTTRDP+D+ + I G+ Y+F+DTAGLRRKS++E ++VE+YS  R V+S++++D+V++V+DA  GITRQDQR+AGL  R+G+A V VFNKWDL+ +   +RY+E    F++K+YF D+ P+IFTSA K   ID++IDA  ++  SY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>tpg|HCZ05683.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotogae bacterium]</Hit_def>
+  <Hit_accession>HCZ05683</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>3.62319e-61</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>AIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>AVKVAILGKPNAGKSSIFNSILGMERSLVTEIPGTTRDVVDELVEFGGKRYLFVDTAGLRRPSRVEMKTIESYGNLRAVRALERSDVAVIVIDATAGITRQDQRLASLVQRRRKSSVVVLNKVDLVAS--ERLEDLKRAFESELRFISYSPLVFTSAVKGKGIPELMQAIDQAYESFT</Hsp_hseq>
+      <Hsp_midline>A+KVAI+G+PN GKS++FN+IL  ER+LV+ IPGTTRD VD+ V   G++Y+FVDTAGLRR SRVE +T+E Y N R V ++E++DV VIV+DAT GITRQDQR+A L++RR ++SVVV NK DLV    +R ++  + F  +L FI YSPL+FTSA KG  I  ++ A++ AY S+T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>7.20617e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREK</Hsp_qseq>
+      <Hsp_hseq>VVIVGKPNVGKSTLFNRLAGNKKNIVVDEPGVTRDVIYARVKCDEGAFTLVDTCGFFDQPQNE---LEEKMRQKTESMLKNADLLVFVVDGQKGITTQDEDVAQVLRKIGVPILLVANKTENRVHYER</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN +   ++ +V   PG TRD +   V  D   +  VDT G   + + E   +E+    +    ++ AD++V V+D  +GIT QD+ +A ++ + G   ++V NK +  VH E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>tpg|HCI28843.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Fervidobacterium sp.]</Hit_def>
+  <Hit_accession>HCI28843</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>4.89361e-61</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>EITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYAS</Hsp_qseq>
+      <Hsp_hseq>ESKNTTRVAIVGKPNVGKSSIFNMIIDEERTLVTPIAGTTRDIIDEFIEIDGKSYLFVDTAGLRRKSKIDV-FIERISTLRTIESIERSDVVVLVIDATEGVTRQDQRIAGLAERKGKGTVIALNKWDLIKNSEKKVKEFLGEIHEKLYFIDYSPIVFTSAINKIGYRELLKAIDASYES</Hsp_hseq>
+      <Hsp_midline>E  +  +VAIVG+PNVGKS++FN I+++ER LV+PI GTTRD +D+ + IDG+ Y+FVDTAGLRRKS+++   +E+ S  R ++SIE++DVVV+V+DAT+G+TRQDQR+AGL ER+G+ +V+  NKWDL+ + EK+  EF     EKLYFIDYSP++FTSA        ++ A++ +Y S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.10767e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYR--VVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>ILLVGKSNVGKSTLFNKLIGKRKSIVTDESGTTRDAVVDRVVWYGKQFQLVDTCGI-----FEGKEDEIYEKGKEITMKALEEADLVLFLVDGRNGIASEDYTIAELLRKSEADVLLISNK----VENEKLY----QMIYPELFSLGFGEPFPISAEHSKNLDELVENI</Hsp_hseq>
+      <Hsp_midline>+ +VG+ NVGKSTLFN ++ K +++V+   GTTRD V D V   G+++  VDT G+      E +  E Y   +   + ++E+AD+V+ ++D   GI  +D  +A L+ +     +++ NK    V  EK Y    ++   +L+ + +      SA+   N+D +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_103079306.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribosome biogenesis GTPase Der [Petrotoga] &gt;gb|PNR98951.1| GTP-binding protein Der [Petrotoga miotherma DSM 10691] &gt;gb|POZ91994.1| GTP-binding protein Der [Petrotoga halophila DSM 16923]</Hit_def>
+  <Hit_accession>WP_103079306</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>2.107e-59</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>IKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>INVSIVGRPNVGKSSLFNSILGSERAIVSEIPGTTRDAIDHLVKIGDKTFRFIDTAGMRKKSTVHYGSIEMFSISRTIKAVEKSDVVILVVDSTEGITHQDKSIIGIAEKRGKGTIIAFNKWDLVRHNHKRKEEFFKYFEKELYFVNYSPLVFTSAPKRWGIQELITAI</Hsp_hseq>
+      <Hsp_midline>I V+IVGRPNVGKS+LFN+IL  ERA+VS IPGTTRD +D  V I  + + F+DTAG+R+KS V   ++E +S  R + ++EK+DVV++V+D+T+GIT QD+ + G+ E+RG+ +++ FNKWDLV H  KR +EF K F ++LYF++YSPL+FTSA K W I  +I A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>5.82193e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>ILIIGKPNVGKSTLFNRMIGERKSIVHDMPGVTRDNIFATIQWDDVSFTMVDTCGIFEQPE---DNIEERQKKIIFESLKDVSLVIFVIDGKIGLTSEDYHIADYL-RKSNSKVI------LVVNKAENFEKYELEVKPEIYSLGFGEGIPVSAEHNRNIFTLMDTI</Hsp_hseq>
+      <Hsp_midline>+ I+G+PNVGKSTLFN ++ + +++V  +PG TRD +   +  D   +  VDT G+  +       +E+     + +S++   +V+ V+D   G+T +D  +A  + R+  + V+      LVV++ + ++++    + ++Y + +   I  SA+   NI  ++D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_103077212.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Petrotoga mexicana] &gt;gb|PNR99209.1| GTP-binding protein Der [Petrotoga mexicana DSM 14811]</Hit_def>
+  <Hit_accession>WP_103077212</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>3.30322e-59</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>IKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>INVSIVGRPNVGKSSLFNSILGSERAIVSEIPGTTRDAIDHLVKIGDKTFRFIDTAGMRKKSTIHYGSIEMFSISRTIKAVEKSDVVILVVDSTEGITHQDKSIIGIAEKRGKGTIVAFNKWDIVSHNHKRKEEFFKYFEKELYFVNYSPLVFTSAPKRWGIQELITAI</Hsp_hseq>
+      <Hsp_midline>I V+IVGRPNVGKS+LFN+IL  ERA+VS IPGTTRD +D  V I  + + F+DTAG+R+KS +   ++E +S  R + ++EK+DVV++V+D+T+GIT QD+ + G+ E+RG+ ++V FNKWD+V H  KR +EF K F ++LYF++YSPL+FTSA K W I  +I A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>9.34043e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIIGKPNVGKSTLFNRMIGERKSIVHDMPGVTRDNIFATIQWDDVSFTLVDTCGIFEQPV---DKIEERQKQIIFESLKDVSLVVFVIDGKIGLTSEDYHIADYL-RKTNSKVI------LVVNKAENFEKYELEVKPEIYSLGFGEGIPVSAEHNRNIFTLMDTI</Hsp_hseq>
+      <Hsp_midline>V I+G+PNVGKSTLFN ++ + +++V  +PG TRD +   +  D   +  VDT G+  +       +E+     + +S++   +VV V+D   G+T +D  +A  + R+  + V+      LVV++ + ++++    + ++Y + +   I  SA+   NI  ++D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_012003682.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribosome biogenesis GTPase Der [Pseudothermotoga] &gt;sp|A8F7S2.1| RecName: Full=GTPase Der; AltName: Full=GTP-binding protein EngA [Pseudothermotoga lettingae TMO] &gt;gb|ABV34206.1| small GTP-binding protein [Pseudothermotoga lettingae TMO] &gt;gb|KUK21136.1| GTPase Der [Pseudothermotoga lettingae] &gt;tpg|HBJ81894.1| ribosome biogenesis GTPase Der [Pseudothermotoga sp.] &gt;tpg|HBT26200.1| ribosome biogenesis GTPase Der [Pseudothermotoga sp.]</Hit_def>
+  <Hit_accession>WP_012003682</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>5.8045e-59</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>KVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>KIAIVGKPNVGKSSLFNALLNMDRATVTPVPGTTRDPVDEMIEINGKKYILVDTAGMRRKSRIERKTIEQFSISRTIDTIQSADVVLLVIDATEGVTRQDKRIADLILSSGRAMVCVINKFDLVNVRKKDYE--AALFTE-MPFINFCRIVFTSAVKKSGLEKLFNAIDEAYESYC</Hsp_hseq>
+      <Hsp_midline>K+AIVG+PNVGKS+LFNA+LN +RA V+P+PGTTRDPVD+ + I+G+KY+ VDTAG+RRKSR+E +T+E++S  R +D+I+ ADVV++V+DAT+G+TRQD+R+A L+   GRA V V NK+DLV  R+K Y+    LF E + FI++  ++FTSA K   ++++ +A++ AY SY </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>6.24837e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VVIAGRANVGKSTLFNRLIGRRKAITEKIEGVTRDIIKGLVVYNETSFLLYDTCGVFESTR-DPVLLAMRD--KAFEAFRKADLILFVVDGRSGITSEDEYVAQQLRKIAKKVLMVINKSENMSVVEKNLPDIM-----KLGFAEYIPV---SAQHGNNIDELLDKI</Hsp_hseq>
+      <Hsp_midline>V I GR NVGKSTLFN ++ + +A+   I G TRD +   V  +   ++  DT G+   +R +P  +      +  ++  KAD+++ V+D   GIT +D+ +A  + +  +  ++V NK + +   EK   +       KL F +Y P+   SA  G NID ++D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_113073922.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Petrotoga sp. 9PW.55.5.1] &gt;gb|RAO99780.1| GTP-binding protein Der [Petrotoga sp. 9PW.55.5.1]</Hit_def>
+  <Hit_accession>WP_113073922</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>3.82496e-58</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>EITDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMN</Hsp_qseq>
+      <Hsp_hseq>ESEDEVKVVIIGRPNVGKSSIFNDIVGLDRTIVSEIPGTTRDAVDHQVKIDEKNFRFIDTAGMRKKSTVQYGSIEMFSITRTIKAIEKSDVVILVVDATEGITHQDKSIIGVAENKGKGIIVVFNKWDLLRHNQKRKEEFFKYFDKELYFVKYSPLIFTSAVKKWGIEELLAAID</Hsp_hseq>
+      <Hsp_midline>E  D +KV I+GRPNVGKS++FN I+  +R +VS IPGTTRD VD +V ID + + F+DTAG+R+KS V+  ++E +S  R + +IEK+DVV++V+DAT+GIT QD+ + G+ E +G+  +VVFNKWDL+ H +KR +EF K F ++LYF+ YSPLIFTSA K W I+ ++ A++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.27775e-13</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIVGKPNVGKSTLFNRIIGERKSIVHDMPGVTRDNIYGISEWDNVKFTLIDTCGIFERPE---DTIEERQKKIIFESLENVALVLFVIDGRNGLTSEDYYIADYL-RKANSKIL------LVINKAENFERFEFEVKPDIYSLGFGEGIPVSAEHNRNMHSLKDEI</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTLFN I+ + +++V  +PG TRD +      D  K+  +DT G+  +      T+E+     + +S+E   +V+ V+D   G+T +D  +A  + R+  + ++      LV+++ + ++ F    +  +Y + +   I  SA+   N+  + D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_121959632.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Petrotoga sp. 9T1HF07.CasAA.8.2] &gt;gb|PNR87647.1| GTP-binding protein Der [Petrotoga sp. 9T1HF07.CasAA.8.2]</Hit_def>
+  <Hit_accession>WP_121959632</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>4.21669e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>TDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>SEEIKVSIVGRPNVGKSSLFNSIIGSERAIVSEIPGTTRDAIDHLVTMGDNTFRFIDTAGMRKKSTIHYGSIEMFSISRTINAIEKSDVVILVVDSTEGITQQDKSIIGIAEKRGKGTIIAFNKWDLVSNNHQRKEEFFNYFEKELYFVNYSPLVFTSAPKRWGIQELITAI</Hsp_hseq>
+      <Hsp_midline>++ IKV+IVGRPNVGKS+LFN+I+  ERA+VS IPGTTRD +D  V +    + F+DTAG+R+KS +   ++E +S  R +++IEK+DVV++V+D+T+GIT+QD+ + G+ E+RG+ +++ FNKWDLV +  +R +EF   F ++LYF++YSPL+FTSA K W I  +I A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>6.06405e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIIGKPNVGKSTLFNRMIGERKSIVHDMPGVTRDNVSSTIQWDDISFTLVDTCGIFEQPE---DNIEERQKKIIFESLKDVSLVIFVIDGKIGLTSEDYHIADYL-RKTNSKVI------LVINKAENFEKYELEMKPEIYSLGFGEGIPVSAEHNKNIFTLMDTI</Hsp_hseq>
+      <Hsp_midline>V I+G+PNVGKSTLFN ++ + +++V  +PG TRD V   +  D   +  VDT G+  +       +E+     + +S++   +V+ V+D   G+T +D  +A  + R+  + V+      LV+++ + ++++    + ++Y + +   I  SA+   NI  ++D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_012209408.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribosome biogenesis GTPase Der [Petrotoga] &gt;gb|ABX32311.1| small GTP-binding protein [Petrotoga mobilis SJ95] &gt;gb|PNR94037.1| GTP-binding protein Der [Petrotoga sp. HWHPT.55.6.3] &gt;gb|RLL88534.1| GTP-binding protein Der [Petrotoga sp. HKA.pet.4.5] &gt;gb|RPD35432.1| GTP-binding protein Der [Petrotoga sp. HWH.PT.55.6.1]</Hit_def>
+  <Hit_accession>WP_012209408</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>4.49618e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>TDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>SEEIKVSIVGRPNVGKSSLFNSIIGSERAIVSEIPGTTRDAIDHLVTMGDNTFRFIDTAGMRKKSTIHYASIEMFSISRTINAIEKSDVVILVVDSTEGITHQDKSIIGIAEKRGKGTIIAFNKWDLVSNNHQRKEEFFNYFEKELYFVNYSPLVFTSAPKRWGIQELITAI</Hsp_hseq>
+      <Hsp_midline>++ IKV+IVGRPNVGKS+LFN+I+  ERA+VS IPGTTRD +D  V +    + F+DTAG+R+KS +   ++E +S  R +++IEK+DVV++V+D+T+GIT QD+ + G+ E+RG+ +++ FNKWDLV +  +R +EF   F ++LYF++YSPL+FTSA K W I  +I A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>6.42674e-14</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>VLIIGKPNVGKSTLFNRMIGERKSIVHDMPGVTRDNVSSTIQWDDISFTLVDTCGIFEQPE---DNIEERQKKIIFESLKDVSLVIFVIDGKIGLTSEDYHIADYL-RKTNSKVI------LVINKAENFEKYELEMKPEIYSLGFGEGIPVSAEHNKNIFTLMDTI</Hsp_hseq>
+      <Hsp_midline>V I+G+PNVGKSTLFN ++ + +++V  +PG TRD V   +  D   +  VDT G+  +       +E+     + +S++   +V+ V+D   G+T +D  +A  + R+  + V+      LV+++ + ++++    + ++Y + +   I  SA+   NI  ++D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_041075604.1|</Hit_id>
+  <Hit_def>ribosome biogenesis GTPase Der [Thermotoga caldifontis]</Hit_def>
+  <Hit_accession>WP_041075604</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>5.07783e-58</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAMNLAYASYT</Hsp_qseq>
+      <Hsp_hseq>VAIVGKPNVGKSSLFNAILGEDRVNVTPIPGTTRDPVDELVEIDGKKYIFIDTAGLRRKSRIEKKSLEYYSVKRAIDVIESADVVVLLLDATEGVSRQDKRIAGLALDRGKALVIDVNKFDLVEAKKNEYERFVK---AEMPFADFCRVVFTSAVKRQGLKSLLSAIDEAYASYC</Hsp_hseq>
+      <Hsp_midline>VAIVG+PNVGKS+LFNAIL ++R  V+PIPGTTRDPVD+ V IDG+KY+F+DTAGLRRKSR+E +++E YS  R +D IE ADVVV++LDAT+G++RQD+R+AGL   RG+A V+  NK+DLV  ++  Y+ F K    ++ F D+  ++FTSA K   +  ++ A++ AYASY </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.21891e-12</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>KVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRMAGLMERRGRASVVVFNKWDLVVHREKRYDE-FTKLFREKLYFIDYSPLIFTSADKGWNIDRMIDAM</Hsp_qseq>
+      <Hsp_hseq>KVVIAGKTNVGKSTLFNRLVGRRKAITEKEEGVTRDTLKGIVVHGDAAFTLFDTCGVYERADDE---MLQSMKQRALKAFEEADLILFVVNGREPITSEDEYVAQVLRKLGKRVILVINK----VENPKLVEENLPEIF--KLGFDDY---VLVSAQHGLNVDQLLDKI</Hsp_hseq>
+      <Hsp_midline>KV I G+ NVGKSTLFN ++ + +A+     G TRD +   V      +   DT G+  ++  E   + +    R + + E+AD+++ V++  + IT +D+ +A ++ + G+  ++V NK    V   K  +E   ++F  KL F DY   +  SA  G N+D+++D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216046246</Statistics_db-num>
+      <Statistics_db-len>550339452</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

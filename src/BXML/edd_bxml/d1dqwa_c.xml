@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_240903</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1dqwa_c</BlastOutput_query-def>
+  <BlastOutput_query-len>267</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_240903</Iteration_query-ID>
+  <Iteration_query-def>d1dqwa_c</Iteration_query-def>
+  <Iteration_query-len>267</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1DQW|A</Hit_id>
+  <Hit_def>Chain A, Orotidine 5&apos;-phosphate Decarboxylase [Saccharomyces cerevisiae] &gt;pdb|1DQW|B Chain B, Orotidine 5&apos;-phosphate Decarboxylase [Saccharomyces cerevisiae] &gt;pdb|1DQW|C Chain C, Orotidine 5&apos;-phosphate Decarboxylase [Saccharomyces cerevisiae] &gt;pdb|1DQW|D Chain D, Orotidine 5&apos;-phosphate Decarboxylase [Saccharomyces cerevisiae] &gt;pdb|1DQX|A Chain A, OROTIDINE 5&apos;-PHOSPHATE DECARBOXYLASE [Saccharomyces cerevisiae] &gt;pdb|1DQX|B Chain B, OROTIDINE 5&apos;-PHOSPHATE DECARBOXYLASE [Saccharomyces cerevisiae] &gt;pdb|1DQX|C Chain C, OROTIDINE 5&apos;-PHOSPHATE DECARBOXYLASE [Saccharomyces cerevisiae] &gt;pdb|1DQX|D Chain D, OROTIDINE 5&apos;-PHOSPHATE DECARBOXYLASE [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1DQW_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.666</Hsp_bit-score>
+      <Hsp_score>1415</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_hseq>
+      <Hsp_midline>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_003246780.1|</Hit_id>
+  <Hit_def>MULTISPECIES: orotidine-5&apos;-phosphate decarboxylase [Terrabacteria group] &gt;gb|AAA34824.1| orotidine-5&apos;-phosphate decarboxylase monomer [Saccharomyces cerevisiae] &gt;gb|AAA67140.1| URA3 [synthetic construct] &gt;gb|AAA74940.1| OMP decarboxylase [Cloning vector pYEULCBX] &gt;gb|AAA77063.1| Ura3 [Cloning vector pRSQ] &gt;gb|AAA80245.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pHUKH1] &gt;gb|AAA80250.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pHUKH2] &gt;gb|AAA80256.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pHUKH3] &gt;gb|AAA80261.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pHUKH4] &gt;gb|AAB16845.1| ornithine decarboxylase Ura3 [Cloning vector pRSQ2-URA3] &gt;gb|AAB49950.1| URA3 [Cloning vector pGBDU-C1] &gt;gb|AAB49953.1| URA3 [Cloning vector pGBDU-C2] &gt;gb|AAB49956.1| URA3 [Cloning vector pGBDU-C3] &gt;gb|AAB49978.1| orotidine-5&apos;-phosphate decarboxylase [unidentified cloning vector] &gt;gb|AAB64383.1| URA3 [unidentified cloning vector] &gt;gb|AAC23876.1| orotidine monophosphate decarboxylase [Expression vector pBEVY-GU] &gt;gb|AAC23882.1| orotidine monophosphate decarboxylase [Expression vector pBEVY-U] &gt;gb|AAC53678.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pRAY-1] &gt;gb|AAD09197.1| orotidine-5&apos;-phosphate carboxylyase [Shuttle vector pCS4-14] &gt;gb|AAF07047.1| URA3p [Expression vector pCS316] &gt;gb|AAF07054.1| URA3 [Expression vector pSB229] &gt;gb|AAF09464.1| URA3 [Expression vector pGP100] &gt;gb|AAF09466.1| URA3 [Expression vector pCENEX645] &gt;gb|AAF09470.1| URA3 [Shuttle vector pHIGEXhOR] &gt;gb|AAG00263.1| orotidine-5&apos;-phosphate decarboxylase [synthetic construct] &gt;gb|AAG00265.1| orotidine-5&apos;-phosphate decarboxylase [synthetic construct] &gt;gb|AAG00267.1| orotidine-5&apos;-phosphate decarboxylase [synthetic construct] &gt;gb|AAG34514.1| orotidine-5&apos;-phosphate decarboxylase [Recombinase expression vector pSH47] &gt;gb|AAG34528.1| orotidine-5&apos;-phosphate decarboxylase [C-terminal GFP fusion vector pUG35] &gt;gb|AAG34538.1| orotidine-5&apos;-phosphate decarboxylase [N-terminal GFP fusion vector pUG36] &gt;gb|AAR02601.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pVTU260] &gt;gb|AAR02604.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pVTU263] &gt;gb|AAR02605.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pYES260] &gt;gb|AAR02608.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pYES263] &gt;gb|AAR04146.1| orotidine-5&apos;-phosphate decarboxylase [UAS-less reporter vector pMELbeta] &gt;gb|AAR04148.1| orotidine-5&apos;-phosphate decarboxylase [UAS-less reporter vector pMELalpha] &gt;gb|AAR04152.1| orotidine-5&apos;-phosphate decarboxylase [UAS-less reporter vector YIpMELbeta2] &gt;gb|AAR04154.1| orotidine-5&apos;-phosphate decarboxylase [UAS-less reporter vector YIpMELbeta] &gt;gb|AAR04157.1| orotidine-5&apos;-phosphate decarboxylase [UAS-less reporter vector YIpMELalpha] &gt;gb|AAR04159.1| orotidine-5&apos;-phosphate decarboxylase [UAS-less reporter vector pMELalpha2] &gt;gb|AAR04161.1| orotidine-5&apos;-phosphate decarboxylase [UAS-less reporter vector pMELbeta2] &gt;gb|AAR04163.1| orotidine-5&apos;-phosphate decarboxylase [UAS-less reporter vector YIpMELalpha2] &gt;gb|AAX85436.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pVTLU263] &gt;gb|AAX85440.1| orotidine-5&apos;-phosphate decarboxylate [Expression vector pVTLU260] &gt;gb|AAY44380.1| URA3 [Yeast expression vector p426GALL] &gt;gb|ABA43650.1| orotidine-5&apos;-phosphate [Saccharomyces cerevisiae expression vector p426GPD] &gt;gb|ABB04058.1| Ura3 [Shuttle/allelic-replacement vector pMQ30] &gt;gb|ABB04062.1| Ura3 [Shuttle/allelic-replacement vector pMQ83] &gt;gb|ABB04066.1| Ura3 [Shuttle/allelic-replacement vector pMQ75] &gt;gb|ABB04069.1| Ura3 [Shuttle/suicide vector pMQ87] &gt;gb|ABB04072.1| Ura3 [Shuttle vector pMQ51] &gt;gb|ABB04077.1| Ura3 [Shuttle vector pMQ52] &gt;gb|ABB04082.1| Ura3 [Shuttle vector pMQ61] &gt;gb|ABB82602.1| URA3 [Yeast centromeric expression vector p416GPD] &gt;gb|ABB83406.1| URA3 [Sender Vector p416-GAL1-AtIPT4] &gt;gb|ABG56552.1| Ura3 [Shuttle vector pMQ56] &gt;gb|ABG56556.1| Ura3 [Shuttle vector pMQ64] &gt;gb|ABG56560.1| Ura3 [Shuttle vector pMQ70] &gt;gb|ABG56564.1| Ura3 [Shuttle vector pMQ71] &gt;gb|ABG56569.1| Ura3 [Shuttle vector pMQ72] &gt;gb|ABG56573.1| Ura3 [Shuttle vector pMQ91] &gt;gb|ABG56578.1| Ura3 [Shuttle vector pMQ78] &gt;gb|ABG56583.1| Ura3 [Shuttle vector pMQ79] &gt;gb|ABG56589.1| Ura3 [Shuttle vector pMQ80] &gt;gb|ABG56594.1| Ura3 [Shuttle vector pMQ95] &gt;gb|ABG56599.1| Ura3 [Shuttle vector pMQ97] &gt;gb|ABI82029.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC3] &gt;gb|ABI82031.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC3-His] &gt;gb|ABI82033.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC3-Cys] &gt;gb|ABI82035.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC3-HisCys] &gt;gb|ABI82037.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC3-FlagHis] &gt;gb|ABI82040.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC3-Gfp] &gt;gb|ABI82043.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC3-mRfp] &gt;gb|ABK41445.1| Ura3 [YAC construction vector pRML2] &gt;gb|ABN09640.1| URA3 [Yeast centromeric expression vector p416CYC] &gt;gb|ABN09642.1| URA3 [Yeast centromeric expression vector p416TEF] &gt;gb|ABZ90955.1| Ura3p [Cloning vector pBC542] &gt;gb|ACA49551.1| Ura3 [Shuttle vector pMQ122] &gt;gb|ACB45173.1| Ura3 [Cloning vector pMQ123i] &gt;gb|ACB45178.1| Ura3 [Cloning vector pMQ2] &gt;gb|ACB45189.1| Ura3 [Cloning vector pMQ113] &gt;gb|ACB45193.1| Ura3 [Cloning vector pMQ117] &gt;gb|ACB45197.1| Ura3 [Cloning vector pMQ118] &gt;gb|ACB45201.1| Ura3 [Cloning vector pMQ131] &gt;gb|ACB45205.1| Ura3 [Cloning vector pMQ132] &gt;gb|ACB45206.1| Ura3 [Cloning vector pMQ124] &gt;gb|ACB45211.1| Ura3 [Cloning vector pMQ125] &gt;gb|ACB45220.1| Ura3 [Cloning vector pMQ150] &gt;gb|ACB45221.1| Ura3 [Cloning vector pMQ123] &gt;gb|ACC93941.1| Ura3 [Cloning vector pMW100] &gt;gb|ACI23595.1| Ura3p [Integrating YFP promoter analysis vector pJG100] &gt;gb|ACJ12795.1| Ura3 [Cloning vector pMQ156] &gt;gb|ACJ12799.1| Ura3 [Shuttle vector pMQ175] &gt;gb|ACJ12803.1| Ura3 [Suicide vector pMQ200] &gt;gb|ACS35608.1| Ura3 [Allelic replacement vector pMQ236] &gt;gb|ADE34465.1| Ura3 [Cloning vector pTARa] &gt;gb|ADK63422.1| Ura3 [Cloning vector pMQ300] &gt;gb|ADU15672.1| Ura3p [Yeast tagging vector pFA6a-URA3-kanMX6] &gt;gb|ADW95854.1| URA3 [Gene deletion vector pDGO-01] &gt;gb|ADW95861.1| URA3 [Gene deletion vector pJL2] &gt;gb|ADZ44524.1| URA3 [Cloning vector pMU1647] &gt;gb|AEK22016.1| ScURA3 [Cloning vector pRR21] &gt;gb|AEK22019.1| ScURA3 [Cloning vector pRR23] &gt;gb|AEK22022.1| ScURA3 [Cloning vector pRR22] &gt;gb|AEK22025.1| ScURA3 [Cloning vector pRR24] &gt;gb|AEK22028.1| ScURA3 [Cloning vector pRR25] &gt;gb|AEK22060.1| ScURA3 [Cloning vector pRR26] &gt;gb|AEP03209.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pBG1805] &gt;gb|AEQ55255.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pSKPDR5-PPUS] &gt;gb|AEQ55257.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pSKPDR5-PGK1] &gt;gb|AEQ55259.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC] &gt;gb|AEQ55261.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC1] &gt;gb|AEQ55263.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pABC2] &gt;gb|AFC37771.1| URA3 [Cloning vector pMU749] &gt;gb|AFC37777.1| URA3 [Cloning vector pAMG258] &gt;gb|AFP20537.1| orotidine-5&apos;phosphate decarboxylase [Cloning vector pCIB2] &gt;gb|AFP20540.1| orotidine-5&apos;phosphate decarboxylase [Cloning vector pCIB4] &gt;gb|AFU51869.1| URA3 [Allelic replacement vector pAMG269] &gt;gb|AFU51878.1| URA3 [Allelic replacement vector pAMG270] &gt;gb|AFU51880.1| URA3 [CipA deletion vector pDGO-03] &gt;gb|AFU51889.1| URA3 [CipA deletion vector pDGO-34] &gt;gb|AGA15809.1| uracil auxotrophic marker [Expression vector pUDE172] &gt;gb|AGE45854.1| ura3 [Cloning vector pMU2051] &gt;gb|AGE61868.1| URA3 [Cloning vector YEp24PGK] &gt;gb|AGG53970.1| ura3 [Cloning vector pMC200] &gt;gb|AGG53975.1| ura3 [Cloning vector pMC212] &gt;gb|AGG53980.1| ura3 [Cloning vector pMC213] &gt;gb|AGG53985.1| ura3 [Cloning vector pMC223] &gt;gb|AGL76312.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pDEST375] &gt;gb|AGL80167.1| URA3 [Cloning vector pDEST416TEFt7] &gt;gb|AGT40254.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-EGD2] &gt;gb|AGT40257.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-EGD2-GFP] &gt;gb|AGT40264.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-HHT2] &gt;gb|AGT40267.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-HHT2-GFP] &gt;gb|AGT40274.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-PDC1] &gt;gb|AGT40277.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-PDC1-GFP] &gt;gb|AGT40284.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-ACO2] &gt;gb|AGT40287.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-ACO2-GFP] &gt;gb|AGT40294.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-LYS21] &gt;gb|AGT40297.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-LYS21-GFP] &gt;gb|AGT40304.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-MET3] &gt;gb|AGT40307.1| orotidine 5-phosphate decarboxylase [Cloning vector pCU-MET3-GFP] &gt;gb|AGT40314.1| orotidine 5-phosphate decarboxylase [Cloning vector pGRB2.0] &gt;gb|AGT40316.1| orotidine 5-phosphate decarboxylase [Cloning vector pGRB2.1] &gt;gb|AGT40318.1| orotidine 5-phosphate decarboxylase [Cloning vector pGRB2.2] &gt;gb|AGT40321.1| orotidine 5-phosphate decarboxylase [Cloning vector pGRB2.3] &gt;gb|AGT95730.1| Ura3 [Cloning vector pMU1810] &gt;gb|AGV98847.1| URA3 [Yeast shuttle vector pJHU2] &gt;gb|AGW21604.1| URA3 [Yeast integrative vector pBS41] &gt;gb|AGW21607.1| URA3 [Yeast integrative vector pBS42] &gt;gb|AGW21610.1| URA3 [Yeast integrative vector pBS42BN] &gt;gb|AGW21613.1| URA3 [Yeast integrative vector pBS43] &gt;gb|AGW21616.1| URA3 [Yeast integrative vector pBS46] &gt;gb|AGW21619.1| URA3 [Yeast integrative vector pBS47] &gt;gb|AGW21622.1| URA3 [Yeast integrative vector pBS48] &gt;gb|AGW21628.1| URA3 [Yeast integrative vector pBS50] &gt;gb|AGW21634.1| URA3 [Yeast integrative vector pFTR117-CFP] &gt;gb|AGW21639.1| URA3 [Yeast integrative vector pYFP-Lim4-CFP] &gt;gb|AGW21643.1| URA3 [Yeast integrative vector pYFP-TAF28-CFP] &gt;gb|AGW21646.1| URA3 [Yeast integrative vector pYFP-THP12-CFP] &gt;gb|AGX93079.1| URA3 [synthetic construct] &gt;gb|AGY46361.1| Ura3 [Functional analysis vector pFA-HAH2] &gt;gb|AGZ03682.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Integrative expression vector pCMV1lac] &gt;gb|AGZ03684.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Integrative expression vector pCYC1lac] &gt;gb|AGZ03688.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Integrative expression vector pGAL1lac] &gt;gb|AGZ03691.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Integrative expression vector pGAL10lac] &gt;gb|AHB33289.1| orotidine 5&apos;-phosphate decarboxylase [Expression vector pUDE215] &gt;gb|AHB33293.1| orotidine 5&apos;-phosphate decarboxylase [Expression vector pUDE150] &gt;gb|AHB33296.1| orotidine 5&apos;-phosphate decarboxylase [Expression vector pUDE151] &gt;gb|AHB33299.1| orotidine 5&apos;-phosphate decarboxylase [Expression vector pUDE152] &gt;gb|AHB33302.1| orotidine 5&apos;-phosphate decarboxylase [Expression vector pUDE201] &gt;gb|AHB33306.1| orotidine 5&apos;-phosphate decarboxylase [Expression vector pUDE202] &gt;gb|AHB33310.1| orotidine 5&apos;-phosphate decarboxylase [Expression vector pUDE204] &gt;gb|AHB33314.1| orotidine 5&apos;-phosphate decarboxylase [Expression vector pUDE214] &gt;gb|AIO03554.1| URA3 [Cloning vector pYES2-EV71-P1-SP70] &gt;gb|AIU45935.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Cloning vector pUMRI-21] &gt;gb|AIU45937.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Cloning vector pUMRI-10] &gt;gb|AIU45939.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Cloning vector pUMRI-11] &gt;gb|AIU45941.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Cloning vector pUMRI-12] &gt;gb|AIU45943.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Cloning vector pUMRI-13] &gt;gb|AIU94958.1| URA3 [Load vector pLD01X] &gt;gb|AIU94970.1| URA3 [Load vector pLD02X] &gt;gb|AIU94985.1| URA3 [Load vector pLD00X] &gt;gb|AJD87331.1| Ura3 [Cloning vector pCK901] &gt;gb|AJD87334.1| Ura3 [Cloning vector pCK902] &gt;gb|AJD87339.1| Ura3 [Cloning vector pCK904] &gt;gb|AJD87342.1| Ura3 [Cloning vector pCK905] &gt;gb|AJD87349.1| Ura3 [Cloning vector pCK908] &gt;gb|AJD87351.1| Ura3 [Cloning vector pCK909] &gt;gb|AJP77030.1| Ura3 [Cloning vector pZJ13] &gt;gb|AJP77034.1| Ura3 [Cloning vector pZJ15] &gt;gb|AJP77038.1| Ura3 [Cloning vector pZJ16] &gt;gb|AJP77042.1| Ura3 [Cloning vector pZJ17] &gt;gb|AJP77046.1| Ura3 [Cloning vector pZJ20] &gt;gb|AKH61434.1| URA3p uracil auxotrophy marker [Expression vector pWCD2480] &gt;gb|AKH61437.1| URA3p uracil auxotrophy marker [Expression vector pWCD2479] &gt;gb|AKH61440.1| URA3p uracil auxotrophy marker [Expression vector pWCD2478] &gt;gb|AKH61443.1| URA3p uracil auxotrophy marker [Expression vector pWCD2477] &gt;gb|AKH61446.1| URA3p uracil auxotrophy marker [Expression vector pWCD2470] &gt;gb|AKH61449.1| URA3p uracil auxotrophy marker [Expression vector pWCD2469] &gt;gb|AKH61452.1| URA3p uracil auxotrophy marker [Expression vector pWCD2468] &gt;gb|AKH61455.1| URA3p uracil auxotrophy marker [Expression vector pWCD2467] &gt;gb|AKH61459.1| URA3p uracil auxotrophy marker [Expression vector pWCD2441] &gt;gb|AKH61463.1| URA3p uracil auxotrophy marker [Expression vector pWCD2440] &gt;gb|AKH61467.1| URA3p uracil auxotrophy marker [Expression vector pWCD2439] &gt;gb|AKH61471.1| URA3p uracil auxotrophy marker [Expression vector pWCD2438] &gt;gb|AKH61474.1| URA3p uracil auxotrophy marker [Expression vector pWCD2437] &gt;gb|AKH61477.1| URA3p uracil auxotrophy marker [Expression vector pWCD2436] &gt;gb|AKH61480.1| URA3p uracil auxotrophy marker [Expression vector pWCD2435] &gt;gb|AKH61483.1| URA3p uracil auxotrophy marker [Expression vector pWCD2434] &gt;gb|AKH61486.1| URA3p uracil auxotrophy marker [Expression vector pWCD2433] &gt;gb|AKH61509.1| URA3p uracil auxotrophy marker [Expression vector pWCD2267] &gt;gb|AKH61514.1| URA3p uracil auxotrophy marker [Expression vector pWCD2249] &gt;gb|AKH61518.1| URA3p uracil auxotrophy marker [Expression vector pWCD2247] &gt;gb|AKH61522.1| URA3p uracil auxotrophy marker [Expression vector pWCD2246] &gt;gb|AKH61525.1| URA3p uracil auxotrophy marker [Expression vector pWCD2240] &gt;gb|AKH61529.1| URA3p uracil auxotrophy marker [Expression vector pWCD2239] &gt;gb|AKH61533.1| URA3p uracil auxotrophy marker [Expression vector pWCD2236] &gt;gb|AKH61539.1| URA3p uracil auxotrophy marker [Expression vector pWCD2211] &gt;gb|AKH61546.1| URA3p uracil auxotrophy marker [Expression vector pWCD2139] &gt;gb|AKH61550.1| URA3p uracil auxotrophy marker [Expression vector pWCD2135] &gt;gb|AKH61553.1| URA3p uracil auxotrophy marker [Expression vector pWCD2134] &gt;gb|AKH61556.1| URA3p uracil auxotrophy marker [Expression vector pWCD2112] &gt;gb|AKH61560.1| URA3p uracil auxotrophy marker [Expression vector pWCD2111] &gt;gb|AKH61564.1| URA3p uracil auxotrophy marker [Expression vector pWCD2110] &gt;gb|AKH61568.1| URA3p uracil auxotrophy marker [Expression vector pWCD2109] &gt;gb|AKH61572.1| URA3p uracil auxotrophy marker [Expression vector pWCD2108] &gt;gb|AKH61576.1| URA3p uracil auxotrophy marker [Expression vector pWCD2107] &gt;gb|AKH61580.1| URA3p uracil auxotrophy marker [Expression vector pWCD2106] &gt;gb|AKH61585.1| URA3p uracil auxotrophy marker [Expression vector pWCD2105] &gt;gb|AKH61588.1| URA3p uracil auxotrophy marker [Expression vector pWCD2104] &gt;gb|AKH61612.1| URA3p uracil auxotrophy marker [Expression vector pWCD1870] &gt;gb|AKH61615.1| URA3p uracil auxotrophy marker [Expression vector pWCD1610] &gt;gb|AKH61617.1| URA3p uracil auxotrophy marker [Expression vector pWCD1134] &gt;gb|ALA56442.1| URA3 [Synthetic plasmid pAMG281] &gt;gb|ALD15653.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pPL5071_TEF1*-Cre_URA3] &gt;gb|AMY56671.1| URA3 [Cloning vector pJB036] &gt;gb|AOF43181.1| URA3 [Cloning vector pDEST373-U1Ux] &gt;gb|AOF43191.1| URA3 [Cloning vector pDEST374-U1Ux] &gt;gb|AQK76558.1| URA3 [Cloning vector pL0A_0-1] &gt;gb|AQK76560.1| URA3 [Cloning vector pL0A_0-R] &gt;gb|AQK76562.1| URA3 [Cloning vector pL0A_1-2] &gt;gb|AQK76564.1| URA3 [Cloning vector pL0A_1-R] &gt;gb|AQK76566.1| URA3 [Cloning vector pL0A_2-3] &gt;gb|AQK76568.1| URA3 [Cloning vector pL0A_2-R] &gt;gb|AQK76570.1| URA3 [Cloning vector pL0A_3-4] &gt;gb|AQK76572.1| URA3 [Cloning vector pL0A_3-R] &gt;gb|AQK76574.1| URA3 [Cloning vector pL0A_4-R] &gt;gb|AQK76576.1| URA3 [Cloning vector pL0B_0-1] &gt;gb|AQK76578.1| URA3 [Cloning vector pL0B_0-R] &gt;gb|AQK76580.1| URA3 [Cloning vector pL0B_1-2] &gt;gb|AQK76582.1| URA3 [Cloning vector pL0B_1-R] &gt;gb|AQK76584.1| URA3 [Cloning vector pL0B_2-3] &gt;gb|AQK76586.1| URA3 [Cloning vector pL0B_2-R] &gt;gb|AQK76588.1| URA3 [Cloning vector pL0B_3-4] &gt;gb|AQK76590.1| URA3 [Cloning vector pL0B_3-R] &gt;gb|AQK76592.1| URA3 [Cloning vector pL0B_4-R] &gt;gb|AQK76594.1| URA3 [Cloning vector pL0C_0-1] &gt;gb|AQK76596.1| URA3 [Cloning vector pL0C_0-R] &gt;gb|AQK76598.1| URA3 [Cloning vector pL0C_1-2] &gt;gb|AQK76600.1| URA3 [Cloning vector pL0C_1-R] &gt;gb|AQK76602.1| URA3 [Cloning vector pL0C_2-3] &gt;gb|AQK76604.1| URA3 [Cloning vector pL0C_2-R] &gt;gb|AQK76606.1| URA3 [Cloning vector pL0C_3-4] &gt;gb|AQK76608.1| URA3 [Cloning vector pL0C_3-R] &gt;gb|AQK76610.1| URA3 [Cloning vector pL0C_4-R] &gt;gb|AQK76612.1| URA3 [Cloning vector pL0D_0-1] &gt;gb|AQK76614.1| URA3 [Cloning vector pL0D_0-R] &gt;gb|AQK76616.1| URA3 [Cloning vector pL0D_1-2] &gt;gb|AQK76618.1| URA3 [Cloning vector pL0D_1-R] &gt;gb|AQK76620.1| URA3 [Cloning vector pL0D_2-3] &gt;gb|AQK76622.1| URA3 [Cloning vector pL0D_2-R] &gt;gb|AQK76624.1| URA3 [Cloning vector pL0D_3-4] &gt;gb|AQK76626.1| URA3 [Cloning vector pL0D_3-R] &gt;gb|AQK76628.1| URA3 [Cloning vector pL0D_4-R] &gt;gb|AQK76630.1| URA3 [Cloning vector pL0E_0-1] &gt;gb|AQK76632.1| URA3 [Cloning vector pL0E_0-R] &gt;gb|AQK76634.1| URA3 [Cloning vector pL0E_1-2] &gt;gb|AQK76636.1| URA3 [Cloning vector pL0E_1-R] &gt;gb|AQK76638.1| URA3 [Cloning vector pL0E_2-3] &gt;gb|AQK76640.1| URA3 [Cloning vector pL0E_2-R] &gt;gb|AQK76642.1| URA3 [Cloning vector pL0E_3-4] &gt;gb|AQK76644.1| URA3 [Cloning vector pL0E_3-R] &gt;gb|AQK76646.1| URA3 [Cloning vector pL0E_4-R] &gt;gb|AQK76649.1| URA3 [Cloning vector pL1A-hc] &gt;gb|AQK76651.1| URA3 [Cloning vector pL1A-lc] &gt;gb|ASW25875.1| Orotidine-5&apos;-phosphate decarboxylase [Vector pMM1-33Y] &gt;gb|ASW25896.1| Orotidine-5&apos;-phosphate decarboxylase [Vector pMM2-20-1] &gt;gb|ASZ00117.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pY1-gLUC59(MCS)] &gt;gb|ASZ00122.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pY1-gLUC59(GW)] &gt;gb|ATG88231.1| orotidine-5&apos;-phosphate decarboxylase [Yeast dual vector pCtB1] &gt;gb|AUX13696.1| URA3 [Cloning vector pLCP.CFH] &gt;gb|AUX13700.1| URA3 [Cloning vector pNR.CFH] &gt;gb|AVI16869.1| Ura3 [Cloning vector pSHTB10] &gt;gb|AVK73081.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pYES2-Os1-HH] &gt;gb|AYP31083.1| orotidine-5&apos;-phosphate decarboxylase [Yeast shuttle Vector p316-IRES-GFP] &gt;gb|AZQ25087.1| orotidine-5&apos;-phosphate decarboxylase [synthetic construct] &gt;gb|EIW11016.1| Ura3p [Saccharomyces cerevisiae CEN.PK113-7D] &gt;gb|EME04855.1| orotidine 5&apos;-phosphate decarboxylase [Bacillus subtilis MB73/2] &gt;gb|KXI72192.1| hypothetical protein ACS92_07760 [Bacillus cereus] &gt;gb|KXJ00508.1| hypothetical protein ACS49_04870 [Bacillus cereus] &gt;gb|QAT79154.1| URA3 [Expression vector pMU1817] &gt;gb|QBC76171.1| orotidine 5&apos;-phosphate decarboxylase [Cloning vector yTREX] &gt;gb|QBQ57481.1| orotidine-5&apos;-phosphate decarboxylase [synthetic Caulobacter sp. &apos;ethensis&apos;] &gt;dbj|BAE72675.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pSU0] &gt;dbj|BAF62421.1| orotidine-5&apos;-phosphate decarboxylase [PCR template vector pTF101] &gt;dbj|BAF62423.1| orotidine-5&apos;-phosphate decarboxylase [PCR template vector pTF103] &gt;dbj|BAF62425.1| orotidine-5&apos;-phosphate decarboxylase [PCR template vector pTF102] &gt;dbj|BAF75369.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pSU7] &gt;dbj|BAF75371.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pSU23] &gt;dbj|BAF75373.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pSU22] &gt;dbj|BAG16795.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pRS436ADH] &gt;dbj|BAG16796.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pRS436GAP] &gt;dbj|BAG16797.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pRS436PGK] &gt;dbj|BAG16798.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pRS436TEF] &gt;dbj|BAG16807.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pRS446ADH] &gt;dbj|BAG16808.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pRS446GAP] &gt;dbj|BAG16809.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pRS446PGK] &gt;dbj|BAG16810.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pRS446TEF] &gt;dbj|BAI47950.1| Ura3p [Shuttle vector pAY205] &gt;dbj|BAI47961.1| Ura3p [Shuttle vector pAY201] &gt;dbj|BAI49496.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Shuttle vector pYN402] &gt;dbj|BAI49507.1| orotidine-5&apos;-phosphate (OMP) decarboxylase [Shuttle vector pYN401] &gt;dbj|BAI82236.1| orotidine-5&apos;-phosphate decarboxylase [Plasmid vector pST106] &gt;dbj|BAL14446.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pST106] &gt;dbj|BAO97029.1| orotidine 5&apos;-phosphate decarboxylase [Yeast two-hybrid vector pCtrp] &gt;dbj|BAP74304.1| orotidine 5&apos;-phosphate decarboxylase [Yeast expression vector pSCPT] &gt;emb|CAC40619.1| orotidine 5&apos;phosphate decarboxylase [Cloning vector pGIU2] &gt;emb|CAC40623.1| orotidine 5&apos;phosphate decarboxylase [Cloning vector pGRU2] &gt;emb|CAC40630.1| orotidine 5&apos;phosphate decarboxylase [Cloning vector pGRU3] &gt;emb|CAC40641.1| orotidine 5&apos;phosphate decarboxylase [Cloning vector pGRU1] &gt;emb|CAC41105.1| orotidine 5&apos;phosphate decarboxylase [Cloning vector pGIU3] &gt;emb|CAC41119.1| orotidine 5&apos;phosphate decarboxylase [Cloning vector pGIU1] &gt;emb|CAM91221.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pZEU] &gt;emb|CAM91742.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pZCRE] &gt;emb|CAM91745.1| orotidine-5&apos;-phosphate decarboxylase [Expression vector pZGFP] &gt;emb|CAM91747.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pZCA] &gt;emb|CAQ77013.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pNEV-E] &gt;emb|CAQ77015.1| orotidine-5&apos;-phosphate decarboxylase [Shuttle vector pNEV-N] &gt;emb|CCJ31380.1| unnamed protein product [Pneumocystis jirovecii] &gt;emb|SCV58887.1| Orotidine 5&apos;-phosphate decarboxylase [Fusarium fujikuroi] &gt;emb|SJL87328.1| unnamed protein product [Yeast expression vector pEX2kanMX4] &gt;emb|SJL87332.1| unnamed protein product [Yeast expression vector pEMBLyex-kanMX4] &gt;emb|SJL87804.1| unnamed protein product [Yeast expression vector pAJ401mds1] &gt;emb|SJL88106.1| unnamed protein product [Yeast expression vector pSCGALCaMET15-1] &gt;emb|SJL88110.1| unnamed protein product [Yeast expression vector pSCGALCaMET15-2] &gt;emb|SJL88143.1| unnamed protein product [Yeast expression vector pSCGALST] &gt;emb|SJL88707.1| unnamed protein product [Mammalian expression vector pEMBLyex4] &gt;emb|SJL88710.1| unnamed protein product [Vector pUDT2-GAL1-MFHIL6] &gt;emb|SJL88726.1| unnamed protein product [Yeast expression vector pSCGAL10-SN] &gt;emb|SJL88819.1| unnamed protein product [Yeast expression vector pEX0] &gt;emb|SJL88821.1| unnamed protein product [Yeast expression vector pEX2] &gt;emb|SJL88824.1| unnamed protein product [Vector pSC2D] &gt;emb|SJL88829.1| unnamed protein product [Vector pUD2] &gt;emb|SJL88832.1| unnamed protein product [Vector pUDT2] &gt;emb|SJL89013.1| unnamed protein product [Yeast expression vector pSCUDT2MFE6L] &gt;emb|SJL89040.1| unnamed protein product [Yeast expression vector pSCUDT2MFE6H]</Hit_def>
+  <Hit_accession>WP_003246780</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.428</Hsp_bit-score>
+      <Hsp_score>1404</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_010893.3|</Hit_id>
+  <Hit_def>orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae S288C] &gt;sp|P03962.2| RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase; AltName: Full=Uridine 5&apos;-monophosphate synthase; Short=UMP synthase [Saccharomyces cerevisiae S288C] &gt;gb|AAA34825.1| orotidine-5&apos;-phosphate decarboxylase monomer [Saccharomyces cerevisiae] &gt;gb|AAB01165.1| OMP decarboxylase [synthetic construct] &gt;gb|AAB01170.1| OMP decarboxylase [synthetic construct] &gt;gb|AAB01174.1| OMP decarboxylase [synthetic construct] &gt;gb|AAB64498.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae] &gt;gb|AAN31952.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector YDp-U] &gt;gb|ABF48727.1| URA3 [HIS3/URA3 reporter vector pH3U3] &gt;gb|ACF17166.1| URA3 [Yeast selection vector pIS418] &gt;gb|ACF17168.1| URA3 [Yeast selection vector pIS419] &gt;gb|ACF17170.1| URA3 [Yeast selection vector pIS420] &gt;gb|ACF17172.1| URA3 [Yeast selection vector pIS421] &gt;gb|ACF17174.1| URA3 [Yeast selection vector pIS438] &gt;gb|ACM86779.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pEG(KT)] &gt;gb|ACM86783.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pEG(KG)] &gt;gb|AHY75531.1| Ura3p [Saccharomyces cerevisiae YJM993] &gt;gb|AJP38245.1| Ura3p [Saccharomyces cerevisiae YJM1078] &gt;gb|AJU39935.1| Ura3p [Saccharomyces cerevisiae YJM693] &gt;gb|AJU40189.1| Ura3p [Saccharomyces cerevisiae YJM969] &gt;gb|AJU40444.1| Ura3p [Saccharomyces cerevisiae YJM972] &gt;gb|AJU40704.1| Ura3p [Saccharomyces cerevisiae YJM975] &gt;gb|AJU40962.1| Ura3p [Saccharomyces cerevisiae YJM978] &gt;gb|AJU41189.1| Ura3p [Saccharomyces cerevisiae YJM981] &gt;gb|AJU41443.1| Ura3p [Saccharomyces cerevisiae YJM984] &gt;gb|AJU41698.1| Ura3p [Saccharomyces cerevisiae YJM987] &gt;gb|AJU41956.1| Ura3p [Saccharomyces cerevisiae YJM990] &gt;gb|AJU42214.1| Ura3p [Saccharomyces cerevisiae YJM996] &gt;gb|AJU42468.1| Ura3p [Saccharomyces cerevisiae YJM1083] &gt;gb|AJU42723.1| Ura3p [Saccharomyces cerevisiae YJM1129] &gt;gb|AJU42983.1| Ura3p [Saccharomyces cerevisiae YJM1133] &gt;gb|AJU43494.1| Ura3p [Saccharomyces cerevisiae YJM1199] &gt;gb|AJU43748.1| Ura3p [Saccharomyces cerevisiae YJM1202] &gt;gb|AJU43988.1| Ura3p [Saccharomyces cerevisiae YJM1208] &gt;gb|AJU44245.1| Ura3p [Saccharomyces cerevisiae YJM1242] &gt;gb|AJU44504.1| Ura3p [Saccharomyces cerevisiae YJM1244] &gt;gb|AJU44762.1| Ura3p [Saccharomyces cerevisiae YJM1248] &gt;gb|AJU45017.1| Ura3p [Saccharomyces cerevisiae YJM1250] &gt;gb|AJU45275.1| Ura3p [Saccharomyces cerevisiae YJM1615] &gt;gb|AJU45530.1| Ura3p [Saccharomyces cerevisiae YJM1252] &gt;gb|AJU45782.1| Ura3p [Saccharomyces cerevisiae YJM1273] &gt;gb|AJU46041.1| Ura3p [Saccharomyces cerevisiae YJM1304] &gt;gb|AJU46287.1| Ura3p [Saccharomyces cerevisiae YJM1307] &gt;gb|AJU46542.1| Ura3p [Saccharomyces cerevisiae YJM1311] &gt;gb|AJU46794.1| Ura3p [Saccharomyces cerevisiae YJM1326] &gt;gb|AJU47054.1| Ura3p [Saccharomyces cerevisiae YJM1332] &gt;gb|AJU47299.1| Ura3p [Saccharomyces cerevisiae YJM1336] &gt;gb|AJU47557.1| Ura3p [Saccharomyces cerevisiae YJM1338] &gt;gb|AJU48073.1| Ura3p [Saccharomyces cerevisiae YJM1342] &gt;gb|AJU48331.1| Ura3p [Saccharomyces cerevisiae YJM1355] &gt;gb|AJU48841.1| Ura3p [Saccharomyces cerevisiae YJM1381] &gt;gb|AJU49356.1| Ura3p [Saccharomyces cerevisiae YJM1385] &gt;gb|AJU49859.1| Ura3p [Saccharomyces cerevisiae YJM1387] &gt;gb|AJU50112.1| Ura3p [Saccharomyces cerevisiae YJM1388] &gt;gb|AJU50364.1| Ura3p [Saccharomyces cerevisiae YJM1389] &gt;gb|AJU50867.1| Ura3p [Saccharomyces cerevisiae YJM1400] &gt;gb|AJU51125.1| Ura3p [Saccharomyces cerevisiae YJM1401] &gt;gb|AJU51377.1| Ura3p [Saccharomyces cerevisiae YJM1402] &gt;gb|AJU51892.1| Ura3p [Saccharomyces cerevisiae YJM1417] &gt;gb|AJU52146.1| Ura3p [Saccharomyces cerevisiae YJM1418] &gt;gb|AJU52402.1| Ura3p [Saccharomyces cerevisiae YJM1419] &gt;gb|AJU52658.1| Ura3p [Saccharomyces cerevisiae YJM1433] &gt;gb|AJU52915.1| Ura3p [Saccharomyces cerevisiae YJM1434] &gt;gb|AJU53171.1| Ura3p [Saccharomyces cerevisiae YJM1439] &gt;gb|AJU53426.1| Ura3p [Saccharomyces cerevisiae YJM1443] &gt;gb|AJU53679.1| Ura3p [Saccharomyces cerevisiae YJM1444] &gt;gb|AJU53929.1| Ura3p [Saccharomyces cerevisiae YJM1447] &gt;gb|AJU54174.1| Ura3p [Saccharomyces cerevisiae YJM1450] &gt;gb|AJU54415.1| Ura3p [Saccharomyces cerevisiae YJM1460] &gt;gb|AJU54669.1| Ura3p [Saccharomyces cerevisiae YJM1463] &gt;gb|AJU54925.1| Ura3p [Saccharomyces cerevisiae YJM1477] &gt;gb|AJU55185.1| Ura3p [Saccharomyces cerevisiae YJM1478] &gt;gb|AJU55442.1| Ura3p [Saccharomyces cerevisiae YJM1479] &gt;gb|AJU55699.1| Ura3p [Saccharomyces cerevisiae YJM1526] &gt;gb|AJU55958.1| Ura3p [Saccharomyces cerevisiae YJM1527] &gt;gb|AJU56215.1| Ura3p [Saccharomyces cerevisiae YJM1549] &gt;gb|AJU56471.1| Ura3p [Saccharomyces cerevisiae YJM1573] &gt;gb|AJU56727.1| Ura3p [Saccharomyces cerevisiae YJM1574] &gt;gb|AJU56982.1| Ura3p [Saccharomyces cerevisiae YJM1592] &gt;gb|AJV32787.1| Ura3p [Saccharomyces cerevisiae YJM189] &gt;gb|AJV33299.1| Ura3p [Saccharomyces cerevisiae YJM195] &gt;gb|AJV33809.1| Ura3p [Saccharomyces cerevisiae YJM248] &gt;gb|AJV34064.1| Ura3p [Saccharomyces cerevisiae YJM270] &gt;gb|AJV34323.1| Ura3p [Saccharomyces cerevisiae YJM271] &gt;gb|AJV34576.1| Ura3p [Saccharomyces cerevisiae YJM320] &gt;gb|AJV34785.1| Ura3p [Saccharomyces cerevisiae YJM326] &gt;gb|AJV35039.1| Ura3p [Saccharomyces cerevisiae YJM428] &gt;gb|AJV35294.1| Ura3p [Saccharomyces cerevisiae YJM450] &gt;gb|AJV35551.1| Ura3p [Saccharomyces cerevisiae YJM451] &gt;gb|AJV35803.1| Ura3p [Saccharomyces cerevisiae YJM453] &gt;gb|AJV36065.1| Ura3p [Saccharomyces cerevisiae YJM456] &gt;gb|AJV36320.1| Ura3p [Saccharomyces cerevisiae YJM470] &gt;gb|AJV36573.1| Ura3p [Saccharomyces cerevisiae YJM541] &gt;gb|AJV36827.1| Ura3p [Saccharomyces cerevisiae YJM554] &gt;gb|AJV37079.1| Ura3p [Saccharomyces cerevisiae YJM555] &gt;gb|AJV37337.1| Ura3p [Saccharomyces cerevisiae YJM627] &gt;gb|AJV37591.1| Ura3p [Saccharomyces cerevisiae YJM681] &gt;gb|AJV37844.1| Ura3p [Saccharomyces cerevisiae YJM682] &gt;gb|AJV38096.1| Ura3p [Saccharomyces cerevisiae YJM683] &gt;gb|AJV38353.1| Ura3p [Saccharomyces cerevisiae YJM689] &gt;gb|EDN62947.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae YJM789] &gt;gb|EEU04657.1| Ura3p [Saccharomyces cerevisiae JAY291] &gt;gb|EGA79132.1| Ura3p [Saccharomyces cerevisiae Vin13] &gt;gb|EGA83253.1| Ura3p [Saccharomyces cerevisiae Lalvin QA23] &gt;gb|EGA87217.1| Ura3p [Saccharomyces cerevisiae VL3] &gt;gb|EHN07513.1| Ura3p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii VIN7] &gt;gb|EWG91367.1| Ura3p [Saccharomyces cerevisiae P301] &gt;gb|EWG96387.1| Ura3p [Saccharomyces cerevisiae R103] &gt;gb|EWH18968.1| Ura3p [Saccharomyces cerevisiae P283] &gt;gb|KOH51211.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|KQC44293.1| decarboxylase [Saccharomyces sp. &apos;boulardii&apos;] &gt;gb|ONH77933.1| Orotidine 5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae] &gt;gb|PTN39455.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae] &gt;pdb|3GDK|A Chain A, Crystal Structure Of The Orotidine 5&apos;-Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDK|B Chain B, Crystal Structure Of The Orotidine 5&apos;-Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDK|C Chain C, Crystal Structure Of The Orotidine 5&apos;-Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDK|D Chain D, Crystal Structure Of The Orotidine 5&apos;-Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDL|A Chain A, Crystal Structure Of The Orotidine 5&apos;-Monophosphate Decarboxylase From Saccharomyces Cerevisiae Complexed With 6-Azauridine 5&apos;-Monophosphate [Saccharomyces cerevisiae] &gt;pdb|3GDL|B Chain B, Crystal Structure Of The Orotidine 5&apos;-Monophosphate Decarboxylase From Saccharomyces Cerevisiae Complexed With 6-Azauridine 5&apos;-Monophosphate [Saccharomyces cerevisiae] &gt;dbj|BAI82232.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces pastorianus] &gt;dbj|GAA22803.1| K7_Ura3p [Saccharomyces cerevisiae Kyokai no. 7] &gt;dbj|GAX70896.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae] &gt;emb|CAY79141.1| Ura3p [Saccharomyces cerevisiae EC1118] &gt;tpg|DAA07631.1| TPA: orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>NP_010893</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.888</Hsp_bit-score>
+      <Hsp_score>1400</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|PTN16368.1|</Hit_id>
+  <Hit_def>orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae] &gt;gb|PTN20830.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>PTN16368</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.117</Hsp_bit-score>
+      <Hsp_score>1398</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAQLSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLA+LSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AJU50614.1|</Hit_id>
+  <Hit_def>Ura3p [Saccharomyces cerevisiae YJM1399]</Hit_def>
+  <Hit_accession>AJU50614</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.117</Hsp_bit-score>
+      <Hsp_score>1398</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRNEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGR+EGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|3GDR|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The D91n Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDR|B Chain B, Crystal Structure Of The D91n Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDR|C Chain C, Crystal Structure Of The D91n Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDR|D Chain D, Crystal Structure Of The D91n Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDT|A Chain A, Crystal Structure Of The D91n Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae Complexed With 6-Azauridine 5&apos;-Monophosphate [Saccharomyces cerevisiae] &gt;pdb|3GDT|B Chain B, Crystal Structure Of The D91n Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae Complexed With 6-Azauridine 5&apos;-Monophosphate [Saccharomyces cerevisiae] &gt;pdb|3GDT|C Chain C, Crystal Structure Of The D91n Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae Complexed With 6-Azauridine 5&apos;-Monophosphate [Saccharomyces cerevisiae] &gt;pdb|3GDT|D Chain D, Crystal Structure Of The D91n Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae Complexed With 6-Azauridine 5&apos;-Monophosphate [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>3GDR_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.117</Hsp_bit-score>
+      <Hsp_score>1398</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFENRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFE+RKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>dbj|BAG12078.1|</Hit_id>
+  <Hit_def>orotidine-5&apos;-phosphate decarboxylase [Reporter plasmid pSUR]</Hit_def>
+  <Hit_accession>BAG12078</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.732</Hsp_bit-score>
+      <Hsp_score>1397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|3GDM|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The K93r Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae] &gt;pdb|3GDM|B Chain B, Crystal Structure Of The K93r Mutant Of The Orotidine 5&apos;- Monophosphate Decarboxylase From Saccharomyces Cerevisiae [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>3GDM_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.732</Hsp_bit-score>
+      <Hsp_score>1397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRRFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDR+FADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>prf||1010253A</Hit_id>
+  <Hit_def>decarboxylase,orotidine phosphate [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1010253A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCLGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSC GSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|EGA58932.1|</Hit_id>
+  <Hit_def>Ura3p [Saccharomyces cerevisiae FostersB]</Hit_def>
+  <Hit_accession>EGA58932</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCXSLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLC SLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AJU47816.1|</Hit_id>
+  <Hit_def>Ura3p [Saccharomyces cerevisiae YJM1341] &gt;gb|AJU48582.1| Ura3p [Saccharomyces cerevisiae YJM1356] &gt;gb|AJU51635.1| Ura3p [Saccharomyces cerevisiae YJM1415] &gt;gb|EDZ72680.1| YEL021Wp-like protein [Saccharomyces cerevisiae AWRI1631] &gt;gb|EWG86466.1| Ura3p [Saccharomyces cerevisiae R008] &gt;gb|PJP06575.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>AJU47816</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTNELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTT ELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AJU49098.1|</Hit_id>
+  <Hit_def>Ura3p [Saccharomyces cerevisiae YJM1383] &gt;gb|AJU49606.1| Ura3p [Saccharomyces cerevisiae YJM1386] &gt;gb|AJV33042.1| Ura3p [Saccharomyces cerevisiae YJM193] &gt;gb|KZV11722.1| URA3 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>AJU49098</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.576</Hsp_bit-score>
+      <Hsp_score>1394</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKESRGLLMLAELSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKE RGLLMLAELSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|AJU43238.1|</Hit_id>
+  <Hit_def>Ura3p [Saccharomyces cerevisiae YJM1190] &gt;gb|AJV33553.1| Ura3p [Saccharomyces cerevisiae YJM244] &gt;gb|EGA75276.1| Ura3p [Saccharomyces cerevisiae AWRI796]</Hit_def>
+  <Hit_accession>AJU43238</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.576</Hsp_bit-score>
+      <Hsp_score>1394</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVHTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDV TTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|EGA62561.1|</Hit_id>
+  <Hit_def>Ura3p [Saccharomyces cerevisiae FostersO]</Hit_def>
+  <Hit_accession>EGA62561</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.191</Hsp_bit-score>
+      <Hsp_score>1393</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_qseq>
+      <Hsp_hseq>MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEXTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_hseq>
+      <Hsp_midline>M KATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGE TKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|EJT41855.1|</Hit_id>
+  <Hit_def>URA3-like protein [Saccharomyces kudriavzevii IFO 1802]</Hit_def>
+  <Hit_accession>EJT41855</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.242</Hsp_bit-score>
+      <Hsp_score>1349</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSQATYKERAATHPSPVAARLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKELSAKHNFLLFEDRKFADIGNTVKLQYSAGVYKIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKRDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVISAGSDIIIVGRGLFAKGRDANVEGERYRKAGWEAYLRRCCQPN</Hsp_hseq>
+      <Hsp_midline>M +ATYKERAATHPSPVAA+LFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLK LSAK+NFLLFEDRKFADIGNTVKLQYSAGVY+IAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAK DKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDV+S GSDIIIVGRGLFAKGRDA VEGERYRKAGWEAYLRRC Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|EJS44107.1|</Hit_id>
+  <Hit_def>ura3p [Saccharomyces arboricola H-6]</Hit_def>
+  <Hit_accession>EJS44107</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.472</Hsp_bit-score>
+      <Hsp_score>1347</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSNATYKQRAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSIEGTVKPLKELSAKHNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRALLMLAELSCKGSLATGEYTKGTVEIAKGDKDFVIGFIAQKDMGGREEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVISTGSDIIIVGRGLFAKGRDANVEGERYRKAGWDAYLRRCGQQN</Hsp_hseq>
+      <Hsp_midline>M  ATYK+RAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFS+EGTVKPLK LSAK+NFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPR LLMLAELSCKGSL+TGEYTKGTV+IAK DKDFVIGFIAQ+DMGGR+EGYDWLIMTPGVGLDDKGDALGQQYRTVDDV+STGSDIIIVGRGLFAKGRDA VEGERYRKAGW+AYLRRCGQQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_018222653.1|</Hit_id>
+  <Hit_def>URA3-like protein [Saccharomyces eubayanus] &gt;gb|KOG99935.1| URA3-like protein [Saccharomyces eubayanus] &gt;dbj|BAI82233.1| orotidine-5&apos;-phosphate decarboxylase [Saccharomyces pastorianus]</Hit_def>
+  <Hit_accession>XP_018222653</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.309</Hsp_bit-score>
+      <Hsp_score>1331</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MSNATYKERAAAHPSPVAAKLLNIMHEKQTNLCASLDVHTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKQLSAKHNFLLFEDRKFADIGNTVKLQYSSGVYRIAEWADITNAHGVVGPGIVSGLKEAAEEATKEPRALLMLAELSCKGSLATGEYTKGTVNIAKSDKDFVIGFIAQKDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDVNVEGERYRKAGWEAYLKRCGSQN</Hsp_hseq>
+      <Hsp_midline>M  ATYKERAA HPSPVAAKL NIMHEKQTNLCASLDV TTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLK LSAK+NFLLFEDRKFADIGNTVKLQYS+GVYRIAEWADITNAHGVVGPGIVSGLK+AAEE TKEPR LLMLAELSCKGSL+TGEYTKGTV+IAKSDKDFVIGFIAQ+DMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRD  VEGERYRKAGWEAYL+RCG Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|EHN02823.1|</Hit_id>
+  <Hit_def>Ura3p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii VIN7]</Hit_def>
+  <Hit_accession>EHN02823</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.789</Hsp_bit-score>
+      <Hsp_score>1231</Hsp_score>
+      <Hsp_evalue>4.60228e-170</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQD</Hsp_qseq>
+      <Hsp_hseq>MHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKELSAKHNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLATGEYTKGTVDIAKGDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVISAGSDIIIVGRGLFAKGRDANVEGERYRKAGWEAYLRRCCQPN</Hsp_hseq>
+      <Hsp_midline>MHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLK LSAK+NFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSL+TGEYTKGTVDIAK DKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDV+S GSDIIIVGRGLFAKGRDA VEGERYRKAGWEAYLRRC Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_003677638.1|</Hit_id>
+  <Hit_def>hypothetical protein NCAS_0G03990 [Naumovozyma castellii CBS 4309] &gt;emb|CCC71286.1| hypothetical protein NCAS_0G03990 [Naumovozyma castellii CBS 4309]</Hit_def>
+  <Hit_accession>XP_003677638</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.863</Hsp_bit-score>
+      <Hsp_score>1226</Hsp_score>
+      <Hsp_evalue>8.1257e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_qseq>
+      <Hsp_hseq>MSALTYTQRAASHPSPLASKLFNIMEAKKTNLCASLDVRTTEELLRLVETLGPYICLLKTHVDILTDFSMEGTVKPLKELAKKFNFLIFEDRKFADIGNTVKLQYSSGVYRIAEWADITNAHGVTGPGIIAGLKEAASEVTKEPRGLLMLAELSSKGSLAHGEYTRGTVEMAKIDKEFVIGFIAQRDMGGRDEGFDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFGKGRDPRVEGERYRKAGWEAYLKRCGKS</Hsp_hseq>
+      <Hsp_midline>M   TY +RAA+HPSP+A+KLFNIM  K+TNLCASLDVRTT+ELL LVE LGP ICLLKTHVDILTDFSMEGTVKPLK L+ K+NFL+FEDRKFADIGNTVKLQYS+GVYRIAEWADITNAHGV GPGI++GLK+AA EVTKEPRGLLMLAELS KGSL+ GEYT+GTV++AK DK+FVIGFIAQRDMGGRDEG+DWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLF KGRD +VEGERYRKAGWEAYL+RCG+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_002499086.1|</Hit_id>
+  <Hit_def>uncharacterized protein ZYRO0E03366g [Zygosaccharomyces rouxii] &gt;dbj|GAV49489.1| hypothetical protein ZYGR_0P01330 [Zygosaccharomyces rouxii] &gt;emb|CAQ43487.1| Orotidine 5&apos;-phosphate decarboxylase [Zygosaccharomyces rouxii] &gt;emb|CAR30831.1| ZYRO0E03366p [Zygosaccharomyces rouxii]</Hit_def>
+  <Hit_accession>XP_002499086</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>1.07334e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSHLTYQERAARHPSPVATRLLNLMHEKQTNLCASLDVNTTAELLHLLDVLGPHICLVKTHVDILSDFSIEGTVKPLKELAAKHNFLIFEDRKFADIGNTVKLQYKSGVYQIAQWADITNAHGVTGPGIVQGLKQAAQETTQEPRGLLMLAELSSKGSLAHGEYTTGTVDIAKSDKEFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDSLGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDPSVEGERYRKAGWQAYLKRCNK</Hsp_hseq>
+      <Hsp_midline>M   TY+ERAA HPSPVA +L N+MHEKQTNLCASLDV TT ELL L++ LGP ICL+KTHVDIL+DFS+EGTVKPLK L+AK+NFL+FEDRKFADIGNTVKLQY +GVY+IA+WADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELS KGSL+ GEYT GTVDIAKSDK+FVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGD+LGQQYRTVDDVVSTGSDIIIVGRGLFAKGRD  VEGERYRKAGW+AYL+RC +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>dbj|BAK64088.1|</Hit_id>
+  <Hit_def>orotidine-5&apos;-phosphate decarboxylase [Zygosaccharomyces rouxii] &gt;dbj|GAV54400.1| hypothetical protein ZYGR_0AL01320 [Zygosaccharomyces rouxii]</Hit_def>
+  <Hit_accession>BAK64088</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.389</Hsp_bit-score>
+      <Hsp_score>1204</Hsp_score>
+      <Hsp_evalue>1.64612e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSHLTYQERAARHPSPVASRLLNLMHEKQTNLCASLDVNTTAELLHLLDVLGPHICLVKTHVDILSDFSIEGTVKPLKELAAKHKFLIFEDRKFADIGNTVKLQYKSGVYQIAQWADITNAHGVTGPGIVQGLKQAAQETTQEPRGLLMLAELSSKGSLAHGEYTTGTVDIAKSDKEFVIGFIAQRDMGGRDEGYDWLVMTPGVGLDDKGDSLGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDPSVEGERYRKAGWQAYLKRCSK</Hsp_hseq>
+      <Hsp_midline>M   TY+ERAA HPSPVA++L N+MHEKQTNLCASLDV TT ELL L++ LGP ICL+KTHVDIL+DFS+EGTVKPLK L+AK+ FL+FEDRKFADIGNTVKLQY +GVY+IA+WADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELS KGSL+ GEYT GTVDIAKSDK+FVIGFIAQRDMGGRDEGYDWL+MTPGVGLDDKGD+LGQQYRTVDDVVSTGSDIIIVGRGLFAKGRD  VEGERYRKAGW+AYL+RC +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|Q8J0E6.1|</Hit_id>
+  <Hit_def>RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase; AltName: Full=Uridine 5&apos;-monophosphate synthase; Short=UMP synthase [Torulaspora delbrueckii] &gt;gb|AAN71840.1| orotidine 5&apos;-phosphate decarboxylase [Torulaspora delbrueckii]</Hit_def>
+  <Hit_accession>Q8J0E6</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.233</Hsp_bit-score>
+      <Hsp_score>1201</Hsp_score>
+      <Hsp_evalue>4.16611e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSVATYQERAAKHPSPVASKLLNLMHEKKTNLCASLDVNTTEELLKLVDTLGPYICLLKTHIDIISDFSIDGTVKPLKELAKKHNFMIFEDRKFADIGNTVKLQYSSGVYRIAEWADITNAHGVTGAGIVTGLKQAAQETTNEPRGLLMLAELSSKGSLAHGEYTQGTVEIAKTDKDFVIGFIAQRDMGGREEGYDWLIMTPGVGLDDKGDALGQQYRTVDEVVSTGSDIIIVGRGLFAKGRDPRVEGERYRKAGWEAYEKRC</Hsp_hseq>
+      <Hsp_midline>M  ATY+ERAA HPSPVA+KL N+MHEK+TNLCASLDV TT+ELL+LV+ LGP ICLLKTH+DI++DFS++GTVKPLK L+ K+NF++FEDRKFADIGNTVKLQYS+GVYRIAEWADITNAHGV G GIV+GLKQAA+E T EPRGLLMLAELS KGSL+ GEYT+GTV+IAK+DKDFVIGFIAQRDMGGR+EGYDWLIMTPGVGLDDKGDALGQQYRTVD+VVSTGSDIIIVGRGLFAKGRD +VEGERYRKAGWEAY +RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_003679867.1|</Hit_id>
+  <Hit_def>hypothetical protein TDEL_0B05270 [Torulaspora delbrueckii] &gt;emb|CCE90656.1| hypothetical protein TDEL_0B05270 [Torulaspora delbrueckii]</Hit_def>
+  <Hit_accession>XP_003679867</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>1.47008e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSVATYQERAAKHPSPVASKLLNLMHEKKTNLCASLDVNTTEELLKLVDTLGPYICLLKTHIDIISDFSIDGTVKPLKELAKKHNFMIFEDRKFADIGNTVKLQYSSGVYRIAEWADITNAHGVTGAGIVTGLKQAAQETTNEPRGLLMLAELSSKGSLAHGEYTQGTVEIAKTDKDFVIGFIAQRDMGGREEGFDWLIMTPGVGLDDKGDALGQQYRTVDEVVSTGSDIIIVGRGLFAKGRDPRVEGERYRKAGWEAYEKRC</Hsp_hseq>
+      <Hsp_midline>M  ATY+ERAA HPSPVA+KL N+MHEK+TNLCASLDV TT+ELL+LV+ LGP ICLLKTH+DI++DFS++GTVKPLK L+ K+NF++FEDRKFADIGNTVKLQYS+GVYRIAEWADITNAHGV G GIV+GLKQAA+E T EPRGLLMLAELS KGSL+ GEYT+GTV+IAK+DKDFVIGFIAQRDMGGR+EG+DWLIMTPGVGLDDKGDALGQQYRTVD+VVSTGSDIIIVGRGLFAKGRD +VEGERYRKAGWEAY +RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|AQZ15485.1|</Hit_id>
+  <Hit_def>URA3 (YEL021W) [Zygosaccharomyces parabailii] &gt;emb|CDH16561.1| Orotidine 5&apos;-phosphate decarboxylase [Zygosaccharomyces bailii ISA1307]</Hit_def>
+  <Hit_accession>AQZ15485</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>1.32179e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSTVTYHDRAAKHPSPLASKLLELMHEKQTNLCASLDVNTTTELLRLVDILGPYICLVKTHVDILSDFSMDGTVKPLKELAAKHKFLIFEDRKFADIGNTVKLQYSSGVYKISQWADITNAHGVTGPGIVQGLKQAAEETTEEPRGLLMLAELSSKGSLAHGEYTKGTVEIAKTDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLEDKGDALGQQYRTVEDVISTGSDIIIVGRGLFGKGRDPKVEGDRYRKAGWEAYLKRC</Hsp_hseq>
+      <Hsp_midline>M   TY +RAA HPSP+A+KL  +MHEKQTNLCASLDV TT ELL LV+ LGP ICL+KTHVDIL+DFSM+GTVKPLK L+AK+ FL+FEDRKFADIGNTVKLQYS+GVY+I++WADITNAHGV GPGIV GLKQAAEE T+EPRGLLMLAELS KGSL+ GEYTKGTV+IAK+DKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGL+DKGDALGQQYRTV+DV+STGSDIIIVGRGLF KGRD KVEG+RYRKAGWEAYL+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>emb|SCW02670.1|</Hit_id>
+  <Hit_def>LAFE_0F11738g1_1 [Lachancea fermentati]</Hit_def>
+  <Hit_accession>SCW02670</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.225</Hsp_bit-score>
+      <Hsp_score>1188</Hsp_score>
+      <Hsp_evalue>4.51296e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSTLSYKQRAEVHPSPVASKLLKLMHEKETNLCASLDVGSTKELLDLVEVLGPHICLLKTHVDILPDFSMEGTVKPLKELAQKYNFLIFEDRKFADIGNTVKLQYSSGVHRIAEWADITNAHGVTGPGIVQGLKQAAKETTEEPRGLLMLAELSSKGSLAHGEYTKGTVDIAKTDKEFVIGFIAQHDMGGRNEGFDWLIMTPGVGLDDKGDSLGQQYRTVKDVVSTGSDIIIVGRGLFAKGRDPNVEGARYRKAGWEAYLNRISQ</Hsp_hseq>
+      <Hsp_midline>M   +YK+RA  HPSPVA+KL  +MHEK+TNLCASLDV +TKELL+LVE LGP ICLLKTHVDIL DFSMEGTVKPLK L+ KYNFL+FEDRKFADIGNTVKLQYS+GV+RIAEWADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELS KGSL+ GEYTKGTVDIAK+DK+FVIGFIAQ DMGGR+EG+DWLIMTPGVGLDDKGD+LGQQYRTV DVVSTGSDIIIVGRGLFAKGRD  VEG RYRKAGWEAYL R  Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AQZ18687.1|</Hit_id>
+  <Hit_def>URA3 (YEL021W) [Zygosaccharomyces parabailii] &gt;emb|SJM84548.1| Orotidine 5&apos;-phosphate decarboxylase [Zygosaccharomyces bailii]</Hit_def>
+  <Hit_accession>AQZ18687</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>2.21248e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSTATYHDRAAKHASPLASKLLELMHEKQTNLCASLDVDTTTELLRLVDILGPYICLVKTHVDILSDFSMDGTVKPLKELAAKHKFLIFEDRKFADIGNTVKLQYSSGVYQISQWADITNAHGVTGPGIVQGLKQAAEETTQEPRGLLMLAELSSKGSLAHGEYTKGTVEIAKTDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLEDKGDALGQQYRTVEDVISTGSDIIIVGRGLFGKGRDPKIEGDRYRKAGWEAYLKRC</Hsp_hseq>
+      <Hsp_midline>M  ATY +RAA H SP+A+KL  +MHEKQTNLCASLDV TT ELL LV+ LGP ICL+KTHVDIL+DFSM+GTVKPLK L+AK+ FL+FEDRKFADIGNTVKLQYS+GVY+I++WADITNAHGV GPGIV GLKQAAEE T+EPRGLLMLAELS KGSL+ GEYTKGTV+IAK+DKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGL+DKGDALGQQYRTV+DV+STGSDIIIVGRGLF KGRD K+EG+RYRKAGWEAYL+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>dbj|GCF00623.1|</Hit_id>
+  <Hit_def>orotidine 5&apos;-phosphate decarboxylase [Zygosaccharomyces mellis]</Hit_def>
+  <Hit_accession>GCF00623</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>3.74481e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSQLTYEERAVRHPSPIASRLLTLMHEKETNLCASLDVNTTAELLHLLDVLGPHICLVKTHVDILSDFSIEGTVKPLKELAAKHRFLIFEDRKFADIGNTVKLQYKSGVYQIAQWADITNAHGVTGPGIVQGLKQAAQETTQEPRGLLMLAELSSKGSLAHGEYTTGTVEIAKSDKEFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDSLGQQYRNVDDVVSTGSDIIIVGRGLFAKGRDPRIEGERYRKAGWQAYLKRC</Hsp_hseq>
+      <Hsp_midline>M + TY+ERA  HPSP+A++L  +MHEK+TNLCASLDV TT ELL L++ LGP ICL+KTHVDIL+DFS+EGTVKPLK L+AK+ FL+FEDRKFADIGNTVKLQY +GVY+IA+WADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELS KGSL+ GEYT GTV+IAKSDK+FVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGD+LGQQYR VDDVVSTGSDIIIVGRGLFAKGRD ++EGERYRKAGW+AYL+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|Q9HFX0.1|</Hit_id>
+  <Hit_def>RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase; AltName: Full=Uridine 5&apos;-monophosphate synthase; Short=UMP synthase [Zygosaccharomyces bailii] &gt;gb|AAG17694.1| orotidine-5&apos;-phosphate decarboxylase [Zygosaccharomyces bailii] &gt;emb|CDF90219.1| ZYBA0S06-03488g1_1 [Zygosaccharomyces bailii CLIB 213] &gt;emb|CDH11557.1| Orotidine 5&apos;-phosphate decarboxylase [Zygosaccharomyces bailii ISA1307]</Hit_def>
+  <Hit_accession>Q9HFX0</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.759</Hsp_bit-score>
+      <Hsp_score>1179</Hsp_score>
+      <Hsp_evalue>1.15839e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSTATYHDRAAKHASPLASKLLELMHEKQTNLCASLDVDTTTELLRLVDILGPYICLVKTHVDILSDFSMDGTVKPLKELAAKHKFLIFEDRKFADIGNTVKLQYSSGVYQISQWADITNAHGVTGPGIVQGLKQAAEETTQEPRGLLMLAELSSKGSLAHGEYTKGTVEIAKTDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLEDKSDALGQQYRTVEDVISTGSDIIIVGRGLFGKGRDPKIEGDRYRKAGWEAYLKRC</Hsp_hseq>
+      <Hsp_midline>M  ATY +RAA H SP+A+KL  +MHEKQTNLCASLDV TT ELL LV+ LGP ICL+KTHVDIL+DFSM+GTVKPLK L+AK+ FL+FEDRKFADIGNTVKLQYS+GVY+I++WADITNAHGV GPGIV GLKQAAEE T+EPRGLLMLAELS KGSL+ GEYTKGTV+IAK+DKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGL+DK DALGQQYRTV+DV+STGSDIIIVGRGLF KGRD K+EG+RYRKAGWEAYL+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>emb|SCV17338.1|</Hit_id>
+  <Hit_def>Orotidine 5&apos;-phosphate decarboxylase [[Candida] glabrata] &gt;emb|SLM17132.1| Orotidine 5&apos;-phosphate decarboxylase [[Candida] glabrata]</Hit_def>
+  <Hit_accession>SCV17338</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.988</Hsp_bit-score>
+      <Hsp_score>1177</Hsp_score>
+      <Hsp_evalue>1.68166e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSSASYLQRAEAHPSPVASKLLKLMHEKKTNLCASLDVTTTSELLKLVDTLGPYICLLKTHVDILSDFSFENTIKPLKELAAKHNFLIFEDRKFADIGNTVKLQYTSGVYKIAEWADITNAHGVTGQGIVTGLKQGAEETTNEPRGLLMLAELSSKGSLAHGEYTKGTVDIAKSDKDFVIGFIAQKDMGGRDEGFDWLIMTPGVGLDDKGDALGQQYRTVDEVFSTGTDIIIVGRGLFAKGRDPKTEGERYRKAGWDAYLKRIGN</Hsp_hseq>
+      <Hsp_midline>M  A+Y +RA  HPSPVA+KL  +MHEK+TNLCASLDV TT ELL+LV+ LGP ICLLKTHVDIL+DFS E T+KPLK L+AK+NFL+FEDRKFADIGNTVKLQY++GVY+IAEWADITNAHGV G GIV+GLKQ AEE T EPRGLLMLAELS KGSL+ GEYTKGTVDIAKSDKDFVIGFIAQ+DMGGRDEG+DWLIMTPGVGLDDKGDALGQQYRTVD+V STG+DIIIVGRGLFAKGRD K EGERYRKAGW+AYL+R G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_447384.1|</Hit_id>
+  <Hit_def>uncharacterized protein CAGL0I03080g [[Candida] glabrata] &gt;sp|P33283.1| RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase; AltName: Full=Uridine 5&apos;-monophosphate synthase; Short=UMP synthase [[Candida] glabrata CBS 138] &gt;gb|AAA34325.1| orotidine-5&apos;-phosphate decarboxylase [[Candida] glabrata] &gt;gb|KTB01429.1| Orotidine 5&apos;-phosphate decarboxylase [[Candida] glabrata] &gt;gb|KTB05243.1| Orotidine 5&apos;-phosphate decarboxylase [[Candida] glabrata] &gt;gb|KTB05693.1| Orotidine 5&apos;-phosphate decarboxylase [[Candida] glabrata] &gt;gb|KTB13108.1| Orotidine 5&apos;-phosphate decarboxylase [[Candida] glabrata] &gt;gb|OXB44111.1| hypothetical protein B1J91_I03080g [[Candida] glabrata] &gt;gb|OXB49410.1| hypothetical protein B1J92_I03080g [[Candida] glabrata] &gt;emb|CAG60321.1| unnamed protein product [[Candida] glabrata]</Hit_def>
+  <Hit_accession>XP_447384</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>2.44132e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSSASYLQRAEAHPSPVASKLLKLMHEKKTNLCASLDVTTTSELLKLVDTLGPYICLLKTHVDILSDFSFENTVKPLKEMAAKHNFLIFEDRKFADIGNTVKLQYTSGVYKIAEWADITNAHGVTGQGIVTGLKQGAEETTNEPRGLLMLAELSSKGSLAHGEYTKGTVDIAKSDKDFVIGFIAQKDMGGRDEGFDWLIMTPGVGLDDKGDALGQQYRTVDEVFSTGTDIIIVGRGLFAKGRDPKTEGERYRKAGWDAYLKRIGN</Hsp_hseq>
+      <Hsp_midline>M  A+Y +RA  HPSPVA+KL  +MHEK+TNLCASLDV TT ELL+LV+ LGP ICLLKTHVDIL+DFS E TVKPLK ++AK+NFL+FEDRKFADIGNTVKLQY++GVY+IAEWADITNAHGV G GIV+GLKQ AEE T EPRGLLMLAELS KGSL+ GEYTKGTVDIAKSDKDFVIGFIAQ+DMGGRDEG+DWLIMTPGVGLDDKGDALGQQYRTVD+V STG+DIIIVGRGLFAKGRD K EGERYRKAGW+AYL+R G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KTB14551.1|</Hit_id>
+  <Hit_def>Orotidine 5&apos;-phosphate decarboxylase [[Candida] glabrata] &gt;gb|KTB20326.1| Orotidine 5&apos;-phosphate decarboxylase [[Candida] glabrata]</Hit_def>
+  <Hit_accession>KTB14551</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>2.78458e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSSASYLQRAEAHPSPVASKLLKLMHEKKTNLCASLDVTTTSELLKLVDTLGPFICLLKTHVDILSDFSFENTVKPLKEMAAKHNFLIFEDRKFADIGNTVKLQYTSGVYKIAEWADITNAHGVTGQGIVTGLKQGAEETTNEPRGLLMLAELSSKGSLAHGEYTKGTVDIAKSDKDFVIGFIAQKDMGGRDEGFDWLIMTPGVGLDDKGDALGQQYRTVDEVFSTGTDIIIVGRGLFAKGRDPKTEGERYRKAGWDAYLKRIGN</Hsp_hseq>
+      <Hsp_midline>M  A+Y +RA  HPSPVA+KL  +MHEK+TNLCASLDV TT ELL+LV+ LGP ICLLKTHVDIL+DFS E TVKPLK ++AK+NFL+FEDRKFADIGNTVKLQY++GVY+IAEWADITNAHGV G GIV+GLKQ AEE T EPRGLLMLAELS KGSL+ GEYTKGTVDIAKSDKDFVIGFIAQ+DMGGRDEG+DWLIMTPGVGLDDKGDALGQQYRTVD+V STG+DIIIVGRGLFAKGRD K EGERYRKAGW+AYL+R G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_003671066.2|</Hit_id>
+  <Hit_def>hypothetical protein NDAI_0G00470 [Naumovozyma dairenensis CBS 421] &gt;emb|CCD25823.2| hypothetical protein NDAI_0G00470 [Naumovozyma dairenensis CBS 421]</Hit_def>
+  <Hit_accession>XP_003671066</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>1.07606e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSTLTYEERAKNHASPVASKLLTIMFEKQTNLCASLDVRTTEELLRLVDILGPYICLLKTHVDILSDFSMEGTVIPLKQMALKYNFLIFEDRKFADIGNTVKLQYASGVYKIAEWADITNAHGITGPGIVAGLKEAAMEVSNEPRGLLMLAELSSKGSLAHGEYTRGTVEIAQTDKEFVFGFIAQRDMGGRTEGFDWLIMTPGVGLDDKGDALGQQYRTVEDVVSTGSDIIIVGRGLFAKGRDPKVEGERYRKAGWDAYLKRC</Hsp_hseq>
+      <Hsp_midline>M   TY+ERA  H SPVA+KL  IM EKQTNLCASLDVRTT+ELL LV+ LGP ICLLKTHVDIL+DFSMEGTV PLK ++ KYNFL+FEDRKFADIGNTVKLQY++GVY+IAEWADITNAHG+ GPGIV+GLK+AA EV+ EPRGLLMLAELS KGSL+ GEYT+GTV+IA++DK+FV GFIAQRDMGGR EG+DWLIMTPGVGLDDKGDALGQQYRTV+DVVSTGSDIIIVGRGLFAKGRD KVEGERYRKAGW+AYL+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_002556471.1|</Hit_id>
+  <Hit_def>KLTH0H14168p [Lachancea thermotolerans CBS 6340] &gt;emb|CAR30609.1| KLTH0H14168p [Lachancea thermotolerans CBS 6340]</Hit_def>
+  <Hit_accession>XP_002556471</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.677</Hsp_bit-score>
+      <Hsp_score>1171</Hsp_score>
+      <Hsp_evalue>1.59148e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSALSYLERAERHASPVAAKLLKLMHEKKTNLCASLDVHTTKELLDLVQVLGPHICLLKTHVDILDDFSMEGTVVPLKELAKKFNFMIFEDRKFADIGNTVKLQYSSGVYKIAQWADITNAHGVTGPGIVQGLKQAAQETTQEPRGLLMLAELSCKGALAYGEYTKGTVDIAKSDKDFVIGFIAQNDMGGRDEGFDWLVMTPGVGLDDKGDSLGQQYRTVDEVVTGGSDIIIVGRGLFGKGRDPSVEGARYRKAGWDAYIKRCGN</Hsp_hseq>
+      <Hsp_midline>M   +Y ERA  H SPVAAKL  +MHEK+TNLCASLDV TTKELL+LV+ LGP ICLLKTHVDIL DFSMEGTV PLK L+ K+NF++FEDRKFADIGNTVKLQYS+GVY+IA+WADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELSCKG+L+ GEYTKGTVDIAKSDKDFVIGFIAQ DMGGRDEG+DWL+MTPGVGLDDKGD+LGQQYRTVD+VV+ GSDIIIVGRGLF KGRD  VEG RYRKAGW+AY++RCG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>emb|CUS20958.1|</Hit_id>
+  <Hit_def>LAQU0S02e02278g1_1 [Lachancea quebecensis]</Hit_def>
+  <Hit_accession>CUS20958</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.292</Hsp_bit-score>
+      <Hsp_score>1170</Hsp_score>
+      <Hsp_evalue>2.36158e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSTLSYLERAERHASPVAAKLLKLMHEKKTNLCASLDVHTTKELLDLVQVLGPHICLLKTHVDILDDFSMEGTVVPLKELAKKFNFMIFEDRKFADIGNTVKLQYSSGVYKIAQWADITNAHGVTGPGIVQGLKQAAQEATQEPRGLLMLAELSCKGALAYGEYTKGTVDIAKSDKDFVIGFIAQNDMGGRDEGFDWLIMTPGVGLDDKGDSLGQQYRTVDEVVTGGSDIIIVGRGLFGKGRDPSAEGSRYRKAGWDAYIKRCGN</Hsp_hseq>
+      <Hsp_midline>M   +Y ERA  H SPVAAKL  +MHEK+TNLCASLDV TTKELL+LV+ LGP ICLLKTHVDIL DFSMEGTV PLK L+ K+NF++FEDRKFADIGNTVKLQYS+GVY+IA+WADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELSCKG+L+ GEYTKGTVDIAKSDKDFVIGFIAQ DMGGRDEG+DWLIMTPGVGLDDKGD+LGQQYRTVD+VV+ GSDIIIVGRGLF KGRD   EG RYRKAGW+AY++RCG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>emb|SCU99172.1|</Hit_id>
+  <Hit_def>LADA_0H18008g1_1 [Lachancea dasiensis CBS 10888]</Hit_def>
+  <Hit_accession>SCU99172</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.129</Hsp_bit-score>
+      <Hsp_score>1154</Hsp_score>
+      <Hsp_evalue>6.61241e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSNLTYQTRAENHVSPVAAKLLTLMHEKETNLCASLDVHTTKELLELVEVLGPHICLLKTHVDILDDFTMEGTVQPLKELAQKHRFMIFEDRKFADIGNTVKLQYSSGVYKIAQWADITNAHGVTGPGIVQGLKQAAAESTDEPRGLLMLAELSCKGALAHGKYTEETVEIAKSDKDFVIGFIAQNDMGGRDEGFDWLIMTPGVGLDDKGDSLGQQYRTVDEVVAGGSDIIIVGRGLFGKGRDASVESARYRKAGWDAYLKRCGK</Hsp_hseq>
+      <Hsp_midline>M   TY+ RA  H SPVAAKL  +MHEK+TNLCASLDV TTKELLELVE LGP ICLLKTHVDIL DF+MEGTV+PLK L+ K+ F++FEDRKFADIGNTVKLQYS+GVY+IA+WADITNAHGV GPGIV GLKQAA E T EPRGLLMLAELSCKG+L+ G+YT+ TV+IAKSDKDFVIGFIAQ DMGGRDEG+DWLIMTPGVGLDDKGD+LGQQYRTVD+VV+ GSDIIIVGRGLF KGRDA VE  RYRKAGW+AYL+RCG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>emb|CDO95120.1|</Hit_id>
+  <Hit_def>unnamed protein product [Kluyveromyces dobzhanskii CBS 2104]</Hit_def>
+  <Hit_accession>CDO95120</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>1.53105e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_qseq>
+      <Hsp_hseq>MSTKTYSERADAHASPVASKLLRLMEEKKTNLCASLDVRTTTELLTLVETLGPYICLLKTHVDILDDFTFEGTVAPLKKLAAKHKFLIFEDRKFADIGNTVKLQYTSGVYRIAEWSDITNAHGVTGAGIVAGLKQGAEEVTKEPRGLLMLAELSSKGSLAHGEYTRGTVDIAKSDKDFVIGFIAQNDMGGREEGFDWLIMTPGVGLDDKGDALGQQYRTVNEVVTGGSDIIIVGRGLFAKGRDPKVEGERYRTAGWDAYLKRIGSS</Hsp_hseq>
+      <Hsp_midline>M   TY ERA  H SPVA+KL  +M EK+TNLCASLDVRTT ELL LVE LGP ICLLKTHVDIL DF+ EGTV PLK L+AK+ FL+FEDRKFADIGNTVKLQY++GVYRIAEW+DITNAHGV G GIV+GLKQ AEEVTKEPRGLLMLAELS KGSL+ GEYT+GTVDIAKSDKDFVIGFIAQ DMGGR+EG+DWLIMTPGVGLDDKGDALGQQYRTV++VV+ GSDIIIVGRGLFAKGRD KVEGERYR AGW+AYL+R G  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_003958831.1|</Hit_id>
+  <Hit_def>hypothetical protein KAFR_0H02870 [Kazachstania africana CBS 2517] &gt;emb|CCF59696.1| hypothetical protein KAFR_0H02870 [Kazachstania africana CBS 2517]</Hit_def>
+  <Hit_accession>XP_003958831</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.588</Hsp_bit-score>
+      <Hsp_score>1150</Hsp_score>
+      <Hsp_evalue>2.92699e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSTQTYTERAKAHPSAVASKLLNIMESKKTNLCASIDVRTTQELLDIVSKIGPNICLLKTHVDILEDFSMEGTVKPLKEMSKKFNFLIFEDRKFADIGNTVKLQYTSGVYKIVEWADITNAHGVTGEGIVKGLKEGAKENTEEPRGLLMLAELSSKGSLAHGEYTAGTVNIAKSDKEFVIGFIAQRDMGGREEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVISTGSDIIIVGRGLYGKGRDPLVESERYKKAGWEAYLKRC</Hsp_hseq>
+      <Hsp_midline>M   TY ERA  HPS VA+KL NIM  K+TNLCAS+DVRTT+ELL++V  +GP ICLLKTHVDIL DFSMEGTVKPLK +S K+NFL+FEDRKFADIGNTVKLQY++GVY+I EWADITNAHGV G GIV GLK+ A+E T+EPRGLLMLAELS KGSL+ GEYT GTV+IAKSDK+FVIGFIAQRDMGGR+EGYDWLIMTPGVGLDDKGDALGQQYRTVDDV+STGSDIIIVGRGL+ KGRD  VE ERY+KAGWEAYL+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>emb|SMN22171.1|</Hit_id>
+  <Hit_def>similar to Saccharomyces cerevisiae YEL021W URA3 Orotidine-5&apos;-phosphate (OMP) decarboxylase [Kazachstania saulgeensis]</Hit_def>
+  <Hit_accession>SMN22171</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.817</Hsp_bit-score>
+      <Hsp_score>1148</Hsp_score>
+      <Hsp_evalue>4.29584e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRR</Hsp_qseq>
+      <Hsp_hseq>MSNLSYSARAAAHTSPVASKLLRIMEEKQTNLCASLDVRTTAELLAIVEQVGANICLLKTHVDILDDFTMEGTVKPLKALAAKYNFLIFEDRKFADIGNTVKLQYSSGVYKIVEWADITNAHGVTGEGIVRGLKEAAQENTKEPRGLLMLAELSSKGSLAHGEYTRGTVEIAKSDKEFVIGFIAQRDMGGREEGYDWLIMTPGVGLDDTGDALGQQYRTVNDVVSTGSDIIIVGRGLFGKGRDPAVESQRYKKAGWDAYLKR</Hsp_hseq>
+      <Hsp_midline>M   +Y  RAA H SPVA+KL  IM EKQTNLCASLDVRTT ELL +VE +G  ICLLKTHVDIL DF+MEGTVKPLKAL+AKYNFL+FEDRKFADIGNTVKLQYS+GVY+I EWADITNAHGV G GIV GLK+AA+E TKEPRGLLMLAELS KGSL+ GEYT+GTV+IAKSDK+FVIGFIAQRDMGGR+EGYDWLIMTPGVGLDD GDALGQQYRTV+DVVSTGSDIIIVGRGLF KGRD  VE +RY+KAGW+AYL+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_454981.1|</Hit_id>
+  <Hit_def>uncharacterized protein KLLA0_E22771g [Kluyveromyces lactis] &gt;sp|P07922.1| RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase; AltName: Full=Uridine 5&apos;-monophosphate synthase; Short=UMP synthase [Kluyveromyces lactis NRRL Y-1140] &gt;gb|AAG34531.1| orotidine-5&apos;-phosphate decarboxylase [PCR template vector pJJH726] &gt;gb|ABX47169.1| orotidine 5&apos;-phosphate decarboxylase [Yeast tagging vector pFA6a-GFP-KlURA3] &gt;gb|ABX47171.1| orotidine 5&apos;-phosphate decarboxylase [Yeast tagging vector pFA6a-TAP-KlURA3] &gt;gb|ABX47173.1| orotidine 5&apos;-phosphate decarboxylase [Yeast tagging vector pFA6a-GST-KlURA3] &gt;gb|ABX47175.1| orotidine 5&apos;-phosphate decarboxylase [Yeast tagging vector pFA6a-myc-KlURA3] &gt;gb|ABX47177.1| orotidine 5&apos;-phosphate decarboxylase [Yeast tagging vector pFA6a-HA-KlURA3] &gt;gb|ABY75238.1| orotidine 5&apos;-phosphate decarboxylase [Yeast tagging vector pFA6a-FLAG-KlURA3] &gt;gb|AHZ97959.1| orotidine-5&apos;-phosphate decarboxylase [Cloning vector pUDC082] &gt;gb|AJD09819.1| Ura3 [Cloning vector pCORE6] &gt;gb|ASW25877.1| Orotidine-5&apos;-phosphate decarboxylase [Vector pMM1-34Y] &gt;dbj|BAA00333.1| orotidine 5&apos;-phosphate decarboxylase [Kluyveromyces lactis] &gt;emb|CAA68509.1| unnamed protein product [Kluyveromyces lactis] &gt;emb|CAH00068.1| KLLA0E22771p [Kluyveromyces lactis] &gt;prf||1503113A orotidine phosphate decarboxylase [Kluyveromyces lactis]</Hit_def>
+  <Hit_accession>XP_454981</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.817</Hsp_bit-score>
+      <Hsp_score>1148</Hsp_score>
+      <Hsp_evalue>5.768e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRR</Hsp_qseq>
+      <Hsp_hseq>MSTKSYTSRAETHASPVASKLLRLMDEKKTNLCASLDVRSTDELLKLVETLGPYICLLKTHVDILDDFSYEGTVVPLKALAEKYKFLIFEDRKFADIGNTVKLQYTSGVYRIAEWSDITNAHGVTGAGIVAGLKQGAQEVTKEPRGLLMLAELSSKGSLAHGEYTKGTVDIAKSDKDFVIGFIAQNDMGGREEGFDWLIMTPGVGLDDKGDALGQQYRTVDEVVSGGSDIIIVGRGLFAKGRDPKVEGERYRNAGWEAYQKR</Hsp_hseq>
+      <Hsp_midline>M   +Y  RA TH SPVA+KL  +M EK+TNLCASLDVR+T ELL+LVE LGP ICLLKTHVDIL DFS EGTV PLKAL+ KY FL+FEDRKFADIGNTVKLQY++GVYRIAEW+DITNAHGV G GIV+GLKQ A+EVTKEPRGLLMLAELS KGSL+ GEYTKGTVDIAKSDKDFVIGFIAQ DMGGR+EG+DWLIMTPGVGLDDKGDALGQQYRTVD+VVS GSDIIIVGRGLFAKGRD KVEGERYR AGWEAY +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_022674242.1|</Hit_id>
+  <Hit_def>orotidine 5&apos;-phosphate decarboxylase [Kluyveromyces marxianus DMKU3-1042] &gt;sp|P41769.1| RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase; AltName: Full=Uridine 5&apos;-monophosphate synthase; Short=UMP synthase [Kluyveromyces marxianus] &gt;gb|ABB69700.1| orotidine-5&apos;-phosphate decarboxylase [Kluyveromyces marxianus] &gt;gb|AOP17589.1| orotidine-5&apos;-phosphate decarboxylase [Kluyveromyces marxianus] &gt;dbj|BAO38353.1| orotidine 5&apos;-phosphate decarboxylase [Kluyveromyces marxianus DMKU3-1042] &gt;dbj|BAP69913.1| orotidine 5&apos;-phosphate decarboxylase [Kluyveromyces marxianus] &gt;emb|CAA79928.1| URA3 [Kluyveromyces marxianus]</Hit_def>
+  <Hit_accession>XP_022674242</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.817</Hsp_bit-score>
+      <Hsp_score>1148</Hsp_score>
+      <Hsp_evalue>5.96083e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_qseq>
+      <Hsp_hseq>MSTKSYSERAAAHRSPVAAKLLNLMEEKKSNLCASLDVRKTAELLRLVEVLGPYICLLKTHVDILEDFSFENTIVPLKQLAEKHKFLIFEDRKFADIGNTVKLQYTSGVYRIAEWSDITNAHGVTGAGIVAGLKQGAEEVTKEPRGLLMLAELSSKGSLAHGEYTRGTVEIAKSDKDFVIGFIAQNDMGGREEGYDWLIMTPGVGLDDKGDALGQQYRTVDEVVAGGSDIIIVGRGLFAKGRDPVVEGERYRKAGWDAYLKRVGRS</Hsp_hseq>
+      <Hsp_midline>M   +Y ERAA H SPVAAKL N+M EK++NLCASLDVR T ELL LVE LGP ICLLKTHVDIL DFS E T+ PLK L+ K+ FL+FEDRKFADIGNTVKLQY++GVYRIAEW+DITNAHGV G GIV+GLKQ AEEVTKEPRGLLMLAELS KGSL+ GEYT+GTV+IAKSDKDFVIGFIAQ DMGGR+EGYDWLIMTPGVGLDDKGDALGQQYRTVD+VV+ GSDIIIVGRGLFAKGRD  VEGERYRKAGW+AYL+R G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>emb|SCV04999.1|</Hit_id>
+  <Hit_def>LANO_0G16270g1_1 [Lachancea nothofagi CBS 11611]</Hit_def>
+  <Hit_accession>SCV04999</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>8.82786e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRR</Hsp_qseq>
+      <Hsp_hseq>MSNLTYEARSQTHASPVAAKLLALMSEKKTNLCASLDVPTTKELLDLVEVLGPHICLLKTHVDILVDFSMEGTVKPLKELAKKHNFMIFEDRKFADIGNTVKLQYSSGVYKIAQWADITNAHGVTGPGIVQGLKQAAQETTDEPRGLLMLAELSCKGALAHGQYTRETVEIAKSDKDFVIGFIAQNDMGGRDEGFDWLIMTPGVGLDDKGDSLGQQYRTVDEVVSGGSDIIIVGRGLFGKGRDASLESARYRKAGWDAYLKR</Hsp_hseq>
+      <Hsp_midline>M   TY+ R+ TH SPVAAKL  +M EK+TNLCASLDV TTKELL+LVE LGP ICLLKTHVDIL DFSMEGTVKPLK L+ K+NF++FEDRKFADIGNTVKLQYS+GVY+IA+WADITNAHGV GPGIV GLKQAA+E T EPRGLLMLAELSCKG+L+ G+YT+ TV+IAKSDKDFVIGFIAQ DMGGRDEG+DWLIMTPGVGLDDKGD+LGQQYRTVD+VVS GSDIIIVGRGLF KGRDA +E  RYRKAGW+AYL+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|ACS83689.1|</Hit_id>
+  <Hit_def>orotidine-5-phosphate decarboxylase [Kluyveromyces marxianus]</Hit_def>
+  <Hit_accession>ACS83689</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>3.01901e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_qseq>
+      <Hsp_hseq>MSTKSYSERAAAHRSPVAAKLLNLMEEKKSNLCASLDVRKTAELLRLVEVLGPYICLLKTHVDILEDFSFENTIVPLKQLAEKHKFLIFEDRKFADIGNTVKLQYTSGVYRIAEWSDITNAHGVTGAGIVAGLKQGAEEVTKEPRGLLMLAELSSKGSLAHGEYTRGTVEIAKSDKDFVIGFIAQNDMGGREDGYDWLIMTPGVGLDDKGDALGQQYRTVDEVVAGGSDIIIVGRGLFAKGRDPVVEGERYRKAGWDAYLKRVGRS</Hsp_hseq>
+      <Hsp_midline>M   +Y ERAA H SPVAAKL N+M EK++NLCASLDVR T ELL LVE LGP ICLLKTHVDIL DFS E T+ PLK L+ K+ FL+FEDRKFADIGNTVKLQY++GVYRIAEW+DITNAHGV G GIV+GLKQ AEEVTKEPRGLLMLAELS KGSL+ GEYT+GTV+IAKSDKDFVIGFIAQ DMGGR++GYDWLIMTPGVGLDDKGDALGQQYRTVD+VV+ GSDIIIVGRGLFAKGRD  VEGERYRKAGW+AYL+R G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_003688481.1|</Hit_id>
+  <Hit_def>hypothetical protein TPHA_0O00780 [Tetrapisispora phaffii CBS 4417] &gt;emb|CCE66047.1| hypothetical protein TPHA_0O00780 [Tetrapisispora phaffii CBS 4417]</Hit_def>
+  <Hit_accession>XP_003688481</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>3.06624e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQ</Hsp_qseq>
+      <Hsp_hseq>MSTLTYEQRAKTHPNKVASKLLNLMAEKKTNLSGSLDVRTTKELLRLADILGPYICVLKTHVDILDDFSYEGTIKPLKELAAKHKFLIFEDRKFADIGNTVKLQYSSGVYKIVEWADITNAHGVTGSGIVAGLKAAAEECTKEPRALLMLAELSSKGSLAHGEYTRGTVDIAKSDKDFVIGFISQKDMGGKDEGFDWLIMTPGVGLDDKGDSLGQQYRTVDDVVSTGSDIIIVGRGLFANGRDPKVEGERYRKAGWDAYLKRIGK</Hsp_hseq>
+      <Hsp_midline>M   TY++RA THP+ VA+KL N+M EK+TNL  SLDVRTTKELL L + LGP IC+LKTHVDIL DFS EGT+KPLK L+AK+ FL+FEDRKFADIGNTVKLQYS+GVY+I EWADITNAHGV G GIV+GLK AAEE TKEPR LLMLAELS KGSL+ GEYT+GTVDIAKSDKDFVIGFI+Q+DMGG+DEG+DWLIMTPGVGLDDKGD+LGQQYRTVDDVVSTGSDIIIVGRGLFA GRD KVEGERYRKAGW+AYL+R G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>emb|SCU91332.1|</Hit_id>
+  <Hit_def>LAME_0E12090g1_1 [Lachancea meyersii CBS 8951]</Hit_def>
+  <Hit_accession>SCU91332</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>4.72526e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MSNLTYEARAQKHTSPVAAKLLRLMHEKETNLCASLDVKTTKELLELVEILGPHICLLKTHVDILDDFTMDGTVKPLKDLAQKHQFMIFEDRKFADIGNTVKLQYSSGVYKIAQWADITNAHGVTGPGIVEGLKQAAQETTQEPRGLLMLAELSSKGSLAHGRYTEETVKIAKSDKDFVIGFIAQNDMGGRDEGFDWLIMTPGVGLDDKGDGLGQQYRTADEVVSKGADIIIVGRGLFAKGRDASVQSARYRKAGWDAYLKRC</Hsp_hseq>
+      <Hsp_midline>M   TY+ RA  H SPVAAKL  +MHEK+TNLCASLDV+TTKELLELVE LGP ICLLKTHVDIL DF+M+GTVKPLK L+ K+ F++FEDRKFADIGNTVKLQYS+GVY+IA+WADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELS KGSL+ G YT+ TV IAKSDKDFVIGFIAQ DMGGRDEG+DWLIMTPGVGLDDKGD LGQQYRT D+VVS G+DIIIVGRGLFAKGRDA V+  RYRKAGW+AYL+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>emb|SCU98197.1|</Hit_id>
+  <Hit_def>LAFA_0G16248g1_1 [Lachancea sp. CBS 6924]</Hit_def>
+  <Hit_accession>SCU98197</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>1.44745e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCG</Hsp_qseq>
+      <Hsp_hseq>MSNLTYEARAQQHTSPVAAKLLMLMHEKETNLCASVDVQTTKELLDLVEVLGPHICLLKTHIDIVQDFTMEGTVKPLKELAKKHRFMIFEDRKFADIGNTVKLQYSSGIYKIAQWADITNAHGVTGPGIVQGLKQAAQETTQEPRGLLMLAELSSKGAIAHGKYTEETVEIAKSDKDFVIGFIAQNDMGGRDEGFDWLIMTPGVGLDDKGDGLGQQYRTVDEVVSNGSDIIIVGRGLFAKGRDATEQSARYRKAGWDAYLKRCG</Hsp_hseq>
+      <Hsp_midline>M   TY+ RA  H SPVAAKL  +MHEK+TNLCAS+DV+TTKELL+LVE LGP ICLLKTH+DI+ DF+MEGTVKPLK L+ K+ F++FEDRKFADIGNTVKLQYS+G+Y+IA+WADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELS KG+++ G+YT+ TV+IAKSDKDFVIGFIAQ DMGGRDEG+DWLIMTPGVGLDDKGD LGQQYRTVD+VVS GSDIIIVGRGLFAKGRDA  +  RYRKAGW+AYL+RCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|ADJ56350.1|</Hit_id>
+  <Hit_def>orotidine-5&apos;-phosphate decarboxylase [Wickerhamomyces onychis]</Hit_def>
+  <Hit_accession>ADJ56350</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>4.0525e-154</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>TYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_qseq>
+      <Hsp_hseq>TYTQRASTHPSPLARKLFQIIEEKKSNLCASIDVKTTAEFLALIDKLGPYICLVKTHIDIIDDFTLEGTVKPLQELAKKHNFLIFEDRKFADIGNTVKSQYAGGVYKIASWADITNAHGVTGAGIVQGLKEAAQEVTSEPRGLLMLAELSSKGSIATGEYTEKTVDIAKTDKDFVIGFIAQRDMGGQDEGFDWIIMTPGVGLDDKGDSLGQQYRTVDEVVSTGTDIIIVGRGLFGKGRDPTVEGERYRKAGWDAYLKRTGQQ</Hsp_hseq>
+      <Hsp_midline>TY +RA+THPSP+A KLF I+ EK++NLCAS+DV+TT E L L++ LGP ICL+KTH+DI+ DF++EGTVKPL+ L+ K+NFL+FEDRKFADIGNTVK QY+ GVY+IA WADITNAHGV G GIV GLK+AA+EVT EPRGLLMLAELS KGS++TGEYT+ TVDIAK+DKDFVIGFIAQRDMGG+DEG+DW+IMTPGVGLDDKGD+LGQQYRTVD+VVSTG+DIIIVGRGLF KGRD  VEGERYRKAGW+AYL+R GQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_022465815.1|</Hit_id>
+  <Hit_def>hypothetical protein KNAG_0H01560 [Kazachstania naganishii CBS 8797] &gt;sp|Q9Y726.1| RecName: Full=Orotidine 5&apos;-phosphate decarboxylase; AltName: Full=OMP decarboxylase; Short=OMPDCase; Short=OMPdecase; AltName: Full=Uridine 5&apos;-monophosphate synthase; Short=UMP synthase [Kazachstania exigua] &gt;dbj|BAA76736.1| orotidine-5&apos;-phosphate decarboxylase [Kazachstania naganishii] &gt;emb|CCK71570.1| hypothetical protein KNAG_0H01560 [Kazachstania naganishii CBS 8797]</Hit_def>
+  <Hit_accession>XP_022465815</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>7.84671e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRC</Hsp_qseq>
+      <Hsp_hseq>MAFATYEERASVHASPVASKLLRIMASKKTNLCASLDVRTTAELLSLVDQVGPYICLLKTHVDILDDFSMEGTVKPLKELAAKYNFLIFEDRKFADIGNTVKLQYSSGVYKIVQWADITNAHGVTGSGIVKGLKEAAQENSDEPRGLLMLAELSSKGSLAHGEYTTGTVEIAKTDKQFVFGFIAQRGMGGRDEGFDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFGKGRDPTAESRRYRDAGWDAYLKRC</Hsp_hseq>
+      <Hsp_midline>M  ATY+ERA+ H SPVA+KL  IM  K+TNLCASLDVRTT ELL LV+ +GP ICLLKTHVDIL DFSMEGTVKPLK L+AKYNFL+FEDRKFADIGNTVKLQYS+GVY+I +WADITNAHGV G GIV GLK+AA+E + EPRGLLMLAELS KGSL+ GEYT GTV+IAK+DK FV GFIAQR MGGRDEG+DWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLF KGRD   E  RYR AGW+AYL+RC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>emb|SCV03280.1|</Hit_id>
+  <Hit_def>LAMI_0H06898g1_1 [Lachancea mirantina]</Hit_def>
+  <Hit_accession>SCV03280</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>1.0304e-153</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>ATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCG</Hsp_qseq>
+      <Hsp_hseq>ANYTERAAKHPSPVASKLLRLMDEKKTNLCASLDVLTTEELLKLADILGPYICLLKTHIDILPDFTMDGTVKPLKELAKKHNFMIFEDRKFADIGNTVKLQYSSGVHKIAEWADITNAHGVTGAGIVQGLKQAAQESTNEPRGLLMLAELSSKGSLAHGEYTAGTVEIAKSDKDFVIGFIAQRDMGGRDEGFDWLIMTPGVGLDDKGDSLGQQYRSVDEVIQGGSDIIIVGRGLFGKGRDPAVEGARYRKAGWEAYSRRVG</Hsp_hseq>
+      <Hsp_midline>A Y ERAA HPSPVA+KL  +M EK+TNLCASLDV TT+ELL+L + LGP ICLLKTH+DIL DF+M+GTVKPLK L+ K+NF++FEDRKFADIGNTVKLQYS+GV++IAEWADITNAHGV G GIV GLKQAA+E T EPRGLLMLAELS KGSL+ GEYT GTV+IAKSDKDFVIGFIAQRDMGGRDEG+DWLIMTPGVGLDDKGD+LGQQYR+VD+V+  GSDIIIVGRGLF KGRD  VEG RYRKAGWEAY RR G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_001644681.1|</Hit_id>
+  <Hit_def>hypothetical protein Kpol_1056p24 [Vanderwaltozyma polyspora DSM 70294] &gt;gb|EDO16823.1| hypothetical protein Kpol_1056p24 [Vanderwaltozyma polyspora DSM 70294]</Hit_def>
+  <Hit_accession>XP_001644681</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>5.54657e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQ</Hsp_qseq>
+      <Hsp_hseq>MSVPSYESRAETHPNAVASKLLRLMAEKKTNLCASLDVHSTKELLELADKLGPYICLVKTHVDILDDFTIEGTVKPLKALAEKHKFLIFEDRKFADIGNTVKLQYSSGVYKIVEWADITNAHGVTGAGIVAGLKQAAEESTKEPRALLMLAELSSKGSLAHGAYTEGTVGIARTDKEFVIGFISQKDMGGRDEGFDWLIMTPGVGLDDKGDALGQQYRSVNDVVSTGSDIIIVGRGLFGKGRDPTVEGERYRKAGWEAYLKRIGKN</Hsp_hseq>
+      <Hsp_midline>M   +Y+ RA THP+ VA+KL  +M EK+TNLCASLDV +TKELLEL + LGP ICL+KTHVDIL DF++EGTVKPLKAL+ K+ FL+FEDRKFADIGNTVKLQYS+GVY+I EWADITNAHGV G GIV+GLKQAAEE TKEPR LLMLAELS KGSL+ G YT+GTV IA++DK+FVIGFI+Q+DMGGRDEG+DWLIMTPGVGLDDKGDALGQQYR+V+DVVSTGSDIIIVGRGLF KGRD  VEGERYRKAGWEAYL+R G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_022628482.1|</Hit_id>
+  <Hit_def>uncharacterized protein LALA0_S05e01310g [Lachancea lanzarotensis] &gt;emb|CEP62253.1| LALA0S05e01310g1_1 [Lachancea lanzarotensis]</Hit_def>
+  <Hit_accession>XP_022628482</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>6.80767e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MHKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCG</Hsp_qseq>
+      <Hsp_hseq>MSNLTYEARAQKHTSPVAAKLLTLMHEKESNLCASVDVQTTKELLHLVDVLGPHICLLKTHIDIVEDFTMEGTVKPLKELARKHRFMIFEDRKFADIGNTVKLQYSSGMYKIAEWADITNAHGVTGPGIVQGLKQAAQETTQEPRGLLMLAELSSKGSIAHGKYTEETVEIAKSDKDFVIGFIAQNDMGGREEGFDWLIMTPGVGLDDKGDSLGQQYRTVNEVVSNGSDIIIVGRGLFGKGRDATEQSARYRKAGWDAYLSRCG</Hsp_hseq>
+      <Hsp_midline>M   TY+ RA  H SPVAAKL  +MHEK++NLCAS+DV+TTKELL LV+ LGP ICLLKTH+DI+ DF+MEGTVKPLK L+ K+ F++FEDRKFADIGNTVKLQYS+G+Y+IAEWADITNAHGV GPGIV GLKQAA+E T+EPRGLLMLAELS KGS++ G+YT+ TV+IAKSDKDFVIGFIAQ DMGGR+EG+DWLIMTPGVGLDDKGD+LGQQYRTV++VVS GSDIIIVGRGLF KGRDA  +  RYRKAGW+AYL RCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
