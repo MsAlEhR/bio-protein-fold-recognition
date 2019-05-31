@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_172807</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1u8sa1d</BlastOutput_query-def>
+  <BlastOutput_query-len>86</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_172807</Iteration_query-ID>
+  <Iteration_query-def>d1u8sa1d</Iteration_query-def>
+  <Iteration_query-len>86</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1U8S|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Putative Glycine Cleavage System Transcriptional Repressor [Vibrio cholerae] &gt;pdb|1U8S|B Chain B, Crystal Structure Of Putative Glycine Cleavage System Transcriptional Repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>1U8S_A</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>1.334e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>SLTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>SLTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>SLTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_095462771.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R, partial [Vibrio cholerae] &gt;gb|PAS19522.1| glycine cleavage system transcriptional repressor, partial [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_095462771</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.44193e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_119275370.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;dbj|BBE11913.1| transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_119275370</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>3.76016e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_000191995.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;ref|NP_231790.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gb|AAF95304.1| glycine cleavage system transcriptional repressor, putative [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gb|ABQ21529.1| putative glycine cleavage system transcriptional repressor [Vibrio cholerae O395] &gt;gb|ACP06384.1| putative glycine cleavage system transcriptional repressor [Vibrio cholerae M66-2] &gt;gb|ACP10265.1| putative glycine cleavage system transcriptional repressor [Vibrio cholerae O395] &gt;gb|ACQ60383.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae MJ-1236] &gt;gb|AEA79090.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae LMA3984-4] &gt;gb|AET27246.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 str. 2010EL-1786] &gt;gb|AFC58954.1| glycine cleavage system transcriptional repressor [Vibrio cholerae IEC224] &gt;gb|AIT30121.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|AKA00586.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|AKB04947.1| glycine cleavage system transcriptional repressor, putative [Vibrio cholerae] &gt;gb|AKO75651.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|ALJ63445.1| glycine cleavage system protein R [Vibrio cholerae O1 str. KW3] &gt;gb|ANR86872.1| glycine cleavage system transcriptional repressor [Vibrio cholerae 2740-80] &gt;gb|AOY47838.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|AOY51439.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF49674.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF53531.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF57270.1| hypothetical protein ASZ81_02132 [Vibrio cholerae] &gt;gb|APF60711.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF65094.1| Glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF68457.1| Glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF72167.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF74655.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF79676.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|APF83635.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|ARB80254.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ATQ47168.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|AUR70370.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|AVH52308.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O1 biovar El Tor] &gt;gb|AVL23329.1| Gcv operon repressor [Vibrio cholerae] &gt;gb|AWA77819.1| Glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|AWB74653.1| Glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|AYV09351.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|EAZ73228.1| glycine cleavage system transcriptional repressor, putative [Vibrio cholerae NCTC 8457] &gt;gb|EAZ77085.1| glycine cleavage system transcriptional repressor, putative [Vibrio cholerae B33] &gt;gb|EEN98092.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae 12129(1)] &gt;gb|EEO02755.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio albensis VL426] &gt;gb|EEO08804.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae RC9] &gt;gb|EEO16910.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae B33] &gt;gb|EEO20186.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae BX 330286] &gt;gb|EET23360.1| glycine cleavage system transcriptional repressor [Vibrio cholerae MO10] &gt;gb|EET92334.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae CIRS101] &gt;gb|EEY50440.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae CT 5369-93] &gt;gb|EFH78206.1| conserved hypothetical protein [Vibrio cholerae MAK 757] &gt;gb|EGQ97652.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-49A2] &gt;gb|EGQ98625.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HCUF01] &gt;gb|EGS46652.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-48A1] &gt;gb|EGS46849.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-70A1] &gt;gb|EGS47388.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-40A1] &gt;gb|EGS61781.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HFU-02] &gt;gb|EGS68254.1| glycine cleavage system transcriptional repressor [Vibrio cholerae BJG-01] &gt;gb|EGS70290.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-38A1] &gt;gb|EHH70812.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-06A1] &gt;gb|EHH71703.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-21A1] &gt;gb|EHH76026.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-19A1] &gt;gb|EHH81419.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-22A1] &gt;gb|EHH83632.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-23A1] &gt;gb|EHH86204.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-28A1] &gt;gb|EHH92534.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-32A1] &gt;gb|EHH97770.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-43A1] &gt;gb|EHH98186.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-33A2] &gt;gb|EHI03219.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-48B2] &gt;gb|EHI04737.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-61A1] &gt;gb|EJH26851.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1032(5)] &gt;gb|EJH28386.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1041(14)] &gt;gb|EJH29736.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1038(11)] &gt;gb|EJH38676.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1042(15)] &gt;gb|EJH39441.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1046(19)] &gt;gb|EJH42719.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1048(21)] &gt;gb|EJH50268.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-20A2] &gt;gb|EJH53135.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-46A1] &gt;gb|EJH64555.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HE-45] &gt;gb|EJH69025.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-56A2] &gt;gb|EJH69394.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-57A2] &gt;gb|EJH71997.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-42A1] &gt;gb|EJH80259.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-47A1] &gt;gb|EJH82329.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1030(3)] &gt;gb|EJH84997.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1047(20)] &gt;gb|EKG44928.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-39A1] &gt;gb|EKG50107.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-41A1] &gt;gb|EKG66898.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1037(10)] &gt;gb|EKG68205.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1040(13)] &gt;gb|EKG77370.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1044(17)] &gt;gb|EKG78626.1| glycine cleavage system transcriptional repressor [Vibrio cholerae CP1050(23)] &gt;gb|EKG87654.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-81A2] &gt;gb|EKK81315.1| ACT domain protein [Vibrio cholerae CP1033(6)] &gt;gb|EKK95904.1| ACT domain protein [Vibrio cholerae HC-17A1] &gt;gb|EKL05794.1| ACT domain protein [Vibrio cholerae HC-50A2] &gt;gb|EKL25599.1| ACT domain protein [Vibrio cholerae HC-77A1] &gt;gb|EKL26514.1| ACT domain protein [Vibrio cholerae HC-62A1] &gt;gb|EKL85653.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-37A1] &gt;gb|EKL85790.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-17A2] &gt;gb|EKM09446.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-62B1] &gt;gb|EKM18094.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-69A1] &gt;gb|ELP50750.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae 4260B] &gt;gb|ELS74005.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-64A1] &gt;gb|ELS81174.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-65A1] &gt;gb|ELS88571.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-67A1] &gt;gb|ELS96518.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-68A1] &gt;gb|ELT03673.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-71A1] &gt;gb|ELT10115.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-72A2] &gt;gb|ELT24874.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-7A1] &gt;gb|ELT32038.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-80A1] &gt;gb|ELT40189.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-81A1] &gt;gb|EMB01702.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae O1 str. Inaba G4222] &gt;gb|EMP84098.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 str. 116059] &gt;gb|EMP95453.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. AG-7404] &gt;gb|EMP97116.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. 95412] &gt;gb|EMQ03098.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. AG-8040] &gt;gb|EMQ04558.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. EC-0009] &gt;gb|EMQ10767.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. EC-0027] &gt;gb|EMQ11331.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 str. EC-0012] &gt;gb|EMQ15986.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. EC-0051] &gt;gb|EMQ21405.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. EDC-020] &gt;gb|EMQ25975.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. EM-1536] &gt;gb|EMQ26912.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. EDC-022] &gt;gb|EMQ31911.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. EM-1546] &gt;gb|EMQ37601.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. EM-1626] &gt;gb|EMQ38844.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. NHCC-006C] &gt;gb|EMQ42774.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. Nep-21113] &gt;gb|EMQ47554.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. PCS-023] &gt;gb|EMQ51050.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 str. EM-1727] &gt;gb|EMQ53331.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. NHCC-004A] &gt;gb|EMQ62751.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. Nep-21106] &gt;gb|EMQ68040.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. NHCC-010F] &gt;gb|EWM32396.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 str. PCS-022] &gt;gb|EYC47117.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor str. L-3226] &gt;gb|KEA49788.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KEH04863.1| glycine cleavage system protein R [Vibrio cholerae 2012EL-1759] &gt;gb|KEH79846.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KEH84028.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KFD92673.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFE02528.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFE18805.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFE22376.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFH38972.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KFZ34820.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KHE19715.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KHE22474.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KJD17243.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KJJ54540.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KJJ57454.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KJR76993.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KJS93820.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KJW15703.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KJX79619.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KJX81629.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KJX84884.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KKP17696.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KKP18196.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KNA47453.1| glycine cleavage system transcriptional repressor [Vibrio cholerae MZO-2] &gt;gb|KNA50336.1| glycine cleavage system transcriptional repressor [Vibrio cholerae MZO-3] &gt;gb|KNA61513.1| glycine cleavage system transcriptional repressor [Vibrio cholerae 2740-80] &gt;gb|KNH50612.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae V52] &gt;gb|KOY94403.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KOY95452.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KOZ02306.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KOZ02447.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|KPA01430.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA33645.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA36483.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA41040.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA46017.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA47736.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA54400.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA58431.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA66404.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA67005.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA75442.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA79772.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA86469.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA94193.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA96650.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KUO29356.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KUO32856.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KUO33156.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KUO36040.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KUP88086.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 biovar El Tor] &gt;gb|KUP89788.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 biovar El Tor] &gt;gb|KUY46546.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KWW43832.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 biovar El Tor] &gt;gb|OAB92377.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OAB95410.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OAB96874.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OAE78326.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OAE83725.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OAE84292.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OAE99344.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OEC23912.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OEC26659.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OEC27579.1| glycine cleavage system transcriptional repressor [Vibrio cholerae 2740-80] &gt;gb|OFI80420.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFI86247.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFI94517.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ02482.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ04873.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ22869.1| glycine cleavage system transcriptional repressor [Vibrio cholerae C6706] &gt;gb|OFJ40052.1| glycine cleavage system transcriptional repressor [Vibrio cholerae V52] &gt;gb|OJZ79242.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OLZ23918.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQM88385.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQM92615.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQM96359.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQM99398.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN04208.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN06575.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN10416.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN14779.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN16990.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN20893.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN25368.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN28590.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN34098.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN37588.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN39957.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN43142.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN47126.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN49641.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN54913.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN57990.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN62119.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN67859.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN69367.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN74746.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN78048.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN80851.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN82468.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN87904.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQN91367.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQP71915.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ42927.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ48214.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ50822.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ55230.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ56070.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ62489.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ67276.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ69111.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OQQ72775.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|ORP16832.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP29798.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP31112.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP31319.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP40899.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP42702.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP45813.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP47114.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP53211.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP54153.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP58647.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP64338.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP64538.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP73594.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP76485.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP78024.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP84869.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP89063.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP92818.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP93312.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP93978.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORP98766.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ05162.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ11439.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ12525.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ16182.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ19240.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ20870.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ22501.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ27543.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ37486.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ38601.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ45552.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ48368.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ50146.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ52016.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ53321.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ61316.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ69167.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ69687.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ73313.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ78025.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ84687.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ87580.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ90288.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ93216.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORQ94573.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR02140.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR04562.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR05737.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR12871.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR14277.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR16425.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR19376.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR22064.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR34452.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR35635.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR36644.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR42754.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR44816.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR45818.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR57703.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR58082.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR59141.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR61627.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR64613.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR72618.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORR73069.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|ORX30185.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OWH64883.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH66770.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH68246.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH74130.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH76705.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH79559.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH84279.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH87744.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH91206.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWH98099.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O139] &gt;gb|OWO68217.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|OWO72731.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|OWO76065.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|OWO76317.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|OXB31824.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAR69071.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAR74452.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAR87994.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAR98127.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAS04400.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAS20104.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAS25293.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAS39982.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PAS46524.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PCL98536.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae VC0101557] &gt;gb|PJR71634.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJR75632.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJR79064.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJR82681.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJR86670.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJR93716.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJR97933.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS02350.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS05780.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS09762.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS13179.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS17171.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS20871.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS24304.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS28188.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS31865.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS35567.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS39627.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS42665.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS46504.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS50625.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS53838.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS57548.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS61261.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS64972.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS68218.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS72706.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS76320.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS79345.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS83524.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS87227.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS92804.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS94631.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJS98381.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJT02052.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJT05755.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJT09451.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PJT13148.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PNM29788.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PNM48701.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PNP30288.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|POM06585.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|POS91102.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|POS94530.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PSK04253.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PSM10806.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PVX22634.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O1 biovar El Tor] &gt;gb|PWG89921.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PWG91836.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PWG93803.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PWG96839.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC56041.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC59012.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC60327.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC65282.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC75683.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC86214.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC86972.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC95393.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC97157.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|PYC99137.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|RAL28923.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|RGP91769.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RGP92102.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RGP92525.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RGP95981.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RJK87543.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|RJL29490.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|RNE65121.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|RNE66645.1| glycine cleavage system transcriptional regulator [Vibrio cholerae] &gt;gb|RXN81290.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O1 biovar El Tor] &gt;gb|RXN81852.1| glycine cleavage system transcriptional regulator [Vibrio cholerae O1 biovar El Tor] &gt;gb|RXQ52604.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ53105.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ62452.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ63463.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ64163.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ71951.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ73345.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ75124.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ83421.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ85577.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ86230.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ90611.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXQ94033.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXR04468.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXR05503.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXR14315.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXR16696.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXR19729.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXT03237.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXT13208.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RXT14395.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|TBM37879.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|TBM56039.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|TBN22830.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|TDK70426.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|TDK77098.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|TDK78403.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|TDK80490.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|THE26164.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|THE29689.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;gb|THE32841.1| glycine cleavage system protein R [Vibrio cholerae O1 biovar El Tor] &gt;dbj|BAP03567.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae MS6] &gt;emb|CRZ39186.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ39204.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ41120.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ43203.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ49481.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ57896.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ57903.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ58190.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ59173.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ59439.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ59933.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ63324.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ64119.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ64372.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ67783.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ68166.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ68280.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ68916.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ70021.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ71962.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ72106.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ75339.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ76491.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ78587.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ78675.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ86618.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ90691.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ92448.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ96271.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ96349.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ97493.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CRZ98653.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA00233.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA05038.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA14952.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA22908.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA31090.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA36935.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA43867.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA46748.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA50815.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA57314.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA58738.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA70840.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA73764.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA85382.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA86701.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA91127.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSA95230.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB00514.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB01399.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB16732.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB20759.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB21086.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB22917.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB25886.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB27019.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB30305.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB31912.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB39659.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB54684.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB57102.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB58254.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB60226.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB61847.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB64959.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB66280.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB66284.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB66566.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB69848.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB72237.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB72339.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB74804.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB80890.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB89690.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB91478.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB96158.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSB97685.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC09872.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC28976.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC31985.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC35210.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC40815.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC40979.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC42286.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC53891.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC59927.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC60589.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC63283.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC73901.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC82075.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC83437.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC87492.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC91021.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC91727.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC93400.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC94570.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD01044.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD04576.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD04661.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD04869.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD08905.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD13089.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD14190.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD15224.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD18440.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD20783.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD24522.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD28235.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD32322.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD34555.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD40169.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD41510.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD41745.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD46229.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD49026.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD54553.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD54642.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD55242.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD55637.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD59890.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD63431.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD65431.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD67902.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD71248.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD79117.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSI51410.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|SPM12747.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|SPM15394.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|SPM20667.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_000191995</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>3.92848e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_045157440.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R, partial [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_045157440</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>4.40166e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|EEW06410.1|</Hit_id>
+  <Hit_def>glycine cleavage system transcriptional repressor, putative [Vibrio mimicus VM603] &gt;gb|EEW11185.1| glycine cleavage system transcriptional repressor, putative [Vibrio mimicus VM573] &gt;gb|EGU21106.1| glycine cleavage system transcriptional repressor, putative [Vibrio mimicus SX-4] &gt;emb|SUP12093.1| glycine cleavage system transcriptional repressor [Vibrio mimicus]</Hit_def>
+  <Hit_accession>EEW06410</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>4.4114e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>SLTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>SMTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>S+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_000191996.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|AYC04693.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae] &gt;gb|EGR00101.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HE39] &gt;gb|EKK91663.1| ACT domain protein [Vibrio cholerae CP1035(8)] &gt;gb|EKL28300.1| ACT domain protein [Vibrio cholerae HE-40] &gt;gb|EKL34896.1| ACT domain protein [Vibrio cholerae HE-46] &gt;gb|KFD86260.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFE05411.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|ORP21613.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PNV70324.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|TBM45705.1| glycine cleavage system protein R [Vibrio cholerae] &gt;emb|CQB50972.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_000191996</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>4.43125e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_085602958.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|OSP47947.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_085602958</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>4.57921e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_119472959.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_119472959</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>4.62962e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_000191992.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|EGS57505.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HE-09] &gt;gb|KQA25573.1| glycine cleavage system protein R [Vibrio cholerae O16 str. 877-163] &gt;gb|ORP14721.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|ORP27519.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RBM63896.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2014V-1107] &gt;gb|RBM64959.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2017V-1105] &gt;gb|RBM86186.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2017V-1144]</Hit_def>
+  <Hit_accession>WP_000191992</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>8.64085e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_089070891.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|ASK54773.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2521-89] &gt;gb|RBM25420.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2015V-1076] &gt;gb|RBM30052.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2016V-1062] &gt;gb|RBM36117.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2523-88] &gt;gb|RBM38589.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2017V-1070] &gt;gb|RBM43157.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2017V-1038] &gt;gb|RBM51302.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2017V-1124] &gt;gb|RBM54871.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2017V-1085] &gt;gb|RBM70056.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2016V-1018]</Hit_def>
+  <Hit_accession>WP_089070891</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>1.08743e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_071177894.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|OFJ29102.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_071177894</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>1.17404e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_000191988.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio mimicus] &gt;gb|AMG05131.1| glycine cleavage system transcriptional repressor [Vibrio mimicus] &gt;gb|EEY37920.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio mimicus MB451] &gt;gb|EMB48586.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio mimicus CAIM 602] &gt;gb|ERM55450.1| glycine cleavage system protein R [Vibrio mimicus CAIM 1883] &gt;gb|ERM55663.1| glycine cleavage system protein R [Vibrio mimicus CAIM 1882] &gt;gb|KFE32630.1| glycine cleavage system transcriptional repressor [Vibrio mimicus] &gt;gb|PNM56367.1| glycine cleavage system transcriptional repressor [Vibrio mimicus]</Hit_def>
+  <Hit_accession>WP_000191988</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>1.20002e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|RND33397.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae]</Hit_def>
+  <Hit_accession>RND33397</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.22659e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_000191991.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|EGS61578.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-02A1] &gt;gb|EKG49537.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-50A1] &gt;gb|EKG55299.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-52A1] &gt;gb|EKG60113.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-56A1] &gt;gb|EKG60534.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-55A1] &gt;gb|EKG68749.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-57A1] &gt;gb|EKG89528.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-51A1] &gt;gb|EKK93399.1| ACT domain protein [Vibrio cholerae HC-1A2] &gt;gb|EKL07115.1| ACT domain protein [Vibrio cholerae HC-55C2] &gt;gb|EKL12266.1| ACT domain protein [Vibrio cholerae HC-59A1] &gt;gb|EKL13076.1| ACT domain protein [Vibrio cholerae HC-60A1] &gt;gb|EKL20435.1| ACT domain protein [Vibrio cholerae HC-61A2] &gt;gb|EKL92606.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-02C1] &gt;gb|EKL99459.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-55B2] &gt;gb|EKM06703.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-59B1] &gt;gb|ELT17458.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-78A1] &gt;gb|ERP68028.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-36A1] &gt;gb|RBM46178.1| glycine cleavage system transcriptional repressor [Vibrio sp. 07-2425] &gt;gb|RBM55622.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2016V-1111] &gt;gb|RBM66745.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2017V-1110] &gt;gb|RBM76857.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2016V-1091] &gt;gb|RBM84744.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2016V-1114] &gt;gb|RBM89906.1| glycine cleavage system transcriptional repressor [Vibrio sp. 2017V-1176] &gt;gb|RNE61602.1| glycine cleavage system protein R [Vibrio cholerae] &gt;emb|SYZ80794.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_000191991</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.24009e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_070381476.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio mimicus] &gt;gb|AOW81962.1| glycine cleavage system transcriptional repressor [Vibrio mimicus]</Hit_def>
+  <Hit_accession>WP_070381476</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.30986e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_032477774.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KFD85360.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_032477774</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.32428e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_000191987.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio mimicus]</Hit_def>
+  <Hit_accession>WP_000191987</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.36849e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_032480795.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KFD79357.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|QAV05348.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_032480795</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.39879e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_123161646.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RNE79592.1| glycine cleavage system protein R [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_123161646</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.54362e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_019829858.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|OEC31422.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFI70028.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RNE87189.1| glycine cleavage system protein R [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_019829858</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.56061e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_000191989.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|ATD26678.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae] &gt;gb|AWB69955.1| Glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|EEO06040.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae TM 11079-80] &gt;gb|EEO13944.1| glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae TMA 21] &gt;gb|EGR07813.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HE48] &gt;gb|EJH51171.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-43B1] &gt;gb|EJH62942.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HE-25] &gt;gb|EKG85403.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HE-16] &gt;gb|EKL02217.1| ACT domain protein [Vibrio cholerae HC-41B1] &gt;gb|EKL96117.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-46B1] &gt;gb|EKM02979.1| glycine cleavage system transcriptional repressor [Vibrio cholerae HC-44C1] &gt;gb|EKY31878.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae PS15] &gt;gb|EMP84815.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 str. 116063] &gt;gb|EMP91597.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. 87395] &gt;gb|EMQ65628.1| thioredoxin-dependent thiol peroxidase [Vibrio cholerae O1 str. NHCC-008D] &gt;gb|KFD93421.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFD99520.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFE08016.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFE13113.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFE17436.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KFE25792.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|KNA50316.1| glycine cleavage system transcriptional repressor [Vibrio cholerae V51] &gt;gb|KNA56457.1| glycine cleavage system transcriptional repressor [Vibrio cholerae AM-19226] &gt;gb|KNH55291.1| glycine cleavage system transcriptional repressor [Vibrio cholerae 623-39] &gt;gb|KNH58469.1| glycine cleavage system transcriptional repressor [Vibrio cholerae 1587] &gt;gb|KQA14627.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA49547.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA64366.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA73563.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA81363.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KQA90557.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|KUO26330.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OEG77600.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OEJ12022.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFI67102.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFI69291.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFI82018.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFI91042.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFI97517.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ08868.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ12455.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ13073.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ16770.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ26621.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ29120.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OFJ33353.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OLZ27179.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|OYP06015.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAR77867.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAR79341.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAR82520.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAR85133.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAR95197.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAR95920.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAS07988.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAS13041.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAS16655.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PAS30514.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PKQ54541.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PUA72717.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|PVX17998.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RBO17756.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RJK89683.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;gb|RNE72794.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RNE81709.1| glycine cleavage system protein R [Vibrio cholerae] &gt;emb|CFW20133.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae] &gt;emb|CPR28727.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae] &gt;emb|CPR28728.1| Glycine cleavage system transcriptional antiactivator GcvR [Vibrio cholerae] &gt;emb|CSC25155.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSD57041.1| glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|SNC55303.1| Gcv operon repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_000191989</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.56061e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_095473123.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|PAS39560.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_095473123</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>1.92145e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_000191986.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio sp. RC586]</Hit_def>
+  <Hit_accession>WP_000191986</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>2.4988e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRIETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITR+ETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_000191990.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|EFH72590.1| conserved hypothetical protein [Vibrio cholerae RC385]</Hit_def>
+  <Hit_accession>WP_000191990</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>2.55411e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_046126969.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|AKB06697.1| glycine cleavage system transcriptional repressor, putative [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_046126969</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>2.6978e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSSITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPS+ITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_095466879.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|PAS32387.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_095466879</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>2.81856e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAQFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_108335592.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_108335592</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>2.88095e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPSICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRP ICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_119466942.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_119466942</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>5.67925e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAGGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITA GTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_000191994.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|EMQ52044.1| glycine cleavage system transcriptional repressor [Vibrio cholerae O1 str. EM-1676A] &gt;gb|KWW45065.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|QBJ29180.1| glycine cleavage system protein R [Vibrio cholerae] &gt;gb|TDK83665.1| glycine cleavage system protein R [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_000191994</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>9.60465e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLCQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLL QQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_000191993.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KDO14853.1| glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KQA17298.1| glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KQA23223.1| glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KQA99901.1| glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KQB02543.1| glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KQB05194.1| glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KQB09045.1| glycine cleavage system protein R [Vibrio metoecus] &gt;gb|PAR21023.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR26065.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR30369.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR33203.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR36281.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR39261.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR43208.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR45926.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR49354.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR55964.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR57823.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR63182.1| glycine cleavage system transcriptional repressor [Vibrio metoecus] &gt;gb|PAR69936.1| glycine cleavage system transcriptional repressor [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_000191993</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>1.03695e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSSITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPS+ITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_053055029.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;emb|CRZ71819.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_053055029</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>1.19553e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRLGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDR GICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_055035412.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KQA18999.1| glycine cleavage system protein R [Vibrio metoecus] &gt;gb|KQA25901.1| glycine cleavage system protein R [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_055035412</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>1.22199e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSSITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPS+ITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_123162891.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio cholerae] &gt;gb|RNE69280.1| glycine cleavage system protein R [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_123162891</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>4.16368e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRLGICNEVVRLVTQAGCNIIDSRIALFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDR GICNEVVRLVTQAGCNIIDSRIA+FGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_053311881.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio alginolyticus] &gt;gb|KOE80479.1| glycine cleavage system protein R [Vibrio alginolyticus]</Hit_def>
+  <Hit_accession>WP_053311881</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>4.92144e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MNQHLVITAVGTDRPGICNEIVRLVTQSGGNIIDSRIALFGKEFTLIMLVSGSASNITRVETTLPLLGQQHDLITMMKRTSPHDY</Hsp_hseq>
+      <Hsp_midline>+ QHLVITAVGTDRPGICNE+VRLVTQ+G NIIDSRIA+FGKEFTL+ML+SGS SNITRVETTLPLLGQQHDLITMMKRTSPHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_094125474.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|OXX21554.1| glycine cleavage system transcriptional repressor [Vibrio sp. V06_P1A73T115] &gt;gb|OXX27578.1| glycine cleavage system transcriptional repressor [Vibrio sp. V05_P4A8T149] &gt;gb|OXX28111.1| glycine cleavage system transcriptional repressor [Vibrio sp. V14_P6S14T42] &gt;gb|OXX35144.1| glycine cleavage system transcriptional repressor [Vibrio sp. V04_P4A5T148] &gt;gb|OXX58428.1| glycine cleavage system transcriptional repressor [Vibrio sp. V18_P1S4T112]</Hit_def>
+  <Hit_accession>WP_094125474</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>8.13997e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQSGCNIIDSRIALFGKEFTLIMLVSGNANHITRVETTLPLLGQQHDLITIMKRTSPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQ+GCNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRTSPHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_019281609.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio anguillarum] &gt;gb|AQM15611.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|ASW81624.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AZS24187.1| glycine cleavage system protein R [Vibrio anguillarum] &gt;gb|OQQ10761.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|RMZ63971.1| glycine cleavage system protein R [Vibrio anguillarum]</Hit_def>
+  <Hit_accession>WP_019281609</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.15515e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQSGCNIIDSRIALFGKEFTLIMLVSGNTNHITRVETTLPLLGQQHDLITIMKRTSPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQ+GCNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRTSPHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_017042763.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|AQM01893.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQM29236.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|ASG00377.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|OEE79978.1| glycine cleavage system transcriptional repressor [Vibrio ordalii FF-167] &gt;gb|OXX43057.1| glycine cleavage system transcriptional repressor [Vibrio sp. V07_P2A8T137] &gt;gb|OXX50460.1| glycine cleavage system transcriptional repressor [Vibrio sp. V17_P4S1T151] &gt;gb|OXX60012.1| glycine cleavage system transcriptional repressor [Vibrio sp. V15_P4S5T153] &gt;gb|OXX62575.1| glycine cleavage system transcriptional repressor [Vibrio sp. V20_P4S3T152] &gt;gb|OXX66397.1| glycine cleavage system transcriptional repressor [Vibrio sp. V10_P2A27P122] &gt;gb|OXX72926.1| glycine cleavage system transcriptional repressor [Vibrio sp. V19_P1S1T109] &gt;gb|PSD40296.1| glycine cleavage system transcriptional repressor [Vibrio sp. V02_P2A34T13] &gt;emb|STY53058.1| Gcv operon repressor [Vibrio anguillarum]</Hit_def>
+  <Hit_accession>WP_017042763</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.20682e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQSGCNIIDSRIALFGKEFTLIMLVSGNTNHITRVETTLPLLGQQHDLITIMKRTSPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQ+GCNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRTSPHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_013856284.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|AEH32592.1| Glycine cleavage system transcriptional repressor [Vibrio anguillarum 775] &gt;gb|AGU57160.1| glycine cleavage system protein R [Vibrio anguillarum M3] &gt;gb|AQL60144.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL63572.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL67046.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL70524.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL73894.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL77355.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL80804.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL84262.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL87762.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL91217.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL94901.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQL98410.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQM05476.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQM08984.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQM22448.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQM25902.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQM33659.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQM62407.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|ARV25509.1| ACT domain protein [Vibrio anguillarum] &gt;gb|ASF92488.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|ASO29714.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|ATA48924.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AVT67454.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXN06783.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXN10234.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXN13635.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXN17036.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|OEE35173.1| glycine cleavage system transcriptional repressor [Vibrio ordalii FS-144] &gt;gb|OEE50156.1| glycine cleavage system transcriptional repressor [Vibrio ordalii FF-93] &gt;gb|OEF90090.1| glycine cleavage system transcriptional repressor [Vibrio ordalii 12B09] &gt;gb|OXX26704.1| glycine cleavage system transcriptional repressor [Vibrio sp. V08_P9A1T1] &gt;gb|OXX37104.1| glycine cleavage system transcriptional repressor [Vibrio sp. V09_P4A23P171] &gt;gb|OXX44135.1| glycine cleavage system transcriptional repressor [Vibrio sp. V11_P1A41T118] &gt;gb|OXX56485.1| glycine cleavage system transcriptional repressor [Vibrio sp. V12_P9A6T4] &gt;gb|OXX73064.1| glycine cleavage system transcriptional repressor [Vibrio sp. V03_P4A6T147] &gt;gb|PRQ63294.1| glycine cleavage system transcriptional repressor [Vibrio sp. V01_P9A10T6] &gt;emb|CDQ50873.1| Glycine cleavage system transcriptional repressor (Gcv operon repressor) [Vibrio anguillarum]</Hit_def>
+  <Hit_accession>WP_013856284</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.27466e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQSGCNIIDSRIALFGKEFTLIMLVSGNTNHITRVETTLPLLGQQHDLITIMKRTSPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQ+GCNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRTSPHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_032551739.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio fortis] &gt;gb|KDN28285.1| glycine cleavage system protein R [Vibrio fortis]</Hit_def>
+  <Hit_accession>WP_032551739</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.30285e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNQVVQLVTQSGCNIIDSRIAMFGEEFTLIMLLSGKANNITRVETTLPLLGQEHDLITIMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICN+VV+LVTQ+GCNIIDSRIAMFG+EFTL+ML+SG  +NITRVETTLPLLGQ+HDLIT+MKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>emb|CSC77862.1|</Hit_id>
+  <Hit_def>glycine cleavage system transcriptional repressor [Vibrio cholerae] &gt;emb|CSC86586.1| glycine cleavage system transcriptional repressor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>CSC77862</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>1.4337e-48</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_hseq>
+      <Hsp_midline>+GTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_096036600.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio anguillarum] &gt;gb|ATC58149.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum]</Hit_def>
+  <Hit_accession>WP_096036600</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>1.99599e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQSGCNIIDSRIALFGKEFTLIMLVSGNINHITRVETTLPLLGQQHDLITIMKRTSPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQ+GCNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRTSPHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_064625777.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio anguillarum] &gt;gb|ANJ23474.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|ASG04204.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum]</Hit_def>
+  <Hit_accession>WP_064625777</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>9.9635e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRSGICNEVVRLVTQSGCNIIDSRIALFGKEFTLIMLVSGNTNHITRVETTLPLLGQQHDLITIMKRTSPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDR GICNEVVRLVTQ+GCNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRTSPHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_010320488.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio ordalii]</Hit_def>
+  <Hit_accession>WP_010320488</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.00731e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQSGCNIIDSRIALFGKEFTLIMLVSGNANHITRVETTLPLLGQQHDLITIMKRTLPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQ+GCNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRT PHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_094500383.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio qinghaiensis] &gt;gb|ASU22796.1| glycine cleavage system transcriptional repressor [Vibrio qinghaiensis]</Hit_def>
+  <Hit_accession>WP_094500383</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.02958e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQSGCNIIDSRIALFGKEFTLIMLVSGNANHITRVETTLPLLGQQHDLITIMKRTLPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQ+GCNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRT PHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_017045752.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|AQM19064.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQP32249.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AQP35612.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|ASG07995.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AUB87454.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AUB90893.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AUB94333.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AUB97752.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM47815.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM51211.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM54546.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM56969.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM61096.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM63600.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM72848.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM75291.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM78587.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM81900.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|AXM85196.1| glycine cleavage system transcriptional repressor [Vibrio anguillarum] &gt;gb|OEE38008.1| glycine cleavage system transcriptional repressor [Vibrio ordalii FS-238]</Hit_def>
+  <Hit_accession>WP_017045752</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.0409e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHDH</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGICNEVVRLVTQSSCNIIDSRIALFGKEFTLIMLVSGNTNHITRVETTLPLLGQQHDLITIMKRTSPHDY</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPGICNEVVRLVTQ+ CNIIDSRIA+FGKEFTL+ML+SG+ ++ITRVETTLPLLGQQHDLIT+MKRTSPHD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_096995370.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio thalassae] &gt;emb|SNX50437.1| Glycine cleavage system transcriptional repressor [Vibrio thalassae]</Hit_def>
+  <Hit_accession>WP_096995370</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>3.31788e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHD</Hsp_qseq>
+      <Hsp_hseq>MTQYLVITAVGTDRPGICNEVVHLVAQAGCNIIDSRIAMFGNEFTLIMLISGTPSYITRVETTLPLLGQEHDLITMMKRTSKHD</Hsp_hseq>
+      <Hsp_midline>+TQ+LVITAVGTDRPGICNEVV LV QAGCNIIDSRIAMFG EFTL+MLISG+PS ITRVETTLPLLGQ+HDLITMMKRTS HD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_017056344.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|KWU00648.1| glycine cleavage system protein R [Vibrio toranzoniae] &gt;gb|OEF12400.1| glycine cleavage system transcriptional repressor [Vibrio kanaloae 5S-149] &gt;gb|TKE97627.1| glycine cleavage system protein R [Vibrio kanaloae] &gt;gb|TKF06159.1| glycine cleavage system protein R [Vibrio kanaloae] &gt;gb|TKF17168.1| glycine cleavage system protein R [Vibrio kanaloae] &gt;gb|TKF27196.1| glycine cleavage system protein R [Vibrio kanaloae] &gt;gb|TKF28737.1| glycine cleavage system protein R [Vibrio kanaloae] &gt;gb|TKF65582.1| glycine cleavage system protein R [Vibrio kanaloae] &gt;gb|TKF73289.1| glycine cleavage system protein R [Vibrio kanaloae] &gt;emb|SBS27497.1| Glycine cleavage system transcriptional repressor [Vibrio toranzoniae]</Hit_def>
+  <Hit_accession>WP_017056344</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>5.48688e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHD</Hsp_qseq>
+      <Hsp_hseq>MTQHLVITAVGTDRPGVCNQVVHLVTQSGCNIIDSRIAMFGEEFTLIMLLSGKANNITRVETTLPLLGQEHDLITIMKRTSPHD</Hsp_hseq>
+      <Hsp_midline>+TQHLVITAVGTDRPG+CN+VV LVTQ+GCNIIDSRIAMFG+EFTL+ML+SG  +NITRVETTLPLLGQ+HDLIT+MKRTSPHD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_006071054.1|</Hit_id>
+  <Hit_def>glycine cleavage system protein R [Vibrio mediterranei] &gt;gb|AYV20764.1| glycine cleavage system protein R [Vibrio mediterranei] &gt;gb|EDL54030.1| glycine cleavage system transcriptional repressor, putative [Vibrio shilonii AK1]</Hit_def>
+  <Hit_accession>WP_006071054</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.43627e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHD</Hsp_qseq>
+      <Hsp_hseq>MNQYLVITAVGTDRPGICNEVVHLVAQAGCNIIDSRIAMFGNEFTLIMLISGTPSYITRVETTLPLLGQEHDLITMMKRTSKHD</Hsp_hseq>
+      <Hsp_midline>+ Q+LVITAVGTDRPGICNEVV LV QAGCNIIDSRIAMFG EFTL+MLISG+PS ITRVETTLPLLGQ+HDLITMMKRTS HD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_038227842.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glycine cleavage system protein R [Vibrio] &gt;gb|ASI88809.1| glycine cleavage system transcriptional repressor [Vibrio mediterranei] &gt;gb|KFA97217.1| glycine cleavage system protein R [Vibrio sp. ER1A] &gt;gb|OIN27157.1| glycine cleavage system transcriptional repressor [Vibrio barjaei] &gt;gb|PCD85439.1| glycine cleavage system transcriptional repressor [Vibrio mediterranei] &gt;gb|PRQ66464.1| glycine cleavage system transcriptional repressor [Vibrio mediterranei] &gt;gb|PTC03079.1| glycine cleavage system transcriptional repressor [Vibrio mediterranei] &gt;emb|SBO09845.1| Glycine cleavage system transcriptional repressor [Vibrio mediterranei]</Hit_def>
+  <Hit_accession>WP_038227842</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.5848e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LTQHLVITAVGTDRPGICNEVVRLVTQAGCNIIDSRIAMFGKEFTLLMLISGSPSNITRVETTLPLLGQQHDLITMMKRTSPHD</Hsp_qseq>
+      <Hsp_hseq>MNQYLVITAVGTDRPGICNEVVHLVAQAGCNIIDSRIAMFGNEFTLIMLISGTPSYITRVETTLPLLGQEHDLITMMKRTSKHD</Hsp_hseq>
+      <Hsp_midline>+ Q+LVITAVGTDRPGICNEVV LV QAGCNIIDSRIAMFG EFTL+MLISG+PS ITRVETTLPLLGQ+HDLITMMKRTS HD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>211473339</Statistics_db-num>
+      <Statistics_db-len>76239256612</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

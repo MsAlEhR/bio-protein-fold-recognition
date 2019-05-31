@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_68421</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1y0ua_a</BlastOutput_query-def>
+  <BlastOutput_query-len>89</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_68421</Iteration_query-ID>
+  <Iteration_query-def>d1y0ua_a</Iteration_query-def>
+  <Iteration_query-len>89</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_010877680.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Archaeoglobus fulgidus] &gt;gb|AAB91060.1| arsenical resistance operon repressor, putative [Archaeoglobus fulgidus DSM 4304] &gt;gb|KUJ93412.1| Arsenical resistance operon repressor, putative [Archaeoglobus fulgidus] &gt;gb|KUK06478.1| Arsenical resistance operon repressor, putative [Archaeoglobus fulgidus]</Hit_def>
+  <Hit_accession>WP_010877680</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>9.35355e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_hseq>
+      <Hsp_midline>MSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1Y0U|A</Hit_id>
+  <Hit_def>Chain A, Arsenical Resistance Operon Repressor, Putative [Archaeoglobus fulgidus DSM 4304] &gt;pdb|1Y0U|B Chain B, Arsenical Resistance Operon Repressor, Putative [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>1Y0U_A</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>9.20495e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>GHMSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>GHXSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRXLDKGRSEEEIXQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_hseq>
+      <Hsp_midline>GH SLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILR LDKGRSEEEI QTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|RLI77236.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Archaeoglobales archaeon]</Hit_def>
+  <Hit_accession>RLI77236</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.20148e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MTVEKWINAATLKEAEEYHRRYNYAITNATRRKILRLIDEGKSEEEVMKILSLTRKQLNYHLKVLEWGFCIEKVGKEWVVTKEGRII</Hsp_hseq>
+      <Hsp_midline>M++E+WI A +L++A+EYH+RYNYA+TN  RRKILR++D+G+SEEE+M+ LSL++KQL+YHLKVLE GFCIE+VG+ WVVT  G+I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_010877628.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Archaeoglobus fulgidus] &gt;gb|AAB91116.1| transcriptional regulatory protein, putative [Archaeoglobus fulgidus DSM 4304] &gt;gb|AIG96952.1| Bacterial regulatory protein, arsR family [Archaeoglobus fulgidus DSM 8774] &gt;gb|KUJ94656.1| Transcriptional regulatory protein, putative [Archaeoglobus fulgidus] &gt;gb|KUK06652.1| Transcriptional regulatory protein, putative [Archaeoglobus fulgidus]</Hit_def>
+  <Hit_accession>WP_010877628</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>4.20194e-25</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SDSIEKSRIYHERYHKAVANPVRKEILKMIAEGKNEDEIMEKLKLSKKELDYHLKILEWGFCIERKDGGWKITKEGEII</Hsp_hseq>
+      <Hsp_midline>+DS+EK+  YH+RY+ AV NPVR++IL+M+ +G++E+EIM+ L LSKK+LDYHLK+LE GFCIER    W +T  G+I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|TDA27648.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Archaeoglobi archaeon]</Hit_def>
+  <Hit_accession>TDA27648</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>9.60749e-23</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>LEEWIK-ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MSEWEKYSGSIEKSREYHHRYHRAVNHPIRREILRLIVKGMNEEDIAKTLNLSKSDFDYHLKVLIEGFCVKRIEGKLVVTQEGMVV</Hsp_hseq>
+      <Hsp_midline>+ EW K + S+EK+ EYH RY+ AV +P+RR+ILR++ KG +EE+I +TL+LSK   DYHLKVL  GFC++R+  + VVT  G +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_015591283.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Archaeoglobus sulfaticallidus] &gt;gb|AGK61685.1| hypothetical protein Asulf_01714 [Archaeoglobus sulfaticallidus PM70-1]</Hit_def>
+  <Hit_accession>WP_015591283</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>9.8367e-23</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>STSLEKSKEYHRRYHIAVSSPLRRKILKLIAEGKNKQEIAKSLGLSEKNLDYHLKILEHGFCIKINGDRISLTKEGEII</Hsp_hseq>
+      <Hsp_midline>+ SLEK+ EYH+RY+ AV++P+RRKIL+++ +G++++EI ++L LS+K LDYHLK+LE GFCI+  G+R  +T  G+I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|RLI82454.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Archaeoglobales archaeon]</Hit_def>
+  <Hit_accession>RLI82454</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.13389e-22</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MSLEEWIK-ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MAEESWSKFMDSLEKNEEYHKRYHIAVSNPLRRKILRLIAEGLSKNEICEKLNLTIPQLEYHLRFLEHGFCIRKEGDALKLTKEGEII</Hsp_hseq>
+      <Hsp_midline>M+ E W K  DSLEK +EYHKRY+ AV+NP+RRKILR++ +G S+ EI + L+L+  QL+YHL+ LE GFCI + G+   +T  G+I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_048094607.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Geoglobus ahangari] &gt;gb|AKG92072.1| Helix-turn-helix domain [Geoglobus ahangari]</Hit_def>
+  <Hit_accession>WP_048094607</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>2.28321e-22</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>EEWIK-ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>ESWSKHSDTLEKSREYHKRYQIAVSSPLRRRILRLIKEGKSEREIGEILGLDEKQLEYHLKILEWGYCIDRSEGRLEITKEGLVV</Hsp_hseq>
+      <Hsp_midline>E W K +D+LEK+ EYHKRY  AV++P+RR+ILR++ +G+SE EI + L L +KQL+YHLK+LE G+CI+R   R  +T  G +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|ADC65732.1|</Hit_id>
+  <Hit_def>transcriptional regulatory protein, putative [Ferroglobus placidus DSM 10642]</Hit_def>
+  <Hit_accession>ADC65732</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>5.95901e-20</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SESVEKSREYHKRYHIAVNNKVRRKILKLIKEGKSYDEILEELGISEEDFEYHLKILEWGFCIVRDGKKLELTKEGEVV</Hsp_hseq>
+      <Hsp_midline>++S+EK+ EYHKRY+ AV N VRRKIL+++ +G+S +EI++ L +S++  +YHLK+LE GFCI R G++  +T  G++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|RLI79968.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Archaeoglobales archaeon]</Hit_def>
+  <Hit_accession>RLI79968</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>4.33669e-19</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>WIK-ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIER</Hsp_qseq>
+      <Hsp_hseq>WLEFSDTIEKNREYHERYHKAVNNPIRKKILKMLKEGKNYDEMMNALKLNEKNFEYHLKLLEWGFCIER</Hsp_hseq>
+      <Hsp_midline>W++ +D++EK  EYH+RY+ AV NP+R+KIL+ML +G++ +E+M  L L++K  +YHLK+LE GFCIER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_048093306.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Geoglobus acetivorans] &gt;gb|AIY91189.1| transcriptional regulatory protein, putative [Geoglobus acetivorans]</Hit_def>
+  <Hit_accession>WP_048093306</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>6.60844e-19</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SGSIEKSREFHRRYQIAVNHPLRRKILKLLHNGKSQEEIRTELNLDERDFEYHLQLLEWGFCIERDAQEIRITKEGSVV</Hsp_hseq>
+      <Hsp_midline>+ S+EK+ E+H+RY  AV +P+RRKIL++L  G+S+EEI   L+L ++  +YHL++LE GFCIER  +   +T  G +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_048095313.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Geoglobus ahangari] &gt;gb|AKG91491.1| hypothetical protein GAH_01199 [Geoglobus ahangari]</Hit_def>
+  <Hit_accession>WP_048095313</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.96913e-18</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MKFDEWISADSPEKAEEYRRRFKMAIANSIRRKILLELDEGSKSVDELLSKLNVGEKVLKYHLDTLEKGSCIRYAGDRVELTEEGRVL</Hsp_hseq>
+      <Hsp_midline>M  +EWI ADS EKA+EY +R+  A+ N +RRKIL  LD+G +S +E++  L++ +K L YHL  LE G CI   G+R  +T+ G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|TDA27819.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Archaeoglobi archaeon] &gt;gb|TDA28879.1| ArsR family transcriptional regulator [Archaeoglobi archaeon]</Hit_def>
+  <Hit_accession>TDA27819</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>2.26369e-18</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SHSIDSSREYHERYHRALNNPKRREILKLLASGLSEDEIIRKLGLSRAEFDYHIQILIQGFCLERKDGRLVLTKEGNII</Hsp_hseq>
+      <Hsp_midline>+ S++ + EYH+RY+ A+ NP RR+IL++L  G SE+EI++ L LS+ + DYH+++L  GFC+ER   R V+T  G I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|RLI76646.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Archaeoglobales archaeon]</Hit_def>
+  <Hit_accession>RLI76646</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>3.65593e-18</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGE---RWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SDTIEKNREYHERYHKAVNNLVRKKILKLLKEGKNYDEIMMALKLNENNFEYHLKILEWGFCIERDKEDRKKIILTKEGEIV</Hsp_hseq>
+      <Hsp_midline>+D++EK  EYH+RY+ AV N VR+KIL++L +G++ +EIM  L L++   +YHLK+LE GFCIER  E   + ++T  G+IV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|RLI73368.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Archaeoglobales archaeon]</Hit_def>
+  <Hit_accession>RLI73368</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>8.62672e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>LEEWIK-ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MQSWEKFSGNIEKSRIYHQRYHRAVSNPIRRKILELIACGKNLDDIKNELGLKSEELEYHLRVLESGFCIRRDGDEVFITKEGEVV</Hsp_hseq>
+      <Hsp_midline>++ W K + ++EK+  YH+RY+ AV+NP+RRKIL ++  G++ ++I   L L  ++L+YHL+VLE+GFCI R G+   +T  G++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_012964784.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Ferroglobus placidus] &gt;gb|ADC64437.1| arsenical resistance operon repressor, putative [Ferroglobus placidus DSM 10642]</Hit_def>
+  <Hit_accession>WP_012964784</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>1.78275e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MKFEEWISAKSTEEAEEYRKRFKMAISNSIRRRILALLNESEKSLEELKKELKIDEKLLKFHLDTLEKASCI-TVGDKISLTDEGRVL</Hsp_hseq>
+      <Hsp_midline>M  EEWI A S E+A+EY KR+  A++N +RR+IL +L++  +S EE+ + L + +K L +HL  LE   CI  VG++  +TD G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_048091028.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Geoglobus acetivorans] &gt;gb|AIY89638.1| arsenical resistance operon repressor [Geoglobus acetivorans]</Hit_def>
+  <Hit_accession>WP_048091028</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>2.12395e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MKFEEWTKSEDPEKAEELRRRFKMAINNPIRRKILAELYGGSRRVHELADKLGVEEKLLKYHLDILTKGSCIEFREGRIHLTEEGRVL</Hsp_hseq>
+      <Hsp_midline>M  EEW K++  EKA+E  +R+  A+ NP+RRKIL  L  G R   E+   L + +K L YHL +L  G CIE    R  +T+ G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MBQ03312.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MBQ03312</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>4.3783e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>MSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIERVGE----RWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>MPVKSRTLSDTMEDTKDRHRRYMRAIQHHIRRDILRLMEKGLTTIGEFEKELGIDAKVLDWHLRTLEHGFCIERIGEGDSPSFALASEGKIV</Hsp_hseq>
+      <Hsp_midline>M ++    +D++E   + H+RY  A+ + +RR ILR+++KG +   E  + L +  K LD+HL+ LE GFCIER+GE     + +   GKIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KON32774.1|</Hit_id>
+  <Hit_def>hypothetical protein AC479_06750 [miscellaneous Crenarchaeota group-6 archaeon AD8-1]</Hit_def>
+  <Hit_accession>KON32774</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>9.26595e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>TDSGEETKVYHQRYLNAMNNPLRRKILRVLNNGKTSFEDLTIKTGLDKFALEWHLSILENGFCVEKESHNGKLFYRLTQEGKVV</Hsp_hseq>
+      <Hsp_midline> DS E+   YH+RY  A+ NP+RRKILR+L+ G++  E++     L K  L++HL +LE GFC+E+        + +T  GK+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|TFH15507.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>TFH15507</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.69152e-10</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIE-RVG---ERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>TNSMEETKDRHRRYLRAINNPIRRNILRAIYEGNDTISSINEAIQIDEKTLDWHLKILIDGFCIEKKLGEDHERYILTKEASVV</Hsp_hseq>
+      <Hsp_midline> +S+E+  + H+RY  A+ NP+RR ILR + +G      I + + + +K LD+HLK+L  GFCIE ++G   ER+++T    +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|RLI09198.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RLI09198</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.13405e-10</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIER--VGERWV--VTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>GDTLEETKEYHRRFLRAVNNPLRRRILRALKDGDATIEDLQKKTGMDAKTLEWHLSILIHGFCIEKEERGEATIYKLTQEGEVV</Hsp_hseq>
+      <Hsp_midline> D+LE+  EYH+R+  AV NP+RR+ILR L  G +  E++ +   +  K L++HL +L  GFCIE+   GE  +  +T  G++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|OGD52768.1|</Hit_id>
+  <Hit_def>hypothetical protein A3K81_06715 [Candidatus Bathyarchaeota archaeon RBG_13_60_20]</Hit_def>
+  <Hit_accession>OGD52768</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>2.58461e-10</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGR-SEEEIMQTLSLSKKQLDYHLKVLEAGFCIERV----GERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SGSMEETKERHRRYLRAINSPVRRGILRALKEGHATAEALVKATGLDGKTLGWHMKLLEYGYCVEARSTAEGEVYVLTREGEVV</Hsp_hseq>
+      <Hsp_midline>+ S+E+  E H+RY  A+ +PVRR ILR L +G  + E +++   L  K L +H+K+LE G+C+E      GE +V+T  G++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|TEU12962.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>TEU12962</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>3.11654e-10</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>SLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIER----VGERWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SMEETKEYHVRYLRAVNNPLRREILRAIKAGESTLEALGEKTGLEAKALEWHMNILEHGFCVEKEERDGGVVYTLTQEGMVV</Hsp_hseq>
+      <Hsp_midline>S+E+  EYH RY  AV NP+RR+ILR +  G S  E + +   L  K L++H+ +LE GFC+E+     G  + +T  G +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|TEU05986.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>TEU05986</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>8.00206e-10</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>SLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SIEETRQYHTRYLRAINSPLRREILRALKKGCTTIEDLQSSTGLDNDTLKWHLSVLEHGFCIEKAIKQGKLVYKLTQEGRVV</Hsp_hseq>
+      <Hsp_midline>S+E+  +YH RY  A+ +P+RR+ILR L KG +  E++  +  L    L +HL VLE GFCIE+  ++    + +T  G++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|TET19406.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>TET19406</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>8.82396e-10</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>SLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SIEETRQYHTRYLRAINSPLRREILRALKKGYATIEDLQSSTGLDNETLKWHLSVLEHGFCVEKAIKQGKLVYKLTQEGRVV</Hsp_hseq>
+      <Hsp_midline>S+E+  +YH RY  A+ +P+RR+ILR L KG +  E++  +  L  + L +HL VLE GFC+E+  ++    + +T  G++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|TET27681.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>TET27681</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.03279e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SESIEETRRYHRLYLRAVNNPLRRKILLAIKEGYNSMKDLQKETGLNKTNLEWHLSILEQGFCVEKIEESGKLLYKLTKEGQLI</Hsp_hseq>
+      <Hsp_midline>++S+E+   YH+ Y  AV NP+RRKIL  + +G  S +++ +   L+K  L++HL +LE GFC+E++ E     + +T  G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_116595826.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Bathyarchaeota archaeon] &gt;gb|PVX25628.1| hypothetical protein CW716_07725 [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>WP_116595826</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>2.43657e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQT-LSLSKKQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>TESKEEIRSYHTRYLRAVNNPLRRKILGILNQEHSTFEDLQTKMSIDKNILKWHLDILEHGFCVEKQIKQAKLIYKITQEGKLV</Hsp_hseq>
+      <Hsp_midline> +S E+   YH RY  AV NP+RRKIL +L++  S  E +QT +S+ K  L +HL +LE GFC+E+  ++    + +T  GK+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|RLI48462.1|</Hit_id>
+  <Hit_def>hypothetical protein DRO61_06455 [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RLI48462</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>4.26847e-09</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>SLEKADEYHKRYNYAVTNPVRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>SMDETREYHKRYLRAVSNPLRIKILRAIKNGFLNIEDLKSHTGLDDCTLNWHLRVLENGFCVEKDATEGKLVYTLTQEGRVI</Hsp_hseq>
+      <Hsp_midline>S+++  EYHKRY  AV+NP+R KILR +  G  + E++     L    L++HL+VLE GFC+E+        + +T  G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|TET72714.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>TET72714</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>8.13481e-09</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>SLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIER</Hsp_qseq>
+      <Hsp_hseq>SMEETKEYHVRYLRAVNSPLRREILRALKEGESTLVALGERTGLDAKALEWHLNILEHGFCVEK</Hsp_hseq>
+      <Hsp_midline>S+E+  EYH RY  AV +P+RR+ILR L +G S    + +   L  K L++HL +LE GFC+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KYH36572.1|</Hit_id>
+  <Hit_def>putative transcriptional regulatory protein [Candidatus Bathyarchaeota archaeon B23]</Hit_def>
+  <Hit_accession>KYH36572</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.38331e-08</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>ADSVAETRRRHALYLKAVNHPLRRRILEALREGDATLEELSSKTELDEKTLEWHLGVLEHGFCVERVEEGGRTLYRLTEEGRVI</Hsp_hseq>
+      <Hsp_midline>ADS+ +    H  Y  AV +P+RR+IL  L +G +  EE+     L +K L++HL VLE GFC+ERV E     + +T+ G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|OGD58216.1|</Hit_id>
+  <Hit_def>hypothetical protein A3K78_01185 [Candidatus Bathyarchaeota archaeon RBG_13_52_12]</Hit_def>
+  <Hit_accession>OGD58216</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>2.67151e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>LEKADEYHKRYNYAVTNPVRRKILRMLDKGRSEEEIMQTLS-LSKKQLDYHLKVLEAGFCIER</Hsp_qseq>
+      <Hsp_hseq>MEETKERHQRYLRAMNNPVRRKILRELKGGSATIEDLKTRTDLDEKTLSWHLDILEWGYCVEK</Hsp_hseq>
+      <Hsp_midline>+E+  E H+RY  A+ NPVRRKILR L  G +  E ++T + L +K L +HL +LE G+C+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|ABK14593.1|</Hit_id>
+  <Hit_def>hypothetical protein Mthe_0804 [Methanothrix thermoacetophila PT]</Hit_def>
+  <Hit_accession>ABK14593</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.13955e-06</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>EYHKRYNYAVTNPVRRKILRMLD-KGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGKI</Hsp_qseq>
+      <Hsp_hseq>EDHKFALEVLQLPLRRKMLRFIGLKARSRDEIEREFGLSEEQARYHLAMLEKGLVVEKVGESYRPTITGRL</Hsp_hseq>
+      <Hsp_midline>E HK     +  P+RRK+LR +  K RS +EI +   LS++Q  YHL +LE G  +E+VGE +  T  G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|TKJ19170.1|</Hit_id>
+  <Hit_def>hypothetical protein CEE42_15860 [Candidatus Lokiarchaeota archaeon Loki_b31]</Hit_def>
+  <Hit_accession>TKJ19170</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>5.9973e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>SLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGR-----------SEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>TIEDFSK--TVESSKYYHDLYLKAVNHPIRREILKIVNDSNEILEKRLFNQLSEKEILKDPSI----LEYNINFLIKALCIEKIERRDRIYYVITQAGKVV</Hsp_hseq>
+      <Hsp_midline>++E++ K  ++E +  YH  Y  AV +P+RR+IL++++              SE+EI++  S+    L+Y++  L    CIE++  R    +V+T AGK+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|TFG02741.1|</Hit_id>
+  <Hit_def>hypothetical protein EU542_04250 [Candidatus Lokiarchaeota archaeon]</Hit_def>
+  <Hit_accession>TFG02741</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>7.72309e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GHMSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRS--EEEIMQTLSLSK-----KQLDYHLKVLEAGFCIERVGER----WVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>NYKSLEEF--SESLEGSKYFHGLYLRAVNHPIRREILHIVNEREKILKDEIYQVLNDKNVVSDLSVLDYNLDFLEKSLCIEKIDNTSKIYYKITQLGKVV</Hsp_hseq>
+      <Hsp_midline> + SLEE+  ++SLE +  +H  Y  AV +P+RR+IL ++++     ++EI Q L+          LDY+L  LE   CIE++       + +T  GK+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_054298465.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Methanosarcina flavescens] &gt;gb|AYK14802.1| ArsR family transcriptional regulator [Methanosarcina flavescens]</Hit_def>
+  <Hit_accession>WP_054298465</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>9.63061e-05</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>EEWI---KADSLEKAD--EYHKRYNYAVTNPVRRKILRML-DKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIER</Hsp_qseq>
+      <Hsp_hseq>EEWVAKMKKEGRMKEDMTEDHKACLNALQNPVRRNILKALVEQKKSLEEIKTELKLTDSQASYNLNTLESTLCIEK</Hsp_hseq>
+      <Hsp_midline>EEW+   K +   K D  E HK    A+ NPVRR IL+ L ++ +S EEI   L L+  Q  Y+L  LE+  CIE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_052297509.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Methanothrix soehngenii]</Hit_def>
+  <Hit_accession>WP_052297509</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000101744</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>VRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAG</Hsp_qseq>
+      <Hsp_hseq>LRRDILKFISSGPKSSEQICQRFDLSPEKADYHLSMLETALVIERCGEILDITPTG</Hsp_hseq>
+      <Hsp_midline>+RR IL+ +  G +S E+I Q   LS ++ DYHL +LE    IER GE   +T  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|OLB71455.1|</Hit_id>
+  <Hit_def>hypothetical protein AUI06_03610 [archaeon 13_2_20CM_2_52_21] &gt;gb|OLD07991.1| hypothetical protein AUI95_04305 [Crenarchaeota archaeon 13_1_40CM_3_52_4]</Hit_def>
+  <Hit_accession>OLB71455</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>0.000135742</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LEKADEYHKRYNYAVTNPVRRKILRMLDK--GRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGK</Hsp_qseq>
+      <Hsp_hseq>LDKSDESLTRVHNALANPMRRQIVQILKERGGAGLKELQDTLKVSVGALYHHLDSLE-GFVAQGADRNYVLTDDGK</Hsp_hseq>
+      <Hsp_midline>L+K+DE   R + A+ NP+RR+I+++L +  G   +E+  TL +S   L +HL  LE GF  +     +V+TD GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_048108005.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Methanosarcina barkeri] &gt;gb|AKB82503.1| Transcriptional regulator [Methanosarcina barkeri 3]</Hit_def>
+  <Hit_accession>WP_048108005</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000162748</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>EEWI---KADSLEKAD--EYHKRYNYAVTNPVRRKILRML-DKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIER</Hsp_qseq>
+      <Hsp_hseq>QEWVSKMKSEGKMKEDMTEDHKACLNALQNPVRRNILKVLVEHKKSLEEIKDELKLTDSQASYNLNMLESTLCIEK</Hsp_hseq>
+      <Hsp_midline>+EW+   K++   K D  E HK    A+ NPVRR IL++L +  +S EEI   L L+  Q  Y+L +LE+  CIE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|OEU42094.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Methanosarcina sp. Ant1]</Hit_def>
+  <Hit_accession>OEU42094</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000164499</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>EWIKADSLE---KAD--EYHKRYNYAVTNPVRRKILRML-DKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIER</Hsp_qseq>
+      <Hsp_hseq>EWVTKMKLEGKMKEDMTEDHKACLNALQNPVRRNILKALVEQKKSFEEIKAEFKLTESQTTYNLNMLESTLCIEK</Hsp_hseq>
+      <Hsp_midline>EW+    LE   K D  E HK    A+ NPVRR IL+ L ++ +S EEI     L++ Q  Y+L +LE+  CIE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_048167219.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Methanosarcina thermophila] &gt;gb|AKB13153.1| Transcriptional regulator [Methanosarcina thermophila TM-1] &gt;gb|AKB16211.1| Transcriptional regulator [Methanosarcina thermophila CHTI-55] &gt;gb|ALK04504.1| ArsR family transcriptional regulator [Methanosarcina sp. 795] &gt;dbj|BAW28144.1| conserved hypothetical protein [Methanosarcina thermophila]</Hit_def>
+  <Hit_accession>WP_048167219</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000219607</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>EEWI---KADSLEKAD--EYHKRYNYAVTNPVRRKILRML-DKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIER</Hsp_qseq>
+      <Hsp_hseq>EEWVAKMKKEGRMKEDMTEDHKACLNALQNPVRRNILKALVGQKKSLEEIRTELKLTDSQASYNLNMLESTLCIEK</Hsp_hseq>
+      <Hsp_midline>EEW+   K +   K D  E HK    A+ NPVRR IL+ L  + +S EEI   L L+  Q  Y+L +LE+  CIE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|OLE70448.1|</Hit_id>
+  <Hit_def>hypothetical protein AUF78_06665 [archaeon 13_1_20CM_2_51_12]</Hit_def>
+  <Hit_accession>OLE70448</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000301571</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LEKADEYHKRYNYAVTNPVRRKILRML-DKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGK</Hsp_qseq>
+      <Hsp_hseq>LDKSDESLTRVYNALANPTRRQIVQILKERGKAGFKELHETLKISVGALYHHLDSLE-GFVAQGADRKYVLTDDGR</Hsp_hseq>
+      <Hsp_midline>L+K+DE   R   A+ NP RR+I+++L ++G++  +E+ +TL +S   L +HL  LE GF  +    ++V+TD G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|OLD55199.1|</Hit_id>
+  <Hit_def>hypothetical protein AUI46_05675 [archaeon 13_1_40CM_2_52_13]</Hit_def>
+  <Hit_accession>OLD55199</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000301571</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LEKADEYHKRYNYAVTNPVRRKILRML-DKGRSE-EEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAGK</Hsp_qseq>
+      <Hsp_hseq>LDKSDESLTRVYNALANPTRRQIVQILKERGKAGFKELHETLKISVGALYHHLDSLE-GFVAQGADRKYVLTDDGR</Hsp_hseq>
+      <Hsp_midline>L+K+DE   R   A+ NP RR+I+++L ++G++  +E+ +TL +S   L +HL  LE GF  +    ++V+TD G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|OPX76380.1|</Hit_id>
+  <Hit_def>Bacterial regulatory protein, arsR family [Methanosaeta sp. PtaB.Bin005]</Hit_def>
+  <Hit_accession>OPX76380</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000384708</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>VRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAG</Hsp_qseq>
+      <Hsp_hseq>LRRDILKFIASGPKSSEQICQRFNLSPEKADYHLRMLEAALVTKRCGEILDITPTG</Hsp_hseq>
+      <Hsp_midline>+RR IL+ +  G +S E+I Q  +LS ++ DYHL++LEA    +R GE   +T  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_029042099.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Cucumibacter marinus]</Hit_def>
+  <Hit_accession>WP_029042099</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000564289</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>AVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER</Hsp_qseq>
+      <Hsp_hseq>AALTPLRQRILAALREPGSAASLAETLSASRQQLGYHLKALEKAGLIARAGTR</Hsp_hseq>
+      <Hsp_midline>A   P+R++IL  L +  S   + +TLS S++QL YHLK LE    I R G R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_108022114.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Melghirimyces profundicolus]</Hit_def>
+  <Hit_accession>WP_108022114</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000861025</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AVTNPVRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVLEAGFCI--ERVGERWV</Hsp_qseq>
+      <Hsp_hseq>ALSNPTRRKILRILRAGDRTAGEIAGSFSMSKPSLSHHLNVLKQAQLVLRERKGQHIV</Hsp_hseq>
+      <Hsp_midline>A++NP RRKILR+L  G R+  EI  + S+SK  L +HL VL+    +  ER G+  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_099621442.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Caulobacter mirabilis] &gt;gb|ATQ42185.1| transcriptional regulator [Caulobacter mirabilis]</Hit_def>
+  <Hit_accession>WP_099621442</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00149205</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>NPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGER</Hsp_qseq>
+      <Hsp_hseq>SPVRRALLEQLQTPASASQLAETLGMSRQKLNYHLRALEAAGLIHLVEER</Hsp_hseq>
+      <Hsp_midline>+PVRR +L  L    S  ++ +TL +S+++L+YHL+ LEA   I  V ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|TFF98512.1|</Hit_id>
+  <Hit_def>ArsR family transcriptional regulator [Candidatus Lokiarchaeota archaeon]</Hit_def>
+  <Hit_accession>TFF98512</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00158972</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>ADSLEKADEYHKRYNYAVTNPVRRKILRMLD-KGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWVVTDAG</Hsp_qseq>
+      <Hsp_hseq>TEHIDPKDEHDHLYS-VMTNDTRRELLKLINTNAMTLEEIKEKVQLDKEQLQYHLSMLEQLFFLMNTSEGWKTTPRG</Hsp_hseq>
+      <Hsp_midline> + ++  DE+   Y+  +TN  RR++L++++    + EEI + + L K+QL YHL +LE  F +    E W  T  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_026676211.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Fictibacillus gelatini]</Hit_def>
+  <Hit_accession>WP_026676211</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.0026061</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LEKADEYHKRY-------NYAVTNPVRRKILRMLDKGRSEEEIMQTLSLSKKQLDYHLKVLEAGFCIERVGERWV</Hsp_qseq>
+      <Hsp_hseq>MEKRDEILETYVVTIPEQAAALLHPVRSEIIRALKEPRSATEVAKLLDETPQKINYHLKTLEKVGLVRRVGTRNV</Hsp_hseq>
+      <Hsp_midline>+EK DE  + Y         A+ +PVR +I+R L + RS  E+ + L  + ++++YHLK LE    + RVG R V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|TFG12302.1|</Hit_id>
+  <Hit_def>hypothetical protein EU531_10645 [Candidatus Lokiarchaeota archaeon]</Hit_def>
+  <Hit_accession>TFG12302</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00260646</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GHMSLEEWIKADSLEKADEYHKRYNYAVTNPVRRKILRMLDKGRS--EEEIMQTLSLSK-----KQLDYHLKVLEAGFCIERVGE----RWVVTDAGKIV</Hsp_qseq>
+      <Hsp_hseq>NYKSLEEY--SETLEGSKYFHGLYLRAVNHPIRREILHIVNEREKILKEEIYQVLSDKELVSDLSVLEYNLDFLVKSLCIENFDEDSKIYYKITQLGKVI</Hsp_hseq>
+      <Hsp_midline> + SLEE+  +++LE +  +H  Y  AV +P+RR+IL ++++     +EEI Q LS  +       L+Y+L  L    CIE   E     + +T  GK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_027363372.1|</Hit_id>
+  <Hit_def>winged helix-turn-helix transcriptional regulator [Desulfallas alcoholivorax]</Hit_def>
+  <Hit_accession>WP_027363372</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00284318</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AVTNPVRRKILRMLDKG-RSEEEIMQTLSLSKKQLDYHLKVL-EAGFCI-ERVGE</Hsp_qseq>
+      <Hsp_hseq>ALSDPTRRKILRMLHKGDMTAGDIADRFSISKPSVSHHLNVLKQAGLVIDERKGQ</Hsp_hseq>
+      <Hsp_midline>A+++P RRKILRML KG  +  +I    S+SK  + +HL VL +AG  I ER G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216046246</Statistics_db-num>
+      <Statistics_db-len>550339452</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
