@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_110791</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1sgwa_c</BlastOutput_query-def>
+  <BlastOutput_query-len>200</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_110791</Iteration_query-ID>
+  <Iteration_query-def>d1sgwa_c</Iteration_query-def>
+  <Iteration_query-len>200</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1SGW|A</Hit_id>
+  <Hit_def>Chain A, Putative Abc Transporter [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>1SGW_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.119</Hsp_bit-score>
+      <Hsp_score>1006</Hsp_score>
+      <Hsp_evalue>2.18963e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKYST</Hsp_qseq>
+      <Hsp_hseq>SKLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKYST</Hsp_hseq>
+      <Hsp_midline>SKLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKYST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011012030.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Pyrococcus furiosus] &gt;gb|AAL81019.1| putative ABC transporter (ATP-binding protein) [Pyrococcus furiosus DSM 3638] &gt;gb|AFN03686.1| ABC transporter [Pyrococcus furiosus COM1]</Hit_def>
+  <Hit_accession>WP_011012030</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>9.51763e-137</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKYST</Hsp_qseq>
+      <Hsp_hseq>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKYST</Hsp_hseq>
+      <Hsp_midline>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKYST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_013749129.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Pyrococcus sp. NA2] &gt;gb|AEC52579.1| putative ABC transporter [Pyrococcus sp. NA2]</Hit_def>
+  <Hit_accession>WP_013749129</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>4.13987e-136</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKYST</Hsp_qseq>
+      <Hsp_hseq>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNEDLHKYST</Hsp_hseq>
+      <Hsp_midline>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNE+LHKYST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_014835326.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Pyrococcus furiosus] &gt;gb|AFN03882.1| ABC transporter [Pyrococcus furiosus COM1]</Hit_def>
+  <Hit_accession>WP_014835326</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>1.22774e-87</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKY</Hsp_qseq>
+      <Hsp_hseq>KLEIRELSVGYKRPLLEDITLELENGDAVNFYGPNGIGKTTLLKTIATYLKPLKGEILYNGAPIRKVRGKIFFLPESILVPNKVRARDYLKAVASLYGVNPSMEEVVRALDLVGISDENIKFEKCSQGMKRRIQLASALLVNAEIFVLDDPVVAIDEDSKHEILKGIVDTLKKRGIVIISSREKLPYFPINEDVVKY</Hsp_hseq>
+      <Hsp_midline>KLEIR+LSVGY +P+LE IT+ +E G+ VNF+GPNGIGKTTLLKTI+TYLKPLKGEI+YNG PI KV+GKIFFLPE I+VP K+   DYLKAVASLYGV  +  E++ AL+ V + D   K  + SQG  RR+QLAS LLVNAEI+VLDDPVVAIDEDSKH++LK I++ LK++GIVIISSRE+L Y  +NE++ KY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAL81214.1|</Hit_id>
+  <Hit_def>putative ABC transporter (ATP-binding protein) [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>AAL81214</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>3.82617e-87</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKY</Hsp_qseq>
+      <Hsp_hseq>KLEIRELSVGYKRPLLEDITLELENGDAVNFYGPNGIGKTTLLKTIATYLKPLKGEILYNGAPIRKVRGKIFFLPESILVPNKVRARDYLKAVASLYGVNPSMEEVVRALDLVGISDENIKFEKCSQGMKRRIQLASALLVNAEIFVLDDPVVAIDEDSKHEILKGIVDTLKKRGIVIISSREKLPYFPINEDVVKY</Hsp_hseq>
+      <Hsp_midline>KLEIR+LSVGY +P+LE IT+ +E G+ VNF+GPNGIGKTTLLKTI+TYLKPLKGEI+YNG PI KV+GKIFFLPE I+VP K+   DYLKAVASLYGV  +  E++ AL+ V + D   K  + SQG  RR+QLAS LLVNAEI+VLDDPVVAIDEDSKH++LK I++ LK++GIVIISSRE+L Y  +NE++ KY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_013906004.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Pyrococcus yayanosii] &gt;gb|AEH24948.1| putative ABC transporter [Pyrococcus yayanosii CH1]</Hit_def>
+  <Hit_accession>WP_013906004</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>1.13297e-75</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK--PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKY</Hsp_qseq>
+      <Hsp_hseq>LELKELSVGYDRNLPILQDIGLRIEKGEAANFYGYNGIGKTTLLKTVATFIRPLKGQILYEGKPITNFRRRIFFLPETVDVPSRVTPIEYVRAVASLYGTRVDENRALKALKTVGVATPRVPLGKLSQGMKRRVQLSASLLVEAEIFVLDDPLVAVDEESKHELLQTILESLKEKGVVIMSSREKLPYCELNVDLKEF</Hsp_hseq>
+      <Hsp_midline>LE+++LSVGYD+  P+L+ I + IEKG   NF+G NGIGKTTLLKT++T+++PLKG+I+Y G PIT  + +IFFLPE + VP +++  +Y++AVASLYG +V++N  + AL++V V   +  LG+LSQG  RRVQL+++LLV AEI+VLDDP+VA+DE+SKH++L++ILE LKEKG+VI+SSRE+L YC++N +L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_068575703.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Thermococcus chitonophagus] &gt;gb|ASJ15654.1| multidrug ABC transporter ATP-binding protein [Thermococcus chitonophagus] &gt;emb|CUX76863.1| Nitrate ABC transporter, ATP-binding protein [Thermococcus chitonophagus]</Hit_def>
+  <Hit_accession>WP_068575703</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>1.65476e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY--DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENLHKYS</Hsp_qseq>
+      <Hsp_hseq>LRLIDLWVGYSSDLPVLRNINLEVENGEVANFYGVNGIGKTTLLKTVATFLKPLKGSITYNGNPIQKIRDRIFFLPETVNVPSLVTGMDYVRAVTSLYGRIARKEEVLEALKIVNVPDPTLRLGRMSQGMKRRIQLSAALLVDAELFILDDPAVAIDSESKYELMGEILEILKEKGVVLMSSREPLNFCDYNIDLKMFS</Hsp_hseq>
+      <Hsp_midline>L + DL VGY  D PVL  I + +E G V NF+G NGIGKTTLLKT++T+LKPLKG I YNG PI K++ +IFFLPE + VP  ++  DY++AV SLYG    K E+++AL+ V V D   +LG +SQG  RR+QL++ LLV+AE+++LDDP VAID +SK++++  ILEILKEKG+V++SSRE L++CD N +L  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AEH24521.1|</Hit_id>
+  <Hit_def>putative ABC transporter [Pyrococcus yayanosii CH1]</Hit_def>
+  <Hit_accession>AEH24521</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>3.88843e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>KLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEI</Hsp_qseq>
+      <Hsp_hseq>RLEIKNLSVGYTDPILKGITIVVERGEGINFYGPNGIGKTTLLKTISTYLKPLRGEILYDGIPIEKVKGKIFFLPEEIHVPIKVRAEEYLKAITSLYGANVDKDGITRALESVGVLNPKRKLGELSQGTIRRVQLASTLLVNAEI</Hsp_hseq>
+      <Hsp_midline>+LEI++LSVGY  P+L+ IT+ +E+G  +NF+GPNGIGKTTLLKTISTYLKPL+GEI+Y+G+PI KVKGKIFFLPEEI VP K+  E+YLKA+ SLYG  V+K+ I  ALESV VL+ K+KLGELSQGTIRRVQLASTLLVNAEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_014768070.1|</Hit_id>
+  <Hit_def>ATP-binding cassette domain-containing protein [Desulfurococcus amylolyticus] &gt;gb|AFL67178.1| ABC transporter related protein [Desulfurococcus amylolyticus DSM 16532]</Hit_def>
+  <Hit_accession>WP_014768070</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>6.32627e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK--PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKK-KLGELSQGTIRRVQLASTLLV--NAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNENL</Hsp_qseq>
+      <Hsp_hseq>LVVKDLVCGYSKKTAIIGPISFELGMGNVLIFQGPNGVGKSTLLKTLATILKPISGSLLIQGRPAEKMRNKIFFLQEAVDVPQEFTAIDYLMVVASFYNTSVSRDHVAEILVDVAGIPSPRIRLGKMSQGQRRRVQLASALLPLKNVYVFILDDPGVGLDEYAKLNTVPYIVSELAKRGCVVVSTRDAQVAASIKEKV</Hsp_hseq>
+      <Hsp_midline>L ++DL  GY K   ++  I+  +  GNV+ F GPNG+GK+TLLKT++T LKP+ G ++  G P  K++ KIFFL E + VP++ +  DYL  VAS Y   V+++ + + L  V  +   + +LG++SQG  RRVQLAS LL   N  +++LDDP V +DE +K   +  I+  L ++G V++S+R+      + E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KUO85053.1|</Hit_id>
+  <Hit_def>hypothetical protein AT711_01675 [Thermoproteus sp. CIS_19]</Hit_def>
+  <Hit_accession>KUO85053</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>5.8465e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLV--NAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR</Hsp_qseq>
+      <Hsp_hseq>LEISGLVVGYDKPLTKPLDLRLGGGESAVFFGPNGVGKTTLAKTIASLLRPLGGSVLLDGVPTHKARGRIFYLPETIEVPERVKAADYVEALASFYGAADSARDLLD----VVGVPGRLPLGKMSQGMRRLAQLAAAMAVLPRVGLAVLDDPYVSVAPDKAAEIHRELSRRLK-GAVLILTAR</Hsp_hseq>
+      <Hsp_midline>LEI  L VGYDKP+ + + + +  G    F GPNG+GKTTL KTI++ L+PL G ++ +GVP  K +G+IF+LPE I VP ++   DY++A+AS YG   +  +++D    V  +  +  LG++SQG  R  QLA+ + V     + VLDDP V++  D   ++ + +   LK   ++I+++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AKT34088.1|</Hit_id>
+  <Hit_def>ABC-type multidrug transport system, ATPase component [Pyrobaculum sp. WP30]</Hit_def>
+  <Hit_accession>AKT34088</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>7.41729e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEI--YVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR</Hsp_qseq>
+      <Hsp_hseq>LEIRGLVVGYDKPLIRPLDLRLGGGESAVFFGPNGVGKTTLAKTVASLLRPLGGSVLLDGVPTHKARGRIFYLSETIEVPERVKAVDYVEALASFYGAADSARDLLD----VVGVPGRLPLGKMSQGMRRLAQLAAAMAVLPKVGLAVLDDPYVSIAPDKAAEVHRELL-LRAKNAVLILTAR</Hsp_hseq>
+      <Hsp_midline>LEIR L VGYDKP++  + + +  G    F GPNG+GKTTL KT+++ L+PL G ++ +GVP  K +G+IF+L E I VP ++   DY++A+AS YG   +  +++D    V  +  +  LG++SQG  R  QLA+ + V  ++   VLDDP V+I  D   +V + +L +  +  ++I+++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_068666936.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Thermococcus piezophilus] &gt;gb|ANF23358.1| hypothetical protein A7C91_09385 [Thermococcus piezophilus]</Hit_def>
+  <Hit_accession>WP_068666936</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>1.64508e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALE-SVEVLDLKKKLGELSQGTIRRVQLASTLLV-NAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKG-IVIISSR</Hsp_qseq>
+      <Hsp_hseq>LELQNLVAGYGKIPIIGPINLQVEKGEVVILWGPNGVGKTTLLRTIASFLKPLEGSVKLNGKPIPKLKRKIFLLDERVTLPGSLKAIEYLKVVGALYGHYSNYSKLLKYVGVHPNVL-----ISHLSQGQQRRLQLASILAAESAELFLIDDPTVGLDDYSVEALIPWFVEYLMNKDKIVIISTR</Hsp_hseq>
+      <Hsp_midline>LE+++L  GY K P++  I + +EKG VV   GPNG+GKTTLL+TI+++LKPL+G +  NG PI K+K KIF L E + +P  +   +YLK V +LYG   N ++++  +     VL     +  LSQG  RR+QLAS L   +AE++++DDP V +D+ S   ++   +E L  K  IVIIS+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KUO89320.1|</Hit_id>
+  <Hit_def>hypothetical protein AT708_05640 [Pyrobaculum sp. OCT_11]</Hit_def>
+  <Hit_accession>KUO89320</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.23343e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAE--IYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR</Hsp_qseq>
+      <Hsp_hseq>LEIRGLVVGYDKPLIRPLDLRLGGGESAVFFGPNGVGKTTLAKTVASLLRPLGGSVLLDGVPTHKARGRVFYLSEAIEVPERVKAVDYVEALASFYGA---ADSARDHLDVVGVPG-RLPLGKMSQGMRRLAQLAAAMAVLSRLGLAVLDDPYVSVAPEKAAEVHRELLRRVKNT-VLILTAR</Hsp_hseq>
+      <Hsp_midline>LEIR L VGYDKP++  + + +  G    F GPNG+GKTTL KT+++ L+PL G ++ +GVP  K +G++F+L E I VP ++   DY++A+AS YG     +   D L+ V V   +  LG++SQG  R  QLA+ + V +   + VLDDP V++  +   +V + +L  +K   ++I+++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_052315914.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Thermococcus sp. PK] &gt;gb|KUJ98940.1| ABC transporter related protein [Thermococcales archaeon 44_46]</Hit_def>
+  <Hit_accession>WP_052315914</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.58446e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLV-NAEIYVLDDPVVAIDEDSKHKVLKSILEILK--EKGIVIISSREEL</Hsp_qseq>
+      <Hsp_hseq>LKVSNLIAGYSKTPVVGPISFQCERGATVILYGPNGTGKTTLLRTIGTLLKPLGGKIELDGQPIERVKKKVFLLDEQINLPKSLRALEYVTVISTLYGTFFKDHS--DILKRFGI-NPKALISHLSQGQRRRLQLAGALVAKNAELFLIDDPTVGLDDYSAEVLIPWLIEELKRMEKTVVIATRTEPL</Hsp_hseq>
+      <Hsp_midline>L++ +L  GY K PV+  I+   E+G  V  +GPNG GKTTLL+TI T LKPL G+I  +G PI +VK K+F L E+I +P+ +   +Y+  +++LYG     +   D L+   + + K  +  LSQG  RR+QLA  L+  NAE++++DDP V +D+ S   ++  ++E LK  EK +VI +  E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|PTQ51620.1|</Hit_id>
+  <Hit_def>ABC transporter involved in cytochrome c biogenesis, ATPase component CcmA [Brockia lithotrophica]</Hit_def>
+  <Hit_accession>PTQ51620</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>2.28742e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMD-ALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAE-IYVLDDPVVAIDEDSKHKVLKSILEILKEKG-IVIISSR</Hsp_qseq>
+      <Hsp_hseq>LEVRDLVAGYRRAPVVGPLSFSLERGEVLIFVGPNGAGKSTLFRTLATLQKPLAGKVFLDGDPLERKADRVFFLGERVEMPESLTGAEYLRVVSSLYGETADPEPYLRYAGVPAEAL-----LRHLSQGQRRRVQLASALFVSRPLVYLLDDPSIGLDDVGAEELVPDLVRRLKEAGKVTLVATR</Hsp_hseq>
+      <Hsp_midline>LE+RDL  GY + PV+  ++ ++E+G V+ F GPNG GK+TL +T++T  KPL G++  +G P+ +   ++FFL E + +P  ++  +YL+ V+SLYG   +    +  A    E L     L  LSQG  RRVQLAS L V+   +Y+LDDP + +D+    +++  ++  LKE G + ++++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AFA39898.1|</Hit_id>
+  <Hit_def>ABC-type multidrug transport system, ATPase component [Pyrobaculum oguniense TE7]</Hit_def>
+  <Hit_accession>AFA39898</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>5.04682e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLV--NAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKG--IVIISSREEL</Hsp_qseq>
+      <Hsp_hseq>LEVRDLVIGYGKPLTRPISFRLGSGEAAVFYGPNGVGKSTLAKTLATLLRQISGSVFVDGIPNVKARDKIFFLPETVDVPERVKAVEYVEALASFYGA---GDSAEDVLEIVGVPG-ELLLGKMSQGMKRLVQLAAALAVIPKVKLAILDDPYVSVAPEKAAEIHS---EVLKRIGGSVLVVTARVPL</Hsp_hseq>
+      <Hsp_midline>LE+RDL +GY KP+   I+  +  G    F+GPNG+GK+TL KT++T L+ + G +  +G+P  K + KIFFLPE + VP ++   +Y++A+AS YG     +   D LE V V   +  LG++SQG  R VQLA+ L V    ++ +LDDP V++  +   ++     E+LK  G  ++++++R  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_068576951.1|</Hit_id>
+  <Hit_def>ATP-binding cassette domain-containing protein [Thermococcus chitonophagus] &gt;gb|ASJ16534.1| hypothetical protein A3L04_05315 [Thermococcus chitonophagus] &gt;emb|CUX77562.1| Branched-chain amino acid transport ATP-binding protein LivF (TC 3.A.1.4.1) [Thermococcus chitonophagus]</Hit_def>
+  <Hit_accession>WP_068576951</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>4.61264e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLG--------ELSQGTIRRVQLASTLLV-NAEIYVLDDPVVAIDEDSKHKVLKSILEILKE-KGIVIISSREEL</Hsp_qseq>
+      <Hsp_hseq>LEIENLVAGYGKVPIIGPISLRVNHGEVIVLWGPNGTGKTTLLRTIASLLKPLEGSIILDGKPISKVKKKIFLLDERVHLPGSLKAIEYLKLIGALYE--------SDQIPYQEIL---KHIGIPPNILIFNLSQGQKRRLQLASTLTAETAELFLIDDPTVGLDDISVKVLIPWIIKQLADMEKIILISTRTEF</Hsp_hseq>
+      <Hsp_midline>LEI +L  GY K P++  I++ +  G V+   GPNG GKTTLL+TI++ LKPL+G II +G PI+KVK KIF L E + +P  +   +YLK + +LY          D +   E+L   K +G         LSQG  RR+QLASTL    AE++++DDP V +D+ S   ++  I++ L + + I++IS+R E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_121443576.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Brockia lithotrophica] &gt;gb|RKQ88662.1| ABC-2 type transport system ATP-binding protein [Brockia lithotrophica]</Hit_def>
+  <Hit_accession>WP_121443576</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>1.07435e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMD-ALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAE-IYVLDDPVVAIDEDSKHKVLKSILEILKEKG-IVIISSR</Hsp_qseq>
+      <Hsp_hseq>LEVRDLVAGYRRTPVVGPLSLSLKRGEVLVFVGPNGAGKSTLFRTLATLQRPLAGKVFLDGEPMERKTDRVFFLGERVEMPESLTGAEYLRVVSSLYGETADPEPYLRYAGVPAEAL-----LRHLSQGQKRRVQLASALFVSRPLVYLLDDPSIGLDDVGAEELVPDLVRRLKGAGKITLVATR</Hsp_hseq>
+      <Hsp_midline>LE+RDL  GY + PV+  +++++++G V+ F GPNG GK+TL +T++T  +PL G++  +G P+ +   ++FFL E + +P  ++  +YL+ V+SLYG   +    +  A    E L     L  LSQG  RRVQLAS L V+   +Y+LDDP + +D+    +++  ++  LK  G I ++++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|RMF46974.1|</Hit_id>
+  <Hit_def>ATP-binding cassette domain-containing protein [Anaerolineae bacterium]</Hit_def>
+  <Hit_accession>RMF46974</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>1.51795e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK---VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDL----KKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSRE</Hsp_qseq>
+      <Hsp_hseq>AELELQSLRCGYQVPLCN-LSLHLQTGEHVLFYGPNGVGKSTLLKTLAGLLPPLGGAVTFDGESLHRRRMLRQRVFYLPETIQVPDFLTPLEYVGLVAEFY---REKTDPMRLQEGIRLLDIGGYQERPLGQCSQGQQRRSQLLAAYVLQKPLILCDDPLIGIDRN-RDSILRDFIRLLAKESIVVLTGRE</Hsp_hseq>
+      <Hsp_midline>++LE++ L  GY  P+   +++ ++ G  V F+GPNG+GK+TLLKT++  L PL G + ++G  + +   ++ ++F+LPE I VP  ++  +Y+  VA  Y     K + M   E + +LD+    ++ LG+ SQG  RR QL +  ++   + + DDP++ ID + +  +L+  + +L ++ IV+++ RE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_031461430.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Chloroflexus sp. MS-G]</Hit_def>
+  <Hit_accession>WP_031461430</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.94467e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK---VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDL-KKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREEL-SYCDVN</Hsp_qseq>
+      <Hsp_hseq>LDVQDLECGYTSPLLN-VSLTLRRGESLLLYGPNGVGKSTLMKTVAGICRPLRGDVLLCGKSIYKDVRVKRSIFYVPEIIDLPPFLNPIEYVNLVAEFYRTRPSADYVAAGLELFELAPFVRTPIEKMSQGQKRRVQLLAAYVLRRALTLLDDPLIGID-GSGEQYMRCLVEALTTDGVVLMTARRTIDSFISLN</Hsp_hseq>
+      <Hsp_midline>L+++DL  GY  P+L  +++T+ +G  +  +GPNG+GK+TL+KT++   +PL+G+++  G  I K   VK  IF++PE I +P  ++  +Y+  VA  Y  + + + +   LE  E+    +  + ++SQG  RRVQL +  ++   + +LDDP++ ID  S  + ++ ++E L   G+V++++R  + S+  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_088882188.1|</Hit_id>
+  <Hit_def>ATP-binding cassette domain-containing protein [Thermococcus sp. P6] &gt;gb|ASJ10288.1| hypothetical protein A3L12_02745 [Thermococcus sp. P6]</Hit_def>
+  <Hit_accession>WP_088882188</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>3.33019e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIY------NGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDL-KKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR</Hsp_qseq>
+      <Hsp_hseq>LVIRELVCGYDRPLL-KASLRLREGEHAIVYGENGTGKTTFLKTIAGLREPFSGEVRILRKKPGRGKPVMR---EVFFLPEEISLPIELRVKDYVNMISDIYGEKPDEERISRGLEFLGLEHLYNRPIKELSQGQRRKVQLLTAYVLERKLTLLDDPVIGIDEGGED-VVKTIIRELTKDGAVLVTSR</Hsp_hseq>
+      <Hsp_midline>L IR+L  GYD+P+L + ++ + +G     +G NG GKTT LKTI+   +P  GE+         G P+ +   ++FFLPEEI +P ++ V+DY+  ++ +YG K ++  I   LE + +  L  + + ELSQG  R+VQL +  ++  ++ +LDDPV+ IDE  +  V+K+I+  L + G V+++SR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_028459232.1|</Hit_id>
+  <Hit_def>ATP-binding cassette domain-containing protein [Chloroflexus sp. Y-396-1]</Hit_def>
+  <Hit_accession>WP_028459232</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.71007e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPI---TKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDL-KKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREEL-SYCDVN</Hsp_qseq>
+      <Hsp_hseq>LDVQDLECGYTSPLLN-VSLTLRRGESLLLYGPNGVGKSTFMKTVAGICRPLRGDVLLCGKSIYKNARVKRSIFYVPEIIELPPFLNPIEYVNLVAEFYRTRPSADYVSAGLELFELAPFVRTPIEKMSQGQKRRVQLLAAYVLRRALTLLDDPLIGID-GSGEQYIRCLVEALTTDGVVLMTARRTIDSFISLN</Hsp_hseq>
+      <Hsp_midline>L+++DL  GY  P+L  +++T+ +G  +  +GPNG+GK+T +KT++   +PL+G+++  G  I    +VK  IF++PE I +P  ++  +Y+  VA  Y  + + + +   LE  E+    +  + ++SQG  RRVQL +  ++   + +LDDP++ ID  S  + ++ ++E L   G+V++++R  + S+  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_008992358.1|</Hit_id>
+  <Hit_def>gliding motility-associated ABC transporter ATP-binding subunit GldA [Galbibacter marinus] &gt;gb|EKF54385.1| gliding motility-associated ABC transporter ATP-binding subunit GldA [Galbibacter marinus]</Hit_def>
+  <Hit_accession>WP_008992358</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>5.93467e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPIT----KVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLD-LKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISS--REELSYCD</Hsp_qseq>
+      <Hsp_hseq>IEIKNISKSYGDKQALDNISFSIKKGEIVGLLGPNGAGKSTLMKILTTYLSPDKGSVMVNNYSASTQPMQVKGSIGYLPEHNPLHLEMYVREYLRYITSIY--KVSKDQIEPVLQDCGLGDHANKKIGSLSKGYRQRVGLAAALVSNPEVLILDEPTTGLDPNQLIEIRNLIREAGREKTILLSTHIMQEVEAICD</Hsp_hseq>
+      <Hsp_midline>+EI+++S  Y DK  L+ I+ +I+KG +V   GPNG GK+TL+K ++TYL P KG ++ N    +    +VKG I +LPE   +  ++ V +YL+ + S+Y  KV+K++I   L+   + D   KK+G LS+G  +RV LA+ L+ N E+ +LD+P   +D +   ++   I E  +EK I++ +   +E  + CD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_013561508.1|</Hit_id>
+  <Hit_def>ATP-binding cassette domain-containing protein [Anaerolinea thermophila] &gt;dbj|BAJ65167.1| putative ABC transporter ATP-binding protein [Anaerolinea thermophila UNI-1]</Hit_def>
+  <Hit_accession>WP_013561508</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>9.03053e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK---VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKK-KLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCDVNE</Hsp_qseq>
+      <Hsp_hseq>SRLEVQSLRCGYHFPLLE-ISFHLEEGEYLFLKGANGLGKTTFVRTLVGILPPLQGEALFNGKPIHKHPSLSRDIFYLPEKIEVPEFLTPLQYVDLIREYYEVPPDHSRFHEGLALLNITPLSNVPMRNLSMGQKRRAQLLAAYVLQRKLTVLDDPLIAIDGEGE-EFLARFIHHMNQHSMIVLTSRGDIATLHATE</Hsp_hseq>
+      <Hsp_midline>S+LE++ L  GY  P+LE I+  +E+G  +   G NG+GKTT ++T+   L PL+GE ++NG PI K   +   IF+LPE+I VP  ++   Y+  +   Y V  + +   + L  + +  L    +  LS G  RR QL +  ++  ++ VLDDP++AID + + + L   +  + +  +++++SR +++     E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_055428595.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Thermococcus thioreducens] &gt;gb|ASJ12199.1| hypothetical protein A3L14_04550 [Thermococcus thioreducens] &gt;gb|KQH82940.1| hypothetical protein AMR53_01545 [Thermococcus thioreducens] &gt;emb|SEV95027.1| ABC-2 type transport system ATP-binding protein/Cu-processing system ATP-binding protein [Thermococcus thioreducens]</Hit_def>
+  <Hit_accession>WP_055428595</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.05356e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEI------IYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDL-KKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR</Hsp_qseq>
+      <Hsp_hseq>LSLRNLTCGYRVPLLS-ASFELKTGEHLVIYGPNGTGKTTLLRTIVGLLRPISGEVEILGKRAKRGSPIMK---NVFYLPETIDLPAHLRAREYVELIFDLYGEKPDLARIHEGLNVLELGPFYQRRIGNLSQGQRRKLQLLVAYTLKRKLTVLDDPTIGIDK-SGSNIVRYIVNVLTESGAVLITSR</Hsp_hseq>
+      <Hsp_midline>L +R+L+ GY  P+L   +  ++ G  +  +GPNG GKTTLL+TI   L+P+ GE+         G PI K    +F+LPE I +P  +   +Y++ +  LYG K +   I + L  +E+    ++++G LSQG  R++QL     +  ++ VLDDP + ID+ S   +++ I+ +L E G V+I+SR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_082663008.1|</Hit_id>
+  <Hit_def>ATP-binding cassette domain-containing protein [Thermococcus sp. 2319x1]</Hit_def>
+  <Hit_accession>WP_082663008</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.26503e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLV-NAEIYVLDDPVVAIDEDSKHKVLKSILEILKE-KGIVIISSREE</Hsp_qseq>
+      <Hsp_hseq>LKVSNLVAGYGKTPIIGPISFRVERGNAIILYGPNGTGKTTLLKTLATLLRPLDGKMELNGRPIHRVKNKIFLLDERVNLPKSLRAIEYMKVISALYG--VFSEDYSDLLKRFGI-DPSTLISHLSQGQQRRLQLATTLSAKSAELFLIDDPTVGLDDYSVEILIPWLVEQLRRMEKIVVITTRTE</Hsp_hseq>
+      <Hsp_midline>L++ +L  GY K P++  I+  +E+GN +  +GPNG GKTTLLKT++T L+PL G++  NG PI +VK KIF L E + +P+ +   +Y+K +++LYG  V   +  D L+   + D    +  LSQG  RR+QLA+TL   +AE++++DDP V +D+ S   ++  ++E L+  + IV+I++R E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|ALV62336.1|</Hit_id>
+  <Hit_def>ABC transporter, ATP-binding protein [Thermococcus sp. 2319x1]</Hit_def>
+  <Hit_accession>ALV62336</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.72375e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLV-NAEIYVLDDPVVAIDEDSKHKVLKSILEILKE-KGIVIISSREE</Hsp_qseq>
+      <Hsp_hseq>LKVSNLVAGYGKTPIIGPISFRVERGNAIILYGPNGTGKTTLLKTLATLLRPLDGKMELNGRPIHRVKNKIFLLDERVNLPKSLRAIEYMKVISALYG--VFSEDYSDLLKRFGI-DPSTLISHLSQGQQRRLQLATTLSAKSAELFLIDDPTVGLDDYSVEILIPWLVEQLRRMEKIVVITTRTE</Hsp_hseq>
+      <Hsp_midline>L++ +L  GY K P++  I+  +E+GN +  +GPNG GKTTLLKT++T L+PL G++  NG PI +VK KIF L E + +P+ +   +Y+K +++LYG  V   +  D L+   + D    +  LSQG  RR+QLA+TL   +AE++++DDP V +D+ S   ++  ++E L+  + IV+I++R E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|RLG12819.1|</Hit_id>
+  <Hit_def>multidrug ABC transporter ATP-binding protein [Candidatus Pacearchaeota archaeon]</Hit_def>
+  <Hit_accession>RLG12819</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.15986e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDKPV--LERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPI---TKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGE-LSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSYCD</Hsp_qseq>
+      <Hsp_hseq>LQTRNLHKTYDKEVKAVQGIDLEIKKGEVFGLLGPNGAGKTTLIKMLVGILKPDKGEILFNGIKLNGTTELKGMIGYAPQELVFYPFLTVLENMQLYASLYSIKNTRKRIDEILELFQLTELSKRQAEKMSGGQKRRLNIALSLLHSPQILFLDEPSSGMDPQSRNVLWESVEQLKEKEGVTILLSTHLMEVAD</Hsp_hseq>
+      <Hsp_midline>L+ R+L   YDK V  ++ I + I+KG V    GPNG GKTTL+K +   LKP KGEI++NG+ +   T++KG I + P+E++    ++V + ++  ASLY +K  +  I + LE  ++ +L K+  E +S G  RR+ +A +LL + +I  LD+P   +D  S++ + +S+ ++ +++G+ I+ S   +   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_066166742.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [[Bacillus] sp. KCTC 13219] &gt;gb|KYG90528.1| ABC transporter ATP-binding protein [[Bacillus] sp. KCTC 13219]</Hit_def>
+  <Hit_accession>WP_066166742</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>8.27264e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELS</Hsp_qseq>
+      <Hsp_hseq>LEVQTINKSYKKKSVLENISLTIERGEIVGLVGENGAGKSTLLHILSTLMRPDAGEIYWNGLSYRQHYQEIKQKIGFVPQDLAIWEHFSVEDNMRYFEQLSWKNIGIEACKKICEEMQLMQWKEPVSSLSGGMKRKLNLAISLIHQPELLLLDEPTVGIDMRSKQEIGRFLQLLAKTQGTTIIYTSHDMS</Hsp_hseq>
+      <Hsp_midline>LE++ ++  Y K  VLE I++TIE+G +V   G NG GK+TLL  +ST ++P  GEI +NG+   +    +K KI F+P+++ +    SVED ++    L    +         E ++++  K+ +  LS G  R++ LA +L+   E+ +LD+P V ID  SK ++ + +  + K +G  II +  ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_107943178.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Lysinibacillus fluoroglycofenilyticus]</Hit_def>
+  <Hit_accession>WP_107943178</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.04618e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELS</Hsp_qseq>
+      <Hsp_hseq>LEVQTINKSYKKKSVLENISLTIERGEIVGLVGENGAGKSTLLHILSTLLRPDAGEIYWNGLSYRQHYQEIKQKIGFVPQDLAIWEHFSVEDNMRYFEQLSWKNIGIEACKKICEEMQLVQWKEPVSSLSGGMKRKLNLAISLIHQPELLLLDEPTVGIDMRSKQEIGRFLQLLAKTQGTTIIYTSHDMS</Hsp_hseq>
+      <Hsp_midline>LE++ ++  Y K  VLE I++TIE+G +V   G NG GK+TLL  +ST L+P  GEI +NG+   +    +K KI F+P+++ +    SVED ++    L    +         E ++++  K+ +  LS G  R++ LA +L+   E+ +LD+P V ID  SK ++ + +  + K +G  II +  ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|PCJ78169.1|</Hit_id>
+  <Hit_def>manganese ABC transporter ATP-binding protein [Dehalococcoidia bacterium] &gt;gb|PKB75911.1| hypothetical protein BZY85_06815 [SAR202 cluster bacterium MP-SAtl-SRR3965592-G1] &gt;gb|PKB80368.1| hypothetical protein BZY84_09690 [SAR202 cluster bacterium MP-SInd-SRR3963457-G1] &gt;gb|PKB83627.1| hypothetical protein BZY86_09805 [SAR202 cluster bacterium MP-NPac-SRR3961935-G1] &gt;gb|RUA23654.1| manganese ABC transporter ATP-binding protein [Chloroflexi bacterium] &gt;gb|RUA31136.1| manganese ABC transporter ATP-binding protein [Chloroflexi bacterium]</Hit_def>
+  <Hit_accession>PCJ78169</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>1.09807e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYD-KPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYG--------VKVNKNEIMDALESVEVLDLKKKL-GELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELSY----CDVNENLHK</Hsp_qseq>
+      <Hsp_hseq>LEVRNLWAGYNGKPVLEGVSFQVDRGDMVGIIGPNGSGKSTLIKTVLGLVKPMRGEVLVLGRDGAPERHLIGYTPQTELVDWDFPVTVFDVALMGRYSRRGLFRRTTKEDREAADASLELVKMFDLRDRLIGELSGGQRRRVLLARAMAHNPELLLLDEPMAGLDATAQHQLL-DLLDELRAKGATVVLSTHDLSCVSSRCDKAACLNR</Hsp_hseq>
+      <Hsp_midline>LE+R+L  GY+ KPVLE ++  +++G++V   GPNG GK+TL+KT+   +KP++GE++  G      +  I + P+  +V     V  +  A+   Y          K ++     +LE V++ DL+ +L GELS G  RRV LA  +  N E+ +LD+P+  +D  ++H++L  +L+ L+ KG  ++ S  +LS     CD    L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_066896626.1|</Hit_id>
+  <Hit_def>metal ABC transporter ATP-binding protein [Streptobacillus hongkongensis]</Hit_def>
+  <Hit_accession>WP_066896626</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.86572e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYD-KPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGV-----KVNKNE---IMDALESVEVLDLK-KKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKE</Hsp_qseq>
+      <Hsp_hseq>IEIKNLTVAYDEKPVLENLSLNIGKGQIWAVIGPNGAGKSTLIKTILEFLKPIVGDIKVNGEKYAKMRKKIAYVPQRGSVDWDFPTTLFDVVEMGSYGRVGFLKRVSKEEKVRVIEAIKQVDMLEFKDRQISELSGGQQQRVFLARALLQDAEIYLMDEPFQGVD----SKTEKSIVQILKK</Hsp_hseq>
+      <Hsp_midline>+EI++L+V YD KPVLE +++ I KG +    GPNG GK+TL+KTI  +LKP+ G+I  NG    K++ KI ++P+   V        +       YG      +V+K E   +++A++ V++L+ K +++ ELS G  +RV LA  LL +AEIY++D+P   +D     K  KSI++ILK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_049627812.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Bacillus sp. JFL15]</Hit_def>
+  <Hit_accession>WP_049627812</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.00065e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNK-----NEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR---EELSY-CD</Hsp_qseq>
+      <Hsp_hseq>LELTDLTKKYGDFTAVNHITLHVEKGEIFGLLGPNGAGKSTTVSMISTVLSPTGGTICINGMSLQKQPAAIKKVMGIVPQEIALYQALSAKDNLAFFGSLYGLSGKELDKRVDEVLDVIELKE--QRNQRVSEFSGGMKRRVNIGAALMNEPKLFILDEPTVGIDPQSRHHILETVKTLNQEKGMTVIYTSHYMEEVEYLCE</Hsp_hseq>
+      <Hsp_midline>LE+ DL+  Y D   +  IT+ +EKG +    GPNG GK+T +  IST L P  G I  NG+ + K    +K  +  +P+EI + + +S +D L    SLYG+   +     +E++D +E  E     +++ E S G  RRV + + L+   ++++LD+P V ID  S+H +L+++  + +EKG+ +I +    EE+ Y C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_097027657.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Clostridium peptidivorans]</Hit_def>
+  <Hit_accession>WP_097027657</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>7.51047e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGYD-KPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPI----TKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGV---KVNKNEIMDALESVEVLDLKKK-LGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISS</Hsp_qseq>
+      <Hsp_hseq>NKLEIKNLTKSYERKKANNNITLTLENG-VYGLLGPNGAGKTTLMKQITTLIKPTSGEIIYNGKNIYSIEDRYRGVIGYLPQEFGVYKNFSAKKFLQYVAALKGLDKREVDK-KIDELLNLVGLYDVRNKAVGKFSGGMKRRVGIAQVLLNDPKIIILDEPTAGLDPQERTRFRNLLSEISKDK-IIILST</Hsp_hseq>
+      <Hsp_midline>+KLEI++L+  Y+ K     IT+T+E G V    GPNG GKTTL+K I+T +KP  GEIIYNG  I     + +G I +LP+E  V +  S + +L+ VA+L G+   +V+K +I + L  V + D++ K +G+ S G  RRV +A  LL + +I +LD+P   +D   + +    + EI K+K I+I+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_095241859.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Bacillus siamensis] &gt;gb|PAD63025.1| export ABC transporter ATP-binding protein [Bacillus siamensis]</Hit_def>
+  <Hit_accession>WP_095241859</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>8.64051e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNK-----NEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR---EELSY-CD</Hsp_qseq>
+      <Hsp_hseq>LELTDLTKKYGDFTAVNHISLRVEKGEIFGLLGPNGAGKSTTVSMISTVLSPTGGTICINGMSLQKQPAAIKKVMGIVPQEIALYQALSAKDNLAFFGSLYGLSGKELDKRVDEVLDVIELKE--QRNQRVSEFSGGMKRRVNIGAALMNEPKLFILDEPTVGIDPQSRHHILETVKTLNQEKGMTVIYTSHYMEEVEYLCE</Hsp_hseq>
+      <Hsp_midline>LE+ DL+  Y D   +  I++ +EKG +    GPNG GK+T +  IST L P  G I  NG+ + K    +K  +  +P+EI + + +S +D L    SLYG+   +     +E++D +E  E     +++ E S G  RRV + + L+   ++++LD+P V ID  S+H +L+++  + +EKG+ +I +    EE+ Y C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_021625129.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Atopobium sp. oral taxon 810] &gt;gb|ERI06577.1| ABC transporter, ATP-binding protein [Atopobium sp. oral taxon 810 str. F0209]</Hit_def>
+  <Hit_accession>WP_021625129</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>1.07073e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYDK-PVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGV-PITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISS</Hsp_qseq>
+      <Hsp_hseq>LECKALSKQYREIAALDAIDLSLEAGQIIGLLGPNGSGKTTLIKLANGLIKPTSGQILIEGMAPCVETKAKVAYLPDRNFLPEYMSTAQLLDYYQDFF-VDFDRKRAIDMLTNLG-LDVSKRLKELSRGTREKVQLILTMSRNAHIYLLDEPIAGVDPAARDYILRAIISNYSPDSLVLIST</Hsp_hseq>
+      <Hsp_midline>LE + LS  Y +   L+ I +++E G ++   GPNG GKTTL+K  +  +KP  G+I+  G+ P  + K K+ +LP+   +P  +S    L      + V  ++   +D L ++  LD+ K+L ELS+GT  +VQL  T+  NA IY+LD+P+  +D  ++  +L++I+       +V+IS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_016936902.1|</Hit_id>
+  <Hit_def>daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein [Bacillus siamensis]</Hit_def>
+  <Hit_accession>WP_016936902</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.28595e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNK-----NEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR---EELSY-CD</Hsp_qseq>
+      <Hsp_hseq>LELTDLTKKYGDFTAVNHISLRVEKGEIFGLLGPNGAGKSTTVSMISTVLSPTDGTICINGMSLQKQPAAIKKVMGIVPQEIALYQALSAKDNLAFFGSLYGLSGKELDKRIDEVLDIIELKE--QRNQRVSEFSGGMKRRVNIGAALMNEPKLFILDEPTVGIDPQSRHHILETVKTLNQEKGMTVIYTSHYMEEVEYLCE</Hsp_hseq>
+      <Hsp_midline>LE+ DL+  Y D   +  I++ +EKG +    GPNG GK+T +  IST L P  G I  NG+ + K    +K  +  +P+EI + + +S +D L    SLYG+   +     +E++D +E  E     +++ E S G  RRV + + L+   ++++LD+P V ID  S+H +L+++  + +EKG+ +I +    EE+ Y C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_125121974.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Bacillus amyloliquefaciens] &gt;gb|QBG54609.1| antibiotic ABC transporter ATP-binding protein [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_125121974</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.64219e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNK-----NEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR---EELSY-CD</Hsp_qseq>
+      <Hsp_hseq>LELTDLTKKYGDFTAVNHISLRVEKGEIFGLLGPNGAGKSTTVSMISTVLSPTGGTICIDGTPLQEQPAAIKKVMGVVPQEIALYQALSAKDNLAFFGSLYGLSGKELYKRVDEVLDIIELKE--QCSQRVSEFSGGMKRRVNIGAALMNEPKLFILDEPTVGIDPQSRHHILDTVKTLNQEKGMTVIYTSHYMEEVEYLCE</Hsp_hseq>
+      <Hsp_midline>LE+ DL+  Y D   +  I++ +EKG +    GPNG GK+T +  IST L P  G I  +G P+ +    +K  +  +P+EI + + +S +D L    SLYG+   +     +E++D +E  E     +++ E S G  RRV + + L+   ++++LD+P V ID  S+H +L ++  + +EKG+ +I +    EE+ Y C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_021384439.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Clostridioides difficile] &gt;gb|EQF25114.1| ABC transporter family protein [Clostridioides difficile CD160]</Hit_def>
+  <Hit_accession>WP_021384439</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.65191e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGYDKPVL-ERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKV----KGKIFFLPEEIIVPRKISVEDYLKAVASLYGVK---VNKNEIMDALESVEVLDLKKK-LGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR</Hsp_qseq>
+      <Hsp_hseq>NKLEIKNLSKIYGKKVVNDNITITLENG-VYGLLGPNGAGKSTLMKQITTLIKPNNGQILYNGKDIFKMDDDYRNILGYLPQEFGIYKNFTAKQFLQYIGALKGLKGKDLNRN-IDELLELVGLYDVRNKAIGKFSGGMKRRVGIAQVLLNNPKIIVLDEPTAGLDPQERARFRNLIAKISRDK-IIILSTH</Hsp_hseq>
+      <Hsp_midline>+KLEI++LS  Y K V+ + IT+T+E G V    GPNG GK+TL+K I+T +KP  G+I+YNG  I K+    +  + +LP+E  + +  + + +L+ + +L G+K   +N+N I + LE V + D++ K +G+ S G  RRV +A  LL N +I VLD+P   +D   + +    I +I ++K I+I+S+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_071348401.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Bacillus amyloliquefaciens] &gt;gb|OIK20019.1| export ABC transporter ATP-binding protein [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_071348401</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.98267e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNK-----NEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR---EELSY-CD</Hsp_qseq>
+      <Hsp_hseq>LELTDLTKKYGDFTAVNHISLRVQKGEIFGLLGPNGAGKSTMVSMISTVLSPTGGTICIDGTPLQEQPAAIKKVMGVVPQEIALYQALSAKDNLAFFGSLYGLSGKELYKRVDEVLDIIELKE--QRSQRVSEFSGGMKRRVNIGAALMNEPKLFILDEPTVGIDPQSRHHILETVKTLNQEKGMTVIYTSHYMEEVEYLCE</Hsp_hseq>
+      <Hsp_midline>LE+ DL+  Y D   +  I++ ++KG +    GPNG GK+T++  IST L P  G I  +G P+ +    +K  +  +P+EI + + +S +D L    SLYG+   +     +E++D +E  E     +++ E S G  RRV + + L+   ++++LD+P V ID  S+H +L+++  + +EKG+ +I +    EE+ Y C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_042679690.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Anaerosalibacter massiliensis]</Hit_def>
+  <Hit_accession>WP_042679690</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>2.08138e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKV----KGKIFFLPEEIIVPRKISVEDYLKAVASLYGV---KVNKNEIMDALESVEVLDLKKK-LGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISS</Hsp_qseq>
+      <Hsp_hseq>NKLEIKNLTKSYGNKNANNNITITLENG-VYGLLGPNGAGKTTLMKQIATLIKPTTGEIIYNGKNIYSIEDEYRGVIGYLPQEFGVYKNFSAKSFLQYIAALKGLAKREANK-KIDELLNVVGLYDVRNKAIGKFSGGMKRRVGIAQVLLNDPKIIILDEPTAGLDPQERTR-FRNLLSAISKDKIIILST</Hsp_hseq>
+      <Hsp_midline>+KLEI++L+  Y +K     IT+T+E G V    GPNG GKTTL+K I+T +KP  GEIIYNG  I  +    +G I +LP+E  V +  S + +L+ +A+L G+   + NK +I + L  V + D++ K +G+ S G  RRV +A  LL + +I +LD+P   +D   + +  +++L  + +  I+I+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_013350868.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Bacillus amyloliquefaciens] &gt;gb|AEB61751.1| putative ABC transporter (ATP-binding protein) [Bacillus amyloliquefaciens LL3] &gt;gb|ARW37364.1| High-affinity branched-chain amino acid transport ATP-binding protein BraF [Bacillus amyloliquefaciens] &gt;gb|AZV91626.1| antibiotic ABC transporter ATP-binding protein [Bacillus amyloliquefaciens] &gt;gb|KYC96927.1| hypothetical protein B425_0199 [Bacillus amyloliquefaciens] &gt;gb|OBR26149.1| High-affinity branched-chain amino acid transport ATP-binding protein BraF [Bacillus amyloliquefaciens] &gt;emb|CBI41321.1| putative ABC transporter (ATP-binding protein) [Bacillus amyloliquefaciens DSM 7]</Hit_def>
+  <Hit_accession>WP_013350868</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>2.29552e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNK-----NEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR---EELSY-CD</Hsp_qseq>
+      <Hsp_hseq>LELTDLTKKYGDFTAVNHISLRVEKGEIFGLLGPNGAGKSTTVSMISTVLSPTGGTICIDGTPLQEQPAAIKKVMGVVPQEIALYQALSAKDNLAFFGSLYGLSGKELYKRVDEVLDIIELKE--QRSQRVSEFSGGMKRRVNIGAALMNEPKLFILDEPTVGIDPQSRHHILETVKTLNQEKGMTVIYTSHYMEEVEYLCE</Hsp_hseq>
+      <Hsp_midline>LE+ DL+  Y D   +  I++ +EKG +    GPNG GK+T +  IST L P  G I  +G P+ +    +K  +  +P+EI + + +S +D L    SLYG+   +     +E++D +E  E     +++ E S G  RRV + + L+   ++++LD+P V ID  S+H +L+++  + +EKG+ +I +    EE+ Y C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_064591926.1|</Hit_id>
+  <Hit_def>metal ABC transporter ATP-binding protein [Streptobacillus moniliformis]</Hit_def>
+  <Hit_accession>WP_064591926</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>2.92751e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYD-KPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGV-----KVNKNEI---MDALESVEVLDLK-KKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELS</Hsp_qseq>
+      <Hsp_hseq>IEIKDLVVTYDLEPVLENINLEIEKGDLMALVGPNGAGKSTLIKTILEFIKPVVGNIKVNGKEYRQEKKKIAYVPQRGSVDWDFPTTLFDVVMMGCYGRVGFLKKIPKEEIEKVNNAIKQVEMLEFKDRQISELSGGQQQRAFLARALVQDAEIYLMDEPFQGVDAVTEKSIIR-ILKELKNQGKTVIVVHHDLQ</Hsp_hseq>
+      <Hsp_midline>+EI+DL V YD +PVLE I + IEKG+++   GPNG GK+TL+KTI  ++KP+ G I  NG    + K KI ++P+   V        +   +   YG      K+ K EI    +A++ VE+L+ K +++ ELS G  +R  LA  L+ +AEIY++D+P   +D  ++  +++ IL+ LK +G  +I    +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_012858267.1|</Hit_id>
+  <Hit_def>metal ABC transporter ATP-binding protein [Streptobacillus moniliformis] &gt;gb|ACZ00709.1| ABC transporter related protein [Streptobacillus moniliformis DSM 12112] &gt;gb|AVL42892.1| metal ABC transporter ATP-binding protein [Streptobacillus moniliformis] &gt;emb|SQA14163.1| Zinc import ATP-binding protein ZnuC [Streptobacillus moniliformis]</Hit_def>
+  <Hit_accession>WP_012858267</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.05461e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGYD-KPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGV-----KVNKNEI---MDALESVEVLDLK-KKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSREELS</Hsp_qseq>
+      <Hsp_hseq>IEIKDLVVTYDLEPVLENINLEIEKGDLMALVGPNGAGKSTLIKTILEFIKPVVGNIKVNGKEYRQEKKKIAYVPQRGSVDWDFPTTLFDVVMMGCYGRVGFLKKIPKEEIEKVNNAIKQVEMLEFKDRQISELSGGQQQRAFLARALVQDAEIYLMDEPFQGVDAVTEKSIIR-ILKELKNQGKTVIVVHHDLQ</Hsp_hseq>
+      <Hsp_midline>+EI+DL V YD +PVLE I + IEKG+++   GPNG GK+TL+KTI  ++KP+ G I  NG    + K KI ++P+   V        +   +   YG      K+ K EI    +A++ VE+L+ K +++ ELS G  +R  LA  L+ +AEIY++D+P   +D  ++  +++ IL+ LK +G  +I    +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_091539920.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Alkaliphilus peptidifermentans] &gt;emb|SCY01799.1| ABC-2 type transport system ATP-binding protein [Alkaliphilus peptidifermentans DSM 18978]</Hit_def>
+  <Hit_accession>WP_091539920</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>4.74287e-24</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>SVGY---DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNG---VPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVN--KNEIMDALESVEV-LDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR</Hsp_qseq>
+      <Hsp_hseq>NLGYAYKENKVLEHINFSVEKGEVLGVLGPNGAGKSTLMTICATLLKPSEGEIVYYGDISIDYKKLRRKIGFVPQEIALYEELTPAENLYFFGKLYGLKRDELKLQVAHAAELTGIAINERKKIKELSGGMKRRVNIAAAIINSPEILIMDEPTVGIDIQSRREILMAVGNMMESGKAILYSSH</Hsp_hseq>
+      <Hsp_midline>++GY   +  VLE I  ++EKG V+   GPNG GK+TL+   +T LKP +GEI+Y G   +   K++ KI F+P+EI +  +++  + L     LYG+K +  K ++  A E   + ++ +KK+ ELS G  RRV +A+ ++ + EI ++D+P V ID  S+ ++L ++  +++    ++ SS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_053468529.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Clostridium sp. L74] &gt;gb|KOR24725.1| ABC transporter ATP-binding protein [Clostridium sp. L74]</Hit_def>
+  <Hit_accession>WP_053468529</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>5.08051e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGYD-KPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGV--KVNKNEIMDALESVEVLDLK-KKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISS</Hsp_qseq>
+      <Hsp_hseq>NKLEIKNLNKKFGVKKATDNITITLENG-VYGLLGPNGAGKTTLMKQITTLLTPDSGEIIFNGKDIKKDEDEYRGYIGYLPQDFEAYKNFSAKEFLNYMAALKGLDKRQAKGKIDELLHLVGLYDVRNKKVGKFSGGMKRRVGIAQVLLNDPKIMVLDEPTAGLDPQERSRFRNLIADISKDK-IIILST</Hsp_hseq>
+      <Hsp_midline>+KLEI++L+  +  K   + IT+T+E G V    GPNG GKTTL+K I+T L P  GEII+NG  I K     +G I +LP++    +  S +++L  +A+L G+  +  K +I + L  V + D++ KK+G+ S G  RRV +A  LL + +I VLD+P   +D   + +    I +I K+K I+I+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_035782959.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Clostridium botulinum] &gt;gb|AIY79119.1| ABC transporter family protein [Clostridium botulinum 202F] &gt;gb|KFX54094.1| ABC transporter ATP-binding protein [Clostridium botulinum] &gt;gb|KFX60085.1| ABC transporter ATP-binding protein [Clostridium botulinum] &gt;gb|KON12146.1| ABC transporter ATP-binding protein [Clostridium botulinum]</Hit_def>
+  <Hit_accession>WP_035782959</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>6.13668e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGYD-KPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKVKGK----IFFLPEEIIVPRKISVEDYLKAVASLYGV--KVNKNEIMDALESVEVLDLKKK-LGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISS</Hsp_qseq>
+      <Hsp_hseq>NKLEIKDLTKIYGRKRANDGITVTLENG-VYGLLGPNGAGKTTLMKQITTLIKPDKGEILYNGEDIFNMDDKYRDLIGYLPQEFGVYKNFTAKHFLQYVGSLKGMNGKILNSKVDELLELVGLYDVRNKAIGKFSGGMKRRVGIAQVLLNDPKIIVLDEPTAGLDPQERTRFRNLIAKISRDK-VIILST</Hsp_hseq>
+      <Hsp_midline>+KLEI+DL+  Y  K   + IT+T+E G V    GPNG GKTTL+K I+T +KP KGEI+YNG  I  +  K    I +LP+E  V +  + + +L+ V SL G+  K+  +++ + LE V + D++ K +G+ S G  RRV +A  LL + +I VLD+P   +D   + +    I +I ++K ++I+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_012200006.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Lachnoclostridium phytofermentans] &gt;gb|ABX42352.1| ABC transporter related [Lachnoclostridium phytofermentans ISDg]</Hit_def>
+  <Hit_accession>WP_012200006</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>7.03339e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGYDKP-VLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITKV----KGKIFFLPEEIIVPRKISVEDYLKAVASLYGV--KVNKNEIMDALESVEVLDLKKK-LGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISS</Hsp_qseq>
+      <Hsp_hseq>NKLEIKKLTKSYGKKNANSNITLTLENG-VYGLLGPNGAGKTTLMKQIATLIKPTSGEIIYNDNNIYSMEDNYRGVIGYLPQEFGAYKNFSAKKFLQYVAALKGVDKREANNKIEELLKLVGLYDVRNKAVGKFSGGMKRRVGIAQVLLNDPKIIILDEPTAGLDPQERTRFRNLLSEISKDK-IIILST</Hsp_hseq>
+      <Hsp_midline>+KLEI+ L+  Y K      IT+T+E G V    GPNG GKTTL+K I+T +KP  GEIIYN   I  +    +G I +LP+E    +  S + +L+ VA+L GV  +   N+I + L+ V + D++ K +G+ S G  RRV +A  LL + +I +LD+P   +D   + +    + EI K+K I+I+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_106056057.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Mogibacterium diversum] &gt;gb|AVM47358.1| ABC transporter ATP-binding protein [Mogibacterium diversum]</Hit_def>
+  <Hit_accession>WP_106056057</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>8.42582e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>SKLEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNG-VPITKVKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNKNEIMDALESVEVLDLKK--KLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR</Hsp_qseq>
+      <Hsp_hseq>SIIEIKDLSKAYGSKLALSGVDLDIDKGQIVGLMGPNGSGKTTLIKIIMGLLRPDAGEVLIDGDRPSEKTKAKVAYLPDKMTYPTYMTA----GSLVRLYQDFFDDFDKLKALSMLNDLGIEKGLKLKAMSKGTKEKVQLILTMARNAEVYLLDEPIAGVDPATRDYILRTIITNYNPEAVVIISTH</Hsp_hseq>
+      <Hsp_midline>S +EI+DLS  Y  K  L  + + I+KG +V   GPNG GKTTL+K I   L+P  GE++ +G  P  K K K+ +LP+++  P  ++      ++  LY    +  + + AL  +  L ++K  KL  +S+GT  +VQL  T+  NAE+Y+LD+P+  +D  ++  +L++I+     + +VIIS+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_053104616.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Bacillus velezensis] &gt;gb|KOC22763.1| antibiotic ABC transporter ATP-binding protein [Bacillus velezensis] &gt;gb|KOC23858.1| antibiotic ABC transporter ATP-binding protein [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_053104616</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.05651e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LEIRDLSVGY-DKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTISTYLKPLKGEIIYNGVPITK----VKGKIFFLPEEIIVPRKISVEDYLKAVASLYGVKVNK-----NEIMDALESVEVLDLKKKLGELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEILKEKGIVIISSR---EELSY-CD</Hsp_qseq>
+      <Hsp_hseq>LELTDLTKKYGDFTAVNHISLRVEKGEIFGLLGPNGAGKSTTVSMISTVLPPTGGTICIDGTSLQEQPAAIKKVMGVVPQEIALYQALSAKDNLAFFGSLYGLSGKELCKRVDEVLDIIELKE--QRNQRISEFSGGMKRRVNIGAALMIEPKLFILDEPTVGIDPQSRHHILETVKTLNQEKGMTVIYTSHYMEEVEYLCE</Hsp_hseq>
+      <Hsp_midline>LE+ DL+  Y D   +  I++ +EKG +    GPNG GK+T +  IST L P  G I  +G  + +    +K  +  +P+EI + + +S +D L    SLYG+   +     +E++D +E  E     +++ E S G  RRV + + L++  ++++LD+P V ID  S+H +L+++  + +EKG+ +I +    EE+ Y C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
