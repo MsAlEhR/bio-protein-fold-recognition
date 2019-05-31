@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_147521</BlastOutput_query-ID>
+  <BlastOutput_query-def>d1vpya_c</BlastOutput_query-def>
+  <BlastOutput_query-len>269</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_147521</Iteration_query-ID>
+  <Iteration_query-def>d1vpya_c</Iteration_query-def>
+  <Iteration_query-len>269</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1ZTV|A</Hit_id>
+  <Hit_def>Chain A, Hypothetical Protein [Enterococcus faecalis V583] &gt;pdb|1ZTV|B Chain B, Hypothetical Protein [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>1ZTV_A</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>565.844</Hsp_bit-score>
+      <Hsp_score>1457</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>HHHHMIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>HHHHMIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>HHHHMIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_002355228.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF72 domain-containing protein [Enterococcus] &gt;ref|NP_814157.1| hypothetical protein EF0366 [Enterococcus faecalis V583] &gt;gb|AAO80228.1| hypothetical protein EF_0366 [Enterococcus faecalis V583] &gt;gb|ADX78962.1| conserved hypothetical protein [Enterococcus faecalis 62] &gt;gb|AHI39458.1| Hypothetical protein DENG_00353 [Enterococcus faecalis DENG1] &gt;gb|APE71592.1| hypothetical protein BSG25_01565 [Enterococcus faecalis] &gt;gb|EEI58090.1| hypothetical protein HMPREF0346_0901 [Enterococcus faecalis EnGen0297] &gt;gb|EET94419.1| conserved hypothetical protein [Enterococcus faecalis T1] &gt;gb|EEU22240.1| conserved hypothetical protein [Enterococcus faecalis T3] &gt;gb|EEU81060.1| conserved hypothetical protein [Enterococcus faecalis D6] &gt;gb|EEU92437.1| conserved hypothetical protein [Enterococcus faecalis X98] &gt;gb|EFQ13285.1| hypothetical protein HMPREF9504_01122 [Enterococcus faecalis TX0102] &gt;gb|EFQ70934.1| hypothetical protein HMPREF9510_01348 [Enterococcus faecalis TX0470] &gt;gb|EFT38178.1| hypothetical protein HMPREF9494_02032 [Enterococcus faecalis TX2137] &gt;gb|EFT90825.1| hypothetical protein HMPREF9497_02304 [Enterococcus faecalis TX4244] &gt;gb|EFT97838.1| hypothetical protein HMPREF9502_00775 [Enterococcus faecalis TX0031] &gt;gb|EFU00981.1| hypothetical protein HMPREF9503_00465 [Enterococcus faecalis TX0043] &gt;gb|EFU02884.1| hypothetical protein HMPREF9508_01329 [Enterococcus faecalis TX0312] &gt;gb|EFU14621.1| hypothetical protein HMPREF9518_01609 [Enterococcus faecalis TX1342] &gt;gb|EFU87019.1| hypothetical protein HMPREF9507_01608 [Enterococcus faecalis TX0309B] &gt;gb|EFU94466.1| hypothetical protein HMPREF9506_00822 [Enterococcus faecalis TX0309A] &gt;gb|EJU89036.1| hypothetical protein HMPREF1327_01791 [Enterococcus faecalis 599] &gt;gb|EOD86949.1| hypothetical protein Q93_02153 [Enterococcus faecalis EnGen0065] &gt;gb|EOD95655.1| hypothetical protein Q9I_02083 [Enterococcus faecalis EnGen0074] &gt;gb|EOD97866.1| hypothetical protein Q9G_00354 [Enterococcus faecalis EnGen0076] &gt;gb|EOE00968.1| hypothetical protein Q9K_00994 [Enterococcus faecalis EnGen0075] &gt;gb|EOE05097.1| hypothetical protein Q9M_01590 [Enterococcus faecalis EnGen0058] &gt;gb|EOE05666.1| hypothetical protein Q9O_00326 [Enterococcus faecalis EnGen0073] &gt;gb|EOE11562.1| hypothetical protein Q9S_02511 [Enterococcus faecalis EnGen0080] &gt;gb|EOE13524.1| hypothetical protein Q9W_02127 [Enterococcus faecalis EnGen0060] &gt;gb|EOE19159.1| hypothetical protein Q9Y_02687 [Enterococcus faecalis EnGen0081] &gt;gb|EOE21777.1| hypothetical protein QA5_02135 [Enterococcus faecalis EnGen0083] &gt;gb|EOE22930.1| hypothetical protein QA3_01474 [Enterococcus faecalis EnGen0082] &gt;gb|EOE27808.1| hypothetical protein QAA_02620 [Enterococcus faecalis EnGen0072] &gt;gb|EOE31970.1| hypothetical protein QA9_00312 [Enterococcus faecalis EnGen0071] &gt;gb|EOE36164.1| hypothetical protein QAM_02764 [Enterococcus faecalis EnGen0070] &gt;gb|EOE36477.1| hypothetical protein QAG_02970 [Enterococcus faecalis EnGen0067] &gt;gb|EOE43588.1| hypothetical protein S93_00383 [Enterococcus faecalis EnGen0106] &gt;gb|EOE49577.1| hypothetical protein S95_00375 [Enterococcus faecalis EnGen0088] &gt;gb|EOE50175.1| hypothetical protein S99_01415 [Enterococcus faecalis EnGen0089] &gt;gb|EOE55536.1| hypothetical protein S97_00368 [Enterococcus faecalis EnGen0120] &gt;gb|EOE57516.1| hypothetical protein S9A_00375 [Enterococcus faecalis EnGen0090] &gt;gb|EOE65285.1| hypothetical protein S9C_00802 [Enterococcus faecalis EnGen0109] &gt;gb|EOE65972.1| hypothetical protein S9G_00377 [Enterococcus faecalis EnGen0091] &gt;gb|EOE66777.1| hypothetical protein S9E_00378 [Enterococcus faecalis EnGen0110] &gt;gb|EOE75797.1| hypothetical protein S9I_00378 [Enterococcus faecalis EnGen0092] &gt;gb|EOE76463.1| hypothetical protein S9K_00364 [Enterococcus faecalis EnGen0085] &gt;gb|EOE76665.1| hypothetical protein S9M_00369 [Enterococcus faecalis EnGen0111] &gt;gb|EOE85670.1| hypothetical protein S9O_00364 [Enterococcus faecalis EnGen0119] &gt;gb|EOE86772.1| hypothetical protein S9S_00363 [Enterococcus faecalis EnGen0094] &gt;gb|EOE91915.1| hypothetical protein S9U_00364 [Enterococcus faecalis EnGen0095] &gt;gb|EOE93868.1| hypothetical protein S9W_00368 [Enterococcus faecalis EnGen0096] &gt;gb|EOE96364.1| hypothetical protein S9Y_00374 [Enterococcus faecalis EnGen0097] &gt;gb|EOF00160.1| hypothetical protein SA5_00728 [Enterococcus faecalis EnGen0098] &gt;gb|EOF02681.1| hypothetical protein SA3_00376 [Enterococcus faecalis EnGen0112] &gt;gb|EOF06897.1| hypothetical protein SA7_00361 [Enterococcus faecalis EnGen0099] &gt;gb|EOF12020.1| hypothetical protein SAQ_00364 [Enterococcus faecalis EnGen0114] &gt;gb|EOF12280.1| hypothetical protein SAE_00385 [Enterococcus faecalis EnGen0113] &gt;gb|EOF16450.1| hypothetical protein SAU_00367 [Enterococcus faecalis EnGen0100] &gt;gb|EOF21415.1| hypothetical protein SAW_00358 [Enterococcus faecalis EnGen0107] &gt;gb|EOF22031.1| hypothetical protein SAY_00327 [Enterococcus faecalis EnGen0087] &gt;gb|EOF29045.1| hypothetical protein SC3_00362 [Enterococcus faecalis EnGen0108] &gt;gb|EOF36167.1| hypothetical protein SCK_00352 [Enterococcus faecalis EnGen0103] &gt;gb|EOF36827.1| hypothetical protein SCG_00352 [Enterococcus faecalis EnGen0102] &gt;gb|EOF43334.1| hypothetical protein SCM_00344 [Enterococcus faecalis EnGen0104] &gt;gb|EOF44368.1| hypothetical protein SCO_00335 [Enterococcus faecalis EnGen0105] &gt;gb|EOF44658.1| hypothetical protein SC9_00327 [Enterococcus faecalis EnGen0101] &gt;gb|EOF48635.1| hypothetical protein SCQ_00337 [Enterococcus faecalis EnGen0116] &gt;gb|EOF51021.1| hypothetical protein SCU_00342 [Enterococcus faecalis EnGen0118] &gt;gb|EOF53483.1| hypothetical protein SCS_00327 [Enterococcus faecalis EnGen0117] &gt;gb|EOG36838.1| hypothetical protein SMW_00383 [Enterococcus faecalis EnGen0194] &gt;gb|EOG39912.1| hypothetical protein SO1_02999 [Enterococcus faecalis EnGen0195] &gt;gb|EOG46527.1| hypothetical protein SO3_00679 [Enterococcus faecalis EnGen0196] &gt;gb|EOG49313.1| hypothetical protein SO5_00363 [Enterococcus faecalis EnGen0197] &gt;gb|EOG55335.1| hypothetical protein SO9_00361 [Enterococcus faecalis EnGen0199] &gt;gb|EOG58368.1| hypothetical protein SOA_00368 [Enterococcus faecalis EnGen0200] &gt;gb|EOG64628.1| hypothetical protein SOI_00367 [Enterococcus faecalis EnGen0204] &gt;gb|EOG65134.1| hypothetical protein SOK_00703 [Enterococcus faecalis EnGen0207] &gt;gb|EOG68031.1| hypothetical protein SOM_00350 [Enterococcus faecalis EnGen0205] &gt;gb|EOG73003.1| hypothetical protein SOO_00356 [Enterococcus faecalis EnGen0228] &gt;gb|EOG77378.1| hypothetical protein SOQ_00366 [Enterococcus faecalis EnGen0206] &gt;gb|EOG79970.1| hypothetical protein SOS_00378 [Enterococcus faecalis EnGen0374] &gt;gb|EOG80260.1| hypothetical protein SOU_00447 [Enterococcus faecalis EnGen0208] &gt;gb|EOG85928.1| hypothetical protein SOW_00382 [Enterococcus faecalis EnGen0209] &gt;gb|EOG89691.1| hypothetical protein SQ1_00429 [Enterococcus faecalis EnGen0211] &gt;gb|EOG91379.1| hypothetical protein SOY_00382 [Enterococcus faecalis EnGen0210] &gt;gb|EOG93707.1| hypothetical protein SQ3_00376 [Enterococcus faecalis EnGen0212] &gt;gb|EOH01270.1| hypothetical protein SQ5_00387 [Enterococcus faecalis EnGen0213] &gt;gb|EOH01961.1| hypothetical protein SQ7_00371 [Enterococcus faecalis EnGen0214] &gt;gb|EOH02927.1| hypothetical protein SQ9_00389 [Enterococcus faecalis EnGen0215] &gt;gb|EOH11274.1| hypothetical protein SQC_00379 [Enterococcus faecalis EnGen0217] &gt;gb|EOH11493.1| hypothetical protein SQA_00697 [Enterococcus faecalis EnGen0216] &gt;gb|EOH12189.1| hypothetical protein SQE_00377 [Enterococcus faecalis EnGen0218] &gt;gb|EOH21133.1| hypothetical protein SQK_00363 [Enterococcus faecalis EnGen0221] &gt;gb|EOH21342.1| hypothetical protein SQI_00697 [Enterococcus faecalis EnGen0220] &gt;gb|EOH21552.1| hypothetical protein SQG_00334 [Enterococcus faecalis EnGen0219] &gt;gb|EOH28163.1| hypothetical protein SQO_00371 [Enterococcus faecalis EnGen0223] &gt;gb|EOH31729.1| hypothetical protein SQQ_00115 [Enterococcus faecalis EnGen0224] &gt;gb|EOH32060.1| hypothetical protein SQM_00366 [Enterococcus faecalis EnGen0222] &gt;gb|EOH39095.1| hypothetical protein SQU_00364 [Enterococcus faecalis EnGen0226] &gt;gb|EOH40411.1| hypothetical protein SQS_00361 [Enterococcus faecalis EnGen0225] &gt;gb|EOH65366.1| hypothetical protein UA9_00419 [Enterococcus faecalis EnGen0235] &gt;gb|EOI15295.1| hypothetical protein UCK_00124 [Enterococcus faecalis EnGen0242] &gt;gb|EOI21691.1| hypothetical protein UCW_00340 [Enterococcus faecalis EnGen0248] &gt;gb|EOI24383.1| hypothetical protein UCY_00381 [Enterococcus faecalis EnGen0252] &gt;gb|EOI33933.1| hypothetical protein UE7_00325 [Enterococcus faecalis EnGen0250] &gt;gb|EOI35090.1| hypothetical protein UE3_00369 [Enterococcus faecalis EnGen0231] &gt;gb|EOI84650.1| hypothetical protein UKW_00370 [Enterococcus faecalis EnGen0310 = MMH594] &gt;gb|EOI85283.1| hypothetical protein UKU_00320 [Enterococcus faecalis EnGen0297] &gt;gb|EOI89283.1| hypothetical protein UKY_00453 [Enterococcus faecalis EnGen0294] &gt;gb|EOJ02482.1| hypothetical protein UMG_00328 [Enterococcus faecalis EnGen0291] &gt;gb|EOJ06818.1| hypothetical protein UMI_00340 [Enterococcus faecalis EnGen0282] &gt;gb|EOJ13901.1| hypothetical protein UMO_00346 [Enterococcus faecalis EnGen0304] &gt;gb|EOJ15234.1| hypothetical protein UMM_00371 [Enterococcus faecalis EnGen0279] &gt;gb|EOJ18750.1| hypothetical protein UMQ_00411 [Enterococcus faecalis EnGen0281] &gt;gb|EOJ66407.1| hypothetical protein WMQ_00333 [Enterococcus faecalis EnGen0350] &gt;gb|EOK03501.1| hypothetical protein WOM_00317 [Enterococcus faecalis EnGen0360] &gt;gb|EOK26182.1| hypothetical protein WQ3_00395 [Enterococcus faecalis EnGen0338] &gt;gb|EOK48505.1| hypothetical protein Q99_02454 [Enterococcus faecalis EnGen0064] &gt;gb|EOK64234.1| hypothetical protein QAK_01780 [Enterococcus faecalis EnGen0069] &gt;gb|EOK64490.1| hypothetical protein QAI_00122 [Enterococcus faecalis EnGen0068] &gt;gb|EOL20032.1| hypothetical protein WQ5_00406 [Enterococcus faecalis EnGen0339] &gt;gb|EOL32250.1| hypothetical protein WMA_00324 [Enterococcus faecalis EnGen0346] &gt;gb|EOL56308.1| hypothetical protein UCG_00397 [Enterococcus faecalis EnGen0240] &gt;gb|EOL56868.1| hypothetical protein UCE_00479 [Enterococcus faecalis EnGen0239] &gt;gb|EOL78992.1| hypothetical protein UM5_00458 [Enterococcus faecalis EnGen0280] &gt;gb|EOL79838.1| hypothetical protein UM3_00416 [Enterococcus faecalis EnGen0307] &gt;gb|EOM52752.1| hypothetical protein SOC_00386 [Enterococcus faecalis EnGen0201] &gt;gb|EOM52958.1| hypothetical protein SOE_00375 [Enterococcus faecalis EnGen0202] &gt;gb|EOM59581.1| hypothetical protein SOG_00366 [Enterococcus faecalis EnGen0203] &gt;gb|EOT46820.1| hypothetical protein OO5_02922 [Enterococcus faecalis V583] &gt;gb|EOT90016.1| hypothetical protein I574_00788 [Enterococcus faecalis V583] &gt;gb|EPH75092.1| hypothetical protein D926_02319 [Enterococcus faecalis D811610-10] &gt;gb|EPI28047.1| hypothetical protein D350_02558 [Enterococcus faecalis VC1B-1] &gt;gb|EPI35830.1| hypothetical protein D347_02950 [Enterococcus faecalis LA3B-2] &gt;gb|EPR47607.1| hypothetical protein EF10244_02625 [Enterococcus faecalis 10244] &gt;gb|ERL11253.1| PF01904 family protein [Enterococcus faecalis E12] &gt;gb|ERT28367.1| hypothetical protein O996_00613 [Enterococcus faecalis BM4654] &gt;gb|ERT29405.1| hypothetical protein O995_00417 [Enterococcus faecalis BM4539] &gt;gb|ETT94294.1| hypothetical protein P001_00071 [Enterococcus faecalis EnGen0401] &gt;gb|ETU26747.1| hypothetical protein P013_01483 [Enterococcus faecalis EnGen0413] &gt;gb|ETU63138.1| hypothetical protein P026_00337 [Enterococcus faecalis EnGen0426] &gt;gb|ETU65529.1| hypothetical protein P027_02914 [Enterococcus faecalis EnGen0427] &gt;gb|KAJ62389.1| hypothetical protein P783_0078 [Enterococcus faecalis GA2] &gt;gb|KAJ81818.1| hypothetical protein P784_0186 [Enterococcus faecalis GAN13] &gt;gb|KDE17866.1| hypothetical protein HMPREF2097_00989 [Enterococcus faecalis 918] &gt;gb|KGQ72516.1| hypothetical protein NZ06_13810 [Enterococcus faecalis] &gt;gb|KII46648.1| hypothetical protein QQ23_14260 [Enterococcus faecalis] &gt;gb|KKA48137.1| hypothetical protein EFMMH594_07242 [Enterococcus faecalis EnGen0310 = MMH594] &gt;gb|KOA02062.1| hypothetical protein VS87_12795 [Enterococcus faecalis] &gt;gb|OCK16364.1| hypothetical protein A8L52_08935 [Enterococcus faecalis] &gt;gb|OLL35202.1| hypothetical protein [Enterococcus faecalis] &gt;gb|OOP52242.1| hypothetical protein BHU78_02460 [Enterococcus faecalis] &gt;gb|OOP52710.1| hypothetical protein BHU77_10785 [Enterococcus faecalis] &gt;gb|ORE51526.1| hypothetical protein B6A11_12440 [Enterococcus faecalis] &gt;gb|OSC87317.1| hypothetical protein SP66_01895 [Enterococcus faecalis] &gt;gb|OSC88601.1| hypothetical protein SP65_09855 [Enterococcus faecalis] &gt;gb|OSH32910.1| hypothetical protein WZ211_1114 [Enterococcus faecalis] &gt;gb|OSH46243.1| hypothetical protein YM392_1164 [Enterococcus faecalis] &gt;gb|OSH47049.1| hypothetical protein WZ342_0103 [Enterococcus faecalis] &gt;gb|OSM30949.1| hypothetical protein B6S43_09525 [Enterococcus faecalis] &gt;gb|OTP29077.1| hypothetical protein A5823_002064 [Enterococcus faecalis] &gt;gb|OYN34383.1| hypothetical protein B7D91_09975 [Enterococcus faecalis] &gt;gb|PCP69909.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PJC89132.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PKZ00712.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PLA96428.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PNL46426.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB40508.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB74227.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB86717.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB96812.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC09694.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC36791.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC86059.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC89874.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD03185.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD58312.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE44298.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE58641.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE74571.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF14707.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF38353.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF61631.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG11098.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG22594.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG38694.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG61700.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG84729.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQV97363.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQW04700.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQW12676.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PTN69502.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PTN73374.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PTN76541.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PTN80774.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PTN83451.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PTN86616.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PTN89781.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PVE30094.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RBR45596.1| hypothetical protein EB23_00950 [Enterococcus faecalis] &gt;gb|RBR79052.1| hypothetical protein EA70_02078 [Enterococcus faecalis] &gt;gb|RBR93260.1| hypothetical protein EB61_01491 [Enterococcus faecalis] &gt;gb|RBS06009.1| hypothetical protein EA85_02278 [Enterococcus faecalis] &gt;gb|RBS16794.1| hypothetical protein EA98_02088 [Enterococcus faecalis] &gt;gb|RBS20790.1| hypothetical protein EA96_01109 [Enterococcus faecalis] &gt;gb|RFT12679.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROW90435.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX03164.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX31173.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX69748.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROY19207.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROY53485.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROZ40842.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RRQ90187.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RRQ99058.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RRQ99748.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK10824.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK21460.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK29513.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK32473.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK35215.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK50556.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK51060.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK58726.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK59967.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK63241.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK67094.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK72153.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK75240.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK77572.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK84334.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK87632.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK90324.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXE97080.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF08659.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF12292.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF12453.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF19643.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF21728.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF23226.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF26437.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF35381.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF39009.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF43163.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF45776.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF49764.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF59106.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXN53469.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXU86290.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXU89754.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXU97312.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV05322.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV10657.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV38788.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV95963.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXW02259.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RYU41827.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RYU43934.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TBH16625.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM86283.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN04202.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO68095.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO78595.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;emb|CPW44730.1| Protein of uncharacterised function DUF72 [Mycobacteroides abscessus] &gt;emb|CRH73625.1| Protein of uncharacterised function DUF72 [Chlamydia trachomatis] &gt;emb|STP31135.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STP50063.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STP51028.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STP54211.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STP63411.1| Protein of uncharacterised function DUF72 [Enterococcus faecalis] &gt;emb|STQ15414.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|VEE94050.1| Protein of uncharacterised function DUF72 [Enterococcus faecalis] &gt;emb|VTT42048.1| DUF72 family protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002355228</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.673</Hsp_bit-score>
+      <Hsp_score>1428</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_105577387.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ASE64694.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_105577387</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.518</Hsp_bit-score>
+      <Hsp_score>1425</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYLTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPY+TNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_104875418.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF43262.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104875418</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.518</Hsp_bit-score>
+      <Hsp_score>1425</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFTLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQF+LVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_002358361.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF72 domain-containing protein [Bacilli] &gt;gb|AFO43192.1| hypothetical protein EFD32_0300 [Enterococcus faecalis D32] &gt;gb|AMR96073.1| hypothetical protein A3777_10720 [Enterococcus faecalis] &gt;gb|ANU72007.1| hypothetical protein A4V06_02605 [Enterococcus faecalis] &gt;gb|AQL52466.1| hypothetical protein BZG32_01505 [Enterococcus faecalis] &gt;gb|ARV02692.1| hypothetical protein A6B47_02035 [Enterococcus faecalis] &gt;gb|ASU26706.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|AVR92965.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|AXG87321.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|AYZ06384.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EAC5408186.1| DUF72 domain-containing protein [Listeria monocytogenes] &gt;gb|EAC9416962.1| DUF72 domain-containing protein [Listeria monocytogenes] &gt;gb|EAK8886569.1| DUF72 domain-containing protein [Listeria monocytogenes] &gt;gb|EEN73224.1| hypothetical protein HMPREF0349_2964 [Enterococcus faecalis TX1322] &gt;gb|EET96931.1| conserved hypothetical protein [Enterococcus faecalis T2] &gt;gb|EEU27233.1| conserved hypothetical protein [Enterococcus faecalis T8] &gt;gb|EEU64871.1| conserved hypothetical protein [Enterococcus faecalis DS5] &gt;gb|EEU66705.1| conserved hypothetical protein [Enterococcus faecalis Merz96] &gt;gb|EEU70267.1| conserved hypothetical protein [Enterococcus faecalis HIP11704] &gt;gb|EEU75371.1| conserved hypothetical protein [Enterococcus faecalis JH1] &gt;gb|EEU76114.1| conserved hypothetical protein [Enterococcus faecalis E1Sol] &gt;gb|EEU89935.1| conserved hypothetical protein [Enterococcus faecalis T11] &gt;gb|EFE15756.1| hypothetical protein HMPREF9377_02105 [Enterococcus faecalis R712] &gt;gb|EFE20530.1| hypothetical protein HMPREF9376_00470 [Enterococcus faecalis S613] &gt;gb|EFG20656.1| conserved hypothetical protein [Enterococcus faecalis PC1.1] &gt;gb|EFK76178.1| hypothetical protein HMPREF0347_5935 [Enterococcus faecalis TUSoD Ef11] &gt;gb|EFM65998.1| hypothetical protein HMPREF9509_02794 [Enterococcus faecalis TX0411] &gt;gb|EFM69548.1| hypothetical protein HMPREF9505_02124 [Enterococcus faecalis TX0109] &gt;gb|EFM72962.1| hypothetical protein HMPREF9515_01883 [Enterococcus faecalis TX0860] &gt;gb|EFM80077.1| hypothetical protein HMPREF9514_00930 [Enterococcus faecalis TX0855] &gt;gb|EFM82212.1| hypothetical protein HMPREF9498_02146 [Enterococcus faecalis TX4248] &gt;gb|EFQ10981.1| hypothetical protein HMPREF9492_00642 [Enterococcus faecalis DAPTO 512] &gt;gb|EFQ68627.1| hypothetical protein HMPREF9493_00730 [Enterococcus faecalis DAPTO 516] &gt;gb|EFT40436.1| hypothetical protein HMPREF9496_02673 [Enterococcus faecalis TX4000] &gt;gb|EFT44149.1| hypothetical protein HMPREF9500_01991 [Enterococcus faecalis TX0017] &gt;gb|EFT47363.1| hypothetical protein HMPREF9501_01841 [Enterococcus faecalis TX0027] &gt;gb|EFT88050.1| hypothetical protein HMPREF9495_02158 [Enterococcus faecalis TX2141] &gt;gb|EFT94232.1| hypothetical protein HMPREF9499_01595 [Enterococcus faecalis TX0012] &gt;gb|EFU10141.1| hypothetical protein HMPREF9516_00227 [Enterococcus faecalis TX1302] &gt;gb|EFU11768.1| hypothetical protein HMPREF9517_01579 [Enterococcus faecalis TX1341] &gt;gb|EFU16822.1| hypothetical protein HMPREF9519_02194 [Enterococcus faecalis TX1346] &gt;gb|EOE09741.1| hypothetical protein Q9Q_00908 [Enterococcus faecalis EnGen0078] &gt;gb|EOE17162.1| hypothetical protein Q9U_00361 [Enterococcus faecalis EnGen0079] &gt;gb|EOE32265.1| hypothetical protein QA7_01484 [Enterococcus faecalis EnGen0084] &gt;gb|EOE81710.1| hypothetical protein S9Q_00321 [Enterococcus faecalis EnGen0093] &gt;gb|EOF30597.1| hypothetical protein SC7_00342 [Enterococcus faecalis EnGen0115] &gt;gb|EOG52245.1| hypothetical protein SO7_00332 [Enterococcus faecalis EnGen0198] &gt;gb|EOI06508.1| hypothetical protein UCI_00337 [Enterococcus faecalis EnGen0241] &gt;gb|EOI37855.1| hypothetical protein UIU_02500 [Enterococcus faecalis EnGen0299] &gt;gb|EOI50099.1| hypothetical protein UK1_00315 [Enterococcus faecalis EnGen0301] &gt;gb|EOJ16929.1| hypothetical protein UMS_02480 [Enterococcus faecalis EnGen0287] &gt;gb|EOJ26537.1| hypothetical protein UO3_00317 [Enterococcus faecalis EnGen0286] &gt;gb|EOJ30582.1| hypothetical protein UMU_00104 [Enterococcus faecalis EnGen0300] &gt;gb|EOJ35154.1| hypothetical protein UO5_00335 [Enterococcus faecalis EnGen0293] &gt;gb|EOJ35593.1| hypothetical protein UO7_00058 [Enterococcus faecalis EnGen0290] &gt;gb|EOJ39593.1| hypothetical protein UO9_00318 [Enterococcus faecalis ATCC 27275] &gt;gb|EOJ43223.1| hypothetical protein UOA_00050 [Enterococcus faecalis ATCC 27959] &gt;gb|EOJ43831.1| hypothetical protein UOC_00326 [Enterococcus faecalis EnGen0289] &gt;gb|EOJ49701.1| hypothetical protein WM7_00391 [Enterococcus faecalis EnGen0361] &gt;gb|EOJ50852.1| hypothetical protein UOE_00343 [Enterococcus faecalis EnGen0285] &gt;gb|EOJ53197.1| hypothetical protein WM9_00332 [Enterococcus faecalis EnGen0345] &gt;gb|EOJ57373.1| hypothetical protein WMI_00322 [Enterococcus faecalis EnGen0363] &gt;gb|EOJ58056.1| hypothetical protein WMK_00400 [Enterococcus faecalis ATCC 35038] &gt;gb|EOJ63231.1| hypothetical protein WMM_00509 [Enterococcus faecalis EnGen0364] &gt;gb|EOJ65540.1| hypothetical protein WMS_00501 [Enterococcus faecalis EnGen0336] &gt;gb|EOJ71927.1| hypothetical protein WMU_00333 [Enterococcus faecalis EnGen0351] &gt;gb|EOJ79919.1| hypothetical protein WO7_00307 [Enterococcus faecalis EnGen0355] &gt;gb|EOJ93864.1| hypothetical protein WOI_00309 [Enterococcus faecalis EnGen0368] &gt;gb|EOK01268.1| hypothetical protein WOQ_00283 [Enterococcus faecalis EnGen0340] &gt;gb|EOK02086.1| hypothetical protein WOK_00398 [Enterococcus faecalis EnGen0359] &gt;gb|EOK10131.1| hypothetical protein WOW_00308 [Enterococcus faecalis ATCC 10100] &gt;gb|EOK24556.1| hypothetical protein WU7_00337 [Enterococcus faecalis EnGen0326] &gt;gb|EOK25873.1| hypothetical protein WU5_00308 [Enterococcus faecalis EnGen0329] &gt;gb|EOK33011.1| hypothetical protein WUC_00336 [Enterococcus faecalis EnGen0328] &gt;gb|EOK34254.1| hypothetical protein WUA_00318 [Enterococcus faecalis EnGen0333] &gt;gb|EOK34453.1| hypothetical protein WU9_00309 [Enterococcus faecalis EnGen0334] &gt;gb|EOK41303.1| hypothetical protein WUE_00340 [Enterococcus faecalis EnGen0330] &gt;gb|EOK43429.1| hypothetical protein WUI_00374 [Enterococcus faecalis EnGen0335] &gt;gb|EOK44058.1| hypothetical protein WUG_00389 [Enterococcus faecalis EnGen0332] &gt;gb|EOK52048.1| hypothetical protein Q9A_01628 [Enterococcus faecalis EnGen0066] &gt;gb|EOK52856.1| hypothetical protein Q97_01782 [Enterococcus faecalis EnGen0061] &gt;gb|EOL19499.1| hypothetical protein WU1_00294 [Enterococcus faecalis EnGen0327] &gt;gb|EOL20844.1| hypothetical protein WU3_00341 [Enterococcus faecalis EnGen0331] &gt;gb|EOL24706.1| hypothetical protein WO3_00308 [Enterococcus faecalis EnGen0342] &gt;gb|EOL29654.1| hypothetical protein WO1_00420 [Enterococcus faecalis EnGen0365] &gt;gb|EOL31442.1| hypothetical protein WO5_00343 [Enterococcus faecalis EnGen0354] &gt;gb|EOL36378.1| hypothetical protein WMC_00324 [Enterococcus faecalis ATCC 19433] &gt;gb|EOL39204.1| hypothetical protein WME_00333 [Enterococcus faecalis EnGen0362] &gt;gb|EOL40716.1| hypothetical protein WMG_00377 [Enterococcus faecalis EnGen0348] &gt;gb|EOL92888.1| hypothetical protein WM3_00374 [Enterococcus faecalis EnGen0366] &gt;gb|EOL95690.1| hypothetical protein WM1_02540 [Enterococcus faecalis EnGen0341] &gt;gb|EOL97196.1| hypothetical protein WM5_00319 [Enterococcus faecalis EnGen0344] &gt;gb|EOL99832.1| hypothetical protein U9O_00418 [Enterococcus faecalis EnGen0233] &gt;gb|EOM16615.1| hypothetical protein UA1_00180 [Enterococcus faecalis EnGen0234] &gt;gb|EOM26090.1| hypothetical protein U9C_00320 [Enterococcus faecalis EnGen0253] &gt;gb|EOM31510.1| hypothetical protein U9G_00522 [Enterococcus faecalis EnGen0232] &gt;gb|EPH70317.1| hypothetical protein D929_02421 [Enterococcus faecalis 02-MB-P-10] &gt;gb|EPH71168.1| hypothetical protein D930_00192 [Enterococcus faecalis KI-6-1-110608-1] &gt;gb|EPH72040.1| hypothetical protein D928_01124 [Enterococcus faecalis 20-SD-BW-06] &gt;gb|EPH80865.1| hypothetical protein D927_01517 [Enterococcus faecalis 02-MB-BW-10] &gt;gb|EPH81814.1| hypothetical protein D925_01005 [Enterococcus faecalis B83616-1] &gt;gb|EPH83453.1| hypothetical protein D924_01835 [Enterococcus faecalis 06-MB-S-10] &gt;gb|EPH87993.1| hypothetical protein D923_02384 [Enterococcus faecalis 06-MB-S-04] &gt;gb|EPH99785.1| hypothetical protein D919_02253 [Enterococcus faecalis 20-SD-BW-08] &gt;gb|EPI04472.1| hypothetical protein D358_03004 [Enterococcus faecalis RP2S-4] &gt;gb|EPI34081.1| hypothetical protein D349_00350 [Enterococcus faecalis UP2S-6] &gt;gb|EPI34964.1| hypothetical protein D348_02386 [Enterococcus faecalis SLO2C-1] &gt;gb|ERT21343.1| hypothetical protein O994_02486 [Enterococcus faecalis JH2-2] &gt;gb|ESU74634.1| putative cytosolic protein [Enterococcus faecalis CBRD01] &gt;gb|ETJ09154.1| hypothetical protein Q608_EFC00044G0053 [Enterococcus faecalis DORA_14] &gt;gb|ETT93926.1| hypothetical protein P000_00334 [Enterococcus faecalis EnGen0400] &gt;gb|ETT95539.1| hypothetical protein P002_01925 [Enterococcus faecalis EnGen0402] &gt;gb|ETU00301.1| hypothetical protein P003_00063 [Enterococcus faecalis EnGen0403] &gt;gb|ETU02692.1| hypothetical protein P005_02041 [Enterococcus faecalis EnGen0405] &gt;gb|ETU02880.1| hypothetical protein P004_01591 [Enterococcus faecalis EnGen0404] &gt;gb|ETU08072.1| hypothetical protein P006_01951 [Enterococcus faecalis EnGen0406] &gt;gb|ETU08491.1| hypothetical protein P007_00327 [Enterococcus faecalis EnGen0407] &gt;gb|ETU13809.1| hypothetical protein P008_02128 [Enterococcus faecalis EnGen0408] &gt;gb|ETU15254.1| hypothetical protein P009_00270 [Enterococcus faecalis EnGen0409] &gt;gb|ETU18475.1| hypothetical protein P010_02351 [Enterococcus faecalis EnGen0410] &gt;gb|ETU18664.1| hypothetical protein P011_02647 [Enterococcus faecalis EnGen0411] &gt;gb|ETU27474.1| hypothetical protein P012_00328 [Enterococcus faecalis EnGen0412] &gt;gb|ETU32924.1| hypothetical protein P015_01640 [Enterococcus faecalis EnGen0415] &gt;gb|ETU35182.1| hypothetical protein P016_01552 [Enterococcus faecalis EnGen0416] &gt;gb|ETU43425.1| hypothetical protein P019_01467 [Enterococcus faecalis EnGen0419] &gt;gb|ETU43963.1| hypothetical protein P018_00278 [Enterococcus faecalis EnGen0418] &gt;gb|ETU46492.1| hypothetical protein P020_00324 [Enterococcus faecalis EnGen0420] &gt;gb|ETU51177.1| hypothetical protein P021_00059 [Enterococcus faecalis EnGen0421] &gt;gb|ETU54918.1| hypothetical protein P023_01969 [Enterococcus faecalis EnGen0423] &gt;gb|ETU58894.1| hypothetical protein P024_00071 [Enterococcus faecalis EnGen0424] &gt;gb|KAJ58554.1| hypothetical protein P785_2421 [Enterococcus faecalis KS19] &gt;gb|KAJ71368.1| hypothetical protein M222_2409 [Enterococcus faecalis AZ19] &gt;gb|KAJ72596.1| hypothetical protein P786_0796 [Enterococcus faecalis MD6] &gt;gb|KAJ78339.1| hypothetical protein P790_2665 [Enterococcus faecalis NJ44] &gt;gb|KAJ83673.1| hypothetical protein P791_2226 [Enterococcus faecalis NY9] &gt;gb|KDN90523.1| hypothetical protein EE55_00190 [Enterococcus faecalis] &gt;gb|KGJ33602.1| hypothetical protein ES21_13060 [Enterococcus faecalis] &gt;gb|KII39059.1| hypothetical protein QI17_13090 [Enterococcus faecalis] &gt;gb|KII43574.1| hypothetical protein QZ81_09295 [Enterococcus faecalis] &gt;gb|KII45379.1| hypothetical protein QH72_14235 [Enterococcus faecalis] &gt;gb|KII53498.1| hypothetical protein QR19_06220 [Enterococcus faecalis] &gt;gb|KLL19601.1| hypothetical protein WA34_18845 [Streptococcus agalactiae] &gt;gb|OAD09328.1| hypothetical protein A7D18_14870 [Enterococcus faecalis] &gt;gb|OCJ79027.1| hypothetical protein BCV66_04690 [Enterococcus faecalis] &gt;gb|OFA13562.1| hypothetical protein ENFAE_13870 [Enterococcus faecalis] &gt;gb|OFR19534.1| hypothetical protein HMPREF2901_13365 [Enterococcus sp. HMSC073E09] &gt;gb|OIU90273.1| hypothetical protein BEH80_08010 [Enterococcus faecalis] &gt;gb|OIU92919.1| hypothetical protein BEH81_07785 [Enterococcus faecalis] &gt;gb|OIU96162.1| hypothetical protein BEH82_10945 [Enterococcus faecalis] &gt;gb|OOP42030.1| hypothetical protein BHU75_04305 [Enterococcus faecalis] &gt;gb|OOP42762.1| hypothetical protein BHU76_02125 [Enterococcus faecalis] &gt;gb|OOP48895.1| hypothetical protein BHU74_09315 [Enterococcus faecalis] &gt;gb|OQO73971.1| hypothetical protein BH746_06800 [Enterococcus faecalis] &gt;gb|OSH10874.1| hypothetical protein HS5152_1146 [Enterococcus faecalis] &gt;gb|OSH11286.1| hypothetical protein ELS84_1157 [Enterococcus faecalis] &gt;gb|OSH14914.1| hypothetical protein EFDM72_0265 [Enterococcus faecalis] &gt;gb|OSH16376.1| hypothetical protein HS5302_1189 [Enterococcus faecalis] &gt;gb|OSH20235.1| hypothetical protein MGA447_0762 [Enterococcus faecalis] &gt;gb|OSH27499.1| hypothetical protein QH294_1271 [Enterococcus faecalis] &gt;gb|OSH29830.1| hypothetical protein EFQH95_1573 [Enterococcus faecalis] &gt;gb|OSH35623.1| hypothetical protein XJ76305_1495 [Enterococcus faecalis] &gt;gb|OSH38951.1| hypothetical protein XM264_1327 [Enterococcus faecalis] &gt;gb|OSM20259.1| hypothetical protein B6S40_03605 [Enterococcus faecalis] &gt;gb|OSM29536.1| hypothetical protein B6E65_00620 [Enterococcus faecalis] &gt;gb|OTP16552.1| hypothetical protein A5830_000316 [Enterococcus faecalis] &gt;gb|OTP32820.1| hypothetical protein A5824_002117 [Enterococcus faecalis] &gt;gb|OTP36177.1| hypothetical protein A5795_000056 [Enterococcus faecalis] &gt;gb|OTP38934.1| hypothetical protein A5862_000304 [Enterococcus faecalis] &gt;gb|OTP42391.1| hypothetical protein A5797_001808 [Enterococcus faecalis] &gt;gb|OTP43697.1| hypothetical protein A5835_001454 [Enterococcus faecalis] &gt;gb|OXC93691.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|OXM12408.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PIO22020.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PLA81989.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PNK95454.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB24626.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB28116.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB30349.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB39065.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB48256.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB53981.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB66495.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC14190.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC20570.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC26778.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC57046.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC66662.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC71783.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD06483.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD15004.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD19868.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD26426.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD44988.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD51588.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD60114.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD67353.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD67700.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD70234.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD75136.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD79857.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD84457.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE48593.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE81559.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE85373.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE89270.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF19120.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF28954.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF58396.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF66960.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF68394.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF84120.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF91371.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF93787.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG05961.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG15328.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG31704.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG52783.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG76430.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG80844.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG81419.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG91595.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQH02556.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PVE27660.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PVE32915.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PVE36523.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PWI83527.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PWI85607.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PWI87346.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PWI90171.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PWI94547.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PWI97659.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PWJ01525.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|QCJ35204.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|QCJ65713.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|QCR00437.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RBR38426.1| hypothetical protein EA75_01722 [Enterococcus faecalis] &gt;gb|RBR42438.1| hypothetical protein EA76_02007 [Enterococcus faecalis] &gt;gb|RBR45065.1| hypothetical protein EB28_01722 [Enterococcus faecalis] &gt;gb|RBR55458.1| hypothetical protein EB32_01687 [Enterococcus faecalis] &gt;gb|RBR63067.1| hypothetical protein EB37_00075 [Enterococcus faecalis] &gt;gb|RBR63861.1| hypothetical protein EB41_02178 [Enterococcus faecalis] &gt;gb|RBR64039.1| hypothetical protein EB38_01409 [Enterococcus faecalis] &gt;gb|RBR66109.1| hypothetical protein EB42_02171 [Enterococcus faecalis] &gt;gb|RBR72026.1| hypothetical protein EB48_01807 [Enterococcus faecalis] &gt;gb|RBR72888.1| hypothetical protein EB46_01765 [Enterococcus faecalis] &gt;gb|RBR73292.1| hypothetical protein EB52_02821 [Enterococcus faecalis] &gt;gb|RBR86735.1| hypothetical protein EB57_02371 [Enterococcus faecalis] &gt;gb|RBR89071.1| hypothetical protein EB55_00063 [Enterococcus faecalis] &gt;gb|RBR93177.1| hypothetical protein EB58_01395 [Enterococcus faecalis] &gt;gb|RBR97435.1| hypothetical protein EB62_00057 [Enterococcus faecalis] &gt;gb|RBR99322.1| hypothetical protein EA79_02092 [Enterococcus faecalis] &gt;gb|RBS04439.1| hypothetical protein EA81_00077 [Enterococcus faecalis] &gt;gb|RBS05722.1| hypothetical protein EA80_00069 [Enterococcus faecalis] &gt;gb|RBS10994.1| hypothetical protein EA90_01466 [Enterococcus faecalis] &gt;gb|RBS15146.1| hypothetical protein EA94_01526 [Enterococcus faecalis] &gt;gb|RBS20135.1| hypothetical protein EB04_02118 [Enterococcus faecalis] &gt;gb|RNA46773.1| hypothetical protein QP79_07670 [Enterococcus faecalis] &gt;gb|RNA49024.1| hypothetical protein QP80_11590 [Enterococcus faecalis] &gt;gb|RNA54317.1| hypothetical protein QP81_00300 [Enterococcus faecalis] &gt;gb|RNA54989.1| hypothetical protein QP82_12335 [Enterococcus faecalis] &gt;gb|RNA59480.1| hypothetical protein QP83_04965 [Enterococcus faecalis] &gt;gb|RNB98356.1| hypothetical protein ADL95_11945 [Enterococcus faecalis] &gt;gb|RNC01307.1| hypothetical protein ADL82_12295 [Enterococcus faecalis] &gt;gb|RNC04638.1| hypothetical protein ADL63_10710 [Enterococcus faecalis] &gt;gb|RNC07888.1| hypothetical protein ADL69_09505 [Enterococcus faecalis] &gt;gb|RNC10038.1| hypothetical protein ADL94_14370 [Enterococcus faecalis] &gt;gb|RNC15549.1| hypothetical protein ADL75_00270 [Enterococcus faecalis] &gt;gb|RNC17261.1| hypothetical protein ADL74_11485 [Enterococcus faecalis] &gt;gb|RNC19826.1| hypothetical protein ADM06_06865 [Enterococcus faecalis] &gt;gb|RNC24420.1| hypothetical protein ADL77_05970 [Enterococcus faecalis] &gt;gb|RNC27725.1| hypothetical protein ADM01_01095 [Enterococcus faecalis] &gt;gb|ROY21836.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROZ26446.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK18820.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK23685.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK34472.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK40313.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK42867.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK44324.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK56615.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK67552.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RTK80036.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF29817.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF51148.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF55052.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXN41686.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXU80286.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXU82171.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXU94763.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV12033.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV14052.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV18924.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV33292.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV33582.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV41404.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV41946.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV44947.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV46489.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV53908.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV58402.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV82917.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV93036.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXW05307.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXW09997.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TGY23019.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKK51312.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKK91190.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO51317.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO58161.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO95790.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;dbj|BAV35508.1| hypothetical protein EFW11_0269 [Enterococcus faecalis] &gt;dbj|BBD23815.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;dbj|BBD26857.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;emb|CBL32876.1| Uncharacterized conserved protein [Enterococcus faecalis] &gt;emb|CCO71329.1| DUF72 family protein [Enterococcus faecalis str. Symbioflor 1] &gt;emb|CWI11313.1| Protein of uncharacterised function DUF72 [Streptococcus pneumoniae] &gt;emb|CWW86277.1| Protein of uncharacterised function DUF72 [Listeria monocytogenes] &gt;emb|SJN40027.1| hypothetical protein FM120_12145 [Sphingobacterium faecium PCAi_F2.5] &gt;emb|SPW36162.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STC86477.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STP42065.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STP72339.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STP96226.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STP99434.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|VFA53771.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|VFA74854.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|VFA78520.1| DUF72 family protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002358361</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.518</Hsp_bit-score>
+      <Hsp_score>1425</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_104806390.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB79174.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104806390</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.132</Hsp_bit-score>
+      <Hsp_score>1424</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAILKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEA+LKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_070416044.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|OGX75843.1| hypothetical protein BHU49_05310 [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_070416044</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.132</Hsp_bit-score>
+      <Hsp_score>1424</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLIQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFL+QFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_016631103.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EPI15129.1| hypothetical protein D354_03037 [Enterococcus faecalis] &gt;gb|EPI25400.1| hypothetical protein D351_03028 [Enterococcus faecalis WKS-26-18-2]</Hit_def>
+  <Hit_accession>WP_016631103</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.132</Hsp_bit-score>
+      <Hsp_score>1424</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVTYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENV YLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_002380012.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|AWQ38618.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EEU84200.1| conserved hypothetical protein [Enterococcus faecalis CH188] &gt;gb|EFQ15103.1| hypothetical protein HMPREF9512_02692 [Enterococcus faecalis EnGen0311] &gt;gb|EFU05123.1| hypothetical protein HMPREF9513_02365 [Enterococcus faecalis TX0645] &gt;gb|EFU88612.1| hypothetical protein HMPREF9511_03463 [Enterococcus faecalis TX0630] &gt;gb|EOI16093.1| hypothetical protein UCO_00479 [Enterococcus faecalis EnGen0244] &gt;gb|EOI26352.1| hypothetical protein UE1_00387 [Enterococcus faecalis EnGen0251] &gt;gb|EOI94841.1| hypothetical protein UMA_00400 [Enterococcus faecalis EnGen0311] &gt;gb|EOI96243.1| hypothetical protein UM9_00379 [Enterococcus faecalis EnGen0298] &gt;gb|EOI99489.1| hypothetical protein UMC_00404 [Enterococcus faecalis EnGen0302] &gt;gb|EOJ06056.1| hypothetical protein UME_00429 [Enterococcus faecalis EnGen0306] &gt;gb|EOJ94001.1| hypothetical protein WOG_00488 [Enterococcus faecalis EnGen0370] &gt;gb|EOL59686.1| hypothetical protein UCQ_00414 [Enterococcus faecalis EnGen0245] &gt;gb|EOL64038.1| hypothetical protein UCS_00440 [Enterococcus faecalis EnGen0246] &gt;gb|EOL66680.1| hypothetical protein UCU_00337 [Enterococcus faecalis EnGen0247] &gt;gb|EOL85747.1| hypothetical protein UM7_00392 [Enterococcus faecalis EnGen0303] &gt;gb|OOL77384.1| hypothetical protein B1P85_11410 [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002380012</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>552.747</Hsp_bit-score>
+      <Hsp_score>1423</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRGTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_128704935.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXF34274.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_128704935</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>552.362</Hsp_bit-score>
+      <Hsp_score>1422</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQDAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQ+AKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_104853817.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE38003.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE58870.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE66830.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF00674.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF56128.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG27970.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXX10469.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104853817</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>552.362</Hsp_bit-score>
+      <Hsp_score>1422</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDSEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLAND+EWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_010716637.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EOF30359.1| hypothetical protein SC5_00355 [Enterococcus faecalis EnGen0086]</Hit_def>
+  <Hit_accession>WP_010716637</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>552.362</Hsp_bit-score>
+      <Hsp_score>1422</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPMNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIP NPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_115240344.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;emb|STP96771.1| DUF72 family protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_115240344</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>552.362</Hsp_bit-score>
+      <Hsp_score>1422</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPQERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPP+ERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|RXK60303.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>RXK60303</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.977</Hsp_bit-score>
+      <Hsp_score>1421</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESIAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLES+APLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_048942479.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF72 domain-containing protein [Enterococcus] &gt;gb|OFK59241.1| hypothetical protein HMPREF2810_02310 [Enterococcus sp. HMSC078F03] &gt;gb|PKZ05350.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PNL19692.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD25543.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD35356.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_048942479</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.977</Hsp_bit-score>
+      <Hsp_score>1421</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENKFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKEN+FSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_010824363.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EOJ80114.1| hypothetical protein WOA_00741 [Enterococcus faecalis EnGen0356] &gt;gb|RBR80896.1| hypothetical protein EB53_02109 [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_010824363</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.977</Hsp_bit-score>
+      <Hsp_score>1421</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVTEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERV EWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_010820618.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EOJ74111.1| hypothetical protein WMY_00315 [Enterococcus faecalis EnGen0337] &gt;gb|KAJ68001.1| hypothetical protein P787_0390 [Enterococcus faecalis MN16] &gt;gb|PUA24832.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PUA25141.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_010820618</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.977</Hsp_bit-score>
+      <Hsp_score>1421</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNFVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPN VLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_002366068.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|AUC57255.1| DUF72 domain-containing protein [Enterococcus faecalis ARO1/DG] &gt;gb|EEU86889.1| conserved hypothetical protein [Enterococcus faecalis ARO1/DG] &gt;gb|PQC99671.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF51338.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKL72025.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM54090.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM63242.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM66963.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM69423.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM75190.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM77886.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM80728.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM84614.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM90377.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM91104.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM93285.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKM97088.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN03102.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN08999.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN13162.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN20210.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN27338.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN30110.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN42478.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN64904.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN65684.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKN93454.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO03553.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO08730.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO15090.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO17980.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO22346.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO25648.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO26857.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO30199.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO36821.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO40050.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO47069.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO89786.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP01040.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP07477.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP10828.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP14918.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP17337.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP24077.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP24761.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP25989.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP30292.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP32502.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP35345.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP40254.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP41947.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP43894.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP48662.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP50028.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP52230.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP56473.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP56763.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP60707.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP64124.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP65899.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP69291.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP70748.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP74681.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP76148.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP78684.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP80492.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP84507.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP87214.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP88155.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP93815.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP95753.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP96344.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ03409.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ03798.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ03927.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ12043.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ12214.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ12301.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ20152.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ20587.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ21289.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ28465.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ28950.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ29338.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ36027.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKQ36661.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002366068</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.977</Hsp_bit-score>
+      <Hsp_score>1421</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVTYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENV YLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_048949812.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_048949812</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.977</Hsp_bit-score>
+      <Hsp_score>1421</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVSFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPV FYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_048955777.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_048955777</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.592</Hsp_bit-score>
+      <Hsp_score>1420</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKFLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQK LNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_002386057.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|APS16953.1| hypothetical protein A9R08_10920 [Enterococcus faecalis] &gt;gb|EEN72505.1| hypothetical protein HMPREF0345_0504 [Enterococcus faecalis ATCC 29200] &gt;gb|EOJ11457.1| hypothetical protein UMK_00347 [Enterococcus faecalis ATCC 29200] &gt;gb|OSH25243.1| hypothetical protein EFNM313_0730 [Enterococcus faecalis] &gt;gb|OSH41968.1| hypothetical protein YM116_1288 [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002386057</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.592</Hsp_bit-score>
+      <Hsp_score>1420</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKEVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVK VPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_002375779.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|APC54942.1| hypothetical protein BMT03_01425 [Enterococcus faecalis] &gt;gb|EEU78785.1| conserved hypothetical protein [Enterococcus faecalis Fly1] &gt;gb|EOD91715.1| hypothetical protein Q9E_02564 [Enterococcus faecalis EnGen0059] &gt;gb|EOJ84427.1| hypothetical protein WO9_00387 [Enterococcus faecalis EnGen0369] &gt;gb|EOJ86548.1| hypothetical protein WOC_00366 [Enterococcus faecalis EnGen0357] &gt;gb|EOK16005.1| hypothetical protein WOU_00374 [Enterococcus faecalis ATCC 6055] &gt;gb|EOK45204.1| hypothetical protein Q95_02591 [Enterococcus faecalis EnGen0062] &gt;gb|EOK59356.1| hypothetical protein Q9C_00373 [Enterococcus faecalis EnGen0063] &gt;gb|EPH99187.1| hypothetical protein D921_00118 [Enterococcus faecalis F01966] &gt;gb|KAJ67310.1| hypothetical protein P782_0140 [Enterococcus faecalis FL2] &gt;gb|KXF70368.1| hypothetical protein AQ486_08415 [Enterococcus faecalis] &gt;gb|KXF74215.1| hypothetical protein AQ487_02445 [Enterococcus faecalis] &gt;gb|OSM22501.1| hypothetical protein B6S39_07850 [Enterococcus faecalis] &gt;gb|OSM26014.1| hypothetical protein B6S41_08865 [Enterococcus faecalis] &gt;gb|PQB35192.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQB48473.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RBS08331.1| hypothetical protein EA86_01965 [Enterococcus faecalis] &gt;gb|RGM17529.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROW96165.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX26176.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX30521.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXN41845.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXN47311.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXN56537.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXU99377.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV03373.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV25350.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV45428.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV87010.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RYU30974.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO62926.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKO76069.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|TKP05305.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;emb|STQ19060.1| DUF72 family protein [Enterococcus faecalis] &gt;tpg|HCO05953.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002375779</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.592</Hsp_bit-score>
+      <Hsp_score>1420</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIVDLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEI DLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_104855592.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE41025.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF14805.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RBR51008.1| hypothetical protein EB30_01519 [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104855592</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.592</Hsp_bit-score>
+      <Hsp_score>1420</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPESFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPE+FRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_104670722.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC64552.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104670722</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.592</Hsp_bit-score>
+      <Hsp_score>1420</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVEEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIV+EPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_048941733.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|OSH22119.1| hypothetical protein NM154_1070 [Enterococcus faecalis] &gt;gb|PQG52956.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RBR57721.1| hypothetical protein EB34_01609 [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_048941733</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.592</Hsp_bit-score>
+      <Hsp_score>1420</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYAGHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYA HLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_033594671.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|KAJ70606.1| hypothetical protein P789_1254 [Enterococcus faecalis MTmid8] &gt;gb|PQE92898.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF30637.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RBR50677.1| hypothetical protein EB29_01574 [Enterococcus faecalis] &gt;gb|ROW80753.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROW84768.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX19398.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX22351.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROY12056.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROY32299.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROY95352.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROZ22083.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROZ38203.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_033594671</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.206</Hsp_bit-score>
+      <Hsp_score>1419</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYYYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLY+YNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_104859872.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE72337.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF03966.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104859872</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.206</Hsp_bit-score>
+      <Hsp_score>1419</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKNLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFK+LPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_010828039.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EOK06450.1| hypothetical protein WOS_00359 [Enterococcus faecalis EnGen0367]</Hit_def>
+  <Hit_accession>WP_010828039</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.821</Hsp_bit-score>
+      <Hsp_score>1418</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAASWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAA WLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_002419237.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EJV40786.1| hypothetical protein HMPREF1344_00403 [Enterococcus faecalis R508]</Hit_def>
+  <Hit_accession>WP_002419237</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.821</Hsp_bit-score>
+      <Hsp_score>1418</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAGNALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAA NALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_010775521.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EOI34128.1| hypothetical protein UE5_00384 [Enterococcus faecalis EnGen0249] &gt;gb|EOJ24712.1| hypothetical protein UO1_00383 [Enterococcus faecalis EnGen0284] &gt;gb|ETU32496.1| hypothetical protein P014_00071 [Enterococcus faecalis EnGen0414] &gt;gb|KII40631.1| hypothetical protein QR18_06245 [Enterococcus faecalis] &gt;gb|PQD10334.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQG39869.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV20033.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV22458.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_010775521</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.821</Hsp_bit-score>
+      <Hsp_score>1418</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVTEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITSFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERV EWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMIT+FLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_104844730.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD46262.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQE78769.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104844730</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.821</Hsp_bit-score>
+      <Hsp_score>1418</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVHFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPV FYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_033598105.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|KAJ77371.1| hypothetical protein P788_2217 [Enterococcus faecalis MTUP9] &gt;emb|SDN83425.1| Uncharacterized conserved protein YecE, DUF72 family [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_033598105</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.436</Hsp_bit-score>
+      <Hsp_score>1417</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESIAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNFVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLES+APLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPN VLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_104670498.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQC45767.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQF99220.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX66740.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROX95402.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ROY34572.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104670498</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.436</Hsp_bit-score>
+      <Hsp_score>1417</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVVEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIVDLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERV EWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEI DLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_104675194.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|PQD15796.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_104675194</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.436</Hsp_bit-score>
+      <Hsp_score>1417</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNVAGWLANDAEWRKKRTLYHYNTQEIVDLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRN AGWLANDAEWRKKRTLYHYNTQEI DLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_002362955.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EEU15994.1| conserved hypothetical protein [Enterococcus faecalis ATCC 4200] &gt;gb|EFM77238.1| hypothetical protein HMPREF9521_00867 [Enterococcus faecalis TX2134] &gt;gb|EJS78957.1| hypothetical protein A961_2334 [Enterococcus faecalis ATCC 29212] &gt;gb|EOL86364.1| hypothetical protein UMW_00314 [Enterococcus faecalis EnGen0295] &gt;gb|EOL89677.1| hypothetical protein UMY_00305 [Enterococcus faecalis EnGen0283] &gt;gb|ETU38439.1| hypothetical protein P017_01872 [Enterococcus faecalis EnGen0417] &gt;gb|ETU53307.1| hypothetical protein P022_00061 [Enterococcus faecalis EnGen0422] &gt;gb|ETU62944.1| hypothetical protein P025_01648 [Enterococcus faecalis EnGen0425] &gt;gb|OOC96096.1| hypothetical protein BWO99_05525 [Enterococcus faecalis ATCC 29212] &gt;gb|OSM21861.1| hypothetical protein B6S42_00785 [Enterococcus faecalis] &gt;gb|PTN95342.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;emb|STP23558.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|STQ21671.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|VFA51266.1| DUF72 family protein [Enterococcus faecalis] &gt;emb|VFA59765.1| DUF72 family protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002362955</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.051</Hsp_bit-score>
+      <Hsp_score>1416</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTEKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLT KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_129194606.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXV92620.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_129194606</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.051</Hsp_bit-score>
+      <Hsp_score>1416</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKNLPIAIELRNNSWYQPNFVKEMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFK+LPIAIELRNNSWYQPNFVK+MLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_129219603.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXW02423.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_129219603</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.051</Hsp_bit-score>
+      <Hsp_score>1416</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTHYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIVDLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQT+YASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEI DLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_002413506.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|AEA92940.1| protein of hypothetical function DUF72 [Enterococcus faecalis OG1RF] &gt;gb|AZV33083.1| DUF72 domain-containing protein [Enterococcus faecalis OG1RF] &gt;gb|AZV95929.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|ELA03461.1| hypothetical protein OG1X_0772 [Enterococcus faecalis OG1X] &gt;gb|ELA04394.1| hypothetical protein EFM7_2287 [Enterococcus faecalis M7] &gt;gb|PIO17154.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;tpg|HAJ23945.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002413506</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.051</Hsp_bit-score>
+      <Hsp_score>1416</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNLVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTN VPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_048943463.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_048943463</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.666</Hsp_bit-score>
+      <Hsp_score>1415</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHDYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKYLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEHDYLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFK LPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_016626067.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|EPI06714.1| hypothetical protein D840_00192 [Enterococcus faecalis 20.SD.W.06] &gt;gb|RXA17349.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXA91690.1| DUF72 domain-containing protein [Enterococcus faecalis] &gt;gb|RXA92472.1| DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_016626067</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.666</Hsp_bit-score>
+      <Hsp_score>1415</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MIRLGLTSFSEHYYLTGKKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MIRLGLTSFSEH YLTGKKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|1VPY|A</Hit_id>
+  <Hit_def>Chain A, Protein (hypothetical Protein Ef0366) [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>1VPY_A</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.732</Hsp_bit-score>
+      <Hsp_score>1397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>HHHHMIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>HHHHXIRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVEXDTAYYGIPPKERVAEWVKAVPENFRFVXKVYSGISCQGEWQTYYASEEEXITAFLESXAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQXLQFXKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKXSQEAKEVGVIFNNNSGGDAAENALQXQKVLNLS</Hsp_hseq>
+      <Hsp_midline>HHHH IRLGLTSFSEHDYLTGKKRSTLYEYASHLPLVE DTAYYGIPPKERVAEWVKAVPENFRFV KVYSGISCQGEWQTYYASEEE ITAFLES APLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQ LQF KENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLK SQEAKEVGVIFNNNSGGDAAENALQ QKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_029658376.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_029658376</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.464</Hsp_bit-score>
+      <Hsp_score>1334</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>KKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|EJU93552.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1330_03012, partial [Enterococcus faecalis ERV129] &gt;gb|EJV06884.1| hypothetical protein HMPREF1333_01433, partial [Enterococcus faecalis ERV37] &gt;gb|EJV11590.1| hypothetical protein HMPREF1335_00068, partial [Enterococcus faecalis ERV62] &gt;gb|EJV12203.1| hypothetical protein HMPREF1334_00680, partial [Enterococcus faecalis ERV41] &gt;gb|EJV28831.1| hypothetical protein HMPREF1339_00475, partial [Enterococcus faecalis ERV72] &gt;gb|EJV34649.1| hypothetical protein HMPREF1343_02857, partial [Enterococcus faecalis ERV93]</Hit_def>
+  <Hit_accession>EJU93552</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.079</Hsp_bit-score>
+      <Hsp_score>1333</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>KKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|EJU93710.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1331_03098, partial [Enterococcus faecalis ERV25] &gt;gb|EJU96153.1| hypothetical protein HMPREF1332_02563, partial [Enterococcus faecalis ERV31] &gt;gb|EJV14581.1| hypothetical protein HMPREF1336_02581, partial [Enterococcus faecalis ERV63] &gt;gb|EJV17741.1| hypothetical protein HMPREF1338_01881, partial [Enterococcus faecalis ERV68] &gt;gb|EJV20554.1| hypothetical protein HMPREF1337_00931, partial [Enterococcus faecalis ERV65] &gt;gb|EJV30961.1| hypothetical protein HMPREF1341_00848, partial [Enterococcus faecalis ERV81]</Hit_def>
+  <Hit_accession>EJU93710</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.079</Hsp_bit-score>
+      <Hsp_score>1333</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>KKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|EJV32145.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1340_00630, partial [Enterococcus faecalis ERV73]</Hit_def>
+  <Hit_accession>EJV32145</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.079</Hsp_bit-score>
+      <Hsp_score>1333</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>KKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_050551236.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_050551236</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.694</Hsp_bit-score>
+      <Hsp_score>1332</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>KKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_025187512.1|</Hit_id>
+  <Hit_def>DUF72 domain-containing protein, partial [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_025187512</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.694</Hsp_bit-score>
+      <Hsp_score>1332</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>KKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|EJV30646.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1342_03257, partial [Enterococcus faecalis ERV85]</Hit_def>
+  <Hit_accession>EJV30646</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.694</Hsp_bit-score>
+      <Hsp_score>1332</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>KKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|EJU89568.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1329_00958, partial [Enterococcus faecalis ERV116] &gt;gb|EJU90769.1| hypothetical protein HMPREF1328_00895, partial [Enterococcus faecalis ERV103]</Hit_def>
+  <Hit_accession>EJU89568</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.694</Hsp_bit-score>
+      <Hsp_score>1332</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KKRSTLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>KKRATLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>KKR+TLYEYASHLPLVEMDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|EEI11456.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF0348_2029 [Enterococcus faecalis TX0104] &gt;gb|EOI07363.1| hypothetical protein UCA_00455 [Enterococcus faecalis EnGen0237] &gt;gb|EOI16288.1| hypothetical protein UCM_00224 [Enterococcus faecalis EnGen0243] &gt;gb|EOJ92974.1| hypothetical protein WOE_00292 [Enterococcus faecalis EnGen0358] &gt;gb|EOL50193.1| hypothetical protein UCC_00451 [Enterococcus faecalis EnGen0238]</Hit_def>
+  <Hit_accession>EEI11456</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.952</Hsp_bit-score>
+      <Hsp_score>1247</Hsp_score>
+      <Hsp_evalue>2.02578e-172</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_qseq>
+      <Hsp_hseq>MDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_hseq>
+      <Hsp_midline>MDTAYYGIPPKERVAEWVKAVPENFRFVMKVYSGISCQGEWQTYYASEEEMITAFLESMAPLIESKKLFAFLVQFSGTFGCTKENVAYLQKIRHWFKDLPIAIELRNNSWYQPNFVKQMLQFMKENQFSLVIVDEPQIPTNPVPFYPYVTNPNLVLFRFHGRNAAGWLANDAEWRKKRTLYHYNTQEIADLSEAVLKMSQEAKEVGVIFNNNSGGDAAENALQMQKVLNLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
