@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_20653</BlastOutput_query-ID>
+  <BlastOutput_query-def>d2oqpa1a</BlastOutput_query-def>
+  <BlastOutput_query-len>133</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_20653</Iteration_query-ID>
+  <Iteration_query-def>d2oqpa1a</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|2OQP|A</Hit_id>
+  <Hit_def>Chain A, Interleukin-21 [Homo sapiens] &gt;pdb|3TGX|B Chain B, Interleukin-21 [Homo sapiens] &gt;pdb|3TGX|D Chain D, Interleukin-21 [Homo sapiens] &gt;pdb|3TGX|F Chain F, Interleukin-21 [Homo sapiens] &gt;pdb|3TGX|H Chain H, Interleukin-21 [Homo sapiens] &gt;pdb|3TGX|J Chain J, Interleukin-21 [Homo sapiens] &gt;pdb|3TGX|L Chain L, Interleukin-21 [Homo sapiens] &gt;pdb|3TGX|N Chain N, Interleukin-21 [Homo sapiens] &gt;pdb|3TGX|P Chain P, Interleukin-21 [Homo sapiens]</Hit_def>
+  <Hit_accession>2OQP_A</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>2.23301e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_068575.1|</Hit_id>
+  <Hit_def>interleukin-21 isoform 1 precursor [Homo sapiens] &gt;ref|XP_002815162.1| interleukin-21 [Pongo abelii] &gt;ref|XP_003816452.1| interleukin-21 [Pan paniscus] &gt;ref|XP_004040403.1| PREDICTED: interleukin-21 [Gorilla gorilla gorilla] &gt;ref|XP_526677.2| interleukin-21 [Pan troglodytes] &gt;sp|Q9HBE4.3| RecName: Full=Interleukin-21; Short=IL-21; AltName: Full=Za11; Flags: Precursor [Homo sapiens] &gt;gb|AAG29348.1| interleukin 21 [Homo sapiens] &gt;gb|AAH66258.1| Interleukin 21 [Homo sapiens] &gt;gb|AAH66259.1| Interleukin 21 [Homo sapiens] &gt;gb|AAH66260.1| Interleukin 21 [Homo sapiens] &gt;gb|AAH66261.1| Interleukin 21 [Homo sapiens] &gt;gb|AAH66262.1| Interleukin 21 [Homo sapiens] &gt;gb|AAH69124.1| Interleukin 21 [Homo sapiens] &gt;gb|AAU88182.1| interleukin 21 [Homo sapiens] &gt;gb|ADQ31944.1| interleukin 21, partial [synthetic construct] &gt;gb|AIC63533.1| IL21, partial [synthetic construct] &gt;gb|EAX05226.1| interleukin 21 [Homo sapiens] &gt;gb|PNI51856.1| IL21 isoform 2 [Pan troglodytes] &gt;gb|PNJ83984.1| IL21 isoform 1 [Pongo abelii] &gt;dbj|BBA22643.1| interleukin-21 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_068575</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>3.10428e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AIC56937.1|</Hit_id>
+  <Hit_def>IL21, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AIC56937</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>3.17741e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_003271399.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_003271399</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>3.92224e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHLIRMRQLIDIIDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKLPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRH+IRMRQLIDI+DQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRK PSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_003936286.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_003936286</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>4.53246e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGDNERIINVSIKKLKRKPPSTKAERRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDVETNCEWSAFSCFQKAQLKSANTG+NERIINVSIKKLKRKPPST A RRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_012328409.1|</Hit_id>
+  <Hit_def>interleukin-21 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_012328409</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>5.84031e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGDNERIINVSIKKLKRKPPSTKAERRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDVETNCEWSAFSCFQKAQLKSANTG+NERIINVSIKKLKRKPPST A RRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_017383716.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Cebus capucinus imitator]</Hit_def>
+  <Hit_accession>XP_017383716</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>2.30966e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKSYVNDLDPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGDNERIINVSIKKLKRKPPSTKAERRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLK+YVNDL PEFLPAPEDVETNCEWSAFSCFQKAQLKSANTG+NERIINVSIKKLKRKPPST A RRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_003899202.1|</Hit_id>
+  <Hit_def>interleukin-21 [Papio anubis] &gt;ref|XP_011833645.1| PREDICTED: interleukin-21 [Mandrillus leucophaeus] &gt;ref|XP_011937478.1| PREDICTED: interleukin-21 [Cercocebus atys] &gt;ref|XP_025242019.1| interleukin-21 [Theropithecus gelada] &gt;ref|XP_025242020.1| interleukin-21 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_003899202</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>3.26983e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINLSIKKLKRKSPSTGAERRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIIN+SIKKLKRK PST A RRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_002745477.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_002745477</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.39147e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGDNERIINVSIKKLKRKPPSTKVERRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHRHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDVETNCEWSAFSCFQKAQLKSANTG+NERIINVSIKKLKRKPPST   RRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIH+HLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_007997919.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_007997919</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.50255e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVKTNCEWSAFSCFQKAQLKSANTGNNERIINLSIKKLKRKSPSTGAERRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDV+TNCEWSAFSCFQKAQLKSANTGNNERIIN+SIKKLKRK PST A RRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|NP_001181171.1|</Hit_id>
+  <Hit_def>interleukin-21 precursor [Macaca mulatta] &gt;ref|XP_005555921.1| PREDICTED: interleukin-21 [Macaca fascicularis] &gt;ref|XP_011747133.1| interleukin-21 [Macaca nemestrina] &gt;gb|EHH26169.1| hypothetical protein EGK_16068 [Macaca mulatta] &gt;gb|EHH53948.1| hypothetical protein EGM_14666 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>NP_001181171</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.774</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>2.87042e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVETNCEWSAISCFQKAQLKSANTGNNERIINLSIKKLKRKSPSTGAERRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDVETNCEWSA SCFQKAQLKSANTGNNERIIN+SIKKLKRK PST A RRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_010360812.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Rhinopithecus roxellana] &gt;ref|XP_017708090.1| PREDICTED: interleukin-21 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_010360812</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>3.34696e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINLSIKKLKRKSPSTGAERRQKHRLTCPSCASYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIIN+SIKKLKRK PST A RRQKHRLTCPSC SYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_011804008.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Colobus angolensis palliatus] &gt;ref|XP_011804009.1| PREDICTED: interleukin-21 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011804008</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>5.37132e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNEKIISLSIKKLKRKSPSTGAERRQKHRLTCPSCASYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNE+II++SIKKLKRK PST A RRQKHRLTCPSC SYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_023073317.1|</Hit_id>
+  <Hit_def>interleukin-21 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023073317</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.61</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>7.55588e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNEGIISLSIKKLKRKSPSTGVERRQKHRLTCPSCASYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDL PEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNE II++SIKKLKRK PST   RRQKHRLTCPSC SYEKKPPKEFLERFKSLLQKMIHQHLSSRTHGSEDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|NP_001193935.1|</Hit_id>
+  <Hit_def>interleukin-21 isoform 2 precursor [Homo sapiens] &gt;gb|ABG36529.1| interleukin-21 isoform [Homo sapiens] &gt;gb|PNI51855.1| IL21 isoform 1 [Pan troglodytes] &gt;gb|PNJ83985.1| IL21 isoform 2 [Pongo abelii]</Hit_def>
+  <Hit_accession>NP_001193935</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.44</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>1.48656e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKM</Hsp_qseq>
+      <Hsp_hseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKV</Hsp_hseq>
+      <Hsp_midline>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_005899796.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 isoform X2 [Bos mutus]</Hit_def>
+  <Hit_accession>XP_005899796</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>3.56156e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSS-RTHGS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILTKQLKRKLPATNAGRRQKHEVTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLSAKRTHGS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P+TNAGRRQKH +TCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS+ RTHGS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_024600934.1|</Hit_id>
+  <Hit_def>interleukin-21 [Neophocaena asiaeorientalis asiaeorientalis]</Hit_def>
+  <Hit_accession>XP_024600934</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>5.75259e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKIQLKSANTGDNEKIINVLTKQLKRKLPPTNAGKRQKHKLTCPSCDSYEKKPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+NE+IINV  K+LKRK P TNAG+RQKH+LTCPSCDSYEKKPPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_004316627.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Tursiops truncatus] &gt;ref|XP_022452028.1| interleukin-21 [Delphinapterus leucas]</Hit_def>
+  <Hit_accession>XP_004316627</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>5.88014e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKIQLKSANTGDNEKIINVLTKQLKRKLPPTNAGKRQKHKLTCPSCDSYEKKPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+NE+IINV  K+LKRK P TNAG+RQKH+LTCPSCDSYEKKPPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_008588720.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008588720</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>1.61475e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLMIRMRQLIDVVDQLKNYVNNLDPEFLPAPHDVKRHCERSAFSCFQKVQLKSVNTGDNEMIINVLIKQLKRKLPPTNAGRRQKYKLTCPSCDSYEKKPPKEFLERLKSLLQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR MIRMRQLID+VDQLKNYVN+L PEFLPAP DV+ +CE SAFSCFQK QLKS NTG+NE IINV IK+LKRK P TNAGRRQK++LTCPSCDSYEKKPPKEFLER KSLLQKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_026958635.1|</Hit_id>
+  <Hit_def>interleukin-21 [Lagenorhynchus obliquidens]</Hit_def>
+  <Hit_accession>XP_026958635</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>4.42198e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKIQLKSANTGDNEKIIHVLTKQLKRKLPPTNAGKRQKHKLTCPSCDSYEKKPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+NE+II+V  K+LKRK P TNAG+RQKH+LTCPSCDSYEKKPPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_004265152.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Orcinus orca]</Hit_def>
+  <Hit_accession>XP_004265152</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>7.40336e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIGIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKIQLKSANTGDNEKIINVLTKQLKRKLPPTNAGKRQKHKLTCPSCDSYEKKPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLI IVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+NE+IINV  K+LKRK P TNAG+RQKH+LTCPSCDSYEKKPPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_004426577.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Ceratotherium simum simum]</Hit_def>
+  <Hit_accession>XP_004426577</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>8.64171e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHG</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRMRQLIDIVDELKNYVNDLDPEFLPAPEDVKRHCELSAFSCFQKVQLKSANTGDNEKKINVLTKQLKRKLPPTNAEKRQKHRPTCPSCDSYEKKPPKEFLERLKSLIQKMIHQHL-SRTHG</Hsp_hseq>
+      <Hsp_midline>QGQDR +IRMRQLIDIVD+LKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+NE+ INV  K+LKRK P TNA +RQKHR TCPSCDSYEKKPPKEFLER KSL+QKMIHQHL SRTHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|ADU25537.1|</Hit_id>
+  <Hit_def>interleukin-21, partial [Capra hircus]</Hit_def>
+  <Hit_accession>ADU25537</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.79988e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILTKQLKRKLPPTNAGRRQKHELTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P TNAGRRQKH LTCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_019832714.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 isoform X2 [Bos indicus] &gt;ref|XP_027421764.1| interleukin-21 [Bos indicus x Bos taurus]</Hit_def>
+  <Hit_accession>XP_019832714</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>1.86058e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILTKQLKRKLPATNAGRRQKHEVTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P+TNAGRRQKH +TCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_010858578.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 isoform X2 [Bison bison bison]</Hit_def>
+  <Hit_accession>XP_010858578</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.36805e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILTKQLKRKLPATNAGRRQKHEVTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P+TNAGRRQKH +TCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_005899797.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 isoform X3 [Bos mutus] &gt;ref|XP_006079012.1| interleukin-21 [Bubalus bubalis]</Hit_def>
+  <Hit_accession>XP_005899797</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.42054e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILTKQLKRKLPATNAGRRQKHEVTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P+TNAGRRQKH +TCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_001503063.3|</Hit_id>
+  <Hit_def>interleukin-21 [Equus caballus] &gt;ref|XP_008528830.1| PREDICTED: interleukin-21 [Equus przewalskii] &gt;ref|XP_014701011.1| PREDICTED: interleukin-21 [Equus asinus]</Hit_def>
+  <Hit_accession>XP_001503063</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>2.55786e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHG</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRMRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCEQSAFSCFQKVQLKSANAGDNEKKINVLIKQLKRKLPPTNAERRQKHRPTCPSCDSYEKKPLKEFLERLKSLIQKMIHQHL-SRTHG</Hsp_hseq>
+      <Hsp_midline>QGQDR +IRMRQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+ INV IK+LKRK P TNA RRQKHR TCPSCDSYEKKP KEFLER KSL+QKMIHQHL SRTHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|OWK15418.1|</Hit_id>
+  <Hit_def>IL21 [Cervus elaphus hippelaphus]</Hit_def>
+  <Hit_accession>OWK15418</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>3.47414e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILAKQLKRKLPPTNAGRRQKHELTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P TNAGRRQKH LTCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|NP_001243746.1|</Hit_id>
+  <Hit_def>interleukin-21 precursor [Ovis aries] &gt;ref|XP_005691342.1| PREDICTED: interleukin-21 [Capra hircus] &gt;ref|XP_005971247.1| PREDICTED: interleukin-21 isoform X2 [Pantholops hodgsonii] &gt;emb|CCF72065.1| interleukin-21 [Ovis aries]</Hit_def>
+  <Hit_accession>NP_001243746</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>3.67136e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILTKQLKRKLPPTNAGRRQKHELTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P TNAGRRQKH LTCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_006866329.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Chrysochloris asiatica]</Hit_def>
+  <Hit_accession>XP_006866329</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>4.23368e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLMIRMRQLIDIVDQLKNYVNDLDPEFLPAPQDVKRHCEQSAFSCFQKAQLKSVNAGDNERIIHMRIKQLKRKLPTTNAGGKQKHRPTCPACDSYEKTPPKEFLERLKSLLQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR MIRMRQLIDIVDQLKNYVNDL PEFLPAP+DV+ +CE SAFSCFQKAQLKS N G+NERII++ IK+LKRK P+TNAG +QKHR TCP+CDSYEK PPKEFLER KSLLQKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_020737825.1|</Hit_id>
+  <Hit_def>interleukin-21 [Odocoileus virginianus texanus]</Hit_def>
+  <Hit_accession>XP_020737825</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>4.52125e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILAKQLKRKLPPTNAGRRQKHELTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P TNAGRRQKH LTCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_007453744.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21-like [Lipotes vexillifer]</Hit_def>
+  <Hit_accession>XP_007453744</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>6.21179e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKIQLKSANTGDNEKIINILAKQLKRKLPPTNAGKRQKHELTCPSCDSYEKKLPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+NE+IIN+  K+LKRK P TNAG+RQKH LTCPSCDSYEKK PKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_012639639.1|</Hit_id>
+  <Hit_def>interleukin-21 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012639639</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>8.44805e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLSSRTHG</Hsp_qseq>
+      <Hsp_hseq>QDQDRLMIRMRQLIDIVDQLKNYVNVLDTEFLRSPQDVKRHCEWSAFSCFQKARLKSANTGDNEKIISVLIKQLKRKLPPTKAARRQKHKLTCPSCDSYENKPPKEFLERLKSLLQKMIHQHLSPRTQG</Hsp_hseq>
+      <Hsp_midline>Q QDR MIRMRQLIDIVDQLKNYVN L  EFL +P+DV+ +CEWSAFSCFQKA+LKSANTG+NE+II+V IK+LKRK P T A RRQKH+LTCPSCDSYE KPPKEFLER KSLLQKMIHQHLS RT G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_006180771.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Camelus ferus] &gt;ref|XP_010950881.1| PREDICTED: interleukin-21 [Camelus bactrianus] &gt;ref|XP_010983856.1| PREDICTED: interleukin-21 [Camelus dromedarius] &gt;gb|TKS50939.1| hypothetical protein Cadr_00001579 [Camelus dromedarius]</Hit_def>
+  <Hit_accession>XP_006180771</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>1.8801e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIDIVDQLKHYVNDLDPEFLPAPEDVKRHCEWSAFSCFQKIQLKSANAGDKEKIINVLTKQLKRKLPATNARRTQKHGLTCPSCDSYEKKPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLIDIVDQLK+YVNDL PEFLPAPEDV+ +CEWSAFSCFQK QLKSAN G+ E+IINV  K+LKRK P+TNA R QKH LTCPSCDSYEKKPPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|NP_942129.1|</Hit_id>
+  <Hit_def>interleukin-21 precursor [Bos taurus] &gt;sp|Q76LU5.3| RecName: Full=Interleukin-21; Short=IL-21; Flags: Precursor [Bos taurus] &gt;dbj|BAC87747.1| interleukin-21 [Bos taurus]</Hit_def>
+  <Hit_accession>NP_942129</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>2.39282e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILTKQLKRKLPATNTGRRQKHEVTCPSCDSYEKKPPKEYLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P+TN GRRQKH +TCPSCDSYEKKPPKE+LER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_004474719.1|</Hit_id>
+  <Hit_def>interleukin-21 [Dasypus novemcinctus]</Hit_def>
+  <Hit_accession>XP_004474719</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>3.4357e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QRQDRFMIRMRQLIDIVDQLKNYVNDLDPEFLPAPQDVKRHCERTAFSCFQKAQLKSANTGGNEKIINMLIKQLKRKLPPTNTGRRQKHRLTCSSCDSYEKKQPKEFLERLNSLLQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>Q QDR MIRMRQLIDIVDQLKNYVNDL PEFLPAP+DV+ +CE +AFSCFQKAQLKSANTG NE+IIN+ IK+LKRK P TN GRRQKHRLTC SCDSYEKK PKEFLER  SLLQKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_007172456.1|</Hit_id>
+  <Hit_def>interleukin-21 [Balaenoptera acutorostrata scammoni]</Hit_def>
+  <Hit_accession>XP_007172456</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>7.73203e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANTGDNEKIINVLTKQLKRKLPPTNSGKRQKHELTCPSCDSYEKKQAKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+NE+IINV  K+LKRK P TN+G+RQKH LTCPSCDSYEKK  KEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_007116132.2|</Hit_id>
+  <Hit_def>interleukin-21 [Physeter catodon]</Hit_def>
+  <Hit_accession>XP_007116132</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.89953e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIGIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANTGDNKKIISVLTKQLKRKLPPTNAGKRQKHDLTCPSCDSYEKKPPKEFLQRLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLI IVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+N++II+V  K+LKRK P TNAG+RQKH LTCPSCDSYEKKPPKEFL+R KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|NP_999580.1|</Hit_id>
+  <Hit_def>interleukin-21 precursor [Sus scrofa] &gt;sp|Q76LU6.3| RecName: Full=Interleukin-21; Short=IL-21; Flags: Precursor [Sus scrofa] &gt;dbj|BAD11128.1| porcine interleukin-21 [Sus scrofa]</Hit_def>
+  <Hit_accession>NP_999580</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>6.70048e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIDTVDQLKNYVHDLDPELLPAPEDVQRHCEQSAFSCFQKVELKSANTGDNEKIINVLIKQLKRKLPPTNAGRRQKHGLTCPTCDSYEKKPIKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLID VDQLKNYV+DL PE LPAPEDV+ +CE SAFSCFQK +LKSANTG+NE+IINV IK+LKRK P TNAGRRQKH LTCP+CDSYEKKP KEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_006217679.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Vicugna pacos]</Hit_def>
+  <Hit_accession>XP_006217679</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>9.6196e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRHLIDIVDQLKHYVNDLDPDFLPAPEDVKRHCEWSAFSCFQKIQLKSANAGDKEKIINILTKQLKRKLPATNARRTQKHGLTCPSCDSYEKKPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+R LIDIVDQLK+YVNDL P+FLPAPEDV+ +CEWSAFSCFQK QLKSAN G+ E+IIN+  K+LKRK P+TNA R QKH LTCPSCDSYEKKPPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_016058724.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Miniopterus natalensis]</Hit_def>
+  <Hit_accession>XP_016058724</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.48153e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QEQDRLMIRLRQLIDVVDQLKHYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSVNTGDNEKIINVLTKQLKRKLPPTNAGRRQEQRLVCPSCDSYEKKPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>Q QDR MIR+RQLID+VDQLK+YVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKS NTG+NE+IINV  K+LKRK P TNAGRRQ+ RL CPSCDSYEKKPPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_015990990.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>XP_015990990</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>3.11061e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRMRQLIDIVEQLKNYVNDLDPELLPAPEDVKRHCERSAFSCFQKVQLKPANAGDNEKTIHVLTKQLTRKLPPVNSGRRQKHRLTCPSCDSYEKKPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IRMRQLIDIV+QLKNYVNDL PE LPAPEDV+ +CE SAFSCFQK QLK AN G+NE+ I+V  K+L RK P  N+GRRQKHRLTCPSCDSYEKKPPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_008687712.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Ursus maritimus] &gt;ref|XP_026354870.1| interleukin-21 [Ursus arctos horribilis]</Hit_def>
+  <Hit_accession>XP_008687712</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>5.14555e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QEQDRYLIRMRQLINIVDQLKNYVNDLDPESLPAPEDVKRHCEQSAFSCFQKAQIKAANTGGNEQLISVLTKQLKRKLPPTNAGRRQKHRPTCPSCDSYEKTPPKEFLERLKSLIQRMIHQHLS</Hsp_hseq>
+      <Hsp_midline>Q QDR++IRMRQLI+IVDQLKNYVNDL PE LPAPEDV+ +CE SAFSCFQKAQ+K+ANTG NE++I+V  K+LKRK P TNAGRRQKHR TCPSCDSYEK PPKEFLER KSL+Q+MIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>tpg|DAA20824.1|</Hit_id>
+  <Hit_def>TPA: interleukin-21, partial [Bos taurus]</Hit_def>
+  <Hit_accession>DAA20824</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>6.62446e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQ</Hsp_qseq>
+      <Hsp_hseq>QGQDRLFIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKVQLKSANNGDNEKIINILTKQLKRKLPATNTGRRQKHEVTCPSCDSYEKKPPKEYLERLKSLIQKMIHQ</Hsp_hseq>
+      <Hsp_midline>QGQDR  IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSAN G+NE+IIN+  K+LKRK P+TN GRRQKH +TCPSCDSYEKKPPKE+LER KSL+QKMIHQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_008066578.1|</Hit_id>
+  <Hit_def>interleukin-21 [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008066578</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>1.57372e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRMRQLIDIVDQLINYVNDLDPELLPAPEDAKRHCEWSAFSCFQKAPLKPANTGDNEKTIKLLTKQLKRKLPSTKAKRRQNHILTCPSCDSYEKKPPKEFLERLKSLLQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR +IRMRQLIDIVDQL NYVNDL PE LPAPED + +CEWSAFSCFQKA LK ANTG+NE+ I +  K+LKRK PST A RRQ H LTCPSCDSYEKKPPKEFLER KSLLQKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_004386909.1|</Hit_id>
+  <Hit_def>interleukin-21 isoform X2 [Trichechus manatus latirostris]</Hit_def>
+  <Hit_accession>XP_004386909</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>1.75599e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QGQDRFMIRMRQLIDIVDQLRNYVNDLDTEFLPAPQDVKRHCEQSAFSCFQKAQLKSVNASDNAKIINMRIKQLKRKLPPTNTGKKQKRSLTCPACDSYEKKPPKEFLERLKSLLQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>QGQDR MIRMRQLIDIVDQL+NYVNDL  EFLPAP+DV+ +CE SAFSCFQKAQLKS N  +N +IIN+ IK+LKRK P TN G++QK  LTCP+CDSYEKKPPKEFLER KSLLQKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|NP_001003347.1|</Hit_id>
+  <Hit_def>interleukin-21 precursor [Canis lupus familiaris] &gt;ref|XP_025276320.1| interleukin-21 [Canis lupus dingo] &gt;sp|Q6L7I9.1| RecName: Full=Interleukin-21; Short=IL-21; Flags: Precursor [Canis lupus familiaris] &gt;dbj|BAD22569.1| interleukin-21 [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>NP_001003347</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>1.89828e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QEQDLLLIRMRQLIDIVDQLKNYVNDLDPESLPAPEDVKRHCERSAFSCFQKVQLKAANTGGNEQIINVLTKQLKRKLPPTNAGRRQKHRPACPSCDSYEKAPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>Q QD  +IRMRQLIDIVDQLKNYVNDL PE LPAPEDV+ +CE SAFSCFQK QLK+ANTG NE+IINV  K+LKRK P TNAGRRQKHR  CPSCDSYEK PPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|TKC49640.1|</Hit_id>
+  <Hit_def>hypothetical protein EI555_007888 [Monodon monoceros]</Hit_def>
+  <Hit_accession>TKC49640</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>4.61275e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKM</Hsp_qseq>
+      <Hsp_hseq>QGQDRLLIRLRQLIDIVDQLKNYVNDLDPEFLPAPEDVKRHCERSAFSCFQKIQLKSANTGDNEKIINVLTKQLKRKLPPTNAGKRQKHKLTCPSCDSYEKKPPKEFLERLKSLIQKV</Hsp_hseq>
+      <Hsp_midline>QGQDR +IR+RQLIDIVDQLKNYVNDL PEFLPAPEDV+ +CE SAFSCFQK QLKSANTG+NE+IINV  K+LKRK P TNAG+RQKH+LTCPSCDSYEKKPPKEFLER KSL+QK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_025872601.1|</Hit_id>
+  <Hit_def>interleukin-21 [Vulpes vulpes]</Hit_def>
+  <Hit_accession>XP_025872601</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>4.65155e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHLS</Hsp_qseq>
+      <Hsp_hseq>QEQDLLLIRMRQLIDIVDQLKNYVNDLDPESLPAPEDVKRHCERSAFSCFQKVQLKAANTGGNEQIINVLTKQLKRKLPPTNAGRRQRHRPACPSCDSYEKAPPKEFLERLKSLIQKMIHQHLS</Hsp_hseq>
+      <Hsp_midline>Q QD  +IRMRQLIDIVDQLKNYVNDL PE LPAPEDV+ +CE SAFSCFQK QLK+ANTG NE+IINV  K+LKRK P TNAGRRQ+HR  CPSCDSYEK PPKEFLER KSL+QKMIHQHLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_007944648.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-21 [Orycteropus afer afer]</Hit_def>
+  <Hit_accession>XP_007944648</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>5.13997e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>QGQDRHMIRMRQLIDIVDQLKNYVNDLVPEFLPAPEDVETNCEWSAFSCFQKAQLKSANTGNNERIINVSIKKLKRKPPSTNAGRRQKHRLTCPSCDSYEKKPPKEFLERFKSLLQKMIHQHL</Hsp_qseq>
+      <Hsp_hseq>QGQDRFMIRMRQLIDIVDQLKNYVNDMDPEFLTAPQDVKRHCEQSAFSCFQKAQLKSVNAGDHEKIINMRIKQLKRKLPPTKAGEKQKSRLACPPCDSYEKKPPKEFLERLKSLLQKMIHQHL</Hsp_hseq>
+      <Hsp_midline>QGQDR MIRMRQLIDIVDQLKNYVND+ PEFL AP+DV+ +CE SAFSCFQKAQLKS N G++E+IIN+ IK+LKRK P T AG +QK RL CP CDSYEKKPPKEFLER KSLLQKMIHQHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>216048067</Statistics_db-num>
+      <Statistics_db-len>551017296</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
