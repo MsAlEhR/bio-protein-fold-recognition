@@ -9,7 +9,7 @@ Created on Tue Nov 27 15:07:56 2018
 from os.path import splitext
 import pandas as pd 
 
-def create_tsv(dataset_name):
+def create_tsv(data_path, dataset_name):
    
     """
       Create .tsv files for label and features
@@ -21,7 +21,7 @@ def create_tsv(dataset_name):
     """
 
     
-    dataset = pd.read_csv('./dataset/RDD/'+ dataset_name)
+    dataset = pd.read_csv(data_path + dataset_name)
     
     no_samples, no_features = dataset.shape
     no_features = no_features - 2
@@ -32,10 +32,10 @@ def create_tsv(dataset_name):
     # In order to remove white space in protein name 
     dataset['Protein name'] = dataset['Protein name'].map(lambda x : x.replace(" " ,""))
     
-    dataset[['Protein name','class labels']].to_csv('./dataset/' + splitext(dataset_name)[0] + \
+    dataset[['Protein name','class labels']].to_csv(data_path + splitext(dataset_name)[0] + \
            '_label' + '.txt', index=False, header=False, sep="\t")
     
-    dataset[['Protein name']+['F%d' % i for i in range(1, no_features + 1)]].to_csv('./dataset/' + \
+    dataset[['Protein name']+['F%d' % i for i in range(1, no_features + 1)]].to_csv(data_path + \
             splitext(dataset_name)[0] + '_feature' + '.tsv', index=False, sep="\t")
     
     return dataset,dataset[['Protein name','class labels']],dataset[['Protein name']+ \
@@ -43,4 +43,4 @@ def create_tsv(dataset_name):
 
 if __name__ == "__main__":
          
-    dataset, label , feature = create_tsv('rdd_fusion_acc_dimer_FULL.csv')
+    dataset, label , feature = create_tsv('./dataset/EDD/', 'edd_fusion_accK4_dimerK8_FULL.csv')
