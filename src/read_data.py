@@ -16,7 +16,7 @@ start_t = time.time()
 
 # **************** Convert text data file to dictionary ************
 
-with open("../data/EDD.fasta") as f:
+with open("../data/f86/test-sequences.txt") as f:
     content = f.readlines()
 
 content = [x.strip() for x in content]
@@ -68,8 +68,8 @@ data_frame = pd.DataFrame(list_data, columns=['Fold', 'Protein name', \
                                               'Protein sequence'])
     
 # Save this dataframe to CSV file
-data_frame.to_csv('./dataset/EDD_raw.csv', index=False, header=True)
-data_frame['Protein name'].to_csv(r'EDD-bxml.txt', header=None, index=None, sep=' ', mode='a')
+data_frame.to_csv('./dataset/F86/test.csv', index=False, header=True)
+data_frame['Protein name'].to_csv(r'f86-bxml.txt', header=None, index=None, sep=' ', mode='a')
 
 
 # ******************************************************************
