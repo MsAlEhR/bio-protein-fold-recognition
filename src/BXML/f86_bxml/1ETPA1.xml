@@ -1,0 +1,2144 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_203277</BlastOutput_query-ID>
+  <BlastOutput_query-def>1ETPA1</BlastOutput_query-def>
+  <BlastOutput_query-len>91</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_203277</Iteration_query-ID>
+  <Iteration_query-def>1ETPA1</Iteration_query-def>
+  <Iteration_query-len>91</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_044314842.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|KIZ36322.1| cytochrome C [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_044314842</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>6.68501e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.537976</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGAGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_014818660.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;sp|Q52369.1| RecName: Full=Cytochrome c4; Flags: Precursor [Pseudomonas stutzeri] &gt;gb|AAA20247.1| cytochrome c4 preprotein [Pseudomonas stutzeri] &gt;gb|AFM31462.1| cytochrome c4 [Pseudomonas stutzeri CCUG 29243] &gt;gb|ESR00998.1| cytochrome C [Pseudomonas chloritidismutans AW-1] &gt;gb|KJS71230.1| cytochrome C [Pseudomonas sp. BICA1-14] &gt;gb|KJS75756.1| cytochrome C [Pseudomonas sp. BICA1-14] &gt;gb|KKJ99047.1| cytochrome C [Pseudomonas stutzeri] &gt;gb|MAK88066.1| cytochrome c4 [Pseudomonas sp.] &gt;gb|OCX98657.1| cytochrome C [Pseudomonas sp. K35] &gt;gb|OHC14781.1| cytochrome C [Pseudomonadales bacterium GWC2_63_15] &gt;gb|PKR27775.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|PNG01785.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRU76445.1| cytochrome c4 [Pseudomonas xanthomarina] &gt;gb|RRU96057.1| cytochrome c4 [Pseudomonas xanthomarina] &gt;gb|RRV14442.1| cytochrome c4 [Pseudomonas xanthomarina] &gt;emb|VEI29973.1| cytochrome c4 [Pseudomonas stutzeri] &gt;tpg|HAG78448.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HBW07981.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HCG40936.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HCH79003.1| cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>WP_014818660</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>7.37638e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.554231</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1ETP|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Cytochrome C4 From Pseudomonas Stutzeri [Pseudomonas stutzeri] &gt;pdb|1ETP|B Chain B, Crystal Structure Of Cytochrome C4 From Pseudomonas Stutzeri [Pseudomonas stutzeri] &gt;pdb|1M6Z|A Chain A, Cytochrome c4 [Pseudomonas stutzeri] &gt;pdb|1M6Z|B Chain B, Cytochrome c4 [Pseudomonas stutzeri] &gt;pdb|1M6Z|C Chain C, Cytochrome c4 [Pseudomonas stutzeri] &gt;pdb|1M6Z|D Chain D, Cytochrome c4 [Pseudomonas stutzeri] &gt;pdb|1M70|A Chain A, Cytochrome c4 [Pseudomonas stutzeri] &gt;pdb|1M70|B Chain B, Cytochrome c4 [Pseudomonas stutzeri] &gt;pdb|1M70|C Chain C, Cytochrome c4 [Pseudomonas stutzeri] &gt;pdb|1M70|D Chain D, Cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>1ETP_A</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>8.86644e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.510047</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>tpg|HBC01519.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>HBC01519</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>2.59391e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.565338</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_041015057.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;emb|CEG53617.1| Cytochrome c4 [Pseudomonas xanthomarina] &gt;emb|SFJ36886.1| cytochrome c oxidase, cbb3-type, subunit III [Pseudomonas kunmingensis]</Hit_def>
+  <Hit_accession>WP_041015057</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>8.17597e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAAEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGA EGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.458983</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>tpg|HAG18971.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>HAG18971</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>9.86721e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AEA86065.1|</Hit_id>
+  <Hit_def>cytochrome c4 precursor [Pseudomonas stutzeri DSM 4166] &gt;gb|AEJ07306.1| cytochrome c4 preprotein [Pseudomonas stutzeri] &gt;gb|AKN29113.1| cytochrome c4 precursor [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>AEA86065</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>1.00463e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.438502</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNELAGFPKLGGQHAAYTAKQLTDFREGNRTNDGDS-----MIMRGVASKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HAO73927.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>HAO73927</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>1.05596e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|ABP81683.1|</Hit_id>
+  <Hit_def>cytochrome c4 precursor [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>ABP81683</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.12855e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.428112</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>VCGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>ACTGCHAPNGVGNELAGFPKLGGQHAAYTAKQLTDFREGNRTNDGDS-----MIMRGVASKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline> C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_017244153.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|AVX15043.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|AWK99478.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|EPL64021.1| cytochrome c4 [Pseudomonas stutzeri B1SMN1] &gt;gb|KXO84474.1| cytochrome C [Pseudomonas stutzeri] &gt;gb|OCX59282.1| cytochrome C [Pseudomonas stutzeri] &gt;gb|OHC21714.1| cytochrome C [Pseudomonadales bacterium RIFCSPHIGHO2_01_FULL_64_12] &gt;gb|OPG81716.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|OSO72319.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|OWG39077.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|PAO93510.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RAA04152.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RFF61515.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV36004.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV40715.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV49235.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV54801.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV59762.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV67723.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV70568.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV83898.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV85157.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV88521.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV92083.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV93628.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV99629.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRW05033.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRW07828.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRW16908.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRW17652.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRW22790.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRW28583.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRW57596.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RSH66075.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RTM23524.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|TFZ24131.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|TGY09816.1| cytochrome c4 [Pseudomonas stutzeri] &gt;emb|CJL15755.1| Cytochrome c4 precursor [Streptococcus pneumoniae] &gt;emb|VEF13962.1| cytochrome c4 [Pseudomonas stutzeri] &gt;tpg|HAB86904.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HAJ88992.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HAN54482.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HAR06587.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HAV05624.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HAW38919.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HBB23367.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HBC23255.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HCA63849.1| cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>WP_017244153</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>1.33723e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.445515</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNELAGFPKLGGQHAAYTAKQLTDFREGNRTNDGDS-----MIMRGVASKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_053527463.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|KOR09944.1| cytochrome C [Pseudomonas stutzeri] &gt;gb|RRW28708.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_053527463</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>1.36679e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.468187</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNELAGFPKLGGQHAAYTAKQLTDFREGNRTNDGDS-----MIMRGVASKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_003303285.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|EMD98521.1| cytochrome c4 [Pseudomonas stutzeri NF13] &gt;gb|MBS67861.1| cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>WP_003303285</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>3.4616e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLHDIKAGSTPGAEEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQL DIKAGSTPGA EGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.56851</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNELAGFPHLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGIAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FP L GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_015275199.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|AGA84796.1| cytochrome c553 [Pseudomonas stutzeri RCH2]</Hit_def>
+  <Hit_accession>WP_015275199</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>3.77798e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAMCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVA+CGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.994754</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGDS-----MIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_038655996.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|AHY41091.1| cytochrome C [Pseudomonas stutzeri] &gt;gb|PKL98068.1| cytochrome c4 [Gammaproteobacteria bacterium HGW-Gammaproteobacteria-9] &gt;gb|PKL98690.1| cytochrome c4 [Gammaproteobacteria bacterium HGW-Gammaproteobacteria-7] &gt;gb|PNF85355.1| cytochrome c4 [Pseudomonas stutzeri] &gt;dbj|GCA54086.1| cytochrome c4 precursor [Pseudomonas sp. SCT]</Hit_def>
+  <Hit_accession>WP_038655996</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>4.07844e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAMCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVA+CGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.965626</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGDS-----MIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_106157215.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|AWM60035.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|OCX94778.1| cytochrome C [Pseudomonas sp. CO183] &gt;gb|RMH99242.1| cytochrome c4 [Pseudomonas songnenensis] &gt;gb|RYJ64330.1| cytochrome c4 [Pseudomonas songnenensis]</Hit_def>
+  <Hit_accession>WP_106157215</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>4.70126e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAMCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVA+CGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.284911</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPDGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGDS-----MIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  DG  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_003282851.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|EHY77753.1| cytochrome c4 [Pseudomonas stutzeri ATCC 14405 = CCUG 16156] &gt;gb|KRW65988.1| cytochrome C [Pseudomonas sp. TTU2014-105ASC] &gt;gb|PNF60700.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_003282851</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>3.2546e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVVVCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYYASQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKV VCGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAY++SQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.807881</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGDS-----MIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_103457115.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|POH82106.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_103457115</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>5.56029e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVVVCGACHGADGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLQDIAAYYASQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKV VCGACHG DGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDL+DIAAY++SQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.423938</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPDGVGNDLAGFPKLGGQHAAYTAKQLTDFREGDRTNDGDS-----MIMRGVAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  DG  +    FPKL GQ   Y  KQL D + G      +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_102823956.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|PNF81181.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_102823956</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>6.55089e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAMCGACHGADGNSPAPNFPKLAGQGERYLLKQLHEIKAGSTPGAPEGVGRKVLEMTGMLDPLSEQDLEDIAAYFSSQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVA+CGACHG DGNSPAPNFPKLAGQGERYLLKQL +IKAGSTPGAPEGVGRKVLEMTGMLDPLS+QDLEDIAAYFSSQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.532664</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLRGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGIAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_003293773.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|EWC41453.1| cytochrome C [Pseudomonas stutzeri KOS6]</Hit_def>
+  <Hit_accession>WP_003293773</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.62282e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQGKVAVCGACHGADGNSPAPNFPKLAGQGERYLLKQLHDIKAGSTPGAAEGVGRKVLEMTGLLDPLSDQDLEDIAAYFASQKGS</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQGKVAVCGACHG DGNSPAPNFPKLAGQGERYLLKQL DIKAGSTPGA EGVGRKVLEMTG+LDPLSDQDLEDIAAYF+SQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.340722</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNELAGFPKLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGIAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MAL91653.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>MAL91653</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>5.3996e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLHDIKAGSTPGAEEGVGRKVSEMTGMLDPLSDQDLEDIAAYFASQKGS</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQL DIKAGSTPGA EGVGRKV EMTGMLDPLSDQDLEDIAAYF+SQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.64315</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLIDFREGNRTNDGD-----TMIMRGIAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_063541113.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|AWT12370.1| cytochrome c4 [Pseudomonas sp. R2A2] &gt;gb|KZX61399.1| cytochrome C [Pseudomonas stutzeri] &gt;gb|PNF52055.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|RRV71460.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|TDL97027.1| cytochrome c4 [Pseudomonas stutzeri ATCC 17588 = LMG 11199] &gt;tpg|HAW61583.1| cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>WP_063541113</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>1.17306e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLHDIKAGSTPGAEEGVGRKVPEMTGMLDPLSDQDLEDIAAYFASQKGS</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQL DIKAGSTPGA EGVGRKV EMTGMLDPLSDQDLEDIAAYF+SQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.428168</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPKLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGIAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FPKL GQ   Y  KQL D + G+     +      + M G+   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_102894448.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|PNG09645.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_102894448</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>2.18688e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQGKVAVCGACHGTDGNSPAPNFPKLAGQGERYLFKQLQDIKAGSTPGAAEGVGRKVLEMTGMLDPLSDQDLEDIAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQGKVAVCGACHG DGNSPAPNFPKLAGQGERYL KQLQDIKAGSTPGA EGVGRKVLEMTGMLDPLSDQDLEDIAAYF+SQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>tpg|HAQ25894.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>HAQ25894</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>1.05765e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQSKVAVCGACHGADGNSPAPNFPKLAGQGEAYLLKQMKDIKAGSTPGAPEGVGRKVLEMTGMLDPYSDQDLEDIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQ KVAVCGACHG DGNSPAPNFPKLAGQGE YLLKQ++DIKAGSTPGAPEGVGRKVLEMTGMLDP SDQDLEDIAAYFSSQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_014854451.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|AFN79667.1| cytochrome c4 [Pseudomonas stutzeri DSM 10701] &gt;gb|KRW67243.1| cytochrome C [Pseudomonas sp. TTU2014-066ASC] &gt;gb|RMI03099.1| cytochrome c4 [Pseudomonas sp. GL14] &gt;gb|RRV22389.1| cytochrome c4 [Pseudomonas sp. s199] &gt;emb|SUD86192.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_014854451</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>1.2157e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQSKVAVCGACHGADGNSPAPNFPKLAGQGEAYLLKQMKDIKAGSTPGAPEGVGRKVLEMTGMLDPYSDQDLEDIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQ KVAVCGACHG DGNSPAPNFPKLAGQGE YLLKQ++DIKAGSTPGAPEGVGRKVLEMTGMLDP SDQDLEDIAAYFSSQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>2.39965</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGIELAAFPHLGGQHATYTAKQLTDFREGNRTNDGE-----VAIMRTIASKLSNKDIEALASYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G       FP L GQ   Y  KQL D + G+     E     V  M  +   LS++D+E +A+Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>tpg|HAQ72782.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>HAQ72782</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>1.38601e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQSKVAVCGACHGADGNSPAPNFPKLAGQGEAYLLKQMKDIKAGSTPGAPEGVGRKVLEMTGMLDPYSDQDLEDIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQ KVAVCGACHG DGNSPAPNFPKLAGQGE YLLKQ++DIKAGSTPGAPEGVGRKVLEMTGMLDP SDQDLEDIAAYFSSQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>2.35268</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGIELAAFPHLGGQHATYTAKQLTDFREGNRTNDGE-----VAIMRTIASKLSNKDIEALASYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G       FP L GQ   Y  KQL D + G+     E     V  M  +   LS++D+E +A+Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_043295252.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|KGK85232.1| cytochrome C [Pseudomonas sp. HMP271] &gt;gb|OOE15589.1| cytochrome c4 [Pseudomonas stutzeri] &gt;gb|QCT98059.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_043295252</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>3.50803e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDAKAGQSKAAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQMQDIKAGSTPGAAEGVGRKVLEMTGMLDPLSDQDLADIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AGDA+AGQ K AVCGACHGVDGNSPAPNFPKLAGQGERYLLKQ+QDIKAGSTPGA EGVGRKVLEMTGMLDPLSDQDL DIAAYFSSQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>4.38298</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPQLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGIAAKLSNKDIQALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FP+L GQ   Y  KQL D + G+     +      + M G+   LS++D++ +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_041108714.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas stutzeri group] &gt;gb|AJE13739.1| cytochrome C [Pseudomonas balearica DSM 6083] &gt;gb|KIL03625.1| cytochrome C [Pseudomonas stutzeri] &gt;gb|KXO72545.1| cytochrome C [Pseudomonas balearica] &gt;gb|MBB61696.1| cytochrome c4 [Pseudomonas sp.] &gt;gb|OMG67342.1| cytochrome c4 [Pseudomonas balearica] &gt;gb|OMG67553.1| cytochrome c4 [Pseudomonas balearica] &gt;emb|SDL95505.1| Cytochrome c553 [Pseudomonas balearica DSM 6083] &gt;tpg|HAF90711.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HAV86777.1| cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>WP_041108714</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>4.55964e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQGKVAVCGACHGADGNSAAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGLLDPYSDQDLADIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQGKVAVCGACHG DGNS APNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTG+LDP SDQDL DIAAYFSSQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.299429</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GKVAV----CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>GKVDVGMPACTGCHAPNGVGIEAAGFPKLGGQHAAYVAKQLTDFREGNRTNDGD-----TMIMRNIAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>GKV V    C  CH  +G    A  FPKL GQ   Y+ KQL D + G+     +      + M  +   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_058073869.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp. TTU2014-096BSC] &gt;gb|KRW74686.1| cytochrome C [Pseudomonas sp. TTU2014-096BSC]</Hit_def>
+  <Hit_accession>WP_058073869</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>6.12389e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQSKVAVCGACHGADGNSPAPNFPKLAGQGEAYLLKQMKDIKAGSTPGAPEGVGRKVLEMTAMLDPYSDQDLEDIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQ KVAVCGACHG DGNSPAPNFPKLAGQGE YLLKQ++DIKAGSTPGAPEGVGRKVLEMT MLDP SDQDLEDIAAYFSSQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>2.26148</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGIELAAFPHLGGQHATYTAKQLTDFREGNRTNDGE-----VAIMRTIASKLSNKDIEALASYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G       FP L GQ   Y  KQL D + G+     E     V  M  +   LS++D+E +A+Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_065984529.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas xanthomarina] &gt;gb|OCX18124.1| cytochrome C [Pseudomonas xanthomarina] &gt;tpg|HBB80148.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HCL75639.1| cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>WP_065984529</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>1.97079e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGQSKVAVCGACHGADGNSPAPNFPKLAGQGEVYLLKQMKDIKAGSTPGAAEGVGRKVLEMTGMLDPYSDQDLEDIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AGDAEAGQ KVAVCGACHG DGNSPAPNFPKLAGQGE YLLKQ++DIKAGSTPGA EGVGRKVLEMTGMLDP SDQDLEDIAAYFSSQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>2.15243</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGIELAAFPHLGGQHATYTAKQLTDFREGNRTNDGE-----VAIMRTIASKLSNKDIEALASYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G       FP L GQ   Y  KQL D + G+     E     V  M  +   LS++D+E +A+Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_008569338.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|EKM95291.1| cytochrome c4 [Pseudomonas sp. Chol1] &gt;gb|PNF77373.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_008569338</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>2.27149e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDAKAGQSKAAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQMQDIKAGSTPGAAEGVGRKVLEMTAMLDPLSDQDLADIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AGDA+AGQ K AVCGACHGVDGNSPAPNFPKLAGQGERYLLKQ+QDIKAGSTPGA EGVGRKVLEMT MLDPLSDQDL DIAAYFSSQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>4.60466</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAGFPQLGGQHAAYTAKQLTDFREGNRTNDGD-----TMIMRGIAAKLSNKDIQALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FP+L GQ   Y  KQL D + G+     +      + M G+   LS++D++ +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_037024197.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas saudiphocaensis] &gt;gb|RRV17355.1| cytochrome c4 [Pseudomonas saudiphocaensis] &gt;emb|CDZ94827.1| cytochrome c4 preprotein [Pseudomonas saudiphocaensis]</Hit_def>
+  <Hit_accession>WP_037024197</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>2.8885e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGDAEAGSSKVAVCGACHGADGNSPAPNFPKLAGQGEAYLLKQLKDIKAGSTPGAPEGEGRKVLEMTGMLDPYSDQDLEDIAAYFASQKGT</Hsp_hseq>
+      <Hsp_midline>AGDAEAG  KVAVCGACHG DGNSPAPNFPKLAGQGE YLLKQL+DIKAGSTPGAPEG GRKVLEMTGMLDP SDQDLEDIAAYF+SQKG+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>4.13098</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHSPNGAGNDLAGFPQLGGQHAAYTAKQLTDFREGNRTNDGE-----AMIMRSIAAKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FP+L GQ   Y  KQL D + G+     E      + M  +   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_138406415.1|</Hit_id>
+  <Hit_def>MULTISPECIES: c-type cytochrome [Pseudomonas] &gt;gb|TLX54816.1| cytochrome c4 [Pseudomonas sp. CCUG 58779] &gt;gb|TLX61223.1| cytochrome c4 [Pseudomonas sp. A31/70] &gt;gb|TLX62203.1| cytochrome c4 [Pseudomonas sp. SD129]</Hit_def>
+  <Hit_accession>WP_138406415</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.23793e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDPEAGQSKAAVCGACHGADGNSPAPNFPKLAGLGERYLLKQLQDIKAGSAPGAPEGVGRKVLEMTGMLDPFSDEDLADLAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AGD EAGQ K AVCGACHG DGNSPAPNFPKLAG GERYLLKQLQDIKAGS PGAPEGVGRKVLEMTGMLDP SD+DL D+AAYF+SQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.132402</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPDGVGNPQAAFPHLGGQHAQYIAKQLTDFREGDRTNDGDAA-----IMRSIAAKLSNRDIEALASYI</Hsp_hseq>
+      <Hsp_midline>C  CH  DG  +P   FP L GQ  +Y+ KQL D + G      +        M  +   LS++D+E +A+Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_122163384.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas zhaodongensis] &gt;gb|RMH91408.1| cytochrome c4 [Pseudomonas zhaodongensis]</Hit_def>
+  <Hit_accession>WP_122163384</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>4.44104e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQEKVAVCGACHGADGNSAAPNFPKLAGQGENYLFKQLQDIKVGSKPGAPEGEGRKVLEMTGMLDPYSDQDLADIAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQ KVAVCGACHG DGNS APNFPKLAGQGE YL KQLQDIK GS PGAPEG GRKVLEMTGMLDP SDQDL DIAAYF+SQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|RCI87670.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp. SST3]</Hit_def>
+  <Hit_accession>RCI87670</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>4.79358e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQEKVAVCGACHGADGNSAAPNFPKLAGQGESYLFKQLQDIKAGSTPGAPEDAGRKVLEMTGMLDPYSDQDLADIAAYFASQE</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQ KVAVCGACHG DGNS APNFPKLAGQGE YL KQLQDIKAGSTPGAPE  GRKVLEMTGMLDP SDQDL DIAAYF+SQ+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>5.77739</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGS-TPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPDGVGNDLAGFPQLGGQHAAYTAKQLTDFREGNRTNDGDTAIMRTIAS------KLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  DG  +    FP+L GQ   Y  KQL D + G+ T      + R +         LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_102852541.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|PNG13236.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_102852541</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.57475e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQEKVAVCGACHGADGNSAAPNFPKLAGQGERYLFKQLQDIKAGSSPTAEPGVGRKVLEMTGILEPYSDQDLQDIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQ KVAVCGACHG DGNS APNFPKLAGQGERYL KQLQDIKAGS+P A  GVGRKVLEMTG+L+P SDQDL+DIAAYFSSQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_021206134.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|EQM81259.1| cytochrome C [Pseudomonas stutzeri MF28] &gt;gb|PNG05462.1| cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_021206134</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.93752e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQEKVAVCGACHGADGNSAAPNFPKLAGQGERYLFKQLQDIKAGSSPTAEPGVGRKVLEMTGILEPYSDQDLQDIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQ KVAVCGACHG DGNS APNFPKLAGQGERYL KQLQDIKAGS+P A  GVGRKVLEMTG+L+P SDQDL+DIAAYFSSQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_003286812.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|EIK54619.1| cytochrome c4 [Pseudomonas stutzeri TS44]</Hit_def>
+  <Hit_accession>WP_003286812</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>3.45449e-46</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>QGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQ</Hsp_qseq>
+      <Hsp_hseq>QSKAAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQMQDIKAGSTPGAAEGVGRKVLEMTAMLDPLSDQDLADIAAYFASQ</Hsp_hseq>
+      <Hsp_midline>Q K AVCGACHGVDGNSPAPNFPKLAGQGERYLLKQ+QDIKAGSTPGA EGVGRKVLEMT MLDPLSDQDL DIAAYF+SQ</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>5.23476</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGVGNDLAAFPQLGGQHAAYTAKQLTDFREGTRTNDGD-----TMIMRGIAAKLSNKDIQALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  +    FP+L GQ   Y  KQL D + G+     +      + M G+   LS++D++ +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_045164088.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|KJH79579.1| cytochrome C [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_045164088</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>6.15894e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGKEKVAVCGACHGADGNSAAPNFPKLAGQGERYLFKQLQDIKAGSSPTAEPGVGRKVLEMTGMLEPYSDQDLQDIAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAG+ KVAVCGACHG DGNS APNFPKLAGQGERYL KQLQDIKAGS+P A  GVGRKVLEMTGML+P SDQDL+DIAAYF+SQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>7.10645</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHSPDGVGNNLAGFPHLGGQHAAYTAKQLTDFREGNRTNDGDAA-----IMRTIASKLSNKDIEALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  DG  +    FP L GQ   Y  KQL D + G+     +        M  +   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_025243500.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|AHL77285.1| cytochrome C [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_025243500</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>2.33077e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGKEKVAVCGACHGADGNSAAPNFPKLAGQGERYLFKQLQDIKAGSSPTAEPGVGRKVLEMTGILEPYSDQDLQDIAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAG+ KVAVCGACHG DGNS APNFPKLAGQGERYL KQLQDIKAGS+P A  GVGRKVLEMTG+L+P SDQDL+DIAAYF+SQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_131651332.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp. IC_126] &gt;gb|TCD19456.1| cytochrome c4 [Pseudomonas sp. IC_126]</Hit_def>
+  <Hit_accession>WP_131651332</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>3.1633e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGQEKIAVCGACHGADGNSPAPNFPKLAGQGESYLLKQLHDIKAGSSPTAEPSVGRKVLEMTGMLDPYNDQDLADIAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAGQ K+AVCGACHG DGNSPAPNFPKLAGQGE YLLKQL DIKAGS+P A   VGRKVLEMTGMLDP +DQDL DIAAYF+SQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_019341917.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>WP_019341917</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>6.56924e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGKEKVAVCGACHGVDGNSAAPNFPKLAGQGSNYLFKQLQDIKLGSSPTAEPGVGRKVLEMTGMLDPYSDQDLQDIAAYFASQKMS</Hsp_hseq>
+      <Hsp_midline>AG+AEAG+ KVAVCGACHGVDGNS APNFPKLAGQG  YL KQLQDIK GS+P A  GVGRKVLEMTGMLDP SDQDL+DIAAYF+SQK S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|KHL68347.1|</Hit_id>
+  <Hit_def>cytochrome C [Pseudomonas flexibilis]</Hit_def>
+  <Hit_accession>KHL68347</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.40427e-44</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>KVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>KVMLCSACHNADGNSAAPNFPKLAGQGERYLLKQMKDIKAGSTPGAPEGVGRKVLEMTGMLDTFSDQDLEDIAAYFASQKGS</Hsp_hseq>
+      <Hsp_midline>KV +C ACH  DGNS APNFPKLAGQGERYLLKQ++DIKAGSTPGAPEGVGRKVLEMTGMLD  SDQDLEDIAAYF+SQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>2.56525</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGIGNAAAAYPKLNGQHAAYIAKQLTDFREGVRTNDGD-----TMIMRAIAAKLSNKDIQALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  + A  +PKL GQ   Y+ KQL D + G      +      + M  +   LS++D++ +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_027588714.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|KHO63811.1| cytochrome C [Pseudomonas flexibilis] &gt;emb|SCY25681.1| Cytochrome c553 [Pseudomonas flexibilis] &gt;emb|SIQ31039.1| Cytochrome c553 [Pseudomonas flexibilis]</Hit_def>
+  <Hit_accession>WP_027588714</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.52133e-44</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>KVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>KVMLCSACHNADGNSAAPNFPKLAGQGERYLLKQMKDIKAGSTPGAPEGVGRKVLEMTGMLDTFSDQDLEDIAAYFASQKGS</Hsp_hseq>
+      <Hsp_midline>KV +C ACH  DGNS APNFPKLAGQGERYLLKQ++DIKAGSTPGAPEGVGRKVLEMTGMLD  SDQDLEDIAAYF+SQKGS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>2.62284</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CTGCHAPNGIGNAAAAYPKLNGQHAAYIAKQLTDFREGVRTNDGD-----TMIMRAIAAKLSNKDIQALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  +G  + A  +PKL GQ   Y+ KQL D + G      +      + M  +   LS++D++ +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_137973841.1|</Hit_id>
+  <Hit_def>c-type cytochrome [Pseudomonas sp. F(2018)]</Hit_def>
+  <Hit_accession>WP_137973841</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.8093e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>GDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>GDAEAGKAKTAVCGACHGADGNSAAPNFPKLAGQGERYLLKQLHDIKAGSTPTAEPGVGRKVLEMTGLLDNLSEQDLADIAAYFASQQMS</Hsp_hseq>
+      <Hsp_midline>GDAEAG+ K AVCGACHG DGNS APNFPKLAGQGERYLLKQL DIKAGSTP A  GVGRKVLEMTG+LD LS+QDL DIAAYF+SQ+ S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0585583</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GKVA----VCGACHGVDGNS-PAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>GKIAEGMPACTGCHSPNGAGLAAASFPKLGGQHATYVAKQLTDFREGNRTNDGD-----AMIMRAIAAKLSNKDIEAVSSYI</Hsp_hseq>
+      <Hsp_midline>GK+A     C  CH  +G    A +FPKL GQ   Y+ KQL D + G+     +      + M  +   LS++D+E +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_073299248.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas xanthomarina] &gt;emb|SEH50436.1| Cytochrome c553 [Pseudomonas xanthomarina] &gt;emb|SHG59198.1| Cytochrome c553 [Pseudomonas xanthomarina DSM 18231]</Hit_def>
+  <Hit_accession>WP_073299248</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>3.92876e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQKGS</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGKEKVAVCGACHGADGNSAAPNFPKLAGQGSNYLFKQLQDIKLGSSPTAEPGVGRKVLEMTGMLDPYSDQDLQDIAAYFASQKMS</Hsp_hseq>
+      <Hsp_midline>AG+AEAG+ KVAVCGACHG DGNS APNFPKLAGQG  YL KQLQDIK GS+P A  GVGRKVLEMTGMLDP SDQDL+DIAAYF+SQK S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>7.5394</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAG-STPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CSGCHAPDGVGNNLARFPRLGGQHAAYTAKQLTDFREGDRTNDGDTAIMRTIAS------KLSNKDIQALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  DG  +    FP+L GQ   Y  KQL D + G  T      + R +         LS++D++ +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_045423511.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [Pseudomonas] &gt;gb|ANF24670.1| cytochrome C [Pseudomonas stutzeri] &gt;gb|AZZ47146.1| cytochrome c4 [Pseudomonadaceae bacterium SI-3] &gt;gb|KJJ64521.1| cytochrome C [Pseudomonas sp. 10B238] &gt;gb|MAL35806.1| cytochrome c4 [Pseudomonas sp.] &gt;gb|PKG94620.1| cytochrome c4 [Pseudomonas sp. Choline-3u-10] &gt;dbj|BAP77824.1| cytochrome c4 [Pseudomonas sp. MT-1] &gt;tpg|HAB65227.1| cytochrome c4 [Pseudomonas sp.] &gt;tpg|HBM09139.1| cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>WP_045423511</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.92091e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGKEKVAVCGACHGADGNSAAPNFPKLAGQGPNYLFKQLQDIKAGSSPTAEPGVGRKVLEMTGILDPYSDQDLQDMAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAG+ KVAVCGACHG DGNS APNFPKLAGQG  YL KQLQDIKAGS+P A  GVGRKVLEMTG+LDP SDQDL+D+AAYF+SQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>8.15788</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CSGCHAPDGVGNNLARFPRLGGQHAAYTAKQLTDFREGDRTNDGDAA-----IMRTIASKLSNKDIQALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  DG  +    FP+L GQ   Y  KQL D + G      +        M  +   LS++D++ +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_131182777.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c4 [unclassified Pseudomonadaceae] &gt;gb|TBU99343.1| cytochrome c4 [Pseudomonadaceae bacterium P17C] &gt;gb|TBV05175.1| cytochrome c4 [Pseudomonadaceae bacterium P28C] &gt;gb|TBV06197.1| cytochrome c4 [Pseudomonadaceae bacterium P4C] &gt;gb|TBV11894.1| cytochrome c4 [Pseudomonadaceae bacterium P30C]</Hit_def>
+  <Hit_accession>WP_131182777</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.95293e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGDAQAGQGKVALCVACHGTDGNSPLPNFPKLAGQGEKYLLKQLKDIKAGSSPTAAPGTGRKILEMTAMLDSYNDQDLLDIAAYFSSQK</Hsp_hseq>
+      <Hsp_midline>AGDA+AGQGKVA+C ACHG DGNSP PNFPKLAGQGE+YLLKQL+DIKAGS+P A  G GRK+LEMT MLD  +DQDL DIAAYFSSQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>tpg|HAW23447.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>HAW23447</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>4.40238e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGKEKVAVCGACHGADGNSAAPNFPKLAGQGSNYLFKQLQDIKAGSSPTAEPGVGRKVLEMTGILDPYSEQDLQDMAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAG+ KVAVCGACHG DGNS APNFPKLAGQG  YL KQLQDIKAGS+P A  GVGRKVLEMTG+LDP S+QDL+D+AAYF+SQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_102836588.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas stutzeri] &gt;gb|MAX89701.1| cytochrome c4 [Pseudomonas sp.] &gt;gb|MBK59930.1| cytochrome c4 [Pseudomonas sp.] &gt;gb|PNF72617.1| cytochrome c4 [Pseudomonas stutzeri] &gt;tpg|HBS77742.1| cytochrome c4 [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>WP_102836588</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>4.56697e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGKEKVAVCGACHGADGNSAAPNFPKLAGQGSNYLFKQLQDIKAGSSPTAEPGVGRKVLEMTGILDPYSEQDLQDMAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAG+ KVAVCGACHG DGNS APNFPKLAGQG  YL KQLQDIKAGS+P A  GVGRKVLEMTG+LDP S+QDL+D+AAYF+SQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_128120465.1|</Hit_id>
+  <Hit_def>cytochrome c4 [Pseudomonas zhaodongensis] &gt;gb|RBA58197.1| cytochrome c4 [Pseudomonas zhaodongensis]</Hit_def>
+  <Hit_accession>WP_128120465</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.02316e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>AGDAEAGQGKVAVCGACHGVDGNSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYFSSQK</Hsp_qseq>
+      <Hsp_hseq>AGNAEAGKEKVAVCGACHGADGNSAAPNFPKLAGQGPNYLFKQLQDIKVGSSPTAEPGVGRKVLEMTGILDPYSDQDLQDMAAYFASQK</Hsp_hseq>
+      <Hsp_midline>AG+AEAG+ KVAVCGACHG DGNS APNFPKLAGQG  YL KQLQDIK GS+P A  GVGRKVLEMTG+LDP SDQDL+D+AAYF+SQK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>8.07788</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>CGACHGVDG-NSPAPNFPKLAGQGERYLLKQLQDIKAGSTPGAPEGVGRKVLEMTGMLDPLSDQDLEDIAAYF</Hsp_qseq>
+      <Hsp_hseq>CSGCHAPDGVGNNLARFPRLGGQHAAYTAKQLTDFREGDRTNDGDAA-----IMRTIASKLSNKDIQALSSYI</Hsp_hseq>
+      <Hsp_midline>C  CH  DG  +    FP+L GQ   Y  KQL D + G      +        M  +   LS++D++ +++Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>219868957</Statistics_db-num>
+      <Statistics_db-len>1884495943</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

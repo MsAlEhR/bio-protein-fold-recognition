@@ -1,0 +1,1612 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_37013</BlastOutput_query-ID>
+  <BlastOutput_query-def>1GKS</BlastOutput_query-def>
+  <BlastOutput_query-len>78</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_37013</Iteration_query-ID>
+  <Iteration_query-def>1GKS</Iteration_query-def>
+  <Iteration_query-len>78</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P00122.1|</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c-551; AltName: Full=Cytochrome c551 [Halorhodospira halophila] &gt;gb|AAB28357.1| cytochrome c-551 [Ectothiorhodospira halophila, BN9626, Peptide Partial, 78 aa] [Halorhodospira halophila] &gt;pdb|1GKS|A Chain A, CYTOCHROME C551 [Halorhodospira halophila]</Hit_def>
+  <Hit_accession>P00122</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.00242e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVDELVESTLAGKGAMPAYDGRADREDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVDELVESTLAGKGAMPAYDGRADREDLVKAIEYMLSTL</Hsp_hseq>
+      <Hsp_midline>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVDELVESTLAGKGAMPAYDGRADREDLVKAIEYMLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011812935.1|</Hit_id>
+  <Hit_def>cytochrome c [Halorhodospira halophila] &gt;gb|ABM60912.1| hypothetical protein Hhal_0118 [Halorhodospira halophila SL1]</Hit_def>
+  <Hit_accession>WP_011812935</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>2.3173e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVDELVESTLAGKGAMPAYDGRADREDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGESIYTNGTSPTCSSCHERGVAGAPKLNAPEDWEDRPSSVDELVDSTLSGKGAMPAYESRADRGDLVKAIEYMLSTL</Hsp_hseq>
+      <Hsp_midline>DGESIY NGT+PTCSSCH+RGVAGAP+LNAPEDW DRPSSVDELV+STL+GKGAMPAY+ RADR DLVKAIEYMLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_011813967.1|</Hit_id>
+  <Hit_def>cytochrome c [Halorhodospira halophila] &gt;gb|ABM61944.1| putative cytochrome c [Halorhodospira halophila SL1]</Hit_def>
+  <Hit_accession>WP_011813967</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>5.19791e-29</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVDELVESTLAGKGAMPAYDGRADREDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>GLAIYRSGTAPSCRSCHDRGIAGAPVTGQEADWADRSRDLDELLDATLRGKGAMPAYRGRADEDDLIKAIEYMLSTL</Hsp_hseq>
+      <Hsp_midline>G +IY +GTAP+C SCHDRG+AGAP      DWADR   +DEL+++TL GKGAMPAY GRAD +DL+KAIEYMLSTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_096408684.1|</Hit_id>
+  <Hit_def>cytochrome c [Halorhodospira halochloris] &gt;dbj|BAU57549.1| cytochrome c551 [Halorhodospira halochloris]</Hit_def>
+  <Hit_accession>WP_096408684</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>7.02306e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVDELVESTLAGKGAMPAYDGRADREDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGQSIYESGTSPTCASCHDRGTAGAPKINEPGDWDGIDLDAEALVDSTMDGKGAMPAYDGRADRDEVKEAVEYMLSTI</Hsp_hseq>
+      <Hsp_midline>DG+SIY +GT+PTC+SCHDRG AGAP++N P DW       + LV+ST+ GKGAMPAYDGRADR+++ +A+EYMLST+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|P38587.1|</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c-551; AltName: Full=Cytochrome c551 [Halorhodospira halochloris] &gt;gb|AAB28358.1| cytochrome c-551 [Ectothiorhodospira halochloris, BN9851, Peptide Partial, 79 aa] [Halorhodospira halochloris]</Hit_def>
+  <Hit_accession>P38587</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>8.5266e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVDELVESTLAGKGAMPAYDGRADREDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGQSIYESGTSPTCASCHDRGTAGAPKINEPGDWDGIDLDAEALVDSTMDGKGAMPAYDGRADRDEVKEAVEYMLSTI</Hsp_hseq>
+      <Hsp_midline>DG+SIY +GT+PTC+SCHDRG AGAP++N P DW       + LV+ST+ GKGAMPAYDGRADR+++ +A+EYMLST+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBL37938.1|</Hit_id>
+  <Hit_def>hypothetical protein [Xanthomonadales bacterium]</Hit_def>
+  <Hit_accession>MBL37938</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.22012e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADR--EDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGEMIYNN----VCQACHMSGAAGAPQLVA-EQWTDRLPQGEDTLVQHAIDGIGAMPAKGGRSDLTDEQVRASVQYMLTQI</Hsp_hseq>
+      <Hsp_midline>DGE IY N     C +CH  G AGAP+L A E W DR P   D LV+  + G GAMPA  GR+D   E +  +++YML+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|PKO86886.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Betaproteobacteria bacterium HGW-Betaproteobacteria-12]</Hit_def>
+  <Hit_accession>PKO86886</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>6.91483e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADREDLVK-AIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGPTVYNS----VCSACHNSGAAGAPKLDAKGDWAPRVATGKDALYASALKGKGAMPPKGGSSLSDDEIKGAVDYILSQV</Hsp_hseq>
+      <Hsp_midline>DG ++Y +     CS+CH+ G AGAP+L+A  DWA R ++  D L  S L GKGAMP   G +  +D +K A++Y+LS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_085010756.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Geothermobacter sp. EPR-M] &gt;gb|ORJ59326.1| hypothetical protein B5V00_10560 [Geothermobacter sp. EPR-M]</Hit_def>
+  <Hit_accession>WP_085010756</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>6.97418e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPS-SVDELVESTLAGKGAMPAYDGRADRED--LVKAIEYML</Hsp_qseq>
+      <Hsp_hseq>NGEAIY----QKACSVCHNTGIAGAPQLGNKAAWKERNARGVDDLTGVAIKGKGAMPAKGGHSELSDAEVKAAVEYMM</Hsp_hseq>
+      <Hsp_midline>+GE+IY       CS CH+ G+AGAP+L     W +R +  VD+L    + GKGAMPA  G ++  D  +  A+EYM+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>tpg|HAZ60348.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>HAZ60348</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>9.90789e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-----VDELVESTLAGKGAMPAYDGRADR--EDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>QGEAVY----AKACAACHGVGVMSAPRLGKAEDWTDRITQDRATIYEHAIKGFVGKKGMMPAKGGRADLSDEDVKNAVEYMLSTV</Hsp_hseq>
+      <Hsp_midline> GE++Y    A  C++CH  GV  AP L   EDW DR +       +  ++  +  KG MPA  GRAD   ED+  A+EYMLST+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0801169</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-----VDELVESTLAGKGAMPAYDGRADRED--LVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>GEAVY----GAVCAACHTVGVAGAPKTGDAAVWEPRIAQGWDVVAGHAINGYQGAAGMMPARGGRADLTDEAVKQAVGFMLA</Hsp_hseq>
+      <Hsp_midline>GE++Y       C++CH  GVAGAP+      W  R +          +       G MPA  GRAD  D  + +A+ +ML+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_088286167.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Ideonella sp. A 288]</Hit_def>
+  <Hit_accession>WP_088286167</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.03895e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADRE--DLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGKAVY----EATCVACHASGVANAPKLGDKAAWAPRVATGKDALVKSVLTGKGAMPPKAGNANLKDDDIKAAVDYMLASV</Hsp_hseq>
+      <Hsp_midline>DG+++Y      TC +CH  GVA AP+L     WA R ++  D LV+S L GKGAMP   G A+ +  D+  A++YML+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_103114523.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Geothermobacter sp. HR-1] &gt;gb|PNU20993.1| cytochrome c5 family protein [Geothermobacter sp. HR-1]</Hit_def>
+  <Hit_accession>WP_103114523</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.53937e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPS-SVDELVESTLAGKGAMPAYDGRADRED--LVKAIEYML</Hsp_qseq>
+      <Hsp_hseq>NGEAIYHK----ACSVCHNTGIAGAPQLGNKAAWKERIAEGTDAMTRTAIKGKGAMPARGGHAELSDAEVRAAVEYMM</Hsp_hseq>
+      <Hsp_midline>+GE+IY       CS CH+ G+AGAP+L     W +R +   D +  + + GKGAMPA  G A+  D  +  A+EYM+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_131905452.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Cocleimonas flava] &gt;gb|TCJ87149.1| cbb3-type cytochrome c oxidase subunit III [Cocleimonas flava]</Hit_def>
+  <Hit_accession>WP_131905452</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.03238e-09</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>CSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRAD--REDLVKAIEYML</Hsp_qseq>
+      <Hsp_hseq>CKVCHDAGIAGSPKFGDAEAWAPRIETGIEALYTTSLKGKGAMPAKGGRADISDDDVKAAVDYMV</Hsp_hseq>
+      <Hsp_midline>C  CHD G+AG+P+    E WA R  + ++ L  ++L GKGAMPA  GRAD   +D+  A++YM+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_019915826.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Methyloversatilis discipulorum]</Hit_def>
+  <Hit_accession>WP_019915826</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.22419e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADR--EDLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEQIYKG----ACAACHDAGMAGAPKLGDSGAWASRIATGLDALVKSAINGKGAMPAKGGNASLSDEEITRAVAYM</Hsp_hseq>
+      <Hsp_midline>GE IY       C++CHD G+AGAP+L     WA R  + +D LV+S + GKGAMPA  G A    E++ +A+ YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_121426996.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Azoarcus sp. DN11] &gt;gb|AYH42064.1| cytochrome c5 family protein [Azoarcus sp. DN11]</Hit_def>
+  <Hit_accession>WP_121426996</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>2.82456e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADRED--LVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>DGKAVYTQ----ICRACHATGVAGAPILGNREAWAPRLPTGLDALQQSALRGRGGMPPKGGNPGLSDSQVKAAVEYMVS</Hsp_hseq>
+      <Hsp_midline>DG+++Y       C +CH  GVAGAP L   E WA R P+ +D L +S L G+G MP   G     D  +  A+EYM+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|RMG55081.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>RMG55081</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>4.87049e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADR--EDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>DGQAIYKQ----VCFACHDSGAAGAPKLGDKAAWAPRIAQGKDALYHSALNGKNAMPPKGGRMDMADDDIKAAVDYMVS</Hsp_hseq>
+      <Hsp_midline>DG++IY       C +CHD G AGAP+L     WA R     D L  S L GK AMP   GR D   +D+  A++YM+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|PKL95399.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Gammaproteobacteria bacterium HGW-Gammaproteobacteria-8]</Hit_def>
+  <Hit_accession>PKL95399</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>6.31962e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADR--EDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGEMIY----SQVCQACHMAGAAGAPQLVAAQ-WETRLQQGVDLLVEHAINGIGVMPAKGGRADLSDEQVRVSVEYMLDQL</Hsp_hseq>
+      <Hsp_midline>DGE IY    +  C +CH  G AGAP+L A + W  R    VD LVE  + G G MPA  GRAD   E +  ++EYML  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_020162991.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Methyloversatilis discipulorum] &gt;gb|PZU54842.1| cytochrome c5 family protein [Thauera sp.]</Hit_def>
+  <Hit_accession>WP_020162991</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>7.07288e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADRED--LVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEQIYKG----ACAACHDAGMAGAPKLGDSAAWSSRIATGLDALVKSAINGKGAMPAKGGNASLSDDEITRAVAYM</Hsp_hseq>
+      <Hsp_midline>GE IY       C++CHD G+AGAP+L     W+ R  + +D LV+S + GKGAMPA  G A   D  + +A+ YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|TAK67059.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Betaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TAK67059</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.30516e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVD-ELVESTLAGKGAMPAYDGRADREDL-VKA-IEYMLS</Hsp_qseq>
+      <Hsp_hseq>DGKAIY----ESTCKVCHDQGVAGAPRTGDNAAWASRIKTGEAALIQSVTKGKGAMPAKAGNAALSDADIKASVQFMTS</Hsp_hseq>
+      <Hsp_midline>DG++IY      TC  CHD+GVAGAP       WA R  + +  L++S   GKGAMPA  G A   D  +KA +++M S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|RIX49877.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Rhodocyclales bacterium GT-UBC]</Hit_def>
+  <Hit_accession>RIX49877</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.30956e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRP-SSVDELVESTLAGKGAMPAYDGRAD--REDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>NGREVYVQ----TCAMCHANGVGGAPRPGRPDDWVERSRNGTAELLVSVLRGKGAMPPKGGNASLTRAEAYVALDFMLN</Hsp_hseq>
+      <Hsp_midline>+G  +Y+     TC+ CH  GV GAP    P+DW +R  +   EL+ S L GKGAMP   G A   R +   A+++ML+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_128001427.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Piscinibacter defluvii]</Hit_def>
+  <Hit_accession>WP_128001427</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.32585e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADRE--DLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>DGKAVYDK----TCSVCHASGVANAPKFGDKAAWAPRIATGKDALLKSVLNGKGAMPPKAGAADLKDDDLKAAIDYM</Hsp_hseq>
+      <Hsp_midline>DG+++Y      TCS CH  GVA AP+      WA R ++  D L++S L GKGAMP   G AD +  DL  AI+YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|RPG50267.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Gammaproteobacteria bacterium TMED104]</Hit_def>
+  <Hit_accession>RPG50267</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.47397e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>ESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPA--YDGRADREDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>EQIYTSG----CAACHDAGVAGAPMLANQSQWEQRLAKGTDMLVNNAWSGIGGMPAKGLCGDCTKEEIGLAVEYMLDTL</Hsp_hseq>
+      <Hsp_midline>E IY +G    C++CHD GVAGAP L     W  R +   D LV +  +G G MPA    G   +E++  A+EYML TL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|RUM80498.1|</Hit_id>
+  <Hit_def>hypothetical protein DSZ14_02075 [Candidatus Thioglobus sp.] &gt;gb|RUM80928.1| hypothetical protein DSZ15_00165 [Candidatus Thioglobus sp.] &gt;gb|RUM82167.1| hypothetical protein DSZ16_02845 [Candidatus Thioglobus sp.] &gt;gb|RUM82917.1| hypothetical protein DSZ17_03395 [Candidatus Thioglobus sp.] &gt;gb|RUM85564.1| hypothetical protein DSZ19_00930 [Candidatus Thioglobus sp.] &gt;gb|RUM86145.1| hypothetical protein DSZ20_03790 [Candidatus Thioglobus sp.]</Hit_def>
+  <Hit_accession>RUM80498</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.83375e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMP--AYDGRADREDLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>SGESVYT----ASCAGCHSIGVAGAPKFGNKADWASRLKRGMEDLVRVAIAGKGAMPPKGTCGTCSADELRAAIEHM</Hsp_hseq>
+      <Hsp_midline> GES+Y      +C+ CH  GVAGAP+     DWA R    +++LV   +AGKGAMP     G    ++L  AIE+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|ERI26538.1|</Hit_id>
+  <Hit_def>cytochrome C, partial [Burkholderia cenocepacia BC7]</Hit_def>
+  <Hit_accession>ERI26538</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.85765e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>GKALY----ASTCQACHAAGVLGAPKFGSKEDWAPRLKDSMDTVYNYALHGKGAMPPKGGSNASDADVKAAVDYMVN</Hsp_hseq>
+      <Hsp_midline>G+++Y    A TC +CH  GV GAP+  + EDWA R   S+D +    L GKGAMP   G  A   D+  A++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_126776275.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Aliidiomarina sanyensis] &gt;gb|RUO35895.1| cytochrome c5 family protein [Aliidiomarina sanyensis]</Hit_def>
+  <Hit_accession>WP_126776275</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.95074e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG--RADREDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>GEQVYNQA----CAACHTGGVLGAPRKNVAEDWTDRLAQGMDVLLEHSINGFNAMPPRGGCARCTDEEIEAAIEFMIAEL</Hsp_hseq>
+      <Hsp_midline>GE +Y       C++CH  GV GAP  N  EDW DR    +D L+E ++ G  AMP   G  R   E++  AIE+M++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_085920100.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Halomonas sp. CSM-2]</Hit_def>
+  <Hit_accession>WP_085920100</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.05608e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>DGASLY---SSIGCAACHDSGAAGAPGLGDAEAWASRLEQGIEALYQSVYEGKGAMPARGGSSASDEEIQAVVDYMVA</Hsp_hseq>
+      <Hsp_midline>DG S+Y   ++  C++CHD G AGAP L   E WA R    ++ L +S   GKGAMPA  G  A  E++   ++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_068834129.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Polaromonas jejuensis]</Hit_def>
+  <Hit_accession>WP_068834129</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.55477e-08</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>TCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADRE-DLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>TCVACHAAGVAGAPKFGDKAAWAPRVKAGIDALTASALKGKGAMPPKGGSAASEADIKAAVEYMVS</Hsp_hseq>
+      <Hsp_midline>TC +CH  GVAGAP+      WA R  + +D L  S L GKGAMP   G A  E D+  A+EYM+S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00807461</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADREDL--VKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>SGEEVY----KAQCIACHGSGAAGAPKFGDAGAWGPRIGTGFDALWHSALKGKGAMGA-QGGGDFEDIEVGRAVVYMTA</Hsp_hseq>
+      <Hsp_midline> GE +Y       C +CH  G AGAP+      W  R  +  D L  S L GKGAM A  G  D ED+   +A+ YM +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|PID62087.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>PID62087</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>3.98192e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>CSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRA-DREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>CAACHIAGVAGAPKFGDTAAWNERLAKGVDAVLQTAVAGKGAMPARGGSSLDDEELASAIQYMLT</Hsp_hseq>
+      <Hsp_midline>C++CH  GVAGAP+      W +R    VD ++++ +AGKGAMPA  G + D E+L  AI+YML+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.92775e-06</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TAPTCSSCHDRGVAGAPELNAPEDWAD-RPSSVDELVESTLAGKGAMPAYDGRADRED-LVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>VASTCSACHEAGVAGAPVIGDEAEWAKRREAGLDALLSSVIDGKGAMPARAGSSFSDDELRSAVQHL</Hsp_hseq>
+      <Hsp_midline> A TCS+CH+ GVAGAP +    +WA  R + +D L+ S + GKGAMPA  G +  +D L  A++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_074398154.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c5 family protein [Halomonas]</Hit_def>
+  <Hit_accession>WP_074398154</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.06145e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>DGQALY---SSTGCAACHDSGTAGAPALGDTEAWSARLEQGTEDLYQSVFDGKGAMPARGGSSASDEEIQAVVDYMVA</Hsp_hseq>
+      <Hsp_midline>DG+++Y   ++  C++CHD G AGAP L   E W+ R     ++L +S   GKGAMPA  G  A  E++   ++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>emb|VFK06889.1|</Hit_id>
+  <Hit_def>Cytochrome C oxidase, cbb3-type, subunit III [Candidatus Kentron sp. LPFa] &gt;emb|VFK23048.1| Cytochrome C oxidase, cbb3-type, subunit III [Candidatus Kentron sp. LPFa] &gt;emb|VFK61912.1| Cytochrome C oxidase, cbb3-type, subunit III [Candidatus Kentron sp. UNK] &gt;emb|VFK70052.1| Cytochrome C oxidase, cbb3-type, subunit III [Candidatus Kentron sp. UNK]</Hit_def>
+  <Hit_accession>VFK06889</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>4.28492e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRAD--REDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>QGQAVYKN----HCSACHAQGVAGAPRFRDKDDWAPRIAKGIDALYAAAWNGLGGMPPKGGKQDASEDDIKSAVDYMVS</Hsp_hseq>
+      <Hsp_midline> G+++Y N     CS+CH +GVAGAP     +DWA R    +D L  +   G G MP   G+ D   +D+  A++YM+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_137936884.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Chitinivorax sp. B]</Hit_def>
+  <Hit_accession>WP_137936884</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>4.29028e-08</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>TCSSCHDRGVAGAPELNAPEDWADRPS-SVDELVESTLAGKGAMPAYDGRADREDLVKAI-EYML</Hsp_qseq>
+      <Hsp_hseq>VCSTCHAAGVAGAPKLGDKASWAPRISGGMETLITSAIKGKGAMPAKGGYSGSDEEFKAIVEYMV</Hsp_hseq>
+      <Hsp_midline> CS+CH  GVAGAP+L     WA R S  ++ L+ S + GKGAMPA  G +  ++  KAI EYM+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000385979</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADRED--LVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>SGEQVYI----AICASCHATGAANSPKMGDSAAWASRISTGFQTLIDHAVKGFNAMPARGGSPDLTDDEVARAVAYM</Hsp_hseq>
+      <Hsp_midline> GE +YI      C+SCH  G A +P++     WA R S+    L++  + G  AMPA  G  D  D  + +A+ YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|KPQ27197.1|</Hit_id>
+  <Hit_def>cytochrome c5 [Halomonas sp. HL-93] &gt;emb|SBR52614.1| Cytochrome c5 [Halomonas sp. HL-93] &gt;emb|SNY97930.1| Cytochrome c5 [Halomonas sp. hl-4]</Hit_def>
+  <Hit_accession>KPQ27197</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.34113e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>DGQALY---SSTGCAACHDSGTAGAPALGDTEAWSARLEQGTEDLYQSVFDGKGAMPARGGSSASDEEIQAVVDYMVA</Hsp_hseq>
+      <Hsp_midline>DG+++Y   ++  C++CHD G AGAP L   E W+ R     ++L +S   GKGAMPA  G  A  E++   ++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>tpg|HAD99537.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAE04976.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAE70045.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAE73387.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAG47573.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAN33775.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAO44249.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAO53242.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAO70657.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAO86825.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAO90088.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAO97795.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAP05718.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAP44947.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAP92135.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAQ69250.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAU20529.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HAZ34132.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HBA25284.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HBA27921.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HBA95940.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HBA98811.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HBG03633.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HBQ23729.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HBW06578.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCA68311.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCB54555.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCE35237.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCF48308.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCH58841.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCJ13662.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCJ78325.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCJ86693.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCJ97329.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCK62052.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCQ69572.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCU72142.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCV74369.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCV92617.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCW72161.1| hypothetical protein [Gammaproteobacteria bacterium] &gt;tpg|HCX98410.1| hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>HAD99537</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>5.83803e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYD--GRADREDLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>SGEAVY----TASCAGCHSIGIAGAPKTNNKADWAPRLKRGMDDLVKVAISGKGAMPPKGTCGTCSADELRAAIEHM</Hsp_hseq>
+      <Hsp_midline> GE++Y      +C+ CH  G+AGAP+ N   DWA R    +D+LV+  ++GKGAMP     G    ++L  AIE+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_018412415.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Methyloversatilis thermotolerans]</Hit_def>
+  <Hit_accession>WP_018412415</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>5.90111e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRAD--REDLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEQIYKG----VCAACHDAGMAGAPKKGDTGAWAARIATGLDALVHSAVNGKGAMPAKGGNASLTEEEITRAVVYL</Hsp_hseq>
+      <Hsp_midline>GE IY       C++CHD G+AGAP+      WA R  + +D LV S + GKGAMPA  G A    E++ +A+ Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_009552633.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Burkholderiales bacterium JOSHI_001] &gt;gb|EHR72958.1| cytochrome c5 [Burkholderiales bacterium JOSHI_001]</Hit_def>
+  <Hit_accession>WP_009552633</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>5.91476e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADR--EDLVKAIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGKAVY----EATCVACHASGVANAPKLGDKAAWGPRVATGKDALLKSVLTGKGAMPPKAGNAKLSDDDIKAAIDFMLASV</Hsp_hseq>
+      <Hsp_midline>DG+++Y      TC +CH  GVA AP+L     W  R ++  D L++S L GKGAMP   G A    +D+  AI++ML+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>tpg|HCX12930.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>HCX12930</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>5.96444e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYD--GRADREDLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>SGEAVY----TASCAGCHSIGIAGAPKTNNKADWAPRLKRGMDDLVKVAISGKGAMPPKGTCGTCSADELRAAIEHM</Hsp_hseq>
+      <Hsp_midline> GE++Y      +C+ CH  G+AGAP+ N   DWA R    +D+LV+  ++GKGAMP     G    ++L  AIE+M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|OZA28748.1|</Hit_id>
+  <Hit_def>hypothetical protein B7X93_06835 [Hydrogenophilales bacterium 17-61-9]</Hit_def>
+  <Hit_accession>OZA28748</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>6.31929e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGR---ADREDLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GQQIYRQ----SCAVCHDKGVAGAPKLNDSAAWATRLAQGIDTLYNTALRGKGAMPAKGGNPALAD-ADVKAAVDFM</Hsp_hseq>
+      <Hsp_midline>G+ IY      +C+ CHD+GVAGAP+LN    WA R    +D L  + L GKGAMPA  G    AD  D+  A+++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_027337296.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Halomonas sp. HL-48] &gt;gb|KPQ25865.1| Cytochrome c5 [Halomonas sp. HL-48]</Hit_def>
+  <Hit_accession>WP_027337296</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>6.94753e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>DGASLY---ASTGCAACHDSGAAGAPELGDSQAWSARLEQGTEALYQSVFEGKGAMPARGGSSASDEEIEAVVDYMVA</Hsp_hseq>
+      <Hsp_midline>DG S+Y    +  C++CHD G AGAPEL   + W+ R     + L +S   GKGAMPA  G  A  E++   ++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|ONX72745.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein, partial [Burkholderia cenocepacia]</Hit_def>
+  <Hit_accession>ONX72745</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>7.71178e-08</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>APTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>ASTCQACHAAGVLGAPKFGSKEDWAPRLKDSMDTVYNYALHGKGAMPPKGGSNASDADVKAAVDYMVN</Hsp_hseq>
+      <Hsp_midline>A TC +CH  GV GAP+  + EDWA R   S+D +    L GKGAMP   G  A   D+  A++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|ONY22812.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein, partial [Burkholderia cenocepacia]</Hit_def>
+  <Hit_accession>ONY22812</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>9.1574e-08</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>APTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>ASTCQACHAAGVLGAPKFGSKEDWAPRLKDSMDTVYNYALHGKGAMPPKGGSNASDADVKAAVDYMVN</Hsp_hseq>
+      <Hsp_midline>A TC +CH  GV GAP+  + EDWA R   S+D +    L GKGAMP   G  A   D+  A++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_066315843.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Halomonas sp. G11] &gt;gb|OBA00617.1| hypothetical protein ADS46_10385 [Halomonas sp. G11]</Hit_def>
+  <Hit_accession>WP_066315843</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.01994e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>DGASLY---SSIGCAACHDSGAAGAPGLGDTEAWASRLEQGTEALYQSVYEGKGAMPARGGSSASDEEIQAVVDYMVA</Hsp_hseq>
+      <Hsp_midline>DG S+Y   ++  C++CHD G AGAP L   E WA R     + L +S   GKGAMPA  G  A  E++   ++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_131906250.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Cocleimonas flava] &gt;gb|TCJ84496.1| cytochrome c5 [Cocleimonas flava]</Hit_def>
+  <Hit_accession>WP_131906250</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.75103e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRA--DREDLVKAIEYMLST</Hsp_qseq>
+      <Hsp_hseq>GESIYKE----TCGTCHNTGIANAPKIDDKAAWETRMTNGVDGLVKTAIAGKGAMPAKGGNPAITDEEIKETIIYMLKS</Hsp_hseq>
+      <Hsp_midline>GESIY      TC +CH+ G+A AP+++    W  R ++ VD LV++ +AGKGAMPA  G      E++ + I YML +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.0130085</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSSVDE-LVESTLAGKGAMPAYDGR--ADREDLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEKVYNS----SCFACHASGVAGSPKLGDVAAWEPRLASGSEAMYASAINGKGVMPPKGGNLGLSDEDVKAAVDYM</Hsp_hseq>
+      <Hsp_midline>GE +Y +    +C +CH  GVAG+P+L     W  R +S  E +  S + GKG MP   G      ED+  A++YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|OQX01146.1|</Hit_id>
+  <Hit_def>hypothetical protein BWK73_47050 [Thiothrix lacustris]</Hit_def>
+  <Hit_accession>OQX01146</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.84893e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>DGESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGR-ADREDLVK-AIEYMLSTL</Hsp_qseq>
+      <Hsp_hseq>DGEKIY-NGL---CMSCHAAGIAGSPKLGDKAAWEPRIATGIEALYASSLKGKGAMPAKGGNPALSDDEVKAAVDYMVAQV</Hsp_hseq>
+      <Hsp_midline>DGE IY NG    C SCH  G+AG+P+L     W  R ++ ++ L  S+L GKGAMPA  G  A  +D VK A++YM++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|ONY36342.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein, partial [Burkholderia cenocepacia]</Hit_def>
+  <Hit_accession>ONY36342</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.88589e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADRE----DLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEEVY----KAVCVTCHGTGAAGAPKFGNKDDWAPRISQGFDTLLKTALAGKGAMPARGGTSPDDVSDYEIARAIVYM</Hsp_hseq>
+      <Hsp_midline>GE +Y       C +CH  G AGAP+    +DWA R S   D L+++ LAGKGAMPA  G +  +    ++ +AI YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|ERI27936.1|</Hit_id>
+  <Hit_def>cytochrome C oxidase, Cbb3-type, subunit III, partial [Burkholderia cenocepacia BC7]</Hit_def>
+  <Hit_accession>ERI27936</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.89167e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADRE----DLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEEVY----KAVCVTCHGTGAAGAPKFGNKDDWAPRISQGFDTLLKTALAGKGAMPARGGTSPDDVSDYEIARAIVYM</Hsp_hseq>
+      <Hsp_midline>GE +Y       C +CH  G AGAP+    +DWA R S   D L+++ LAGKGAMPA  G +  +    ++ +AI YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_059705466.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Burkholderia ubonensis] &gt;gb|KVD18378.1| cytochrome C [Burkholderia ubonensis] &gt;gb|KVP78357.1| cytochrome C [Burkholderia ubonensis]</Hit_def>
+  <Hit_accession>WP_059705466</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.92781e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRA--DRED--LVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEEVY----KAVCVTCHGTGAAGAPKFGSKDDWAPRISQGFDTLLKTALAGKGAMPARGGTSPDDYSDYEIARAIVYM</Hsp_hseq>
+      <Hsp_midline>GE +Y       C +CH  G AGAP+  + +DWA R S   D L+++ LAGKGAMPA  G +  D  D  + +AI YM</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>9.12881e-05</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGR-ADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>GKALYTQ----VCQACHAAGVLNAPKFGSKEDWAPRLKEPMDTVYNYALHGKGAMPPKGGSTASDADVKAAVDYMVN</Hsp_hseq>
+      <Hsp_midline>G+++Y       C +CH  GV  AP+  + EDWA R    +D +    L GKGAMP   G  A   D+  A++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_044457442.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Pandoraea vervacti] &gt;gb|AJP59157.1| cytochrome C [Pandoraea vervacti]</Hit_def>
+  <Hit_accession>WP_044457442</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.9336e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDGRADRE----DLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEQLY----KAVCAACHASGAAGAPKLGSTEDWAPRIKPGYDEMLKIALAGKGAMPARGGTSPDDVTDYEIGRAIVYM</Hsp_hseq>
+      <Hsp_midline>GE +Y       C++CH  G AGAP+L + EDWA R     DE+++  LAGKGAMPA  G +  +    ++ +AI YM</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0387596</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>TCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADR--EDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>VCMACHASGVMNAPKFGDKAAWAPRIATGIDTLHNAAIKGLNAMPPKGGAANASDDDVKAAVDYMVS</Hsp_hseq>
+      <Hsp_midline> C +CH  GV  AP+      WA R ++ +D L  + + G  AMP   G A+   +D+  A++YM+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ONX59063.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein, partial [Burkholderia cenocepacia] &gt;gb|ONX66382.1| cytochrome c5 family protein, partial [Burkholderia cenocepacia]</Hit_def>
+  <Hit_accession>ONX59063</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.97039e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADRE----DLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEEVY----KAVCVTCHGTGAAGAPKFGNKDDWAPRISQGFDTLLKTALAGKGAMPARGGTSPDDVSDYEIARAIVYM</Hsp_hseq>
+      <Hsp_midline>GE +Y       C +CH  G AGAP+    +DWA R S   D L+++ LAGKGAMPA  G +  +    ++ +AI YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|PAJ77710.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein, partial [Burkholderia ubonensis]</Hit_def>
+  <Hit_accession>PAJ77710</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.98695e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRA--DRED--LVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEAVY----KAVCVTCHGTGAAGAPKFGSKDDWAPRISQGFDTLLKTALAGKGAMPPRGGTSPDDYSDYEIARAIVYM</Hsp_hseq>
+      <Hsp_midline>GE++Y       C +CH  G AGAP+  + +DWA R S   D L+++ LAGKGAMP   G +  D  D  + +AI YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_062884185.1|</Hit_id>
+  <Hit_def>cytochrome c5 family protein [Burkholderia cenocepacia] &gt;gb|AMU05372.1| cytochrome C [Burkholderia cenocepacia]</Hit_def>
+  <Hit_accession>WP_062884185</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>2.08088e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADRE----DLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEEVY----KAVCVTCHGTGAAGAPKFGNKDDWAPRISQGIDTLLKTALAGKGAMPARGGTSPDDVSDYEIARAIVYM</Hsp_hseq>
+      <Hsp_midline>GE +Y       C +CH  G AGAP+    +DWA R S  +D L+++ LAGKGAMPA  G +  +    ++ +AI YM</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>6.34907e-07</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>APTCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>ASTCQACHAAGVLGAPKFGSKEDWAPRLKDSMDTVYNYALHGKGAMPPKGGSNASDADVKAAVDYMVN</Hsp_hseq>
+      <Hsp_midline>A TC +CH  GV GAP+  + EDWA R   S+D +    L GKGAMP   G  A   D+  A++YM++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_105815486.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c5 family protein [Burkholderia] &gt;gb|PRG15723.1| cytochrome c5 family protein [Burkholderia contaminans]</Hit_def>
+  <Hit_accession>WP_105815486</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>2.08752e-07</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>TCSSCHDRGVAGAPELNAPEDWADR-PSSVDELVESTLAGKGAMPAYDG-RADREDLVKAIEYMLS</Hsp_qseq>
+      <Hsp_hseq>TCQACHAAGVLGAPKFGSKEDWAPRLKDSMDTVYNYALHGKGAMPAKGGSNASDADVKAAVDYMVN</Hsp_hseq>
+      <Hsp_midline>TC +CH  GV GAP+  + EDWA R   S+D +    L GKGAMPA  G  A   D+  A++YM++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.26397e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GESIYINGTAPTCSSCHDRGVAGAPELNAPEDWADRPSS-VDELVESTLAGKGAMPAYDGRADRE----DLVKAIEYM</Hsp_qseq>
+      <Hsp_hseq>GEEVY----KAVCVTCHGTGAAGAPKFGSKDDWAPRISQGFDTLLKTALAGKGAMPPRGGTSPDDVSDYEIARAIVYM</Hsp_hseq>
+      <Hsp_midline>GE +Y       C +CH  G AGAP+  + +DWA R S   D L+++ LAGKGAMP   G +  +    ++ +AI YM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>221866341</Statistics_db-num>
+      <Statistics_db-len>79896338192</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
