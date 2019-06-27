@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_182021</BlastOutput_query-ID>
+  <BlastOutput_query-def>1STY</BlastOutput_query-def>
+  <BlastOutput_query-len>150</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_182021</Iteration_query-ID>
+  <Iteration_query-def>1STY</Iteration_query-def>
+  <Iteration_query-len>150</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1STY|A</Hit_id>
+  <Hit_def>Chain A, STAPHYLOCOCCAL NUCLEASE [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1STY_A</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>2.60174e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P00644.1|</Hit_id>
+  <Hit_def>RecName: Full=Thermonuclease; Short=TNase; AltName: Full=Micrococcal nuclease; AltName: Full=Staphylococcal nuclease; Contains: RecName: Full=Nuclease B; Contains: RecName: Full=Nuclease A; Flags: Precursor [Staphylococcus aureus] &gt;emb|CAA24594.1| nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>P00644</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>2.32653e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>prf||1109959A</Hit_id>
+  <Hit_def>nuclease,staphylococcal [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1109959A</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>2.44285e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>dbj|BBF17101.1|</Hit_id>
+  <Hit_def>fusion protein of nuclease and OmpH [Expression vector pSEC-Nuc-OmpH]</Hit_def>
+  <Hit_accession>BBF17101</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>2.73857e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1EY0|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Wild-Type S. Nuclease At 1.6 A Resolution [Staphylococcus aureus] &gt;pdb|1EYD|A Chain A, Structure Of Wild-Type S. Nuclease At 1.7 A Resolution [Staphylococcus aureus] &gt;pdb|1SNC|A Chain A, THERMONUCLEASE PRECURSOR [Staphylococcus aureus] &gt;pdb|1STG|A Chain A, Staphylococcal Nuclease [Staphylococcus aureus] &gt;pdb|1STH|A Chain A, Staphylococcal Nuclease [Staphylococcus aureus] &gt;pdb|1STN|A Chain A, STAPHYLOCOCCAL NUCLEASE [Staphylococcus aureus] &gt;pdb|4WOR|A Chain A, Thermonuclease [Staphylococcus aureus] &gt;prf||710414A nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1EY0_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>1.29593e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|2F0G|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0G_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>1.88211e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMIENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKM+ENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AAC14660.1|</Hit_id>
+  <Hit_def>deltaSP-Nuc, partial [Cloning vector pFUN]</Hit_def>
+  <Hit_accession>AAC14660</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>1.96304e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|2F0J|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0J_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>2.07752e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKVEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKK+EVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|2F0D|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0D_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>2.07752e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYVYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAY+YADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|2F0P|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0P_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>3.0842e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMIENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMINEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKM+ENAKKIEVEFDKGQRTDKYGRGLAYIYADGKM+NEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|2F0F|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0F_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>3.11824e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKIMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVK+MYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|2F0I|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0I_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>3.47997e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKLEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKK+EVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|2EY5|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EY5_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>3.59646e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDSPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVD+PETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|2F0O|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0O_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>3.59646e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMIENAKKVEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKM+ENAKK+EVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|2EYO|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EYO_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>3.59646e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNSHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNN+HEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|2EYL|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EYL_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>3.59646e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRSDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQR+DKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|2EYH|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EYH_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>3.59646e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFSKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAF+KKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|2F0E|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0E_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>3.96985e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTLKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDT+KLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|2F0H|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0H_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>3.96985e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMLENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKM+ENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|1NUC|A</Hit_id>
+  <Hit_def>Chain A, STAPHYLOCOCCAL NUCLEASE [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1NUC_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.05795e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTCKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDT KLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1SNM|A</Hit_id>
+  <Hit_def>Chain A, THERMONUCLEASE PRECURSOR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1SNM_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.38201e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPDTKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTP+TKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1EY4|A</Hit_id>
+  <Hit_def>Chain A, Structure Of S. Nuclease Stabilizing Mutant S59a [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1EY4_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.38201e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEAAAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEA+AFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|1EY7|A</Hit_id>
+  <Hit_def>Chain A, Structure Of S. Nuclease Stabilizing Mutant S128a [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1EY7_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.38201e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KAEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR K+EAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|2F0K|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0K_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.47926e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTIKIMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDT+K+MYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_001670297.1|</Hit_id>
+  <Hit_def>thermonuclease family protein [Staphylococcus aureus] &gt;gb|AHZ98681.1| thermonuclease [Staphylococcus aureus subsp. aureus] &gt;gb|AJP19279.1| thermonuclease [Staphylococcus aureus] &gt;gb|ATW79585.1| thermonuclease [Staphylococcus aureus subsp. aureus] &gt;gb|AUU44367.1| thermonuclease [Staphylococcus aureus] &gt;gb|AWQ22338.1| thermonuclease [Staphylococcus aureus] &gt;gb|AWQ25035.1| thermonuclease [Staphylococcus aureus] &gt;gb|EGL93796.1| thermonuclease [Staphylococcus aureus subsp. aureus 21310] &gt;gb|EHS23790.1| thermonuclease Nuc [Staphylococcus aureus subsp. aureus IS-105] &gt;gb|EMZ05047.1| thermonuclease [Staphylococcus aureus M1228] &gt;gb|ETO53739.1| thermonuclease [Staphylococcus aureus MUM270] &gt;gb|EWB65358.1| thermonuclease [Staphylococcus aureus W85432] &gt;gb|EWI51730.1| thermonuclease [Staphylococcus aureus W33563] &gt;gb|EWP21803.1| thermonuclease [Staphylococcus aureus M1242] &gt;gb|KDP56311.1| thermonuclease [Staphylococcus aureus subsp. aureus 21251] &gt;gb|OFC57282.1| thermonuclease [Staphylococcus aureus] &gt;gb|OHW19300.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORN77339.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORN79744.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORN81501.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORN85026.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORN89915.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORN90484.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORO02942.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORO03795.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORO12494.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORO19769.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORO19906.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORO26288.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORO29621.1| thermonuclease [Staphylococcus aureus] &gt;gb|ORO29670.1| thermonuclease [Staphylococcus aureus] &gt;gb|PKQ98278.1| thermonuclease [Staphylococcus aureus] &gt;gb|PKR01820.1| thermonuclease [Staphylococcus aureus] &gt;gb|PKR03975.1| thermonuclease [Staphylococcus aureus] &gt;gb|PKR07560.1| thermonuclease [Staphylococcus aureus] &gt;gb|PKR10487.1| thermonuclease [Staphylococcus aureus] &gt;gb|PKR13714.1| thermonuclease [Staphylococcus aureus] &gt;gb|PKR18458.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZG89229.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZH30732.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZH63152.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZI35740.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZI47630.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZI62992.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZI85699.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZJ05237.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZJ44848.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZJ46099.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZJ47214.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZJ77251.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZK07552.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZK08351.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZK56128.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZK98177.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZL06683.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZL14778.1| thermonuclease [Staphylococcus aureus] &gt;gb|PZL21671.1| thermonuclease [Staphylococcus aureus] &gt;gb|QBB17920.1| thermonuclease [Staphylococcus aureus subsp. aureus] &gt;gb|QCT56664.1| thermonuclease [Staphylococcus aureus] &gt;gb|RAU26254.1| thermonuclease [Staphylococcus aureus] &gt;gb|RDJ92228.1| thermonuclease [Staphylococcus aureus] &gt;gb|REA50654.1| thermonuclease [Staphylococcus aureus] &gt;gb|REA59144.1| thermonuclease [Staphylococcus aureus] &gt;gb|REA60226.1| thermonuclease [Staphylococcus aureus] &gt;gb|RNM35011.1| thermonuclease [Staphylococcus aureus] &gt;gb|RTY97975.1| thermonuclease [Staphylococcus aureus] &gt;gb|TJX35606.1| thermonuclease family protein [Staphylococcus aureus subsp. aureus] &gt;gb|TJX39007.1| thermonuclease family protein [Staphylococcus aureus subsp. aureus] &gt;emb|CCG15435.1| thermonuclease precursor [Staphylococcus aureus subsp. aureus HO 5096 0412] &gt;emb|CEK43850.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFD98407.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFL99990.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFM20468.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFM37357.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFM41880.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFM70220.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFM97330.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFN55164.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFN75575.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFN89442.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFO15262.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFO40389.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFO42895.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFO55731.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFO72597.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFO81854.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFO91297.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFP18057.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFT96383.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFU25889.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFU84089.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFV95971.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFW18567.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFW30924.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CFW58065.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPH43319.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPH44632.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPH58797.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPI04046.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPI29217.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPI32823.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPI59479.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPI78308.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPI79826.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPJ58102.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPJ68824.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPK01296.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPK03619.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPK71637.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPK81062.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPK92746.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPL88875.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPL95147.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPL97488.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPL97865.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPM00045.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPM02551.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPN09091.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPN32706.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPN85236.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPN90979.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPN94741.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPN97016.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPO34477.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPO68527.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPO85954.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPP08889.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPP45336.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPP98480.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPQ01380.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPQ17680.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPQ20051.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPQ37083.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CPQ51278.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CRE39192.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CRE41985.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXC58453.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXC70375.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXC71793.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXC78156.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXC79057.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXC85937.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXC91042.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD00101.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD00266.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD04281.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD29142.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD31231.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD31886.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD43189.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD53227.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD67544.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD71519.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD74547.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD77728.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXD98962.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE02723.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE03945.1| Thermonuclease [Staphylococcus aureus] &gt;emb|CXE10421.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE13658.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE19071.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE19807.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE22982.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE27063.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE30453.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE31281.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE31750.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE31829.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE34056.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE35224.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE36385.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE40248.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE44388.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE48315.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE50416.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXE56615.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH18750.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH19027.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH21602.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH22516.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH23014.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH23510.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH24333.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH24743.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH25168.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH26373.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH27063.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH30083.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH30467.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH31036.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH32444.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH32761.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH33323.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH40759.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH44049.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH44177.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH50591.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH55175.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH56553.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH57922.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH67003.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH70876.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH75488.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH75580.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH76159.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH76740.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH77796.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH79015.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH83058.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXH99621.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI01206.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI32249.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI33743.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI40199.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI41732.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI41739.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI47154.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI49221.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI52788.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI53951.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI54055.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI55017.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI56596.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI59776.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI60137.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI64613.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI65383.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI65859.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI66786.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI69227.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI70901.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI74233.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI92304.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXI99954.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ06496.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ07042.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ10459.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ11465.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ16377.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ32092.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ49669.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ70603.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ71037.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ73794.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ74976.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ78456.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ80115.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ80722.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ85092.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ90611.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ91290.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ92347.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ92459.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ98073.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXJ99642.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK02629.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK10403.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK12953.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK17071.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK19359.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK19515.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK20683.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK22969.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK26525.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK28746.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK29964.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK30933.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK41266.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK43661.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK52653.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK54566.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK81095.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK89381.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK93265.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXK99720.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL00908.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL01153.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL02271.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL06356.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL07504.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL09700.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL11155.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL14735.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL16860.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL18484.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL20159.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL23019.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL40077.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL42494.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL50486.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL56403.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL56418.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL60424.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL63530.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL65207.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL66252.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL67526.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL68565.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL71028.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL73358.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXL92956.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM00061.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM08118.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM21516.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM25716.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM27413.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM27607.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM29999.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM31621.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM34836.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM36156.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM43071.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM43905.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM44565.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM46413.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM50486.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM59457.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM64331.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM67119.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM67358.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM70223.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM77860.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM78024.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM78778.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM80547.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM81451.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM86098.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM89956.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM92078.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXM98408.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN06585.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN07722.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN07737.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN17050.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN25527.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN26405.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN42598.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN42615.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN42797.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN47393.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN50885.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN52609.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN52615.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN56766.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN63431.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN63526.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN63738.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN64818.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN65343.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN65658.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN72434.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN74155.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN74480.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN80557.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN81742.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN92099.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXN93250.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO06229.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO08049.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO11263.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO11284.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO22045.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO22723.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO26988.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO36674.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO37389.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO39892.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO39944.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO41437.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO44088.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO45898.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO57381.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO58766.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO60323.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO70306.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO73655.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO74226.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO76441.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO76876.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO78583.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO83771.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO86541.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXO93229.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP00005.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP00327.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP00592.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP03600.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP05663.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP06758.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP10044.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP14738.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP15225.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP15831.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP17672.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP18484.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP19821.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP20450.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP21067.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP21661.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP21792.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP30221.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP35020.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP40160.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP42900.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP43496.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP48891.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP49837.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP56280.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP57255.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP73297.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP75074.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP79952.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP87833.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP88723.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP88865.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP91684.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP94594.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXP98515.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ03501.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ14625.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ14817.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ16727.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ22025.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ22685.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ25042.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ26463.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ28337.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ29381.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ31859.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ32685.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ35044.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ46551.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ47659.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ49996.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ51586.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ52196.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ54595.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ55542.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ59649.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ62276.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ64441.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ68058.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ70971.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ76245.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ76624.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ82087.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ84519.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ85247.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ89313.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXQ90063.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR02367.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR10187.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR11726.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR12179.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR13277.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR14039.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR14467.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR27578.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR30986.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR31642.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR34486.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR44074.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR44392.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR44920.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR45273.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR45767.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR49378.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR49409.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR50471.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR51199.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR51806.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR52526.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR76799.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR80135.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR81449.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR81470.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR83961.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR84567.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR86742.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR87575.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR90765.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR92641.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR94185.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR96782.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXR99930.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS00128.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS00460.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS04566.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS05164.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS25599.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS28412.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS31938.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS32793.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS40046.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS54140.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS61988.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS68366.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS69231.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS69833.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS70030.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS74952.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS83163.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS84209.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS87988.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS88197.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS90606.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS91125.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS96959.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXS98882.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT00884.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT01899.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT04188.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT07527.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT09452.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT10417.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT13881.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT20339.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT26567.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT26693.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT27972.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT31240.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT48686.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT51796.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT53370.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT53821.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT55677.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT66716.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT67117.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT68915.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT73047.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT73799.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT77047.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT78174.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT87242.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT91939.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXT96586.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU00837.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU02670.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU03626.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU04811.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU07483.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU07967.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU09035.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU15677.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU20417.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU26547.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU31384.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU31860.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU39476.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU39567.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU45347.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU49833.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU52147.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU70709.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU83823.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU95629.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXU97269.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV07666.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV14707.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV16831.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV21186.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV21893.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV22712.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV23908.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV26711.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV28801.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV34185.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV38323.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV39248.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV42051.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV42494.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV48542.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV48904.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV48949.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV51311.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV53098.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV53214.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV53357.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV54253.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV54371.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV54976.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV56964.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV74129.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV75411.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV77700.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV79673.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV79694.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV80576.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV83861.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV85818.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV86455.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXV86812.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW05731.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW24708.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW29031.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW29503.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW32727.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW37314.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW41125.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW41585.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW44309.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW44957.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW45885.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW46288.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW46740.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW50910.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW52055.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW64170.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW65590.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW65654.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW68516.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW69035.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW70747.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW71496.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW72004.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW74111.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW75670.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW80190.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW80364.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW81788.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW87349.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW88149.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXW94481.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX00520.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX07835.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX09466.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX10665.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX12269.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX15265.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX17246.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX17725.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX30530.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX33987.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX43918.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX44256.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX49489.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX50364.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX61120.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX83647.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX84704.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX84767.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX86463.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX87671.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX88541.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX89363.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX90080.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX92253.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX93184.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX93469.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX93968.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXX99518.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY02369.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY02784.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY02860.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY03498.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY04331.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY09509.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY16474.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY16513.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY16565.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY18262.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY27787.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY43515.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY51882.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY53592.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXY83104.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ03270.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ06512.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ10446.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ16394.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ17655.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ20271.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ20633.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ20705.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ22240.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ24682.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ26030.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ27691.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ28396.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ28822.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ30030.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ32545.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ33445.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ34065.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ39720.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ45685.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ49250.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ49617.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ55603.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ57122.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ65574.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ69339.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ77220.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ79522.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ81239.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ87388.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ90568.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ94877.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CXZ99179.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA01854.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA02239.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA02853.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA11203.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA16861.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA25450.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA26083.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA27013.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA28515.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA33241.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA35690.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA41929.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA43050.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA43357.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA49238.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA49712.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA58364.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA59411.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA59454.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA59677.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA60323.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA63012.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA63416.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA68063.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA68977.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA74179.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA76626.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA77657.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA85888.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA86632.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA91050.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA93961.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA94194.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA96624.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYA97596.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB09437.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB21164.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB21768.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB29181.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB34707.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB46710.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB50243.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB51986.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB58965.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB62128.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB62221.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB67522.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB68695.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB69425.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB72254.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB74501.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB74996.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB75527.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB76566.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB76612.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB77696.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB79334.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB86294.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB87304.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB88445.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB91703.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB92550.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB92562.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB95220.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYB99309.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC01917.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC03889.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC04659.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC10201.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC17422.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC20291.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC20816.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC25720.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC30050.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC30385.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC30608.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC31624.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC38800.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC39362.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC44047.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC44853.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC55531.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC63698.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC66601.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC68577.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC69169.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC76231.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC85194.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC95700.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC97301.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC98751.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC99419.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYC99445.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD02865.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD04316.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD04748.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD05308.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD10057.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD11525.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD18280.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD18348.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD18357.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD20563.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD24150.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD27456.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD28813.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD29197.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD31929.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD32050.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD33578.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD35311.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD38669.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD38901.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD48054.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD56363.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD57642.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD67354.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD67593.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD68415.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD71240.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD72277.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD78966.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD87826.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD89469.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYD96526.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE03879.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE05301.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE05799.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE07742.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE09837.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE12653.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE13086.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE15337.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE15761.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE17579.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE19953.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE33763.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE40262.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE40559.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE42946.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE46623.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE49543.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE54064.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE58953.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE59538.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE64273.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE64777.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE67105.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE69615.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE70823.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE75757.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE78016.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE82430.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE82505.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE84213.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE85552.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE88070.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE99138.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYE99533.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF05232.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF07775.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF08712.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF09626.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF12189.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF15990.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF16558.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF17990.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF25866.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF33184.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF33710.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF39241.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF41348.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF43678.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF49349.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF50578.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF56031.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF56309.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF61492.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF67585.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF69080.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF70846.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF78445.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF83190.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF86606.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF95292.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYF99738.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYG02987.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CYG16200.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CZE43345.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|CZQ51508.1| Thermonuclease [Staphylococcus aureus] &gt;emb|SBC31812.1| Thermonuclease [Staphylococcus aureus] &gt;emb|SRB31023.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB31457.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB49547.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB51810.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB57594.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB62275.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB77954.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB85558.1| Thermonuclease [Staphylococcus aureus] &gt;emb|SRB87333.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB88730.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRB92472.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC07890.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC09961.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC20972.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC22290.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC25472.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC26004.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC30814.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC33791.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC34171.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC39707.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC47883.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC50777.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC51954.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC55655.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC57378.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC58994.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC59977.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC62443.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC70435.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC71059.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC72897.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC75686.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC84145.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC86932.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC88953.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC89979.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC93625.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRC95313.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD03498.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD04388.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD06233.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD07546.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD08259.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD08877.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD18836.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD24674.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD26786.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD27297.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD32894.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD33542.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD33844.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD39519.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD45161.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD48494.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD48677.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD52191.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD52332.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD52834.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD58414.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD59837.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD67018.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD71572.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD74105.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD75119.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD76229.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD82670.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD86839.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD93837.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRD97326.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE00053.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE00302.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE04834.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE07664.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE13851.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE15699.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE20751.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE21145.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE23304.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE26394.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE29471.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE30990.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE36327.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE43061.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE47923.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE49403.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE50103.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE52753.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE53084.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE56594.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE57816.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE62159.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE65191.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE78614.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE84496.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE90205.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE91552.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE96437.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRE97126.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF03341.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF13513.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF24024.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF24818.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF40973.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF45242.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF48007.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF52554.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF60078.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF63218.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF63973.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF72038.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF83495.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF85620.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF88439.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRF97000.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRG19317.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRG27031.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRG53541.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRH51764.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRY95105.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRY98667.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRZ38113.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SRZ42037.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SSC75001.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SSC75772.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SSC82730.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|SVF91221.1| Staphylococcal nuclease [Staphylococcus aureus] &gt;emb|VDZ16791.1| Thermonuclease [Staphylococcus aureus] &gt;emb|VEB64712.1| Thermonuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_001670297</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>4.66735e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|2EY2|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EY2_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.83696e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDCPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVD PETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|2EYM|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EYM_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.83696e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNCHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNN HEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|2EXZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Staphylococcal Nuclease Mutant T22c [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EXZ_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.83696e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDCVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGD VKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|1ENC|A</Hit_id>
+  <Hit_def>Chain A, STAPHYLOCOCCAL NUCLEASE [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1ENC_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>5.1662e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGETVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDG+TVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|4ID6|A</Hit_id>
+  <Hit_def>Chain A, Thermonuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4ID6_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>5.28086e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTIKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKLEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDT+KLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKK+EVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_076747016.1|</Hit_id>
+  <Hit_def>thermonuclease family protein [Staphylococcus aureus] &gt;gb|ONH04566.1| thermonuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_076747016</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>5.44143e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_101292751.1|</Hit_id>
+  <Hit_def>thermonuclease family protein [Staphylococcus aureus] &gt;gb|PKR14121.1| thermonuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_101292751</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>5.6528e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_017804955.1|</Hit_id>
+  <Hit_def>thermonuclease family protein [Staphylococcus aureus] &gt;gb|OAQ48753.1| thermonuclease [Staphylococcus aureus] &gt;gb|OCI11275.1| thermonuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_017804955</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>6.13869e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_088550155.1|</Hit_id>
+  <Hit_def>thermonuclease family protein, partial [Staphylococcus aureus] &gt;gb|OWT22635.1| thermonuclease, partial [Staphylococcus aureus subsp. aureus]</Hit_def>
+  <Hit_accession>WP_088550155</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>6.29351e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|2F0T|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0T_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>6.43432e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMLENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMINEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKM+ENAKKIEVEFDKGQRTDKYGRGLAYIYADGKM+NEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_070955924.1|</Hit_id>
+  <Hit_def>thermonuclease family protein [Staphylococcus aureus] &gt;gb|OHW13550.1| thermonuclease [Staphylococcus aureus] &gt;gb|OHW25622.1| thermonuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_070955924</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>6.62822e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_088563575.1|</Hit_id>
+  <Hit_def>thermonuclease family protein, partial [Staphylococcus aureus] &gt;gb|OWT27425.1| thermonuclease, partial [Staphylococcus aureus subsp. aureus]</Hit_def>
+  <Hit_accession>WP_088563575</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>6.85904e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_103149041.1|</Hit_id>
+  <Hit_def>thermonuclease family protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_103149041</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>7.07878e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|4H7B|A</Hit_id>
+  <Hit_def>Chain A, Thermonuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4H7B_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.34008e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKVEVEFDKGQRTDKYGRGLAYIYADGKMLNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKK+EVEFDKGQRTDKYGRGLAYIYADGKM+NEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|2F0M|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0M_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.34008e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTLKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKVEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDT+KLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKK+EVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|2F0S|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2F0S_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.34008e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMLENAKKIEVEFDKGQRTDKYGRGLAYVYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKM+ENAKKIEVEFDKGQRTDKYGRGLAY+YADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|EFG58389.1|</Hit_id>
+  <Hit_def>thermonuclease [Staphylococcus aureus subsp. aureus EMRSA16]</Hit_def>
+  <Hit_accession>EFG58389</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>7.35417e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_031867813.1|</Hit_id>
+  <Hit_def>thermonuclease family protein [Staphylococcus aureus] &gt;gb|EZW30976.1| thermonuclease [Staphylococcus aureus 37(18S2S5-05)]</Hit_def>
+  <Hit_accession>WP_031867813</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>7.39603e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQLLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQ LR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|2EY1|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EY1_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.42109e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDVVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGD VKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|2EY6|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EY6_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.42109e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDVPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVD PETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|2EYF|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EYF_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.42109e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPEVKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPE KHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|4ODG|A</Hit_id>
+  <Hit_def>Chain A, Thermonuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4ODG_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.42109e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTIKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMIENAKKIEIEFDKGQRTDKYGRGLAYIYADGKMINEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDT+KLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKM+ENAKKIE+EFDKGQRTDKYGRGLAYIYADGKM+NEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|2EYP|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EYP_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.42109e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNVHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNN HEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|2EYJ|A</Hit_id>
+  <Hit_def>Chain A, Staphylococcal Nuclease [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>2EYJ_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.42109e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFVKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAF KKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|1EY5|A</Hit_id>
+  <Hit_def>Chain A, Structure Of S. Nuclease Stabilizing Mutant T33v [Staphylococcus aureus] &gt;pdb|1EZ8|A Chain A, Structure Of S. Nuclease Stabilizing Mutant T33v [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1EY5_A</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.42109e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRGKSEAQAKKEKLNIWSEDNADSGQ</Hsp_qseq>
+      <Hsp_hseq>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMVFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR-KSEAQAKKEKLNIWSEDNADSGQ</Hsp_hseq>
+      <Hsp_midline>ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPM FRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLR KSEAQAKKEKLNIWSEDNADSGQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>222834882</Statistics_db-num>
+      <Statistics_db-len>80216479924</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

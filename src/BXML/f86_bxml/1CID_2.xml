@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_48967</BlastOutput_query-ID>
+  <BlastOutput_query-def>1CID_2</BlastOutput_query-def>
+  <BlastOutput_query-len>71</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_48967</Iteration_query-ID>
+  <Iteration_query-def>1CID_2</Iteration_query-def>
+  <Iteration_query-len>71</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1CID|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Domains 3 &amp; 4 Of Rat Cd4 And Their Relationship To The Nh2-Terminal Domains [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1CID_A</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>4.9994e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_006237395.1|</Hit_id>
+  <Hit_def>PREDICTED: T-cell surface glycoprotein CD4 isoform X2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>XP_006237395</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>7.76801e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_036837.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 precursor [Rattus norvegicus] &gt;ref|XP_006237393.1| PREDICTED: T-cell surface glycoprotein CD4 isoform X1 [Rattus norvegicus] &gt;ref|XP_008761502.1| PREDICTED: T-cell surface glycoprotein CD4 isoform X1 [Rattus norvegicus] &gt;sp|P05540.1| RecName: Full=T-cell surface glycoprotein CD4; AltName: Full=T-cell surface antigen T4/Leu-3; AltName: Full=W3/25 antigen; AltName: CD_antigen=CD4; Flags: Precursor [Rattus norvegicus] &gt;gb|AAA40901.1| CD4 antigen precursor [Rattus norvegicus] &gt;gb|EDM01911.1| CD4 antigen, isoform CRA_a [Rattus norvegicus]</Hit_def>
+  <Hit_accession>NP_036837</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>2.28938e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|EDM01912.1|</Hit_id>
+  <Hit_def>CD4 antigen, isoform CRA_b [Rattus norvegicus]</Hit_def>
+  <Hit_accession>EDM01912</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>5.39496e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>dbj|BAD83864.1|</Hit_id>
+  <Hit_def>fusion protein [Eukaryotic vector pSV-ssTMbgyg]</Hit_def>
+  <Hit_accession>BAD83864</Hit_accession>
+  <Hit_len>1629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>5.91844e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|BAD83862.1|</Hit_id>
+  <Hit_def>fusion protein, partial [Retroviral signal sequence gene trap vector prvSStrap] &gt;dbj|BAD83863.1| fusion protein, partial [Signal sequence gene trap vector pSA-TMbgyg]</Hit_def>
+  <Hit_accession>BAD83862</Hit_accession>
+  <Hit_len>1603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>7.04782e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AAB18133.1|</Hit_id>
+  <Hit_def>mutant T-cell surface glycoprotein CD4, partial [Mus musculus]</Hit_def>
+  <Hit_accession>AAB18133</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.70877e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQ</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPKMRLTLKQENQEARVSEEQKVVQVVAPETGLWQCLLSEGDKVKMDSRIQ</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSPKMRL LKQENQEARVS ++KV+QV APE G+WQCLLSEG++VKMDS+IQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AAA37403.1|</Hit_id>
+  <Hit_def>T-cell differentiation antigen [Mus musculus]</Hit_def>
+  <Hit_accession>AAA37403</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>5.74655e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPKMRLTLKQENQEARVSEEQKVVQVVAPETGLWQCLLSEGDKVKMDSRIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSPKMRL LKQENQEARVS ++KV+QV APE G+WQCLLSEG++VKMDS+IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_028610380.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 isoform X2 [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028610380</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.37956e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTQHDNYTLSCEVVGPTSPKLRLTLQQENQEARVSGEKKVIQVLDPEAGMWHCLLSEGEEVKIDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKVTQ D+ TL+CEV+GPTSPK+RL L+QENQEARVS ++KVIQV  PEAG+W CLLSEGEEVK+DSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AAC01764.1|</Hit_id>
+  <Hit_def>T4 surface glycoprotein precursor, partial [Mus musculus]</Hit_def>
+  <Hit_accession>AAC01764</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.88086e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPKMRLTLKQENQEARVSEEQKVVQVVAPETGLWQCLLSEGDKVKMDSRIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSPKMRL LKQENQEARVS ++KV+QV APE G+WQCLLSEG++VKMDS+IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_021021386.2|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Mus caroli]</Hit_def>
+  <Hit_accession>XP_021021386</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>2.04255e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>356</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPQMRLTLKQENQEARVSEEQKVVQVMAPETGLWQCLLSEGEKVKMDSRIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSP+MRL LKQENQEARVS ++KV+QV APE G+WQCLLSEGE+VKMDS+IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|NP_038516.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 precursor [Mus musculus] &gt;sp|P06332.1| RecName: Full=T-cell surface glycoprotein CD4; AltName: Full=T-cell differentiation antigen L3T4; AltName: Full=T-cell surface antigen T4/Leu-3; AltName: CD_antigen=CD4; Flags: Precursor [Mus musculus] &gt;gb|AAA37267.1| L3T4 surface antigen precursor [Mus musculus] &gt;gb|AAA39401.1| L3T4 differentiation antigen protein [Mus musculus] &gt;gb|AAC36010.1| CD4 [Mus musculus] &gt;gb|AAH39137.1| CD4 antigen [Mus musculus] &gt;gb|EDK99775.1| CD4 antigen, isoform CRA_a [Mus musculus] &gt;dbj|BAE32284.1| unnamed protein product [Mus musculus] &gt;dbj|BAE36568.1| unnamed protein product [Mus musculus] &gt;emb|CAA28539.1| unnamed protein product [Mus musculus] &gt;prf||1303332A glycoprotein CD4,T cell surface [Murid betaherpesvirus 1] &gt;prf||1923309A CD4 gene [Mus musculus]</Hit_def>
+  <Hit_accession>NP_038516</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.4257e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPKMRLTLKQENQEARVSEEQKVVQVVAPETGLWQCLLSEGDKVKMDSRIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSPKMRL LKQENQEARVS ++KV+QV APE G+WQCLLSEG++VKMDS+IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_028610379.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 isoform X1 [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028610379</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.45281e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTQHDNYTLSCEVVGPTSPKLRLTLQQENQEARVSGEKKVIQVLDPEAGMWHCLLSEGEEVKIDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKVTQ D+ TL+CEV+GPTSPK+RL L+QENQEARVS ++KVIQV  PEAG+W CLLSEGEEVK+DSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|AAA37402.1|</Hit_id>
+  <Hit_def>T-cell differentiation antigen [Mus musculus]</Hit_def>
+  <Hit_accession>AAA37402</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.52729e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPKMRLTLKQENQEARVSEEQKVVQVVAPETGLWQCLLSEGDKVKMDSRIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSPKMRL LKQENQEARVS ++KV+QV APE G+WQCLLSEG++VKMDS+IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_006505524.1|</Hit_id>
+  <Hit_def>PREDICTED: T-cell surface glycoprotein CD4 isoform X1 [Mus musculus]</Hit_def>
+  <Hit_accession>XP_006505524</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>3.46836e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPKMRLTLKQENQEARVSEEQKVVQVVAPETGLWQCLLSEGDKVKMDSRIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSPKMRL LKQENQEARVS ++KV+QV APE G+WQCLLSEG++VKMDS+IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_006505525.1|</Hit_id>
+  <Hit_def>PREDICTED: T-cell surface glycoprotein CD4 isoform X2 [Mus musculus]</Hit_def>
+  <Hit_accession>XP_006505525</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>3.731e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPKMRLTLKQENQEARVSEEQKVVQVVAPETGLWQCLLSEGDKVKMDSRIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSPKMRL LKQENQEARVS ++KV+QV APE G+WQCLLSEG++VKMDS+IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|EDK99776.1|</Hit_id>
+  <Hit_def>CD4 antigen, isoform CRA_b [Mus musculus]</Hit_def>
+  <Hit_accession>EDK99776</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>4.37404e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQ</Hsp_qseq>
+      <Hsp_hseq>MKVAQLN-NTLTCEVMGPTSPKMRLTLKQENQEARVSEEQKVVQVVAPETGLWQCLLSEGDKVKMDSRIQ</Hsp_hseq>
+      <Hsp_midline>MKV Q + NTLTCEVMGPTSPKMRL LKQENQEARVS ++KV+QV APE G+WQCLLSEG++VKMDS+IQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_021047194.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Mus pahari]</Hit_def>
+  <Hit_accession>XP_021047194</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>3.761e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQIN-NSLTCEVMGPTSPKMRLTLKQENQEARVSEKQKMVQVKAPETGMWQCLLSEGEKVQLDSRIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q + N+LTCEVMGPTSPKMRL LKQENQEARVS ++K++QV+APE G+WQCLLSEGE+V++DS+IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_021492620.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Meriones unguiculatus]</Hit_def>
+  <Hit_accession>XP_021492620</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>2.32283e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>390</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVAQHD-DSLTCEVRGPVSSNMRLTLKREDQEPRVSKEQKVVQVPAPEAGVWHCLLSDGEEIKIDSKIQV</Hsp_hseq>
+      <Hsp_midline>MKV Q D ++LTCEV GP S  MRL LK+E+QE RVS+++KV+QV APEAGVW CLLS+GEE+K+DSKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_005065990.2|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Mesocricetus auratus]</Hit_def>
+  <Hit_accession>XP_005065990</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>2.37891e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>LKLTQ-NNNILTCEVRGPTSPKMRLTLVPEKQEARVSKQEKVVEVPDPEAGLWRCVLYEAEEVKMNADIQV</Hsp_hseq>
+      <Hsp_midline>+K+TQ ++N LTCEV GPTSPKMRL L  E QEARVS+QEKV++V  PEAG+W+C+L E EEVKM++ IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_004668727.1|</Hit_id>
+  <Hit_def>PREDICTED: T-cell surface glycoprotein CD4 [Jaculus jaculus]</Hit_def>
+  <Hit_accession>XP_004668727</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>7.48441e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTQ-SPNSLMCEVWGPTSPKLKLSLMLENQEPRVSKQEKVIQVQAPAAGLWRCRLSDGDEMVMDSETQV</Hsp_hseq>
+      <Hsp_midline>M+VTQ   N+L CEV GPTSPK++L L  ENQE RVS+QEKVIQVQAP AG+W+C LS+G+E+ MDS+ QV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|RLQ62257.1|</Hit_id>
+  <Hit_def>CD4 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>RLQ62257</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>4.13963e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRLIQKN-NTLTCEVKGPTSPKMRLTLTLENQKHRVSKQEKVVQMPAPEPGLWQCVLYEAEEVKIMSDTQV</Hsp_hseq>
+      <Hsp_midline>M++ Q + NTLTCEV GPTSPKMRL L  ENQ+ RVS+QEKV+Q+ APE G+WQC+L E EEVK+ S  QV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_027284054.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Cricetulus griseus] &gt;gb|ERE66541.1| T-cell surface glycoprotein CD4-like protein [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_027284054</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>6.53133e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRLIQKN-NTLTCEVKGPTSPKMRLTLTLENQKHRVSKQEKVVQMPAPEPGLWQCVLYEAEEVKIMSDTQV</Hsp_hseq>
+      <Hsp_midline>M++ Q + NTLTCEV GPTSPKMRL L  ENQ+ RVS+QEKV+Q+ APE G+WQC+L E EEVK+ S  QV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|EGV98537.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>EGV98537</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>2.15201e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRLIQKN-NTLTCEVKGPTSPKMRLTLTLENQKHRVSKQEKVVRMPAPEPGLWQCVLYEAEEVKIMSDTQV</Hsp_hseq>
+      <Hsp_midline>M++ Q + NTLTCEV GPTSPKMRL L  ENQ+ RVS+QEKV+++ APE G+WQC+L E EEVK+ S  QV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_003496142.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_003496142</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>2.22723e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRLIQKN-NTLTCEVKGPTSPKMRLTLTLENQKHRVSKQEKVVRMPAPEPGLWQCVLYEAEEVKIMSDTQV</Hsp_hseq>
+      <Hsp_midline>M++ Q + NTLTCEV GPTSPKMRL L  ENQ+ RVS+QEKV+++ APE G+WQC+L E EEVK+ S  QV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|OBS76317.1|</Hit_id>
+  <Hit_def>hypothetical protein A6R68_17246 [Neotoma lepida]</Hit_def>
+  <Hit_accession>OBS76317</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>5.9469e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKLAQKD-NAVTCEVRGPTSPKMTLTLKLENQEDRAFKQ-KMVEVTAPETGLWQCLLTDGDEVKINSSIQV</Hsp_hseq>
+      <Hsp_midline>MK+ Q D N +TCEV GPTSPKM L LK ENQE R  +Q K+++V APE G+WQCLL++G+EVK++S IQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_023372849.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4, partial [Otolemur garnettii]</Hit_def>
+  <Hit_accession>XP_023372849</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>8.75175e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTQLHNN-LTCEVLGPTSPEMILSLKQENQNPKVSKKDKAVWVPAPEAGMWQCLLSDGDQVLLESKEEV</Hsp_hseq>
+      <Hsp_midline>M+VTQ  +N LTCEV+GPTSP+M L LKQENQ  +VS+++K + V APEAG+WQCLLS+G++V ++SK +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_028748186.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_028748186</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>9.06391e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKLAQKD-NSVTCEVRGPTSPKMKLTLKLENQD-KVSRQEKVVEMKDPEAGQWLCELNEGDELKISSKIQV</Hsp_hseq>
+      <Hsp_midline>MK+ Q D N++TCEV GPTSPKM+L LK ENQ+ +VSRQEKV++++ PEAG W C L+EG+E+K+ SKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_021526653.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 isoform X1 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_021526653</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>2.11565e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQNN-LTCEVWGPTSPKLMLSLKLENQEAKVSKQEKAVWVLNPEAGVWQCLLSDSGQVLLESKVEV</Hsp_hseq>
+      <Hsp_midline>M+ TQ  +N LTCEV GPTSPK+ L LK ENQEA+VS+QEK + V  PEAGVWQCLLS+  +V ++SK++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|NP_001295452.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 precursor [Aotus nancymaae] &gt;gb|ACM67644.1| CD4 antigen [Aotus nancymaae]</Hit_def>
+  <Hit_accession>NP_001295452</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>2.22333e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQNN-LTCEVWGPTSPKLMLSLKLENQEAKVSKQEKAVWVLNPEAGVWQCLLSDSGQVLLESKVEV</Hsp_hseq>
+      <Hsp_midline>M+ TQ  +N LTCEV GPTSPK+ L LK ENQEA+VS+QEK + V  PEAGVWQCLLS+  +V ++SK++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|AKM95885.1|</Hit_id>
+  <Hit_def>CD4 [Aotus azarai]</Hit_def>
+  <Hit_accession>AKM95885</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>2.26792e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQNN-LTCEVWGPTSPKLMLSLKLENQEAKVSKQEKAVWVLNPEAGVWQCLLSDSGQVLLESKVEV</Hsp_hseq>
+      <Hsp_midline>M+ TQ  +N LTCEV GPTSPK+ L LK ENQEA+VS+QEK + V  PEAGVWQCLLS+  +V ++SK++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|AKM95886.1|</Hit_id>
+  <Hit_def>CD4 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>AKM95886</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>2.29055e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQNN-LTCEVWGPTSPKLMLSLKLENQEAKVSKQEKAVWVLNPEAGVWQCLLSDSGQVLLESKVEV</Hsp_hseq>
+      <Hsp_midline>M+ TQ  +N LTCEV GPTSPK+ L LK ENQEA+VS+QEK + V  PEAGVWQCLLS+  +V ++SK++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_008565910.1|</Hit_id>
+  <Hit_def>PREDICTED: T-cell surface glycoprotein CD4 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008565910</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>2.66897e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTQLQNN-LTCAVLGPTSPKLMLSLKLENQEAKVSKQEKAVWVLDPEAGMWQCLLSDKGQVLLESKIEV</Hsp_hseq>
+      <Hsp_midline>M+VTQ  +N LTC V+GPTSPK+ L LK ENQEA+VS+QEK + V  PEAG+WQCLLS+  +V ++SKI+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|XP_011807507.1|</Hit_id>
+  <Hit_def>PREDICTED: T-cell surface glycoprotein CD4 isoform X5 [Colobus angolensis palliatus] &gt;ref|XP_011807511.1| PREDICTED: T-cell surface glycoprotein CD4 isoform X5 [Colobus angolensis palliatus] &gt;ref|XP_011807517.1| PREDICTED: T-cell surface glycoprotein CD4 isoform X5 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011807507</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>3.6534e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQEN-LTCEVWGPTSPKLTLSLKLENKEATVSKQAKAVWVLNPEAGIWQCLLSDSEQVLLESNIKV</Hsp_hseq>
+      <Hsp_midline>M+ TQ   N LTCEV GPTSPK+ L LK EN+EA VS+Q K + V  PEAG+WQCLLS+ E+V ++S I+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_020143255.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 isoform X3 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_020143255</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>5.42199e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTQLQNN-LTCEVLGPTSPKLVLSLKQENKEAKVSKQEKAVWVLDPEEGMWQCLLSDADQVLLESKQEV</Hsp_hseq>
+      <Hsp_midline>M+VTQ  +N LTCEV+GPTSPK+ L LKQEN+EA+VS+QEK + V  PE G+WQCLLS+ ++V ++SK +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_012616153.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 isoform X2 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012616153</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>6.36662e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>394</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTQLQNN-LTCEVLGPTSPKLVLSLKQENKEAKVSKQEKAVWVLDPEEGMWQCLLSDADQVLLESKQEV</Hsp_hseq>
+      <Hsp_midline>M+VTQ  +N LTCEV+GPTSPK+ L LKQEN+EA+VS+QEK + V  PE G+WQCLLS+ ++V ++SK +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|AHY35181.1|</Hit_id>
+  <Hit_def>CD4, partial [Plecturocebus cupreus]</Hit_def>
+  <Hit_accession>AHY35181</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>6.6986e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVAQLQNN-LTCEVWGPTSPKLMLSLKLENQEAKVSKREKALWVLNPEAGAWQCLLSDSGQVLLESKVQV</Hsp_hseq>
+      <Hsp_midline>M+V Q  +N LTCEV GPTSPK+ L LK ENQEA+VS++EK + V  PEAG WQCLLS+  +V ++SK+QV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_012616152.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 isoform X1 [Microcebus murinus]</Hit_def>
+  <Hit_accession>XP_012616152</Hit_accession>
+  <Hit_len>538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>6.91413e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>400</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTQLQNN-LTCEVLGPTSPKLVLSLKQENKEAKVSKQEKAVWVLDPEEGMWQCLLSDADQVLLESKQEV</Hsp_hseq>
+      <Hsp_midline>M+VTQ  +N LTCEV+GPTSPK+ L LKQEN+EA+VS+QEK + V  PE G+WQCLLS+ ++V ++SK +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|QDA34031.1|</Hit_id>
+  <Hit_def>CD4 [Aotus vociferans]</Hit_def>
+  <Hit_accession>QDA34031</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>8.31627e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQNN-LTCEVWGPTSPKLMLSLKLENQEAKVSKQEKAVWVLNPEVGVWQCLLSDSGQVLLESKVEV</Hsp_hseq>
+      <Hsp_midline>M+ TQ  +N LTCEV GPTSPK+ L LK ENQEA+VS+QEK + V  PE GVWQCLLS+  +V ++SK++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|AKM95887.1|</Hit_id>
+  <Hit_def>CD4 [Aotus vociferans]</Hit_def>
+  <Hit_accession>AKM95887</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>8.48274e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQNN-LTCEVWGPTSPKLMLSLKLENQEAKVSKQEKAVWVLNPEVGVWQCLLSDSGQVLLESKVEV</Hsp_hseq>
+      <Hsp_midline>M+ TQ  +N LTCEV GPTSPK+ L LK ENQEA+VS+QEK + V  PE GVWQCLLS+  +V ++SK++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_007170211.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Balaenoptera acutorostrata scammoni]</Hit_def>
+  <Hit_accession>XP_007170211</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.11364e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKVTK-SQNSLTCEVLGPTSPRLTLSLKMENQSMRVSNQQKLVTVLGPEAGMWQCLLSDKGKVLLESKVKI</Hsp_hseq>
+      <Hsp_midline>MKVT+   N+LTCEV+GPTSP++ L LK ENQ  RVS Q+K++ V  PEAG+WQCLLS+  +V ++SK+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|ABH09245.1|</Hit_id>
+  <Hit_def>cluster of differentiation antigen 4, partial [Peromyscus maniculatus]</Hit_def>
+  <Hit_accession>ABH09245</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.35368e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MKLAQKD-NAVTCEVRGPTSPKMKLTLKLENQD-KVSGQEKVVEMKDPEAGQWLCELNEGDELKIXSKIQV</Hsp_hseq>
+      <Hsp_midline>MK+ Q D N +TCEV GPTSPKM+L LK ENQ+ +VS QEKV++++ PEAG W C L+EG+E+K+ SKIQV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|TEA30522.1|</Hit_id>
+  <Hit_def>hypothetical protein DBR06_SOUSAS12410072, partial [Sousa chinensis]</Hit_def>
+  <Hit_accession>TEA30522</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.36017e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTK-SPNSLTCEVLGPTSPRLTLSLKKENQSMRVSDQQKLVTVLGPEAGMWQCLLSDKGKVLLESKVKI</Hsp_hseq>
+      <Hsp_midline>M+VT+   N+LTCEV+GPTSP++ L LK+ENQ  RVS Q+K++ V  PEAG+WQCLLS+  +V ++SK+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_026949098.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 [Lagenorhynchus obliquidens]</Hit_def>
+  <Hit_accession>XP_026949098</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.37125e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTK-SPNSLTCEVLGPTSPRLTLSLKKENQSMRVSDQQKLVTVLGPEAGMWQCLLSDKGKVLLESKVKI</Hsp_hseq>
+      <Hsp_midline>M+VT+   N+LTCEV+GPTSP++ L LK+ENQ  RVS Q+K++ V  PEAG+WQCLLS+  +V ++SK+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_012493258.1|</Hit_id>
+  <Hit_def>PREDICTED: T-cell surface glycoprotein CD4 [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012493258</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.47265e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTQLQNN-LTCEVLGPTSPKLVLSLKQQNKEAKVSKQEKAVWVLDPEEGMWQCLLSDADQVLLESKQEV</Hsp_hseq>
+      <Hsp_midline>M+VTQ  +N LTCEV+GPTSPK+ L LKQ+N+EA+VS+QEK + V  PE G+WQCLLS+ ++V ++SK +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|NP_001267583.1|</Hit_id>
+  <Hit_def>CD4 molecule precursor [Tursiops truncatus] &gt;gb|AAQ03208.1| T-cell surface glycoprotein CD4 precursor [Tursiops truncatus]</Hit_def>
+  <Hit_accession>NP_001267583</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.52912e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRVTK-SPNSLTCEVLGPTSPRLTLSLKKENQSMRVSDQQKLVTVLGPEAGMWQCLLSDKGKVLLESKVKI</Hsp_hseq>
+      <Hsp_midline>M+VT+   N+LTCEV+GPTSP++ L LK+ENQ  RVS Q+K++ V  PEAG+WQCLLS+  +V ++SK+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|AHY35182.1|</Hit_id>
+  <Hit_def>CD4, partial [Alouatta sara]</Hit_def>
+  <Hit_accession>AHY35182</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.56591e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQNN-LTCEVWGPTSPKLMLSLKLENQEAKISKQEKAVWVLNPEAGVWLCLLSDSGQVLLESKVEV</Hsp_hseq>
+      <Hsp_midline>M+ TQ  +N LTCEV GPTSPK+ L LK ENQEA++S+QEK + V  PEAGVW CLLS+  +V ++SK++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>dbj|BAG64892.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG64892</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.59804e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQKN-LTCEVWGPTSPKLMLSLKLENKEAKVSKREKAVWVLNPEAGMWQCLLSDSGQVLLESNIKV</Hsp_hseq>
+      <Hsp_midline>M+ TQ   N LTCEV GPTSPK+ L LK EN+EA+VS++EK + V  PEAG+WQCLLS+  +V ++S I+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|NP_001181944.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 isoform 3 [Homo sapiens] &gt;ref|NP_001181945.1| T-cell surface glycoprotein CD4 isoform 3 [Homo sapiens] &gt;ref|NP_001181946.1| T-cell surface glycoprotein CD4 isoform 3 [Homo sapiens] &gt;ref|XP_016875717.1| T-cell surface glycoprotein CD4 isoform X1 [Homo sapiens] &gt;dbj|BAG61861.1| unnamed protein product [Homo sapiens] &gt;dbj|BAH14832.1| unnamed protein product [Homo sapiens] &gt;dbj|BAH14833.1| unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001181944</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.72314e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQKN-LTCEVWGPTSPKLMLSLKLENKEAKVSKREKAVWVLNPEAGMWQCLLSDSGQVLLESNIKV</Hsp_hseq>
+      <Hsp_midline>M+ TQ   N LTCEV GPTSPK+ L LK EN+EA+VS++EK + V  PEAG+WQCLLS+  +V ++S I+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_016778002.1|</Hit_id>
+  <Hit_def>T-cell surface glycoprotein CD4 isoform X3 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_016778002</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.74179e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MKVTQPDSNTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGEEVKMDSKIQV</Hsp_qseq>
+      <Hsp_hseq>MRATQLQKN-LTCEVWGPTSPKLMLSLKLENKEAKVSKREKAVWVLNPEAGMWQCLLSDSGQVLLESNIKV</Hsp_hseq>
+      <Hsp_midline>M+ TQ   N LTCEV GPTSPK+ L LK EN+EA+VS++EK + V  PEAG+WQCLLS+  +V ++S I+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>222834882</Statistics_db-num>
+      <Statistics_db-len>80216479924</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
